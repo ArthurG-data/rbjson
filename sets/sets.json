@@ -1,0 +1,14 @@
+[
+  {"id": "OGN", "type": "booster", "collectorNumberMax": 298,
+   "releases": [{"language": "en", "name": "Origins", "releaseDate": "2025-10-31", "source": "https://playriftbound.com/en-us/card-gallery?set=OGN"}]},
+  {"id": "OGS", "type": "starter", "collectorNumberMax": 24,
+   "releases": [{"language": "en", "name": "Proving Grounds", "releaseDate": "2025-10-31", "source": "https://playriftbound.com/en-us/card-gallery?set=OGS"}]},
+  {"id": "SFD", "type": "booster", "collectorNumberMax": 221,
+   "releases": [{"language": "en", "name": "Spiritforged", "source": "https://playriftbound.com/en-us/card-gallery?set=SFD"}]},
+  {"id": "UNL", "type": "booster", "collectorNumberMax": 219,
+   "releases": [{"language": "en", "name": "Unleashed", "source": "https://playriftbound.com/en-us/card-gallery?set=UNL"}]},
+  {"id": "VEN", "type": "booster", "collectorNumberMax": 166,
+   "releases": [{"language": "en", "name": "Vendetta", "source": "https://playriftbound.com/en-us/card-gallery?set=VEN"}]},
+  {"id": "RAD", "type": "booster", "collectorNumberMax": 167,
+   "releases": [{"language": "en", "name": "Radiance", "source": "https://playriftbound.com/en-us/card-gallery?set=RAD"}]}
+]

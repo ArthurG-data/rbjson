@@ -1,0 +1,763 @@
+{
+  "cards": [
+    {
+      "number": "OGS-001",
+      "name": "Annie",
+      "subtitle": "Fiery",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "fury"
+      ],
+      "energy": 5,
+      "power": 1,
+      "might": 4,
+      "tags": [
+        "Annie",
+        "Noxus"
+      ],
+      "printings": [
+        {
+          "id": "OGS-001",
+          "collectorNumber": 1,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/532d75dc36a16eb5954253a77366fcceac7aec62-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Polar Engine Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-001-024",
+            "publicCode": "OGS-001/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-002",
+      "name": "Firestorm",
+      "type": "spell",
+      "domains": [
+        "fury"
+      ],
+      "energy": 6,
+      "power": 1,
+      "printings": [
+        {
+          "id": "OGS-002",
+          "collectorNumber": 2,
+          "rarity": "uncommon",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7a34129e64f0296bf2da166c2b06ed156d568db-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-002-024",
+            "publicCode": "OGS-002/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-003",
+      "name": "Incinerate",
+      "type": "spell",
+      "domains": [
+        "fury"
+      ],
+      "energy": 2,
+      "printings": [
+        {
+          "id": "OGS-003",
+          "collectorNumber": 3,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/46e4eaada1412f9b6c24751bdb3932c6a51e905f-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-003-024",
+            "publicCode": "OGS-003/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-004",
+      "name": "Master Yi",
+      "subtitle": "Meditative",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "calm"
+      ],
+      "energy": 5,
+      "power": 1,
+      "might": 4,
+      "tags": [
+        "Master Yi",
+        "Ionia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-004",
+          "collectorNumber": 4,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5508566c8f05f09492148faa803332a731095eb7-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-004-024",
+            "publicCode": "OGS-004/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-005",
+      "name": "Zephyr Sage",
+      "type": "unit",
+      "domains": [
+        "calm"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 6,
+      "tags": [
+        "Ionia",
+        "Bird"
+      ],
+      "printings": [
+        {
+          "id": "OGS-005",
+          "collectorNumber": 5,
+          "rarity": "uncommon",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7664b03bb107954195153d9f2f86c5d63682fa4b-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-005-024",
+            "publicCode": "OGS-005/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-006",
+      "name": "Lux",
+      "subtitle": "Illuminated",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "mind"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Lux",
+        "Demacia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-006",
+          "collectorNumber": 6,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0d10edf30abb6fde21f5d386e9a7db3c1b0a098-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-006-024",
+            "publicCode": "OGS-006/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-007",
+      "name": "Garen",
+      "subtitle": "Rugged",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "body"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Elite",
+        "Garen",
+        "Demacia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-007",
+          "collectorNumber": 7,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67c22dc29a7a28dabe0f169a7848c25bef1fbda4-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-007-024",
+            "publicCode": "OGS-007/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-008",
+      "name": "Gentlemen's Duel",
+      "type": "spell",
+      "domains": [
+        "body"
+      ],
+      "energy": 6,
+      "power": 1,
+      "printings": [
+        {
+          "id": "OGS-008",
+          "collectorNumber": 8,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4568ab827fdcd42d6bb86b1c2de6182e286c9ee9-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-008-024",
+            "publicCode": "OGS-008/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-009",
+      "name": "Master Yi",
+      "subtitle": "Honed",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "body"
+      ],
+      "energy": 7,
+      "power": 1,
+      "might": 6,
+      "tags": [
+        "Master Yi",
+        "Ionia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-009",
+          "collectorNumber": 9,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e16976cd6d7ee5a874be9351b428671990fbd25-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-009-024",
+            "publicCode": "OGS-009/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-010",
+      "name": "Annie",
+      "subtitle": "Stubborn",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "chaos"
+      ],
+      "energy": 4,
+      "power": 1,
+      "might": 3,
+      "tags": [
+        "Annie",
+        "Noxus"
+      ],
+      "printings": [
+        {
+          "id": "OGS-010",
+          "collectorNumber": 10,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44eb968cf0c54e75970588b69eef5c5f5ccc9b24-744x1039.png?accountingTag=RB",
+          "artists": [
+            "League Splash Team"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-010-024",
+            "publicCode": "OGS-010/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-011",
+      "name": "Flash",
+      "type": "spell",
+      "domains": [
+        "chaos"
+      ],
+      "energy": 2,
+      "printings": [
+        {
+          "id": "OGS-011",
+          "collectorNumber": 11,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d9cc1c13b75933e509e642213f13359350cd3f9-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Sugar Free"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-011-024",
+            "publicCode": "OGS-011/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-012",
+      "name": "Blast of Power",
+      "type": "spell",
+      "domains": [
+        "order"
+      ],
+      "energy": 6,
+      "power": 1,
+      "printings": [
+        {
+          "id": "OGS-012",
+          "collectorNumber": 12,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/026f851a703601fce4142c0791e913377c170b47-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-012-024",
+            "publicCode": "OGS-012/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-013",
+      "name": "Garen",
+      "subtitle": "Commander",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "order"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Elite",
+        "Garen",
+        "Demacia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-013",
+          "collectorNumber": 13,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cbf2c12d69a86566e4cda07050b2d4495e40187e-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-013-024",
+            "publicCode": "OGS-013/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-014",
+      "name": "Lux",
+      "subtitle": "Crownguard",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "order"
+      ],
+      "energy": 4,
+      "might": 2,
+      "tags": [
+        "Lux",
+        "Demacia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-014",
+          "collectorNumber": 14,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/17d0793ad495727e67bb1c94ae0e11cd4705870f-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Envar Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-014-024",
+            "publicCode": "OGS-014/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-015",
+      "name": "Recruit the Vanguard",
+      "type": "spell",
+      "domains": [
+        "order"
+      ],
+      "energy": 6,
+      "printings": [
+        {
+          "id": "OGS-015",
+          "collectorNumber": 15,
+          "rarity": "uncommon",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/81d1c47459606f7b627778cce9b5f0e44d80f7fa-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-015-024",
+            "publicCode": "OGS-015/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-016",
+      "name": "Vanguard Attendant",
+      "type": "unit",
+      "domains": [
+        "order"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Elite",
+        "Demacia"
+      ],
+      "printings": [
+        {
+          "id": "OGS-016",
+          "collectorNumber": 16,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ce467c1d51a65ab4fbae918dca38ae90b510844-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-016-024",
+            "publicCode": "OGS-016/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-017",
+      "name": "Dark Child",
+      "subtitle": "Starter",
+      "type": "legend",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "fury",
+        "chaos"
+      ],
+      "tags": [
+        "Annie"
+      ],
+      "printings": [
+        {
+          "id": "OGS-017",
+          "collectorNumber": 17,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/89963e1d1cffd69c620fb5d6b037f50d5c334463-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-017-024",
+            "publicCode": "OGS-017/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-018",
+      "name": "Tibbers",
+      "subtitle": "Annie",
+      "type": "unit",
+      "superTypes": [
+        "signature"
+      ],
+      "domains": [
+        "fury",
+        "chaos"
+      ],
+      "energy": 8,
+      "power": 2,
+      "might": 7,
+      "tags": [
+        "Annie"
+      ],
+      "printings": [
+        {
+          "id": "OGS-018",
+          "collectorNumber": 18,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/74f8bc78573b33d9979b0e9c121b858d770a490c-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Polar Engine Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-018-024",
+            "publicCode": "OGS-018/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-019",
+      "name": "Wuju Bladesman",
+      "subtitle": "Starter",
+      "type": "legend",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "calm",
+        "body"
+      ],
+      "tags": [
+        "Master Yi"
+      ],
+      "printings": [
+        {
+          "id": "OGS-019",
+          "collectorNumber": 19,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8231ced23eaf22ca3bf62ec8cb86b83a3e222da6-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Grafit Studio/Quy Ho"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-019-024",
+            "publicCode": "OGS-019/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-020",
+      "name": "Highlander",
+      "subtitle": "Yi",
+      "type": "spell",
+      "superTypes": [
+        "signature"
+      ],
+      "domains": [
+        "calm",
+        "body"
+      ],
+      "energy": 4,
+      "tags": [
+        "Master Yi"
+      ],
+      "printings": [
+        {
+          "id": "OGS-020",
+          "collectorNumber": 20,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18c0818cbbfdf26a1237b4f7703b1f035f47b014-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-020-024",
+            "publicCode": "OGS-020/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-021",
+      "name": "Lady of Luminosity",
+      "subtitle": "Starter",
+      "type": "legend",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "mind",
+        "order"
+      ],
+      "tags": [
+        "Lux"
+      ],
+      "printings": [
+        {
+          "id": "OGS-021",
+          "collectorNumber": 21,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44885d811b70621b188d9813b2b10b5cff1b81e6-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Grafit Studio/Maki Planas Mata"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-021-024",
+            "publicCode": "OGS-021/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-022",
+      "name": "Final Spark",
+      "subtitle": "Lux",
+      "type": "spell",
+      "superTypes": [
+        "signature"
+      ],
+      "domains": [
+        "mind",
+        "order"
+      ],
+      "energy": 8,
+      "tags": [
+        "Lux"
+      ],
+      "printings": [
+        {
+          "id": "OGS-022",
+          "collectorNumber": 22,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4558a2dc1bb1f1b8a73ec0d82244654e84b12687-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-022-024",
+            "publicCode": "OGS-022/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-023",
+      "name": "Might of Demacia",
+      "subtitle": "Starter",
+      "type": "legend",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "body",
+        "order"
+      ],
+      "tags": [
+        "Garen"
+      ],
+      "printings": [
+        {
+          "id": "OGS-023",
+          "collectorNumber": 23,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7185deb46f17770802d06aeddfe3b929afff880-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-023-024",
+            "publicCode": "OGS-023/024"
+          }
+        }
+      ]
+    },
+    {
+      "number": "OGS-024",
+      "name": "Decisive Strike",
+      "subtitle": "Garen",
+      "type": "spell",
+      "superTypes": [
+        "signature"
+      ],
+      "domains": [
+        "body",
+        "order"
+      ],
+      "energy": 5,
+      "power": 1,
+      "tags": [
+        "Garen"
+      ],
+      "printings": [
+        {
+          "id": "OGS-024",
+          "collectorNumber": 24,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/986782271be078c184a8d1c196e375106459c6c5-744x1039.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-024-024",
+            "publicCode": "OGS-024/024"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+rbjson records facts about Riftbound cards: set codes, collector numbers, names and subtitles, card types,
+domains, energy, power, might, tags, rarities and artists, and which gallery entry each printing is. No ability
+text, flavour text or card art is copied into the data.
+
+The facts come from Riot's official card gallery (https://playriftbound.com/en-us/card-gallery). Card images in
+the data are links to Riot's content delivery network, not copies. The images, card names and the Riftbound and
+League of Legends marks belong to Riot Games. Anyone who displays them is responsible for having the right to.
+
+rbjson is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone
+officially involved in producing or managing Riot Games properties.

@@ -1,0 +1,257 @@
+[
+  {
+    "printing": "VEN-019a",
+    "base": "VEN-019/166",
+    "field": "tags",
+    "printing_value": [
+      "Renekton"
+    ],
+    "base_value": [
+      "Shurima",
+      "Renekton"
+    ]
+  },
+  {
+    "printing": "VEN-021a",
+    "base": "VEN-021/166",
+    "field": "tags",
+    "printing_value": [
+      "Akali"
+    ],
+    "base_value": [
+      "Ionia",
+      "Akali"
+    ]
+  },
+  {
+    "printing": "VEN-023a",
+    "base": "VEN-023/166",
+    "field": "tags",
+    "printing_value": [
+      "Zed"
+    ],
+    "base_value": [
+      "Ionia",
+      "Zed"
+    ]
+  },
+  {
+    "printing": "UNL-029a",
+    "base": "UNL-029/219",
+    "field": "tags",
+    "printing_value": null,
+    "base_value": [
+      "Ionia"
+    ]
+  },
+  {
+    "printing": "VEN-038a",
+    "base": "VEN-038/166",
+    "field": "tags",
+    "printing_value": [
+      "Akali"
+    ],
+    "base_value": [
+      "Ionia",
+      "Akali"
+    ]
+  },
+  {
+    "printing": "VEN-042a",
+    "base": "VEN-042/166",
+    "field": "tags",
+    "printing_value": [
+      "Shen"
+    ],
+    "base_value": [
+      "Shen",
+      "Ionia"
+    ]
+  },
+  {
+    "printing": "VEN-046a",
+    "base": "VEN-046/166",
+    "field": "tags",
+    "printing_value": [
+      "Dog",
+      "Nasus"
+    ],
+    "base_value": [
+      "Dog",
+      "Shurima",
+      "Nasus"
+    ]
+  },
+  {
+    "printing": "VEN-063a",
+    "base": "VEN-063/166",
+    "field": "tags",
+    "printing_value": [
+      "Dog",
+      "Nasus"
+    ],
+    "base_value": [
+      "Dog",
+      "Shurima",
+      "Nasus"
+    ]
+  },
+  {
+    "printing": "VEN-068a",
+    "base": "VEN-068/166",
+    "field": "tags",
+    "printing_value": [
+      "Jayce"
+    ],
+    "base_value": [
+      "Jayce",
+      "Piltover"
+    ]
+  },
+  {
+    "printing": "VEN-069a",
+    "base": "VEN-069/166",
+    "field": "tags",
+    "printing_value": [
+      "Mel"
+    ],
+    "base_value": [
+      "Noxus",
+      "Mel"
+    ]
+  },
+  {
+    "printing": "VEN-084a",
+    "base": "VEN-084/166",
+    "field": "tags",
+    "printing_value": [
+      "Ambessa"
+    ],
+    "base_value": [
+      "Noxus",
+      "Ambessa"
+    ]
+  },
+  {
+    "printing": "UNL-087a",
+    "base": "UNL-087/219",
+    "field": "tags",
+    "printing_value": null,
+    "base_value": [
+      "Mount Targon"
+    ]
+  },
+  {
+    "printing": "VEN-088a",
+    "base": "VEN-088/166",
+    "field": "tags",
+    "printing_value": [
+      "Jayce"
+    ],
+    "base_value": [
+      "Jayce",
+      "Piltover"
+    ]
+  },
+  {
+    "printing": "VEN-092a",
+    "base": "VEN-092/166",
+    "field": "tags",
+    "printing_value": [
+      "Renekton"
+    ],
+    "base_value": [
+      "Shurima",
+      "Renekton"
+    ]
+  },
+  {
+    "printing": "VEN-110a",
+    "base": "VEN-110/166",
+    "field": "tags",
+    "printing_value": [
+      "Mel"
+    ],
+    "base_value": [
+      "Noxus",
+      "Mel"
+    ]
+  },
+  {
+    "printing": "VEN-112a",
+    "base": "VEN-112/166",
+    "field": "tags",
+    "printing_value": [
+      "Zed"
+    ],
+    "base_value": [
+      "Ionia",
+      "Zed"
+    ]
+  },
+  {
+    "printing": "VEN-113a",
+    "base": "VEN-113/166",
+    "field": "tags",
+    "printing_value": [
+      "Yordle",
+      "Ionia",
+      "Kennen"
+    ],
+    "base_value": [
+      "Yordle",
+      "Kennen"
+    ]
+  },
+  {
+    "printing": "UNL-118a",
+    "base": "UNL-118/219",
+    "field": "tags",
+    "printing_value": [
+      "Dragon"
+    ],
+    "base_value": [
+      "Dragon",
+      "Demacia"
+    ]
+  },
+  {
+    "printing": "VEN-135a",
+    "base": "VEN-135/166",
+    "field": "tags",
+    "printing_value": [
+      "Yordle",
+      "Kennen"
+    ],
+    "base_value": [
+      "Yordle",
+      "Ionia",
+      "Kennen"
+    ]
+  },
+  {
+    "printing": "VEN-136a",
+    "base": "VEN-136/166",
+    "field": "tags",
+    "printing_value": [
+      "Ambessa"
+    ],
+    "base_value": [
+      "Noxus",
+      "Ambessa"
+    ]
+  },
+  {
+    "printing": "VEN-192*",
+    "base": "VEN-192/166",
+    "field": "tags",
+    "printing_value": [
+      "Dog",
+      "Shurima",
+      "Nasus"
+    ],
+    "base_value": [
+      "Nasus"
+    ]
+  }
+]
