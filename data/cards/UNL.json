@@ -25,8 +25,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-001-219",
-            "publicCode": "UNL-001/219"
-          }
+            "publicCode": "UNL-001/219",
+            "tcgplayerProductIds": [
+              685942
+            ]
+          },
+          "tcgplayer": {
+            "name": "Arena Kingpin",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -54,8 +65,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-002-219",
-            "publicCode": "UNL-002/219"
-          }
+            "publicCode": "UNL-002/219",
+            "tcgplayerProductIds": [
+              684213
+            ]
+          },
+          "tcgplayer": {
+            "name": "Inferna",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -83,8 +105,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-003-219",
-            "publicCode": "UNL-003/219"
-          }
+            "publicCode": "UNL-003/219",
+            "tcgplayerProductIds": [
+              684584
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mischievous Marai",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -112,8 +145,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-004-219",
-            "publicCode": "UNL-004/219"
-          }
+            "publicCode": "UNL-004/219",
+            "tcgplayerProductIds": [
+              685537
+            ]
+          },
+          "tcgplayer": {
+            "name": "Prepared Neophyte",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -142,8 +186,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-005-219",
-            "publicCode": "UNL-005/219"
-          }
+            "publicCode": "UNL-005/219",
+            "tcgplayerProductIds": [
+              685528
+            ]
+          },
+          "tcgplayer": {
+            "name": "Revna the Lorekeeper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -171,8 +226,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-006-219",
-            "publicCode": "UNL-006/219"
-          }
+            "publicCode": "UNL-006/219",
+            "tcgplayerProductIds": [
+              685002
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sharkling",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -197,8 +263,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-007-219",
-            "publicCode": "UNL-007/219"
-          }
+            "publicCode": "UNL-007/219",
+            "tcgplayerProductIds": [
+              684480
+            ]
+          },
+          "tcgplayer": {
+            "name": "Smite",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -226,8 +303,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-008-219",
-            "publicCode": "UNL-008/219"
-          }
+            "publicCode": "UNL-008/219",
+            "tcgplayerProductIds": [
+              684653
+            ]
+          },
+          "tcgplayer": {
+            "name": "Towering Pairofant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -251,8 +339,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-009-219",
-            "publicCode": "UNL-009/219"
-          }
+            "publicCode": "UNL-009/219",
+            "tcgplayerProductIds": [
+              684487
+            ]
+          },
+          "tcgplayer": {
+            "name": "Upstage Comedy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -277,8 +376,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-010-219",
-            "publicCode": "UNL-010/219"
-          }
+            "publicCode": "UNL-010/219",
+            "tcgplayerProductIds": [
+              685657
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vault Breaker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -302,8 +412,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-011-219",
-            "publicCode": "UNL-011/219"
-          }
+            "publicCode": "UNL-011/219",
+            "tcgplayerProductIds": [
+              684531
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fresh Beans",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -332,8 +453,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-012-219",
-            "publicCode": "UNL-012/219"
-          }
+            "publicCode": "UNL-012/219",
+            "tcgplayerProductIds": [
+              685676
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lord Broadmane",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -357,8 +489,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-013-219",
-            "publicCode": "UNL-013/219"
-          }
+            "publicCode": "UNL-013/219",
+            "tcgplayerProductIds": [
+              685586
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lotus Trap",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -383,8 +526,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-014-219",
-            "publicCode": "UNL-014/219"
-          }
+            "publicCode": "UNL-014/219",
+            "tcgplayerProductIds": [
+              685944
+            ]
+          },
+          "tcgplayer": {
+            "name": "Monster Harpoon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -409,8 +563,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-015-219",
-            "publicCode": "UNL-015/219"
-          }
+            "publicCode": "UNL-015/219",
+            "tcgplayerProductIds": [
+              685584
+            ]
+          },
+          "tcgplayer": {
+            "name": "Right of Conquest",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -440,8 +605,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-016-219",
-            "publicCode": "UNL-016/219"
-          }
+            "publicCode": "UNL-016/219",
+            "tcgplayerProductIds": [
+              685943
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scorchclaw",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -465,8 +641,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-017-219",
-            "publicCode": "UNL-017/219"
-          }
+            "publicCode": "UNL-017/219",
+            "tcgplayerProductIds": [
+              686270
+            ]
+          },
+          "tcgplayer": {
+            "name": "Square Up",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -494,8 +681,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-018-219",
-            "publicCode": "UNL-018/219"
-          }
+            "publicCode": "UNL-018/219",
+            "tcgplayerProductIds": [
+              685655
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yeti Brawler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -524,8 +722,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-019-219",
-            "publicCode": "UNL-019/219"
-          }
+            "publicCode": "UNL-019/219",
+            "tcgplayerProductIds": [
+              684668
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blighted Battleaxe",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -550,8 +758,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-020-219",
-            "publicCode": "UNL-020/219"
-          }
+            "publicCode": "UNL-020/219",
+            "tcgplayerProductIds": [
+              684488
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dancing Grenade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -579,8 +797,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-021-219",
-            "publicCode": "UNL-021/219"
-          }
+            "publicCode": "UNL-021/219",
+            "tcgplayerProductIds": [
+              686313
+            ]
+          },
+          "tcgplayer": {
+            "name": "Grim Apothecary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -614,8 +842,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-022-219",
-            "publicCode": "UNL-022/219"
-          }
+            "publicCode": "UNL-022/219",
+            "tcgplayerProductIds": [
+              684489
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Murderous Artist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-022a",
@@ -629,8 +867,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-022a-219",
-            "publicCode": "UNL-022a/219"
-          }
+            "publicCode": "UNL-022a/219",
+            "tcgplayerProductIds": [
+              684490
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Murderous Artist (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -664,8 +912,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-023-219",
-            "publicCode": "UNL-023/219"
-          }
+            "publicCode": "UNL-023/219",
+            "tcgplayerProductIds": [
+              686314
+            ]
+          },
+          "tcgplayer": {
+            "name": "Katarina, Reckless",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -700,8 +958,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-024-219",
-            "publicCode": "UNL-024/219"
-          }
+            "publicCode": "UNL-024/219",
+            "tcgplayerProductIds": [
+              685487
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Unseen",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-024a",
@@ -715,8 +983,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-024a-219",
-            "publicCode": "UNL-024a/219"
-          }
+            "publicCode": "UNL-024a/219",
+            "tcgplayerProductIds": [
+              685488
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Unseen (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -745,8 +1023,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-025-219",
-            "publicCode": "UNL-025/219"
-          }
+            "publicCode": "UNL-025/219",
+            "tcgplayerProductIds": [
+              685571
+            ]
+          },
+          "tcgplayer": {
+            "name": "Undying Legion",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -779,8 +1067,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-026-219",
-            "publicCode": "UNL-026/219"
-          }
+            "publicCode": "UNL-026/219",
+            "tcgplayerProductIds": [
+              685587
+            ]
+          },
+          "tcgplayer": {
+            "name": "Xerath, Freed",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -810,8 +1108,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-027-219",
-            "publicCode": "UNL-027/219"
-          }
+            "publicCode": "UNL-027/219",
+            "tcgplayerProductIds": [
+              684510
+            ]
+          },
+          "tcgplayer": {
+            "name": "Inviolus Vox",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -844,8 +1152,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-028-219",
-            "publicCode": "UNL-028/219"
-          }
+            "publicCode": "UNL-028/219",
+            "tcgplayerProductIds": [
+              685003
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Dockside Butcher",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-028a",
@@ -859,8 +1177,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-028a-219",
-            "publicCode": "UNL-028a/219"
-          }
+            "publicCode": "UNL-028a/219",
+            "tcgplayerProductIds": [
+              685004
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Dockside Butcher (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -889,8 +1217,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-029-219",
-            "publicCode": "UNL-029/219"
-          }
+            "publicCode": "UNL-029/219",
+            "tcgplayerProductIds": [
+              685516
+            ]
+          },
+          "tcgplayer": {
+            "name": "Red Brambleback",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-029a",
@@ -904,8 +1242,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-029a-219",
-            "publicCode": "UNL-029a/219"
-          }
+            "publicCode": "UNL-029a/219",
+            "tcgplayerProductIds": [
+              685588
+            ]
+          },
+          "tcgplayer": {
+            "name": "Red Brambleback (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -938,8 +1286,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-030-219",
-            "publicCode": "UNL-030/219"
-          }
+            "publicCode": "UNL-030/219",
+            "tcgplayerProductIds": [
+              684585
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Hotheaded",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-030a",
@@ -953,8 +1311,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-030a-219",
-            "publicCode": "UNL-030a/219"
-          }
+            "publicCode": "UNL-030a/219",
+            "tcgplayerProductIds": [
+              684586
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Hotheaded (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -978,8 +1346,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-031-219",
-            "publicCode": "UNL-031/219"
-          }
+            "publicCode": "UNL-031/219",
+            "tcgplayerProductIds": [
+              685005
+            ]
+          },
+          "tcgplayer": {
+            "name": "Combat Experience",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1003,8 +1382,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-032-219",
-            "publicCode": "UNL-032/219"
-          }
+            "publicCode": "UNL-032/219",
+            "tcgplayerProductIds": [
+              686271
+            ]
+          },
+          "tcgplayer": {
+            "name": "Double Trouble",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1033,8 +1423,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-033-219",
-            "publicCode": "UNL-033/219"
-          }
+            "publicCode": "UNL-033/219",
+            "tcgplayerProductIds": [
+              685677
+            ]
+          },
+          "tcgplayer": {
+            "name": "Frisky Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1063,8 +1464,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-034-219",
-            "publicCode": "UNL-034/219"
-          }
+            "publicCode": "UNL-034/219",
+            "tcgplayerProductIds": [
+              685198
+            ]
+          },
+          "tcgplayer": {
+            "name": "Herald of Spring",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1092,8 +1504,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-035-219",
-            "publicCode": "UNL-035/219"
-          }
+            "publicCode": "UNL-035/219",
+            "tcgplayerProductIds": [
+              685585
+            ]
+          },
+          "tcgplayer": {
+            "name": "Monch",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1122,8 +1545,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-036-219",
-            "publicCode": "UNL-036/219"
-          }
+            "publicCode": "UNL-036/219",
+            "tcgplayerProductIds": [
+              684124
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mutated Mouser",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1152,8 +1586,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-037-219",
-            "publicCode": "UNL-037/219"
-          }
+            "publicCode": "UNL-037/219",
+            "tcgplayerProductIds": [
+              684587
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Watcher",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1178,8 +1623,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-038-219",
-            "publicCode": "UNL-038/219"
-          }
+            "publicCode": "UNL-038/219",
+            "tcgplayerProductIds": [
+              685941
+            ]
+          },
+          "tcgplayer": {
+            "name": "Skyward Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1208,8 +1664,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-039-219",
-            "publicCode": "UNL-039/219"
-          }
+            "publicCode": "UNL-039/219",
+            "tcgplayerProductIds": [
+              685197
+            ]
+          },
+          "tcgplayer": {
+            "name": "Soul Sword",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1237,8 +1704,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-040-219",
-            "publicCode": "UNL-040/219"
-          }
+            "publicCode": "UNL-040/219",
+            "tcgplayerProductIds": [
+              686315
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wuju Apprentice",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1267,8 +1745,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-041-219",
-            "publicCode": "UNL-041/219"
-          }
+            "publicCode": "UNL-041/219",
+            "tcgplayerProductIds": [
+              686316
+            ]
+          },
+          "tcgplayer": {
+            "name": "Allay, Eager Admirer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1292,8 +1781,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-042-219",
-            "publicCode": "UNL-042/219"
-          }
+            "publicCode": "UNL-042/219",
+            "tcgplayerProductIds": [
+              684651
+            ]
+          },
+          "tcgplayer": {
+            "name": "Back Off",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1322,8 +1822,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-043-219",
-            "publicCode": "UNL-043/219"
-          }
+            "publicCode": "UNL-043/219",
+            "tcgplayerProductIds": [
+              685489
+            ]
+          },
+          "tcgplayer": {
+            "name": "Enthusiastic Promoter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1348,8 +1859,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-044-219",
-            "publicCode": "UNL-044/219"
-          }
+            "publicCode": "UNL-044/219",
+            "tcgplayerProductIds": [
+              686272
+            ]
+          },
+          "tcgplayer": {
+            "name": "Flurry of Feathers",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1373,8 +1895,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-045-219",
-            "publicCode": "UNL-045/219"
-          }
+            "publicCode": "UNL-045/219",
+            "tcgplayerProductIds": [
+              685532
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forgotten Signpost",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1398,8 +1931,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-046-219",
-            "publicCode": "UNL-046/219"
-          }
+            "publicCode": "UNL-046/219",
+            "tcgplayerProductIds": [
+              684652
+            ]
+          },
+          "tcgplayer": {
+            "name": "Friendship",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1429,8 +1973,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-047-219",
-            "publicCode": "UNL-047/219"
-          }
+            "publicCode": "UNL-047/219",
+            "tcgplayerProductIds": [
+              684212
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mosstomper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1459,8 +2014,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-048-219",
-            "publicCode": "UNL-048/219"
-          }
+            "publicCode": "UNL-048/219",
+            "tcgplayerProductIds": [
+              686273
+            ]
+          },
+          "tcgplayer": {
+            "name": "Trevor Snoozebottom",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1484,8 +2050,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-049-219",
-            "publicCode": "UNL-049/219"
-          }
+            "publicCode": "UNL-049/219",
+            "tcgplayerProductIds": [
+              685658
+            ]
+          },
+          "tcgplayer": {
+            "name": "Honeyfruit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1514,8 +2090,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-050-219",
-            "publicCode": "UNL-050/219"
-          }
+            "publicCode": "UNL-050/219",
+            "tcgplayerProductIds": [
+              684483
+            ]
+          },
+          "tcgplayer": {
+            "name": "Iascylla",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1549,8 +2135,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-051-219",
-            "publicCode": "UNL-051/219"
-          }
+            "publicCode": "UNL-051/219",
+            "tcgplayerProductIds": [
+              684511
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Nurturer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-051a",
@@ -1564,8 +2160,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-051a-219",
-            "publicCode": "UNL-051a/219"
-          }
+            "publicCode": "UNL-051a/219",
+            "tcgplayerProductIds": [
+              684595
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Nurturer (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1598,8 +2204,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-052-219",
-            "publicCode": "UNL-052/219"
-          }
+            "publicCode": "UNL-052/219",
+            "tcgplayerProductIds": [
+              685947
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nami, Headstrong",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1627,8 +2243,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-053-219",
-            "publicCode": "UNL-053/219"
-          }
+            "publicCode": "UNL-053/219",
+            "tcgplayerProductIds": [
+              685519
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scuttle Crab",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1653,8 +2279,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-054-219",
-            "publicCode": "UNL-054/219"
-          }
+            "publicCode": "UNL-054/219",
+            "tcgplayerProductIds": [
+              685570
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tricksy Tentacles",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1689,8 +2325,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-055-219",
-            "publicCode": "UNL-055/219"
-          }
+            "publicCode": "UNL-055/219",
+            "tcgplayerProductIds": [
+              686317
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Mocking",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-055a",
@@ -1704,8 +2350,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-055a-219",
-            "publicCode": "UNL-055a/219"
-          }
+            "publicCode": "UNL-055a/219",
+            "tcgplayerProductIds": [
+              686318
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Mocking (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1741,8 +2397,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-056-219",
-            "publicCode": "UNL-056/219"
-          }
+            "publicCode": "UNL-056/219",
+            "tcgplayerProductIds": [
+              684538
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yuumi, Magical Cat",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1772,8 +2438,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-057-219",
-            "publicCode": "UNL-057/219"
-          }
+            "publicCode": "UNL-057/219",
+            "tcgplayerProductIds": [
+              685945
+            ]
+          },
+          "tcgplayer": {
+            "name": "Alpha Wildclaw",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1807,8 +2483,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-058-219",
-            "publicCode": "UNL-058/219"
-          }
+            "publicCode": "UNL-058/219",
+            "tcgplayerProductIds": [
+              684589
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Protector of Dreams",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-058a",
@@ -1822,8 +2508,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-058a-219",
-            "publicCode": "UNL-058a/219"
-          }
+            "publicCode": "UNL-058a/219",
+            "tcgplayerProductIds": [
+              684588
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Protector of Dreams (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1857,8 +2553,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-059-219",
-            "publicCode": "UNL-059/219"
-          }
+            "publicCode": "UNL-059/219",
+            "tcgplayerProductIds": [
+              684205
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Unstoppable",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-059a",
@@ -1872,8 +2578,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-059a-219",
-            "publicCode": "UNL-059a/219"
-          }
+            "publicCode": "UNL-059a/219",
+            "tcgplayerProductIds": [
+              684491
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Unstoppable (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1903,8 +2619,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-060-219",
-            "publicCode": "UNL-060/219"
-          }
+            "publicCode": "UNL-060/219",
+            "tcgplayerProductIds": [
+              684125
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vilemaw",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-060a",
@@ -1918,8 +2644,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-060a-219",
-            "publicCode": "UNL-060a/219"
-          }
+            "publicCode": "UNL-060a/219",
+            "tcgplayerProductIds": [
+              684492
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vilemaw (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1943,8 +2679,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-061-219",
-            "publicCode": "UNL-061/219"
-          }
+            "publicCode": "UNL-061/219",
+            "tcgplayerProductIds": [
+              684201
+            ]
+          },
+          "tcgplayer": {
+            "name": "Downstage Dramatics",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1972,8 +2719,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-062-219",
-            "publicCode": "UNL-062/219"
-          }
+            "publicCode": "UNL-062/219",
+            "tcgplayerProductIds": [
+              685678
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dramatic Visionary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1997,8 +2755,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-063-219",
-            "publicCode": "UNL-063/219"
-          }
+            "publicCode": "UNL-063/219",
+            "tcgplayerProductIds": [
+              685679
+            ]
+          },
+          "tcgplayer": {
+            "name": "Eclipse",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2026,8 +2795,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-064-219",
-            "publicCode": "UNL-064/219"
-          }
+            "publicCode": "UNL-064/219",
+            "tcgplayerProductIds": [
+              685654
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fate Weaver",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2055,8 +2835,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-065-219",
-            "publicCode": "UNL-065/219"
-          }
+            "publicCode": "UNL-065/219",
+            "tcgplayerProductIds": [
+              684590
+            ]
+          },
+          "tcgplayer": {
+            "name": "Icevale Archer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2080,8 +2871,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-066-219",
-            "publicCode": "UNL-066/219"
-          }
+            "publicCode": "UNL-066/219",
+            "tcgplayerProductIds": [
+              686274
+            ]
+          },
+          "tcgplayer": {
+            "name": "Moonlight Affliction",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2110,8 +2912,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-067-219",
-            "publicCode": "UNL-067/219"
-          }
+            "publicCode": "UNL-067/219",
+            "tcgplayerProductIds": [
+              685939
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ruined Rex",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2140,8 +2953,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-068-219",
-            "publicCode": "UNL-068/219"
-          }
+            "publicCode": "UNL-068/219",
+            "tcgplayerProductIds": [
+              686276
+            ]
+          },
+          "tcgplayer": {
+            "name": "Spectral Centaur",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2165,8 +2989,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-069-219",
-            "publicCode": "UNL-069/219"
-          }
+            "publicCode": "UNL-069/219",
+            "tcgplayerProductIds": [
+              685933
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sprite Burst",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2190,8 +3025,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-070-219",
-            "publicCode": "UNL-070/219"
-          }
+            "publicCode": "UNL-070/219",
+            "tcgplayerProductIds": [
+              685490
+            ]
+          },
+          "tcgplayer": {
+            "name": "Turn to Dust",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2219,8 +3065,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-071-219",
-            "publicCode": "UNL-071/219"
-          }
+            "publicCode": "UNL-071/219",
+            "tcgplayerProductIds": [
+              686277
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chakram Dancer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2245,8 +3102,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-072-219",
-            "publicCode": "UNL-072/219"
-          }
+            "publicCode": "UNL-072/219",
+            "tcgplayerProductIds": [
+              684591
+            ]
+          },
+          "tcgplayer": {
+            "name": "Crescent Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2270,8 +3138,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-073-219",
-            "publicCode": "UNL-073/219"
-          }
+            "publicCode": "UNL-073/219",
+            "tcgplayerProductIds": [
+              684655
+            ]
+          },
+          "tcgplayer": {
+            "name": "Deadly Flourish",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2295,8 +3174,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-074-219",
-            "publicCode": "UNL-074/219"
-          }
+            "publicCode": "UNL-074/219",
+            "tcgplayerProductIds": [
+              684126
+            ]
+          },
+          "tcgplayer": {
+            "name": "Frigid Jewel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2326,8 +3216,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-075-219",
-            "publicCode": "UNL-075/219"
-          }
+            "publicCode": "UNL-075/219",
+            "tcgplayerProductIds": [
+              685196
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gustwalker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2356,8 +3257,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-076-219",
-            "publicCode": "UNL-076/219"
-          }
+            "publicCode": "UNL-076/219",
+            "tcgplayerProductIds": [
+              685680
+            ]
+          },
+          "tcgplayer": {
+            "name": "Petal Pixie",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2385,8 +3297,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-077-219",
-            "publicCode": "UNL-077/219"
-          }
+            "publicCode": "UNL-077/219",
+            "tcgplayerProductIds": [
+              684649
+            ]
+          },
+          "tcgplayer": {
+            "name": "Soul Shepherd",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2411,8 +3334,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-078-219",
-            "publicCode": "UNL-078/219"
-          }
+            "publicCode": "UNL-078/219",
+            "tcgplayerProductIds": [
+              685589
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sprite Fountain",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2445,8 +3379,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-079-219",
-            "publicCode": "UNL-079/219"
-          }
+            "publicCode": "UNL-079/219",
+            "tcgplayerProductIds": [
+              684512
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, Lunari",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-079a",
@@ -2460,8 +3404,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-079a-219",
-            "publicCode": "UNL-079a/219"
-          }
+            "publicCode": "UNL-079a/219",
+            "tcgplayerProductIds": [
+              685523
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, Lunari (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2495,8 +3449,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-080-219",
-            "publicCode": "UNL-080/219"
-          }
+            "publicCode": "UNL-080/219",
+            "tcgplayerProductIds": [
+              684474
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hwei, Brooding Painter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2524,8 +3488,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-081-219",
-            "publicCode": "UNL-081/219"
-          }
+            "publicCode": "UNL-081/219",
+            "tcgplayerProductIds": [
+              686319
+            ]
+          },
+          "tcgplayer": {
+            "name": "Keeper of Masks",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2559,8 +3533,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-082-219",
-            "publicCode": "UNL-082/219"
-          }
+            "publicCode": "UNL-082/219",
+            "tcgplayerProductIds": [
+              686320
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Fae Fawn",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-082a",
@@ -2574,8 +3558,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-082a-219",
-            "publicCode": "UNL-082a/219"
-          }
+            "publicCode": "UNL-082a/219",
+            "tcgplayerProductIds": [
+              686321
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Fae Fawn (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2599,8 +3593,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-083-219",
-            "publicCode": "UNL-083/219"
-          }
+            "publicCode": "UNL-083/219",
+            "tcgplayerProductIds": [
+              685946
+            ]
+          },
+          "tcgplayer": {
+            "name": "Smoke and Mirrors",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2630,8 +3634,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-084-219",
-            "publicCode": "UNL-084/219"
-          }
+            "publicCode": "UNL-084/219",
+            "tcgplayerProductIds": [
+              685666
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sprite Queen",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2655,8 +3669,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-085-219",
-            "publicCode": "UNL-085/219"
-          }
+            "publicCode": "UNL-085/219",
+            "tcgplayerProductIds": [
+              685572
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sumpworks Map",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2690,8 +3714,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-086-219",
-            "publicCode": "UNL-086/219"
-          }
+            "publicCode": "UNL-086/219",
+            "tcgplayerProductIds": [
+              685029
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zilean, Time Mage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2720,8 +3754,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-087-219",
-            "publicCode": "UNL-087/219"
-          }
+            "publicCode": "UNL-087/219",
+            "tcgplayerProductIds": [
+              684592
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blue Sentinel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-087a",
@@ -2735,8 +3779,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-087a-219",
-            "publicCode": "UNL-087a/219"
-          }
+            "publicCode": "UNL-087a/219",
+            "tcgplayerProductIds": [
+              684593
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blue Sentinel (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2760,8 +3814,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-088-219",
-            "publicCode": "UNL-088/219"
-          }
+            "publicCode": "UNL-088/219",
+            "tcgplayerProductIds": [
+              684596
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gutter Palace",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2794,8 +3858,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-089-219",
-            "publicCode": "UNL-089/219"
-          }
+            "publicCode": "UNL-089/219",
+            "tcgplayerProductIds": [
+              684481
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Meticulous Killer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-089a",
@@ -2809,8 +3883,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-089a-219",
-            "publicCode": "UNL-089a/219"
-          }
+            "publicCode": "UNL-089a/219",
+            "tcgplayerProductIds": [
+              684482
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Meticulous Killer (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2843,8 +3927,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-090-219",
-            "publicCode": "UNL-090/219"
-          }
+            "publicCode": "UNL-090/219",
+            "tcgplayerProductIds": [
+              684476
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Everywhere At Once",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-090a",
@@ -2858,8 +3952,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-090a-219",
-            "publicCode": "UNL-090a/219"
-          }
+            "publicCode": "UNL-090a/219",
+            "tcgplayerProductIds": [
+              684597
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Everywhere At Once (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2883,8 +3987,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-091-219",
-            "publicCode": "UNL-091/219"
-          }
+            "publicCode": "UNL-091/219",
+            "tcgplayerProductIds": [
+              685200
+            ]
+          },
+          "tcgplayer": {
+            "name": "Concentrate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2912,8 +4027,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-092-219",
-            "publicCode": "UNL-092/219"
-          }
+            "publicCode": "UNL-092/219",
+            "tcgplayerProductIds": [
+              684598
+            ]
+          },
+          "tcgplayer": {
+            "name": "Demacian Diplomat",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2941,8 +4067,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-093-219",
-            "publicCode": "UNL-093/219"
-          }
+            "publicCode": "UNL-093/219",
+            "tcgplayerProductIds": [
+              685681
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dragonsoul Sage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2971,8 +4108,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-094-219",
-            "publicCode": "UNL-094/219"
-          }
+            "publicCode": "UNL-094/219",
+            "tcgplayerProductIds": [
+              684206
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gemhand Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2996,8 +4144,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-095-219",
-            "publicCode": "UNL-095/219"
-          }
+            "publicCode": "UNL-095/219",
+            "tcgplayerProductIds": [
+              685917
+            ]
+          },
+          "tcgplayer": {
+            "name": "Grim Resolve",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3026,8 +4185,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-096-219",
-            "publicCode": "UNL-096/219"
-          }
+            "publicCode": "UNL-096/219",
+            "tcgplayerProductIds": [
+              684484
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hunter's Machete",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3055,8 +4225,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-097-219",
-            "publicCode": "UNL-097/219"
-          }
+            "publicCode": "UNL-097/219",
+            "tcgplayerProductIds": [
+              685938
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kinkou Initiate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3084,8 +4265,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-098-219",
-            "publicCode": "UNL-098/219"
-          }
+            "publicCode": "UNL-098/219",
+            "tcgplayerProductIds": [
+              685536
+            ]
+          },
+          "tcgplayer": {
+            "name": "Targonian Visionary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3113,8 +4305,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-099-219",
-            "publicCode": "UNL-099/219"
-          }
+            "publicCode": "UNL-099/219",
+            "tcgplayerProductIds": [
+              686322
+            ]
+          },
+          "tcgplayer": {
+            "name": "Towering Combatant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3142,8 +4345,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-100-219",
-            "publicCode": "UNL-100/219"
-          }
+            "publicCode": "UNL-100/219",
+            "tcgplayerProductIds": [
+              685590
+            ]
+          },
+          "tcgplayer": {
+            "name": "Voracious Gromp",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3167,8 +4381,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-101-219",
-            "publicCode": "UNL-101/219"
-          }
+            "publicCode": "UNL-101/219",
+            "tcgplayerProductIds": [
+              684599
+            ]
+          },
+          "tcgplayer": {
+            "name": "Call to Battle",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3196,8 +4421,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-102-219",
-            "publicCode": "UNL-102/219"
-          }
+            "publicCode": "UNL-102/219",
+            "tcgplayerProductIds": [
+              684123
+            ]
+          },
+          "tcgplayer": {
+            "name": "Crowd Favorite",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3221,8 +4457,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-103-219",
-            "publicCode": "UNL-103/219"
-          }
+            "publicCode": "UNL-103/219",
+            "tcgplayerProductIds": [
+              685573
+            ]
+          },
+          "tcgplayer": {
+            "name": "Disposal Order",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3251,8 +4498,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-104-219",
-            "publicCode": "UNL-104/219"
-          }
+            "publicCode": "UNL-104/219",
+            "tcgplayerProductIds": [
+              685653
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gentle Gemdragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3280,8 +4538,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-105-219",
-            "publicCode": "UNL-105/219"
-          }
+            "publicCode": "UNL-105/219",
+            "tcgplayerProductIds": [
+              686278
+            ]
+          },
+          "tcgplayer": {
+            "name": "Imposing Challenger",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3306,8 +4575,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-106-219",
-            "publicCode": "UNL-106/219"
-          }
+            "publicCode": "UNL-106/219",
+            "tcgplayerProductIds": [
+              686323
+            ]
+          },
+          "tcgplayer": {
+            "name": "Repulse",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3331,8 +4611,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-107-219",
-            "publicCode": "UNL-107/219"
-          }
+            "publicCode": "UNL-107/219",
+            "tcgplayerProductIds": [
+              685656
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stare Down",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3360,8 +4651,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-108-219",
-            "publicCode": "UNL-108/219"
-          }
+            "publicCode": "UNL-108/219",
+            "tcgplayerProductIds": [
+              685006
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wily Newtfish",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3385,8 +4687,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-109-219",
-            "publicCode": "UNL-109/219"
-          }
+            "publicCode": "UNL-109/219",
+            "tcgplayerProductIds": [
+              685203
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blood Rose",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3411,8 +4723,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-110-219",
-            "publicCode": "UNL-110/219"
-          }
+            "publicCode": "UNL-110/219",
+            "tcgplayerProductIds": [
+              686324
+            ]
+          },
+          "tcgplayer": {
+            "name": "Clash of Giants",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3441,8 +4763,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-111-219",
-            "publicCode": "UNL-111/219"
-          }
+            "publicCode": "UNL-111/219",
+            "tcgplayerProductIds": [
+              685538
+            ]
+          },
+          "tcgplayer": {
+            "name": "Determined Sentry",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3471,8 +4803,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-112-219",
-            "publicCode": "UNL-112/219"
-          }
+            "publicCode": "UNL-112/219",
+            "tcgplayerProductIds": [
+              686325
+            ]
+          },
+          "tcgplayer": {
+            "name": "Irresistible Faefolk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3505,8 +4847,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-113-219",
-            "publicCode": "UNL-113/219"
-          }
+            "publicCode": "UNL-113/219",
+            "tcgplayerProductIds": [
+              684600
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Tempered",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-113a",
@@ -3520,8 +4872,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-113a-219",
-            "publicCode": "UNL-113a/219"
-          }
+            "publicCode": "UNL-113a/219",
+            "tcgplayerProductIds": [
+              684601
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Tempered (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3556,8 +4918,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-114-219",
-            "publicCode": "UNL-114/219"
-          }
+            "publicCode": "UNL-114/219",
+            "tcgplayerProductIds": [
+              684207
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nidalee, Cat Form",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3592,8 +4964,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-115-219",
-            "publicCode": "UNL-115/219"
-          }
+            "publicCode": "UNL-115/219",
+            "tcgplayerProductIds": [
+              684486
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nilah, Joyful Ascetic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3627,8 +5009,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-116-219",
-            "publicCode": "UNL-116/219"
-          }
+            "publicCode": "UNL-116/219",
+            "tcgplayerProductIds": [
+              685520
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Paragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-116a",
@@ -3642,8 +5034,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-116a-219",
-            "publicCode": "UNL-116a/219"
-          }
+            "publicCode": "UNL-116a/219",
+            "tcgplayerProductIds": [
+              685591
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Paragon (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3673,8 +5075,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-117-219",
-            "publicCode": "UNL-117/219"
-          }
+            "publicCode": "UNL-117/219",
+            "tcgplayerProductIds": [
+              686326
+            ]
+          },
+          "tcgplayer": {
+            "name": "Arachnoid Horror",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3704,8 +5116,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-118-219",
-            "publicCode": "UNL-118/219"
-          }
+            "publicCode": "UNL-118/219",
+            "tcgplayerProductIds": [
+              685007
+            ]
+          },
+          "tcgplayer": {
+            "name": "Elder Dragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-118a",
@@ -3719,8 +5141,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-118a-219",
-            "publicCode": "UNL-118a/219"
-          }
+            "publicCode": "UNL-118a/219",
+            "tcgplayerProductIds": [
+              684656
+            ]
+          },
+          "tcgplayer": {
+            "name": "Elder Dragon (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3754,8 +5186,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-119-219",
-            "publicCode": "UNL-119/219"
-          }
+            "publicCode": "UNL-119/219",
+            "tcgplayerProductIds": [
+              684602
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Evolving Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-119a",
@@ -3769,8 +5211,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-119a-219",
-            "publicCode": "UNL-119a/219"
-          }
+            "publicCode": "UNL-119a/219",
+            "tcgplayerProductIds": [
+              684603
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Evolving Hunter (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3805,8 +5257,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-120-219",
-            "publicCode": "UNL-120/219"
-          }
+            "publicCode": "UNL-120/219",
+            "tcgplayerProductIds": [
+              684215
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Trophy Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-120a",
@@ -3820,8 +5282,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-120a-219",
-            "publicCode": "UNL-120a/219"
-          }
+            "publicCode": "UNL-120a/219",
+            "tcgplayerProductIds": [
+              684216
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Trophy Hunter (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3850,8 +5322,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-121-219",
-            "publicCode": "UNL-121/219"
-          }
+            "publicCode": "UNL-121/219",
+            "tcgplayerProductIds": [
+              685592
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bewitching Spirit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3879,8 +5362,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-122-219",
-            "publicCode": "UNL-122/219"
-          }
+            "publicCode": "UNL-122/219",
+            "tcgplayerProductIds": [
+              684493
+            ]
+          },
+          "tcgplayer": {
+            "name": "Crescent Guardian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3908,8 +5402,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-123-219",
-            "publicCode": "UNL-123/219"
-          }
+            "publicCode": "UNL-123/219",
+            "tcgplayerProductIds": [
+              685593
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evershade Stalker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3933,8 +5438,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-124-219",
-            "publicCode": "UNL-124/219"
-          }
+            "publicCode": "UNL-124/219",
+            "tcgplayerProductIds": [
+              685530
+            ]
+          },
+          "tcgplayer": {
+            "name": "Isolate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3958,8 +5474,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-125-219",
-            "publicCode": "UNL-125/219"
-          }
+            "publicCode": "UNL-125/219",
+            "tcgplayerProductIds": [
+              686327
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lunar Boon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3987,8 +5514,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-126-219",
-            "publicCode": "UNL-126/219"
-          }
+            "publicCode": "UNL-126/219",
+            "tcgplayerProductIds": [
+              685204
+            ]
+          },
+          "tcgplayer": {
+            "name": "Megatusk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4017,8 +5555,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-127-219",
-            "publicCode": "UNL-127/219"
-          }
+            "publicCode": "UNL-127/219",
+            "tcgplayerProductIds": [
+              685583
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mister Root",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4043,8 +5592,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-128-219",
-            "publicCode": "UNL-128/219"
-          }
+            "publicCode": "UNL-128/219",
+            "tcgplayerProductIds": [
+              684604
+            ]
+          },
+          "tcgplayer": {
+            "name": "Star-Crossed",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4072,8 +5632,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-129-219",
-            "publicCode": "UNL-129/219"
-          }
+            "publicCode": "UNL-129/219",
+            "tcgplayerProductIds": [
+              686328
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vicious Snapjaws",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4101,8 +5672,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-130-219",
-            "publicCode": "UNL-130/219"
-          }
+            "publicCode": "UNL-130/219",
+            "tcgplayerProductIds": [
+              684605
+            ]
+          },
+          "tcgplayer": {
+            "name": "Walking Roost",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4126,8 +5708,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-131-219",
-            "publicCode": "UNL-131/219"
-          }
+            "publicCode": "UNL-131/219",
+            "tcgplayerProductIds": [
+              684202
+            ]
+          },
+          "tcgplayer": {
+            "name": "Abandon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4156,8 +5749,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-132-219",
-            "publicCode": "UNL-132/219"
-          }
+            "publicCode": "UNL-132/219",
+            "tcgplayerProductIds": [
+              686329
+            ]
+          },
+          "tcgplayer": {
+            "name": "Angler Beast",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4182,8 +5786,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-133-219",
-            "publicCode": "UNL-133/219"
-          }
+            "publicCode": "UNL-133/219",
+            "tcgplayerProductIds": [
+              685582
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blast Cone",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4208,8 +5823,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-134-219",
-            "publicCode": "UNL-134/219"
-          }
+            "publicCode": "UNL-134/219",
+            "tcgplayerProductIds": [
+              685020
+            ]
+          },
+          "tcgplayer": {
+            "name": "Existential Dread",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4237,8 +5863,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-135-219",
-            "publicCode": "UNL-135/219"
-          }
+            "publicCode": "UNL-135/219",
+            "tcgplayerProductIds": [
+              684494
+            ]
+          },
+          "tcgplayer": {
+            "name": "Insightful Investigator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4262,8 +5899,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-136-219",
-            "publicCode": "UNL-136/219"
-          }
+            "publicCode": "UNL-136/219",
+            "tcgplayerProductIds": [
+              686330
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scryer's Bloom",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4293,8 +5941,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-137-219",
-            "publicCode": "UNL-137/219"
-          }
+            "publicCode": "UNL-137/219",
+            "tcgplayerProductIds": [
+              684606
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sinister Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4318,8 +5977,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-138-219",
-            "publicCode": "UNL-138/219"
-          }
+            "publicCode": "UNL-138/219",
+            "tcgplayerProductIds": [
+              684607
+            ]
+          },
+          "tcgplayer": {
+            "name": "The List",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4344,8 +6014,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-139-219",
-            "publicCode": "UNL-139/219"
-          }
+            "publicCode": "UNL-139/219",
+            "tcgplayerProductIds": [
+              685535
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bone Skewer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4370,8 +6050,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-140-219",
-            "publicCode": "UNL-140/219"
-          }
+            "publicCode": "UNL-140/219",
+            "tcgplayerProductIds": [
+              686331
+            ]
+          },
+          "tcgplayer": {
+            "name": "Conscription",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4404,8 +6094,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-141-219",
-            "publicCode": "UNL-141/219"
-          }
+            "publicCode": "UNL-141/219",
+            "tcgplayerProductIds": [
+              685664
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, Entrancing",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4430,8 +6130,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-142-219",
-            "publicCode": "UNL-142/219"
-          }
+            "publicCode": "UNL-142/219",
+            "tcgplayerProductIds": [
+              684478
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heedless Resurrection",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4465,8 +6175,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-143-219",
-            "publicCode": "UNL-143/219"
-          }
+            "publicCode": "UNL-143/219",
+            "tcgplayerProductIds": [
+              685027
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Mutating Horror",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-143a",
@@ -4480,8 +6200,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-143a-219",
-            "publicCode": "UNL-143a/219"
-          }
+            "publicCode": "UNL-143a/219",
+            "tcgplayerProductIds": [
+              685491
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Mutating Horror (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4510,8 +6240,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-144-219",
-            "publicCode": "UNL-144/219"
-          }
+            "publicCode": "UNL-144/219",
+            "tcgplayerProductIds": [
+              685948
+            ]
+          },
+          "tcgplayer": {
+            "name": "Maduli the Gatekeeper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4544,8 +6284,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-145-219",
-            "publicCode": "UNL-145/219"
-          }
+            "publicCode": "UNL-145/219",
+            "tcgplayerProductIds": [
+              684509
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Returned",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-145a",
@@ -4559,8 +6309,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-145a-219",
-            "publicCode": "UNL-145a/219"
-          }
+            "publicCode": "UNL-145a/219",
+            "tcgplayerProductIds": [
+              684608
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Returned (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4594,8 +6354,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-146-219",
-            "publicCode": "UNL-146/219"
-          }
+            "publicCode": "UNL-146/219",
+            "tcgplayerProductIds": [
+              686332
+            ]
+          },
+          "tcgplayer": {
+            "name": "Syndra, Transcendent",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4624,8 +6394,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-147-219",
-            "publicCode": "UNL-147/219"
-          }
+            "publicCode": "UNL-147/219",
+            "tcgplayerProductIds": [
+              683790
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baron Nashor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-147a",
@@ -4639,8 +6419,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-147a-219",
-            "publicCode": "UNL-147a/219"
-          }
+            "publicCode": "UNL-147a/219",
+            "tcgplayerProductIds": [
+              684211
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baron Nashor (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4665,8 +6455,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-148-219",
-            "publicCode": "UNL-148/219"
-          }
+            "publicCode": "UNL-148/219",
+            "tcgplayerProductIds": [
+              684609
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cursed Sarcophagus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4700,8 +6500,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-149-219",
-            "publicCode": "UNL-149/219"
-          }
+            "publicCode": "UNL-149/219",
+            "tcgplayerProductIds": [
+              684495
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, No Longer Human",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-149a",
@@ -4715,8 +6525,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-149a-219",
-            "publicCode": "UNL-149a/219"
-          }
+            "publicCode": "UNL-149a/219",
+            "tcgplayerProductIds": [
+              684496
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, No Longer Human (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4750,8 +6570,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-150-219",
-            "publicCode": "UNL-150/219"
-          }
+            "publicCode": "UNL-150/219",
+            "tcgplayerProductIds": [
+              685949
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Apathetic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-150a",
@@ -4765,8 +6595,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-150a-219",
-            "publicCode": "UNL-150a/219"
-          }
+            "publicCode": "UNL-150a/219",
+            "tcgplayerProductIds": [
+              685950
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Apathetic (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4796,8 +6636,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-151-219",
-            "publicCode": "UNL-151/219"
-          }
+            "publicCode": "UNL-151/219",
+            "tcgplayerProductIds": [
+              686333
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bandle Soldier",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4825,8 +6676,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-152-219",
-            "publicCode": "UNL-152/219"
-          }
+            "publicCode": "UNL-152/219",
+            "tcgplayerProductIds": [
+              685682
+            ]
+          },
+          "tcgplayer": {
+            "name": "Black Rose Dignitary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4855,8 +6717,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-153-219",
-            "publicCode": "UNL-153/219"
-          }
+            "publicCode": "UNL-153/219",
+            "tcgplayerProductIds": [
+              686334
+            ]
+          },
+          "tcgplayer": {
+            "name": "Carrion Dredger",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4885,8 +6758,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-154-219",
-            "publicCode": "UNL-154/219"
-          }
+            "publicCode": "UNL-154/219",
+            "tcgplayerProductIds": [
+              684610
+            ]
+          },
+          "tcgplayer": {
+            "name": "Crimson Pigeons",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4910,8 +6794,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-155-219",
-            "publicCode": "UNL-155/219"
-          }
+            "publicCode": "UNL-155/219",
+            "tcgplayerProductIds": [
+              685594
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heroic Charge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4940,8 +6835,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-156-219",
-            "publicCode": "UNL-156/219"
-          }
+            "publicCode": "UNL-156/219",
+            "tcgplayerProductIds": [
+              684611
+            ]
+          },
+          "tcgplayer": {
+            "name": "Loyal Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4970,8 +6876,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-157-219",
-            "publicCode": "UNL-157/219"
-          }
+            "publicCode": "UNL-157/219",
+            "tcgplayerProductIds": [
+              684612
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scrutinizing Sergeant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5000,8 +6917,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-158-219",
-            "publicCode": "UNL-158/219"
-          }
+            "publicCode": "UNL-158/219",
+            "tcgplayerProductIds": [
+              686335
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shepherd's Heirloom",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5026,8 +6954,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-159-219",
-            "publicCode": "UNL-159/219"
-          }
+            "publicCode": "UNL-159/219",
+            "tcgplayerProductIds": [
+              686336
+            ]
+          },
+          "tcgplayer": {
+            "name": "Soul Harvest",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5056,8 +6995,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-160-219",
-            "publicCode": "UNL-160/219"
-          }
+            "publicCode": "UNL-160/219",
+            "tcgplayerProductIds": [
+              684613
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ultrasoft Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5081,8 +7031,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-161-219",
-            "publicCode": "UNL-161/219"
-          }
+            "publicCode": "UNL-161/219",
+            "tcgplayerProductIds": [
+              685936
+            ]
+          },
+          "tcgplayer": {
+            "name": "Divining Shells",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5111,8 +7072,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-162-219",
-            "publicCode": "UNL-162/219"
-          }
+            "publicCode": "UNL-162/219",
+            "tcgplayerProductIds": [
+              685534
+            ]
+          },
+          "tcgplayer": {
+            "name": "Enthralling Protector",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5140,8 +7112,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-163-219",
-            "publicCode": "UNL-163/219"
-          }
+            "publicCode": "UNL-163/219",
+            "tcgplayerProductIds": [
+              684654
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mageseeker Investigator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5171,8 +7154,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-164-219",
-            "publicCode": "UNL-164/219"
-          }
+            "publicCode": "UNL-164/219",
+            "tcgplayerProductIds": [
+              685934
+            ]
+          },
+          "tcgplayer": {
+            "name": "Safety Inspector",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5196,8 +7190,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-165-219",
-            "publicCode": "UNL-165/219"
-          }
+            "publicCode": "UNL-165/219",
+            "tcgplayerProductIds": [
+              685253
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow's Call",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5227,8 +7232,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-166-219",
-            "publicCode": "UNL-166/219"
-          }
+            "publicCode": "UNL-166/219",
+            "tcgplayerProductIds": [
+              684614
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stalking Wolf",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5258,8 +7274,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-167-219",
-            "publicCode": "UNL-167/219"
-          }
+            "publicCode": "UNL-167/219",
+            "tcgplayerProductIds": [
+              685529
+            ]
+          },
+          "tcgplayer": {
+            "name": "Starhound",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5284,8 +7311,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-168-219",
-            "publicCode": "UNL-168/219"
-          }
+            "publicCode": "UNL-168/219",
+            "tcgplayerProductIds": [
+              684650
+            ]
+          },
+          "tcgplayer": {
+            "name": "Undying Loyalty",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5319,8 +7357,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-169-219",
-            "publicCode": "UNL-169/219"
-          }
+            "publicCode": "UNL-169/219",
+            "tcgplayerProductIds": [
+              684497
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ashe, Focused",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5350,8 +7398,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-170-219",
-            "publicCode": "UNL-170/219"
-          }
+            "publicCode": "UNL-170/219",
+            "tcgplayerProductIds": [
+              684498
+            ]
+          },
+          "tcgplayer": {
+            "name": "Atakhan",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5385,8 +7443,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-171-219",
-            "publicCode": "UNL-171/219"
-          }
+            "publicCode": "UNL-171/219",
+            "tcgplayerProductIds": [
+              685026
+            ]
+          },
+          "tcgplayer": {
+            "name": "Galio, Indefatigable",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5420,8 +7488,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-172-219",
-            "publicCode": "UNL-172/219"
-          }
+            "publicCode": "UNL-172/219",
+            "tcgplayerProductIds": [
+              685568
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Fragmented",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-172a",
@@ -5435,8 +7513,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-172a-219",
-            "publicCode": "UNL-172a/219"
-          }
+            "publicCode": "UNL-172a/219",
+            "tcgplayerProductIds": [
+              685569
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Fragmented (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5460,8 +7548,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-173-219",
-            "publicCode": "UNL-173/219"
-          }
+            "publicCode": "UNL-173/219",
+            "tcgplayerProductIds": [
+              684479
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sacrifice",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5485,8 +7583,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-174-219",
-            "publicCode": "UNL-174/219"
-          }
+            "publicCode": "UNL-174/219",
+            "tcgplayerProductIds": [
+              686337
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shard of Undoing",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5510,8 +7618,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-175-219",
-            "publicCode": "UNL-175/219"
-          }
+            "publicCode": "UNL-175/219",
+            "tcgplayerProductIds": [
+              685668
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tactical Retreat",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5545,8 +7663,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-176-219",
-            "publicCode": "UNL-176/219"
-          }
+            "publicCode": "UNL-176/219",
+            "tcgplayerProductIds": [
+              685595
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Peacekeeper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-176a",
@@ -5560,8 +7688,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-176a-219",
-            "publicCode": "UNL-176a/219"
-          }
+            "publicCode": "UNL-176a/219",
+            "tcgplayerProductIds": [
+              685596
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Peacekeeper (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5594,8 +7732,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-177-219",
-            "publicCode": "UNL-177/219"
-          }
+            "publicCode": "UNL-177/219",
+            "tcgplayerProductIds": [
+              684204
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Friend to All",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-177a",
@@ -5609,8 +7757,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-177a-219",
-            "publicCode": "UNL-177a/219"
-          }
+            "publicCode": "UNL-177a/219",
+            "tcgplayerProductIds": [
+              684499
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Friend to All (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5645,8 +7803,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-178-219",
-            "publicCode": "UNL-178/219"
-          }
+            "publicCode": "UNL-178/219",
+            "tcgplayerProductIds": [
+              685597
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Defender of the Meek",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-178a",
@@ -5660,8 +7828,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-178a-219",
-            "publicCode": "UNL-178a/219"
-          }
+            "publicCode": "UNL-178a/219",
+            "tcgplayerProductIds": [
+              685598
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Defender of the Meek (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5690,8 +7868,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-179-219",
-            "publicCode": "UNL-179/219"
-          }
+            "publicCode": "UNL-179/219",
+            "tcgplayerProductIds": [
+              684546
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rift Herald",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-179a",
@@ -5705,8 +7893,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-179a-219",
-            "publicCode": "UNL-179a/219"
-          }
+            "publicCode": "UNL-179a/219",
+            "tcgplayerProductIds": [
+              685028
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rift Herald (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5731,8 +7929,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-180-219",
-            "publicCode": "UNL-180/219"
-          }
+            "publicCode": "UNL-180/219",
+            "tcgplayerProductIds": [
+              685492
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Ruination",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5759,8 +7967,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-181-219",
-            "publicCode": "UNL-181/219"
-          }
+            "publicCode": "UNL-181/219",
+            "tcgplayerProductIds": [
+              684500
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Virtuoso",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5791,8 +8009,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-182-219",
-            "publicCode": "UNL-182/219"
-          }
+            "publicCode": "UNL-182/219",
+            "tcgplayerProductIds": [
+              684477
+            ]
+          },
+          "tcgplayer": {
+            "name": "Curtain Call",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5819,8 +8047,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-183-219",
-            "publicCode": "UNL-183/219"
-          }
+            "publicCode": "UNL-183/219",
+            "tcgplayerProductIds": [
+              684618
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Pridestalker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5852,8 +8090,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-184-219",
-            "publicCode": "UNL-184/219"
-          }
+            "publicCode": "UNL-184/219",
+            "tcgplayerProductIds": [
+              685233
+            ]
+          },
+          "tcgplayer": {
+            "name": "Thrill of the Hunt",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5880,8 +8128,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-185-219",
-            "publicCode": "UNL-185/219"
-          }
+            "publicCode": "UNL-185/219",
+            "tcgplayerProductIds": [
+              684619
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Bloodharbor Ripper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5913,8 +8171,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-186-219",
-            "publicCode": "UNL-186/219"
-          }
+            "publicCode": "UNL-186/219",
+            "tcgplayerProductIds": [
+              685675
+            ]
+          },
+          "tcgplayer": {
+            "name": "Death from Below",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5941,8 +8209,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-187-219",
-            "publicCode": "UNL-187/219"
-          }
+            "publicCode": "UNL-187/219",
+            "tcgplayerProductIds": [
+              684475
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Piltover Enforcer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5976,8 +8254,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-188-219",
-            "publicCode": "UNL-188/219"
-          }
+            "publicCode": "UNL-188/219",
+            "tcgplayerProductIds": [
+              684657
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hextech Gauntlets",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6004,8 +8292,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-189-219",
-            "publicCode": "UNL-189/219"
-          }
+            "publicCode": "UNL-189/219",
+            "tcgplayerProductIds": [
+              684102
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Bashful Bloom",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6037,8 +8335,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-190-219",
-            "publicCode": "UNL-190/219"
-          }
+            "publicCode": "UNL-190/219",
+            "tcgplayerProductIds": [
+              684203
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lilting Lullaby",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6065,8 +8373,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-191-219",
-            "publicCode": "UNL-191/219"
-          }
+            "publicCode": "UNL-191/219",
+            "tcgplayerProductIds": [
+              684620
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Wuju Master",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6098,8 +8416,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-192-219",
-            "publicCode": "UNL-192/219"
-          }
+            "publicCode": "UNL-192/219",
+            "tcgplayerProductIds": [
+              684485
+            ]
+          },
+          "tcgplayer": {
+            "name": "Alpha Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6126,8 +8454,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-193-219",
-            "publicCode": "UNL-193/219"
-          }
+            "publicCode": "UNL-193/219",
+            "tcgplayerProductIds": [
+              684214
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Gloomist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6160,8 +8498,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-194-219",
-            "publicCode": "UNL-194/219"
-          }
+            "publicCode": "UNL-194/219",
+            "tcgplayerProductIds": [
+              685673
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6188,8 +8536,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-195-219",
-            "publicCode": "UNL-195/219"
-          }
+            "publicCode": "UNL-195/219",
+            "tcgplayerProductIds": [
+              684115
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Green Father",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6223,8 +8581,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-196-219",
-            "publicCode": "UNL-196/219"
-          }
+            "publicCode": "UNL-196/219",
+            "tcgplayerProductIds": [
+              685599
+            ]
+          },
+          "tcgplayer": {
+            "name": "Daisy!",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6251,8 +8619,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-197-219",
-            "publicCode": "UNL-197/219"
-          }
+            "publicCode": "UNL-197/219",
+            "tcgplayerProductIds": [
+              684103
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, Scorn of the Moon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6284,8 +8662,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-198-219",
-            "publicCode": "UNL-198/219"
-          }
+            "publicCode": "UNL-198/219",
+            "tcgplayerProductIds": [
+              684527
+            ]
+          },
+          "tcgplayer": {
+            "name": "Moonfall",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6312,8 +8700,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-199-219",
-            "publicCode": "UNL-199/219"
-          }
+            "publicCode": "UNL-199/219",
+            "tcgplayerProductIds": [
+              684208
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Deceiver",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6345,8 +8743,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-200-219",
-            "publicCode": "UNL-200/219"
-          }
+            "publicCode": "UNL-200/219",
+            "tcgplayerProductIds": [
+              684209
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mirror Image",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6373,8 +8781,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-201-219",
-            "publicCode": "UNL-201/219"
-          }
+            "publicCode": "UNL-201/219",
+            "tcgplayerProductIds": [
+              684104
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Voidreaver",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6406,8 +8824,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-202-219",
-            "publicCode": "UNL-202/219"
-          }
+            "publicCode": "UNL-202/219",
+            "tcgplayerProductIds": [
+              685600
+            ]
+          },
+          "tcgplayer": {
+            "name": "Void Assault",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6434,8 +8862,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-203-219",
-            "publicCode": "UNL-203/219"
-          }
+            "publicCode": "UNL-203/219",
+            "tcgplayerProductIds": [
+              684523
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Keeper of the Hammer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6467,8 +8905,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-204-219",
-            "publicCode": "UNL-204/219"
-          }
+            "publicCode": "UNL-204/219",
+            "tcgplayerProductIds": [
+              684625
+            ]
+          },
+          "tcgplayer": {
+            "name": "Keeper's Verdict",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6491,8 +8939,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-205-219",
-            "publicCode": "UNL-205/219"
-          }
+            "publicCode": "UNL-205/219",
+            "tcgplayerProductIds": [
+              685683
+            ]
+          },
+          "tcgplayer": {
+            "name": "Abandoned Hall",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6515,8 +8974,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-206-219",
-            "publicCode": "UNL-206/219"
-          }
+            "publicCode": "UNL-206/219",
+            "tcgplayerProductIds": [
+              685951
+            ]
+          },
+          "tcgplayer": {
+            "name": "Altar of Blood",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6539,8 +9009,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-207-219",
-            "publicCode": "UNL-207/219"
-          }
+            "publicCode": "UNL-207/219",
+            "tcgplayerProductIds": [
+              685952
+            ]
+          },
+          "tcgplayer": {
+            "name": "Amateur Recital",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6563,8 +9044,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-208-219",
-            "publicCode": "UNL-208/219"
-          }
+            "publicCode": "UNL-208/219",
+            "tcgplayerProductIds": [
+              685493
+            ]
+          },
+          "tcgplayer": {
+            "name": "Black Flame Altar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6587,8 +9079,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-209-219",
-            "publicCode": "UNL-209/219"
-          }
+            "publicCode": "UNL-209/219",
+            "tcgplayerProductIds": [
+              685021
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dusk Rose Lab",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6611,8 +9114,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-210-219",
-            "publicCode": "UNL-210/219"
-          }
+            "publicCode": "UNL-210/219",
+            "tcgplayerProductIds": [
+              685022
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forbidding Waste",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6635,8 +9149,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-211-219",
-            "publicCode": "UNL-211/219"
-          }
+            "publicCode": "UNL-211/219",
+            "tcgplayerProductIds": [
+              685023
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forgotten Library",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6659,8 +9184,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-212-219",
-            "publicCode": "UNL-212/219"
-          }
+            "publicCode": "UNL-212/219",
+            "tcgplayerProductIds": [
+              684678
+            ]
+          },
+          "tcgplayer": {
+            "name": "Frozen Fortress",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6683,8 +9219,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-213-219",
-            "publicCode": "UNL-213/219"
-          }
+            "publicCode": "UNL-213/219",
+            "tcgplayerProductIds": [
+              684675
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gardens of Becoming",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6707,8 +9254,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-214-219",
-            "publicCode": "UNL-214/219"
-          }
+            "publicCode": "UNL-214/219",
+            "tcgplayerProductIds": [
+              684677
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ripper's Bay",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6731,8 +9289,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-215-219",
-            "publicCode": "UNL-215/219"
-          }
+            "publicCode": "UNL-215/219",
+            "tcgplayerProductIds": [
+              685601
+            ]
+          },
+          "tcgplayer": {
+            "name": "Star Spring",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6755,8 +9324,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-216-219",
-            "publicCode": "UNL-216/219"
-          }
+            "publicCode": "UNL-216/219",
+            "tcgplayerProductIds": [
+              685025
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Academy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6779,8 +9359,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-217-219",
-            "publicCode": "UNL-217/219"
-          }
+            "publicCode": "UNL-217/219",
+            "tcgplayerProductIds": [
+              685193
+            ]
+          },
+          "tcgplayer": {
+            "name": "Trapping Grounds",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6803,8 +9394,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-218-219",
-            "publicCode": "UNL-218/219"
-          }
+            "publicCode": "UNL-218/219",
+            "tcgplayerProductIds": [
+              686338
+            ]
+          },
+          "tcgplayer": {
+            "name": "Valley of Idols",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6827,8 +9429,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-219-219",
-            "publicCode": "UNL-219/219"
-          }
+            "publicCode": "UNL-219/219",
+            "tcgplayerProductIds": [
+              684676
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vaults of Helia",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6856,8 +9469,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-220-219",
-            "publicCode": "UNL-220/219"
-          }
+            "publicCode": "UNL-220/219",
+            "tcgplayerProductIds": [
+              684628
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pouty Poro (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6886,8 +9509,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-221-219",
-            "publicCode": "UNL-221/219"
-          }
+            "publicCode": "UNL-221/219",
+            "tcgplayerProductIds": [
+              684632
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lonely Poro (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6917,8 +9550,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-222-219",
-            "publicCode": "UNL-222/219"
-          }
+            "publicCode": "UNL-222/219",
+            "tcgplayerProductIds": [
+              684633
+            ]
+          },
+          "tcgplayer": {
+            "name": "Plundering Poro (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6947,8 +9590,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-223-219",
-            "publicCode": "UNL-223/219"
-          }
+            "publicCode": "UNL-223/219",
+            "tcgplayerProductIds": [
+              684635
+            ]
+          },
+          "tcgplayer": {
+            "name": "Veteran Poro (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6976,8 +9629,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-224-219",
-            "publicCode": "UNL-224/219"
-          }
+            "publicCode": "UNL-224/219",
+            "tcgplayerProductIds": [
+              684636
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mystic Poro (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7005,8 +9668,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-225-219",
-            "publicCode": "UNL-225/219"
-          }
+            "publicCode": "UNL-225/219",
+            "tcgplayerProductIds": [
+              684638
+            ]
+          },
+          "tcgplayer": {
+            "name": "Daring Poro (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7033,8 +9706,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-226-219",
-            "publicCode": "UNL-226/219"
-          }
+            "publicCode": "UNL-226/219",
+            "tcgplayerProductIds": [
+              685602
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Virtuoso (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-226*",
@@ -7048,8 +9731,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-226-star-219",
-            "publicCode": "UNL-226*/219"
-          }
+            "publicCode": "UNL-226*/219",
+            "tcgplayerProductIds": [
+              685524
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jhin, Virtuoso (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7076,8 +9769,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-227-219",
-            "publicCode": "UNL-227/219"
-          }
+            "publicCode": "UNL-227/219",
+            "tcgplayerProductIds": [
+              685603
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Pridestalker (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-227*",
@@ -7091,8 +9794,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-227-star-219",
-            "publicCode": "UNL-227*/219"
-          }
+            "publicCode": "UNL-227*/219",
+            "tcgplayerProductIds": [
+              685526
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Pridestalker (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7119,8 +9832,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-228-219",
-            "publicCode": "UNL-228/219"
-          }
+            "publicCode": "UNL-228/219",
+            "tcgplayerProductIds": [
+              685604
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Bloodharbor Ripper (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-228*",
@@ -7134,8 +9857,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-228-star-219",
-            "publicCode": "UNL-228*/219"
-          }
+            "publicCode": "UNL-228*/219",
+            "tcgplayerProductIds": [
+              685525
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pyke, Bloodharbor Ripper (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7162,8 +9895,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-229-219",
-            "publicCode": "UNL-229/219"
-          }
+            "publicCode": "UNL-229/219",
+            "tcgplayerProductIds": [
+              685521
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Piltover Enforcer (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-229*",
@@ -7177,8 +9920,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-229-star-219",
-            "publicCode": "UNL-229*/219"
-          }
+            "publicCode": "UNL-229*/219",
+            "tcgplayerProductIds": [
+              685522
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Piltover Enforcer (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7205,8 +9958,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-230-219",
-            "publicCode": "UNL-230/219"
-          }
+            "publicCode": "UNL-230/219",
+            "tcgplayerProductIds": [
+              684501
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Bashful Bloom (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-230*",
@@ -7220,8 +9983,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-230-star-219",
-            "publicCode": "UNL-230*/219"
-          }
+            "publicCode": "UNL-230*/219",
+            "tcgplayerProductIds": [
+              684502
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lillia, Bashful Bloom (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7248,8 +10021,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-231-219",
-            "publicCode": "UNL-231/219"
-          }
+            "publicCode": "UNL-231/219",
+            "tcgplayerProductIds": [
+              685527
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Wuju Master (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-231*",
@@ -7263,8 +10046,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-231-star-219",
-            "publicCode": "UNL-231*/219"
-          }
+            "publicCode": "UNL-231*/219",
+            "tcgplayerProductIds": [
+              685605
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Wuju Master (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7291,8 +10084,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-232-219",
-            "publicCode": "UNL-232/219"
-          }
+            "publicCode": "UNL-232/219",
+            "tcgplayerProductIds": [
+              685606
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Gloomist (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-232*",
@@ -7306,8 +10109,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-232-star-219",
-            "publicCode": "UNL-232*/219"
-          }
+            "publicCode": "UNL-232*/219",
+            "tcgplayerProductIds": [
+              685607
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vex, Gloomist (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7334,8 +10147,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-233-219",
-            "publicCode": "UNL-233/219"
-          }
+            "publicCode": "UNL-233/219",
+            "tcgplayerProductIds": [
+              684503
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Green Father (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-233*",
@@ -7349,8 +10172,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-233-star-219",
-            "publicCode": "UNL-233*/219"
-          }
+            "publicCode": "UNL-233*/219",
+            "tcgplayerProductIds": [
+              684504
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ivern, Green Father (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7377,8 +10210,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-234-219",
-            "publicCode": "UNL-234/219"
-          }
+            "publicCode": "UNL-234/219",
+            "tcgplayerProductIds": [
+              684505
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, Scorn of the Moon (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-234*",
@@ -7392,8 +10235,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-234-star-219",
-            "publicCode": "UNL-234*/219"
-          }
+            "publicCode": "UNL-234*/219",
+            "tcgplayerProductIds": [
+              684506
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, Scorn of the Moon (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7420,8 +10273,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-235-219",
-            "publicCode": "UNL-235/219"
-          }
+            "publicCode": "UNL-235/219",
+            "tcgplayerProductIds": [
+              685608
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Deceiver (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-235*",
@@ -7435,8 +10298,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-235-star-219",
-            "publicCode": "UNL-235*/219"
-          }
+            "publicCode": "UNL-235*/219",
+            "tcgplayerProductIds": [
+              685609
+            ]
+          },
+          "tcgplayer": {
+            "name": "LeBlanc, Deceiver (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7463,8 +10336,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-236-219",
-            "publicCode": "UNL-236/219"
-          }
+            "publicCode": "UNL-236/219",
+            "tcgplayerProductIds": [
+              684507
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Voidreaver (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-236*",
@@ -7478,8 +10361,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-236-star-219",
-            "publicCode": "UNL-236*/219"
-          }
+            "publicCode": "UNL-236*/219",
+            "tcgplayerProductIds": [
+              684210
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Voidreaver (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7506,8 +10399,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-237-219",
-            "publicCode": "UNL-237/219"
-          }
+            "publicCode": "UNL-237/219",
+            "tcgplayerProductIds": [
+              684517
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Keeper of the Hammer (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "UNL-237*",
@@ -7521,8 +10424,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-237-star-219",
-            "publicCode": "UNL-237*/219"
-          }
+            "publicCode": "UNL-237*/219",
+            "tcgplayerProductIds": [
+              684521
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poppy, Keeper of the Hammer (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7551,8 +10464,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "unl-238-219",
-            "publicCode": "UNL-238/219"
-          }
+            "publicCode": "UNL-238/219",
+            "tcgplayerProductIds": [
+              685925
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baron Nashor (Ultimate)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },

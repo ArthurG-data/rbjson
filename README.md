@@ -9,7 +9,8 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 `OGN-119a/298`) are one card with two printings, and every printing keeps the gallery id and printed code it
 came from, so a reader can always get back to Riot's own record.
 
-Release 0.1.0 holds 6 sets, 1,237 cards and 1,408 printings, in English.
+Release 0.2.0 holds 6 sets, 1,237 cards and 1,408 printings, in English. 1,399 printings carry the TCGplayer product
+that sells them and the finishes it is sold in.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -31,9 +32,9 @@ build, so a reader that downloads them separately can check that the versions ag
 
 | File | Keyed by | Holds |
 |---|---|---|
-| `AllSets.json` | set code (`OGN`) | type, set size, and per release (`en`) the name, date and source page |
+| `AllSets.json` | set code (`OGN`) | type, set size, TCGplayer group ids, and per release (`en`) the name, date and source page |
 | `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its set, and the ids of its printings |
-| `AllPrintings.json` | printing id (`OGN-119a`) | set, card number, language, collector number, suffix, rarity, image link, artists, gallery identifiers |
+| `AllPrintings.json` | printing id (`OGN-119a`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery and TCGplayer identifiers |
 
 The files are also what the repository's `data/` folder holds, flattened: a reader that wants the cards of one
 set can read `data/cards/<set>.json` straight from a checkout instead.
@@ -133,7 +134,9 @@ A printing holds what sets one physical card apart from another with the same nu
 | `source` | `riot-gallery`, the only source today |
 | `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`) |
 | `identifiers.publicCode` | The code as the gallery prints it (`OGN-119a/298`) |
-| `identifiers.tcgplayerProductIds` | Reserved for the TCGplayer step. No tool writes it yet |
+| `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
+| `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent on a printing it has never priced |
+| `tcgplayer` | How the product was tied to the printing: its `name` and the `match` (`number`) |
 
 No ability text, flavour text or artwork is copied into the data; see `NOTICE` for what is and is not taken
 from Riot.
@@ -157,15 +160,34 @@ list and every card entry, with its type, domains, costs, stats, tags, rarity, a
    gallery does not say what kind of product a set is. Adding the set by hand, with its type, is the one
    manual step a new set needs.
 
+### TCGplayer products
+
+`tools/import_tcgcsv.py` reads TCGplayer's Riftbound catalogue as [TCGCSV](https://tcgcsv.com) mirrors it
+(category 89). TCGplayer's groups are the sets, and a group's abbreviation is the set code, so a product joins its
+printing by set code and the number TCGplayer prints (`119a/298` in the Origins group is `OGN-119a`), with no
+image comparison. Each matched printing gets the product under `identifiers.tcgplayerProductIds`, the product's
+name under `tcgplayer`, and its `finishes`; each set gets its `tcgplayerGroupIds`.
+
+A printing's finishes are the price sub-types TCGplayer has ever priced its product in: `Normal` is `nonfoil`,
+`Foil` is `foil`. TCGplayer drops a sub-type's price row while it has no price, so `data/tcgplayer_finishes.json`
+records every finish seen per product across runs, and a finish stays once seen. Origins: Proving Grounds is
+sold in Normal only; every other set in both.
+
+Not matched, and listed in `review/tcgplayer-89.json`: the oversized battlefields and the Spiritforged runes and
+tokens TCGplayer sells that the gallery does not list, double-sided token products (`T01 // T02`), and the
+promotional groups (PR, OPP, JDG, the bundles), whose stamped copies of base cards are a later step.
+
 Riot also publishes a licensed [Content API](https://developer.riotgames.com/apis#riftbound-content-v1). It is
 in beta and English only, and rbjson does not use it yet. When it leaves beta it is the better source, and
 the gallery import stays as the cross-check.
 
 ## Known gaps
 
-- **Finishes.** The gallery does not say whether a printing exists in foil, non-foil or both, and the common
-  claim that rarity decides it is not confirmed. Finishes will come from TCGplayer's price sub-types once the
-  TCGplayer step exists, as opjson does.
+- **Finishes** come from TCGplayer's price sub-types, so a printing TCGplayer has never priced has none, and a
+  finish the rule of rarity would predict but TCGplayer has never priced is not claimed.
+- **Promotional printings.** TCGplayer's promotional groups sell stamped copies of base cards (a launch promo of
+  OGN-066, judge and organized-play promos) that the gallery does not list. They are counted in the review file
+  and not yet printings of their own.
 - **Untyped cards.** 13 Radiance and 2 Unleashed entries carry no type or domain in the gallery at the time of
   writing. Their `type` and `domains` are absent until Riot fills them in.
 - **English only.** The gallery serves `fr-fr`, `de-de`, `ja-jp` and `ko-kr` too, and the importer takes a
@@ -178,8 +200,10 @@ the gallery import stays as the cross-check.
 - `sets/sets.json` lists every set, with its type, set size and releases. Hand-kept.
 - `data/cards/<set>.json` holds the cards of one set, each with every printing of it. Written by the importer.
 - `review/gallery.json` lists the variants whose gallery entry disagrees with their base. Written by the importer.
+- `review/tcgplayer-89.json` lists the TCGplayer singles no printing matched and the groups that were not matched.
+- `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
 - `schema/sets.schema.json` and `schema/cards.schema.json` define the two file shapes.
-- `tools/` holds the importer, the validator, the build script and the gallery fetcher.
+- `tools/` holds the two importers, the validator, the build script, and the gallery and TCGCSV fetchers.
 - `tests/` checks the tools against a small gallery fixture and the committed data against the schemas.
 
 ## Building
@@ -187,15 +211,17 @@ the gallery import stays as the cross-check.
 ```
 uv sync --group dev
 uv run python tools/import_gallery.py          # rebuild data/cards from the gallery, cached in .cache/
+uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/validate.py [--online [--images]]
-uv run python tools/build.py --version 0.1.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json
+uv run python tools/build.py --version 0.2.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json
 uv run pytest -q
 ```
 
 `validate.py` checks the schemas and the cross-references: every printing is filed under its own number, no
-id or gallery entry appears twice, every printing's language has a release. `--online` fetches the gallery
-again and reports any printing whose entry is gone and any entry the data lacks. `--images` also asks Riot
-whether every card image is still served, about 1,400 requests, so CI runs it only for a release tag.
+id or gallery entry appears twice, every printing's language has a release, a TCGplayer product sits on one
+printing. `--online` fetches the gallery again and reports any printing whose entry is gone and any entry the
+data lacks, and asks TCGCSV whether every TCGplayer product id still exists. `--images` also asks Riot whether
+every card image is still served, about 1,400 requests, so CI runs it only for a release tag.
 
 `build.py` refuses to write `dist/` while the data is invalid.
 
@@ -208,9 +234,10 @@ named after the tag. Readers follow `releases/latest/download/<file>`, so a new 
 
 1. Run `uv run python tools/import_gallery.py`. If it names a new set, add it to `sets/sets.json` with its
    code, type, set size and English name, then run the importer again.
-2. Read `review/gallery.json` for anything new.
-3. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
-4. Commit `sets/`, `data/` and `review/` together, so a release never mixes two gallery snapshots.
+2. Run `uv run python tools/import_tcgcsv.py --refresh` to pick up new products and finishes.
+3. Read `review/gallery.json` and `review/tcgplayer-89.json` for anything new.
+4. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
+5. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
 
 ## Licence
 

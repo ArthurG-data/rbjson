@@ -3,8 +3,8 @@
     uv run python tools/validate.py [--online [--images]]
 
 --online fetches the gallery again and reports any printing whose gallery entry is gone, and any gallery entry
-the data lacks. --images also asks Riot whether every card image is still served: about 1,400 requests, so CI
-runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
+the data lacks, and asks TCGCSV whether every TCGplayer product id still exists in category 89. --images also
+asks Riot whether every card image is still served: about 1,400 requests, so CI runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
 before it counts.
 """
 from __future__ import annotations
@@ -18,6 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import gallery
 import rbjson
+import tcgcsv
 
 IMAGE_WORKERS = 6
 IMAGE_TRIES = 3
@@ -29,9 +30,22 @@ def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False
     live = {e["id"] for e in gallery.cards(gallery.fetch("en-us"))}
     errors = [f"printing {pid}: gallery entry {gid} is gone" for gid, pid in by_gallery.items() if gid not in live]
     errors += [f"gallery entry {gid} is not in the data: run tools/import_gallery.py" for gid in sorted(live - by_gallery.keys())]
+    errors += product_errors(printings)
     if images:
         errors += image_errors(printings)
     return errors
+
+
+def product_errors(printings: dict[str, dict]) -> list[str]:
+    """Each TCGplayer product id the data names that category 89 no longer sells."""
+    import tempfile
+    from pathlib import Path
+
+    cache = Path(tempfile.mkdtemp(prefix="rbjson-online-"))
+    sold = {p.product_id for g in tcgcsv.groups(cache) for p in tcgcsv.products(g["groupId"], cache)}
+    return [f"printing {pid}: TCGplayer product {product_id} is gone from category 89"
+            for pid, p in sorted(printings.items())
+            for product_id in p.get("identifiers", {}).get("tcgplayerProductIds", []) if product_id not in sold]
 
 
 def head_status(url: str) -> int | None:

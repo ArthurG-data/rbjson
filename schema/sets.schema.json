@@ -7,27 +7,74 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
-    "required": ["id", "type", "collectorNumberMax", "releases"],
+    "required": [
+      "id",
+      "type",
+      "collectorNumberMax",
+      "releases"
+    ],
     "properties": {
-      "id": {"type": "string", "pattern": "^[A-Z]{3}$", "description": "Riot's set code, the prefix of every card number in the set (OGN-004/298)."},
-      "type": {"enum": ["booster", "starter", "promo"],
-               "description": "The set's product line. AutoMana maps it onto MTG's set types: booster=expansion, starter=starter, promo=promo."},
-      "collectorNumberMax": {"type": "integer", "minimum": 1,
-                             "description": "The set size printed after the slash on every card (the 298 of OGN-004/298). A card numbered above it is an overnumbered variant."},
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$",
+        "description": "Riot's set code, the prefix of every card number in the set (OGN-004/298)."
+      },
+      "type": {
+        "enum": [
+          "booster",
+          "starter",
+          "promo"
+        ],
+        "description": "The set's product line. AutoMana maps it onto MTG's set types: booster=expansion, starter=starter, promo=promo."
+      },
+      "collectorNumberMax": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "The set size printed after the slash on every card (the 298 of OGN-004/298). A card numbered above it is an overnumbered variant."
+      },
       "releases": {
         "type": "array",
         "minItems": 1,
         "items": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["language", "name", "source"],
+          "required": [
+            "language",
+            "name",
+            "source"
+          ],
           "properties": {
-            "language": {"enum": ["en", "fr", "de", "ja", "ko"]},
-            "name": {"type": "string", "minLength": 1},
-            "releaseDate": {"type": "string", "format": "date"},
-            "source": {"type": "string", "format": "uri"}
+            "language": {
+              "enum": [
+                "en",
+                "fr",
+                "de",
+                "ja",
+                "ko"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "releaseDate": {
+              "type": "string",
+              "format": "date"
+            },
+            "source": {
+              "type": "string",
+              "format": "uri"
+            }
           }
         }
+      },
+      "tcgplayerGroupIds": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "integer"
+        },
+        "description": "The TCGplayer groups that sell the set, from TCGCSV category 89; a group's abbreviation is the set code."
       }
     }
   }

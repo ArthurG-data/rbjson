@@ -94,6 +94,16 @@ def validate(sets: list[dict], files: dict[str, dict]) -> list[str]:
                 if p["identifiers"]["publicCode"].split("/")[0] != pid:
                     errors.append(f"printing {pid}: publicCode {p['identifiers']['publicCode']} names another printing")
     errors += [f"card {n} is listed {c} times" for n, c in numbers.items() if c > 1]
+    product_owner: dict[int, str] = {}
+    for body in files.values():
+        for card in body["cards"]:
+            for p in card["printings"]:
+                for product_id in p.get("identifiers", {}).get("tcgplayerProductIds", []):
+                    if product_id in product_owner:
+                        errors.append(f"TCGplayer product {product_id} is on {product_owner[product_id]} and {p['id']}")
+                    product_owner[product_id] = p["id"]
+                if ("tcgplayer" in p) != bool(p.get("identifiers", {}).get("tcgplayerProductIds")):
+                    errors.append(f"printing {p['id']}: tcgplayer and identifiers.tcgplayerProductIds come together")
     return errors
 
 
