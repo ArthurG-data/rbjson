@@ -25,8 +25,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-001-298",
-            "publicCode": "OGN-001/298"
-          }
+            "publicCode": "OGN-001/298",
+            "tcgplayerProductIds": [
+              652771
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blazing Scorcher",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -55,8 +66,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-002-298",
-            "publicCode": "OGN-002/298"
-          }
+            "publicCode": "OGN-002/298",
+            "tcgplayerProductIds": [
+              652772
+            ]
+          },
+          "tcgplayer": {
+            "name": "Brazen Buccaneer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -84,8 +106,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-003-298",
-            "publicCode": "OGN-003/298"
-          }
+            "publicCode": "OGN-003/298",
+            "tcgplayerProductIds": [
+              652773
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chemtech Enforcer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -109,8 +142,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-004-298",
-            "publicCode": "OGN-004/298"
-          }
+            "publicCode": "OGN-004/298",
+            "tcgplayerProductIds": [
+              652774
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cleave",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -134,8 +178,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-005-298",
-            "publicCode": "OGN-005/298"
-          }
+            "publicCode": "OGN-005/298",
+            "tcgplayerProductIds": [
+              652775
+            ]
+          },
+          "tcgplayer": {
+            "name": "Disintegrate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -163,8 +218,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-006-298",
-            "publicCode": "OGN-006/298"
-          }
+            "publicCode": "OGN-006/298",
+            "tcgplayerProductIds": [
+              652776
+            ]
+          },
+          "tcgplayer": {
+            "name": "Flame Chompers",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -190,8 +256,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-007-298",
-            "publicCode": "OGN-007/298"
-          }
+            "publicCode": "OGN-007/298",
+            "tcgplayerProductIds": [
+              652777
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "OGN-007a",
@@ -205,8 +281,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-007a-298",
-            "publicCode": "OGN-007a/298"
-          }
+            "publicCode": "OGN-007a/298",
+            "tcgplayerProductIds": [
+              652778
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -231,8 +317,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-008-298",
-            "publicCode": "OGN-008/298"
-          }
+            "publicCode": "OGN-008/298",
+            "tcgplayerProductIds": [
+              652779
+            ]
+          },
+          "tcgplayer": {
+            "name": "Get Excited!",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -257,8 +354,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-009-298",
-            "publicCode": "OGN-009/298"
-          }
+            "publicCode": "OGN-009/298",
+            "tcgplayerProductIds": [
+              652780
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hextech Ray",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -287,8 +395,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-010-298",
-            "publicCode": "OGN-010/298"
-          }
+            "publicCode": "OGN-010/298",
+            "tcgplayerProductIds": [
+              652781
+            ]
+          },
+          "tcgplayer": {
+            "name": "Legion Rearguard",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -317,8 +436,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-011-298",
-            "publicCode": "OGN-011/298"
-          }
+            "publicCode": "OGN-011/298",
+            "tcgplayerProductIds": [
+              652782
+            ]
+          },
+          "tcgplayer": {
+            "name": "Magma Wurm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -347,8 +477,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-012-298",
-            "publicCode": "OGN-012/298"
-          }
+            "publicCode": "OGN-012/298",
+            "tcgplayerProductIds": [
+              652783
+            ]
+          },
+          "tcgplayer": {
+            "name": "Noxus Hopeful",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -376,8 +517,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-013-298",
-            "publicCode": "OGN-013/298"
-          }
+            "publicCode": "OGN-013/298",
+            "tcgplayerProductIds": [
+              652784
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pouty Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -402,8 +554,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-014-298",
-            "publicCode": "OGN-014/298"
-          }
+            "publicCode": "OGN-014/298",
+            "tcgplayerProductIds": [
+              652785
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sky Splitter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -433,8 +596,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-015-298",
-            "publicCode": "OGN-015/298"
-          }
+            "publicCode": "OGN-015/298",
+            "tcgplayerProductIds": [
+              652786
+            ]
+          },
+          "tcgplayer": {
+            "name": "Captain Farron",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -463,8 +637,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-016-298",
-            "publicCode": "OGN-016/298"
-          }
+            "publicCode": "OGN-016/298",
+            "tcgplayerProductIds": [
+              652787
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dangerous Duo",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -488,8 +673,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-017-298",
-            "publicCode": "OGN-017/298"
-          }
+            "publicCode": "OGN-017/298",
+            "tcgplayerProductIds": [
+              652788
+            ]
+          },
+          "tcgplayer": {
+            "name": "Iron Ballista",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -518,8 +714,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-018-298",
-            "publicCode": "OGN-018/298"
-          }
+            "publicCode": "OGN-018/298",
+            "tcgplayerProductIds": [
+              652789
+            ]
+          },
+          "tcgplayer": {
+            "name": "Noxus Saboteur",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -548,8 +755,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-019-298",
-            "publicCode": "OGN-019/298"
-          }
+            "publicCode": "OGN-019/298",
+            "tcgplayerProductIds": [
+              652790
+            ]
+          },
+          "tcgplayer": {
+            "name": "Raging Soul",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -579,8 +797,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-020-298",
-            "publicCode": "OGN-020/298"
-          }
+            "publicCode": "OGN-020/298",
+            "tcgplayerProductIds": [
+              652791
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scrapyard Champion",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -605,8 +834,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-021-298",
-            "publicCode": "OGN-021/298"
-          }
+            "publicCode": "OGN-021/298",
+            "tcgplayerProductIds": [
+              652792
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sun Disc",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -631,8 +871,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-022-298",
-            "publicCode": "OGN-022/298"
-          }
+            "publicCode": "OGN-022/298",
+            "tcgplayerProductIds": [
+              652793
+            ]
+          },
+          "tcgplayer": {
+            "name": "Thermo Beam",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -656,8 +907,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-023-298",
-            "publicCode": "OGN-023/298"
-          }
+            "publicCode": "OGN-023/298",
+            "tcgplayerProductIds": [
+              652794
+            ]
+          },
+          "tcgplayer": {
+            "name": "Unlicensed Armory",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -682,8 +944,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-024-298",
-            "publicCode": "OGN-024/298"
-          }
+            "publicCode": "OGN-024/298",
+            "tcgplayerProductIds": [
+              652795
+            ]
+          },
+          "tcgplayer": {
+            "name": "Void Seeker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -708,8 +981,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-025-298",
-            "publicCode": "OGN-025/298"
-          }
+            "publicCode": "OGN-025/298",
+            "tcgplayerProductIds": [
+              652796
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blind Fury",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -737,8 +1020,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-026-298",
-            "publicCode": "OGN-026/298"
-          }
+            "publicCode": "OGN-026/298",
+            "tcgplayerProductIds": [
+              652797
+            ]
+          },
+          "tcgplayer": {
+            "name": "Brynhir Thundersong",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -773,8 +1066,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-027-298",
-            "publicCode": "OGN-027/298"
-          }
+            "publicCode": "OGN-027/298",
+            "tcgplayerProductIds": [
+              652798
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Trifarian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-027a",
@@ -788,8 +1091,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-027a-298",
-            "publicCode": "OGN-027a/298"
-          }
+            "publicCode": "OGN-027a/298",
+            "tcgplayerProductIds": [
+              652799
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Trifarian (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -823,8 +1136,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-028-298",
-            "publicCode": "OGN-028/298"
-          }
+            "publicCode": "OGN-028/298",
+            "tcgplayerProductIds": [
+              652800
+            ]
+          },
+          "tcgplayer": {
+            "name": "Draven, Showboat",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -849,8 +1172,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-029-298",
-            "publicCode": "OGN-029/298"
-          }
+            "publicCode": "OGN-029/298",
+            "tcgplayerProductIds": [
+              652801
+            ]
+          },
+          "tcgplayer": {
+            "name": "Falling Star",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -884,8 +1217,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-030-298",
-            "publicCode": "OGN-030/298"
-          }
+            "publicCode": "OGN-030/298",
+            "tcgplayerProductIds": [
+              652802
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Demolitionist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-030a",
@@ -899,8 +1242,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-030a-298",
-            "publicCode": "OGN-030a/298"
-          }
+            "publicCode": "OGN-030a/298",
+            "tcgplayerProductIds": [
+              652803
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Demolitionist (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -930,8 +1283,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-031-298",
-            "publicCode": "OGN-031/298"
-          }
+            "publicCode": "OGN-031/298",
+            "tcgplayerProductIds": [
+              652804
+            ]
+          },
+          "tcgplayer": {
+            "name": "Raging Firebrand",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -955,8 +1318,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-032-298",
-            "publicCode": "OGN-032/298"
-          }
+            "publicCode": "OGN-032/298",
+            "tcgplayerProductIds": [
+              652805
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ravenborn Tome",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -981,8 +1354,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-033-298",
-            "publicCode": "OGN-033/298"
-          }
+            "publicCode": "OGN-033/298",
+            "tcgplayerProductIds": [
+              652806
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shakedown",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1016,8 +1399,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-034-298",
-            "publicCode": "OGN-034/298"
-          }
+            "publicCode": "OGN-034/298",
+            "tcgplayerProductIds": [
+              652807
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tryndamere, Barbarian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1051,8 +1444,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-035-298",
-            "publicCode": "OGN-035/298"
-          }
+            "publicCode": "OGN-035/298",
+            "tcgplayerProductIds": [
+              652808
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vayne, Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1086,8 +1489,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-036-298",
-            "publicCode": "OGN-036/298"
-          }
+            "publicCode": "OGN-036/298",
+            "tcgplayerProductIds": [
+              652809
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Destructive",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1116,8 +1529,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-037-298",
-            "publicCode": "OGN-037/298"
-          }
+            "publicCode": "OGN-037/298",
+            "tcgplayerProductIds": [
+              652810
+            ]
+          },
+          "tcgplayer": {
+            "name": "Immortal Phoenix",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1147,8 +1570,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-038-298",
-            "publicCode": "OGN-038/298"
-          }
+            "publicCode": "OGN-038/298",
+            "tcgplayerProductIds": [
+              652811
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kadregrin the Infernal",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1181,8 +1614,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-039-298",
-            "publicCode": "OGN-039/298"
-          }
+            "publicCode": "OGN-039/298",
+            "tcgplayerProductIds": [
+              652812
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Survivor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-039a",
@@ -1196,8 +1639,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-039a-298",
-            "publicCode": "OGN-039a/298"
-          }
+            "publicCode": "OGN-039a/298",
+            "tcgplayerProductIds": [
+              652813
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Survivor (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1222,8 +1675,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-040-298",
-            "publicCode": "OGN-040/298"
-          }
+            "publicCode": "OGN-040/298",
+            "tcgplayerProductIds": [
+              652814
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seal of Rage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1257,8 +1720,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-041-298",
-            "publicCode": "OGN-041/298"
-          }
+            "publicCode": "OGN-041/298",
+            "tcgplayerProductIds": [
+              652815
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Furious",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-041a",
@@ -1272,8 +1745,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-041a-298",
-            "publicCode": "OGN-041a/298"
-          }
+            "publicCode": "OGN-041a/298",
+            "tcgplayerProductIds": [
+              652816
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Furious (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1299,8 +1782,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-042-298",
-            "publicCode": "OGN-042/298"
-          }
+            "publicCode": "OGN-042/298",
+            "tcgplayerProductIds": [
+              652817
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "OGN-042a",
@@ -1314,8 +1807,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-042a-298",
-            "publicCode": "OGN-042a/298"
-          }
+            "publicCode": "OGN-042a/298",
+            "tcgplayerProductIds": [
+              652818
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1340,8 +1843,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-043-298",
-            "publicCode": "OGN-043/298"
-          }
+            "publicCode": "OGN-043/298",
+            "tcgplayerProductIds": [
+              652819
+            ]
+          },
+          "tcgplayer": {
+            "name": "Charm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1369,8 +1883,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-044-298",
-            "publicCode": "OGN-044/298"
-          }
+            "publicCode": "OGN-044/298",
+            "tcgplayerProductIds": [
+              652820
+            ]
+          },
+          "tcgplayer": {
+            "name": "Clockwork Keeper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1395,8 +1920,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-045-298",
-            "publicCode": "OGN-045/298"
-          }
+            "publicCode": "OGN-045/298",
+            "tcgplayerProductIds": [
+              652821
+            ]
+          },
+          "tcgplayer": {
+            "name": "Defy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1420,8 +1956,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-046-298",
-            "publicCode": "OGN-046/298"
-          }
+            "publicCode": "OGN-046/298",
+            "tcgplayerProductIds": [
+              652822
+            ]
+          },
+          "tcgplayer": {
+            "name": "En Garde",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1445,8 +1992,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-047-298",
-            "publicCode": "OGN-047/298"
-          }
+            "publicCode": "OGN-047/298",
+            "tcgplayerProductIds": [
+              652823
+            ]
+          },
+          "tcgplayer": {
+            "name": "Find Your Center",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1470,8 +2028,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-048-298",
-            "publicCode": "OGN-048/298"
-          }
+            "publicCode": "OGN-048/298",
+            "tcgplayerProductIds": [
+              652824
+            ]
+          },
+          "tcgplayer": {
+            "name": "Meditation",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1500,8 +2069,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-049-298",
-            "publicCode": "OGN-049/298"
-          }
+            "publicCode": "OGN-049/298",
+            "tcgplayerProductIds": [
+              652825
+            ]
+          },
+          "tcgplayer": {
+            "name": "Playful Phantom",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1526,8 +2106,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-050-298",
-            "publicCode": "OGN-050/298"
-          }
+            "publicCode": "OGN-050/298",
+            "tcgplayerProductIds": [
+              652826
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rune Prison",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1555,8 +2146,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-051-298",
-            "publicCode": "OGN-051/298"
-          }
+            "publicCode": "OGN-051/298",
+            "tcgplayerProductIds": [
+              652827
+            ]
+          },
+          "tcgplayer": {
+            "name": "Solari Shieldbearer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1584,8 +2186,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-052-298",
-            "publicCode": "OGN-052/298"
-          }
+            "publicCode": "OGN-052/298",
+            "tcgplayerProductIds": [
+              652828
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stalwart Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1609,8 +2222,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-053-298",
-            "publicCode": "OGN-053/298"
-          }
+            "publicCode": "OGN-053/298",
+            "tcgplayerProductIds": [
+              652829
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stand United",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1638,8 +2262,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-054-298",
-            "publicCode": "OGN-054/298"
-          }
+            "publicCode": "OGN-054/298",
+            "tcgplayerProductIds": [
+              652830
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sunlit Guardian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1667,8 +2302,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-055-298",
-            "publicCode": "OGN-055/298"
-          }
+            "publicCode": "OGN-055/298",
+            "tcgplayerProductIds": [
+              652831
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wielder of Water",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1697,8 +2343,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-056-298",
-            "publicCode": "OGN-056/298"
-          }
+            "publicCode": "OGN-056/298",
+            "tcgplayerProductIds": [
+              652832
+            ]
+          },
+          "tcgplayer": {
+            "name": "Adaptatron",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1722,8 +2379,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-057-298",
-            "publicCode": "OGN-057/298"
-          }
+            "publicCode": "OGN-057/298",
+            "tcgplayerProductIds": [
+              652833
+            ]
+          },
+          "tcgplayer": {
+            "name": "Block",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1747,8 +2415,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-058-298",
-            "publicCode": "OGN-058/298"
-          }
+            "publicCode": "OGN-058/298",
+            "tcgplayerProductIds": [
+              652834
+            ]
+          },
+          "tcgplayer": {
+            "name": "Discipline",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1778,8 +2457,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-059-298",
-            "publicCode": "OGN-059/298"
-          }
+            "publicCode": "OGN-059/298",
+            "tcgplayerProductIds": [
+              652835
+            ]
+          },
+          "tcgplayer": {
+            "name": "Eclipse Herald",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1803,8 +2493,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-060-298",
-            "publicCode": "OGN-060/298"
-          }
+            "publicCode": "OGN-060/298",
+            "tcgplayerProductIds": [
+              652836
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mask of Foresight",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1833,8 +2534,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-061-298",
-            "publicCode": "OGN-061/298"
-          }
+            "publicCode": "OGN-061/298",
+            "tcgplayerProductIds": [
+              652837
+            ]
+          },
+          "tcgplayer": {
+            "name": "Poro Herder",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1858,8 +2570,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-062-298",
-            "publicCode": "OGN-062/298"
-          }
+            "publicCode": "OGN-062/298",
+            "tcgplayerProductIds": [
+              652838
+            ]
+          },
+          "tcgplayer": {
+            "name": "Reinforce",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1884,8 +2607,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-063-298",
-            "publicCode": "OGN-063/298"
-          }
+            "publicCode": "OGN-063/298",
+            "tcgplayerProductIds": [
+              652839
+            ]
+          },
+          "tcgplayer": {
+            "name": "Spirit's Refuge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1910,8 +2644,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-064-298",
-            "publicCode": "OGN-064/298"
-          }
+            "publicCode": "OGN-064/298",
+            "tcgplayerProductIds": [
+              652840
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wind Wall",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1939,8 +2684,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-065-298",
-            "publicCode": "OGN-065/298"
-          }
+            "publicCode": "OGN-065/298",
+            "tcgplayerProductIds": [
+              652841
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wizened Elder",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1974,8 +2730,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-066-298",
-            "publicCode": "OGN-066/298"
-          }
+            "publicCode": "OGN-066/298",
+            "tcgplayerProductIds": [
+              652842
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Alluring",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-066a",
@@ -1989,8 +2755,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-066a-298",
-            "publicCode": "OGN-066a/298"
-          }
+            "publicCode": "OGN-066a/298",
+            "tcgplayerProductIds": [
+              652843
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Alluring (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2025,8 +2801,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-067-298",
-            "publicCode": "OGN-067/298"
-          }
+            "publicCode": "OGN-067/298",
+            "tcgplayerProductIds": [
+              652844
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blitzcrank, Impassive",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2060,8 +2846,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-068-298",
-            "publicCode": "OGN-068/298"
-          }
+            "publicCode": "OGN-068/298",
+            "tcgplayerProductIds": [
+              652845
+            ]
+          },
+          "tcgplayer": {
+            "name": "Caitlyn, Patrolling",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2086,8 +2882,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-069-298",
-            "publicCode": "OGN-069/298"
-          }
+            "publicCode": "OGN-069/298",
+            "tcgplayerProductIds": [
+              652846
+            ]
+          },
+          "tcgplayer": {
+            "name": "Last Stand",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2116,8 +2922,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-070-298",
-            "publicCode": "OGN-070/298"
-          }
+            "publicCode": "OGN-070/298",
+            "tcgplayerProductIds": [
+              652847
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mageseeker Warden",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2141,8 +2957,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-071-298",
-            "publicCode": "OGN-071/298"
-          }
+            "publicCode": "OGN-071/298",
+            "tcgplayerProductIds": [
+              652848
+            ]
+          },
+          "tcgplayer": {
+            "name": "Party Favors",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2166,8 +2992,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-072-298",
-            "publicCode": "OGN-072/298"
-          }
+            "publicCode": "OGN-072/298",
+            "tcgplayerProductIds": [
+              652849
+            ]
+          },
+          "tcgplayer": {
+            "name": "Solari Shrine",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2201,8 +3037,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-073-298",
-            "publicCode": "OGN-073/298"
-          }
+            "publicCode": "OGN-073/298",
+            "tcgplayerProductIds": [
+              652850
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sona, Harmonious",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2236,8 +3082,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-074-298",
-            "publicCode": "OGN-074/298"
-          }
+            "publicCode": "OGN-074/298",
+            "tcgplayerProductIds": [
+              652851
+            ]
+          },
+          "tcgplayer": {
+            "name": "Taric, Protector",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2266,8 +3122,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-075-298",
-            "publicCode": "OGN-075/298"
-          }
+            "publicCode": "OGN-075/298",
+            "tcgplayerProductIds": [
+              652852
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tasty Faefolk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2301,8 +3167,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-076-298",
-            "publicCode": "OGN-076/298"
-          }
+            "publicCode": "OGN-076/298",
+            "tcgplayerProductIds": [
+              652853
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Remorseful",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-076a",
@@ -2316,8 +3192,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-076a-298",
-            "publicCode": "OGN-076a/298"
-          }
+            "publicCode": "OGN-076a/298",
+            "tcgplayerProductIds": [
+              652854
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Remorseful (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2341,8 +3227,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-077-298",
-            "publicCode": "OGN-077/298"
-          }
+            "publicCode": "OGN-077/298",
+            "tcgplayerProductIds": [
+              652855
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zhonya's Hourglass",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2376,8 +3272,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-078-298",
-            "publicCode": "OGN-078/298"
-          }
+            "publicCode": "OGN-078/298",
+            "tcgplayerProductIds": [
+              652856
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Ascetic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-078a",
@@ -2391,8 +3297,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-078a-298",
-            "publicCode": "OGN-078a/298"
-          }
+            "publicCode": "OGN-078a/298",
+            "tcgplayerProductIds": [
+              652857
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Ascetic (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2426,8 +3342,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-079-298",
-            "publicCode": "OGN-079/298"
-          }
+            "publicCode": "OGN-079/298",
+            "tcgplayerProductIds": [
+              652858
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Zealot",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-079a",
@@ -2441,8 +3367,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-079a-298",
-            "publicCode": "OGN-079a/298"
-          }
+            "publicCode": "OGN-079a/298",
+            "tcgplayerProductIds": [
+              652859
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Zealot (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2467,8 +3403,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-080-298",
-            "publicCode": "OGN-080/298"
-          }
+            "publicCode": "OGN-080/298",
+            "tcgplayerProductIds": [
+              652860
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mystic Reversal",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2493,8 +3439,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-081-298",
-            "publicCode": "OGN-081/298"
-          }
+            "publicCode": "OGN-081/298",
+            "tcgplayerProductIds": [
+              652861
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seal of Focus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2524,8 +3480,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-082-298",
-            "publicCode": "OGN-082/298"
-          }
+            "publicCode": "OGN-082/298",
+            "tcgplayerProductIds": [
+              652862
+            ]
+          },
+          "tcgplayer": {
+            "name": "Whiteflame Protector",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2549,8 +3515,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-083-298",
-            "publicCode": "OGN-083/298"
-          }
+            "publicCode": "OGN-083/298",
+            "tcgplayerProductIds": [
+              652863
+            ]
+          },
+          "tcgplayer": {
+            "name": "Consult the Past",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2578,8 +3555,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-084-298",
-            "publicCode": "OGN-084/298"
-          }
+            "publicCode": "OGN-084/298",
+            "tcgplayerProductIds": [
+              652864
+            ]
+          },
+          "tcgplayer": {
+            "name": "Eager Apprentice",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2603,8 +3591,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-085-298",
-            "publicCode": "OGN-085/298"
-          }
+            "publicCode": "OGN-085/298",
+            "tcgplayerProductIds": [
+              652865
+            ]
+          },
+          "tcgplayer": {
+            "name": "Falling Comet",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2632,8 +3631,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-086-298",
-            "publicCode": "OGN-086/298"
-          }
+            "publicCode": "OGN-086/298",
+            "tcgplayerProductIds": [
+              652866
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jeweled Colossus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2662,8 +3672,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-087-298",
-            "publicCode": "OGN-087/298"
-          }
+            "publicCode": "OGN-087/298",
+            "tcgplayerProductIds": [
+              652867
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lecturing Yordle",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2692,8 +3713,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-088-298",
-            "publicCode": "OGN-088/298"
-          }
+            "publicCode": "OGN-088/298",
+            "tcgplayerProductIds": [
+              652868
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mega-Mech",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2719,8 +3751,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-089-298",
-            "publicCode": "OGN-089/298"
-          }
+            "publicCode": "OGN-089/298",
+            "tcgplayerProductIds": [
+              652869
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         },
         {
           "id": "OGN-089a",
@@ -2734,8 +3777,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-089a-298",
-            "publicCode": "OGN-089a/298"
-          }
+            "publicCode": "OGN-089a/298",
+            "tcgplayerProductIds": [
+              652870
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2759,8 +3812,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-090-298",
-            "publicCode": "OGN-090/298"
-          }
+            "publicCode": "OGN-090/298",
+            "tcgplayerProductIds": [
+              652871
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orb of Regret",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2788,8 +3852,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-091-298",
-            "publicCode": "OGN-091/298"
-          }
+            "publicCode": "OGN-091/298",
+            "tcgplayerProductIds": [
+              652872
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pit Crew",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2819,8 +3894,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-092-298",
-            "publicCode": "OGN-092/298"
-          }
+            "publicCode": "OGN-092/298",
+            "tcgplayerProductIds": [
+              652873
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riptide Rex",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2845,8 +3931,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-093-298",
-            "publicCode": "OGN-093/298"
-          }
+            "publicCode": "OGN-093/298",
+            "tcgplayerProductIds": [
+              652874
+            ]
+          },
+          "tcgplayer": {
+            "name": "Smoke Screen",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2870,8 +3967,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-094-298",
-            "publicCode": "OGN-094/298"
-          }
+            "publicCode": "OGN-094/298",
+            "tcgplayerProductIds": [
+              652875
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sprite Call",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2895,8 +4003,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-095-298",
-            "publicCode": "OGN-095/298"
-          }
+            "publicCode": "OGN-095/298",
+            "tcgplayerProductIds": [
+              652876
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stupefy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2924,8 +4043,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-096-298",
-            "publicCode": "OGN-096/298"
-          }
+            "publicCode": "OGN-096/298",
+            "tcgplayerProductIds": [
+              652877
+            ]
+          },
+          "tcgplayer": {
+            "name": "Watchful Sentry",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2955,8 +4085,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-097-298",
-            "publicCode": "OGN-097/298"
-          }
+            "publicCode": "OGN-097/298",
+            "tcgplayerProductIds": [
+              652878
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blastcone Fae",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2980,8 +4121,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-098-298",
-            "publicCode": "OGN-098/298"
-          }
+            "publicCode": "OGN-098/298",
+            "tcgplayerProductIds": [
+              652879
+            ]
+          },
+          "tcgplayer": {
+            "name": "Energy Conduit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3005,8 +4157,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-099-298",
-            "publicCode": "OGN-099/298"
-          }
+            "publicCode": "OGN-099/298",
+            "tcgplayerProductIds": [
+              652880
+            ]
+          },
+          "tcgplayer": {
+            "name": "Garbage Grabber",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3035,8 +4198,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-100-298",
-            "publicCode": "OGN-100/298"
-          }
+            "publicCode": "OGN-100/298",
+            "tcgplayerProductIds": [
+              652881
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gemcraft Seer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3060,8 +4234,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-101-298",
-            "publicCode": "OGN-101/298"
-          }
+            "publicCode": "OGN-101/298",
+            "tcgplayerProductIds": [
+              652882
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mushroom Pouch",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3086,8 +4271,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-102-298",
-            "publicCode": "OGN-102/298"
-          }
+            "publicCode": "OGN-102/298",
+            "tcgplayerProductIds": [
+              652883
+            ]
+          },
+          "tcgplayer": {
+            "name": "Portal Rescue",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3115,8 +4311,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-103-298",
-            "publicCode": "OGN-103/298"
-          }
+            "publicCode": "OGN-103/298",
+            "tcgplayerProductIds": [
+              652884
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ravenbloom Student",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3140,8 +4347,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-104-298",
-            "publicCode": "OGN-104/298"
-          }
+            "publicCode": "OGN-104/298",
+            "tcgplayerProductIds": [
+              652885
+            ]
+          },
+          "tcgplayer": {
+            "name": "Retreat",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3166,8 +4384,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-105-298",
-            "publicCode": "OGN-105/298"
-          }
+            "publicCode": "OGN-105/298",
+            "tcgplayerProductIds": [
+              652886
+            ]
+          },
+          "tcgplayer": {
+            "name": "Singularity",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3196,8 +4425,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-106-298",
-            "publicCode": "OGN-106/298"
-          }
+            "publicCode": "OGN-106/298",
+            "tcgplayerProductIds": [
+              652887
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sprite Mother",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3225,8 +4465,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-107-298",
-            "publicCode": "OGN-107/298"
-          }
+            "publicCode": "OGN-107/298",
+            "tcgplayerProductIds": [
+              652888
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ava Achiever",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3251,8 +4501,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-108-298",
-            "publicCode": "OGN-108/298"
-          }
+            "publicCode": "OGN-108/298",
+            "tcgplayerProductIds": [
+              652889
+            ]
+          },
+          "tcgplayer": {
+            "name": "Convergent Mutation",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3286,8 +4546,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-109-298",
-            "publicCode": "OGN-109/298"
-          }
+            "publicCode": "OGN-109/298",
+            "tcgplayerProductIds": [
+              652890
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dr. Mundo, Expert",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3321,8 +4591,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-110-298",
-            "publicCode": "OGN-110/298"
-          }
+            "publicCode": "OGN-110/298",
+            "tcgplayerProductIds": [
+              652891
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Recurrent",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3357,8 +4637,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-111-298",
-            "publicCode": "OGN-111/298"
-          }
+            "publicCode": "OGN-111/298",
+            "tcgplayerProductIds": [
+              652892
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heimerdinger, Inventor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3392,8 +4682,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-112-298",
-            "publicCode": "OGN-112/298"
-          }
+            "publicCode": "OGN-112/298",
+            "tcgplayerProductIds": [
+              652893
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Evolutionary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-112a",
@@ -3407,8 +4707,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-112a-298",
-            "publicCode": "OGN-112a/298"
-          }
+            "publicCode": "OGN-112a/298",
+            "tcgplayerProductIds": [
+              652894
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Evolutionary (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3441,8 +4751,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-113-298",
-            "publicCode": "OGN-113/298"
-          }
+            "publicCode": "OGN-113/298",
+            "tcgplayerProductIds": [
+              652895
+            ]
+          },
+          "tcgplayer": {
+            "name": "Malzahar, Fanatic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3467,8 +4787,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-114-298",
-            "publicCode": "OGN-114/298"
-          }
+            "publicCode": "OGN-114/298",
+            "tcgplayerProductIds": [
+              652896
+            ]
+          },
+          "tcgplayer": {
+            "name": "Progress Day",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3493,8 +4823,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-115-298",
-            "publicCode": "OGN-115/298"
-          }
+            "publicCode": "OGN-115/298",
+            "tcgplayerProductIds": [
+              652897
+            ]
+          },
+          "tcgplayer": {
+            "name": "Promising Future",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3523,8 +4863,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-116-298",
-            "publicCode": "OGN-116/298"
-          }
+            "publicCode": "OGN-116/298",
+            "tcgplayerProductIds": [
+              652898
+            ]
+          },
+          "tcgplayer": {
+            "name": "Thousand-Tailed Watcher",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3558,8 +4908,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-117-298",
-            "publicCode": "OGN-117/298"
-          }
+            "publicCode": "OGN-117/298",
+            "tcgplayerProductIds": [
+              652899
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Innovator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-117a",
@@ -3573,8 +4933,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-117a-298",
-            "publicCode": "OGN-117a/298"
-          }
+            "publicCode": "OGN-117a/298",
+            "tcgplayerProductIds": [
+              653230
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Innovator (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3604,8 +4974,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-118-298",
-            "publicCode": "OGN-118/298"
-          }
+            "publicCode": "OGN-118/298",
+            "tcgplayerProductIds": [
+              652900
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wraith of Echoes",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3639,8 +5019,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-119-298",
-            "publicCode": "OGN-119/298"
-          }
+            "publicCode": "OGN-119/298",
+            "tcgplayerProductIds": [
+              652901
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Inquisitive",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-119a",
@@ -3654,8 +5044,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-119a-298",
-            "publicCode": "OGN-119a/298"
-          }
+            "publicCode": "OGN-119a/298",
+            "tcgplayerProductIds": [
+              653231
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Inquisitive (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3680,8 +5080,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-120-298",
-            "publicCode": "OGN-120/298"
-          }
+            "publicCode": "OGN-120/298",
+            "tcgplayerProductIds": [
+              652902
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seal of Insight",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3716,8 +5126,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-121-298",
-            "publicCode": "OGN-121/298"
-          }
+            "publicCode": "OGN-121/298",
+            "tcgplayerProductIds": [
+              652903
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Strategist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-121a",
@@ -3731,8 +5151,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-121a-298",
-            "publicCode": "OGN-121a/298"
-          }
+            "publicCode": "OGN-121a/298",
+            "tcgplayerProductIds": [
+              652904
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Strategist (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3757,8 +5187,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-122-298",
-            "publicCode": "OGN-122/298"
-          }
+            "publicCode": "OGN-122/298",
+            "tcgplayerProductIds": [
+              652905
+            ]
+          },
+          "tcgplayer": {
+            "name": "Time Warp",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3783,8 +5223,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-123-298",
-            "publicCode": "OGN-123/298"
-          }
+            "publicCode": "OGN-123/298",
+            "tcgplayerProductIds": [
+              652906
+            ]
+          },
+          "tcgplayer": {
+            "name": "Unchecked Power",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3808,8 +5258,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-124-298",
-            "publicCode": "OGN-124/298"
-          }
+            "publicCode": "OGN-124/298",
+            "tcgplayerProductIds": [
+              652907
+            ]
+          },
+          "tcgplayer": {
+            "name": "Arena Bar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3837,8 +5298,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-125-298",
-            "publicCode": "OGN-125/298"
-          }
+            "publicCode": "OGN-125/298",
+            "tcgplayerProductIds": [
+              652908
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bilgewater Bully",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3864,8 +5336,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-126-298",
-            "publicCode": "OGN-126/298"
-          }
+            "publicCode": "OGN-126/298",
+            "tcgplayerProductIds": [
+              652909
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "OGN-126a",
@@ -3879,8 +5361,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-126a-298",
-            "publicCode": "OGN-126a/298"
-          }
+            "publicCode": "OGN-126a/298",
+            "tcgplayerProductIds": [
+              652910
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3905,8 +5397,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-127-298",
-            "publicCode": "OGN-127/298"
-          }
+            "publicCode": "OGN-127/298",
+            "tcgplayerProductIds": [
+              652911
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cannon Barrage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3931,8 +5434,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-128-298",
-            "publicCode": "OGN-128/298"
-          }
+            "publicCode": "OGN-128/298",
+            "tcgplayerProductIds": [
+              652912
+            ]
+          },
+          "tcgplayer": {
+            "name": "Challenge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3956,8 +5470,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-129-298",
-            "publicCode": "OGN-129/298"
-          }
+            "publicCode": "OGN-129/298",
+            "tcgplayerProductIds": [
+              652913
+            ]
+          },
+          "tcgplayer": {
+            "name": "Confront",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3986,8 +5511,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-130-298",
-            "publicCode": "OGN-130/298"
-          }
+            "publicCode": "OGN-130/298",
+            "tcgplayerProductIds": [
+              652914
+            ]
+          },
+          "tcgplayer": {
+            "name": "Crackshot Corsair",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4016,8 +5552,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-131-298",
-            "publicCode": "OGN-131/298"
-          }
+            "publicCode": "OGN-131/298",
+            "tcgplayerProductIds": [
+              652915
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dune Drake",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4046,8 +5593,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-132-298",
-            "publicCode": "OGN-132/298"
-          }
+            "publicCode": "OGN-132/298",
+            "tcgplayerProductIds": [
+              652916
+            ]
+          },
+          "tcgplayer": {
+            "name": "First Mate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4071,8 +5629,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-133-298",
-            "publicCode": "OGN-133/298"
-          }
+            "publicCode": "OGN-133/298",
+            "tcgplayerProductIds": [
+              652917
+            ]
+          },
+          "tcgplayer": {
+            "name": "Flurry of Blades",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4096,8 +5665,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-134-298",
-            "publicCode": "OGN-134/298"
-          }
+            "publicCode": "OGN-134/298",
+            "tcgplayerProductIds": [
+              652918
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mobilize",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4126,8 +5706,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-135-298",
-            "publicCode": "OGN-135/298"
-          }
+            "publicCode": "OGN-135/298",
+            "tcgplayerProductIds": [
+              652919
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pakaa Cub",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4155,8 +5746,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-136-298",
-            "publicCode": "OGN-136/298"
-          }
+            "publicCode": "OGN-136/298",
+            "tcgplayerProductIds": [
+              652920
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pit Rookie",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4184,8 +5786,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-137-298",
-            "publicCode": "OGN-137/298"
-          }
+            "publicCode": "OGN-137/298",
+            "tcgplayerProductIds": [
+              652921
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stormclaw Ursine",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4209,8 +5822,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-138-298",
-            "publicCode": "OGN-138/298"
-          }
+            "publicCode": "OGN-138/298",
+            "tcgplayerProductIds": [
+              652922
+            ]
+          },
+          "tcgplayer": {
+            "name": "Catalyst of Aeons",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4239,8 +5863,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-139-298",
-            "publicCode": "OGN-139/298"
-          }
+            "publicCode": "OGN-139/298",
+            "tcgplayerProductIds": [
+              652923
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cithria of Cloudfield",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4268,8 +5903,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-140-298",
-            "publicCode": "OGN-140/298"
-          }
+            "publicCode": "OGN-140/298",
+            "tcgplayerProductIds": [
+              652924
+            ]
+          },
+          "tcgplayer": {
+            "name": "Herald of Scales",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4298,8 +5944,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-141-298",
-            "publicCode": "OGN-141/298"
-          }
+            "publicCode": "OGN-141/298",
+            "tcgplayerProductIds": [
+              652925
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kinkou Monk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4327,8 +5984,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-142-298",
-            "publicCode": "OGN-142/298"
-          }
+            "publicCode": "OGN-142/298",
+            "tcgplayerProductIds": [
+              652926
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mountain Drake",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4352,8 +6020,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-143-298",
-            "publicCode": "OGN-143/298"
-          }
+            "publicCode": "OGN-143/298",
+            "tcgplayerProductIds": [
+              652927
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pirate's Haven",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4378,8 +6057,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-144-298",
-            "publicCode": "OGN-144/298"
-          }
+            "publicCode": "OGN-144/298",
+            "tcgplayerProductIds": [
+              652928
+            ]
+          },
+          "tcgplayer": {
+            "name": "Spoils of War",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4404,8 +6094,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-145-298",
-            "publicCode": "OGN-145/298"
-          }
+            "publicCode": "OGN-145/298",
+            "tcgplayerProductIds": [
+              652929
+            ]
+          },
+          "tcgplayer": {
+            "name": "Unyielding Spirit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4429,8 +6130,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-146-298",
-            "publicCode": "OGN-146/298"
-          }
+            "publicCode": "OGN-146/298",
+            "tcgplayerProductIds": [
+              652930
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wallop",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4458,8 +6170,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-147-298",
-            "publicCode": "OGN-147/298"
-          }
+            "publicCode": "OGN-147/298",
+            "tcgplayerProductIds": [
+              652931
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wildclaw Shaman",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4494,8 +6217,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-148-298",
-            "publicCode": "OGN-148/298"
-          }
+            "publicCode": "OGN-148/298",
+            "tcgplayerProductIds": [
+              652932
+            ]
+          },
+          "tcgplayer": {
+            "name": "Anivia, Primal",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4524,8 +6257,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-149-298",
-            "publicCode": "OGN-149/298"
-          }
+            "publicCode": "OGN-149/298",
+            "tcgplayerProductIds": [
+              652933
+            ]
+          },
+          "tcgplayer": {
+            "name": "Carnivorous Snapvine",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4555,8 +6298,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-150-298",
-            "publicCode": "OGN-150/298"
-          }
+            "publicCode": "OGN-150/298",
+            "tcgplayerProductIds": [
+              652934
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kraken Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4589,8 +6342,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-151-298",
-            "publicCode": "OGN-151/298"
-          }
+            "publicCode": "OGN-151/298",
+            "tcgplayerProductIds": [
+              652935
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Centered",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-151a",
@@ -4604,8 +6367,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-151a-298",
-            "publicCode": "OGN-151a/298"
-          }
+            "publicCode": "OGN-151a/298",
+            "tcgplayerProductIds": [
+              652936
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Centered (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4629,8 +6402,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-152-298",
-            "publicCode": "OGN-152/298"
-          }
+            "publicCode": "OGN-152/298",
+            "tcgplayerProductIds": [
+              652937
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mistfall",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4655,8 +6438,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-153-298",
-            "publicCode": "OGN-153/298"
-          }
+            "publicCode": "OGN-153/298",
+            "tcgplayerProductIds": [
+              652938
+            ]
+          },
+          "tcgplayer": {
+            "name": "Overt Operation",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4681,8 +6474,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-154-298",
-            "publicCode": "OGN-154/298"
-          }
+            "publicCode": "OGN-154/298",
+            "tcgplayerProductIds": [
+              652939
+            ]
+          },
+          "tcgplayer": {
+            "name": "Primal Strength",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4716,8 +6519,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-155-298",
-            "publicCode": "OGN-155/298"
-          }
+            "publicCode": "OGN-155/298",
+            "tcgplayerProductIds": [
+              652940
+            ]
+          },
+          "tcgplayer": {
+            "name": "Qiyana, Victorious",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4742,8 +6555,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-156-298",
-            "publicCode": "OGN-156/298"
-          }
+            "publicCode": "OGN-156/298",
+            "tcgplayerProductIds": [
+              652941
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sabotage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4777,8 +6600,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-157-298",
-            "publicCode": "OGN-157/298"
-          }
+            "publicCode": "OGN-157/298",
+            "tcgplayerProductIds": [
+              652942
+            ]
+          },
+          "tcgplayer": {
+            "name": "Udyr, Wildman",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4812,8 +6645,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-158-298",
-            "publicCode": "OGN-158/298"
-          }
+            "publicCode": "OGN-158/298",
+            "tcgplayerProductIds": [
+              652943
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Imposing",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-158a",
@@ -4827,8 +6670,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-158a-298",
-            "publicCode": "OGN-158a/298"
-          }
+            "publicCode": "OGN-158a/298",
+            "tcgplayerProductIds": [
+              652944
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Imposing (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4863,8 +6716,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-159-298",
-            "publicCode": "OGN-159/298"
-          }
+            "publicCode": "OGN-159/298",
+            "tcgplayerProductIds": [
+              652945
+            ]
+          },
+          "tcgplayer": {
+            "name": "Warwick, Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4889,8 +6752,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-160-298",
-            "publicCode": "OGN-160/298"
-          }
+            "publicCode": "OGN-160/298",
+            "tcgplayerProductIds": [
+              652946
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dazzling Aurora",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4919,8 +6792,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-161-298",
-            "publicCode": "OGN-161/298"
-          }
+            "publicCode": "OGN-161/298",
+            "tcgplayerProductIds": [
+              652947
+            ]
+          },
+          "tcgplayer": {
+            "name": "Deadbloom Predator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4955,8 +6838,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-162-298",
-            "publicCode": "OGN-162/298"
-          }
+            "publicCode": "OGN-162/298",
+            "tcgplayerProductIds": [
+              652948
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Captain",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-162a",
@@ -4970,8 +6863,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-162a-298",
-            "publicCode": "OGN-162a/298"
-          }
+            "publicCode": "OGN-162a/298",
+            "tcgplayerProductIds": [
+              652949
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Captain (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4996,8 +6899,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-163-298",
-            "publicCode": "OGN-163/298"
-          }
+            "publicCode": "OGN-163/298",
+            "tcgplayerProductIds": [
+              652950
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seal of Strength",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5031,8 +6944,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-164-298",
-            "publicCode": "OGN-164/298"
-          }
+            "publicCode": "OGN-164/298",
+            "tcgplayerProductIds": [
+              652951
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Brawler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-164a",
@@ -5046,8 +6969,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-164a-298",
-            "publicCode": "OGN-164a/298"
-          }
+            "publicCode": "OGN-164a/298",
+            "tcgplayerProductIds": [
+              652952
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Brawler (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5077,8 +7010,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-165-298",
-            "publicCode": "OGN-165/298"
-          }
+            "publicCode": "OGN-165/298",
+            "tcgplayerProductIds": [
+              652953
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cemetery Attendant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5104,8 +7048,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-166-298",
-            "publicCode": "OGN-166/298"
-          }
+            "publicCode": "OGN-166/298",
+            "tcgplayerProductIds": [
+              652954
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "OGN-166a",
@@ -5119,8 +7073,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-166a-298",
-            "publicCode": "OGN-166a/298"
-          }
+            "publicCode": "OGN-166a/298",
+            "tcgplayerProductIds": [
+              652955
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5148,8 +7112,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-167-298",
-            "publicCode": "OGN-167/298"
-          }
+            "publicCode": "OGN-167/298",
+            "tcgplayerProductIds": [
+              652956
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ember Monk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5173,8 +7148,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-168-298",
-            "publicCode": "OGN-168/298"
-          }
+            "publicCode": "OGN-168/298",
+            "tcgplayerProductIds": [
+              652957
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fight or Flight",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5198,8 +7184,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-169-298",
-            "publicCode": "OGN-169/298"
-          }
+            "publicCode": "OGN-169/298",
+            "tcgplayerProductIds": [
+              652958
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gust",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5223,8 +7220,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-170-298",
-            "publicCode": "OGN-170/298"
-          }
+            "publicCode": "OGN-170/298",
+            "tcgplayerProductIds": [
+              652959
+            ]
+          },
+          "tcgplayer": {
+            "name": "Morbid Return",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5252,8 +7260,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-171-298",
-            "publicCode": "OGN-171/298"
-          }
+            "publicCode": "OGN-171/298",
+            "tcgplayerProductIds": [
+              652960
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mystic Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5278,8 +7297,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-172-298",
-            "publicCode": "OGN-172/298"
-          }
+            "publicCode": "OGN-172/298",
+            "tcgplayerProductIds": [
+              652961
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rebuke",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5304,8 +7334,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-173-298",
-            "publicCode": "OGN-173/298"
-          }
+            "publicCode": "OGN-173/298",
+            "tcgplayerProductIds": [
+              652962
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ride The Wind",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5333,8 +7374,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-174-298",
-            "publicCode": "OGN-174/298"
-          }
+            "publicCode": "OGN-174/298",
+            "tcgplayerProductIds": [
+              652963
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sai Scout",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5363,8 +7415,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-175-298",
-            "publicCode": "OGN-175/298"
-          }
+            "publicCode": "OGN-175/298",
+            "tcgplayerProductIds": [
+              652964
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shipyard Skulker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5393,8 +7456,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-176-298",
-            "publicCode": "OGN-176/298"
-          }
+            "publicCode": "OGN-176/298",
+            "tcgplayerProductIds": [
+              652965
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sneaky Deckhand",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5423,8 +7497,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-177-298",
-            "publicCode": "OGN-177/298"
-          }
+            "publicCode": "OGN-177/298",
+            "tcgplayerProductIds": [
+              652966
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stealthy Pursuer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5450,8 +7535,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-178-298",
-            "publicCode": "OGN-178/298"
-          }
+            "publicCode": "OGN-178/298",
+            "tcgplayerProductIds": [
+              652967
+            ]
+          },
+          "tcgplayer": {
+            "name": "Undercover Agent",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5475,8 +7571,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-179-298",
-            "publicCode": "OGN-179/298"
-          }
+            "publicCode": "OGN-179/298",
+            "tcgplayerProductIds": [
+              652968
+            ]
+          },
+          "tcgplayer": {
+            "name": "Acceptable Losses",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5501,8 +7608,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-180-298",
-            "publicCode": "OGN-180/298"
-          }
+            "publicCode": "OGN-180/298",
+            "tcgplayerProductIds": [
+              652969
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fading Memories",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5526,8 +7644,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-181-298",
-            "publicCode": "OGN-181/298"
-          }
+            "publicCode": "OGN-181/298",
+            "tcgplayerProductIds": [
+              652970
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pack of Wonders",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5551,8 +7680,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-182-298",
-            "publicCode": "OGN-182/298"
-          }
+            "publicCode": "OGN-182/298",
+            "tcgplayerProductIds": [
+              652971
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scrapheap",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5576,8 +7716,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-183-298",
-            "publicCode": "OGN-183/298"
-          }
+            "publicCode": "OGN-183/298",
+            "tcgplayerProductIds": [
+              652972
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stacked Deck",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5601,8 +7752,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-184-298",
-            "publicCode": "OGN-184/298"
-          }
+            "publicCode": "OGN-184/298",
+            "tcgplayerProductIds": [
+              652973
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Syren",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5630,8 +7792,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-185-298",
-            "publicCode": "OGN-185/298"
-          }
+            "publicCode": "OGN-185/298",
+            "tcgplayerProductIds": [
+              652974
+            ]
+          },
+          "tcgplayer": {
+            "name": "Traveling Merchant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5655,8 +7828,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-186-298",
-            "publicCode": "OGN-186/298"
-          }
+            "publicCode": "OGN-186/298",
+            "tcgplayerProductIds": [
+              652975
+            ]
+          },
+          "tcgplayer": {
+            "name": "Treasure Trove",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5681,8 +7865,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-187-298",
-            "publicCode": "OGN-187/298"
-          }
+            "publicCode": "OGN-187/298",
+            "tcgplayerProductIds": [
+              652976
+            ]
+          },
+          "tcgplayer": {
+            "name": "Whirlwind",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5711,8 +7906,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-188-298",
-            "publicCode": "OGN-188/298"
-          }
+            "publicCode": "OGN-188/298",
+            "tcgplayerProductIds": [
+              652977
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zaunite Bouncer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5746,8 +7952,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-189-298",
-            "publicCode": "OGN-189/298"
-          }
+            "publicCode": "OGN-189/298",
+            "tcgplayerProductIds": [
+              652978
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kayn, Unleashed",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5781,8 +7997,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-190-298",
-            "publicCode": "OGN-190/298"
-          }
+            "publicCode": "OGN-190/298",
+            "tcgplayerProductIds": [
+              652979
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kog'Maw, Caustic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5811,8 +8037,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-191-298",
-            "publicCode": "OGN-191/298"
-          }
+            "publicCode": "OGN-191/298",
+            "tcgplayerProductIds": [
+              652980
+            ]
+          },
+          "tcgplayer": {
+            "name": "Maddened Marauder",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5842,8 +8079,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-192-298",
-            "publicCode": "OGN-192/298"
-          }
+            "publicCode": "OGN-192/298",
+            "tcgplayerProductIds": [
+              652981
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mindsplitter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5878,8 +8125,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-193-298",
-            "publicCode": "OGN-193/298"
-          }
+            "publicCode": "OGN-193/298",
+            "tcgplayerProductIds": [
+              652982
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Buccaneer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-193a",
@@ -5893,8 +8150,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-193a-298",
-            "publicCode": "OGN-193a/298"
-          }
+            "publicCode": "OGN-193a/298",
+            "tcgplayerProductIds": [
+              652983
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Buccaneer (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5927,8 +8194,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-194-298",
-            "publicCode": "OGN-194/298"
-          }
+            "publicCode": "OGN-194/298",
+            "tcgplayerProductIds": [
+              652984
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nocturne, Horrifying",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5958,8 +8235,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-195-298",
-            "publicCode": "OGN-195/298"
-          }
+            "publicCode": "OGN-195/298",
+            "tcgplayerProductIds": [
+              652985
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rhasa the Sunderer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5989,8 +8276,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-196-298",
-            "publicCode": "OGN-196/298"
-          }
+            "publicCode": "OGN-196/298",
+            "tcgplayerProductIds": [
+              652986
+            ]
+          },
+          "tcgplayer": {
+            "name": "Soulgorger",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6024,8 +8321,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-197-298",
-            "publicCode": "OGN-197/298"
-          }
+            "publicCode": "OGN-197/298",
+            "tcgplayerProductIds": [
+              652987
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Scout",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-197a",
@@ -6039,8 +8346,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-197a-298",
-            "publicCode": "OGN-197a/298"
-          }
+            "publicCode": "OGN-197a/298",
+            "tcgplayerProductIds": [
+              652988
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Scout (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6065,8 +8382,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-198-298",
-            "publicCode": "OGN-198/298"
-          }
+            "publicCode": "OGN-198/298",
+            "tcgplayerProductIds": [
+              652989
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Harrowing",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6094,8 +8421,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-199-298",
-            "publicCode": "OGN-199/298"
-          }
+            "publicCode": "OGN-199/298",
+            "tcgplayerProductIds": [
+              652990
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tideturner",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6128,8 +8465,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-200-298",
-            "publicCode": "OGN-200/298"
-          }
+            "publicCode": "OGN-200/298",
+            "tcgplayerProductIds": [
+              652991
+            ]
+          },
+          "tcgplayer": {
+            "name": "Twisted Fate, Gambler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6154,8 +8501,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-201-298",
-            "publicCode": "OGN-201/298"
-          }
+            "publicCode": "OGN-201/298",
+            "tcgplayerProductIds": [
+              652992
+            ]
+          },
+          "tcgplayer": {
+            "name": "Invert Timelines",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6189,8 +8546,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-202-298",
-            "publicCode": "OGN-202/298"
-          }
+            "publicCode": "OGN-202/298",
+            "tcgplayerProductIds": [
+              652993
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Rebel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-202a",
@@ -6204,8 +8571,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-202a-298",
-            "publicCode": "OGN-202a/298"
-          }
+            "publicCode": "OGN-202a/298",
+            "tcgplayerProductIds": [
+              652994
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Rebel (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6230,8 +8607,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-203-298",
-            "publicCode": "OGN-203/298"
-          }
+            "publicCode": "OGN-203/298",
+            "tcgplayerProductIds": [
+              652995
+            ]
+          },
+          "tcgplayer": {
+            "name": "Possession",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6256,8 +8643,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-204-298",
-            "publicCode": "OGN-204/298"
-          }
+            "publicCode": "OGN-204/298",
+            "tcgplayerProductIds": [
+              652996
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seal of Discord",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6291,8 +8688,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-205-298",
-            "publicCode": "OGN-205/298"
-          }
+            "publicCode": "OGN-205/298",
+            "tcgplayerProductIds": [
+              652997
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Windrider",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-205a",
@@ -6306,8 +8713,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-205a-298",
-            "publicCode": "OGN-205a/298"
-          }
+            "publicCode": "OGN-205a/298",
+            "tcgplayerProductIds": [
+              652998
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Windrider (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6331,8 +8748,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-206-298",
-            "publicCode": "OGN-206/298"
-          }
+            "publicCode": "OGN-206/298",
+            "tcgplayerProductIds": [
+              652999
+            ]
+          },
+          "tcgplayer": {
+            "name": "Back to Back",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6356,8 +8784,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-207-298",
-            "publicCode": "OGN-207/298"
-          }
+            "publicCode": "OGN-207/298",
+            "tcgplayerProductIds": [
+              653000
+            ]
+          },
+          "tcgplayer": {
+            "name": "Call to Glory",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6385,8 +8824,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-208-298",
-            "publicCode": "OGN-208/298"
-          }
+            "publicCode": "OGN-208/298",
+            "tcgplayerProductIds": [
+              653001
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cruel Patron",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6411,8 +8861,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-209-298",
-            "publicCode": "OGN-209/298"
-          }
+            "publicCode": "OGN-209/298",
+            "tcgplayerProductIds": [
+              653002
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cull the Weak",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6440,8 +8901,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-210-298",
-            "publicCode": "OGN-210/298"
-          }
+            "publicCode": "OGN-210/298",
+            "tcgplayerProductIds": [
+              653003
+            ]
+          },
+          "tcgplayer": {
+            "name": "Daring Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6469,8 +8941,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-211-298",
-            "publicCode": "OGN-211/298"
-          }
+            "publicCode": "OGN-211/298",
+            "tcgplayerProductIds": [
+              653004
+            ]
+          },
+          "tcgplayer": {
+            "name": "Faithful Manufactor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6494,8 +8977,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-212-298",
-            "publicCode": "OGN-212/298"
-          }
+            "publicCode": "OGN-212/298",
+            "tcgplayerProductIds": [
+              653005
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forge of the Future",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6520,8 +9014,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-213-298",
-            "publicCode": "OGN-213/298"
-          }
+            "publicCode": "OGN-213/298",
+            "tcgplayerProductIds": [
+              653006
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hidden Blade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6547,8 +9052,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-214-298",
-            "publicCode": "OGN-214/298"
-          }
+            "publicCode": "OGN-214/298",
+            "tcgplayerProductIds": [
+              653007
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         },
         {
           "id": "OGN-214a",
@@ -6562,8 +9078,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-214a-298",
-            "publicCode": "OGN-214a/298"
-          }
+            "publicCode": "OGN-214a/298",
+            "tcgplayerProductIds": [
+              653008
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6592,8 +9118,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-215-298",
-            "publicCode": "OGN-215/298"
-          }
+            "publicCode": "OGN-215/298",
+            "tcgplayerProductIds": [
+              653009
+            ]
+          },
+          "tcgplayer": {
+            "name": "Petty Officer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6622,8 +9159,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-216-298",
-            "publicCode": "OGN-216/298"
-          }
+            "publicCode": "OGN-216/298",
+            "tcgplayerProductIds": [
+              653010
+            ]
+          },
+          "tcgplayer": {
+            "name": "Soaring Scout",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6652,8 +9200,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-217-298",
-            "publicCode": "OGN-217/298"
-          }
+            "publicCode": "OGN-217/298",
+            "tcgplayerProductIds": [
+              653011
+            ]
+          },
+          "tcgplayer": {
+            "name": "Trifarian Gloryseeker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6683,8 +9242,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-218-298",
-            "publicCode": "OGN-218/298"
-          }
+            "publicCode": "OGN-218/298",
+            "tcgplayerProductIds": [
+              653012
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vanguard Captain",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6713,8 +9283,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-219-298",
-            "publicCode": "OGN-219/298"
-          }
+            "publicCode": "OGN-219/298",
+            "tcgplayerProductIds": [
+              653013
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vanguard Sergeant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6738,8 +9319,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-220-298",
-            "publicCode": "OGN-220/298"
-          }
+            "publicCode": "OGN-220/298",
+            "tcgplayerProductIds": [
+              653014
+            ]
+          },
+          "tcgplayer": {
+            "name": "Facebreaker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6764,8 +9356,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-221-298",
-            "publicCode": "OGN-221/298"
-          }
+            "publicCode": "OGN-221/298",
+            "tcgplayerProductIds": [
+              653015
+            ]
+          },
+          "tcgplayer": {
+            "name": "Imperial Decree",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6794,8 +9397,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-222-298",
-            "publicCode": "OGN-222/298"
-          }
+            "publicCode": "OGN-222/298",
+            "tcgplayerProductIds": [
+              653016
+            ]
+          },
+          "tcgplayer": {
+            "name": "Noxian Drummer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6824,8 +9438,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-223-298",
-            "publicCode": "OGN-223/298"
-          }
+            "publicCode": "OGN-223/298",
+            "tcgplayerProductIds": [
+              653017
+            ]
+          },
+          "tcgplayer": {
+            "name": "Peak Guardian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6850,8 +9475,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-224-298",
-            "publicCode": "OGN-224/298"
-          }
+            "publicCode": "OGN-224/298",
+            "tcgplayerProductIds": [
+              653018
+            ]
+          },
+          "tcgplayer": {
+            "name": "Salvage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6880,8 +9516,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-225-298",
-            "publicCode": "OGN-225/298"
-          }
+            "publicCode": "OGN-225/298",
+            "tcgplayerProductIds": [
+              653019
+            ]
+          },
+          "tcgplayer": {
+            "name": "Solari Chief",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6911,8 +9558,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-226-298",
-            "publicCode": "OGN-226/298"
-          }
+            "publicCode": "OGN-226/298",
+            "tcgplayerProductIds": [
+              653020
+            ]
+          },
+          "tcgplayer": {
+            "name": "Spectral Matron",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6936,8 +9594,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-227-298",
-            "publicCode": "OGN-227/298"
-          }
+            "publicCode": "OGN-227/298",
+            "tcgplayerProductIds": [
+              653021
+            ]
+          },
+          "tcgplayer": {
+            "name": "Symbol of the Solari",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6961,8 +9630,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-228-298",
-            "publicCode": "OGN-228/298"
-          }
+            "publicCode": "OGN-228/298",
+            "tcgplayerProductIds": [
+              653022
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vanguard Helm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6987,8 +9667,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-229-298",
-            "publicCode": "OGN-229/298"
-          }
+            "publicCode": "OGN-229/298",
+            "tcgplayerProductIds": [
+              653023
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vengeance",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -7016,8 +9707,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-230-298",
-            "publicCode": "OGN-230/298"
-          }
+            "publicCode": "OGN-230/298",
+            "tcgplayerProductIds": [
+              653024
+            ]
+          },
+          "tcgplayer": {
+            "name": "Albus Ferros",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7047,8 +9748,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-231-298",
-            "publicCode": "OGN-231/298"
-          }
+            "publicCode": "OGN-231/298",
+            "tcgplayerProductIds": [
+              653025
+            ]
+          },
+          "tcgplayer": {
+            "name": "Commander Ledros",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7081,8 +9792,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-232-298",
-            "publicCode": "OGN-232/298"
-          }
+            "publicCode": "OGN-232/298",
+            "tcgplayerProductIds": [
+              653026
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fiora, Victorious",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7107,8 +9828,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-233-298",
-            "publicCode": "OGN-233/298"
-          }
+            "publicCode": "OGN-233/298",
+            "tcgplayerProductIds": [
+              653027
+            ]
+          },
+          "tcgplayer": {
+            "name": "Grand Strategem",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7138,8 +9869,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-234-298",
-            "publicCode": "OGN-234/298"
-          }
+            "publicCode": "OGN-234/298",
+            "tcgplayerProductIds": [
+              653028
+            ]
+          },
+          "tcgplayer": {
+            "name": "Harnessed Dragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7173,8 +9914,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-235-298",
-            "publicCode": "OGN-235/298"
-          }
+            "publicCode": "OGN-235/298",
+            "tcgplayerProductIds": [
+              653029
+            ]
+          },
+          "tcgplayer": {
+            "name": "Karma, Channeler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7209,8 +9960,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-236-298",
-            "publicCode": "OGN-236/298"
-          }
+            "publicCode": "OGN-236/298",
+            "tcgplayerProductIds": [
+              653030
+            ]
+          },
+          "tcgplayer": {
+            "name": "Karthus, Eternal",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7235,8 +9996,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-237-298",
-            "publicCode": "OGN-237/298"
-          }
+            "publicCode": "OGN-237/298",
+            "tcgplayerProductIds": [
+              653031
+            ]
+          },
+          "tcgplayer": {
+            "name": "King's Edict",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7270,8 +10041,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-238-298",
-            "publicCode": "OGN-238/298"
-          }
+            "publicCode": "OGN-238/298",
+            "tcgplayerProductIds": [
+              653032
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Determined",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-238a",
@@ -7285,8 +10066,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-238a-298",
-            "publicCode": "OGN-238a/298"
-          }
+            "publicCode": "OGN-238a/298",
+            "tcgplayerProductIds": [
+              653033
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Determined (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7315,8 +10106,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-239-298",
-            "publicCode": "OGN-239/298"
-          }
+            "publicCode": "OGN-239/298",
+            "tcgplayerProductIds": [
+              653034
+            ]
+          },
+          "tcgplayer": {
+            "name": "Machine Evangel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7350,8 +10151,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-240-298",
-            "publicCode": "OGN-240/298"
-          }
+            "publicCode": "OGN-240/298",
+            "tcgplayerProductIds": [
+              653035
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Kingpin",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-240a",
@@ -7365,8 +10176,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-240a-298",
-            "publicCode": "OGN-240a/298"
-          }
+            "publicCode": "OGN-240a/298",
+            "tcgplayerProductIds": [
+              653036
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Kingpin (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7400,8 +10221,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-241-298",
-            "publicCode": "OGN-241/298"
-          }
+            "publicCode": "OGN-241/298",
+            "tcgplayerProductIds": [
+              653037
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Kinkou",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7425,8 +10256,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-242-298",
-            "publicCode": "OGN-242/298"
-          }
+            "publicCode": "OGN-242/298",
+            "tcgplayerProductIds": [
+              653038
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baited Hook",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7461,8 +10302,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-243-298",
-            "publicCode": "OGN-243/298"
-          }
+            "publicCode": "OGN-243/298",
+            "tcgplayerProductIds": [
+              653039
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Executioner",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-243a",
@@ -7476,8 +10327,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-243a-298",
-            "publicCode": "OGN-243a/298"
-          }
+            "publicCode": "OGN-243a/298",
+            "tcgplayerProductIds": [
+              653040
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Executioner (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7502,8 +10363,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-244-298",
-            "publicCode": "OGN-244/298"
-          }
+            "publicCode": "OGN-244/298",
+            "tcgplayerProductIds": [
+              653041
+            ]
+          },
+          "tcgplayer": {
+            "name": "Divine Judgment",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7528,8 +10399,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-245-298",
-            "publicCode": "OGN-245/298"
-          }
+            "publicCode": "OGN-245/298",
+            "tcgplayerProductIds": [
+              653042
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seal of Unity",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7563,8 +10444,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-246-298",
-            "publicCode": "OGN-246/298"
-          }
+            "publicCode": "OGN-246/298",
+            "tcgplayerProductIds": [
+              653043
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Leader",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-246a",
@@ -7578,8 +10469,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-246a-298",
-            "publicCode": "OGN-246a/298"
-          }
+            "publicCode": "OGN-246a/298",
+            "tcgplayerProductIds": [
+              653044
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Leader (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7606,8 +10507,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-247-298",
-            "publicCode": "OGN-247/298"
-          }
+            "publicCode": "OGN-247/298",
+            "tcgplayerProductIds": [
+              653045
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Daughter of the Void",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7640,8 +10551,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-248-298",
-            "publicCode": "OGN-248/298"
-          }
+            "publicCode": "OGN-248/298",
+            "tcgplayerProductIds": [
+              653046
+            ]
+          },
+          "tcgplayer": {
+            "name": "Icathian Rain",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7668,8 +10589,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-249-298",
-            "publicCode": "OGN-249/298"
-          }
+            "publicCode": "OGN-249/298",
+            "tcgplayerProductIds": [
+              653047
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Relentless Storm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7702,8 +10633,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-250-298",
-            "publicCode": "OGN-250/298"
-          }
+            "publicCode": "OGN-250/298",
+            "tcgplayerProductIds": [
+              653048
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stormbringer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7730,8 +10671,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-251-298",
-            "publicCode": "OGN-251/298"
-          }
+            "publicCode": "OGN-251/298",
+            "tcgplayerProductIds": [
+              653049
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Loose Cannon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7764,8 +10715,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-252-298",
-            "publicCode": "OGN-252/298"
-          }
+            "publicCode": "OGN-252/298",
+            "tcgplayerProductIds": [
+              653050
+            ]
+          },
+          "tcgplayer": {
+            "name": "Super Mega Death Rocket!",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7792,8 +10753,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-253-298",
-            "publicCode": "OGN-253/298"
-          }
+            "publicCode": "OGN-253/298",
+            "tcgplayerProductIds": [
+              653051
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Hand of Noxus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7826,8 +10797,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-254-298",
-            "publicCode": "OGN-254/298"
-          }
+            "publicCode": "OGN-254/298",
+            "tcgplayerProductIds": [
+              653052
+            ]
+          },
+          "tcgplayer": {
+            "name": "Noxian Guillotine",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7854,8 +10835,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-255-298",
-            "publicCode": "OGN-255/298"
-          }
+            "publicCode": "OGN-255/298",
+            "tcgplayerProductIds": [
+              653053
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Nine-Tailed Fox",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7887,8 +10878,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-256-298",
-            "publicCode": "OGN-256/298"
-          }
+            "publicCode": "OGN-256/298",
+            "tcgplayerProductIds": [
+              653054
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fox-Fire",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7915,8 +10916,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-257-298",
-            "publicCode": "OGN-257/298"
-          }
+            "publicCode": "OGN-257/298",
+            "tcgplayerProductIds": [
+              653055
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Blind Monk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7949,8 +10960,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-258-298",
-            "publicCode": "OGN-258/298"
-          }
+            "publicCode": "OGN-258/298",
+            "tcgplayerProductIds": [
+              653056
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dragon's Rage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7977,8 +10998,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-259-298",
-            "publicCode": "OGN-259/298"
-          }
+            "publicCode": "OGN-259/298",
+            "tcgplayerProductIds": [
+              653057
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Unforgiven",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8011,8 +11042,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-260-298",
-            "publicCode": "OGN-260/298"
-          }
+            "publicCode": "OGN-260/298",
+            "tcgplayerProductIds": [
+              653058
+            ]
+          },
+          "tcgplayer": {
+            "name": "Last Breath",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8039,8 +11080,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-261-298",
-            "publicCode": "OGN-261/298"
-          }
+            "publicCode": "OGN-261/298",
+            "tcgplayerProductIds": [
+              653059
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Radiant Dawn",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8073,8 +11124,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-262-298",
-            "publicCode": "OGN-262/298"
-          }
+            "publicCode": "OGN-262/298",
+            "tcgplayerProductIds": [
+              653060
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zenith Blade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8101,8 +11162,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-263-298",
-            "publicCode": "OGN-263/298"
-          }
+            "publicCode": "OGN-263/298",
+            "tcgplayerProductIds": [
+              653061
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Swift Scout",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8135,8 +11206,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-264-298",
-            "publicCode": "OGN-264/298"
-          }
+            "publicCode": "OGN-264/298",
+            "tcgplayerProductIds": [
+              653062
+            ]
+          },
+          "tcgplayer": {
+            "name": "Guerilla Warfare",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8163,8 +11244,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-265-298",
-            "publicCode": "OGN-265/298"
-          }
+            "publicCode": "OGN-265/298",
+            "tcgplayerProductIds": [
+              653063
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Herald of the Arcane",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8197,8 +11288,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-266-298",
-            "publicCode": "OGN-266/298"
-          }
+            "publicCode": "OGN-266/298",
+            "tcgplayerProductIds": [
+              653064
+            ]
+          },
+          "tcgplayer": {
+            "name": "Siphon Power",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8225,8 +11326,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-267-298",
-            "publicCode": "OGN-267/298"
-          }
+            "publicCode": "OGN-267/298",
+            "tcgplayerProductIds": [
+              653065
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Bounty Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8258,8 +11369,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-268-298",
-            "publicCode": "OGN-268/298"
-          }
+            "publicCode": "OGN-268/298",
+            "tcgplayerProductIds": [
+              653066
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bullet Time",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8286,8 +11407,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-269-298",
-            "publicCode": "OGN-269/298"
-          }
+            "publicCode": "OGN-269/298",
+            "tcgplayerProductIds": [
+              653067
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, The Boss",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8320,8 +11451,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-270-298",
-            "publicCode": "OGN-270/298"
-          }
+            "publicCode": "OGN-270/298",
+            "tcgplayerProductIds": [
+              653068
+            ]
+          },
+          "tcgplayer": {
+            "name": "Showstopper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8351,8 +11492,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-271-298",
-            "publicCode": "OGN-271/298"
-          }
+            "publicCode": "OGN-271/298",
+            "tcgplayerProductIds": [
+              660169
+            ]
+          },
+          "tcgplayer": {
+            "name": "Recruit (271) // Buff",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8382,8 +11533,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-272-298",
-            "publicCode": "OGN-272/298"
-          }
+            "publicCode": "OGN-272/298",
+            "tcgplayerProductIds": [
+              660170
+            ]
+          },
+          "tcgplayer": {
+            "name": "Recruit (272) // Buff",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8413,8 +11574,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-273-298",
-            "publicCode": "OGN-273/298"
-          }
+            "publicCode": "OGN-273/298",
+            "tcgplayerProductIds": [
+              660171
+            ]
+          },
+          "tcgplayer": {
+            "name": "Recruit (273) // Buff",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8444,8 +11615,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-274-298",
-            "publicCode": "OGN-274/298"
-          }
+            "publicCode": "OGN-274/298",
+            "tcgplayerProductIds": [
+              662994
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sprite (274) // Buff",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8468,8 +11649,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-275-298",
-            "publicCode": "OGN-275/298"
-          }
+            "publicCode": "OGN-275/298",
+            "tcgplayerProductIds": [
+              653069
+            ]
+          },
+          "tcgplayer": {
+            "name": "Altar to Unity",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8492,8 +11684,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-276-298",
-            "publicCode": "OGN-276/298"
-          }
+            "publicCode": "OGN-276/298",
+            "tcgplayerProductIds": [
+              653070
+            ]
+          },
+          "tcgplayer": {
+            "name": "Aspirant's Climb",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8516,8 +11719,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-277-298",
-            "publicCode": "OGN-277/298"
-          }
+            "publicCode": "OGN-277/298",
+            "tcgplayerProductIds": [
+              653071
+            ]
+          },
+          "tcgplayer": {
+            "name": "Back-Alley Bar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8540,8 +11754,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-278-298",
-            "publicCode": "OGN-278/298"
-          }
+            "publicCode": "OGN-278/298",
+            "tcgplayerProductIds": [
+              653072
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bandle Tree",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8564,8 +11789,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-279-298",
-            "publicCode": "OGN-279/298"
-          }
+            "publicCode": "OGN-279/298",
+            "tcgplayerProductIds": [
+              653073
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fortified Position",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8588,8 +11824,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-280-298",
-            "publicCode": "OGN-280/298"
-          }
+            "publicCode": "OGN-280/298",
+            "tcgplayerProductIds": [
+              653074
+            ]
+          },
+          "tcgplayer": {
+            "name": "Grove of the God-Willow",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8612,8 +11859,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-281-298",
-            "publicCode": "OGN-281/298"
-          }
+            "publicCode": "OGN-281/298",
+            "tcgplayerProductIds": [
+              653075
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hallowed Tomb",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8636,8 +11894,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-282-298",
-            "publicCode": "OGN-282/298"
-          }
+            "publicCode": "OGN-282/298",
+            "tcgplayerProductIds": [
+              653076
+            ]
+          },
+          "tcgplayer": {
+            "name": "Monastery of Hirana",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8660,8 +11929,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-283-298",
-            "publicCode": "OGN-283/298"
-          }
+            "publicCode": "OGN-283/298",
+            "tcgplayerProductIds": [
+              653077
+            ]
+          },
+          "tcgplayer": {
+            "name": "Navori Fighting Pit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8684,8 +11964,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-284-298",
-            "publicCode": "OGN-284/298"
-          }
+            "publicCode": "OGN-284/298",
+            "tcgplayerProductIds": [
+              653078
+            ]
+          },
+          "tcgplayer": {
+            "name": "Obelisk of Power",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8708,8 +11999,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-285-298",
-            "publicCode": "OGN-285/298"
-          }
+            "publicCode": "OGN-285/298",
+            "tcgplayerProductIds": [
+              653079
+            ]
+          },
+          "tcgplayer": {
+            "name": "Reaver's Row",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8732,8 +12034,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-286-298",
-            "publicCode": "OGN-286/298"
-          }
+            "publicCode": "OGN-286/298",
+            "tcgplayerProductIds": [
+              653080
+            ]
+          },
+          "tcgplayer": {
+            "name": "Reckoner's Arena",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8756,8 +12069,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-287-298",
-            "publicCode": "OGN-287/298"
-          }
+            "publicCode": "OGN-287/298",
+            "tcgplayerProductIds": [
+              653081
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sigil of the Storm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8780,8 +12104,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-288-298",
-            "publicCode": "OGN-288/298"
-          }
+            "publicCode": "OGN-288/298",
+            "tcgplayerProductIds": [
+              653082
+            ]
+          },
+          "tcgplayer": {
+            "name": "Startipped Peak",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8804,8 +12139,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-289-298",
-            "publicCode": "OGN-289/298"
-          }
+            "publicCode": "OGN-289/298",
+            "tcgplayerProductIds": [
+              653083
+            ]
+          },
+          "tcgplayer": {
+            "name": "Targon's Peak",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8828,8 +12174,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-290-298",
-            "publicCode": "OGN-290/298"
-          }
+            "publicCode": "OGN-290/298",
+            "tcgplayerProductIds": [
+              653084
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Arena's Greatest",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8852,8 +12209,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-291-298",
-            "publicCode": "OGN-291/298"
-          }
+            "publicCode": "OGN-291/298",
+            "tcgplayerProductIds": [
+              653085
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Candlelit Sanctum",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8876,8 +12244,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-292-298",
-            "publicCode": "OGN-292/298"
-          }
+            "publicCode": "OGN-292/298",
+            "tcgplayerProductIds": [
+              653086
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Dreaming Tree",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8900,8 +12279,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-293-298",
-            "publicCode": "OGN-293/298"
-          }
+            "publicCode": "OGN-293/298",
+            "tcgplayerProductIds": [
+              653087
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Grand Plaza",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8924,8 +12314,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-294-298",
-            "publicCode": "OGN-294/298"
-          }
+            "publicCode": "OGN-294/298",
+            "tcgplayerProductIds": [
+              653088
+            ]
+          },
+          "tcgplayer": {
+            "name": "Trifarian War Camp",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8948,8 +12349,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-295-298",
-            "publicCode": "OGN-295/298"
-          }
+            "publicCode": "OGN-295/298",
+            "tcgplayerProductIds": [
+              653089
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vilemaw's Lair",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8972,8 +12384,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-296-298",
-            "publicCode": "OGN-296/298"
-          }
+            "publicCode": "OGN-296/298",
+            "tcgplayerProductIds": [
+              653090
+            ]
+          },
+          "tcgplayer": {
+            "name": "Void Gate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -8996,8 +12419,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-297-298",
-            "publicCode": "OGN-297/298"
-          }
+            "publicCode": "OGN-297/298",
+            "tcgplayerProductIds": [
+              653091
+            ]
+          },
+          "tcgplayer": {
+            "name": "Windswept Hillock",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -9020,8 +12454,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-298-298",
-            "publicCode": "OGN-298/298"
-          }
+            "publicCode": "OGN-298/298",
+            "tcgplayerProductIds": [
+              653092
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zaun Warrens",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -9048,8 +12493,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-299-298",
-            "publicCode": "OGN-299/298"
-          }
+            "publicCode": "OGN-299/298",
+            "tcgplayerProductIds": [
+              653093
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Daughter of the Void (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-299*",
@@ -9063,8 +12518,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-299-star-298",
-            "publicCode": "OGN-299*/298"
-          }
+            "publicCode": "OGN-299*/298",
+            "tcgplayerProductIds": [
+              653094
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Daughter of the Void (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9091,8 +12556,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-300-298",
-            "publicCode": "OGN-300/298"
-          }
+            "publicCode": "OGN-300/298",
+            "tcgplayerProductIds": [
+              653095
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Relentless Storm (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-300*",
@@ -9106,8 +12581,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-300-star-298",
-            "publicCode": "OGN-300*/298"
-          }
+            "publicCode": "OGN-300*/298",
+            "tcgplayerProductIds": [
+              653096
+            ]
+          },
+          "tcgplayer": {
+            "name": "Volibear, Relentless Storm (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9134,8 +12619,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-301-298",
-            "publicCode": "OGN-301/298"
-          }
+            "publicCode": "OGN-301/298",
+            "tcgplayerProductIds": [
+              653097
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Loose Cannon (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-301*",
@@ -9149,8 +12644,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-301-star-298",
-            "publicCode": "OGN-301*/298"
-          }
+            "publicCode": "OGN-301*/298",
+            "tcgplayerProductIds": [
+              653098
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Loose Cannon (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9177,8 +12682,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-302-298",
-            "publicCode": "OGN-302/298"
-          }
+            "publicCode": "OGN-302/298",
+            "tcgplayerProductIds": [
+              653099
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Hand of Noxus (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-302*",
@@ -9192,8 +12707,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-302-star-298",
-            "publicCode": "OGN-302*/298"
-          }
+            "publicCode": "OGN-302*/298",
+            "tcgplayerProductIds": [
+              653100
+            ]
+          },
+          "tcgplayer": {
+            "name": "Darius, Hand of Noxus (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9220,8 +12745,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-303-298",
-            "publicCode": "OGN-303/298"
-          }
+            "publicCode": "OGN-303/298",
+            "tcgplayerProductIds": [
+              653101
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Nine-Tailed Fox (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-303*",
@@ -9235,8 +12770,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-303-star-298",
-            "publicCode": "OGN-303*/298"
-          }
+            "publicCode": "OGN-303*/298",
+            "tcgplayerProductIds": [
+              653102
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Nine-Tailed Fox (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9263,8 +12808,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-304-298",
-            "publicCode": "OGN-304/298"
-          }
+            "publicCode": "OGN-304/298",
+            "tcgplayerProductIds": [
+              653103
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Blind Monk (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-304*",
@@ -9278,8 +12833,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-304-star-298",
-            "publicCode": "OGN-304*/298"
-          }
+            "publicCode": "OGN-304*/298",
+            "tcgplayerProductIds": [
+              653104
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lee Sin, Blind Monk (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9306,8 +12871,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-305-298",
-            "publicCode": "OGN-305/298"
-          }
+            "publicCode": "OGN-305/298",
+            "tcgplayerProductIds": [
+              653105
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Unforgiven (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-305*",
@@ -9321,8 +12896,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-305-star-298",
-            "publicCode": "OGN-305*/298"
-          }
+            "publicCode": "OGN-305*/298",
+            "tcgplayerProductIds": [
+              653106
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yasuo, Unforgiven (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9349,8 +12934,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-306-298",
-            "publicCode": "OGN-306/298"
-          }
+            "publicCode": "OGN-306/298",
+            "tcgplayerProductIds": [
+              653107
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Radiant Dawn (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-306*",
@@ -9364,8 +12959,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-306-star-298",
-            "publicCode": "OGN-306*/298"
-          }
+            "publicCode": "OGN-306*/298",
+            "tcgplayerProductIds": [
+              653108
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Radiant Dawn (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9392,8 +12997,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-307-298",
-            "publicCode": "OGN-307/298"
-          }
+            "publicCode": "OGN-307/298",
+            "tcgplayerProductIds": [
+              653109
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Swift Scout (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-307*",
@@ -9407,8 +13022,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-307-star-298",
-            "publicCode": "OGN-307*/298"
-          }
+            "publicCode": "OGN-307*/298",
+            "tcgplayerProductIds": [
+              653110
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Swift Scout (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9435,8 +13060,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-308-298",
-            "publicCode": "OGN-308/298"
-          }
+            "publicCode": "OGN-308/298",
+            "tcgplayerProductIds": [
+              653111
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Herald of the Arcane (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-308*",
@@ -9450,8 +13085,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-308-star-298",
-            "publicCode": "OGN-308*/298"
-          }
+            "publicCode": "OGN-308*/298",
+            "tcgplayerProductIds": [
+              653112
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Herald of the Arcane (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9478,8 +13123,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-309-298",
-            "publicCode": "OGN-309/298"
-          }
+            "publicCode": "OGN-309/298",
+            "tcgplayerProductIds": [
+              653113
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Bounty Hunter (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-309*",
@@ -9493,8 +13148,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-309-star-298",
-            "publicCode": "OGN-309*/298"
-          }
+            "publicCode": "OGN-309*/298",
+            "tcgplayerProductIds": [
+              653114
+            ]
+          },
+          "tcgplayer": {
+            "name": "Miss Fortune, Bounty Hunter (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9521,8 +13186,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-310-298",
-            "publicCode": "OGN-310/298"
-          }
+            "publicCode": "OGN-310/298",
+            "tcgplayerProductIds": [
+              653115
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, The Boss (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "OGN-310*",
@@ -9536,8 +13211,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogn-310-star-298",
-            "publicCode": "OGN-310*/298"
-          }
+            "publicCode": "OGN-310*/298",
+            "tcgplayerProductIds": [
+              653116
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, The Boss (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     }

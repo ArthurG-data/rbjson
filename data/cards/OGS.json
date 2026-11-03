@@ -30,8 +30,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-001-024",
-            "publicCode": "OGS-001/024"
-          }
+            "publicCode": "OGS-001/024",
+            "tcgplayerProductIds": [
+              653136
+            ]
+          },
+          "tcgplayer": {
+            "name": "Annie, Fiery",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -56,8 +66,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-002-024",
-            "publicCode": "OGS-002/024"
-          }
+            "publicCode": "OGS-002/024",
+            "tcgplayerProductIds": [
+              653137
+            ]
+          },
+          "tcgplayer": {
+            "name": "Firestorm",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -81,8 +101,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-003-024",
-            "publicCode": "OGS-003/024"
-          }
+            "publicCode": "OGS-003/024",
+            "tcgplayerProductIds": [
+              653138
+            ]
+          },
+          "tcgplayer": {
+            "name": "Incinerate",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -116,8 +146,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-004-024",
-            "publicCode": "OGS-004/024"
-          }
+            "publicCode": "OGS-004/024",
+            "tcgplayerProductIds": [
+              653139
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Meditative",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -147,8 +187,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-005-024",
-            "publicCode": "OGS-005/024"
-          }
+            "publicCode": "OGS-005/024",
+            "tcgplayerProductIds": [
+              653140
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zephyr Sage",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -182,8 +232,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-006-024",
-            "publicCode": "OGS-006/024"
-          }
+            "publicCode": "OGS-006/024",
+            "tcgplayerProductIds": [
+              653141
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lux, Illuminated",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -218,8 +278,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-007-024",
-            "publicCode": "OGS-007/024"
-          }
+            "publicCode": "OGS-007/024",
+            "tcgplayerProductIds": [
+              653142
+            ]
+          },
+          "tcgplayer": {
+            "name": "Garen, Rugged",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -244,8 +314,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-008-024",
-            "publicCode": "OGS-008/024"
-          }
+            "publicCode": "OGS-008/024",
+            "tcgplayerProductIds": [
+              653143
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gentlemen's Duel",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -279,8 +359,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-009-024",
-            "publicCode": "OGS-009/024"
-          }
+            "publicCode": "OGS-009/024",
+            "tcgplayerProductIds": [
+              653144
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Honed",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -314,8 +404,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-010-024",
-            "publicCode": "OGS-010/024"
-          }
+            "publicCode": "OGS-010/024",
+            "tcgplayerProductIds": [
+              653145
+            ]
+          },
+          "tcgplayer": {
+            "name": "Annie, Stubborn",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -339,8 +439,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-011-024",
-            "publicCode": "OGS-011/024"
-          }
+            "publicCode": "OGS-011/024",
+            "tcgplayerProductIds": [
+              653146
+            ]
+          },
+          "tcgplayer": {
+            "name": "Flash",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -365,8 +475,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-012-024",
-            "publicCode": "OGS-012/024"
-          }
+            "publicCode": "OGS-012/024",
+            "tcgplayerProductIds": [
+              653147
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blast of Power",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -401,8 +521,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-013-024",
-            "publicCode": "OGS-013/024"
-          }
+            "publicCode": "OGS-013/024",
+            "tcgplayerProductIds": [
+              653148
+            ]
+          },
+          "tcgplayer": {
+            "name": "Garen, Commander",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -435,8 +565,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-014-024",
-            "publicCode": "OGS-014/024"
-          }
+            "publicCode": "OGS-014/024",
+            "tcgplayerProductIds": [
+              653149
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lux, Crownguard",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -460,8 +600,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-015-024",
-            "publicCode": "OGS-015/024"
-          }
+            "publicCode": "OGS-015/024",
+            "tcgplayerProductIds": [
+              653150
+            ]
+          },
+          "tcgplayer": {
+            "name": "Recruit the Vanguard",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -491,8 +641,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-016-024",
-            "publicCode": "OGS-016/024"
-          }
+            "publicCode": "OGS-016/024",
+            "tcgplayerProductIds": [
+              653151
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vanguard Attendant",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -523,8 +683,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-017-024",
-            "publicCode": "OGS-017/024"
-          }
+            "publicCode": "OGS-017/024",
+            "tcgplayerProductIds": [
+              653152
+            ]
+          },
+          "tcgplayer": {
+            "name": "Annie, Dark Child (Starter)",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -558,8 +728,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-018-024",
-            "publicCode": "OGS-018/024"
-          }
+            "publicCode": "OGS-018/024",
+            "tcgplayerProductIds": [
+              653153
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tibbers",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -590,8 +770,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-019-024",
-            "publicCode": "OGS-019/024"
-          }
+            "publicCode": "OGS-019/024",
+            "tcgplayerProductIds": [
+              653154
+            ]
+          },
+          "tcgplayer": {
+            "name": "Master Yi, Wuju Bladesman (Starter)",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -623,8 +813,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-020-024",
-            "publicCode": "OGS-020/024"
-          }
+            "publicCode": "OGS-020/024",
+            "tcgplayerProductIds": [
+              653155
+            ]
+          },
+          "tcgplayer": {
+            "name": "Highlander",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -655,8 +855,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-021-024",
-            "publicCode": "OGS-021/024"
-          }
+            "publicCode": "OGS-021/024",
+            "tcgplayerProductIds": [
+              653156
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lux, Lady of Luminosity (Starter)",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -688,8 +898,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-022-024",
-            "publicCode": "OGS-022/024"
-          }
+            "publicCode": "OGS-022/024",
+            "tcgplayerProductIds": [
+              653157
+            ]
+          },
+          "tcgplayer": {
+            "name": "Final Spark",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -720,8 +940,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-023-024",
-            "publicCode": "OGS-023/024"
-          }
+            "publicCode": "OGS-023/024",
+            "tcgplayerProductIds": [
+              653158
+            ]
+          },
+          "tcgplayer": {
+            "name": "Garen, Might of Demacia (Starter)",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -754,8 +984,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ogs-024-024",
-            "publicCode": "OGS-024/024"
-          }
+            "publicCode": "OGS-024/024",
+            "tcgplayerProductIds": [
+              653159
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decisive Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     }

@@ -24,8 +24,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-001-166",
-            "publicCode": "VEN-001/166"
-          }
+            "publicCode": "VEN-001/166",
+            "tcgplayerProductIds": [
+              707613
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baccai Sandspinner",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -54,8 +65,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-002-166",
-            "publicCode": "VEN-002/166"
-          }
+            "publicCode": "VEN-002/166",
+            "tcgplayerProductIds": [
+              706005
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blade Twirler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -80,8 +102,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-003-166",
-            "publicCode": "VEN-003/166"
-          }
+            "publicCode": "VEN-003/166",
+            "tcgplayerProductIds": [
+              707615
+            ]
+          },
+          "tcgplayer": {
+            "name": "Brittle Steel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -109,8 +142,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-004-166",
-            "publicCode": "VEN-004/166"
-          }
+            "publicCode": "VEN-004/166",
+            "tcgplayerProductIds": [
+              707633
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dune Surfer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -138,8 +182,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-005-166",
-            "publicCode": "VEN-005/166"
-          }
+            "publicCode": "VEN-005/166",
+            "tcgplayerProductIds": [
+              707638
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forsaken Baccai",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -167,8 +222,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-006-166",
-            "publicCode": "VEN-006/166"
-          }
+            "publicCode": "VEN-006/166",
+            "tcgplayerProductIds": [
+              706075
+            ]
+          },
+          "tcgplayer": {
+            "name": "Oasis Raider",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -197,8 +263,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-007-166",
-            "publicCode": "VEN-007/166"
-          }
+            "publicCode": "VEN-007/166",
+            "tcgplayerProductIds": [
+              706082
+            ]
+          },
+          "tcgplayer": {
+            "name": "Punching Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -222,8 +299,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-008-166",
-            "publicCode": "VEN-008/166"
-          }
+            "publicCode": "VEN-008/166",
+            "tcgplayerProductIds": [
+              707679
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ruthless Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -252,8 +340,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-009-166",
-            "publicCode": "VEN-009/166"
-          }
+            "publicCode": "VEN-009/166",
+            "tcgplayerProductIds": [
+              706004
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baccai Reaper",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -277,8 +376,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-010-166",
-            "publicCode": "VEN-010/166"
-          }
+            "publicCode": "VEN-010/166",
+            "tcgplayerProductIds": [
+              707619
+            ]
+          },
+          "tcgplayer": {
+            "name": "Consuming Curse",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -307,8 +417,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-011-166",
-            "publicCode": "VEN-011/166"
-          }
+            "publicCode": "VEN-011/166",
+            "tcgplayerProductIds": [
+              707667
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pendulum Blade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -333,8 +454,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-012-166",
-            "publicCode": "VEN-012/166"
-          }
+            "publicCode": "VEN-012/166",
+            "tcgplayerProductIds": [
+              706080
+            ]
+          },
+          "tcgplayer": {
+            "name": "Perfect Execution",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -362,8 +494,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-013-166",
-            "publicCode": "VEN-013/166"
-          }
+            "publicCode": "VEN-013/166",
+            "tcgplayerProductIds": [
+              706099
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Assassin",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -391,8 +534,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-014-166",
-            "publicCode": "VEN-014/166"
-          }
+            "publicCode": "VEN-014/166",
+            "tcgplayerProductIds": [
+              707684
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Fiend",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -417,8 +571,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-015-166",
-            "publicCode": "VEN-015/166"
-          }
+            "publicCode": "VEN-015/166",
+            "tcgplayerProductIds": [
+              707623
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decree of Rage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -447,8 +611,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-016-166",
-            "publicCode": "VEN-016/166"
-          }
+            "publicCode": "VEN-016/166",
+            "tcgplayerProductIds": [
+              706022
+            ]
+          },
+          "tcgplayer": {
+            "name": "Eclipse Dragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -482,8 +656,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-017-166",
-            "publicCode": "VEN-017/166"
-          }
+            "publicCode": "VEN-017/166",
+            "tcgplayerProductIds": [
+              706068
+            ]
+          },
+          "tcgplayer": {
+            "name": "Morgana, Vindictive",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -508,8 +692,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-018-166",
-            "publicCode": "VEN-018/166"
-          }
+            "publicCode": "VEN-018/166",
+            "tcgplayerProductIds": [
+              706084
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rage Amplifier",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -542,8 +736,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-019-166",
-            "publicCode": "VEN-019/166"
-          }
+            "publicCode": "VEN-019/166",
+            "tcgplayerProductIds": [
+              706089
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Rage Fueled",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-019a",
@@ -557,8 +761,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-019a-166",
-            "publicCode": "VEN-019a/166"
-          }
+            "publicCode": "VEN-019a/166",
+            "tcgplayerProductIds": [
+              706090
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Rage Fueled (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -586,8 +800,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-020-166",
-            "publicCode": "VEN-020/166"
-          }
+            "publicCode": "VEN-020/166",
+            "tcgplayerProductIds": [
+              707698
+            ]
+          },
+          "tcgplayer": {
+            "name": "Twilight Reveler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -620,8 +844,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-021-166",
-            "publicCode": "VEN-021/166"
-          }
+            "publicCode": "VEN-021/166",
+            "tcgplayerProductIds": [
+              705998
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Deadly Weapon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-021a",
@@ -635,8 +869,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-021a-166",
-            "publicCode": "VEN-021a/166"
-          }
+            "publicCode": "VEN-021a/166",
+            "tcgplayerProductIds": [
+              705997
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Deadly Weapon (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -661,8 +905,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-022-166",
-            "publicCode": "VEN-022/166"
-          }
+            "publicCode": "VEN-022/166",
+            "tcgplayerProductIds": [
+              707634
+            ]
+          },
+          "tcgplayer": {
+            "name": "Endless Riches",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -696,8 +950,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-023-166",
-            "publicCode": "VEN-023/166"
-          }
+            "publicCode": "VEN-023/166",
+            "tcgplayerProductIds": [
+              706122
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, From the Shadows",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-023a",
@@ -711,8 +975,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-023a-166",
-            "publicCode": "VEN-023a/166"
-          }
+            "publicCode": "VEN-023a/166",
+            "tcgplayerProductIds": [
+              706124
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, From the Shadows (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -741,8 +1015,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-024-166",
-            "publicCode": "VEN-024/166"
-          }
+            "publicCode": "VEN-024/166",
+            "tcgplayerProductIds": [
+              707606
+            ]
+          },
+          "tcgplayer": {
+            "name": "Affectionate Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -770,8 +1055,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-025-166",
-            "publicCode": "VEN-025/166"
-          }
+            "publicCode": "VEN-025/166",
+            "tcgplayerProductIds": [
+              706023
+            ]
+          },
+          "tcgplayer": {
+            "name": "Esteemed Hierophant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -799,8 +1095,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-026-166",
-            "publicCode": "VEN-026/166"
-          }
+            "publicCode": "VEN-026/166",
+            "tcgplayerProductIds": [
+              706027
+            ]
+          },
+          "tcgplayer": {
+            "name": "Field Musicians",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -829,8 +1136,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-027-166",
-            "publicCode": "VEN-027/166"
-          }
+            "publicCode": "VEN-027/166",
+            "tcgplayerProductIds": [
+              707643
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hand Hammer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -859,8 +1177,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-028-166",
-            "publicCode": "VEN-028/166"
-          }
+            "publicCode": "VEN-028/166",
+            "tcgplayerProductIds": [
+              706069
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mournful Witness",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -889,8 +1218,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-029-166",
-            "publicCode": "VEN-029/166"
-          }
+            "publicCode": "VEN-029/166",
+            "tcgplayerProductIds": [
+              706077
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ol' Poro",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -918,8 +1258,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-030-166",
-            "publicCode": "VEN-030/166"
-          }
+            "publicCode": "VEN-030/166",
+            "tcgplayerProductIds": [
+              707682
+            ]
+          },
+          "tcgplayer": {
+            "name": "Serene Ascetic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -943,8 +1294,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-031-166",
-            "publicCode": "VEN-031/166"
-          }
+            "publicCode": "VEN-031/166",
+            "tcgplayerProductIds": [
+              706117
+            ]
+          },
+          "tcgplayer": {
+            "name": "Twilight Shroud",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -973,8 +1335,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-032-166",
-            "publicCode": "VEN-032/166"
-          }
+            "publicCode": "VEN-032/166",
+            "tcgplayerProductIds": [
+              707640
+            ]
+          },
+          "tcgplayer": {
+            "name": "Frostcoat Mother",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1003,8 +1376,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-033-166",
-            "publicCode": "VEN-033/166"
-          }
+            "publicCode": "VEN-033/166",
+            "tcgplayerProductIds": [
+              707666
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pakaa Protector",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1029,8 +1413,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-034-166",
-            "publicCode": "VEN-034/166"
-          }
+            "publicCode": "VEN-034/166",
+            "tcgplayerProductIds": [
+              707677
+            ]
+          },
+          "tcgplayer": {
+            "name": "Resonating Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1055,8 +1450,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-035-166",
-            "publicCode": "VEN-035/166"
-          }
+            "publicCode": "VEN-035/166",
+            "tcgplayerProductIds": [
+              707680
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sanction",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1085,8 +1491,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-036-166",
-            "publicCode": "VEN-036/166"
-          }
+            "publicCode": "VEN-036/166",
+            "tcgplayerProductIds": [
+              707681
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sandstone Chimera",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1114,8 +1531,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-037-166",
-            "publicCode": "VEN-037/166"
-          }
+            "publicCode": "VEN-037/166",
+            "tcgplayerProductIds": [
+              706115
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tomb-Raider Barbara",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1149,8 +1577,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-038-166",
-            "publicCode": "VEN-038/166"
-          }
+            "publicCode": "VEN-038/166",
+            "tcgplayerProductIds": [
+              706000
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Silent",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-038a",
@@ -1164,8 +1602,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-038a-166",
-            "publicCode": "VEN-038a/166"
-          }
+            "publicCode": "VEN-038a/166",
+            "tcgplayerProductIds": [
+              705999
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Silent (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1190,8 +1638,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-039-166",
-            "publicCode": "VEN-039/166"
-          }
+            "publicCode": "VEN-039/166",
+            "tcgplayerProductIds": [
+              707621
+            ]
+          },
+          "tcgplayer": {
+            "name": "Crumbling Sands",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1215,8 +1673,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-040-166",
-            "publicCode": "VEN-040/166"
-          }
+            "publicCode": "VEN-040/166",
+            "tcgplayerProductIds": [
+              707622
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decree of Focus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1250,8 +1718,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-041-166",
-            "publicCode": "VEN-041/166"
-          }
+            "publicCode": "VEN-041/166",
+            "tcgplayerProductIds": [
+              706093
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Shattered",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1285,8 +1763,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-042-166",
-            "publicCode": "VEN-042/166"
-          }
+            "publicCode": "VEN-042/166",
+            "tcgplayerProductIds": [
+              706106
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Scourge of Shadows",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-042a",
@@ -1300,8 +1788,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-042a-166",
-            "publicCode": "VEN-042a/166"
-          }
+            "publicCode": "VEN-042a/166",
+            "tcgplayerProductIds": [
+              706105
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Scourge of Shadows (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1330,8 +1828,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-043-166",
-            "publicCode": "VEN-043/166"
-          }
+            "publicCode": "VEN-043/166",
+            "tcgplayerProductIds": [
+              706113
+            ]
+          },
+          "tcgplayer": {
+            "name": "Steel Paws",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1360,8 +1868,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-044-166",
-            "publicCode": "VEN-044/166"
-          }
+            "publicCode": "VEN-044/166",
+            "tcgplayerProductIds": [
+              707611
+            ]
+          },
+          "tcgplayer": {
+            "name": "Astral Heron",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1386,8 +1904,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-045-166",
-            "publicCode": "VEN-045/166"
-          }
+            "publicCode": "VEN-045/166",
+            "tcgplayerProductIds": [
+              707644
+            ]
+          },
+          "tcgplayer": {
+            "name": "Helm of Suppression",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1422,8 +1950,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-046-166",
-            "publicCode": "VEN-046/166"
-          }
+            "publicCode": "VEN-046/166",
+            "tcgplayerProductIds": [
+              706070
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Ascended",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-046a",
@@ -1437,8 +1975,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-046a-166",
-            "publicCode": "VEN-046a/166"
-          }
+            "publicCode": "VEN-046a/166",
+            "tcgplayerProductIds": [
+              706071
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Ascended (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1466,8 +2014,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-047-166",
-            "publicCode": "VEN-047/166"
-          }
+            "publicCode": "VEN-047/166",
+            "tcgplayerProductIds": [
+              706003
+            ]
+          },
+          "tcgplayer": {
+            "name": "Apprentice Mage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1496,8 +2055,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-048-166",
-            "publicCode": "VEN-048/166"
-          }
+            "publicCode": "VEN-048/166",
+            "tcgplayerProductIds": [
+              706012
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cloud Drake",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1521,8 +2091,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-049-166",
-            "publicCode": "VEN-049/166"
-          }
+            "publicCode": "VEN-049/166",
+            "tcgplayerProductIds": [
+              707632
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dredge Up",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1550,8 +2131,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-050-166",
-            "publicCode": "VEN-050/166"
-          }
+            "publicCode": "VEN-050/166",
+            "tcgplayerProductIds": [
+              707641
+            ]
+          },
+          "tcgplayer": {
+            "name": "Grumpy Rockbear",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1575,8 +2167,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-051-166",
-            "publicCode": "VEN-051/166"
-          }
+            "publicCode": "VEN-051/166",
+            "tcgplayerProductIds": [
+              707647
+            ]
+          },
+          "tcgplayer": {
+            "name": "Iterative Design",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1601,8 +2204,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-052-166",
-            "publicCode": "VEN-052/166"
-          }
+            "publicCode": "VEN-052/166",
+            "tcgplayerProductIds": [
+              706066
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mesmerize",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1630,8 +2244,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-053-166",
-            "publicCode": "VEN-053/166"
-          }
+            "publicCode": "VEN-053/166",
+            "tcgplayerProductIds": [
+              707665
+            ]
+          },
+          "tcgplayer": {
+            "name": "Otterpus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1655,8 +2280,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-054-166",
-            "publicCode": "VEN-054/166"
-          }
+            "publicCode": "VEN-054/166",
+            "tcgplayerProductIds": [
+              706083
+            ]
+          },
+          "tcgplayer": {
+            "name": "Questionable Tome",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1684,8 +2320,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-055-166",
-            "publicCode": "VEN-055/166"
-          }
+            "publicCode": "VEN-055/166",
+            "tcgplayerProductIds": [
+              707610
+            ]
+          },
+          "tcgplayer": {
+            "name": "Applied Researchers",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1709,8 +2356,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-056-166",
-            "publicCode": "VEN-056/166"
-          }
+            "publicCode": "VEN-056/166",
+            "tcgplayerProductIds": [
+              707618
+            ]
+          },
+          "tcgplayer": {
+            "name": "Clairvoyance",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1739,8 +2397,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-057-166",
-            "publicCode": "VEN-057/166"
-          }
+            "publicCode": "VEN-057/166",
+            "tcgplayerProductIds": [
+              707620
+            ]
+          },
+          "tcgplayer": {
+            "name": "Covert Informant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1770,8 +2439,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-058-166",
-            "publicCode": "VEN-058/166"
-          }
+            "publicCode": "VEN-058/166",
+            "tcgplayerProductIds": [
+              706079
+            ]
+          },
+          "tcgplayer": {
+            "name": "Patched Porobot",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1796,8 +2476,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-059-166",
-            "publicCode": "VEN-059/166"
-          }
+            "publicCode": "VEN-059/166",
+            "tcgplayerProductIds": [
+              707688
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shock Blast",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1826,8 +2517,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-060-166",
-            "publicCode": "VEN-060/166"
-          }
+            "publicCode": "VEN-060/166",
+            "tcgplayerProductIds": [
+              706109
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sky Cruiser",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1851,8 +2553,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-061-166",
-            "publicCode": "VEN-061/166"
-          }
+            "publicCode": "VEN-061/166",
+            "tcgplayerProductIds": [
+              706019
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decree of Insight",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1876,8 +2588,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-062-166",
-            "publicCode": "VEN-062/166"
-          }
+            "publicCode": "VEN-062/166",
+            "tcgplayerProductIds": [
+              706037
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hextech Formula",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1912,8 +2634,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-063-166",
-            "publicCode": "VEN-063/166"
-          }
+            "publicCode": "VEN-063/166",
+            "tcgplayerProductIds": [
+              706072
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Guardian of Knowledge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-063a",
@@ -1927,8 +2659,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-063a-166",
-            "publicCode": "VEN-063a/166"
-          }
+            "publicCode": "VEN-063a/166",
+            "tcgplayerProductIds": [
+              706073
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Guardian of Knowledge (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1957,8 +2699,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-064-166",
-            "publicCode": "VEN-064/166"
-          }
+            "publicCode": "VEN-064/166",
+            "tcgplayerProductIds": [
+              707669
+            ]
+          },
+          "tcgplayer": {
+            "name": "Plaza Guardian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1993,8 +2745,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-065-166",
-            "publicCode": "VEN-065/166"
-          }
+            "publicCode": "VEN-065/166",
+            "tcgplayerProductIds": [
+              707694
+            ]
+          },
+          "tcgplayer": {
+            "name": "Swain, Visionary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2019,8 +2781,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-066-166",
-            "publicCode": "VEN-066/166"
-          }
+            "publicCode": "VEN-066/166",
+            "tcgplayerProductIds": [
+              706114
+            ]
+          },
+          "tcgplayer": {
+            "name": "Temporal Breach",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2045,8 +2817,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-067-166",
-            "publicCode": "VEN-067/166"
-          }
+            "publicCode": "VEN-067/166",
+            "tcgplayerProductIds": [
+              706007
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bottled Constellation",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2080,8 +2862,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-068-166",
-            "publicCode": "VEN-068/166"
-          }
+            "publicCode": "VEN-068/166",
+            "tcgplayerProductIds": [
+              706042
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Brilliant Inventor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-068a",
@@ -2095,8 +2887,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-068a-166",
-            "publicCode": "VEN-068a/166"
-          }
+            "publicCode": "VEN-068a/166",
+            "tcgplayerProductIds": [
+              706043
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Brilliant Inventor (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2130,8 +2932,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-069-166",
-            "publicCode": "VEN-069/166"
-          }
+            "publicCode": "VEN-069/166",
+            "tcgplayerProductIds": [
+              706064
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Newly Awakened",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-069a",
@@ -2145,8 +2957,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-069a-166",
-            "publicCode": "VEN-069a/166"
-          }
+            "publicCode": "VEN-069a/166",
+            "tcgplayerProductIds": [
+              706065
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Newly Awakened (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2175,8 +2997,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-070-166",
-            "publicCode": "VEN-070/166"
-          }
+            "publicCode": "VEN-070/166",
+            "tcgplayerProductIds": [
+              707616
+            ]
+          },
+          "tcgplayer": {
+            "name": "Brutal Hunter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2205,8 +3038,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-071-166",
-            "publicCode": "VEN-071/166"
-          }
+            "publicCode": "VEN-071/166",
+            "tcgplayerProductIds": [
+              707639
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fretful Feline",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2230,8 +3074,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-072-166",
-            "publicCode": "VEN-072/166"
-          }
+            "publicCode": "VEN-072/166",
+            "tcgplayerProductIds": [
+              707642
+            ]
+          },
+          "tcgplayer": {
+            "name": "Guttural Roar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2260,8 +3115,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-073-166",
-            "publicCode": "VEN-073/166"
-          }
+            "publicCode": "VEN-073/166",
+            "tcgplayerProductIds": [
+              706041
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jagged Cutlass",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2290,8 +3156,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-074-166",
-            "publicCode": "VEN-074/166"
-          }
+            "publicCode": "VEN-074/166",
+            "tcgplayerProductIds": [
+              707654
+            ]
+          },
+          "tcgplayer": {
+            "name": "Legion Marauder",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2315,8 +3192,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-075-166",
-            "publicCode": "VEN-075/166"
-          }
+            "publicCode": "VEN-075/166",
+            "tcgplayerProductIds": [
+              707668
+            ]
+          },
+          "tcgplayer": {
+            "name": "Platewyrm Egg",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2344,8 +3232,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-076-166",
-            "publicCode": "VEN-076/166"
-          }
+            "publicCode": "VEN-076/166",
+            "tcgplayerProductIds": [
+              707676
+            ]
+          },
+          "tcgplayer": {
+            "name": "Repair Specialist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2369,8 +3268,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-077-166",
-            "publicCode": "VEN-077/166"
-          }
+            "publicCode": "VEN-077/166",
+            "tcgplayerProductIds": [
+              706116
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tools of Empire",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2398,8 +3308,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-078-166",
-            "publicCode": "VEN-078/166"
-          }
+            "publicCode": "VEN-078/166",
+            "tcgplayerProductIds": [
+              707614
+            ]
+          },
+          "tcgplayer": {
+            "name": "Baccai Witherclaw",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2427,8 +3348,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-079-166",
-            "publicCode": "VEN-079/166"
-          }
+            "publicCode": "VEN-079/166",
+            "tcgplayerProductIds": [
+              706016
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dame the Despoiler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2456,8 +3388,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-080-166",
-            "publicCode": "VEN-080/166"
-          }
+            "publicCode": "VEN-080/166",
+            "tcgplayerProductIds": [
+              706074
+            ]
+          },
+          "tcgplayer": {
+            "name": "Noxian Demolitionist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2481,8 +3424,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-081-166",
-            "publicCode": "VEN-081/166"
-          }
+            "publicCode": "VEN-081/166",
+            "tcgplayerProductIds": [
+              707664
+            ]
+          },
+          "tcgplayer": {
+            "name": "Onslaught",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2510,8 +3464,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-082-166",
-            "publicCode": "VEN-082/166"
-          }
+            "publicCode": "VEN-082/166",
+            "tcgplayerProductIds": [
+              707670
+            ]
+          },
+          "tcgplayer": {
+            "name": "Profiteer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2535,8 +3500,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-083-166",
-            "publicCode": "VEN-083/166"
-          }
+            "publicCode": "VEN-083/166",
+            "tcgplayerProductIds": [
+              706085
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rampage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2569,8 +3545,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-084-166",
-            "publicCode": "VEN-084/166"
-          }
+            "publicCode": "VEN-084/166",
+            "tcgplayerProductIds": [
+              707608
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, The Wolf",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-084a",
@@ -2584,8 +3570,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-084a-166",
-            "publicCode": "VEN-084a/166"
-          }
+            "publicCode": "VEN-084a/166",
+            "tcgplayerProductIds": [
+              707609
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, The Wolf (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2609,8 +3605,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-085-166",
-            "publicCode": "VEN-085/166"
-          }
+            "publicCode": "VEN-085/166",
+            "tcgplayerProductIds": [
+              707624
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decree of Strength",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2643,8 +3649,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-086-166",
-            "publicCode": "VEN-086/166"
-          }
+            "publicCode": "VEN-086/166",
+            "tcgplayerProductIds": [
+              706030
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gangplank, Naval",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2669,8 +3685,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-087-166",
-            "publicCode": "VEN-087/166"
-          }
+            "publicCode": "VEN-087/166",
+            "tcgplayerProductIds": [
+              706036
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hextech Disc",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2704,8 +3730,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-088-166",
-            "publicCode": "VEN-088/166"
-          }
+            "publicCode": "VEN-088/166",
+            "tcgplayerProductIds": [
+              706044
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Hammer in Hand",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-088a",
@@ -2719,8 +3755,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-088a-166",
-            "publicCode": "VEN-088a/166"
-          }
+            "publicCode": "VEN-088a/166",
+            "tcgplayerProductIds": [
+              706045
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Hammer in Hand (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2745,8 +3791,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-089-166",
-            "publicCode": "VEN-089/166"
-          }
+            "publicCode": "VEN-089/166",
+            "tcgplayerProductIds": [
+              706120
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wild Claw",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2771,8 +3827,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-090-166",
-            "publicCode": "VEN-090/166"
-          }
+            "publicCode": "VEN-090/166",
+            "tcgplayerProductIds": [
+              707617
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cataclysmic Duel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2802,8 +3868,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-091-166",
-            "publicCode": "VEN-091/166"
-          }
+            "publicCode": "VEN-091/166",
+            "tcgplayerProductIds": [
+              706013
+            ]
+          },
+          "tcgplayer": {
+            "name": "Corrupted Dragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2836,8 +3912,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-092-166",
-            "publicCode": "VEN-092/166"
-          }
+            "publicCode": "VEN-092/166",
+            "tcgplayerProductIds": [
+              707674
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Brute",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-092a",
@@ -2851,8 +3937,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-092a-166",
-            "publicCode": "VEN-092a/166"
-          }
+            "publicCode": "VEN-092a/166",
+            "tcgplayerProductIds": [
+              707673
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Brute (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2880,8 +3976,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-093-166",
-            "publicCode": "VEN-093/166"
-          }
+            "publicCode": "VEN-093/166",
+            "tcgplayerProductIds": [
+              706054
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kinkou Lifeblade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2910,8 +4017,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-094-166",
-            "publicCode": "VEN-094/166"
-          }
+            "publicCode": "VEN-094/166",
+            "tcgplayerProductIds": [
+              707657
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mask Mother",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2939,8 +4057,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-095-166",
-            "publicCode": "VEN-095/166"
-          }
+            "publicCode": "VEN-095/166",
+            "tcgplayerProductIds": [
+              706100
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Order Disciple",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2968,8 +4097,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-096-166",
-            "publicCode": "VEN-096/166"
-          }
+            "publicCode": "VEN-096/166",
+            "tcgplayerProductIds": [
+              707686
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadowblade Lurker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2998,8 +4138,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-097-166",
-            "publicCode": "VEN-097/166"
-          }
+            "publicCode": "VEN-097/166",
+            "tcgplayerProductIds": [
+              707691
+            ]
+          },
+          "tcgplayer": {
+            "name": "Spiderling",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3027,8 +4178,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-098-166",
-            "publicCode": "VEN-098/166"
-          }
+            "publicCode": "VEN-098/166",
+            "tcgplayerProductIds": [
+              707692
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stargazer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3057,8 +4219,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-099-166",
-            "publicCode": "VEN-099/166"
-          }
+            "publicCode": "VEN-099/166",
+            "tcgplayerProductIds": [
+              707697
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tornado Warrior",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3082,8 +4255,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-100-166",
-            "publicCode": "VEN-100/166"
-          }
+            "publicCode": "VEN-100/166",
+            "tcgplayerProductIds": [
+              707700
+            ]
+          },
+          "tcgplayer": {
+            "name": "Up from the Deep",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3112,8 +4296,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-101-166",
-            "publicCode": "VEN-101/166"
-          }
+            "publicCode": "VEN-101/166",
+            "tcgplayerProductIds": [
+              706032
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gust Monk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3141,8 +4336,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-102-166",
-            "publicCode": "VEN-102/166"
-          }
+            "publicCode": "VEN-102/166",
+            "tcgplayerProductIds": [
+              706086
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ravenbloom Prefect",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3167,8 +4373,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-103-166",
-            "publicCode": "VEN-103/166"
-          }
+            "publicCode": "VEN-103/166",
+            "tcgplayerProductIds": [
+              706101
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadows of the Past",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3196,8 +4413,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-104-166",
-            "publicCode": "VEN-104/166"
-          }
+            "publicCode": "VEN-104/166",
+            "tcgplayerProductIds": [
+              707695
+            ]
+          },
+          "tcgplayer": {
+            "name": "Tail-Cloaked Matriarch",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3222,8 +4450,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-105-166",
-            "publicCode": "VEN-105/166"
-          }
+            "publicCode": "VEN-105/166",
+            "tcgplayerProductIds": [
+              707699
+            ]
+          },
+          "tcgplayer": {
+            "name": "Twilight Step",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3248,8 +4487,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-106-166",
-            "publicCode": "VEN-106/166"
-          }
+            "publicCode": "VEN-106/166",
+            "tcgplayerProductIds": [
+              706121
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wind and Ghosts",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3274,8 +4524,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-107-166",
-            "publicCode": "VEN-107/166"
-          }
+            "publicCode": "VEN-107/166",
+            "tcgplayerProductIds": [
+              706018
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decree of Discord",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3299,8 +4559,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-108-166",
-            "publicCode": "VEN-108/166"
-          }
+            "publicCode": "VEN-108/166",
+            "tcgplayerProductIds": [
+              707637
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forgotten Relic",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3333,8 +4603,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-109-166",
-            "publicCode": "VEN-109/166"
-          }
+            "publicCode": "VEN-109/166",
+            "tcgplayerProductIds": [
+              706040
+            ]
+          },
+          "tcgplayer": {
+            "name": "Illaoi, Prophet of the Great Kraken",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3367,8 +4647,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-110-166",
-            "publicCode": "VEN-110/166"
-          }
+            "publicCode": "VEN-110/166",
+            "tcgplayerProductIds": [
+              706063
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Defiant Soul",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-110a",
@@ -3382,8 +4672,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-110a-166",
-            "publicCode": "VEN-110a/166"
-          }
+            "publicCode": "VEN-110a/166",
+            "tcgplayerProductIds": [
+              706062
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Defiant Soul (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3412,8 +4712,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-111-166",
-            "publicCode": "VEN-111/166"
-          }
+            "publicCode": "VEN-111/166",
+            "tcgplayerProductIds": [
+              707659
+            ]
+          },
+          "tcgplayer": {
+            "name": "Minah Swiftfoot",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3446,8 +4756,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-112-166",
-            "publicCode": "VEN-112/166"
-          }
+            "publicCode": "VEN-112/166",
+            "tcgplayerProductIds": [
+              706125
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, Without a Sound",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-112a",
@@ -3461,8 +4781,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-112a-166",
-            "publicCode": "VEN-112a/166"
-          }
+            "publicCode": "VEN-112a/166",
+            "tcgplayerProductIds": [
+              706126
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, Without a Sound (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3496,8 +4826,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-113-166",
-            "publicCode": "VEN-113/166"
-          }
+            "publicCode": "VEN-113/166",
+            "tcgplayerProductIds": [
+              706051
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Storm of Shuriken",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-113a",
@@ -3511,8 +4851,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-113a-166",
-            "publicCode": "VEN-113a/166"
-          }
+            "publicCode": "VEN-113a/166",
+            "tcgplayerProductIds": [
+              707651
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Storm of Shuriken (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3541,8 +4891,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-114-166",
-            "publicCode": "VEN-114/166"
-          }
+            "publicCode": "VEN-114/166",
+            "tcgplayerProductIds": [
+              707652
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kharox",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3572,8 +4932,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-115-166",
-            "publicCode": "VEN-115/166"
-          }
+            "publicCode": "VEN-115/166",
+            "tcgplayerProductIds": [
+              706076
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ocean Drake",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3597,8 +4967,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-116-166",
-            "publicCode": "VEN-116/166"
-          }
+            "publicCode": "VEN-116/166",
+            "tcgplayerProductIds": [
+              707629
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dragon Form",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3626,8 +5007,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-117-166",
-            "publicCode": "VEN-117/166"
-          }
+            "publicCode": "VEN-117/166",
+            "tcgplayerProductIds": [
+              707628
+            ]
+          },
+          "tcgplayer": {
+            "name": "Disciple of Shen",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3655,8 +5047,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-118-166",
-            "publicCode": "VEN-118/166"
-          }
+            "publicCode": "VEN-118/166",
+            "tcgplayerProductIds": [
+              706038
+            ]
+          },
+          "tcgplayer": {
+            "name": "Horns of the Dragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3685,8 +5088,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-119-166",
-            "publicCode": "VEN-119/166"
-          }
+            "publicCode": "VEN-119/166",
+            "tcgplayerProductIds": [
+              706048
+            ]
+          },
+          "tcgplayer": {
+            "name": "Keeper of Law",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3715,8 +5129,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-120-166",
-            "publicCode": "VEN-120/166"
-          }
+            "publicCode": "VEN-120/166",
+            "tcgplayerProductIds": [
+              707656
+            ]
+          },
+          "tcgplayer": {
+            "name": "Masa, Crashing Thunder",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3745,8 +5170,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-121-166",
-            "publicCode": "VEN-121/166"
-          }
+            "publicCode": "VEN-121/166",
+            "tcgplayerProductIds": [
+              706088
+            ]
+          },
+          "tcgplayer": {
+            "name": "Reluctant Leader",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3775,8 +5211,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-122-166",
-            "publicCode": "VEN-122/166"
-          }
+            "publicCode": "VEN-122/166",
+            "tcgplayerProductIds": [
+              707689
+            ]
+          },
+          "tcgplayer": {
+            "name": "Solari Sunhawk",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3805,8 +5252,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-123-166",
-            "publicCode": "VEN-123/166"
-          }
+            "publicCode": "VEN-123/166",
+            "tcgplayerProductIds": [
+              707690
+            ]
+          },
+          "tcgplayer": {
+            "name": "Soulspinner",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3834,8 +5292,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-124-166",
-            "publicCode": "VEN-124/166"
-          }
+            "publicCode": "VEN-124/166",
+            "tcgplayerProductIds": [
+              707635
+            ]
+          },
+          "tcgplayer": {
+            "name": "Escaped Grayback",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3864,8 +5333,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-125-166",
-            "publicCode": "VEN-125/166"
-          }
+            "publicCode": "VEN-125/166",
+            "tcgplayerProductIds": [
+              707645
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hungry Wolf",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3890,8 +5370,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-126-166",
-            "publicCode": "VEN-126/166"
-          }
+            "publicCode": "VEN-126/166",
+            "tcgplayerProductIds": [
+              706053
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ki Barrier",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3916,8 +5407,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-127-166",
-            "publicCode": "VEN-127/166"
-          }
+            "publicCode": "VEN-127/166",
+            "tcgplayerProductIds": [
+              706055
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lacerate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3945,8 +5447,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-128-166",
-            "publicCode": "VEN-128/166"
-          }
+            "publicCode": "VEN-128/166",
+            "tcgplayerProductIds": [
+              707663
+            ]
+          },
+          "tcgplayer": {
+            "name": "Noxian Emissary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3976,8 +5489,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-129-166",
-            "publicCode": "VEN-129/166"
-          }
+            "publicCode": "VEN-129/166",
+            "tcgplayerProductIds": [
+              706096
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sacred Protector",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4006,8 +5530,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-130-166",
-            "publicCode": "VEN-130/166"
-          }
+            "publicCode": "VEN-130/166",
+            "tcgplayerProductIds": [
+              707612
+            ]
+          },
+          "tcgplayer": {
+            "name": "Aurok General",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4032,8 +5566,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-131-166",
-            "publicCode": "VEN-131/166"
-          }
+            "publicCode": "VEN-131/166",
+            "tcgplayerProductIds": [
+              707625
+            ]
+          },
+          "tcgplayer": {
+            "name": "Decree of Unity",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4063,8 +5607,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-132-166",
-            "publicCode": "VEN-132/166"
-          }
+            "publicCode": "VEN-132/166",
+            "tcgplayerProductIds": [
+              707636
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fallen Feline",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4088,8 +5642,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-133-166",
-            "publicCode": "VEN-133/166"
-          }
+            "publicCode": "VEN-133/166",
+            "tcgplayerProductIds": [
+              706031
+            ]
+          },
+          "tcgplayer": {
+            "name": "Glowstone",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4122,8 +5686,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-134-166",
-            "publicCode": "VEN-134/166"
-          }
+            "publicCode": "VEN-134/166",
+            "tcgplayerProductIds": [
+              707649
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kayle, Justified",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4157,8 +5731,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-135-166",
-            "publicCode": "VEN-135/166"
-          }
+            "publicCode": "VEN-135/166",
+            "tcgplayerProductIds": [
+              706050
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Keeper of Balance",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-135a",
@@ -4172,8 +5756,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-135a-166",
-            "publicCode": "VEN-135a/166"
-          }
+            "publicCode": "VEN-135a/166",
+            "tcgplayerProductIds": [
+              706049
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Keeper of Balance (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4206,8 +5800,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-136-166",
-            "publicCode": "VEN-136/166"
-          }
+            "publicCode": "VEN-136/166",
+            "tcgplayerProductIds": [
+              706001
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, Respected and Feared",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-136a",
@@ -4221,8 +5825,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-136a-166",
-            "publicCode": "VEN-136a/166"
-          }
+            "publicCode": "VEN-136a/166",
+            "tcgplayerProductIds": [
+              706002
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, Respected and Feared (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4251,8 +5865,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-137-166",
-            "publicCode": "VEN-137/166"
-          }
+            "publicCode": "VEN-137/166",
+            "tcgplayerProductIds": [
+              706102
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shady Spectacles",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4286,8 +5910,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-138-166",
-            "publicCode": "VEN-138/166"
-          }
+            "publicCode": "VEN-138/166",
+            "tcgplayerProductIds": [
+              706104
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Leader of the Kinkou Order",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-138a",
@@ -4301,8 +5935,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-138a-166",
-            "publicCode": "VEN-138a/166"
-          }
+            "publicCode": "VEN-138a/166",
+            "tcgplayerProductIds": [
+              706103
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Leader of the Kinkou Order (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4329,8 +5973,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-139-166",
-            "publicCode": "VEN-139/166"
-          }
+            "publicCode": "VEN-139/166",
+            "tcgplayerProductIds": [
+              706094
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Rogue Assassin",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4362,8 +6016,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-140-166",
-            "publicCode": "VEN-140/166"
-          }
+            "publicCode": "VEN-140/166",
+            "tcgplayerProductIds": [
+              706107
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shuriken Flip",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4390,8 +6054,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-141-166",
-            "publicCode": "VEN-141/166"
-          }
+            "publicCode": "VEN-141/166",
+            "tcgplayerProductIds": [
+              706008
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Butcher of the Sands",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4422,8 +6096,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-142-166",
-            "publicCode": "VEN-142/166"
-          }
+            "publicCode": "VEN-142/166",
+            "tcgplayerProductIds": [
+              706021
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dominus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4450,8 +6134,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-143-166",
-            "publicCode": "VEN-143/166"
-          }
+            "publicCode": "VEN-143/166",
+            "tcgplayerProductIds": [
+              706058
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, Master of Shadows",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4483,8 +6177,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-144-166",
-            "publicCode": "VEN-144/166"
-          }
+            "publicCode": "VEN-144/166",
+            "tcgplayerProductIds": [
+              706017
+            ]
+          },
+          "tcgplayer": {
+            "name": "Death Mark",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4511,8 +6215,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-145-166",
-            "publicCode": "VEN-145/166"
-          }
+            "publicCode": "VEN-145/166",
+            "tcgplayerProductIds": [
+              706015
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Curator of the Sands",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4543,8 +6257,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-146-166",
-            "publicCode": "VEN-146/166"
-          }
+            "publicCode": "VEN-146/166",
+            "tcgplayerProductIds": [
+              706108
+            ]
+          },
+          "tcgplayer": {
+            "name": "Siphoning Strike",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4571,8 +6295,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-147-166",
-            "publicCode": "VEN-147/166"
-          }
+            "publicCode": "VEN-147/166",
+            "tcgplayerProductIds": [
+              706025
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Eye of Twilight",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4604,8 +6338,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-148-166",
-            "publicCode": "VEN-148/166"
-          }
+            "publicCode": "VEN-148/166",
+            "tcgplayerProductIds": [
+              707683
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Dash",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4632,8 +6376,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-149-166",
-            "publicCode": "VEN-149/166"
-          }
+            "publicCode": "VEN-149/166",
+            "tcgplayerProductIds": [
+              706020
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Defender of Tomorrow",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4665,8 +6419,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-150-166",
-            "publicCode": "VEN-150/166"
-          }
+            "publicCode": "VEN-150/166",
+            "tcgplayerProductIds": [
+              707605
+            ]
+          },
+          "tcgplayer": {
+            "name": "Acceleration Gate",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4693,8 +6457,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-151-166",
-            "publicCode": "VEN-151/166"
-          }
+            "publicCode": "VEN-151/166",
+            "tcgplayerProductIds": [
+              706112
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Soul's Reflection",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4726,8 +6500,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-152-166",
-            "publicCode": "VEN-152/166"
-          }
+            "publicCode": "VEN-152/166",
+            "tcgplayerProductIds": [
+              706087
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rebuttal",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4754,8 +6538,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-153-166",
-            "publicCode": "VEN-153/166"
-          }
+            "publicCode": "VEN-153/166",
+            "tcgplayerProductIds": [
+              706060
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, Matriarch of War",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4787,8 +6581,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-154-166",
-            "publicCode": "VEN-154/166"
-          }
+            "publicCode": "VEN-154/166",
+            "tcgplayerProductIds": [
+              707672
+            ]
+          },
+          "tcgplayer": {
+            "name": "Public Execution",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4816,8 +6620,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-155-166",
-            "publicCode": "VEN-155/166"
-          }
+            "publicCode": "VEN-155/166",
+            "tcgplayerProductIds": [
+              706034
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Heart of the Tempest",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4848,8 +6662,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-156-166",
-            "publicCode": "VEN-156/166"
-          }
+            "publicCode": "VEN-156/166",
+            "tcgplayerProductIds": [
+              706056
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lightning Rush",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4872,8 +6696,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-157-166",
-            "publicCode": "VEN-157/166"
-          }
+            "publicCode": "VEN-157/166",
+            "tcgplayerProductIds": [
+              707630
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dragon Roost",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4896,8 +6731,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-158-166",
-            "publicCode": "VEN-158/166"
-          }
+            "publicCode": "VEN-158/166",
+            "tcgplayerProductIds": [
+              706035
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heisho, Shell of the World",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4920,8 +6766,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-159-166",
-            "publicCode": "VEN-159/166"
-          }
+            "publicCode": "VEN-159/166",
+            "tcgplayerProductIds": [
+              707653
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kinkou Temple",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4944,8 +6801,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-160-166",
-            "publicCode": "VEN-160/166"
-          }
+            "publicCode": "VEN-160/166",
+            "tcgplayerProductIds": [
+              707661
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mystic Vortex",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4968,8 +6836,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-161-166",
-            "publicCode": "VEN-161/166"
-          }
+            "publicCode": "VEN-161/166",
+            "tcgplayerProductIds": [
+              706081
+            ]
+          },
+          "tcgplayer": {
+            "name": "Piltovan Forge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4992,8 +6871,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-162-166",
-            "publicCode": "VEN-162/166"
-          }
+            "publicCode": "VEN-162/166",
+            "tcgplayerProductIds": [
+              707671
+            ]
+          },
+          "tcgplayer": {
+            "name": "Protective Sands",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5016,8 +6906,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-163-166",
-            "publicCode": "VEN-163/166"
-          }
+            "publicCode": "VEN-163/166",
+            "tcgplayerProductIds": [
+              706092
+            ]
+          },
+          "tcgplayer": {
+            "name": "Risen Altar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5040,8 +6941,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-164-166",
-            "publicCode": "VEN-164/166"
-          }
+            "publicCode": "VEN-164/166",
+            "tcgplayerProductIds": [
+              706097
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sandswept Tomb",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5064,8 +6976,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-165-166",
-            "publicCode": "VEN-165/166"
-          }
+            "publicCode": "VEN-165/166",
+            "tcgplayerProductIds": [
+              707685
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Temple",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5088,8 +7011,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-166-166",
-            "publicCode": "VEN-166/166"
-          }
+            "publicCode": "VEN-166/166",
+            "tcgplayerProductIds": [
+              707696
+            ]
+          },
+          "tcgplayer": {
+            "name": "Threshold of the Gray",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -5122,8 +7056,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-167-166",
-            "publicCode": "VEN-167/166"
-          }
+            "publicCode": "VEN-167/166",
+            "tcgplayerProductIds": [
+              706118
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Destructive (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5156,8 +7100,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-168-166",
-            "publicCode": "VEN-168/166"
-          }
+            "publicCode": "VEN-168/166",
+            "tcgplayerProductIds": [
+              706047
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Demolitionist (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5190,8 +7144,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-169-166",
-            "publicCode": "VEN-169/166"
-          }
+            "publicCode": "VEN-169/166",
+            "tcgplayerProductIds": [
+              706123
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, From the Shadows (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5224,8 +7188,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-170-166",
-            "publicCode": "VEN-170/166"
-          }
+            "publicCode": "VEN-170/166",
+            "tcgplayerProductIds": [
+              707687
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Scourge of Shadows (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5258,8 +7232,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-171-166",
-            "publicCode": "VEN-171/166"
-          }
+            "publicCode": "VEN-171/166",
+            "tcgplayerProductIds": [
+              707678
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Shattered (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5292,8 +7276,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-172-166",
-            "publicCode": "VEN-172/166"
-          }
+            "publicCode": "VEN-172/166",
+            "tcgplayerProductIds": [
+              707631
+            ]
+          },
+          "tcgplayer": {
+            "name": "Draven, Showboat (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5326,8 +7320,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-173-166",
-            "publicCode": "VEN-173/166"
-          }
+            "publicCode": "VEN-173/166",
+            "tcgplayerProductIds": [
+              707693
+            ]
+          },
+          "tcgplayer": {
+            "name": "Swain, Visionary (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5360,8 +7364,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-174-166",
-            "publicCode": "VEN-174/166"
-          }
+            "publicCode": "VEN-174/166",
+            "tcgplayerProductIds": [
+              707646
+            ]
+          },
+          "tcgplayer": {
+            "name": "Irelia, Fervent (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5394,8 +7408,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-175-166",
-            "publicCode": "VEN-175/166"
-          }
+            "publicCode": "VEN-175/166",
+            "tcgplayerProductIds": [
+              706046
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Man of Progress (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5428,8 +7452,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-176-166",
-            "publicCode": "VEN-176/166"
-          }
+            "publicCode": "VEN-176/166",
+            "tcgplayerProductIds": [
+              706119
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Innovator (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5461,8 +7495,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-177-166",
-            "publicCode": "VEN-177/166"
-          }
+            "publicCode": "VEN-177/166",
+            "tcgplayerProductIds": [
+              707675
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Brute (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5496,8 +7540,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-178-166",
-            "publicCode": "VEN-178/166"
-          }
+            "publicCode": "VEN-178/166",
+            "tcgplayerProductIds": [
+              707662
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Guardian of Knowledge (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5532,8 +7586,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-179-166",
-            "publicCode": "VEN-179/166"
-          }
+            "publicCode": "VEN-179/166",
+            "tcgplayerProductIds": [
+              706091
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rengar, Trophy Hunter (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5567,8 +7631,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-180-166",
-            "publicCode": "VEN-180/166"
-          }
+            "publicCode": "VEN-180/166",
+            "tcgplayerProductIds": [
+              706052
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kha'Zix, Evolving Hunter (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5600,8 +7674,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-181-166",
-            "publicCode": "VEN-181/166"
-          }
+            "publicCode": "VEN-181/166",
+            "tcgplayerProductIds": [
+              706029
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gangplank, Naval (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5633,8 +7717,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-182-166",
-            "publicCode": "VEN-182/166"
-          }
+            "publicCode": "VEN-182/166",
+            "tcgplayerProductIds": [
+              706039
+            ]
+          },
+          "tcgplayer": {
+            "name": "Illaoi, Prophet of the Great Kraken (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5668,8 +7762,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-183-166",
-            "publicCode": "VEN-183/166"
-          }
+            "publicCode": "VEN-183/166",
+            "tcgplayerProductIds": [
+              707627
+            ]
+          },
+          "tcgplayer": {
+            "name": "Diana, No Longer Human (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5702,8 +7806,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-184-166",
-            "publicCode": "VEN-184/166"
-          }
+            "publicCode": "VEN-184/166",
+            "tcgplayerProductIds": [
+              707655
+            ]
+          },
+          "tcgplayer": {
+            "name": "Leona, Determined (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5735,8 +7849,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-185-166",
-            "publicCode": "VEN-185/166"
-          }
+            "publicCode": "VEN-185/166",
+            "tcgplayerProductIds": [
+              707650
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kayle, Justified (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5769,8 +7893,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-186-166",
-            "publicCode": "VEN-186/166"
-          }
+            "publicCode": "VEN-186/166",
+            "tcgplayerProductIds": [
+              707660
+            ]
+          },
+          "tcgplayer": {
+            "name": "Morgana, Vindictive (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5802,8 +7936,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-187-166",
-            "publicCode": "VEN-187/166"
-          }
+            "publicCode": "VEN-187/166",
+            "tcgplayerProductIds": [
+              707607
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, Respected and Feared (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5835,8 +7979,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-188-166",
-            "publicCode": "VEN-188/166"
-          }
+            "publicCode": "VEN-188/166",
+            "tcgplayerProductIds": [
+              707658
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Defiant Soul (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5863,8 +8017,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-189-166",
-            "publicCode": "VEN-189/166"
-          }
+            "publicCode": "VEN-189/166",
+            "tcgplayerProductIds": [
+              706095
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Rogue Assassin (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-189*",
@@ -5878,8 +8042,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-189-star-166",
-            "publicCode": "VEN-189*/166"
-          }
+            "publicCode": "VEN-189*/166",
+            "tcgplayerProductIds": [
+              709668
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Rogue Assassin (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5906,8 +8080,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-190-166",
-            "publicCode": "VEN-190/166"
-          }
+            "publicCode": "VEN-190/166",
+            "tcgplayerProductIds": [
+              706009
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Butcher of the Sands (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-190*",
@@ -5921,8 +8105,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-190-star-166",
-            "publicCode": "VEN-190*/166"
-          }
+            "publicCode": "VEN-190*/166",
+            "tcgplayerProductIds": [
+              708197
+            ]
+          },
+          "tcgplayer": {
+            "name": "Renekton, Butcher of the Sands (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5949,8 +8143,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-191-166",
-            "publicCode": "VEN-191/166"
-          }
+            "publicCode": "VEN-191/166",
+            "tcgplayerProductIds": [
+              706059
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, Master of Shadows (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-191*",
@@ -5964,8 +8168,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-191-star-166",
-            "publicCode": "VEN-191*/166"
-          }
+            "publicCode": "VEN-191*/166",
+            "tcgplayerProductIds": [
+              709666
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zed, Master of Shadows (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5992,8 +8206,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-192-166",
-            "publicCode": "VEN-192/166"
-          }
+            "publicCode": "VEN-192/166",
+            "tcgplayerProductIds": [
+              706014
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Curator of the Sands (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-192*",
@@ -6007,8 +8231,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-192-star-166",
-            "publicCode": "VEN-192*/166"
-          }
+            "publicCode": "VEN-192*/166",
+            "tcgplayerProductIds": [
+              709304
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nasus, Curator of the Sands (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6035,8 +8269,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-193-166",
-            "publicCode": "VEN-193/166"
-          }
+            "publicCode": "VEN-193/166",
+            "tcgplayerProductIds": [
+              706024
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Eye of Twilight (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-193*",
@@ -6050,8 +8294,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-193-star-166",
-            "publicCode": "VEN-193*/166"
-          }
+            "publicCode": "VEN-193*/166",
+            "tcgplayerProductIds": [
+              709102
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shen, Eye of Twilight (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6078,8 +8332,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-194-166",
-            "publicCode": "VEN-194/166"
-          }
+            "publicCode": "VEN-194/166",
+            "tcgplayerProductIds": [
+              707626
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Defender of Tomorrow (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-194*",
@@ -6093,8 +8357,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-194-star-166",
-            "publicCode": "VEN-194*/166"
-          }
+            "publicCode": "VEN-194*/166",
+            "tcgplayerProductIds": [
+              709103
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jayce, Defender of Tomorrow (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6121,8 +8395,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-195-166",
-            "publicCode": "VEN-195/166"
-          }
+            "publicCode": "VEN-195/166",
+            "tcgplayerProductIds": [
+              706111
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Soul's Reflection (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-195*",
@@ -6136,8 +8420,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-195-star-166",
-            "publicCode": "VEN-195*/166"
-          }
+            "publicCode": "VEN-195*/166",
+            "tcgplayerProductIds": [
+              709669
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mel, Soul's Reflection (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6164,8 +8458,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-196-166",
-            "publicCode": "VEN-196/166"
-          }
+            "publicCode": "VEN-196/166",
+            "tcgplayerProductIds": [
+              706061
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, Matriarch of War (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-196*",
@@ -6179,8 +8483,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-196-star-166",
-            "publicCode": "VEN-196*/166"
-          }
+            "publicCode": "VEN-196*/166",
+            "tcgplayerProductIds": [
+              708198
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ambessa, Matriarch of War (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6208,8 +8522,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-197-166",
-            "publicCode": "VEN-197/166"
-          }
+            "publicCode": "VEN-197/166",
+            "tcgplayerProductIds": [
+              706033
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Heart of the Tempest (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "VEN-197*",
@@ -6223,8 +8547,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-197-star-166",
-            "publicCode": "VEN-197*/166"
-          }
+            "publicCode": "VEN-197*/166",
+            "tcgplayerProductIds": [
+              709667
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kennen, Heart of the Tempest (Signature)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6256,8 +8590,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-sp1-006",
-            "publicCode": "VEN-SP1/006"
-          }
+            "publicCode": "VEN-SP1/006",
+            "tcgplayerProductIds": [
+              707648
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Survivor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6290,8 +8634,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-sp2-006",
-            "publicCode": "VEN-SP2/006"
-          }
+            "publicCode": "VEN-SP2/006",
+            "tcgplayerProductIds": [
+              706110
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sona, Harmonious",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6325,8 +8679,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-sp3-006",
-            "publicCode": "VEN-SP3/006"
-          }
+            "publicCode": "VEN-SP3/006",
+            "tcgplayerProductIds": [
+              705996
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Inquisitive",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6359,8 +8723,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-sp4-006",
-            "publicCode": "VEN-SP4/006"
-          }
+            "publicCode": "VEN-SP4/006",
+            "tcgplayerProductIds": [
+              706098
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Brawler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6394,8 +8768,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-sp5-006",
-            "publicCode": "VEN-SP5/006"
-          }
+            "publicCode": "VEN-SP5/006",
+            "tcgplayerProductIds": [
+              706026
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ezreal, Prodigy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6427,8 +8811,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-sp6-006",
-            "publicCode": "VEN-SP6/006"
-          }
+            "publicCode": "VEN-SP6/006",
+            "tcgplayerProductIds": [
+              706057
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lux, Crownguard",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6454,8 +8848,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-r01",
-            "publicCode": "VEN-R01"
-          }
+            "publicCode": "VEN-R01",
+            "tcgplayerProductIds": [
+              706028
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6481,8 +8886,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-r02",
-            "publicCode": "VEN-R02"
-          }
+            "publicCode": "VEN-R02",
+            "tcgplayerProductIds": [
+              706010
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6508,8 +8923,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-r03",
-            "publicCode": "VEN-R03"
-          }
+            "publicCode": "VEN-R03",
+            "tcgplayerProductIds": [
+              706067
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6535,8 +8961,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-r04",
-            "publicCode": "VEN-R04"
-          }
+            "publicCode": "VEN-R04",
+            "tcgplayerProductIds": [
+              706006
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6562,8 +8999,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-r05",
-            "publicCode": "VEN-R05"
-          }
+            "publicCode": "VEN-R05",
+            "tcgplayerProductIds": [
+              706011
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -6589,8 +9037,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "ven-r06",
-            "publicCode": "VEN-R06"
-          }
+            "publicCode": "VEN-R06",
+            "tcgplayerProductIds": [
+              706078
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },

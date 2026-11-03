@@ -21,8 +21,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-001-167",
-            "publicCode": "RAD-001/167"
-          }
+            "publicCode": "RAD-001/167",
+            "tcgplayerProductIds": [
+              722276
+            ]
+          },
+          "tcgplayer": {
+            "name": "Amateur Demolitionist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -50,8 +61,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-002-167",
-            "publicCode": "RAD-002/167"
-          }
+            "publicCode": "RAD-002/167",
+            "tcgplayerProductIds": [
+              722277
+            ]
+          },
+          "tcgplayer": {
+            "name": "Banner of Conquest",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -76,8 +98,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-003-167",
-            "publicCode": "RAD-003/167"
-          }
+            "publicCode": "RAD-003/167",
+            "tcgplayerProductIds": [
+              722278
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bilgewater Tracker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -102,8 +135,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-004-167",
-            "publicCode": "RAD-004/167"
-          }
+            "publicCode": "RAD-004/167",
+            "tcgplayerProductIds": [
+              722857
+            ]
+          },
+          "tcgplayer": {
+            "name": "Brawl",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -128,8 +172,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-005-167",
-            "publicCode": "RAD-005/167"
-          }
+            "publicCode": "RAD-005/167",
+            "tcgplayerProductIds": [
+              722892
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lingering Animus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -150,8 +205,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-006-167",
-            "publicCode": "RAD-006/167"
-          }
+            "publicCode": "RAD-006/167",
+            "tcgplayerProductIds": [
+              722909
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scorched Earth",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -176,8 +242,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-007-167",
-            "publicCode": "RAD-007/167"
-          }
+            "publicCode": "RAD-007/167",
+            "tcgplayerProductIds": [
+              722903
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rally for War",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -202,8 +279,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-008-167",
-            "publicCode": "RAD-008/167"
-          }
+            "publicCode": "RAD-008/167",
+            "tcgplayerProductIds": [
+              723225
+            ]
+          },
+          "tcgplayer": {
+            "name": "War Scout",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -225,8 +313,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-009-167",
-            "publicCode": "RAD-009/167"
-          }
+            "publicCode": "RAD-009/167",
+            "tcgplayerProductIds": [
+              723202
+            ]
+          },
+          "tcgplayer": {
+            "name": "Antagonistic Apparatus",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -250,8 +349,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-010-167",
-            "publicCode": "RAD-010/167"
-          }
+            "publicCode": "RAD-010/167",
+            "tcgplayerProductIds": [
+              723418
+            ]
+          },
+          "tcgplayer": {
+            "name": "Forbidden Technique",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -276,8 +386,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-011-167",
-            "publicCode": "RAD-011/167"
-          }
+            "publicCode": "RAD-011/167",
+            "tcgplayerProductIds": [
+              723421
+            ]
+          },
+          "tcgplayer": {
+            "name": "Incorrigible Construct",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -301,8 +422,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-012-167",
-            "publicCode": "RAD-012/167"
-          }
+            "publicCode": "RAD-012/167",
+            "tcgplayerProductIds": [
+              722333
+            ]
+          },
+          "tcgplayer": {
+            "name": "Runeblade Anvil",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -327,8 +459,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-013-167",
-            "publicCode": "RAD-013/167"
-          }
+            "publicCode": "RAD-013/167",
+            "tcgplayerProductIds": [
+              722314
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lost to the Sands",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -353,8 +496,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-014-167",
-            "publicCode": "RAD-014/167"
-          }
+            "publicCode": "RAD-014/167",
+            "tcgplayerProductIds": [
+              722910
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shimmering Swimmer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -388,8 +542,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-015-167",
-            "publicCode": "RAD-015/167"
-          }
+            "publicCode": "RAD-015/167",
+            "tcgplayerProductIds": [
+              722846
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Brash",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -415,8 +579,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-016-167",
-            "publicCode": "RAD-016/167"
-          }
+            "publicCode": "RAD-016/167",
+            "tcgplayerProductIds": [
+              722861
+            ]
+          },
+          "tcgplayer": {
+            "name": "Coalesced Energy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -444,8 +618,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-017-167",
-            "publicCode": "RAD-017/167"
-          }
+            "publicCode": "RAD-017/167",
+            "tcgplayerProductIds": [
+              722864
+            ]
+          },
+          "tcgplayer": {
+            "name": "Detonation Amplifier",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -471,8 +655,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-018-167",
-            "publicCode": "RAD-018/167"
-          }
+            "publicCode": "RAD-018/167",
+            "tcgplayerProductIds": [
+              722865
+            ]
+          },
+          "tcgplayer": {
+            "name": "Drakehound Packmaster",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -498,8 +692,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-019-167",
-            "publicCode": "RAD-019/167"
-          }
+            "publicCode": "RAD-019/167",
+            "tcgplayerProductIds": [
+              723205
+            ]
+          },
+          "tcgplayer": {
+            "name": "Firebrand Raider",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -530,8 +734,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-020-167",
-            "publicCode": "RAD-020/167"
-          }
+            "publicCode": "RAD-020/167",
+            "tcgplayerProductIds": [
+              723213
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Twice Slain",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-020a",
@@ -542,8 +756,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-020a-167",
-            "publicCode": "RAD-020a/167"
-          }
+            "publicCode": "RAD-020a/167",
+            "tcgplayerProductIds": [
+              723214
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Twice Slain (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -574,8 +798,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-021-167",
-            "publicCode": "RAD-021/167"
-          }
+            "publicCode": "RAD-021/167",
+            "tcgplayerProductIds": [
+              722867
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Revolutionary",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-021a",
@@ -589,8 +823,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-021a-167",
-            "publicCode": "RAD-021a/167"
-          }
+            "publicCode": "RAD-021a/167",
+            "tcgplayerProductIds": [
+              722866
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Revolutionary (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -611,8 +855,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-022-167",
-            "publicCode": "RAD-022/167"
-          }
+            "publicCode": "RAD-022/167",
+            "tcgplayerProductIds": [
+              723437
+            ]
+          },
+          "tcgplayer": {
+            "name": "Whirling Twirligig",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -643,8 +897,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-023-167",
-            "publicCode": "RAD-023/167"
-          }
+            "publicCode": "RAD-023/167",
+            "tcgplayerProductIds": [
+              722346
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Short-Fused",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-023a",
@@ -658,8 +922,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-023a-167",
-            "publicCode": "RAD-023a/167"
-          }
+            "publicCode": "RAD-023a/167",
+            "tcgplayerProductIds": [
+              722347
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Short-Fused (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -686,8 +960,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-024-167",
-            "publicCode": "RAD-024/167"
-          }
+            "publicCode": "RAD-024/167",
+            "tcgplayerProductIds": [
+              722280
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blossoming Dreamroot",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -711,8 +996,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-025-167",
-            "publicCode": "RAD-025/167"
-          }
+            "publicCode": "RAD-025/167",
+            "tcgplayerProductIds": [
+              722862
+            ]
+          },
+          "tcgplayer": {
+            "name": "Consult the Heavens",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -733,8 +1029,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-026-167",
-            "publicCode": "RAD-026/167"
-          }
+            "publicCode": "RAD-026/167",
+            "tcgplayerProductIds": [
+              722869
+            ]
+          },
+          "tcgplayer": {
+            "name": "Entrenched Boar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -759,8 +1066,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-027-167",
-            "publicCode": "RAD-027/167"
-          }
+            "publicCode": "RAD-027/167",
+            "tcgplayerProductIds": [
+              722885
+            ]
+          },
+          "tcgplayer": {
+            "name": "Iridescent Avian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -781,8 +1099,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-028-167",
-            "publicCode": "RAD-028/167"
-          }
+            "publicCode": "RAD-028/167",
+            "tcgplayerProductIds": [
+              722890
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ki Burst",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -806,8 +1135,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-029-167",
-            "publicCode": "RAD-029/167"
-          }
+            "publicCode": "RAD-029/167",
+            "tcgplayerProductIds": [
+              723211
+            ]
+          },
+          "tcgplayer": {
+            "name": "Life from Stone",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -832,8 +1172,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-030-167",
-            "publicCode": "RAD-030/167"
-          }
+            "publicCode": "RAD-030/167",
+            "tcgplayerProductIds": [
+              723221
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sanctum Conservator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -858,8 +1209,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-031-167",
-            "publicCode": "RAD-031/167"
-          }
+            "publicCode": "RAD-031/167",
+            "tcgplayerProductIds": [
+              723432
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stoic Ferryman",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -883,8 +1245,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-032-167",
-            "publicCode": "RAD-032/167"
-          }
+            "publicCode": "RAD-032/167",
+            "tcgplayerProductIds": [
+              723414
+            ]
+          },
+          "tcgplayer": {
+            "name": "Battle Preparations",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -906,8 +1279,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-033-167",
-            "publicCode": "RAD-033/167"
-          }
+            "publicCode": "RAD-033/167",
+            "tcgplayerProductIds": [
+              722286
+            ]
+          },
+          "tcgplayer": {
+            "name": "Command: Attack",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -930,8 +1314,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-034-167",
-            "publicCode": "RAD-034/167"
-          }
+            "publicCode": "RAD-034/167",
+            "tcgplayerProductIds": [
+              722302
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hunker Down",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -955,8 +1350,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-035-167",
-            "publicCode": "RAD-035/167"
-          }
+            "publicCode": "RAD-035/167",
+            "tcgplayerProductIds": [
+              722304
+            ]
+          },
+          "tcgplayer": {
+            "name": "Invigorating Bloom",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -981,8 +1387,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-036-167",
-            "publicCode": "RAD-036/167"
-          }
+            "publicCode": "RAD-036/167",
+            "tcgplayerProductIds": [
+              722916
+            ]
+          },
+          "tcgplayer": {
+            "name": "Storm Raptor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1008,8 +1425,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-037-167",
-            "publicCode": "RAD-037/167"
-          }
+            "publicCode": "RAD-037/167",
+            "tcgplayerProductIds": [
+              722922
+            ]
+          },
+          "tcgplayer": {
+            "name": "Watchful Curator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1043,8 +1471,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-038-167",
-            "publicCode": "RAD-038/167"
-          }
+            "publicCode": "RAD-038/167",
+            "tcgplayerProductIds": [
+              722275
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Confident",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1069,8 +1507,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-039-167",
-            "publicCode": "RAD-039/167"
-          }
+            "publicCode": "RAD-039/167",
+            "tcgplayerProductIds": [
+              722870
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ephemeral Ward",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1096,8 +1544,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-040-167",
-            "publicCode": "RAD-040/167"
-          }
+            "publicCode": "RAD-040/167",
+            "tcgplayerProductIds": [
+              723207
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heartening Soul",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1118,8 +1576,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-041-167",
-            "publicCode": "RAD-041/167"
-          }
+            "publicCode": "RAD-041/167",
+            "tcgplayerProductIds": [
+              723208
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hush",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1149,8 +1617,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-042-167",
-            "publicCode": "RAD-042/167"
-          }
+            "publicCode": "RAD-042/167",
+            "tcgplayerProductIds": [
+              723422
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Exquisite",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-042a",
@@ -1161,8 +1639,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-042a-167",
-            "publicCode": "RAD-042a/167"
-          }
+            "publicCode": "RAD-042a/167",
+            "tcgplayerProductIds": [
+              723423
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Exquisite (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1194,8 +1682,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-043-167",
-            "publicCode": "RAD-043/167"
-          }
+            "publicCode": "RAD-043/167",
+            "tcgplayerProductIds": [
+              722907
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Broken Blade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-043a",
@@ -1209,8 +1707,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-043a-167",
-            "publicCode": "RAD-043a/167"
-          }
+            "publicCode": "RAD-043a/167",
+            "tcgplayerProductIds": [
+              722908
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Broken Blade (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1235,8 +1743,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-044-167",
-            "publicCode": "RAD-044/167"
-          }
+            "publicCode": "RAD-044/167",
+            "tcgplayerProductIds": [
+              723420
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hunting Blind",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1267,8 +1785,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-045-167",
-            "publicCode": "RAD-045/167"
-          }
+            "publicCode": "RAD-045/167",
+            "tcgplayerProductIds": [
+              722309
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Dauntless",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-045a",
@@ -1282,8 +1810,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-045a-167",
-            "publicCode": "RAD-045a/167"
-          }
+            "publicCode": "RAD-045a/167",
+            "tcgplayerProductIds": [
+              722310
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Dauntless (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1308,8 +1846,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-046-167",
-            "publicCode": "RAD-046/167"
-          }
+            "publicCode": "RAD-046/167",
+            "tcgplayerProductIds": [
+              722331
+            ]
+          },
+          "tcgplayer": {
+            "name": "Resplendent Rostrum",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1329,8 +1877,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-047-167",
-            "publicCode": "RAD-047/167"
-          }
+            "publicCode": "RAD-047/167",
+            "tcgplayerProductIds": [
+              722874
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fanfare",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1354,8 +1913,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-048-167",
-            "publicCode": "RAD-048/167"
-          }
+            "publicCode": "RAD-048/167",
+            "tcgplayerProductIds": [
+              722881
+            ]
+          },
+          "tcgplayer": {
+            "name": "High Note",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1376,8 +1946,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-049-167",
-            "publicCode": "RAD-049/167"
-          }
+            "publicCode": "RAD-049/167",
+            "tcgplayerProductIds": [
+              722884
+            ]
+          },
+          "tcgplayer": {
+            "name": "Industrious Mechsmith",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1402,8 +1983,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-050-167",
-            "publicCode": "RAD-050/167"
-          }
+            "publicCode": "RAD-050/167",
+            "tcgplayerProductIds": [
+              722895
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mysterious Chronomancer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1428,8 +2020,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-051-167",
-            "publicCode": "RAD-051/167"
-          }
+            "publicCode": "RAD-051/167",
+            "tcgplayerProductIds": [
+              723216
+            ]
+          },
+          "tcgplayer": {
+            "name": "Parallel Convergence",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1456,8 +2059,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-052-167",
-            "publicCode": "RAD-052/167"
-          }
+            "publicCode": "RAD-052/167",
+            "tcgplayerProductIds": [
+              723218
+            ]
+          },
+          "tcgplayer": {
+            "name": "Resource Extractor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1482,8 +2096,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-053-167",
-            "publicCode": "RAD-053/167"
-          }
+            "publicCode": "RAD-053/167",
+            "tcgplayerProductIds": [
+              723433
+            ]
+          },
+          "tcgplayer": {
+            "name": "Strigian Oracle",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1508,8 +2133,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-054-167",
-            "publicCode": "RAD-054/167"
-          }
+            "publicCode": "RAD-054/167",
+            "tcgplayerProductIds": [
+              723436
+            ]
+          },
+          "tcgplayer": {
+            "name": "Trinket Peddler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1534,8 +2170,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-055-167",
-            "publicCode": "RAD-055/167"
-          }
+            "publicCode": "RAD-055/167",
+            "tcgplayerProductIds": [
+              722284
+            ]
+          },
+          "tcgplayer": {
+            "name": "Clanging Sentry",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1560,8 +2207,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-056-167",
-            "publicCode": "RAD-056/167"
-          }
+            "publicCode": "RAD-056/167",
+            "tcgplayerProductIds": [
+              722303
+            ]
+          },
+          "tcgplayer": {
+            "name": "Improvised Projectile",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1586,8 +2244,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-057-167",
-            "publicCode": "RAD-057/167"
-          }
+            "publicCode": "RAD-057/167",
+            "tcgplayerProductIds": [
+              722901
+            ]
+          },
+          "tcgplayer": {
+            "name": "Piltovan Guidebot",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1613,8 +2282,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-058-167",
-            "publicCode": "RAD-058/167"
-          }
+            "publicCode": "RAD-058/167",
+            "tcgplayerProductIds": [
+              722906
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riptide Mage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1639,8 +2319,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-059-167",
-            "publicCode": "RAD-059/167"
-          }
+            "publicCode": "RAD-059/167",
+            "tcgplayerProductIds": [
+              722340
+            ]
+          },
+          "tcgplayer": {
+            "name": "Supernova",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1668,8 +2359,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-060-167",
-            "publicCode": "RAD-060/167"
-          }
+            "publicCode": "RAD-060/167",
+            "tcgplayerProductIds": [
+              722919
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Empyrean",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -1702,8 +2404,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-061-167",
-            "publicCode": "RAD-061/167"
-          }
+            "publicCode": "RAD-061/167",
+            "tcgplayerProductIds": [
+              722294
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Ingenious",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-061a",
@@ -1717,8 +2429,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-061a-167",
-            "publicCode": "RAD-061a/167"
-          }
+            "publicCode": "RAD-061a/167",
+            "tcgplayerProductIds": [
+              722295
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Ingenious (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1746,8 +2468,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-062-167",
-            "publicCode": "RAD-062/167"
-          }
+            "publicCode": "RAD-062/167",
+            "tcgplayerProductIds": [
+              723206
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gravity Field",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1781,8 +2513,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-063-167",
-            "publicCode": "RAD-063/167"
-          }
+            "publicCode": "RAD-063/167",
+            "tcgplayerProductIds": [
+              721337
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Rebel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1806,8 +2548,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-064-167",
-            "publicCode": "RAD-064/167"
-          }
+            "publicCode": "RAD-064/167",
+            "tcgplayerProductIds": [
+              723222
+            ]
+          },
+          "tcgplayer": {
+            "name": "Scrutinizing Scope",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1841,8 +2593,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-065-167",
-            "publicCode": "RAD-065/167"
-          }
+            "publicCode": "RAD-065/167",
+            "tcgplayerProductIds": [
+              723430
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Inspiring",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-065a",
@@ -1853,8 +2615,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-065a-167",
-            "publicCode": "RAD-065a/167"
-          }
+            "publicCode": "RAD-065a/167",
+            "tcgplayerProductIds": [
+              723429
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Inspiring (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1880,8 +2652,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-066-167",
-            "publicCode": "RAD-066/167"
-          }
+            "publicCode": "RAD-066/167",
+            "tcgplayerProductIds": [
+              723431
+            ]
+          },
+          "tcgplayer": {
+            "name": "Spirit of the Forge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1910,8 +2692,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-067-167",
-            "publicCode": "RAD-067/167"
-          }
+            "publicCode": "RAD-067/167",
+            "tcgplayerProductIds": [
+              722285
+            ]
+          },
+          "tcgplayer": {
+            "name": "Clocktower Guardian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1944,8 +2736,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-068-167",
-            "publicCode": "RAD-068/167"
-          }
+            "publicCode": "RAD-068/167",
+            "tcgplayerProductIds": [
+              722324
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Mechanical Marvel",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-068a",
@@ -1956,8 +2758,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-068a-167",
-            "publicCode": "RAD-068a/167"
-          }
+            "publicCode": "RAD-068a/167",
+            "tcgplayerProductIds": [
+              722325
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Mechanical Marvel (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -1982,8 +2794,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-069-167",
-            "publicCode": "RAD-069/167"
-          }
+            "publicCode": "RAD-069/167",
+            "tcgplayerProductIds": [
+              722343
+            ]
+          },
+          "tcgplayer": {
+            "name": "Zero Point Inflection",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2007,8 +2829,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-070-167",
-            "publicCode": "RAD-070/167"
-          }
+            "publicCode": "RAD-070/167",
+            "tcgplayerProductIds": [
+              722301
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hold 'Em",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2031,8 +2864,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-071-167",
-            "publicCode": "RAD-071/167"
-          }
+            "publicCode": "RAD-071/167",
+            "tcgplayerProductIds": [
+              722896
+            ]
+          },
+          "tcgplayer": {
+            "name": "Nazuman Ntofo",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2057,8 +2901,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-072-167",
-            "publicCode": "RAD-072/167"
-          }
+            "publicCode": "RAD-072/167",
+            "tcgplayerProductIds": [
+              722899
+            ]
+          },
+          "tcgplayer": {
+            "name": "Overloaded Traveler",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2082,8 +2937,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-073-167",
-            "publicCode": "RAD-073/167"
-          }
+            "publicCode": "RAD-073/167",
+            "tcgplayerProductIds": [
+              722327
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pillaged Armory",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2108,8 +2974,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-074-167",
-            "publicCode": "RAD-074/167"
-          }
+            "publicCode": "RAD-074/167",
+            "tcgplayerProductIds": [
+              722904
+            ]
+          },
+          "tcgplayer": {
+            "name": "Raving Witness",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2134,8 +3011,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-075-167",
-            "publicCode": "RAD-075/167"
-          }
+            "publicCode": "RAD-075/167",
+            "tcgplayerProductIds": [
+              722913
+            ]
+          },
+          "tcgplayer": {
+            "name": "Skystrike Squadron",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2160,8 +3048,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-076-167",
-            "publicCode": "RAD-076/167"
-          }
+            "publicCode": "RAD-076/167",
+            "tcgplayerProductIds": [
+              723223
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sneaky Zeebles",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2186,8 +3085,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-077-167",
-            "publicCode": "RAD-077/167"
-          }
+            "publicCode": "RAD-077/167",
+            "tcgplayerProductIds": [
+              723226
+            ]
+          },
+          "tcgplayer": {
+            "name": "Wrath of the Freljord",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2213,8 +3123,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-078-167",
-            "publicCode": "RAD-078/167"
-          }
+            "publicCode": "RAD-078/167",
+            "tcgplayerProductIds": [
+              723413
+            ]
+          },
+          "tcgplayer": {
+            "name": "Armored Tusker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2239,8 +3160,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-079-167",
-            "publicCode": "RAD-079/167"
-          }
+            "publicCode": "RAD-079/167",
+            "tcgplayerProductIds": [
+              722848
+            ]
+          },
+          "tcgplayer": {
+            "name": "Avalanche",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2266,8 +3198,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-080-167",
-            "publicCode": "RAD-080/167"
-          }
+            "publicCode": "RAD-080/167",
+            "tcgplayerProductIds": [
+              723415
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bloodscent Swarm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2292,8 +3235,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-081-167",
-            "publicCode": "RAD-081/167"
-          }
+            "publicCode": "RAD-081/167",
+            "tcgplayerProductIds": [
+              722296
+            ]
+          },
+          "tcgplayer": {
+            "name": "Elnuk Herd",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2318,8 +3272,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-082-167",
-            "publicCode": "RAD-082/167"
-          }
+            "publicCode": "RAD-082/167",
+            "tcgplayerProductIds": [
+              722328
+            ]
+          },
+          "tcgplayer": {
+            "name": "Primordial Roar",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2344,8 +3309,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-083-167",
-            "publicCode": "RAD-083/167"
-          }
+            "publicCode": "RAD-083/167",
+            "tcgplayerProductIds": [
+              722339
+            ]
+          },
+          "tcgplayer": {
+            "name": "Stalwart Goatherd",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2370,8 +3346,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-084-167",
-            "publicCode": "RAD-084/167"
-          }
+            "publicCode": "RAD-084/167",
+            "tcgplayerProductIds": [
+              722858
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cataclysm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2402,8 +3388,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-085-167",
-            "publicCode": "RAD-085/167"
-          }
+            "publicCode": "RAD-085/167",
+            "tcgplayerProductIds": [
+              722879
+            ]
+          },
+          "tcgplayer": {
+            "name": "Graves, Blasting Through",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2433,8 +3429,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-086-167",
-            "publicCode": "RAD-086/167"
-          }
+            "publicCode": "RAD-086/167",
+            "tcgplayerProductIds": [
+              722307
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Courageous",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-086a",
@@ -2448,8 +3454,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-086a-167",
-            "publicCode": "RAD-086a/167"
-          }
+            "publicCode": "RAD-086a/167",
+            "tcgplayerProductIds": [
+              722308
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Courageous (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2473,8 +3489,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-087-167",
-            "publicCode": "RAD-087/167"
-          }
+            "publicCode": "RAD-087/167",
+            "tcgplayerProductIds": [
+              722902
+            ]
+          },
+          "tcgplayer": {
+            "name": "Portable Portal",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2500,8 +3526,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-088-167",
-            "publicCode": "RAD-088/167"
-          }
+            "publicCode": "RAD-088/167",
+            "tcgplayerProductIds": [
+              722914
+            ]
+          },
+          "tcgplayer": {
+            "name": "Staunch Survivor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2528,8 +3564,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-089-167",
-            "publicCode": "RAD-089/167"
-          }
+            "publicCode": "RAD-089/167",
+            "tcgplayerProductIds": [
+              723224
+            ]
+          },
+          "tcgplayer": {
+            "name": "Titanic Shrine",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2562,8 +3608,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-090-167",
-            "publicCode": "RAD-090/167"
-          }
+            "publicCode": "RAD-090/167",
+            "tcgplayerProductIds": [
+              722297
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, Consuming",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-090a",
@@ -2577,8 +3633,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-090a-167",
-            "publicCode": "RAD-090a/167"
-          }
+            "publicCode": "RAD-090a/167",
+            "tcgplayerProductIds": [
+              722298
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, Consuming (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2612,8 +3678,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-091-167",
-            "publicCode": "RAD-091/167"
-          }
+            "publicCode": "RAD-091/167",
+            "tcgplayerProductIds": [
+              722889
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Martial Paragon",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-091a",
@@ -2627,8 +3703,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-091a-167",
-            "publicCode": "RAD-091a/167"
-          }
+            "publicCode": "RAD-091a/167",
+            "tcgplayerProductIds": [
+              722888
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Martial Paragon (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2653,8 +3739,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-092-167",
-            "publicCode": "RAD-092/167"
-          }
+            "publicCode": "RAD-092/167",
+            "tcgplayerProductIds": [
+              723428
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphic Wyvern",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2679,8 +3775,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-093-167",
-            "publicCode": "RAD-093/167"
-          }
+            "publicCode": "RAD-093/167",
+            "tcgplayerProductIds": [
+              722290
+            ]
+          },
+          "tcgplayer": {
+            "name": "Disposal Expert",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2705,8 +3812,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-094-167",
-            "publicCode": "RAD-094/167"
-          }
+            "publicCode": "RAD-094/167",
+            "tcgplayerProductIds": [
+              723417
+            ]
+          },
+          "tcgplayer": {
+            "name": "Explosimian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2731,8 +3849,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-095-167",
-            "publicCode": "RAD-095/167"
-          }
+            "publicCode": "RAD-095/167",
+            "tcgplayerProductIds": [
+              722317
+            ]
+          },
+          "tcgplayer": {
+            "name": "Momentary Companion",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2757,8 +3886,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-096-167",
-            "publicCode": "RAD-096/167"
-          }
+            "publicCode": "RAD-096/167",
+            "tcgplayerProductIds": [
+              722334
+            ]
+          },
+          "tcgplayer": {
+            "name": "Satchel Charge",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2783,8 +3923,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-097-167",
-            "publicCode": "RAD-097/167"
-          }
+            "publicCode": "RAD-097/167",
+            "tcgplayerProductIds": [
+              722911
+            ]
+          },
+          "tcgplayer": {
+            "name": "Siren of the Shallows",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2808,8 +3959,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-098-167",
-            "publicCode": "RAD-098/167"
-          }
+            "publicCode": "RAD-098/167",
+            "tcgplayerProductIds": [
+              722912
+            ]
+          },
+          "tcgplayer": {
+            "name": "Siren's Song",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2834,8 +3996,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-099-167",
-            "publicCode": "RAD-099/167"
-          }
+            "publicCode": "RAD-099/167",
+            "tcgplayerProductIds": [
+              722917
+            ]
+          },
+          "tcgplayer": {
+            "name": "Suave Negotiator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2859,8 +4032,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-100-167",
-            "publicCode": "RAD-100/167"
-          }
+            "publicCode": "RAD-100/167",
+            "tcgplayerProductIds": [
+              722920
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Waters' Wage",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2884,8 +4068,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-101-167",
-            "publicCode": "RAD-101/167"
-          }
+            "publicCode": "RAD-101/167",
+            "tcgplayerProductIds": [
+              723201
+            ]
+          },
+          "tcgplayer": {
+            "name": "An Offer You Can't Refuse",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2909,8 +4104,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-102-167",
-            "publicCode": "RAD-102/167"
-          }
+            "publicCode": "RAD-102/167",
+            "tcgplayerProductIds": [
+              723204
+            ]
+          },
+          "tcgplayer": {
+            "name": "Demon Shade",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2935,8 +4141,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-103-167",
-            "publicCode": "RAD-103/167"
-          }
+            "publicCode": "RAD-103/167",
+            "tcgplayerProductIds": [
+              723419
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gutter Guardian",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2958,8 +4175,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-104-167",
-            "publicCode": "RAD-104/167"
-          }
+            "publicCode": "RAD-104/167",
+            "tcgplayerProductIds": [
+              723424
+            ]
+          },
+          "tcgplayer": {
+            "name": "Pitiless Stalker",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -2984,8 +4212,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-105-167",
-            "publicCode": "RAD-105/167"
-          }
+            "publicCode": "RAD-105/167",
+            "tcgplayerProductIds": [
+              722330
+            ]
+          },
+          "tcgplayer": {
+            "name": "Reckless Innovator",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3010,8 +4249,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-106-167",
-            "publicCode": "RAD-106/167"
-          }
+            "publicCode": "RAD-106/167",
+            "tcgplayerProductIds": [
+              722341
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Good Stuff",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3036,8 +4286,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-107-167",
-            "publicCode": "RAD-107/167"
-          }
+            "publicCode": "RAD-107/167",
+            "tcgplayerProductIds": [
+              722851
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bedeviling Stranger",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3064,8 +4324,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-108-167",
-            "publicCode": "RAD-108/167"
-          }
+            "publicCode": "RAD-108/167",
+            "tcgplayerProductIds": [
+              723203
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bushwhack Trap",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3098,8 +4368,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-109-167",
-            "publicCode": "RAD-109/167"
-          }
+            "publicCode": "RAD-109/167",
+            "tcgplayerProductIds": [
+              722871
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, In Control",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-109a",
@@ -3113,8 +4393,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-109a-167",
-            "publicCode": "RAD-109a/167"
-          }
+            "publicCode": "RAD-109a/167",
+            "tcgplayerProductIds": [
+              722873
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, In Control (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3148,8 +4438,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-110-167",
-            "publicCode": "RAD-110/167"
-          }
+            "publicCode": "RAD-110/167",
+            "tcgplayerProductIds": [
+              722893
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lulu, Whimsical",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3177,8 +4477,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-111-167",
-            "publicCode": "RAD-111/167"
-          }
+            "publicCode": "RAD-111/167",
+            "tcgplayerProductIds": [
+              723212
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mechanical Bandit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3208,8 +4518,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-112-167",
-            "publicCode": "RAD-112/167"
-          }
+            "publicCode": "RAD-112/167",
+            "tcgplayerProductIds": [
+              723228
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Explosive",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-112a",
@@ -3223,8 +4543,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-112a-167",
-            "publicCode": "RAD-112a/167"
-          }
+            "publicCode": "RAD-112a/167",
+            "tcgplayerProductIds": [
+              723227
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Explosive (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3249,8 +4579,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-113-167",
-            "publicCode": "RAD-113/167"
-          }
+            "publicCode": "RAD-113/167",
+            "tcgplayerProductIds": [
+              723412
+            ]
+          },
+          "tcgplayer": {
+            "name": "Angler Wyrm",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3280,8 +4620,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-114-167",
-            "publicCode": "RAD-114/167"
-          }
+            "publicCode": "RAD-114/167",
+            "tcgplayerProductIds": [
+              723219
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Deserter",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-114a",
@@ -3295,8 +4645,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-114a-167",
-            "publicCode": "RAD-114a/167"
-          }
+            "publicCode": "RAD-114a/167",
+            "tcgplayerProductIds": [
+              723220
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Deserter (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3321,8 +4681,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-115-167",
-            "publicCode": "RAD-115/167"
-          }
+            "publicCode": "RAD-115/167",
+            "tcgplayerProductIds": [
+              722342
+            ]
+          },
+          "tcgplayer": {
+            "name": "Transpositionist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3346,8 +4716,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-116-167",
-            "publicCode": "RAD-116/167"
-          }
+            "publicCode": "RAD-116/167",
+            "tcgplayerProductIds": [
+              722287
+            ]
+          },
+          "tcgplayer": {
+            "name": "Concert Poster",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3371,8 +4752,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-117-167",
-            "publicCode": "RAD-117/167"
-          }
+            "publicCode": "RAD-117/167",
+            "tcgplayerProductIds": [
+              722876
+            ]
+          },
+          "tcgplayer": {
+            "name": "For Demacia!",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3397,8 +4789,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-118-167",
-            "publicCode": "RAD-118/167"
-          }
+            "publicCode": "RAD-118/167",
+            "tcgplayerProductIds": [
+              722880
+            ]
+          },
+          "tcgplayer": {
+            "name": "Herald of the Emperor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3423,8 +4826,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-119-167",
-            "publicCode": "RAD-119/167"
-          }
+            "publicCode": "RAD-119/167",
+            "tcgplayerProductIds": [
+              722883
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hunting Dog",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3452,8 +4866,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-120-167",
-            "publicCode": "RAD-120/167"
-          }
+            "publicCode": "RAD-120/167",
+            "tcgplayerProductIds": [
+              722894
+            ]
+          },
+          "tcgplayer": {
+            "name": "Meticulous Restorationist",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3473,8 +4898,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-121-167",
-            "publicCode": "RAD-121/167"
-          }
+            "publicCode": "RAD-121/167",
+            "tcgplayerProductIds": [
+              723215
+            ]
+          },
+          "tcgplayer": {
+            "name": "One-Two Punch",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3500,8 +4936,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-122-167",
-            "publicCode": "RAD-122/167"
-          }
+            "publicCode": "RAD-122/167",
+            "tcgplayerProductIds": [
+              723217
+            ]
+          },
+          "tcgplayer": {
+            "name": "Party Crasher",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3524,8 +4971,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-123-167",
-            "publicCode": "RAD-123/167"
-          }
+            "publicCode": "RAD-123/167",
+            "tcgplayerProductIds": [
+              723425
+            ]
+          },
+          "tcgplayer": {
+            "name": "Protector's Shield",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3550,8 +5008,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-124-167",
-            "publicCode": "RAD-124/167"
-          }
+            "publicCode": "RAD-124/167",
+            "tcgplayerProductIds": [
+              723416
+            ]
+          },
+          "tcgplayer": {
+            "name": "Burn Away",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3577,8 +5046,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-125-167",
-            "publicCode": "RAD-125/167"
-          }
+            "publicCode": "RAD-125/167",
+            "tcgplayerProductIds": [
+              722291
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dune Devourer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3606,8 +5086,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-126-167",
-            "publicCode": "RAD-126/167"
-          }
+            "publicCode": "RAD-126/167",
+            "tcgplayerProductIds": [
+              722320
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mournful Spirit",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3630,8 +5121,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-127-167",
-            "publicCode": "RAD-127/167"
-          }
+            "publicCode": "RAD-127/167",
+            "tcgplayerProductIds": [
+              721335
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rousing Display",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3656,8 +5158,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-128-167",
-            "publicCode": "RAD-128/167"
-          }
+            "publicCode": "RAD-128/167",
+            "tcgplayerProductIds": [
+              722915
+            ]
+          },
+          "tcgplayer": {
+            "name": "Steadfast Outrider",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3682,8 +5195,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-129-167",
-            "publicCode": "RAD-129/167"
-          }
+            "publicCode": "RAD-129/167",
+            "tcgplayerProductIds": [
+              722921
+            ]
+          },
+          "tcgplayer": {
+            "name": "Trifarian Captain",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -3708,8 +5232,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-130-167",
-            "publicCode": "RAD-130/167"
-          }
+            "publicCode": "RAD-130/167",
+            "tcgplayerProductIds": [
+              722850
+            ]
+          },
+          "tcgplayer": {
+            "name": "Battlefield Armorer",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3735,8 +5269,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-131-167",
-            "publicCode": "RAD-131/167"
-          }
+            "publicCode": "RAD-131/167",
+            "tcgplayerProductIds": [
+              722863
+            ]
+          },
+          "tcgplayer": {
+            "name": "Demacian Illuminators",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3771,8 +5315,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-132-167",
-            "publicCode": "RAD-132/167"
-          }
+            "publicCode": "RAD-132/167",
+            "tcgplayerProductIds": [
+              722299
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heimerdinger, Academy Instructor",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3806,8 +5360,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-133-167",
-            "publicCode": "RAD-133/167"
-          }
+            "publicCode": "RAD-133/167",
+            "tcgplayerProductIds": [
+              723209
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Royal Heir",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-133a",
@@ -3821,8 +5385,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-133a-167",
-            "publicCode": "RAD-133a/167"
-          }
+            "publicCode": "RAD-133a/167",
+            "tcgplayerProductIds": [
+              723210
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Royal Heir (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3843,8 +5417,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-134-167",
-            "publicCode": "RAD-134/167"
-          }
+            "publicCode": "RAD-134/167",
+            "tcgplayerProductIds": [
+              723426
+            ]
+          },
+          "tcgplayer": {
+            "name": "Raucous Anthem",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3869,8 +5453,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-135-167",
-            "publicCode": "RAD-135/167"
-          }
+            "publicCode": "RAD-135/167",
+            "tcgplayerProductIds": [
+              723427
+            ]
+          },
+          "tcgplayer": {
+            "name": "Remember the Fallen",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3895,8 +5489,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-136-167",
-            "publicCode": "RAD-136/167"
-          }
+            "publicCode": "RAD-136/167",
+            "tcgplayerProductIds": [
+              721334
+            ]
+          },
+          "tcgplayer": {
+            "name": "Dockside Lock-Up",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3930,8 +5534,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-137-167",
-            "publicCode": "RAD-137/167"
-          }
+            "publicCode": "RAD-137/167",
+            "tcgplayerProductIds": [
+              722318
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Dominating",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-137a",
@@ -3945,8 +5559,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-137a-167",
-            "publicCode": "RAD-137a/167"
-          }
+            "publicCode": "RAD-137a/167",
+            "tcgplayerProductIds": [
+              722319
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Dominating (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -3977,8 +5601,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-138-167",
-            "publicCode": "RAD-138/167"
-          }
+            "publicCode": "RAD-138/167",
+            "tcgplayerProductIds": [
+              722335
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Not Alone",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         },
         {
           "id": "RAD-138a",
@@ -3989,8 +5623,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-138a-167",
-            "publicCode": "RAD-138a/167"
-          }
+            "publicCode": "RAD-138a/167",
+            "tcgplayerProductIds": [
+              722336
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Not Alone (Alternate Art)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4017,8 +5661,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-139-167",
-            "publicCode": "RAD-139/167"
-          }
+            "publicCode": "RAD-139/167",
+            "tcgplayerProductIds": [
+              722293
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Boy Who Shattered Time",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4049,8 +5703,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-140-167",
-            "publicCode": "RAD-140/167"
-          }
+            "publicCode": "RAD-140/167",
+            "tcgplayerProductIds": [
+              722283
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chronobreak",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4078,8 +5742,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-141-167",
-            "publicCode": "RAD-141/167"
-          }
+            "publicCode": "RAD-141/167",
+            "tcgplayerProductIds": [
+              722344
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Hexplosives Expert",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4111,8 +5785,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-142-167",
-            "publicCode": "RAD-142/167"
-          }
+            "publicCode": "RAD-142/167",
+            "tcgplayerProductIds": [
+              722300
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hexplosive Minefield",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4139,8 +5823,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-143-167",
-            "publicCode": "RAD-143/167"
-          }
+            "publicCode": "RAD-143/167",
+            "tcgplayerProductIds": [
+              722886
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Iron Revenant",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4169,8 +5863,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-144-167",
-            "publicCode": "RAD-144/167"
-          }
+            "publicCode": "RAD-144/167",
+            "tcgplayerProductIds": [
+              722905
+            ]
+          },
+          "tcgplayer": {
+            "name": "Realm of Death",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4197,8 +5901,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-145-167",
-            "publicCode": "RAD-145/167"
-          }
+            "publicCode": "RAD-145/167",
+            "tcgplayerProductIds": [
+              721340
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Lady of Clockwork",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4228,8 +5942,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-146-167",
-            "publicCode": "RAD-146/167"
-          }
+            "publicCode": "RAD-146/167",
+            "tcgplayerProductIds": [
+              722918
+            ]
+          },
+          "tcgplayer": {
+            "name": "The Ball",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4256,8 +5980,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-147-167",
-            "publicCode": "RAD-147/167"
-          }
+            "publicCode": "RAD-147/167",
+            "tcgplayerProductIds": [
+              722311
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Pride of Nazumah",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4289,8 +6023,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-148-167",
-            "publicCode": "RAD-148/167"
-          }
+            "publicCode": "RAD-148/167",
+            "tcgplayerProductIds": [
+              722322
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ntofo Strikes",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4317,8 +6061,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-149-167",
-            "publicCode": "RAD-149/167"
-          }
+            "publicCode": "RAD-149/167",
+            "tcgplayerProductIds": [
+              723434
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, The Exile",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4353,8 +6107,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-150-167",
-            "publicCode": "RAD-150/167"
-          }
+            "publicCode": "RAD-150/167",
+            "tcgplayerProductIds": [
+              722279
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blade of the Exile",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4381,8 +6145,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-151-167",
-            "publicCode": "RAD-151/167"
-          }
+            "publicCode": "RAD-151/167",
+            "tcgplayerProductIds": [
+              721345
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Starry-Eyed Songstress",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4414,8 +6188,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-152-167",
-            "publicCode": "RAD-152/167"
-          }
+            "publicCode": "RAD-152/167",
+            "tcgplayerProductIds": [
+              722868
+            ]
+          },
+          "tcgplayer": {
+            "name": "Encore",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4442,8 +6226,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-153-167",
-            "publicCode": "RAD-153/167"
-          }
+            "publicCode": "RAD-153/167",
+            "tcgplayerProductIds": [
+              722844
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, Agony's Embrace",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4474,8 +6268,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-154-167",
-            "publicCode": "RAD-154/167"
-          }
+            "publicCode": "RAD-154/167",
+            "tcgplayerProductIds": [
+              722891
+            ]
+          },
+          "tcgplayer": {
+            "name": "Last Caress",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4502,8 +6306,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-155-167",
-            "publicCode": "RAD-155/167"
-          }
+            "publicCode": "RAD-155/167",
+            "tcgplayerProductIds": [
+              722305
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Exemplar of Demacia",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4536,8 +6350,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-156-167",
-            "publicCode": "RAD-156/167"
-          }
+            "publicCode": "RAD-156/167",
+            "tcgplayerProductIds": [
+              722289
+            ]
+          },
+          "tcgplayer": {
+            "name": "Demacian Standard",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4560,8 +6384,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-157-167",
-            "publicCode": "RAD-157/167"
-          }
+            "publicCode": "RAD-157/167",
+            "tcgplayerProductIds": [
+              722849
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bandle Scouts' Academy",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4584,8 +6419,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-158-167",
-            "publicCode": "RAD-158/167"
-          }
+            "publicCode": "RAD-158/167",
+            "tcgplayerProductIds": [
+              722852
+            ]
+          },
+          "tcgplayer": {
+            "name": "Black Market",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4608,8 +6454,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-159-167",
-            "publicCode": "RAD-159/167"
-          }
+            "publicCode": "RAD-159/167",
+            "tcgplayerProductIds": [
+              722853
+            ]
+          },
+          "tcgplayer": {
+            "name": "Black Rose Sanctum",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4632,8 +6489,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-160-167",
-            "publicCode": "RAD-160/167"
-          }
+            "publicCode": "RAD-160/167",
+            "tcgplayerProductIds": [
+              722288
+            ]
+          },
+          "tcgplayer": {
+            "name": "Cosmic Vista",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4656,8 +6524,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-161-167",
-            "publicCode": "RAD-161/167"
-          }
+            "publicCode": "RAD-161/167",
+            "tcgplayerProductIds": [
+              722292
+            ]
+          },
+          "tcgplayer": {
+            "name": "Durand Memorial",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4680,8 +6559,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-162-167",
-            "publicCode": "RAD-162/167"
-          }
+            "publicCode": "RAD-162/167",
+            "tcgplayerProductIds": [
+              722875
+            ]
+          },
+          "tcgplayer": {
+            "name": "Firelights' Hideout",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4704,8 +6594,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-163-167",
-            "publicCode": "RAD-163/167"
-          }
+            "publicCode": "RAD-163/167",
+            "tcgplayerProductIds": [
+              722882
+            ]
+          },
+          "tcgplayer": {
+            "name": "Hunters' Circle",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4728,8 +6629,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-164-167",
-            "publicCode": "RAD-164/167"
-          }
+            "publicCode": "RAD-164/167",
+            "tcgplayerProductIds": [
+              722326
+            ]
+          },
+          "tcgplayer": {
+            "name": "Packed Amphitheater",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4752,8 +6664,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-165-167",
-            "publicCode": "RAD-165/167"
-          }
+            "publicCode": "RAD-165/167",
+            "tcgplayerProductIds": [
+              722329
+            ]
+          },
+          "tcgplayer": {
+            "name": "Rakelstake",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4776,8 +6699,19 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-166-167",
-            "publicCode": "RAD-166/167"
-          }
+            "publicCode": "RAD-166/167",
+            "tcgplayerProductIds": [
+              722332
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ruined Monastery",
+            "match": "number"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -4811,8 +6745,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-167-167",
-            "publicCode": "RAD-167/167"
-          }
+            "publicCode": "RAD-167/167",
+            "tcgplayerProductIds": [
+              722321
+            ]
+          },
+          "tcgplayer": {
+            "name": "Neeko, Blending In",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4839,8 +6783,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-168-167",
-            "publicCode": "RAD-168/167"
-          }
+            "publicCode": "RAD-168/167",
+            "tcgplayerProductIds": [
+              722856
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Boy Who Shattered Time (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4868,8 +6822,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-169-167",
-            "publicCode": "RAD-169/167"
-          }
+            "publicCode": "RAD-169/167",
+            "tcgplayerProductIds": [
+              722345
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Hexplosives Expert (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4893,8 +6857,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-170-167",
-            "publicCode": "RAD-170/167"
-          }
+            "publicCode": "RAD-170/167",
+            "tcgplayerProductIds": [
+              722887
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Iron Revenant (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4918,8 +6892,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-171-167",
-            "publicCode": "RAD-171/167"
-          }
+            "publicCode": "RAD-171/167",
+            "tcgplayerProductIds": [
+              722323
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Lady of Clockwork (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4946,8 +6930,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-172-167",
-            "publicCode": "RAD-172/167"
-          }
+            "publicCode": "RAD-172/167",
+            "tcgplayerProductIds": [
+              722312
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Pride of Nazumah (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4971,8 +6965,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-173-167",
-            "publicCode": "RAD-173/167"
-          }
+            "publicCode": "RAD-173/167",
+            "tcgplayerProductIds": [
+              723435
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, The Exile (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -4996,8 +7000,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-174-167",
-            "publicCode": "RAD-174/167"
-          }
+            "publicCode": "RAD-174/167",
+            "tcgplayerProductIds": [
+              722338
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Starry-Eyed Songstress (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5024,8 +7038,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-175-167",
-            "publicCode": "RAD-175/167"
-          }
+            "publicCode": "RAD-175/167",
+            "tcgplayerProductIds": [
+              722843
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, Agony's Embrace (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5049,8 +7073,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-176-167",
-            "publicCode": "RAD-176/167"
-          }
+            "publicCode": "RAD-176/167",
+            "tcgplayerProductIds": [
+              722306
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Exemplar of Demacia (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5084,8 +7118,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-177-167",
-            "publicCode": "RAD-177/167"
-          }
+            "publicCode": "RAD-177/167",
+            "tcgplayerProductIds": [
+              723382
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Revolutionary (Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5118,8 +7162,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-178-167",
-            "publicCode": "RAD-178/167"
-          }
+            "publicCode": "RAD-178/167",
+            "tcgplayerProductIds": [
+              721346
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Courageous (Heartsteel Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5153,8 +7207,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-179-167",
-            "publicCode": "RAD-179/167"
-          }
+            "publicCode": "RAD-179/167",
+            "tcgplayerProductIds": [
+              721350
+            ]
+          },
+          "tcgplayer": {
+            "name": "Aphelios, Exalted (Heartsteel Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5188,8 +7252,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-180-167",
-            "publicCode": "RAD-180/167"
-          }
+            "publicCode": "RAD-180/167",
+            "tcgplayerProductIds": [
+              721352
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ezreal, Dashing (Heartsteel Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5224,8 +7298,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-181-167",
-            "publicCode": "RAD-181/167"
-          }
+            "publicCode": "RAD-181/167",
+            "tcgplayerProductIds": [
+              721354
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yone, Blademaster (Heartsteel Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5259,8 +7343,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-182-167",
-            "publicCode": "RAD-182/167"
-          }
+            "publicCode": "RAD-182/167",
+            "tcgplayerProductIds": [
+              721356
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kayn, Unleashed (Heartsteel Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5294,8 +7388,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-183-167",
-            "publicCode": "RAD-183/167"
-          }
+            "publicCode": "RAD-183/167",
+            "tcgplayerProductIds": [
+              721357
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Kingpin (Heartsteel Overnumbered)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5318,8 +7422,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-184-167",
-            "publicCode": "RAD-184/167"
-          }
+            "publicCode": "RAD-184/167",
+            "tcgplayerProductIds": [
+              722900
+            ]
+          },
+          "tcgplayer": {
+            "name": "Packed Amphitheater (Ultimate)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5353,8 +7467,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-sp1-005",
-            "publicCode": "RAD-SP1/005"
-          }
+            "publicCode": "RAD-SP1/005",
+            "tcgplayerProductIds": [
+              722845
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Confident (K/DA Special Art Card)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5385,8 +7509,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-sp2-005",
-            "publicCode": "RAD-SP2/005"
-          }
+            "publicCode": "RAD-SP2/005",
+            "tcgplayerProductIds": [
+              722847
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Brash (K/DA Special Art Card)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5419,8 +7553,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-sp3-005",
-            "publicCode": "RAD-SP3/005"
-          }
+            "publicCode": "RAD-SP3/005",
+            "tcgplayerProductIds": [
+              722872
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, In Control (K/DA Special Art Card)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5454,8 +7598,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-sp4-005",
-            "publicCode": "RAD-SP4/005"
-          }
+            "publicCode": "RAD-SP4/005",
+            "tcgplayerProductIds": [
+              722313
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kai'Sa, Rebel (K/DA Special Art Card)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5486,8 +7640,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-sp5-005",
-            "publicCode": "RAD-SP5/005"
-          }
+            "publicCode": "RAD-SP5/005",
+            "tcgplayerProductIds": [
+              722337
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Not Alone (K/DA Special Art Card)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5513,8 +7677,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r01",
-            "publicCode": "RAD-R01"
-          }
+            "publicCode": "RAD-R01",
+            "tcgplayerProductIds": [
+              722878
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "RAD-R01a",
@@ -5525,8 +7699,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r01a",
-            "publicCode": "RAD-R01a"
-          }
+            "publicCode": "RAD-R01a",
+            "tcgplayerProductIds": [
+              722877
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (R01a)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5552,8 +7736,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r02",
-            "publicCode": "RAD-R02"
-          }
+            "publicCode": "RAD-R02",
+            "tcgplayerProductIds": [
+              722281
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "RAD-R02a",
@@ -5564,8 +7758,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r02a",
-            "publicCode": "RAD-R02a"
-          }
+            "publicCode": "RAD-R02a",
+            "tcgplayerProductIds": [
+              722282
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (R02a)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5591,8 +7795,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r03",
-            "publicCode": "RAD-R03"
-          }
+            "publicCode": "RAD-R03",
+            "tcgplayerProductIds": [
+              722315
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "RAD-R03a",
@@ -5603,8 +7817,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r03a",
-            "publicCode": "RAD-R03a"
-          }
+            "publicCode": "RAD-R03a",
+            "tcgplayerProductIds": [
+              722316
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (R03a)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5630,8 +7854,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r04",
-            "publicCode": "RAD-R04"
-          }
+            "publicCode": "RAD-R04",
+            "tcgplayerProductIds": [
+              722855
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "RAD-R04a",
@@ -5642,8 +7876,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r04a",
-            "publicCode": "RAD-R04a"
-          }
+            "publicCode": "RAD-R04a",
+            "tcgplayerProductIds": [
+              722854
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (R04a)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5669,8 +7913,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r05",
-            "publicCode": "RAD-R05"
-          }
+            "publicCode": "RAD-R05",
+            "tcgplayerProductIds": [
+              722860
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "RAD-R05a",
@@ -5681,8 +7935,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r05a",
-            "publicCode": "RAD-R05a"
-          }
+            "publicCode": "RAD-R05a",
+            "tcgplayerProductIds": [
+              722859
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (R05a)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -5708,8 +7972,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r06",
-            "publicCode": "RAD-R06"
-          }
+            "publicCode": "RAD-R06",
+            "tcgplayerProductIds": [
+              722897
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune",
+            "match": "number"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         },
         {
           "id": "RAD-R06a",
@@ -5720,8 +7994,18 @@
           "source": "riot-gallery",
           "identifiers": {
             "galleryId": "rad-r06a",
-            "publicCode": "RAD-R06a"
-          }
+            "publicCode": "RAD-R06a",
+            "tcgplayerProductIds": [
+              722898
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (R06a)",
+            "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     }
