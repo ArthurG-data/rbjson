@@ -1,6 +1,6 @@
 # rbjson
 
-An open dataset of [Riftbound](https://playriftbound.com) sets, cards and printings, built from Riot's
+An open dataset of [Riftbound](https://playriftbound.com) sets, cards, printings and sealed products, built from Riot's
 official card gallery. Riftbound is Riot Games' League of Legends trading card game, launched in English on
 31 October 2025. The gallery serves the whole catalogue as one JSON document, including sets ahead of their
 street date, and rbjson turns that document into stable, versioned files a program can rely on.
@@ -9,8 +9,9 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 `OGN-119a/298`) are one card with two printings, and every printing keeps the gallery id and printed code it
 came from, so a reader can always get back to Riot's own record.
 
-Release 0.2.0 holds 6 sets, 1,237 cards and 1,408 printings, in English. 1,399 printings carry the TCGplayer product
-that sells them and the finishes it is sold in.
+Release 0.3.0 holds 6 sets, 1,237 cards, 1,408 printings and 65 sealed products, in English. 1,399 printings carry
+the TCGplayer product that sells them and the finishes it is sold in. The starter set names its parent, and each
+booster set carries its key art.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -19,15 +20,16 @@ written for one needs little change for another.
 
 ## Using the data
 
-Each tagged release attaches three files to a GitHub release:
+Each tagged release attaches four files to a GitHub release:
 
 ```
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllSets.json
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllCards.json
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllPrintings.json
+https://github.com/ArthurG-data/rbjson/releases/latest/download/AllProducts.json
 ```
 
-Every file is `{"meta": {"version": "0.1.0", "date": "2026-11-02"}, "data": {...}}`. All three come from one
+Every file is `{"meta": {"version": "0.3.0", "date": "2026-11-04"}, "data": {...}}`. All four come from one
 build, so a reader that downloads them separately can check that the versions agree.
 
 | File | Keyed by | Holds |
@@ -35,6 +37,7 @@ build, so a reader that downloads them separately can check that the versions ag
 | `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids, and per release (`en`) the name, date, source page and key art |
 | `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its set, and the ids of its printings |
 | `AllPrintings.json` | printing id (`OGN-119a`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery and TCGplayer identifiers |
+| `AllProducts.json` | product id (`origins-booster-display`) | the sealed products: set, category, name, release date, TCGplayer product id, and what the product holds |
 
 The files are also what the repository's `data/` folder holds, flattened: a reader that wants the cards of one
 set can read `data/cards/<set>.json` straight from a checkout instead.
@@ -186,6 +189,44 @@ Not matched, and listed in `review/tcgplayer-89.json`: the oversized battlefield
 tokens TCGplayer sells that the gallery does not list, double-sided token products (`T01 // T02`), and the
 promotional groups (PR, OPP, JDG, the bundles), whose stamped copies of base cards are a later step.
 
+### Sealed products
+
+`tools/import_sealed.py` writes `data/sealed/<set>.json` from the products TCGplayer sells in category 89 that are
+not singles (no card number and no rarity), filed under the set whose `tcgplayerGroupIds` hold the product's
+group. The shape is opjson's: `{"products": [...]}`, each with `id`, `set`, `category`, `name`, `releaseDate`,
+`identifiers.tcgplayerProductIds`, `contentsStatus`, `contents` and `sources`. The id is the name lowercased and
+joined with hyphens (`origins-booster-display`), unique across the dataset. `releaseDate` is TCGplayer's own date
+for the product, else its group's `publishedOn`.
+
+The `category` comes from the name, by ordered rules where the first match wins:
+
+| Name | Category |
+|---|---|
+| ends in `Case` | `case` |
+| ends in `Booster Display` | `booster_box` (the 24-pack box) |
+| `[Set of 3]` or `(Set of 3)` | `display` (the sleeved booster pack art bundle) |
+| ends in `Display` | `display` (Champion Deck and Showdown Decks displays) |
+| `Sleeved Booster Pack` | `sleeved_booster_pack` |
+| `Champion Deck`, `Showdown Decks`, `Box Set` | `starter_deck` |
+| `Pre-Rift Event Kit` | `tournament_kit` |
+| `Nexus Night Promo Pack` | `promo_pack` |
+| `Vault Bundle`, `Pre-Rift Kit` | `collection` |
+| `Booster Pack` | `booster_pack` |
+| anything else | `other` (Bulk Runes) |
+
+`contents` is written only where the product's own name or set states it, and never with counts, so
+`contentsStatus` is `partial` or `unknown`, never `complete`:
+
+- a booster pack or sleeved booster pack has a `pool`: its set, with no odds;
+- a booster display and a vault bundle hold the set's booster pack;
+- a case holds the product its name prefixes (`Origins - Booster Display Case` holds `origins-booster-display`);
+- a Champion Deck display or Showdown Decks display holds the deck of the same name;
+- a sleeved art bundle holds the set's sleeved booster pack;
+- everything else is `unknown` with empty `contents`.
+
+The products of a group that is not a set (the promotional group, the Worlds bundles, Secret Garden, and a set
+rbjson does not list yet) are not written. `review/sealed.json` lists them with their group and name.
+
 Riot also publishes a licensed [Content API](https://developer.riotgames.com/apis#riftbound-content-v1). It is
 in beta and English only, and rbjson does not use it yet. When it leaves beta it is the better source, and
 the gallery import stays as the cross-check.
@@ -201,7 +242,7 @@ the gallery import stays as the cross-check.
   writing. Their `type` and `domains` are absent until Riot fills them in.
 - **English only.** The gallery serves `fr-fr`, `de-de`, `ja-jp` and `ko-kr` too, and the importer takes a
   `--locale`, but only English is imported so far.
-- **No sealed products, no legality.** Booster boxes, starter decks and format legality are not covered.
+- **Sealed contents.** Deck lists and counts are not stated: a case or display names what it holds without how many, and a deck has no card list. Format legality is not covered.
 - **No reprint links.** A champion reprinted with the same subtitle in a later set is a separate card.
 
 ## Layout
@@ -210,9 +251,11 @@ the gallery import stays as the cross-check.
 - `data/cards/<set>.json` holds the cards of one set, each with every printing of it. Written by the importer.
 - `review/gallery.json` lists the variants whose gallery entry disagrees with their base. Written by the importer.
 - `review/tcgplayer-89.json` lists the TCGplayer singles no printing matched and the groups that were not matched.
+- `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
+- `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
-- `schema/sets.schema.json` and `schema/cards.schema.json` define the two file shapes.
-- `tools/` holds the two importers, the validator, the build script, and the gallery and TCGCSV fetchers.
+- `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
+- `tools/` holds the three importers, the validator, the build script, and the gallery and TCGCSV fetchers.
 - `tests/` checks the tools against a small gallery fixture and the committed data against the schemas.
 
 ## Building
@@ -221,22 +264,23 @@ the gallery import stays as the cross-check.
 uv sync --group dev
 uv run python tools/import_gallery.py          # rebuild data/cards from the gallery, cached in .cache/
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
+uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
 uv run python tools/validate.py [--online [--images]]
-uv run python tools/build.py --version 0.2.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json
+uv run python tools/build.py --version 0.3.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json, AllProducts.json
 uv run pytest -q
 ```
 
 `validate.py` checks the schemas and the cross-references: every printing is filed under its own number, no
 id or gallery entry appears twice, every printing's language has a release, a TCGplayer product sits on one
-printing. `--online` fetches the gallery again and reports any printing whose entry is gone and any entry the
-data lacks, and asks TCGCSV whether every TCGplayer product id still exists. `--images` also asks Riot whether
+printing or sealed product, and a sealed product's contents name products, sets and printings that exist. `--online` fetches the gallery again and reports any printing whose entry is gone and any entry the
+data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists. `--images` also asks Riot whether
 every card image is still served, about 1,400 requests, so CI runs it only for a release tag.
 
 `build.py` refuses to write `dist/` while the data is invalid.
 
 ## Releasing
 
-Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the three files to a GitHub release
+Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files to a GitHub release
 named after the tag. Readers follow `releases/latest/download/<file>`, so a new tag is all a release takes.
 
 ## Adding a set or refreshing the data
@@ -244,9 +288,10 @@ named after the tag. Readers follow `releases/latest/download/<file>`, so a new 
 1. Run `uv run python tools/import_gallery.py`. If it names a new set, add it to `sets/sets.json` with its
    code, type, set size and English name, then run the importer again.
 2. Run `uv run python tools/import_tcgcsv.py --refresh` to pick up new products and finishes.
-3. Read `review/gallery.json` and `review/tcgplayer-89.json` for anything new.
-4. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
-5. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
+3. Run `uv run python tools/import_sealed.py --refresh`.
+4. Read `review/gallery.json`, `review/tcgplayer-89.json` and `review/sealed.json` for anything new.
+5. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
+6. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
 
 ## Licence
 

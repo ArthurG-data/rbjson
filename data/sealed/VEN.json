@@ -1,0 +1,256 @@
+{
+  "products": [
+    {
+      "id": "vendetta-booster-display",
+      "set": "VEN",
+      "category": "booster_box",
+      "name": "Vendetta - Booster Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          693380
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "vendetta-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/693380"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-booster-display-case",
+      "set": "VEN",
+      "category": "case",
+      "name": "Vendetta - Booster Display Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          693382
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "vendetta-booster-display"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/693382"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-booster-pack",
+      "set": "VEN",
+      "category": "booster_pack",
+      "name": "Vendetta - Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          693377
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "VEN"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/693377"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-nexus-night-promo-pack",
+      "set": "VEN",
+      "category": "promo_pack",
+      "name": "Vendetta - Nexus Night Promo Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711001
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/711001"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-pre-rift-event-kit",
+      "set": "VEN",
+      "category": "tournament_kit",
+      "name": "Vendetta - Pre-Rift Event Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          707963
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/707963"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-pre-rift-kit",
+      "set": "VEN",
+      "category": "collection",
+      "name": "Vendetta - Pre-Rift Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          697969
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/697969"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-showdown-decks-zed-vs-shen",
+      "set": "VEN",
+      "category": "starter_deck",
+      "name": "Vendetta - Showdown Decks: Zed vs Shen",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          697971
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/697971"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-showdown-decks-zed-vs-shen-display",
+      "set": "VEN",
+      "category": "display",
+      "name": "Vendetta - Showdown Decks: Zed vs Shen Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          706237
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "vendetta-showdown-decks-zed-vs-shen"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/706237"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-sleeved-booster-pack",
+      "set": "VEN",
+      "category": "sleeved_booster_pack",
+      "name": "Vendetta - Sleeved Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          710855
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "VEN"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/710855"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-sleeved-booster-pack-art-bundle-set-of-3",
+      "set": "VEN",
+      "category": "display",
+      "name": "Vendetta - Sleeved Booster Pack Art Bundle [Set of 3]",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          710856
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "vendetta-sleeved-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/710856"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-vault-bundle",
+      "set": "VEN",
+      "category": "collection",
+      "name": "Vendetta - Vault Bundle",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          697970
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "vendetta-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/697970"
+      ],
+      "releaseDate": "2026-07-31"
+    },
+    {
+      "id": "vendetta-vault-bundle-case",
+      "set": "VEN",
+      "category": "case",
+      "name": "Vendetta - Vault Bundle Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711444
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "vendetta-vault-bundle"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711444"
+      ],
+      "releaseDate": "2026-07-31"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "products": [
+    {
+      "id": "radiance-booster-display",
+      "set": "RAD",
+      "category": "booster_box",
+      "name": "Radiance - Booster Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711365
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "radiance-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711365"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-booster-display-case",
+      "set": "RAD",
+      "category": "case",
+      "name": "Radiance - Booster Display Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711366
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "radiance-booster-display"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711366"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-booster-pack",
+      "set": "RAD",
+      "category": "booster_pack",
+      "name": "Radiance - Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711362
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "RAD"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711362"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-pre-rift-event-kit",
+      "set": "RAD",
+      "category": "tournament_kit",
+      "name": "Radiance - Pre-Rift Event Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711371
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/711371"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-pre-rift-kit",
+      "set": "RAD",
+      "category": "collection",
+      "name": "Radiance - Pre-Rift Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711370
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/711370"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-showdown-decks-evelynn-vs-seraphine",
+      "set": "RAD",
+      "category": "starter_deck",
+      "name": "Radiance - Showdown Decks: Evelynn vs Seraphine",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711368
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/711368"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-showdown-decks-evelynn-vs-seraphine-display",
+      "set": "RAD",
+      "category": "display",
+      "name": "Radiance - Showdown Decks: Evelynn vs Seraphine Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711369
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "radiance-showdown-decks-evelynn-vs-seraphine"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711369"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-sleeved-booster-pack",
+      "set": "RAD",
+      "category": "sleeved_booster_pack",
+      "name": "Radiance - Sleeved Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711363
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "RAD"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711363"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-sleeved-booster-pack-art-bundle-set-of-3",
+      "set": "RAD",
+      "category": "display",
+      "name": "Radiance - Sleeved Booster Pack Art Bundle (Set of 3)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711364
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "radiance-sleeved-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711364"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-vault-bundle",
+      "set": "RAD",
+      "category": "collection",
+      "name": "Radiance - Vault Bundle",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711372
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "radiance-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711372"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
+      "id": "radiance-vault-bundle-case",
+      "set": "RAD",
+      "category": "case",
+      "name": "Radiance - Vault Bundle Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711446
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "radiance-vault-bundle"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711446"
+      ],
+      "releaseDate": "2026-10-23"
+    }
+  ]
+}
