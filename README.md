@@ -2,7 +2,7 @@
 
 An open dataset of [Riftbound](https://playriftbound.com) sets, cards, printings and sealed products, built from Riot's
 official card gallery. Riftbound is Riot Games' League of Legends trading card game, launched in English on
-31 October 2025. The gallery serves the whole catalogue as one JSON document, including sets ahead of their
+31 October 2025 and in Korea on 18 September 2026. The gallery serves the whole catalogue as one JSON document, including sets ahead of their
 street date, and rbjson turns that document into stable, versioned files a program can rely on.
 
 Every gallery entry is one printing. The variants of one collector number (`OGN-119/298` and its alternate art
@@ -11,7 +11,8 @@ came from, so a reader can always get back to Riot's own record.
 
 Release 0.3.0 holds 6 sets, 1,237 cards, 1,408 printings and 65 sealed products, in English. 1,399 printings carry
 the TCGplayer product that sells them and the finishes it is sold in. The starter set names its parent, and each
-booster set carries its key art.
+booster set carries its key art. The data after 0.3.0 adds the 375 Korean printings of Origins and Proving Grounds
+(1,783 printings in all): each sits beside its English twin on the same card, which gains its Korean name.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -34,9 +35,9 @@ build, so a reader that downloads them separately can check that the versions ag
 
 | File | Keyed by | Holds |
 |---|---|---|
-| `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids, and per release (`en`) the name, date, source page and key art |
-| `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its set, and the ids of its printings |
-| `AllPrintings.json` | printing id (`OGN-119a`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery and TCGplayer identifiers |
+| `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids, and per release (`en`, and `ko` for Origins and Proving Grounds) the name, date, source page and key art |
+| `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its name and subtitle in each language it has printings in, its set, and the ids of its printings |
+| `AllPrintings.json` | printing id (`OGN-119a`, `OGN-119a~ko`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery and TCGplayer identifiers |
 | `AllProducts.json` | product id (`origins-booster-display`) | the sealed products: set, category, name, release date, TCGplayer product id, and what the product holds |
 
 The files are also what the repository's `data/` folder holds, flattened: a reader that wants the cards of one
@@ -46,13 +47,14 @@ set can read `data/cards/<set>.json` straight from a checkout instead.
 
 | Code | Name | Type | Set size | Cards | Printings |
 |---|---|---|---|---|---|
-| OGN | Origins | booster | 298 | 310 | 352 |
-| OGS | Origins: Proving Grounds | starter | 24 | 24 | 24 |
+| OGN | Origins | booster | 298 | 310 | 703 |
+| OGS | Origins: Proving Grounds | starter | 24 | 24 | 48 |
 | SFD | Spiritforged | booster | 221 | 252 | 288 |
 | UNL | Unleashed | booster | 219 | 246 | 288 |
 | VEN | Vendetta | booster | 166 | 210 | 237 |
 | RAD | Radiance | booster | 167 | 195 | 219 |
 
+Origins and Proving Grounds count their Korean printings (351 and 24); the other sets are English only.
 A set holds more cards than its set size because overnumbered showcase cards, promos, runes and tokens sit
 above or outside the numbered run. Vendetta and Radiance are in the gallery ahead of release, and a few of their
 cards still lack a type or domain (see [Known gaps](#known-gaps)).
@@ -114,8 +116,10 @@ field is absent rather than null when the gallery gives nothing.
 | Field | Meaning |
 |---|---|
 | `number` | Set code and collector number, without any variant suffix |
-| `name` | The card's name as printed |
+| `name` | The card's English name as printed |
+| `names` | The name in each language the card has printings in, keyed by language: `{"en": "Ahri", "ko": "아리"}`. Present on a card with a non-English printing |
 | `subtitle` | The epithet under a champion's name (Ahri, *Inquisitive*). One champion has one card per subtitle |
+| `subtitles` | The subtitle in each language, in the same shape as `names`, on a card that has a subtitle and a non-English printing |
 | `type` | `unit`, `spell`, `gear`, `battlefield`, `legend` or `rune` |
 | `superTypes` | Any of `champion`, `signature`, `token`, `basic` |
 | `domains` | The card's domains: `fury`, `calm`, `mind`, `body`, `order`, `chaos`, or `colorless` |
@@ -129,15 +133,15 @@ A printing holds what sets one physical card apart from another with the same nu
 
 | Field | Meaning |
 |---|---|
-| `id` | The printed code before the slash: `OGN-119`, `OGN-119a`, `OGN-304*` |
-| `language` | `en`, `fr`, `de`, `ja` or `ko`. Absent means `en` |
+| `id` | The printed code before the slash: `OGN-119`, `OGN-119a`, `OGN-304*`. A printing in another language adds `~` and its language to the English twin's id: `OGN-119a~ko` |
+| `language` | `en`, `fr`, `de`, `ja` or `ko`. Absent means `en`; only `en` and `ko` are used today. A `ko` printing has the same number, suffix and rarity as its English twin, its own image, artists and gallery entry, and no TCGplayer data |
 | `collectorNumber` | The number as an integer, as the gallery sorts by it |
 | `suffix` | `a` or `*`, the variant mark printed after the number. Absent on the base printing |
 | `rarity` | `common`, `uncommon`, `rare`, `epic` or `showcase` |
 | `image` | A link to the card image on Riot's content delivery network. Not a copy |
 | `artists` | The illustrators the gallery credits |
 | `source` | `riot-gallery`, the only source today |
-| `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`) |
+| `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`). A Korean printing has its English twin's id, because the Korean gallery numbers its entries the same way |
 | `identifiers.publicCode` | The code as the gallery prints it (`OGN-119a/298`) |
 | `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
 | `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent on a printing it has never priced |
@@ -161,9 +165,24 @@ list and every card entry, with its type, domains, costs, stats, tags, rarity, a
 3. A variant whose entry disagrees with the base on a card fact is recorded in `review/gallery.json` and takes
    the base's facts. The gallery tags 21 alternate arts differently from their base card today, and nothing
    else differs.
-4. A set the gallery lists that `sets/sets.json` does not is reported and its cards are skipped, because the
+4. Each locale in `LOCALES` (`ko-kr` today) is fetched and its entries are matched to the English ones by gallery
+   id. An entry whose card image differs from the English entry's is a printing in that language: it joins the
+   English card as `<English id>~ko`, with the same collector number, suffix and rarity, the Korean image,
+   artists and identifiers, and no TCGplayer data. The card gains the entry's name in `names` and its subtitle
+   in `subtitles`. An entry the locale has that English lacks is reported and not written.
+5. A set the gallery lists that `sets/sets.json` does not is reported and its cards are skipped, because the
    gallery does not say what kind of product a set is. Adding the set by hand, with its type, is the one
    manual step a new set needs.
+
+Which locales are imported was measured on 2026-11-04. The gallery serves `fr-fr`, `de-de`, `es-es`, `it-it`,
+`ja-jp`, `ko-kr` and `zh-cn` with the same 1,408 entry ids as `en-us`. In `fr-fr`, `de-de`, `es-es`, `it-it` and
+`ja-jp` every card image and name equals English: the page is translated, the cards are not, so they hold no
+printings and are not imported. In `ko-kr` 375 entries (351 of Origins' 352, and all 24 of Proving Grounds) have
+a Korean image and name, and those are the Korean printings; the one Origins entry that still shows the English
+image is OGN-246a. `zh-cn` is the Chinese release, a different card pool, and is not covered. Riot's
+announcement of the Korean launch (`playriftbound.com/en-us/news/announcements/koreas-rift-opens-on-september-18/`)
+dates Origins on 18 September 2026, which is the `ko` release date of `OGN`. It dates no other set, so the
+`OGS` release has none. Spiritforged follows in Korea in December and has no Korean gallery images yet.
 
 ### Set art
 
@@ -240,8 +259,10 @@ the gallery import stays as the cross-check.
   and not yet printings of their own.
 - **Untyped cards.** 13 Radiance and 2 Unleashed entries carry no type or domain in the gallery at the time of
   writing. Their `type` and `domains` are absent until Riot fills them in.
-- **English only.** The gallery serves `fr-fr`, `de-de`, `ja-jp` and `ko-kr` too, and the importer takes a
-  `--locale`, but only English is imported so far.
+- **Korean for Origins and Proving Grounds only.** Korean printings have no TCGplayer data, because TCGplayer
+  sells the English cards, and no finishes. Other sets have no Korean printings until the Korean gallery shows
+  Korean images for them. The Korean overnumbered Ahri that Riot's launch article announces is not in the
+  gallery and is not in the data. No other language is imported (see [Where the data comes from](#where-the-data-comes-from)).
 - **Sealed contents.** Deck lists and counts are not stated: a case or display names what it holds without how many, and a deck has no card list. Format legality is not covered.
 - **No reprint links.** A champion reprinted with the same subtitle in a later set is a separate card.
 
@@ -262,7 +283,7 @@ the gallery import stays as the cross-check.
 
 ```
 uv sync --group dev
-uv run python tools/import_gallery.py          # rebuild data/cards from the gallery, cached in .cache/
+uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
 uv run python tools/validate.py [--online [--images]]
@@ -271,10 +292,10 @@ uv run pytest -q
 ```
 
 `validate.py` checks the schemas and the cross-references: every printing is filed under its own number, no
-id or gallery entry appears twice, every printing's language has a release, a TCGplayer product sits on one
-printing or sealed product, and a sealed product's contents name products, sets and printings that exist. `--online` fetches the gallery again and reports any printing whose entry is gone and any entry the
+id or gallery entry appears twice, every printing's language has a release, a `~ko` printing has an English twin, `names` and `subtitles` only name languages the card has printings in, a TCGplayer product sits on one
+printing or sealed product, and a sealed product's contents name products, sets and printings that exist. `--online` fetches the gallery again (and the Korean one, for the Korean printings) and reports any printing whose entry is gone and any entry the
 data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists. `--images` also asks Riot whether
-every card image is still served, about 1,400 requests, so CI runs it only for a release tag.
+every card image is still served, about 1,800 requests, so CI runs it only for a release tag.
 
 `build.py` refuses to write `dist/` while the data is invalid.
 

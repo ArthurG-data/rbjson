@@ -61,7 +61,9 @@ def finish_record_text(finishes: dict[int, set[str]]) -> str:
 def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products_of, finishes: dict[int, set[str]]) -> dict:
     """Write the product ids, finishes and group ids into ``files`` and ``sets`` in place; returns the review
     document and counts. ``products_of(group_id)`` lists a group's products."""
-    by_key = {p["id"]: p for body in files.values() for c in body["cards"] for p in c["printings"]}
+    # English printings only: TCGplayer sells no other language, and a ~ko id is not a key a product can name
+    by_key = {p["id"]: p for body in files.values() for c in body["cards"] for p in c["printings"]
+              if rbjson.language(p) == "en"}
     set_codes = {s["id"]: s for s in sets}
     counts: collections.Counter = collections.Counter()
     review: dict = {"unmatched": [], "unmatched_groups": []}

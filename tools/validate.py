@@ -2,8 +2,9 @@
 
     uv run python tools/validate.py [--online [--images]]
 
---online fetches the gallery again and reports any printing whose gallery entry is gone, and any gallery entry
-the data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists in category 89. It also asks whether each
+--online fetches the gallery again (English, and each other language the data has printings in) and reports any
+printing whose gallery entry is gone, and any gallery entry the data lacks (in another language, one whose image
+differs from English), and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists in category 89. It also asks whether each
 set's key art and logo are still served. --images also
 asks Riot whether every card image is still served: about 1,400 requests, so CI runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
 before it counts.
@@ -28,10 +29,17 @@ IMAGE_TRIES = 3
 def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False,
                   sealed: dict[str, dict] | None = None) -> list[str]:
     printings = rbjson.flatten(sets, files)["printings"]
-    by_gallery = {p["identifiers"]["galleryId"]: pid for pid, p in printings.items()}
-    live = {e["id"] for e in gallery.cards(gallery.fetch("en-us"))}
-    errors = [f"printing {pid}: gallery entry {gid} is gone" for gid, pid in by_gallery.items() if gid not in live]
-    errors += [f"gallery entry {gid} is not in the data: run tools/import_gallery.py" for gid in sorted(live - by_gallery.keys())]
+    errors: list[str] = []
+    english = {e["id"]: e for e in gallery.cards(gallery.fetch("en-us"))}
+    for lang in sorted({p["language"] for p in printings.values()}):
+        tag = "" if lang == "en" else f"{lang} "
+        by_gallery = {p["identifiers"]["galleryId"]: pid for pid, p in printings.items() if p["language"] == lang}
+        entries = english if lang == "en" else {e["id"]: e for e in gallery.cards(gallery.fetch(gallery.LOCALE[lang]))}
+        errors += [f"printing {pid}: {tag}gallery entry {gid} is gone" for gid, pid in by_gallery.items() if gid not in entries]
+        # English lists every entry as a printing; another language only the entries whose image differs
+        wanted = {gid for gid, e in entries.items()
+                  if lang == "en" or (gid in english and e["cardImage"]["url"] != english[gid]["cardImage"]["url"])}
+        errors += [f"{tag}gallery entry {gid} is not in the data: run tools/import_gallery.py" for gid in sorted(wanted - by_gallery.keys())]
     errors += product_errors(printings, rbjson.flatten(sets, files, sealed)["products"])
     errors += set_art_errors(sets)
     if images:

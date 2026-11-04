@@ -1,12 +1,18 @@
 """Rebuild data/cards/<set>.json from Riot's card gallery.
 
-    uv run python tools/import_gallery.py [--locale en-us] [--cache .cache]
+    uv run python tools/import_gallery.py [--locale ko-kr ...] [--cache .cache]
 
 Every gallery entry is one printing. Entries that share a number (OGN-119/298 and OGN-119a/298) are one card
 with two printings; the card's facts come from the entry without a suffix when there is one. A variant whose
 entry disagrees with the base on a fact (the gallery tags some alternate arts differently) is listed in
 review/gallery.json and takes the base's facts. A set the gallery lists that sets/sets.json does not is reported
 and skipped, so a new set is added by hand first, with its type.
+
+English is built first. Then each locale in LOCALES is fetched and its entries are matched to the English ones
+by gallery id: an entry whose card image differs from the English entry's is a printing in that language
+(``OGN-119a~ko``), filed on the same card, and the card gains the entry's name in ``names`` (and its subtitle
+in ``subtitles``). An entry whose image equals the English one is a translated page over English cards and adds
+nothing. An entry a locale has that English lacks is reported and not written.
 """
 from __future__ import annotations
 
@@ -21,6 +27,10 @@ import rbjson
 
 CODE = re.compile(r"^(?P<set>[A-Z]{3})-(?P<core>[A-Z]*[0-9]+)(?P<suffix>[a*]?)(?:/[0-9]+)?$")
 SCALARS = ("energy", "power", "might", "mightBonus")
+# Locales merged into the English cards. Riot also serves fr-fr, de-de, es-es, it-it and ja-jp, but in each of
+# them every card image and name equals English (measured 2026-11-04), so they hold no printings. zh-cn is the
+# Chinese release, a different card pool, and is out of scope. Add a locale here when its images differ.
+LOCALES = ("ko-kr",)
 
 
 def parse_code(public_code: str) -> tuple[str, str, str]:
@@ -119,18 +129,64 @@ def build_files(entries: list[dict], known_sets: set[str], language: str = "en")
     return dict(files), problems, disagreements
 
 
+def merge_locale(files: dict[str, dict], english: list[dict], entries: list[dict], language: str) -> tuple[int, list[str]]:
+    """Add one locale's printings to the English ``files`` in place: the entries whose image differs from the
+    English entry's. Returns the printings added and the entries English lacks (reported, not written)."""
+    live = {e["id"]: e["cardImage"]["url"] for e in english}
+    twins = {p["identifiers"]["galleryId"]: (card, p) for body in files.values() for card in body["cards"]
+             for p in card["printings"]}
+    problems: list[str] = []
+    added: dict[str, list[tuple[dict, dict]]] = collections.defaultdict(list)
+    for entry in entries:
+        if entry["id"] not in live:
+            problems.append(f"{entry['publicCode']}: the {language} gallery has entry {entry['id']}, English does not")
+            continue
+        if entry["id"] not in twins or entry["cardImage"]["url"] == live[entry["id"]]:
+            continue
+        card, twin = twins[entry["id"]]
+        added[card["number"]].append((twin, entry))
+    n = 0
+    for body in files.values():
+        for card in body["cards"]:
+            found = added.get(card["number"])
+            if not found:
+                continue
+            for twin, entry in found:
+                p = printing(entry, twin["id"] + "~" + language, twin.get("suffix", ""), language)
+                p["rarity"], p["collectorNumber"] = twin["rarity"], twin["collectorNumber"]
+                card["printings"].append(p)
+                n += 1
+            # the base printing's entry names the card, else the first variant that has a printing
+            entry = next((e for t, e in found if not t.get("suffix")), found[0][1])
+            rebuilt = {}
+            for key, value in card.items():
+                rebuilt[key] = value
+                if key == "name":
+                    rebuilt["names"] = {**card.get("names", {"en": card["name"]}), language: entry["name"]}
+                if key == "subtitle" and entry.get("subtitle"):
+                    rebuilt["subtitles"] = {**card.get("subtitles", {"en": card["subtitle"]}), language: entry["subtitle"]}
+            card.clear()
+            card.update(rebuilt)
+    return n, problems
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--locale", default="en-us")
+    ap.add_argument("--locale", action="append", help="a locale to merge into the English cards (repeatable); default LOCALES")
     ap.add_argument("--cache", type=Path, default=rbjson.ROOT / ".cache")
     args = ap.parse_args()
-    language = args.locale.split("-")[0]
     known = {s["id"] for s in rbjson.load_sets()}
-    g = gallery.fetch(args.locale, args.cache)
+    g = gallery.fetch("en-us", args.cache)
     for s in gallery.sets(g):
         if s["id"] not in known:
             print(f"new set {s['id']} ({s['name']}, {s['collectorNumberMax']} cards): add it to sets/sets.json")
-    files, problems, disagreements = build_files(gallery.cards(g), known, language)
+    english = gallery.cards(g)
+    files, problems, disagreements = build_files(english, known)
+    for locale in args.locale or LOCALES:
+        language = locale.split("-")[0]
+        added, found = merge_locale(files, english, gallery.cards(gallery.fetch(locale, args.cache)), language)
+        print(f"{locale}: {added} {language} printings")
+        problems += found
     for stem, body in files.items():
         rbjson.dump(rbjson.CARDS / f"{stem}.json", body)
     rbjson.dump(rbjson.ROOT / "review" / "gallery.json", disagreements)

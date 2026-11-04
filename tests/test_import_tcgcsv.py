@@ -65,3 +65,17 @@ def test_apply_starts_from_a_clean_slate_so_a_product_that_moved_is_not_kept():
     import_tcgcsv.apply(files, [{"id": "OGN", "type": "booster"}], GROUPS[:1], lambda gid: PRODUCTS[gid], {})
     base = files["OGN"]["cards"][0]["printings"][0]
     assert base["identifiers"]["tcgplayerProductIds"] == [10] and "finishes" not in base
+
+
+def test_a_korean_printing_is_never_matched_and_keeps_its_fields():
+    files = _files()
+    ko = _printing("OGN-119a~ko", language="ko")
+    files["OGN"]["cards"][0]["printings"].append(ko)
+    before = json.loads(json.dumps(ko))
+    # a product number can only name an English id: no number maps to a key with a language mark
+    assert import_tcgcsv.printing_key("OGN", "119a~ko/298") is None
+    sets = [{"id": "OGN", "type": "booster", "collectorNumberMax": 298, "releases": []}]
+    result = import_tcgcsv.apply(files, sets, GROUPS, lambda gid: PRODUCTS[gid], {})
+    assert ko == before and result["counts"]["matched"] == 2
+    english = files["OGN"]["cards"][0]["printings"]
+    assert all("tcgplayer" in p for p in english[:2])

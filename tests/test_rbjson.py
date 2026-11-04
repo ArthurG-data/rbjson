@@ -116,3 +116,75 @@ def test_a_sealed_id_and_a_tcgplayer_product_used_twice_are_named():
     errors = rbjson.validate(sets, files, sealed)
     assert any("sealed product id origins-booster-pack is used 2 times" in e for e in errors)
     assert any("TCGplayer product 635366 is on origins-booster-pack" in e for e in errors)
+
+
+def _with_korean_ahri():
+    sets, files = _data()
+    sets, files = copy.deepcopy(sets), copy.deepcopy(files)
+    ahri = next(c for c in files["OGN"]["cards"] if c["number"] == "OGN-119")
+    ahri["printings"] = [p for p in ahri["printings"] if p.get("language", "en") == "en"]
+    ahri.pop("names", None), ahri.pop("subtitles", None)
+    twin = ahri["printings"][1]
+    ko = {"id": "OGN-119a~ko", "language": "ko", "collectorNumber": twin["collectorNumber"], "suffix": "a",
+          "rarity": twin["rarity"], "image": "https://r/ko.png", "source": "riot-gallery",
+          "identifiers": {k: v for k, v in twin["identifiers"].items() if k != "tcgplayerProductIds"}}
+    ahri["printings"].append(ko)
+    return sets, files, ahri, ko
+
+
+def test_a_valid_korean_printing_passes_and_flattens_with_its_names():
+    sets, files, ahri, ko = _with_korean_ahri()
+    ahri["names"], ahri["subtitles"] = {"en": ahri["name"], "ko": "아리"}, {"en": ahri["subtitle"], "ko": "호기심"}
+    for s in sets:
+        if s["id"] == "OGN":
+            assert any(r["language"] == "ko" for r in s["releases"])
+    assert rbjson.validate(sets, files) == []
+    flat = rbjson.flatten(sets, files)
+    assert flat["printings"]["OGN-119a~ko"]["language"] == "ko" and flat["printings"]["OGN-119a~ko"]["number"] == "OGN-119"
+    assert flat["cards"]["OGN-119"]["names"]["ko"] == "아리" and flat["cards"]["OGN-119"]["subtitles"]["ko"] == "호기심"
+    assert "OGN-119a~ko" in flat["cards"]["OGN-119"]["printings"]
+
+
+def test_a_korean_printing_needs_a_ko_release_on_its_set():
+    sets, files, _, _ = _with_korean_ahri()
+    next(s for s in sets if s["id"] == "OGN")["releases"] = [r for r in next(s for s in sets if s["id"] == "OGN")["releases"]
+                                                              if r["language"] != "ko"]
+    assert any("printing OGN-119a~ko: set OGN has no ko release" in e for e in rbjson.validate(sets, files))
+
+
+def test_a_korean_printing_needs_its_english_twin():
+    sets, files, ahri, ko = _with_korean_ahri()
+    ko["id"], ko["identifiers"]["galleryId"] = "OGN-119~ko", "ogn-119-298-ko"
+    ahri["printings"] = [p for p in ahri["printings"] if p["id"] != "OGN-119"]
+    errors = rbjson.validate(sets, files)
+    assert any("OGN-119~ko: its English printing OGN-119 does not exist" in e for e in errors)
+
+
+def test_the_ko_mark_and_the_language_go_together():
+    sets, files, _, ko = _with_korean_ahri()
+    del ko["language"]
+    assert any("a printing in en has the id mark ~en" in e for e in rbjson.validate(sets, files))
+
+
+def test_names_and_subtitles_only_name_languages_the_card_has_printings_in():
+    sets, files, ahri, ko = _with_korean_ahri()
+    ahri["printings"].remove(ko)
+    ahri["names"], ahri["subtitles"] = {"en": ahri["name"], "ko": "아리"}, {"ko": "호기심"}
+    errors = rbjson.validate(sets, files)
+    assert any("card OGN-119: names has a ko entry but no printing in ko" in e for e in errors)
+    assert any("card OGN-119: subtitles has a ko entry but no printing in ko" in e for e in errors)
+
+
+def test_a_korean_printing_carries_no_tcgplayer_data():
+    sets, files, _, ko = _with_korean_ahri()
+    ko["finishes"] = ["foil"]
+    assert any("a ko printing has no TCGplayer data" in e for e in rbjson.validate(sets, files))
+
+
+def test_the_same_gallery_entry_may_sit_on_an_english_and_a_korean_printing_but_not_twice_in_one_language():
+    sets, files, ahri, ko = _with_korean_ahri()
+    assert rbjson.validate(sets, files) == []
+    dup = copy.deepcopy(ko)
+    dup["id"] = "OGN-119~ko"
+    ahri["printings"].append(dup)
+    assert any("gallery entry ogn-119a-298 is on OGN-119a~ko and OGN-119~ko" in e for e in rbjson.validate(sets, files))

@@ -13,6 +13,8 @@ from pathlib import Path
 
 USER_AGENT = "rbjson/0.1 (+https://github.com/ArthurG-data/rbjson)"
 SITE = "https://playriftbound.com"
+# The gallery locale that serves each printing language.
+LOCALE = {"en": "en-us", "fr": "fr-fr", "de": "de-de", "ja": "ja-jp", "ko": "ko-kr"}
 BLADE = "riftboundCardGallery"
 BUILD_ID = re.compile(r'"buildId":"([^"]+)"')
 

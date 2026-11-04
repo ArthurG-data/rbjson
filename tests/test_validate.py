@@ -64,3 +64,21 @@ def test_set_art_errors_names_a_missing_key_art_and_logo():
     statuses = {"https://cdn/ogn.jpg": 404, "https://cdn/logo.png": 0, "https://cdn/sfd.jpg": None}
     assert validate.set_art_errors(sets, head=statuses.get) == [
         "set OGN key art: answers 404", "set OGN logo: answers nothing"]
+
+
+def test_online_errors_fetches_the_korean_gallery_for_korean_printings(monkeypatch):
+    def printing(pid, **extra):
+        return {"id": pid, "collectorNumber": 1, "rarity": "common", "image": "https://r/1.png", "source": "riot-gallery",
+                "identifiers": {"galleryId": "ogn-001-298", "publicCode": "OGN-001/298"}, **extra}
+    files = {"OGN": {"cards": [{"number": "OGN-001", "name": "x", "printings": [
+        printing("OGN-001"), printing("OGN-001~ko", language="ko")]}]}}
+    english = {"id": "ogn-001-298", "cardImage": {"url": "https://r/1.png"}}
+    pages = {"en-us": [english, {"id": "ogn-002-298", "cardImage": {"url": "https://r/2.png"}}],
+             "ko-kr": [{"id": "ogn-002-298", "cardImage": {"url": "https://r/ko-2.png"}}]}
+    monkeypatch.setattr(validate.gallery, "fetch", lambda locale: {"cards": {"items": pages[locale]}})
+    monkeypatch.setattr(validate, "product_errors", lambda *a: [])
+    monkeypatch.setattr(validate, "set_art_errors", lambda *a: [])
+    assert validate.online_errors([{"id": "OGN"}], files) == [
+        "gallery entry ogn-002-298 is not in the data: run tools/import_gallery.py",
+        "printing OGN-001~ko: ko gallery entry ogn-001-298 is gone",
+        "ko gallery entry ogn-002-298 is not in the data: run tools/import_gallery.py"]
