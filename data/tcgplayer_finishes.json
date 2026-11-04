@@ -356,7 +356,7 @@
   "653114": ["foil"],
   "653115": ["foil"],
   "653116": ["foil"],
-  "653117": ["nonfoil"],
+  "653117": ["foil", "nonfoil"],
   "653136": ["nonfoil"],
   "653137": ["nonfoil"],
   "653138": ["nonfoil"],
@@ -1631,7 +1631,7 @@
   "722852": ["foil", "nonfoil"],
   "722853": ["foil", "nonfoil"],
   "722854": ["foil"],
-  "722855": ["nonfoil"],
+  "722855": ["foil", "nonfoil"],
   "722856": ["foil"],
   "722857": ["foil", "nonfoil"],
   "722858": ["foil"],
@@ -1654,7 +1654,7 @@
   "722875": ["foil", "nonfoil"],
   "722876": ["foil", "nonfoil"],
   "722877": ["foil"],
-  "722878": ["nonfoil"],
+  "722878": ["foil", "nonfoil"],
   "722879": ["foil"],
   "722880": ["foil", "nonfoil"],
   "722881": ["foil", "nonfoil"],
@@ -1673,7 +1673,7 @@
   "722894": ["foil", "nonfoil"],
   "722895": ["foil", "nonfoil"],
   "722896": ["foil", "nonfoil"],
-  "722897": ["nonfoil"],
+  "722897": ["foil", "nonfoil"],
   "722898": ["foil"],
   "722899": ["foil", "nonfoil"],
   "722900": ["foil"],
@@ -1802,5 +1802,6 @@
   "728162": ["nonfoil"],
   "728167": ["nonfoil"],
   "728168": ["nonfoil"],
-  "728169": ["nonfoil"]
+  "728169": ["nonfoil"],
+  "729796": ["nonfoil"]
 }

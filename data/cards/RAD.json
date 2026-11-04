@@ -7687,6 +7687,7 @@
             "match": "number"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -7864,6 +7865,7 @@
             "match": "number"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -7982,6 +7984,7 @@
             "match": "number"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
