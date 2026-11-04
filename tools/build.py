@@ -1,6 +1,6 @@
 """Write dist/AllSets.json, AllCards.json, AllPrintings.json and AllProducts.json. Refuses to build invalid data.
 
-    uv run python tools/build.py --version 0.3.0
+    uv run python tools/build.py --version 0.4.0
 """
 from __future__ import annotations
 
