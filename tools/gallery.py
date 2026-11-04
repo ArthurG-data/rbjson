@@ -52,11 +52,22 @@ def fetch(locale: str = "en-us", cache: Path | None = None) -> dict:
         if path.exists():
             return blade(json.loads(path.read_text(encoding="utf-8")))
     html = _get(f"{SITE}/{locale}/card-gallery").decode("utf-8")
-    raw = _get(data_url(build_id(html), locale))
+    url = data_url(build_id(html), locale)
+    # Riot's gallery now and then omits one entry from a response (seen 2026-11-04: 1,407 of 1,408, a different
+    # entry each time), so the page is read twice and an entry either read has is kept.
+    page = union_pages(json.loads(_get(url)), json.loads(_get(url)))
     if cache:
         cache.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(raw)
-    return blade(json.loads(raw))
+        path.write_text(json.dumps(page, ensure_ascii=False), encoding="utf-8")
+    return blade(page)
+
+
+def union_pages(first: dict, second: dict) -> dict:
+    """``first`` with any card entry only ``second`` holds added after its own, in ``second``'s order."""
+    items = cards(blade(first))
+    seen = {e["id"] for e in items}
+    items.extend(e for e in cards(blade(second)) if e["id"] not in seen)
+    return first
 
 
 def sets(gallery: dict) -> list[dict]:
