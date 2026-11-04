@@ -32,7 +32,7 @@ build, so a reader that downloads them separately can check that the versions ag
 
 | File | Keyed by | Holds |
 |---|---|---|
-| `AllSets.json` | set code (`OGN`) | type, set size, TCGplayer group ids, and per release (`en`) the name, date and source page |
+| `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids, and per release (`en`) the name, date, source page and key art |
 | `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its set, and the ids of its printings |
 | `AllPrintings.json` | printing id (`OGN-119a`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery and TCGplayer identifiers |
 
@@ -53,6 +53,8 @@ set can read `data/cards/<set>.json` straight from a checkout instead.
 A set holds more cards than its set size because overnumbered showcase cards, promos, runes and tokens sit
 above or outside the numbered run. Vendetta and Radiance are in the gallery ahead of release, and a few of their
 cards still lack a type or domain (see [Known gaps](#known-gaps)).
+
+Proving Grounds ships with Origins, so `OGS` carries `parent: OGN`.
 
 ## Identity
 
@@ -160,6 +162,13 @@ list and every card entry, with its type, domains, costs, stats, tags, rarity, a
    gallery does not say what kind of product a set is. Adding the set by hand, with its type, is the one
    manual step a new set needs.
 
+### Set art
+
+A release's `keyArt` is the hero image of the set's announcement on playriftbound.com. It is hotlinked from
+Riot's CDN, with the article as `source` and the image's pixel size as `size`. Riot serves no standalone set
+logos, so `logo` stays empty. `OGS` has no announcement of its own and has no key art. `tools/validate.py --online`
+checks that each key art URL is still served.
+
 ### TCGplayer products
 
 `tools/import_tcgcsv.py` reads TCGplayer's Riftbound catalogue as [TCGCSV](https://tcgcsv.com) mirrors it
@@ -197,7 +206,7 @@ the gallery import stays as the cross-check.
 
 ## Layout
 
-- `sets/sets.json` lists every set, with its type, set size and releases. Hand-kept.
+- `sets/sets.json` lists every set, with its type, set size, parent and releases (with their key art). Hand-kept.
 - `data/cards/<set>.json` holds the cards of one set, each with every printing of it. Written by the importer.
 - `review/gallery.json` lists the variants whose gallery entry disagrees with their base. Written by the importer.
 - `review/tcgplayer-89.json` lists the TCGplayer singles no printing matched and the groups that were not matched.

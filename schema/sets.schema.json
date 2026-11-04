@@ -32,6 +32,11 @@
         "minimum": 1,
         "description": "The set size printed after the slash on every card (the 298 of OGN-004/298). A card numbered above it is an overnumbered variant."
       },
+      "parent": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$",
+        "description": "The set this one ships with, as MTG's parent_set: a starter set names the booster set it came out beside."
+      },
       "releases": {
         "type": "array",
         "minItems": 1,
@@ -64,6 +69,28 @@
             "source": {
               "type": "string",
               "format": "uri"
+            },
+            "logo": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["url", "source"],
+              "description": "The set's logo, hotlinked from the page that shows it (source). Absent: Riot publishes no standalone set logos.",
+              "properties": {
+                "url": {"type": "string", "format": "uri"},
+                "source": {"type": "string", "format": "uri"}
+              }
+            },
+            "keyArt": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["url", "source", "size"],
+              "description": "The hero image of the set's announcement on playriftbound.com (source), hotlinked from Riot's CDN: its pixel size, and optionally the crop [x, y, width, height] that keeps only the artwork when the image holds more. Absent when the set has no announcement of its own.",
+              "properties": {
+                "url": {"type": "string", "format": "uri"},
+                "source": {"type": "string", "format": "uri"},
+                "size": {"type": "array", "items": {"type": "integer", "minimum": 1}, "minItems": 2, "maxItems": 2},
+                "crop": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 4, "maxItems": 4}
+              }
             }
           }
         }
