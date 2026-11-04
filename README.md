@@ -9,8 +9,9 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 `OGN-119a/298`) are one card with two printings, and every printing keeps the gallery id and printed code it
 came from, so a reader can always get back to Riot's own record.
 
-Release 0.2.0 holds 6 sets, 1,237 cards and 1,408 printings, in English. 1,399 printings carry the TCGplayer product
-that sells them and the finishes it is sold in.
+Release 0.3.0 holds 6 sets, 1,237 cards and 1,408 printings, in English. 1,399 printings carry the TCGplayer product
+that sells them and the finishes it is sold in. The starter set names its parent, and each booster set carries its
+key art.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -27,7 +28,7 @@ https://github.com/ArthurG-data/rbjson/releases/latest/download/AllCards.json
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllPrintings.json
 ```
 
-Every file is `{"meta": {"version": "0.1.0", "date": "2026-11-02"}, "data": {...}}`. All three come from one
+Every file is `{"meta": {"version": "0.3.0", "date": "2026-11-04"}, "data": {...}}`. All three come from one
 build, so a reader that downloads them separately can check that the versions agree.
 
 | File | Keyed by | Holds |
@@ -222,7 +223,7 @@ uv sync --group dev
 uv run python tools/import_gallery.py          # rebuild data/cards from the gallery, cached in .cache/
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/validate.py [--online [--images]]
-uv run python tools/build.py --version 0.2.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json
+uv run python tools/build.py --version 0.3.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json
 uv run pytest -q
 ```
 
