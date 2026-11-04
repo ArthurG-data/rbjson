@@ -54,3 +54,13 @@ def test_online_errors_reports_gone_and_missing_entries(monkeypatch):
     assert validate.online_errors(sets, files) == [
         "printing OGN-001: gallery entry ogn-001-298 is gone",
         "gallery entry ogn-002-298 is not in the data: run tools/import_gallery.py"]
+
+
+def test_set_art_errors_names_a_missing_key_art_and_logo():
+    art = {"url": "https://cdn/ogn.jpg", "source": "https://s/ogn", "size": [1920, 1080]}
+    sets = [{"id": "OGN", "releases": [{"language": "en", "keyArt": art, "logo": {"url": "https://cdn/logo.png", "source": "https://s"}}]},
+            {"id": "SFD", "releases": [{"language": "en", "keyArt": {**art, "url": "https://cdn/sfd.jpg"}}]},
+            {"id": "OGS", "releases": [{"language": "en"}]}]
+    statuses = {"https://cdn/ogn.jpg": 404, "https://cdn/logo.png": 0, "https://cdn/sfd.jpg": None}
+    assert validate.set_art_errors(sets, head=statuses.get) == [
+        "set OGN key art: answers 404", "set OGN logo: answers nothing"]

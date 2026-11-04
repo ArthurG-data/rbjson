@@ -55,3 +55,22 @@ def test_validate_rejects_a_card_in_the_wrong_file():
     errors = rbjson.validate(sets, files)
     assert any("belongs in cards/SFD.json" in e for e in errors)
     assert any("is listed 2 times" in e for e in errors)
+
+
+def test_a_parent_outside_the_file_or_the_set_itself_fails_validation():
+    sets, files = _data()
+    for parent in ("XXX", "OGS"):
+        bad = copy.deepcopy(sets)
+        next(s for s in bad if s["id"] == "OGS")["parent"] = parent
+        assert rbjson.validate(bad, files) == [f"sets.json: set OGS: parent {parent} is not a set"]
+
+
+def test_the_committed_parents_and_key_art_validate():
+    sets, files = _data()
+    by_id = {s["id"]: s for s in sets}
+    assert by_id["OGS"]["parent"] == "OGN"
+    for code in ("OGN", "SFD", "UNL", "VEN", "RAD"):
+        art = by_id[code]["releases"][0]["keyArt"]
+        assert len(art["size"]) == 2 and art["source"].startswith("https://playriftbound.com/")
+    assert "keyArt" not in by_id["OGS"]["releases"][0]
+    assert rbjson.validate(sets, files) == []

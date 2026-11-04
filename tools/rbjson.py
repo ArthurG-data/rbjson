@@ -62,6 +62,8 @@ def validate(sets: list[dict], files: dict[str, dict]) -> list[str]:
     for s in sets:
         langs = collections.Counter(r["language"] for r in s["releases"])
         errors += [f"sets.json: set {s['id']} has {n} {lang} releases" for lang, n in langs.items() if n > 1]
+        if "parent" in s and (s["parent"] == s["id"] or s["parent"] not in set_ids):
+            errors.append(f"sets.json: set {s['id']}: parent {s['parent']} is not a set")
 
     numbers = collections.Counter()
     printing_ids: dict[str, str] = {}

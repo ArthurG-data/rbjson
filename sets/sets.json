@@ -8,7 +8,15 @@
         "language": "en",
         "name": "Origins",
         "releaseDate": "2025-10-31",
-        "source": "https://playriftbound.com/en-us/card-gallery?set=OGN"
+        "source": "https://playriftbound.com/en-us/card-gallery?set=OGN",
+        "keyArt": {
+          "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/de0e7ac38800ea37de63fa1632df67aff62691f0-1920x1080.jpg?accountingTag=RB",
+          "source": "https://playriftbound.com/en-us/news/announcements/riftbound-origins-launch-learnings/",
+          "size": [
+            1920,
+            1080
+          ]
+        }
       }
     ],
     "tcgplayerGroupIds": [
@@ -18,6 +26,7 @@
   {
     "id": "OGS",
     "type": "starter",
+    "parent": "OGN",
     "collectorNumberMax": 24,
     "releases": [
       {
@@ -39,7 +48,15 @@
       {
         "language": "en",
         "name": "Spiritforged",
-        "source": "https://playriftbound.com/en-us/card-gallery?set=SFD"
+        "source": "https://playriftbound.com/en-us/card-gallery?set=SFD",
+        "keyArt": {
+          "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/9edf0a9439d3c6b4ab1c93154ba8e013b69ea237-1920x1080.jpg?accountingTag=RB",
+          "source": "https://playriftbound.com/en-us/news/announcements/spiritforged-preview-season/",
+          "size": [
+            1920,
+            1080
+          ]
+        }
       }
     ],
     "tcgplayerGroupIds": [
@@ -54,7 +71,15 @@
       {
         "language": "en",
         "name": "Unleashed",
-        "source": "https://playriftbound.com/en-us/card-gallery?set=UNL"
+        "source": "https://playriftbound.com/en-us/card-gallery?set=UNL",
+        "keyArt": {
+          "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/01041c2bd763532d6091ee7b2a8fe7d7c6ae9ff3-1920x1080.jpg?accountingTag=RB",
+          "source": "https://playriftbound.com/en-us/news/announcements/preview-season-unleashed/",
+          "size": [
+            1920,
+            1080
+          ]
+        }
       }
     ],
     "tcgplayerGroupIds": [
@@ -69,7 +94,15 @@
       {
         "language": "en",
         "name": "Vendetta",
-        "source": "https://playriftbound.com/en-us/card-gallery?set=VEN"
+        "source": "https://playriftbound.com/en-us/card-gallery?set=VEN",
+        "keyArt": {
+          "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2e739864ab92f78f14a32968283ea66669a6c6a9-4800x2700.jpg?accountingTag=RB",
+          "source": "https://playriftbound.com/en-us/news/announcements/the-vendetta-overview/",
+          "size": [
+            4800,
+            2700
+          ]
+        }
       }
     ],
     "tcgplayerGroupIds": [
@@ -84,7 +117,15 @@
       {
         "language": "en",
         "name": "Radiance",
-        "source": "https://playriftbound.com/en-us/card-gallery?set=RAD"
+        "source": "https://playriftbound.com/en-us/card-gallery?set=RAD",
+        "keyArt": {
+          "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/08da730c513dd6d217dc71e5ae37193f46ebcadf-4623x2600.jpg?accountingTag=RB",
+          "source": "https://playriftbound.com/en-us/news/announcements/radiance-preview-season/",
+          "size": [
+            4623,
+            2600
+          ]
+        }
       }
     ],
     "tcgplayerGroupIds": [

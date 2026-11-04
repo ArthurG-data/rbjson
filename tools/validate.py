@@ -3,7 +3,8 @@
     uv run python tools/validate.py [--online [--images]]
 
 --online fetches the gallery again and reports any printing whose gallery entry is gone, and any gallery entry
-the data lacks, and asks TCGCSV whether every TCGplayer product id still exists in category 89. --images also
+the data lacks, and asks TCGCSV whether every TCGplayer product id still exists in category 89. It also asks whether each
+set's key art and logo are still served. --images also
 asks Riot whether every card image is still served: about 1,400 requests, so CI runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
 before it counts.
 """
@@ -31,6 +32,7 @@ def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False
     errors = [f"printing {pid}: gallery entry {gid} is gone" for gid, pid in by_gallery.items() if gid not in live]
     errors += [f"gallery entry {gid} is not in the data: run tools/import_gallery.py" for gid in sorted(live - by_gallery.keys())]
     errors += product_errors(printings)
+    errors += set_art_errors(sets)
     if images:
         errors += image_errors(printings)
     return errors
@@ -65,6 +67,16 @@ def head_status(url: str) -> int | None:
             status = 0
         time.sleep(2 ** attempt)
     return status
+
+
+def set_art_errors(sets: list[dict], head=head_status) -> list[str]:
+    """Each release's key art and logo that Riot's CDN no longer serves."""
+    items = [(f"set {s['id']} {label}", r[field]["url"])
+             for s in sets for r in s.get("releases", [])
+             for field, label in (("keyArt", "key art"), ("logo", "logo")) if field in r]
+    with ThreadPoolExecutor(IMAGE_WORKERS) as pool:
+        statuses = list(pool.map(lambda item: head(item[1]), items))
+    return [f"{what}: answers {status or 'nothing'}" for (what, _), status in zip(items, statuses) if status is not None]
 
 
 def image_errors(printings: dict[str, dict], head=head_status) -> list[str]:
