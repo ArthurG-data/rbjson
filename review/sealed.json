@@ -1,0 +1,82 @@
+{
+  "unmatched": [
+    {
+      "productId": 655495,
+      "groupId": 24343,
+      "group": "PR",
+      "name": "Riftbound: League of Legends Arcane Box Set"
+    },
+    {
+      "productId": 658333,
+      "groupId": 24502,
+      "group": "RWB",
+      "name": "Riftbound: Worlds Bundle 2025"
+    },
+    {
+      "productId": 710238,
+      "groupId": 24797,
+      "group": "SGN",
+      "name": "Secret Garden Box"
+    },
+    {
+      "productId": 712806,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Booster Display"
+    },
+    {
+      "productId": 712807,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Booster Pack"
+    },
+    {
+      "productId": 712808,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Booster Display Case"
+    },
+    {
+      "productId": 712809,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Pre-Rift Event Kit"
+    },
+    {
+      "productId": 712810,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Pre-Rift Kit"
+    },
+    {
+      "productId": 712812,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Vault Bundle Case"
+    },
+    {
+      "productId": 712813,
+      "groupId": 24832,
+      "group": "LGC",
+      "name": "Legacy - Vault Bundle"
+    },
+    {
+      "productId": 716007,
+      "groupId": 24861,
+      "group": "T12025",
+      "name": "T1 Worlds Champion Player Bundle"
+    },
+    {
+      "productId": 716008,
+      "groupId": 24861,
+      "group": "T12025",
+      "name": "T1 Worlds Champion Signature Edition Bundle"
+    },
+    {
+      "productId": 714486,
+      "groupId": 24901,
+      "group": "GRFT",
+      "name": "Gift of the Rift Bundle"
+    }
+  ]
+}

@@ -74,3 +74,45 @@ def test_the_committed_parents_and_key_art_validate():
         assert len(art["size"]) == 2 and art["source"].startswith("https://playriftbound.com/")
     assert "keyArt" not in by_id["OGS"]["releases"][0]
     assert rbjson.validate(sets, files) == []
+
+
+def _sealed(**over):
+    product = {"id": "origins-booster-pack", "set": "OGN", "category": "booster_pack", "name": "Origins - Booster Pack",
+               "identifiers": {"tcgplayerProductIds": [635366]}, "contentsStatus": "partial",
+               "contents": {"pool": [{"set": "OGN"}]}, "sources": ["https://www.tcgplayer.com/product/635366"]}
+    return {"OGN": {"products": [{**product, **over}]}}
+
+
+def test_the_committed_sealed_products_are_in_the_flat_release_shape():
+    sets, files = _data()
+    sealed = rbjson.load_sealed()
+    assert rbjson.validate(sets, files, sealed) == []
+    products = rbjson.flatten(sets, files, sealed)["products"]
+    assert products["origins-booster-display"]["category"] == "booster_box"
+    assert len(products) == sum(len(b["products"]) for b in sealed.values())
+
+
+@pytest.mark.parametrize("over, message", [
+    ({"category": "pack"}, "sealed/OGN.json: $.products[0].category"),
+    ({"set": "SFD"}, "filed under OGN but its set is SFD"),
+    ({"set": "ZZZ"}, "set ZZZ is not in sets.json"),
+    ({"contents": {"pool": [{"set": "ZZZ"}]}}, "pool set ZZZ is not in sets.json"),
+    ({"contents": {"sealed": [{"product": "nothing"}]}}, "holds nothing, which is not another sealed product"),
+    ({"contents": {"sealed": [{"product": "origins-booster-pack"}]}}, "holds origins-booster-pack"),
+    ({"contents": {"cards": [{"printing": "OGN-999"}]}}, "holds printing OGN-999, which does not exist"),
+    ({"contentsStatus": "unknown"}, "lists contents but says contentsStatus unknown"),
+    ({"contentsStatus": "complete", "contents": {"cards": [{"printing": "OGN-119"}]}}, "complete contents need a count"),
+])
+def test_validate_names_each_sealed_problem(over, message):
+    sets, files = _data()
+    errors = rbjson.validate(sets, files, _sealed(**over))
+    assert any(message in e for e in errors), errors
+
+
+def test_a_sealed_id_and_a_tcgplayer_product_used_twice_are_named():
+    sets, files = _data()
+    sealed = _sealed()
+    sealed["OGN"]["products"].append(dict(sealed["OGN"]["products"][0]))
+    errors = rbjson.validate(sets, files, sealed)
+    assert any("sealed product id origins-booster-pack is used 2 times" in e for e in errors)
+    assert any("TCGplayer product 635366 is on origins-booster-pack" in e for e in errors)

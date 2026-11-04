@@ -1,0 +1,27 @@
+{
+  "sets": [{"id": "OGN", "tcgplayerGroupIds": [1]}],
+  "groups": [
+    {"groupId": 1, "name": "Origins", "abbreviation": "OGN", "publishedOn": "2025-10-01T00:00:00"},
+    {"groupId": 2, "name": "Promos", "abbreviation": "PR", "publishedOn": "2025-01-01T00:00:00"}
+  ],
+  "products": {
+    "1": [
+      {"productId": 11, "name": "Origins - Booster Pack", "extendedData": [], "presaleInfo": {"releasedOn": "2025-10-31T00:00:00"}},
+      {"productId": 12, "name": "Origins - Booster Display", "extendedData": []},
+      {"productId": 13, "name": "Origins - Booster Display Case", "extendedData": []},
+      {"productId": 14, "name": "Origins - Champion Deck (Jinx)", "extendedData": []},
+      {"productId": 15, "name": "Origins - Champion Deck (Jinx) Display", "extendedData": []},
+      {"productId": 16, "name": "Origins - Champion Deck (Viktor)", "extendedData": []},
+      {"productId": 17, "name": "Origins - Sleeved Booster Pack", "extendedData": []},
+      {"productId": 18, "name": "Origins - Sleeved Booster Pack Art Bundle [Set of 3]", "extendedData": []},
+      {"productId": 19, "name": "Origins - Vault Bundle", "extendedData": []},
+      {"productId": 20, "name": "Origins - Pre-Rift Event Kit", "extendedData": []},
+      {"productId": 21, "name": "Riftbound: Bulk Runes", "extendedData": []},
+      {"productId": 22, "name": "Ahri", "extendedData": [{"name": "Number", "value": "119/298"}]}
+    ],
+    "2": [
+      {"productId": 30, "name": "Riftbound: League of Legends Arcane Box Set", "extendedData": []},
+      {"productId": 31, "name": "Ahri (Launch)", "extendedData": [{"name": "Rarity", "value": "Promo"}]}
+    ]
+  }
+}

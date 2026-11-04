@@ -1,0 +1,290 @@
+{
+  "products": [
+    {
+      "id": "riftbound-bulk-runes",
+      "set": "SFD",
+      "category": "other",
+      "name": "Riftbound: Bulk Runes",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678130
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/678130"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "riftbound-bulk-runes-case",
+      "set": "SFD",
+      "category": "case",
+      "name": "Riftbound: Bulk Runes Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678131
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "riftbound-bulk-runes"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678131"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-booster-display",
+      "set": "SFD",
+      "category": "booster_box",
+      "name": "Spiritforged - Booster Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661934
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "spiritforged-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/661934"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-booster-display-case",
+      "set": "SFD",
+      "category": "case",
+      "name": "Spiritforged - Booster Display Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661937
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "spiritforged-booster-display"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/661937"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-booster-pack",
+      "set": "SFD",
+      "category": "booster_pack",
+      "name": "Spiritforged - Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661954
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "SFD"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/661954"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-champion-deck-fiora",
+      "set": "SFD",
+      "category": "starter_deck",
+      "name": "Spiritforged - Champion Deck (Fiora)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661942
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/661942"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-champion-deck-fiora-display",
+      "set": "SFD",
+      "category": "display",
+      "name": "Spiritforged - Champion Deck (Fiora) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661949
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "spiritforged-champion-deck-fiora"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/661949"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-champion-deck-rumble",
+      "set": "SFD",
+      "category": "starter_deck",
+      "name": "Spiritforged - Champion Deck (Rumble)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661939
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/661939"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-champion-deck-rumble-display",
+      "set": "SFD",
+      "category": "display",
+      "name": "Spiritforged - Champion Deck (Rumble) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          661948
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "spiritforged-champion-deck-rumble"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/661948"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-nexus-night-promo-pack",
+      "set": "SFD",
+      "category": "promo_pack",
+      "name": "Spiritforged - Nexus Night Promo Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          680454
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/680454"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-pre-rift-event-kit",
+      "set": "SFD",
+      "category": "tournament_kit",
+      "name": "Spiritforged - Pre-Rift Event Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678690
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/678690"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-pre-rift-kit",
+      "set": "SFD",
+      "category": "collection",
+      "name": "Spiritforged - Pre-Rift Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          679041
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/679041"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-sleeved-booster-pack",
+      "set": "SFD",
+      "category": "sleeved_booster_pack",
+      "name": "Spiritforged - Sleeved Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678766
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "SFD"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678766"
+      ],
+      "releaseDate": "2026-02-13"
+    },
+    {
+      "id": "spiritforged-sleeved-booster-pack-art-bundle-set-of-3",
+      "set": "SFD",
+      "category": "display",
+      "name": "Spiritforged - Sleeved Booster Pack Art Bundle [Set of 3]",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          690174
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "spiritforged-sleeved-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/690174"
+      ],
+      "releaseDate": "2026-02-13"
+    }
+  ]
+}

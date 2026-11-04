@@ -1,0 +1,296 @@
+{
+  "products": [
+    {
+      "id": "unleashed-booster-display",
+      "set": "UNL",
+      "category": "booster_box",
+      "name": "Unleashed - Booster Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678150
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678150"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-booster-display-case",
+      "set": "UNL",
+      "category": "case",
+      "name": "Unleashed - Booster Display Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678152
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-booster-display"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678152"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-booster-pack",
+      "set": "UNL",
+      "category": "booster_pack",
+      "name": "Unleashed - Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678149
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "UNL"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678149"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-champion-deck-vex",
+      "set": "UNL",
+      "category": "starter_deck",
+      "name": "Unleashed - Champion Deck (Vex)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678155
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/678155"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-champion-deck-vex-display",
+      "set": "UNL",
+      "category": "display",
+      "name": "Unleashed - Champion Deck (Vex) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678153
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-champion-deck-vex"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678153"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-champion-deck-vi",
+      "set": "UNL",
+      "category": "starter_deck",
+      "name": "Unleashed - Champion Deck (Vi)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678157
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/678157"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-champion-deck-vi-display",
+      "set": "UNL",
+      "category": "display",
+      "name": "Unleashed - Champion Deck (Vi) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678154
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-champion-deck-vi"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678154"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-nexus-night-promo-pack",
+      "set": "UNL",
+      "category": "promo_pack",
+      "name": "Unleashed - Nexus Night Promo Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          695122
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/695122"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-pre-rift-event-kit",
+      "set": "UNL",
+      "category": "tournament_kit",
+      "name": "Unleashed - Pre-Rift Event Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678159
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/678159"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-pre-rift-kit",
+      "set": "UNL",
+      "category": "collection",
+      "name": "Unleashed - Pre-Rift Kit",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678898
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/678898"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-sleeved-booster-pack",
+      "set": "UNL",
+      "category": "sleeved_booster_pack",
+      "name": "Unleashed - Sleeved Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          696523
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "UNL"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/696523"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-sleeved-booster-pack-art-bundle-set-of-3",
+      "set": "UNL",
+      "category": "display",
+      "name": "Unleashed - Sleeved Booster Pack Art Bundle [Set of 3]",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          690175
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-sleeved-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/690175"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-vault-bundle",
+      "set": "UNL",
+      "category": "collection",
+      "name": "Unleashed - Vault Bundle",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          678162
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/678162"
+      ],
+      "releaseDate": "2026-05-08"
+    },
+    {
+      "id": "unleashed-vault-bundle-case",
+      "set": "UNL",
+      "category": "case",
+      "name": "Unleashed - Vault Bundle Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          711445
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "unleashed-vault-bundle"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/711445"
+      ],
+      "releaseDate": "2026-05-08"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "products": [
+    {
+      "id": "origins-booster-display",
+      "set": "OGN",
+      "category": "booster_box",
+      "name": "Origins - Booster Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635368
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635368"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-booster-display-case",
+      "set": "OGN",
+      "category": "case",
+      "name": "Origins - Booster Display Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635369
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-booster-display"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635369"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-booster-pack",
+      "set": "OGN",
+      "category": "booster_pack",
+      "name": "Origins - Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635366
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "OGN"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635366"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-champion-deck-jinx",
+      "set": "OGN",
+      "category": "starter_deck",
+      "name": "Origins - Champion Deck (Jinx)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635371
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/635371"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-champion-deck-jinx-display",
+      "set": "OGN",
+      "category": "display",
+      "name": "Origins - Champion Deck (Jinx) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635372
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-champion-deck-jinx"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635372"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-champion-deck-lee-sin",
+      "set": "OGN",
+      "category": "starter_deck",
+      "name": "Origins - Champion Deck (Lee Sin)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635375
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/635375"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-champion-deck-lee-sin-display",
+      "set": "OGN",
+      "category": "display",
+      "name": "Origins - Champion Deck (Lee Sin) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635458
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-champion-deck-lee-sin"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635458"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-champion-deck-viktor",
+      "set": "OGN",
+      "category": "starter_deck",
+      "name": "Origins - Champion Deck (Viktor)",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635374
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/635374"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-champion-deck-viktor-display",
+      "set": "OGN",
+      "category": "display",
+      "name": "Origins - Champion Deck (Viktor) Display",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635373
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-champion-deck-viktor"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635373"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-nexus-night-promo-pack",
+      "set": "OGN",
+      "category": "promo_pack",
+      "name": "Origins - Nexus Night Promo Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          675404
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/675404"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-sleeved-booster-pack",
+      "set": "OGN",
+      "category": "sleeved_booster_pack",
+      "name": "Origins - Sleeved Booster Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635459
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "pool": [
+          {
+            "set": "OGN"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/635459"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-sleeved-booster-pack-art-bundle-set-of-3",
+      "set": "OGN",
+      "category": "display",
+      "name": "Origins - Sleeved Booster Pack Art Bundle [Set of 3]",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          690173
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-sleeved-booster-pack"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/690173"
+      ],
+      "releaseDate": "2025-10-31"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "origins-proving-grounds-box-set",
+      "set": "OGS",
+      "category": "starter_deck",
+      "name": "Origins - Proving Grounds Box Set",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          635460
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/635460"
+      ],
+      "releaseDate": "2025-10-31"
+    },
+    {
+      "id": "origins-proving-grounds-box-set-case",
+      "set": "OGS",
+      "category": "case",
+      "name": "Origins - Proving Grounds Box Set Case",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          663920
+        ]
+      },
+      "contentsStatus": "partial",
+      "contents": {
+        "sealed": [
+          {
+            "product": "origins-proving-grounds-box-set"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.tcgplayer.com/product/663920"
+      ],
+      "releaseDate": "2025-10-31"
+    }
+  ]
+}

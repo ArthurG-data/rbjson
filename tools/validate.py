@@ -3,7 +3,7 @@
     uv run python tools/validate.py [--online [--images]]
 
 --online fetches the gallery again and reports any printing whose gallery entry is gone, and any gallery entry
-the data lacks, and asks TCGCSV whether every TCGplayer product id still exists in category 89. It also asks whether each
+the data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists in category 89. It also asks whether each
 set's key art and logo are still served. --images also
 asks Riot whether every card image is still served: about 1,400 requests, so CI runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
 before it counts.
@@ -25,28 +25,30 @@ IMAGE_WORKERS = 6
 IMAGE_TRIES = 3
 
 
-def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False) -> list[str]:
+def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False,
+                  sealed: dict[str, dict] | None = None) -> list[str]:
     printings = rbjson.flatten(sets, files)["printings"]
     by_gallery = {p["identifiers"]["galleryId"]: pid for pid, p in printings.items()}
     live = {e["id"] for e in gallery.cards(gallery.fetch("en-us"))}
     errors = [f"printing {pid}: gallery entry {gid} is gone" for gid, pid in by_gallery.items() if gid not in live]
     errors += [f"gallery entry {gid} is not in the data: run tools/import_gallery.py" for gid in sorted(live - by_gallery.keys())]
-    errors += product_errors(printings)
+    errors += product_errors(printings, rbjson.flatten(sets, files, sealed)["products"])
     errors += set_art_errors(sets)
     if images:
         errors += image_errors(printings)
     return errors
 
 
-def product_errors(printings: dict[str, dict]) -> list[str]:
-    """Each TCGplayer product id the data names that category 89 no longer sells."""
+def product_errors(printings: dict[str, dict], products: dict[str, dict] | None = None) -> list[str]:
+    """Each TCGplayer product id the data names, on a printing or a sealed product, that category 89 no longer sells."""
     import tempfile
     from pathlib import Path
 
     cache = Path(tempfile.mkdtemp(prefix="rbjson-online-"))
     sold = {p.product_id for g in tcgcsv.groups(cache) for p in tcgcsv.products(g["groupId"], cache)}
-    return [f"printing {pid}: TCGplayer product {product_id} is gone from category 89"
-            for pid, p in sorted(printings.items())
+    return [f"{kind} {key}: TCGplayer product {product_id} is gone from category 89"
+            for kind, items in (("printing", printings), ("sealed product", products or {}))
+            for key, p in sorted(items.items())
             for product_id in p.get("identifiers", {}).get("tcgplayerProductIds", []) if product_id not in sold]
 
 
@@ -91,16 +93,17 @@ def main() -> None:
     ap.add_argument("--online", action="store_true")
     ap.add_argument("--images", action="store_true")
     args = ap.parse_args()
-    sets, files = rbjson.load_sets(), rbjson.load_cards()
-    errors = rbjson.validate(sets, files)
+    sets, files, sealed = rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()
+    errors = rbjson.validate(sets, files, sealed)
     if not errors and args.online:
-        errors = online_errors(sets, files, args.images)
+        errors = online_errors(sets, files, args.images, sealed)
     if errors:
         print("\n".join(errors), file=sys.stderr)
         sys.exit(1)
     n = sum(len(b["cards"]) for b in files.values())
     m = sum(len(c["printings"]) for b in files.values() for c in b["cards"])
-    print(f"ok: {len(sets)} sets, {n} cards, {m} printings")
+    k = sum(len(b["products"]) for b in sealed.values())
+    print(f"ok: {len(sets)} sets, {n} cards, {m} printings, {k} sealed products")
 
 
 if __name__ == "__main__":
