@@ -17,6 +17,12 @@
             1080
           ]
         }
+      },
+      {
+        "language": "ko",
+        "name": "오리진 - 주 세트",
+        "releaseDate": "2026-09-18",
+        "source": "https://playriftbound.com/ko-kr/card-gallery?set=OGN"
       }
     ],
     "tcgplayerGroupIds": [
@@ -34,6 +40,11 @@
         "name": "Proving Grounds",
         "releaseDate": "2025-10-31",
         "source": "https://playriftbound.com/en-us/card-gallery?set=OGS"
+      },
+      {
+        "language": "ko",
+        "name": "오리진 - 증명의 전장",
+        "source": "https://playriftbound.com/ko-kr/card-gallery?set=OGS"
       }
     ],
     "tcgplayerGroupIds": [

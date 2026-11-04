@@ -3,7 +3,15 @@
     {
       "number": "OGS-001",
       "name": "Annie",
+      "names": {
+        "en": "Annie",
+        "ko": "애니"
+      },
       "subtitle": "Fiery",
+      "subtitles": {
+        "en": "Fiery",
+        "ko": "화염"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -42,12 +50,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-001~ko",
+          "language": "ko",
+          "collectorNumber": 1,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0b51be1115566c95c9f6db88c65084d8e1f32272-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Polar Engine Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-001-024",
+            "publicCode": "OGS-001/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-002",
       "name": "Firestorm",
+      "names": {
+        "en": "Firestorm",
+        "ko": "불의 폭풍"
+      },
       "type": "spell",
       "domains": [
         "fury"
@@ -78,12 +105,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-002~ko",
+          "language": "ko",
+          "collectorNumber": 2,
+          "rarity": "uncommon",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/066fb1059173e0ded464daa2f5efc67dfbaf96d8-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-002-024",
+            "publicCode": "OGS-002/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-003",
       "name": "Incinerate",
+      "names": {
+        "en": "Incinerate",
+        "ko": "소각"
+      },
       "type": "spell",
       "domains": [
         "fury"
@@ -113,13 +159,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-003~ko",
+          "language": "ko",
+          "collectorNumber": 3,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/28b4fe191934caa094e120248d5f3a8c4dedb20b-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-003-024",
+            "publicCode": "OGS-003/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-004",
       "name": "Master Yi",
+      "names": {
+        "en": "Master Yi",
+        "ko": "마스터 이"
+      },
       "subtitle": "Meditative",
+      "subtitles": {
+        "en": "Meditative",
+        "ko": "사색"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -158,12 +227,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-004~ko",
+          "language": "ko",
+          "collectorNumber": 4,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/86903817144ff282fcad8765771255d64fda3ddd-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-004-024",
+            "publicCode": "OGS-004/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-005",
       "name": "Zephyr Sage",
+      "names": {
+        "en": "Zephyr Sage",
+        "ko": "서풍의 현자"
+      },
       "type": "unit",
       "domains": [
         "calm"
@@ -199,13 +287,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-005~ko",
+          "language": "ko",
+          "collectorNumber": 5,
+          "rarity": "uncommon",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8e88d992c7c3baf64c550c540ca7c07bb68ef691-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-005-024",
+            "publicCode": "OGS-005/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-006",
       "name": "Lux",
+      "names": {
+        "en": "Lux",
+        "ko": "럭스"
+      },
       "subtitle": "Illuminated",
+      "subtitles": {
+        "en": "Illuminated",
+        "ko": "광명"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -244,13 +355,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-006~ko",
+          "language": "ko",
+          "collectorNumber": 6,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8b342c3c7df143afef4f91da4358cf48a8994d3e-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-006-024",
+            "publicCode": "OGS-006/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-007",
       "name": "Garen",
+      "names": {
+        "en": "Garen",
+        "ko": "가렌"
+      },
       "subtitle": "Rugged",
+      "subtitles": {
+        "en": "Rugged",
+        "ko": "강건"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -290,12 +424,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-007~ko",
+          "language": "ko",
+          "collectorNumber": 7,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e1be041f7ad167d27b0ceab95a42c87218257ae5-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-007-024",
+            "publicCode": "OGS-007/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-008",
       "name": "Gentlemen's Duel",
+      "names": {
+        "en": "Gentlemen's Duel",
+        "ko": "신사의 결투"
+      },
       "type": "spell",
       "domains": [
         "body"
@@ -326,13 +479,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-008~ko",
+          "language": "ko",
+          "collectorNumber": 8,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7dd990e9adf4252dc43169613a58671fddfde09c-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-008-024",
+            "publicCode": "OGS-008/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-009",
       "name": "Master Yi",
+      "names": {
+        "en": "Master Yi",
+        "ko": "마스터 이"
+      },
       "subtitle": "Honed",
+      "subtitles": {
+        "en": "Honed",
+        "ko": "연마"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -371,13 +547,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-009~ko",
+          "language": "ko",
+          "collectorNumber": 9,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2766836ba9052d71f8538cde35a7b721d23507e7-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-009-024",
+            "publicCode": "OGS-009/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-010",
       "name": "Annie",
+      "names": {
+        "en": "Annie",
+        "ko": "애니"
+      },
       "subtitle": "Stubborn",
+      "subtitles": {
+        "en": "Stubborn",
+        "ko": "고집불통"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -416,12 +615,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-010~ko",
+          "language": "ko",
+          "collectorNumber": 10,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b91353bdb93aad6ce221172e15de0d1b138f8c57-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-010-024",
+            "publicCode": "OGS-010/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-011",
       "name": "Flash",
+      "names": {
+        "en": "Flash",
+        "ko": "점멸"
+      },
       "type": "spell",
       "domains": [
         "chaos"
@@ -451,12 +669,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-011~ko",
+          "language": "ko",
+          "collectorNumber": 11,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d145cd6940b0e9c17e0625918e77eebd0807b8f2-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Sugar Free"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-011-024",
+            "publicCode": "OGS-011/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-012",
       "name": "Blast of Power",
+      "names": {
+        "en": "Blast of Power",
+        "ko": "폭발하는 힘"
+      },
       "type": "spell",
       "domains": [
         "order"
@@ -487,13 +724,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-012~ko",
+          "language": "ko",
+          "collectorNumber": 12,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3b476de48c216576d1b59c858b8a1c4961f99fa4-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-012-024",
+            "publicCode": "OGS-012/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-013",
       "name": "Garen",
+      "names": {
+        "en": "Garen",
+        "ko": "가렌"
+      },
       "subtitle": "Commander",
+      "subtitles": {
+        "en": "Commander",
+        "ko": "지휘관"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -533,13 +793,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-013~ko",
+          "language": "ko",
+          "collectorNumber": 13,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c090a31f9be220a8a17eab57f9b8b1f5c5c37d51-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-013-024",
+            "publicCode": "OGS-013/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-014",
       "name": "Lux",
+      "names": {
+        "en": "Lux",
+        "ko": "럭스"
+      },
       "subtitle": "Crownguard",
+      "subtitles": {
+        "en": "Crownguard",
+        "ko": "크라운가드"
+      },
       "type": "unit",
       "superTypes": [
         "champion"
@@ -577,12 +860,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-014~ko",
+          "language": "ko",
+          "collectorNumber": 14,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6ef34f90b917e7a2f49d382ad14ffea2fabcb9e3-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Envar Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-014-024",
+            "publicCode": "OGS-014/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-015",
       "name": "Recruit the Vanguard",
+      "names": {
+        "en": "Recruit the Vanguard",
+        "ko": "선봉대 모집"
+      },
       "type": "spell",
       "domains": [
         "order"
@@ -612,12 +914,31 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-015~ko",
+          "language": "ko",
+          "collectorNumber": 15,
+          "rarity": "uncommon",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/15e8ff1c53d3c27f255e8432f196941fa1b46126-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-015-024",
+            "publicCode": "OGS-015/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-016",
       "name": "Vanguard Attendant",
+      "names": {
+        "en": "Vanguard Attendant",
+        "ko": "선봉대 수행원"
+      },
       "type": "unit",
       "domains": [
         "order"
@@ -653,13 +974,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-016~ko",
+          "language": "ko",
+          "collectorNumber": 16,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6309a90d8bd7d4eba899dedb80a649e3dfa9bec8-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-016-024",
+            "publicCode": "OGS-016/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-017",
       "name": "Dark Child",
+      "names": {
+        "en": "Dark Child",
+        "ko": "어둠의 아이"
+      },
       "subtitle": "Starter",
+      "subtitles": {
+        "en": "Starter",
+        "ko": "입문자"
+      },
       "type": "legend",
       "superTypes": [
         "champion"
@@ -695,13 +1039,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-017~ko",
+          "language": "ko",
+          "collectorNumber": 17,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/05b50a7d54badaa7c435750d469fc769a2c2e895-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-017-024",
+            "publicCode": "OGS-017/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-018",
       "name": "Tibbers",
+      "names": {
+        "en": "Tibbers",
+        "ko": "티버"
+      },
       "subtitle": "Annie",
+      "subtitles": {
+        "en": "Annie",
+        "ko": "애니"
+      },
       "type": "unit",
       "superTypes": [
         "signature"
@@ -740,13 +1107,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-018~ko",
+          "language": "ko",
+          "collectorNumber": 18,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1fae5d6c2471298910d69db0937d52f268d03909-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Polar Engine Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-018-024",
+            "publicCode": "OGS-018/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-019",
       "name": "Wuju Bladesman",
+      "names": {
+        "en": "Wuju Bladesman",
+        "ko": "우주 검사"
+      },
       "subtitle": "Starter",
+      "subtitles": {
+        "en": "Starter",
+        "ko": "입문자"
+      },
       "type": "legend",
       "superTypes": [
         "champion"
@@ -782,13 +1172,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-019~ko",
+          "language": "ko",
+          "collectorNumber": 19,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/23d01a0635846eda4a042d2f80b02a38c61a2ce2-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Grafit Studio/꾸이 호"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-019-024",
+            "publicCode": "OGS-019/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-020",
       "name": "Highlander",
+      "names": {
+        "en": "Highlander",
+        "ko": "최후의 전사"
+      },
       "subtitle": "Yi",
+      "subtitles": {
+        "en": "Yi",
+        "ko": "이"
+      },
       "type": "spell",
       "superTypes": [
         "signature"
@@ -825,13 +1238,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-020~ko",
+          "language": "ko",
+          "collectorNumber": 20,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8ed7a58964bda37a94bef9511337ea1919cb282-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-020-024",
+            "publicCode": "OGS-020/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-021",
       "name": "Lady of Luminosity",
+      "names": {
+        "en": "Lady of Luminosity",
+        "ko": "광명의 소녀"
+      },
       "subtitle": "Starter",
+      "subtitles": {
+        "en": "Starter",
+        "ko": "입문자"
+      },
       "type": "legend",
       "superTypes": [
         "champion"
@@ -867,13 +1303,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-021~ko",
+          "language": "ko",
+          "collectorNumber": 21,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bfa20ac4fd5419a9ab7c173aae4a43d33604aa22-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Grafit Studio/마키 플라나스 마타"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-021-024",
+            "publicCode": "OGS-021/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-022",
       "name": "Final Spark",
+      "names": {
+        "en": "Final Spark",
+        "ko": "최후의 섬광"
+      },
       "subtitle": "Lux",
+      "subtitles": {
+        "en": "Lux",
+        "ko": "럭스"
+      },
       "type": "spell",
       "superTypes": [
         "signature"
@@ -910,13 +1369,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-022~ko",
+          "language": "ko",
+          "collectorNumber": 22,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3d2b2a6516912d10c6eecea20441bc313181b1ce-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-022-024",
+            "publicCode": "OGS-022/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-023",
       "name": "Might of Demacia",
+      "names": {
+        "en": "Might of Demacia",
+        "ko": "데마시아의 힘"
+      },
       "subtitle": "Starter",
+      "subtitles": {
+        "en": "Starter",
+        "ko": "입문자"
+      },
       "type": "legend",
       "superTypes": [
         "champion"
@@ -952,13 +1434,36 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-023~ko",
+          "language": "ko",
+          "collectorNumber": 23,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3141aa88890207a91c27f562e826efd63521330f-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-023-024",
+            "publicCode": "OGS-023/024"
+          }
         }
       ]
     },
     {
       "number": "OGS-024",
       "name": "Decisive Strike",
+      "names": {
+        "en": "Decisive Strike",
+        "ko": "결정타"
+      },
       "subtitle": "Garen",
+      "subtitles": {
+        "en": "Garen",
+        "ko": "가렌"
+      },
       "type": "spell",
       "superTypes": [
         "signature"
@@ -996,6 +1501,21 @@
           "finishes": [
             "nonfoil"
           ]
+        },
+        {
+          "id": "OGS-024~ko",
+          "language": "ko",
+          "collectorNumber": 24,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8fe0144d244f6055444cf213ff69ac2008758a5c-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogs-024-024",
+            "publicCode": "OGS-024/024"
+          }
         }
       ]
     }

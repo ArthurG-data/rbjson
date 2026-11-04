@@ -14,7 +14,7 @@ CARDS = ROOT / "data" / "cards"
 SEALED = ROOT / "data" / "sealed"
 SCHEMAS = ROOT / "schema"
 
-NUMBER = re.compile(r"^(?P<set>[A-Z]{3})-(?P<core>[0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})(?P<suffix>[a*]?)$")
+NUMBER = re.compile(r"^(?P<set>[A-Z]{3})-(?P<core>[0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})(?P<suffix>[a*]?)(?:~(?P<lang>[a-z]{2}))?$")
 
 
 def _schema(name: str) -> Draft202012Validator:
@@ -27,7 +27,8 @@ def language(p: dict) -> str:
 
 
 def split_id(printing_id: str) -> tuple[str, str, str]:
-    """(set, card number, suffix) of a printing id: OGN-119a -> ("OGN", "OGN-119", "a")."""
+    """(set, card number, suffix) of a printing id: OGN-119a -> ("OGN", "OGN-119", "a"). A language mark
+    (OGN-119a~ko) is ignored."""
     m = NUMBER.match(printing_id)
     if not m:
         raise ValueError(f"not a printing id: {printing_id}")
@@ -77,7 +78,7 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
 
     numbers = collections.Counter()
     printing_ids: dict[str, str] = {}
-    gallery_ids: dict[str, str] = {}
+    gallery_ids: dict[tuple[str, str], str] = {}
     for stem, body in files.items():
         if stem not in set_ids:
             errors.append(f"cards/{stem}.json: {stem} is not a set in sets.json")
@@ -86,6 +87,16 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
             numbers[number] += 1
             if number.split("-", 1)[0] != stem:
                 errors.append(f"cards/{stem}.json: card {number} belongs in cards/{number.split('-', 1)[0]}.json")
+            ids_of_card = {p["id"] for p in card["printings"]}
+            card_langs = {language(p) for p in card["printings"]}
+            for field in ("names", "subtitles"):
+                for lang in card.get(field, {}):
+                    if lang not in card_langs:
+                        errors.append(f"card {number}: {field} has a {lang} entry but no printing in {lang}")
+            if "names" in card and card["names"].get("en", card["name"]) != card["name"]:
+                errors.append(f"card {number}: names.en must be the card's name")
+            if "subtitles" in card and card["subtitles"].get("en", card.get("subtitle")) != card.get("subtitle"):
+                errors.append(f"card {number}: subtitles.en must be the card's subtitle")
             for p in card["printings"]:
                 pid = p["id"]
                 if pid in printing_ids:
@@ -97,13 +108,19 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
                 if p.get("suffix", "") != suffix:
                     errors.append(f"printing {pid}: suffix field must be {suffix!r}, not {p.get('suffix', '')!r}")
                 lang = language(p)
+                if pid.partition("~")[2] != ("" if lang == "en" else lang):
+                    errors.append(f"printing {pid}: a printing in {lang} has the id mark ~{lang}, and English has none")
+                elif lang != "en" and pid.partition("~")[0] not in ids_of_card:
+                    errors.append(f"printing {pid}: its English printing {pid.partition('~')[0]} does not exist")
                 if stem in releases and lang not in releases[stem]:
                     errors.append(f"printing {pid}: set {stem} has no {lang} release")
+                if lang != "en" and ("tcgplayer" in p or "finishes" in p or p["identifiers"].get("tcgplayerProductIds")):
+                    errors.append(f"printing {pid}: TCGplayer sells English cards, so a {lang} printing has no TCGplayer data")
                 gid = p["identifiers"]["galleryId"]
-                if gid in gallery_ids:
-                    errors.append(f"gallery entry {gid} is on {gallery_ids[gid]} and {pid}")
-                gallery_ids[gid] = pid
-                if p["identifiers"]["publicCode"].split("/")[0] != pid:
+                if (lang, gid) in gallery_ids:
+                    errors.append(f"gallery entry {gid} is on {gallery_ids[lang, gid]} and {pid}")
+                gallery_ids[lang, gid] = pid
+                if p["identifiers"]["publicCode"].split("/")[0] != pid.partition("~")[0]:
                     errors.append(f"printing {pid}: publicCode {p['identifiers']['publicCode']} names another printing")
     errors += [f"card {n} is listed {c} times" for n, c in numbers.items() if c > 1]
     product_owner: dict[int, str] = {}

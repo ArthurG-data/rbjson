@@ -84,3 +84,70 @@ def test_build_id_is_read_from_the_page():
     assert gallery.build_id('<script>{"buildId":"saXcR0KxRzJ_Rr6squY8u","x":1}</script>') == "saXcR0KxRzJ_Rr6squY8u"
     with pytest.raises(ValueError):
         gallery.build_id("<html></html>")
+
+
+def _entry(gid, code, name, image, subtitle=None, artist="Kudos Productions"):
+    e = {"id": gid, "publicCode": code, "name": name, "collectorNumber": int(code.split("-")[1][:3]),
+         "rarity": {"value": {"id": "epic"}}, "cardImage": {"url": image},
+         "illustrator": {"values": [{"label": artist}]}, "cardType": {"type": [{"id": "unit"}]}}
+    if subtitle:
+        e["subtitle"] = subtitle
+    return e
+
+
+def _english():
+    return [_entry("ogn-119-298", "OGN-119/298", "Ahri", "https://r/en-119.png", "Inquisitive"),
+            _entry("ogn-119a-298", "OGN-119a/298", "Ahri", "https://r/en-119a.png", "Inquisitive"),
+            _entry("ogn-004-298", "OGN-004/298", "Brazen Buccaneer", "https://r/en-4.png")]
+
+
+def _merged(korean):
+    english = _english()
+    files, _, _ = import_gallery.build_files(english, {"OGN"})
+    added, problems = import_gallery.merge_locale(files, english, korean, "ko")
+    return files, added, problems
+
+
+def test_a_korean_entry_with_its_own_image_becomes_a_ko_printing_and_names_the_card():
+    korean = [_entry("ogn-119-298", "OGN-119/298", "아리", "https://r/ko-119.png", "호기심", artist="Kudos"),
+              _entry("ogn-119a-298", "OGN-119a/298", "아리", "https://r/ko-119a.png", "호기심"),
+              _entry("ogn-004-298", "OGN-004/298", "무모한 해적", "https://r/ko-4.png")]
+    files, added, problems = _merged(korean)
+    assert added == 3 and problems == []
+    ahri = next(c for c in files["OGN"]["cards"] if c["number"] == "OGN-119")
+    assert [p["id"] for p in ahri["printings"]] == ["OGN-119", "OGN-119a", "OGN-119~ko", "OGN-119a~ko"]
+    assert ahri["name"] == "Ahri" and ahri["subtitle"] == "Inquisitive"
+    assert ahri["names"] == {"en": "Ahri", "ko": "아리"} and ahri["subtitles"] == {"en": "Inquisitive", "ko": "호기심"}
+    ko = ahri["printings"][3]
+    assert ko["language"] == "ko" and ko["suffix"] == "a" and ko["image"] == "https://r/ko-119a.png"
+    assert ko["collectorNumber"] == 119 and ko["rarity"] == "epic" and ko["artists"] == ["Kudos Productions"]
+    assert ko["identifiers"] == {"galleryId": "ogn-119a-298", "publicCode": "OGN-119a/298"}
+    assert "finishes" not in ko and "tcgplayer" not in ko
+    buccaneer = next(c for c in files["OGN"]["cards"] if c["number"] == "OGN-004")
+    assert buccaneer["names"]["ko"] == "무모한 해적" and "subtitles" not in buccaneer
+
+
+def test_a_korean_entry_whose_image_equals_the_english_one_adds_nothing():
+    korean = [_entry("ogn-119-298", "OGN-119/298", "아리", "https://r/en-119.png", "호기심"),
+              _entry("ogn-119a-298", "OGN-119a/298", "아리", "https://r/en-119a.png", "호기심"),
+              _entry("ogn-004-298", "OGN-004/298", "무모한 해적", "https://r/ko-4.png")]
+    files, added, _ = _merged(korean)
+    assert added == 1
+    ahri = next(c for c in files["OGN"]["cards"] if c["number"] == "OGN-119")
+    assert len(ahri["printings"]) == 2 and "names" not in ahri and "subtitles" not in ahri
+
+
+def test_one_translated_variant_names_the_card_from_the_variant_that_differs():
+    korean = [_entry("ogn-119-298", "OGN-119/298", "아리", "https://r/en-119.png", "호기심"),
+              _entry("ogn-119a-298", "OGN-119a/298", "아리a", "https://r/ko-119a.png", "호기심a")]
+    files, added, _ = _merged(korean)
+    ahri = files["OGN"]["cards"][1]
+    assert added == 1 and [p["id"] for p in ahri["printings"]] == ["OGN-119", "OGN-119a", "OGN-119a~ko"]
+    assert ahri["names"]["ko"] == "아리a"
+
+
+def test_an_entry_english_lacks_is_reported_and_not_written():
+    korean = [_entry("ogn-999-298", "OGN-999/298", "없음", "https://r/ko-999.png")]
+    files, added, problems = _merged(korean)
+    assert added == 0 and len(problems) == 1 and "ogn-999-298" in problems[0]
+    assert sum(len(c["printings"]) for c in files["OGN"]["cards"]) == 3
