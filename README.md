@@ -12,7 +12,7 @@ came from, so a reader can always get back to Riot's own record.
 Release 0.4.0 holds 6 sets, 1,237 cards, 1,783 printings and 65 sealed products. 1,408 printings are English and
 375 are the Korean printings of Origins and Proving Grounds, each beside its English twin on the same card, which
 carries its Korean name. 1,399 English printings carry the TCGplayer product that sells them and the finishes it is
-sold in. The starter set names its parent, and each booster set carries its key art.
+sold in, and 941 carry the Cardmarket product that sells them. The starter set names its parent, and each booster set carries its key art.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -35,9 +35,9 @@ build, so a reader that downloads them separately can check that the versions ag
 
 | File | Keyed by | Holds |
 |---|---|---|
-| `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids, and per release (`en`, and `ko` for Origins and Proving Grounds) the name, date, source page and key art |
+| `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids (`tcgplayerGroupIds`), Cardmarket expansion ids (`cardmarketExpansionIds`), and per release (`en`, and `ko` for Origins and Proving Grounds) the name, date, source page and key art |
 | `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its name and subtitle in each language it has printings in, its set, and the ids of its printings |
-| `AllPrintings.json` | printing id (`OGN-119a`, `OGN-119a~ko`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery and TCGplayer identifiers |
+| `AllPrintings.json` | printing id (`OGN-119a`, `OGN-119a~ko`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery, TCGplayer and Cardmarket (`cardmarketProductIds`) identifiers |
 | `AllProducts.json` | product id (`origins-booster-display`) | the sealed products: set, category, name, release date, TCGplayer product id, and what the product holds |
 
 The files are also what the repository's `data/` folder holds, flattened: a reader that wants the cards of one
@@ -144,6 +144,7 @@ A printing holds what sets one physical card apart from another with the same nu
 | `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`). A Korean printing has its English twin's id, because the Korean gallery numbers its entries the same way |
 | `identifiers.publicCode` | The code as the gallery prints it (`OGN-119a/298`) |
 | `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
+| `identifiers.cardmarketProductIds` | The Cardmarket product that sells the printing, on an English printing whose name fits one card and one product (see [Cardmarket products](#cardmarket-products)) |
 | `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent on a printing it has never priced |
 | `tcgplayer` | How the product was tied to the printing: its `name` and the `match` (`number`) |
 
@@ -208,6 +209,26 @@ Not matched, and listed in `review/tcgplayer-89.json`: the oversized battlefield
 tokens TCGplayer sells that the gallery does not list, double-sided token products (`T01 // T02`), and the
 promotional groups (PR, OPP, JDG, the bundles), whose stamped copies of base cards are a later step.
 
+### Cardmarket products
+
+`tools/import_cardmarket.py` reads Cardmarket's public product list for Riftbound (game 22),
+`products_singles_22.json` under `downloads.s3.cardmarket.com/productCatalog/productList`, cached in
+`.cache/cardmarket`. A product has an id, a name and an expansion, and no collector number, so it joins a card by
+name alone. Each set lists its Cardmarket expansions in `cardmarketExpansionIds`; that field is kept by hand
+(paired by name overlap and Riftcodex's set records), where the importer writes `tcgplayerGroupIds`.
+
+A card's candidate names are `<name>, <subtitle>` and `<name>`, and for a Legend `<champion>, <name>` for each tag
+that is a champion's name. Names compare casefolded, without accents or punctuation other than commas and
+apostrophes. A product gets its card when exactly one card of the set has that name among its candidates and the
+set's expansions list that name once; the id goes on the card's English printing without a suffix, under
+`identifiers.cardmarketProductIds`. Korean printings get none.
+
+Cardmarket lists an alternate art or an overnumbered print under its base card's name (Origins has two `Ahri,
+Inquisitive`), and nothing on the product says which is which. Rather than order or guess them, every product of
+such a name stays unmatched, as does a name two cards share (the runes). `review/cardmarket-22.json` lists these
+by name with their products and cards (`ambiguous_name`), the products no card carries (`no_print`), and the
+promotional expansions the data does not cover, with their product counts.
+
 ### Sealed products
 
 `tools/import_sealed.py` writes `data/sealed/<set>.json` from the products TCGplayer sells in category 89 that are
@@ -263,6 +284,9 @@ the gallery import stays as the cross-check.
   sells the English cards, and no finishes. Other sets have no Korean printings until the Korean gallery shows
   Korean images for them. The Korean overnumbered Ahri that Riot's launch article announces is not in the
   gallery and is not in the data. No other language is imported (see [Where the data comes from](#where-the-data-comes-from)).
+- **Cardmarket ids.** Alternate arts and overnumbered prints have no Cardmarket id, because Cardmarket lists them
+  under the base card's name and the base card's own product is left unmatched with them. Cardmarket's promotional
+  expansions are not covered. Cardmarket's sealed products are not imported.
 - **Sealed contents.** Deck lists and counts are not stated: a case or display names what it holds without how many, and a deck has no card list. Format legality is not covered.
 - **No reprint links.** A champion reprinted with the same subtitle in a later set is a separate card.
 
@@ -272,11 +296,12 @@ the gallery import stays as the cross-check.
 - `data/cards/<set>.json` holds the cards of one set, each with every printing of it. Written by the importer.
 - `review/gallery.json` lists the variants whose gallery entry disagrees with their base. Written by the importer.
 - `review/tcgplayer-89.json` lists the TCGplayer singles no printing matched and the groups that were not matched.
+- `review/cardmarket-22.json` lists the Cardmarket products left unmatched and the expansions no set claims. Written by `tools/import_cardmarket.py`.
 - `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
 - `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
 - `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
-- `tools/` holds the three importers, the validator, the build script, and the gallery and TCGCSV fetchers.
+- `tools/` holds the importers (gallery, TCGCSV, sealed, Cardmarket), the validator, the build script, and the gallery, TCGCSV and Cardmarket fetchers.
 - `tests/` checks the tools against a small gallery fixture and the committed data against the schemas.
 
 ## Building
@@ -286,6 +311,7 @@ uv sync --group dev
 uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
+uv run python tools/import_cardmarket.py       # Cardmarket product ids, cached in .cache/cardmarket
 uv run python tools/validate.py [--online [--images]]
 uv run python tools/build.py --version 0.4.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json, AllProducts.json
 uv run pytest -q
@@ -293,8 +319,8 @@ uv run pytest -q
 
 `validate.py` checks the schemas and the cross-references: every printing is filed under its own number, no
 id or gallery entry appears twice, every printing's language has a release, a `~ko` printing has an English twin, `names` and `subtitles` only name languages the card has printings in, a TCGplayer product sits on one
-printing or sealed product, and a sealed product's contents name products, sets and printings that exist. `--online` fetches the gallery again (and the Korean one, for the Korean printings) and reports any printing whose entry is gone and any entry the
-data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists. `--images` also asks Riot whether
+printing or sealed product, a Cardmarket product sits on one English printing, a Cardmarket expansion on one set, and a sealed product's contents name products, sets and printings that exist. `--online` fetches the gallery again (and the Korean one, for the Korean printings) and reports any printing whose entry is gone and any entry the
+data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists, and Cardmarket whether every Cardmarket product id is still in its singles list. `--images` also asks Riot whether
 every card image is still served, about 1,800 requests, so CI runs it only for a release tag.
 
 `build.py` refuses to write `dist/` while the data is invalid.
@@ -310,9 +336,10 @@ named after the tag. Readers follow `releases/latest/download/<file>`, so a new 
    code, type, set size and English name, then run the importer again.
 2. Run `uv run python tools/import_tcgcsv.py --refresh` to pick up new products and finishes.
 3. Run `uv run python tools/import_sealed.py --refresh`.
-4. Read `review/gallery.json`, `review/tcgplayer-89.json` and `review/sealed.json` for anything new.
-5. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
-6. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
+4. Run `uv run python tools/import_cardmarket.py --refresh`. A new set needs its `cardmarketExpansionIds` in `sets/sets.json` first.
+5. Read `review/gallery.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
+6. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
+7. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
 
 ## Licence
 

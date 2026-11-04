@@ -4,7 +4,7 @@
 
 --online fetches the gallery again (English, and each other language the data has printings in) and reports any
 printing whose gallery entry is gone, and any gallery entry the data lacks (in another language, one whose image
-differs from English), and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists in category 89. It also asks whether each
+differs from English), and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists in category 89, and Cardmarket whether every Cardmarket product id is still in its singles list. It also asks whether each
 set's key art and logo are still served. --images also
 asks Riot whether every card image is still served: about 1,400 requests, so CI runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
 before it counts.
@@ -18,6 +18,7 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
+import cardmarket
 import gallery
 import rbjson
 import tcgcsv
@@ -41,6 +42,7 @@ def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False
                   if lang == "en" or (gid in english and e["cardImage"]["url"] != english[gid]["cardImage"]["url"])}
         errors += [f"{tag}gallery entry {gid} is not in the data: run tools/import_gallery.py" for gid in sorted(wanted - by_gallery.keys())]
     errors += product_errors(printings, rbjson.flatten(sets, files, sealed)["products"])
+    errors += cardmarket_errors(printings)
     errors += set_art_errors(sets)
     if images:
         errors += image_errors(printings)
@@ -58,6 +60,17 @@ def product_errors(printings: dict[str, dict], products: dict[str, dict] | None 
             for kind, items in (("printing", printings), ("sealed product", products or {}))
             for key, p in sorted(items.items())
             for product_id in p.get("identifiers", {}).get("tcgplayerProductIds", []) if product_id not in sold]
+
+
+def cardmarket_errors(printings: dict[str, dict]) -> list[str]:
+    """Each Cardmarket product id the data names that Cardmarket's singles list no longer holds."""
+    import tempfile
+    from pathlib import Path
+
+    sold = {p.product_id for p in cardmarket.singles(Path(tempfile.mkdtemp(prefix="rbjson-online-")))}
+    return [f"printing {key}: Cardmarket product {product_id} is gone from the singles list"
+            for key, p in sorted(printings.items())
+            for product_id in p.get("identifiers", {}).get("cardmarketProductIds", []) if product_id not in sold]
 
 
 def head_status(url: str) -> int | None:

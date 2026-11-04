@@ -222,6 +222,15 @@
                 "type": "integer"
               },
               "description": "The TCGplayer products that sell the printing, from TCGCSV category 89 (tools/import_tcgcsv.py)."
+            },
+            "cardmarketProductIds": {
+              "type": "array",
+              "uniqueItems": true,
+              "minItems": 1,
+              "items": {
+                "type": "integer"
+              },
+              "description": "The Cardmarket products that sell the printing, from Cardmarket's Riftbound product list (tools/import_cardmarket.py). English printings only."
             }
           }
         },
