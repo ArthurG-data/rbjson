@@ -188,3 +188,27 @@ def test_the_same_gallery_entry_may_sit_on_an_english_and_a_korean_printing_but_
     dup["id"] = "OGN-119~ko"
     ahri["printings"].append(dup)
     assert any("gallery entry ogn-119a-298 is on OGN-119a~ko and OGN-119~ko" in e for e in rbjson.validate(sets, files))
+
+
+def test_a_korean_printing_carries_no_cardmarket_product():
+    sets, files, _, ko = _with_korean_ahri()
+    ko["identifiers"]["cardmarketProductIds"] = [5]
+    assert any("a ko printing has none" in e for e in rbjson.validate(sets, files))
+
+
+def test_a_cardmarket_product_on_two_printings_and_an_expansion_on_two_sets_are_named():
+    sets, files = _data()
+    sets, files = copy.deepcopy(sets), copy.deepcopy(files)
+    one, two = files["OGN"]["cards"][0]["printings"][0], files["OGN"]["cards"][1]["printings"][0]
+    one["identifiers"]["cardmarketProductIds"] = two["identifiers"]["cardmarketProductIds"] = [7]
+    sets[1]["cardmarketExpansionIds"] = list(sets[0]["cardmarketExpansionIds"])
+    errors = rbjson.validate(sets, files)
+    assert any(f"Cardmarket product 7 is on {one['id']} and {two['id']}" in e for e in errors)
+    assert any(f"Cardmarket expansion {sets[0]['cardmarketExpansionIds'][0]} is on OGN and OGS" in e for e in errors)
+
+
+def test_a_non_integer_cardmarket_expansion_id_fails_the_schema():
+    sets, files = _data()
+    sets = copy.deepcopy(sets)
+    sets[0]["cardmarketExpansionIds"] = ["6286"]
+    assert any("cardmarketExpansionIds" in e for e in rbjson.validate(sets, files))

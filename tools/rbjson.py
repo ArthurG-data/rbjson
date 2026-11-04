@@ -114,6 +114,8 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
                     errors.append(f"printing {pid}: its English printing {pid.partition('~')[0]} does not exist")
                 if stem in releases and lang not in releases[stem]:
                     errors.append(f"printing {pid}: set {stem} has no {lang} release")
+                if lang != "en" and p["identifiers"].get("cardmarketProductIds"):
+                    errors.append(f"printing {pid}: Cardmarket products are matched to English printings, so a {lang} printing has none")
                 if lang != "en" and ("tcgplayer" in p or "finishes" in p or p["identifiers"].get("tcgplayerProductIds")):
                     errors.append(f"printing {pid}: TCGplayer sells English cards, so a {lang} printing has no TCGplayer data")
                 gid = p["identifiers"]["galleryId"]
@@ -133,6 +135,20 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
                     product_owner[product_id] = p["id"]
                 if ("tcgplayer" in p) != bool(p.get("identifiers", {}).get("tcgplayerProductIds")):
                     errors.append(f"printing {p['id']}: tcgplayer and identifiers.tcgplayerProductIds come together")
+    cardmarket_owner: dict[int, str] = {}
+    for body in files.values():
+        for card in body["cards"]:
+            for p in card["printings"]:
+                for product_id in p.get("identifiers", {}).get("cardmarketProductIds", []):
+                    if product_id in cardmarket_owner:
+                        errors.append(f"Cardmarket product {product_id} is on {cardmarket_owner[product_id]} and {p['id']}")
+                    cardmarket_owner[product_id] = p["id"]
+    expansion_owner: dict[int, str] = {}
+    for s in sets:
+        for expansion in s.get("cardmarketExpansionIds", []):
+            if expansion in expansion_owner:
+                errors.append(f"sets.json: Cardmarket expansion {expansion} is on {expansion_owner[expansion]} and {s['id']}")
+            expansion_owner[expansion] = s["id"]
     errors += _sealed_errors(sealed, set_ids, set(printing_ids), product_owner)
     return errors
 

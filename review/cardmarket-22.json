@@ -1,0 +1,2713 @@
+{
+  "ambiguous_name": [
+    {
+      "set": "OGN",
+      "name": "Ahri, Alluring",
+      "products": [
+        847186,
+        847187
+      ],
+      "prints": [
+        "OGN-066"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Ahri, Inquisitive",
+      "products": [
+        847263,
+        847265
+      ],
+      "prints": [
+        "OGN-119"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Ahri, Nine-Tailed Fox",
+      "products": [
+        847455,
+        847507,
+        847508,
+        907588,
+        916878
+      ],
+      "prints": [
+        "OGN-255",
+        "OGN-303"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Body Rune",
+      "products": [
+        847277,
+        847279
+      ],
+      "prints": [
+        "OGN-126"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Calm Rune",
+      "products": [
+        847161,
+        847162
+      ],
+      "prints": [
+        "OGN-042"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Chaos Rune",
+      "products": [
+        847332,
+        847333
+      ],
+      "prints": [
+        "OGN-166"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Darius, Executioner",
+      "products": [
+        847426,
+        847427
+      ],
+      "prints": [
+        "OGN-243"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Darius, Hand of Noxus",
+      "products": [
+        847453,
+        847505,
+        847506
+      ],
+      "prints": [
+        "OGN-253",
+        "OGN-302"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Darius, Trifarian",
+      "products": [
+        847142,
+        847143
+      ],
+      "prints": [
+        "OGN-027"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Fury Rune",
+      "products": [
+        845886,
+        845887
+      ],
+      "prints": [
+        "OGN-007"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Jinx, Demolitionist",
+      "products": [
+        847146,
+        847147
+      ],
+      "prints": [
+        "OGN-030"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Jinx, Loose Cannon",
+      "products": [
+        847451,
+        847503,
+        847504
+      ],
+      "prints": [
+        "OGN-251",
+        "OGN-301"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Jinx, Rebel",
+      "products": [
+        847371,
+        847372
+      ],
+      "prints": [
+        "OGN-202"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Kai'Sa, Daughter of the Void",
+      "products": [
+        847440,
+        847499,
+        847500
+      ],
+      "prints": [
+        "OGN-247",
+        "OGN-299"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Kai'Sa, Evolutionary",
+      "products": [
+        847246,
+        847250
+      ],
+      "prints": [
+        "OGN-112"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Kai'Sa, Survivor",
+      "products": [
+        847156,
+        847157
+      ],
+      "prints": [
+        "OGN-039"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Lee Sin, Ascetic",
+      "products": [
+        847200,
+        847201
+      ],
+      "prints": [
+        "OGN-078"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Lee Sin, Blind Monk",
+      "products": [
+        847457,
+        847509,
+        847510
+      ],
+      "prints": [
+        "OGN-257",
+        "OGN-304"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Lee Sin, Centered",
+      "products": [
+        847308,
+        847310
+      ],
+      "prints": [
+        "OGN-151"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Leona, Determined",
+      "products": [
+        847417,
+        847418
+      ],
+      "prints": [
+        "OGN-238"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Leona, Radiant Dawn",
+      "products": [
+        847461,
+        847513,
+        847514
+      ],
+      "prints": [
+        "OGN-261",
+        "OGN-306"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Leona, Zealot",
+      "products": [
+        847202,
+        847203
+      ],
+      "prints": [
+        "OGN-079"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Mind Rune",
+      "products": [
+        847213,
+        847214
+      ],
+      "prints": [
+        "OGN-089"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Miss Fortune, Bounty Hunter",
+      "products": [
+        847467,
+        847519,
+        847520
+      ],
+      "prints": [
+        "OGN-267",
+        "OGN-309"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Miss Fortune, Buccaneer",
+      "products": [
+        847360,
+        847361
+      ],
+      "prints": [
+        "OGN-193"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Miss Fortune, Captain",
+      "products": [
+        847326,
+        847327
+      ],
+      "prints": [
+        "OGN-162"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Order Rune",
+      "products": [
+        847385,
+        847386
+      ],
+      "prints": [
+        "OGN-214"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Sett, Brawler",
+      "products": [
+        847329,
+        847330
+      ],
+      "prints": [
+        "OGN-164"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Sett, Kingpin",
+      "products": [
+        847421,
+        847423
+      ],
+      "prints": [
+        "OGN-240"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Sett, The Boss",
+      "products": [
+        847469,
+        847521,
+        847522
+      ],
+      "prints": [
+        "OGN-269",
+        "OGN-310"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Teemo, Scout",
+      "products": [
+        847365,
+        847366
+      ],
+      "prints": [
+        "OGN-197"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Teemo, Strategist",
+      "products": [
+        847268,
+        847270
+      ],
+      "prints": [
+        "OGN-121"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Teemo, Swift Scout",
+      "products": [
+        847463,
+        847515,
+        847516
+      ],
+      "prints": [
+        "OGN-263",
+        "OGN-307"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Viktor, Herald of the Arcane",
+      "products": [
+        847465,
+        847517,
+        847518
+      ],
+      "prints": [
+        "OGN-265",
+        "OGN-308"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Viktor, Innovator",
+      "products": [
+        847258,
+        847259
+      ],
+      "prints": [
+        "OGN-117"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Viktor, Leader",
+      "products": [
+        847437,
+        847439
+      ],
+      "prints": [
+        "OGN-246"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Volibear, Furious",
+      "products": [
+        847159,
+        847160
+      ],
+      "prints": [
+        "OGN-041"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Volibear, Imposing",
+      "products": [
+        847321,
+        847322
+      ],
+      "prints": [
+        "OGN-158"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Volibear, Relentless Storm",
+      "products": [
+        847449,
+        847501,
+        847502
+      ],
+      "prints": [
+        "OGN-249",
+        "OGN-300"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Yasuo, Remorseful",
+      "products": [
+        847197,
+        847198
+      ],
+      "prints": [
+        "OGN-076"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Yasuo, Unforgiven",
+      "products": [
+        847459,
+        847511,
+        847512
+      ],
+      "prints": [
+        "OGN-259",
+        "OGN-305"
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Yasuo, Windrider",
+      "products": [
+        847375,
+        847376
+      ],
+      "prints": [
+        "OGN-205"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ahri, Inquisitive",
+      "products": [
+        866974,
+        867005
+      ],
+      "prints": [
+        "SFD-227"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Aphelios, Exalted",
+      "products": [
+        866775,
+        866971,
+        867003
+      ],
+      "prints": [
+        "SFD-049",
+        "SFD-224"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Azir, Ascendant",
+      "products": [
+        866776,
+        866777
+      ],
+      "prints": [
+        "SFD-050"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Azir, Emperor of the Sands",
+      "products": [
+        866944,
+        866994
+      ],
+      "prints": [
+        "SFD-197",
+        "SFD-247"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Azir, Sovereign",
+      "products": [
+        866922,
+        866923
+      ],
+      "prints": [
+        "SFD-177"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Bard, Mercurial",
+      "products": [
+        866809,
+        866975,
+        867006
+      ],
+      "prints": [
+        "SFD-079",
+        "SFD-228"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Darius, Executioner",
+      "products": [
+        866983,
+        867011
+      ],
+      "prints": [
+        "SFD-236"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Draven, Audacious",
+      "products": [
+        866889,
+        866890
+      ],
+      "prints": [
+        "SFD-148"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Draven, Glorious Executioner",
+      "products": [
+        866932,
+        866989
+      ],
+      "prints": [
+        "SFD-185",
+        "SFD-242"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Draven, Vanquisher",
+      "products": [
+        866742,
+        866743
+      ],
+      "prints": [
+        "SFD-020"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ezreal, Dashing",
+      "products": [
+        866812,
+        866813
+      ],
+      "prints": [
+        "SFD-082"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ezreal, Prodigal Explorer",
+      "products": [
+        866946,
+        866995
+      ],
+      "prints": [
+        "SFD-199",
+        "SFD-248"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ezreal, Prodigy",
+      "products": [
+        866891,
+        866892
+      ],
+      "prints": [
+        "SFD-149"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Fiora, Grand Duelist",
+      "products": [
+        866952,
+        866998
+      ],
+      "prints": [
+        "SFD-205",
+        "SFD-251"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Fiora, Peerless",
+      "products": [
+        866845,
+        866846
+      ],
+      "prints": [
+        "SFD-110"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Fiora, Worthy",
+      "products": [
+        866926,
+        866927
+      ],
+      "prints": [
+        "SFD-180"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Irelia, Blade Dancer",
+      "products": [
+        866942,
+        866993
+      ],
+      "prints": [
+        "SFD-195",
+        "SFD-246"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Irelia, Fervent",
+      "products": [
+        866785,
+        866786,
+        866972,
+        867004
+      ],
+      "prints": [
+        "SFD-057",
+        "SFD-225"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Irelia, Graceful",
+      "products": [
+        866880,
+        866881
+      ],
+      "prints": [
+        "SFD-141"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Jax, Grandmaster at Arms",
+      "products": [
+        866940,
+        866992
+      ],
+      "prints": [
+        "SFD-193",
+        "SFD-245"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Jax, Unmatched",
+      "products": [
+        866781,
+        866782
+      ],
+      "prints": [
+        "SFD-054"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Jax, Unrelenting",
+      "products": [
+        866856,
+        866857
+      ],
+      "prints": [
+        "SFD-119"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Karma, Channeler",
+      "products": [
+        866984,
+        867012
+      ],
+      "prints": [
+        "SFD-237"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Lucian, Gunslinger",
+      "products": [
+        866752,
+        866753
+      ],
+      "prints": [
+        "SFD-028"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Lucian, Merciless",
+      "products": [
+        866849,
+        866850
+      ],
+      "prints": [
+        "SFD-113"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Lucian, Purifier",
+      "products": [
+        866930,
+        866988
+      ],
+      "prints": [
+        "SFD-183",
+        "SFD-241"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ornn, Blacksmith",
+      "products": [
+        866787,
+        866788
+      ],
+      "prints": [
+        "SFD-058"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ornn, Fire Below the Mountain",
+      "products": [
+        866936,
+        866991
+      ],
+      "prints": [
+        "SFD-189",
+        "SFD-244"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Ornn, Forge God",
+      "products": [
+        866816,
+        866817
+      ],
+      "prints": [
+        "SFD-085"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Rek'Sai, Breacher",
+      "products": [
+        866754,
+        866755
+      ],
+      "prints": [
+        "SFD-029"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Rek'Sai, Swarm Queen",
+      "products": [
+        866913,
+        866914
+      ],
+      "prints": [
+        "SFD-170"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Rek'Sai, Void Burrower",
+      "products": [
+        866934,
+        866990
+      ],
+      "prints": [
+        "SFD-187",
+        "SFD-243"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Renata Glasc, Chem-Baroness",
+      "products": [
+        866948,
+        866996
+      ],
+      "prints": [
+        "SFD-201",
+        "SFD-249"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Renata Glasc, Industrialist",
+      "products": [
+        866915,
+        866916
+      ],
+      "prints": [
+        "SFD-171"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Renata Glasc, Mastermind",
+      "products": [
+        866820,
+        866821
+      ],
+      "prints": [
+        "SFD-088"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Rumble, Hotheaded",
+      "products": [
+        866749,
+        866750
+      ],
+      "prints": [
+        "SFD-026"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Rumble, Mechanized Menace",
+      "products": [
+        866928,
+        866987
+      ],
+      "prints": [
+        "SFD-181",
+        "SFD-240"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Rumble, Scrapper",
+      "products": [
+        866823,
+        866824
+      ],
+      "prints": [
+        "SFD-089"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Sett, Brawler",
+      "products": [
+        866979,
+        867008
+      ],
+      "prints": [
+        "SFD-232"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Sivir, Ambitious",
+      "products": [
+        866858,
+        866859
+      ],
+      "prints": [
+        "SFD-120"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Sivir, Battle Mistress",
+      "products": [
+        866950,
+        866997
+      ],
+      "prints": [
+        "SFD-203",
+        "SFD-250"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Sivir, Mercenary",
+      "products": [
+        866883,
+        866884
+      ],
+      "prints": [
+        "SFD-143"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Soraka, Wanderer",
+      "products": [
+        866918,
+        866986,
+        867013
+      ],
+      "prints": [
+        "SFD-173",
+        "SFD-239"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Teemo, Strategist",
+      "products": [
+        866977,
+        867007
+      ],
+      "prints": [
+        "SFD-230"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Vayne, Hunter",
+      "products": [
+        866970,
+        867002
+      ],
+      "prints": [
+        "SFD-223"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Yasuo, Windrider",
+      "products": [
+        866982,
+        867010
+      ],
+      "prints": [
+        "SFD-235"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Yone, Blademaster",
+      "products": [
+        866853,
+        866980,
+        867009
+      ],
+      "prints": [
+        "SFD-116",
+        "SFD-233"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Baron Nashor",
+      "products": [
+        884131,
+        884132,
+        884237
+      ],
+      "prints": [
+        "UNL-147",
+        "UNL-238"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Blue Sentinel",
+      "products": [
+        884057,
+        884059
+      ],
+      "prints": [
+        "UNL-087"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Diana, Lunari",
+      "products": [
+        884046,
+        884047
+      ],
+      "prints": [
+        "UNL-079"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Diana, No Longer Human",
+      "products": [
+        884134,
+        884135
+      ],
+      "prints": [
+        "UNL-149"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Diana, Scorn of the Moon",
+      "products": [
+        884189,
+        884229,
+        884230
+      ],
+      "prints": [
+        "UNL-197",
+        "UNL-234"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Elder Dragon",
+      "products": [
+        884097,
+        884098
+      ],
+      "prints": [
+        "UNL-118"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Ivern, Friend to All",
+      "products": [
+        884166,
+        884167
+      ],
+      "prints": [
+        "UNL-177"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Ivern, Green Father",
+      "products": [
+        884187,
+        884227,
+        884228
+      ],
+      "prints": [
+        "UNL-195",
+        "UNL-233"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Ivern, Nurturer",
+      "products": [
+        884013,
+        884014
+      ],
+      "prints": [
+        "UNL-051"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Jhin, Meticulous Killer",
+      "products": [
+        884063,
+        884065
+      ],
+      "prints": [
+        "UNL-089"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Jhin, Murderous Artist",
+      "products": [
+        883978,
+        883980
+      ],
+      "prints": [
+        "UNL-022"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Jhin, Virtuoso",
+      "products": [
+        884173,
+        884218,
+        885572
+      ],
+      "prints": [
+        "UNL-181",
+        "UNL-226"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Kha'Zix, Evolving Hunter",
+      "products": [
+        884099,
+        884100
+      ],
+      "prints": [
+        "UNL-119"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Kha'Zix, Mutating Horror",
+      "products": [
+        884125,
+        884126
+      ],
+      "prints": [
+        "UNL-143"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Kha'Zix, Voidreaver",
+      "products": [
+        884193,
+        884233,
+        884234
+      ],
+      "prints": [
+        "UNL-201",
+        "UNL-236"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Leblanc, Deceiver",
+      "products": [
+        884191,
+        884231,
+        884232
+      ],
+      "prints": [
+        "UNL-199",
+        "UNL-235"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Leblanc, Everywhere at Once",
+      "products": [
+        884066,
+        884067
+      ],
+      "prints": [
+        "UNL-090"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Leblanc, Fragmented",
+      "products": [
+        884159,
+        884160
+      ],
+      "prints": [
+        "UNL-172"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Lillia, Bashful Bloom",
+      "products": [
+        884181,
+        884222,
+        885569
+      ],
+      "prints": [
+        "UNL-189",
+        "UNL-230"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Lillia, Protector of Dreams",
+      "products": [
+        884022,
+        884023
+      ],
+      "prints": [
+        "UNL-058"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Master Yi, Tempered",
+      "products": [
+        884090,
+        884091
+      ],
+      "prints": [
+        "UNL-113"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Master Yi, Unstoppable",
+      "products": [
+        884024,
+        884025
+      ],
+      "prints": [
+        "UNL-059"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Master Yi, Wuju Master",
+      "products": [
+        884183,
+        884223,
+        884224
+      ],
+      "prints": [
+        "UNL-191",
+        "UNL-231"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Poppy, Defender of the Meek",
+      "products": [
+        884168,
+        884169
+      ],
+      "prints": [
+        "UNL-178"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Poppy, Keeper of the Hammer",
+      "products": [
+        884195,
+        884235,
+        884236
+      ],
+      "prints": [
+        "UNL-203",
+        "UNL-237"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Poppy, Paragon",
+      "products": [
+        884094,
+        884095
+      ],
+      "prints": [
+        "UNL-116"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Pyke, Bloodharbor Ripper",
+      "products": [
+        884177,
+        884220,
+        885571
+      ],
+      "prints": [
+        "UNL-185",
+        "UNL-228"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Pyke, Dockside Butcher",
+      "products": [
+        883987,
+        883988
+      ],
+      "prints": [
+        "UNL-028"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Pyke, Returned",
+      "products": [
+        884128,
+        884129
+      ],
+      "prints": [
+        "UNL-145"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Red Brambleback",
+      "products": [
+        883989,
+        883990
+      ],
+      "prints": [
+        "UNL-029"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Rengar, Pridestalker",
+      "products": [
+        884175,
+        884219,
+        885570
+      ],
+      "prints": [
+        "UNL-183",
+        "UNL-227"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Rengar, Trophy Hunter",
+      "products": [
+        884101,
+        884102
+      ],
+      "prints": [
+        "UNL-120"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Rengar, Unseen",
+      "products": [
+        883982,
+        883983
+      ],
+      "prints": [
+        "UNL-024"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Rift Herald",
+      "products": [
+        884170,
+        884171
+      ],
+      "prints": [
+        "UNL-179"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vex, Apathetic",
+      "products": [
+        884136,
+        884137
+      ],
+      "prints": [
+        "UNL-150"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vex, Gloomist",
+      "products": [
+        884185,
+        884225,
+        884226
+      ],
+      "prints": [
+        "UNL-193",
+        "UNL-232"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vex, Mocking",
+      "products": [
+        884018,
+        884019
+      ],
+      "prints": [
+        "UNL-055"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vi, Hotheaded",
+      "products": [
+        883991,
+        883992
+      ],
+      "prints": [
+        "UNL-030"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vi, Peacekeeper",
+      "products": [
+        884164,
+        884165
+      ],
+      "prints": [
+        "UNL-176"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vi, Piltover Enforcer",
+      "products": [
+        884179,
+        884221,
+        885568
+      ],
+      "prints": [
+        "UNL-187",
+        "UNL-229"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Vilemaw",
+      "products": [
+        884026,
+        884027
+      ],
+      "prints": [
+        "UNL-060"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Akali, Deadly Weapon",
+      "products": [
+        897957,
+        897958
+      ],
+      "prints": [
+        "VEN-021"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Akali, Rogue Assassin",
+      "products": [
+        898093,
+        898141,
+        898161
+      ],
+      "prints": [
+        "VEN-139",
+        "VEN-189"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Akali, Silent",
+      "products": [
+        897976,
+        897977
+      ],
+      "prints": [
+        "VEN-038"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Ambessa, Matriarch of War",
+      "products": [
+        898107,
+        898148,
+        898168
+      ],
+      "prints": [
+        "VEN-153",
+        "VEN-196"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Ambessa, Respected and Feared",
+      "products": [
+        898088,
+        898089,
+        898139
+      ],
+      "prints": [
+        "VEN-136",
+        "VEN-187"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Ambessa, The Wolf",
+      "products": [
+        898028,
+        898029
+      ],
+      "prints": [
+        "VEN-084"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Body Rune",
+      "products": [
+        898157,
+        898182
+      ],
+      "prints": [
+        "VEN-R04"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Calm Rune",
+      "products": [
+        898155,
+        898180
+      ],
+      "prints": [
+        "VEN-R02"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Chaos Rune",
+      "products": [
+        898158,
+        898183
+      ],
+      "prints": [
+        "VEN-R05"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Fury Rune",
+      "products": [
+        898154,
+        898178
+      ],
+      "prints": [
+        "VEN-R01"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Gangplank, Naval",
+      "products": [
+        898031,
+        898135
+      ],
+      "prints": [
+        "VEN-086",
+        "VEN-181"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Illaoi, Prophet of the Great Kraken",
+      "products": [
+        898056,
+        898136
+      ],
+      "prints": [
+        "VEN-109",
+        "VEN-182"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Jayce, Brilliant Inventor",
+      "products": [
+        898010,
+        898011
+      ],
+      "prints": [
+        "VEN-068"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Jayce, Defender of Tomorrow",
+      "products": [
+        898103,
+        898146,
+        898166
+      ],
+      "prints": [
+        "VEN-149",
+        "VEN-194"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Jayce, Hammer in Hand",
+      "products": [
+        898033,
+        898034
+      ],
+      "prints": [
+        "VEN-088"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Kayle, Justified",
+      "products": [
+        898084,
+        898174
+      ],
+      "prints": [
+        "VEN-134",
+        "VEN-185"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Kennen, Heart of the Tempest",
+      "products": [
+        898109,
+        898149,
+        898169
+      ],
+      "prints": [
+        "VEN-155",
+        "VEN-197"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Kennen, Keeper of Balance",
+      "products": [
+        898086,
+        898087
+      ],
+      "prints": [
+        "VEN-135"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Kennen, Storm of Shuriken",
+      "products": [
+        898062,
+        898063
+      ],
+      "prints": [
+        "VEN-113"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Mel, Defiant Soul",
+      "products": [
+        898057,
+        898058,
+        898140
+      ],
+      "prints": [
+        "VEN-110",
+        "VEN-188"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Mel, Newly Awakened",
+      "products": [
+        898012,
+        898013
+      ],
+      "prints": [
+        "VEN-069"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Mel, Soul's Reflection",
+      "products": [
+        898105,
+        898147,
+        898167
+      ],
+      "prints": [
+        "VEN-151",
+        "VEN-195"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Mind Rune",
+      "products": [
+        898156,
+        898181
+      ],
+      "prints": [
+        "VEN-R03"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Morgana, Vindictive",
+      "products": [
+        897952,
+        898175
+      ],
+      "prints": [
+        "VEN-017",
+        "VEN-186"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Nasus, Ascended",
+      "products": [
+        897986,
+        897987
+      ],
+      "prints": [
+        "VEN-046"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Nasus, Curator of the Sands",
+      "products": [
+        898099,
+        898144,
+        898164
+      ],
+      "prints": [
+        "VEN-145",
+        "VEN-192"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Nasus, Guardian of Knowledge",
+      "products": [
+        898004,
+        898005,
+        898132
+      ],
+      "prints": [
+        "VEN-063",
+        "VEN-178"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Order Rune",
+      "products": [
+        898159,
+        898184
+      ],
+      "prints": [
+        "VEN-R06"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Renekton, Brute",
+      "products": [
+        898038,
+        898039,
+        898131
+      ],
+      "prints": [
+        "VEN-092",
+        "VEN-177"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Renekton, Butcher of the Sands",
+      "products": [
+        898095,
+        898142,
+        898162
+      ],
+      "prints": [
+        "VEN-141",
+        "VEN-190"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Renekton, Rage Fueled",
+      "products": [
+        897954,
+        897955
+      ],
+      "prints": [
+        "VEN-019"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Riven, Shattered",
+      "products": [
+        897980,
+        898125
+      ],
+      "prints": [
+        "VEN-041",
+        "VEN-171"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Shen, Eye of Twilight",
+      "products": [
+        898101,
+        898145,
+        898165
+      ],
+      "prints": [
+        "VEN-147",
+        "VEN-193"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Shen, Leader of the Kinkou Order",
+      "products": [
+        898091,
+        898092
+      ],
+      "prints": [
+        "VEN-138"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Shen, Scourge of Shadows",
+      "products": [
+        897981,
+        897982,
+        898124
+      ],
+      "prints": [
+        "VEN-042",
+        "VEN-170"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Swain, Visionary",
+      "products": [
+        898007,
+        898127
+      ],
+      "prints": [
+        "VEN-065",
+        "VEN-173"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Zed, From the Shadows",
+      "products": [
+        897960,
+        897961,
+        898123
+      ],
+      "prints": [
+        "VEN-023",
+        "VEN-169"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Zed, Master of Shadows",
+      "products": [
+        898097,
+        898143,
+        898163
+      ],
+      "prints": [
+        "VEN-143",
+        "VEN-191"
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Zed, Without a Sound",
+      "products": [
+        898060,
+        898061
+      ],
+      "prints": [
+        "VEN-112"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ahri, Confident",
+      "products": [
+        917243,
+        917459
+      ],
+      "prints": [
+        "RAD-038",
+        "RAD-SP1"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Akali, Brash",
+      "products": [
+        917220,
+        917410
+      ],
+      "prints": [
+        "RAD-015",
+        "RAD-SP2"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Aphelios, Exalted",
+      "products": [
+        917378,
+        917661
+      ],
+      "prints": [
+        "RAD-179"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Body Rune",
+      "products": [
+        917452,
+        917453
+      ],
+      "prints": [
+        "RAD-R04"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Calm Rune",
+      "products": [
+        917448,
+        917449
+      ],
+      "prints": [
+        "RAD-R02"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Chaos Rune",
+      "products": [
+        917454,
+        917455
+      ],
+      "prints": [
+        "RAD-R05"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ekko, Boy Who Shattered Time",
+      "products": [
+        917341,
+        917369,
+        917486
+      ],
+      "prints": [
+        "RAD-139",
+        "RAD-168"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ekko, Ingenious",
+      "products": [
+        917265,
+        917266
+      ],
+      "prints": [
+        "RAD-061"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ekko, Revolutionary",
+      "products": [
+        917227,
+        917228,
+        917445
+      ],
+      "prints": [
+        "RAD-021",
+        "RAD-177"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Evelynn, Agony's Embrace",
+      "products": [
+        917354,
+        917375,
+        917621
+      ],
+      "prints": [
+        "RAD-153",
+        "RAD-175"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Evelynn, Consuming",
+      "products": [
+        917293,
+        917294
+      ],
+      "prints": [
+        "RAD-090"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Evelynn, In Control",
+      "products": [
+        917310,
+        917311,
+        917461
+      ],
+      "prints": [
+        "RAD-109",
+        "RAD-SP3"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ezreal, Dashing",
+      "products": [
+        917379,
+        917662
+      ],
+      "prints": [
+        "RAD-180"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Fury Rune",
+      "products": [
+        917446,
+        917447
+      ],
+      "prints": [
+        "RAD-R01"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Jarvan IV, Exemplar of Demacia",
+      "products": [
+        917356,
+        917376,
+        917619
+      ],
+      "prints": [
+        "RAD-155",
+        "RAD-176"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Jarvan IV, Martial Paragon",
+      "products": [
+        917295,
+        917296
+      ],
+      "prints": [
+        "RAD-091"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Jarvan IV, Royal Heir",
+      "products": [
+        917334,
+        917335
+      ],
+      "prints": [
+        "RAD-133"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "K'Sante, Courageous",
+      "products": [
+        917288,
+        917289,
+        917377,
+        917660
+      ],
+      "prints": [
+        "RAD-086",
+        "RAD-178"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "K'Sante, Dauntless",
+      "products": [
+        917249,
+        917250
+      ],
+      "prints": [
+        "RAD-045"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "K'Sante, Pride of Nazumah",
+      "products": [
+        917349,
+        917373,
+        917618
+      ],
+      "prints": [
+        "RAD-147",
+        "RAD-172"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Kai'Sa, Rebel",
+      "products": [
+        917268,
+        917465
+      ],
+      "prints": [
+        "RAD-063",
+        "RAD-SP4"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Kayn, Unleashed",
+      "products": [
+        917381,
+        917664
+      ],
+      "prints": [
+        "RAD-182"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Mind Rune",
+      "products": [
+        917450,
+        917451
+      ],
+      "prints": [
+        "RAD-R03"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Mordekaiser, Dominating",
+      "products": [
+        917337,
+        917338
+      ],
+      "prints": [
+        "RAD-137"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Mordekaiser, Iron Revenant",
+      "products": [
+        917345,
+        917371,
+        917488
+      ],
+      "prints": [
+        "RAD-143",
+        "RAD-170"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Mordekaiser, Twice Slain",
+      "products": [
+        917225,
+        917226
+      ],
+      "prints": [
+        "RAD-020"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Order Rune",
+      "products": [
+        917456,
+        917457
+      ],
+      "prints": [
+        "RAD-R06"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Orianna, Exquisite",
+      "products": [
+        917411,
+        917412
+      ],
+      "prints": [
+        "RAD-042"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Orianna, Lady of Clockwork",
+      "products": [
+        917347,
+        917372,
+        917489
+      ],
+      "prints": [
+        "RAD-145",
+        "RAD-171"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Orianna, Mechanical Marvel",
+      "products": [
+        917271,
+        917272
+      ],
+      "prints": [
+        "RAD-068"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Packed Amphitheater",
+      "products": [
+        917365,
+        917383
+      ],
+      "prints": [
+        "RAD-164",
+        "RAD-184"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Riven, Broken Blade",
+      "products": [
+        917247,
+        917248
+      ],
+      "prints": [
+        "RAD-043"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Riven, Deserter",
+      "products": [
+        917316,
+        917317
+      ],
+      "prints": [
+        "RAD-114"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Riven, The Exile",
+      "products": [
+        917442,
+        917444,
+        917620
+      ],
+      "prints": [
+        "RAD-149",
+        "RAD-173"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Seraphine, Inspiring",
+      "products": [
+        917424,
+        917425
+      ],
+      "prints": [
+        "RAD-065"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Seraphine, Not Alone",
+      "products": [
+        917339,
+        917340,
+        917466
+      ],
+      "prints": [
+        "RAD-138",
+        "RAD-SP5"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Seraphine, Starry-Eyed Songstress",
+      "products": [
+        917352,
+        917374,
+        917490,
+        917605,
+        917606
+      ],
+      "prints": [
+        "RAD-151",
+        "RAD-174"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Sett, Kingpin",
+      "products": [
+        917382,
+        917665
+      ],
+      "prints": [
+        "RAD-183"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Yone, Blademaster",
+      "products": [
+        917380,
+        917663
+      ],
+      "prints": [
+        "RAD-181"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ziggs, Explosive",
+      "products": [
+        917314,
+        917315
+      ],
+      "prints": [
+        "RAD-112"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ziggs, Hexplosives Expert",
+      "products": [
+        917343,
+        917370,
+        917487
+      ],
+      "prints": [
+        "RAD-141",
+        "RAD-169"
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Ziggs, Short Fused",
+      "products": [
+        917229,
+        917230
+      ],
+      "prints": [
+        "RAD-023"
+      ]
+    }
+  ],
+  "no_print": [
+    {
+      "set": "OGN",
+      "name": "Buff",
+      "products": [
+        847547
+      ]
+    },
+    {
+      "set": "OGN",
+      "name": "Recruit",
+      "products": [
+        847471,
+        847472,
+        847473
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Body Rune",
+      "products": [
+        871896,
+        872481
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Calm Rune",
+      "products": [
+        871894,
+        872479
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Chaos Rune",
+      "products": [
+        871897,
+        872482
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Fury Rune",
+      "products": [
+        871893,
+        872478
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Mech",
+      "products": [
+        866999
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Mind Rune",
+      "products": [
+        871895,
+        872480
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Order Rune",
+      "products": [
+        871898,
+        872483
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Sand Soldier",
+      "products": [
+        867000
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Body Rune",
+      "products": [
+        885241,
+        888473
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Calm Rune",
+      "products": [
+        885239,
+        888471
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Chaos Rune",
+      "products": [
+        885242,
+        888474
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Fury Rune",
+      "products": [
+        885238,
+        888470
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Lillia Fae Fawn",
+      "products": [
+        884050,
+        884051
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Mind Rune",
+      "products": [
+        885240,
+        888472
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Order Rune",
+      "products": [
+        885243,
+        888475
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Empowered",
+      "products": [
+        898150
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Mech",
+      "products": [
+        899230
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Shadow Clone",
+      "products": [
+        898152
+      ]
+    },
+    {
+      "set": "VEN",
+      "name": "Tentacle",
+      "products": [
+        898153
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Bird",
+      "products": [
+        917614
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Bomb",
+      "products": [
+        917491
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Buff",
+      "products": [
+        917616
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Empowered",
+      "products": [
+        917615
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Mech",
+      "products": [
+        917492
+      ]
+    },
+    {
+      "set": "RAD",
+      "name": "Recruit",
+      "products": [
+        917617
+      ]
+    }
+  ],
+  "promo_expansions": [
+    {
+      "expansionId": 6322,
+      "products": 80
+    },
+    {
+      "expansionId": 6480,
+      "products": 5
+    },
+    {
+      "expansionId": 6483,
+      "products": 43
+    },
+    {
+      "expansionId": 6567,
+      "products": 46
+    },
+    {
+      "expansionId": 6588,
+      "products": 46
+    },
+    {
+      "expansionId": 6681,
+      "products": 8
+    },
+    {
+      "expansionId": 6705,
+      "products": 10
+    },
+    {
+      "expansionId": 6921,
+      "products": 45
+    },
+    {
+      "expansionId": 6938,
+      "products": 5
+    }
+  ]
+}

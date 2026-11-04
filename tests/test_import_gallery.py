@@ -151,3 +151,13 @@ def test_an_entry_english_lacks_is_reported_and_not_written():
     files, added, problems = _merged(korean)
     assert added == 0 and len(problems) == 1 and "ogn-999-298" in problems[0]
     assert sum(len(c["printings"]) for c in files["OGN"]["cards"]) == 3
+
+
+def test_union_pages_keeps_an_entry_one_read_omits():
+    import gallery
+
+    def page(*ids):
+        return {"pageProps": {"page": {"blades": [{"type": gallery.BLADE, "cards": {"items": [{"id": i} for i in ids]}}]}}}
+
+    merged = gallery.union_pages(page("a", "c"), page("a", "b", "c"))
+    assert [e["id"] for e in gallery.cards(gallery.blade(merged))] == ["a", "c", "b"]

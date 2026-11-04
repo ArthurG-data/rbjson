@@ -102,6 +102,14 @@
           "type": "integer"
         },
         "description": "The TCGplayer groups that sell the set, from TCGCSV category 89; a group's abbreviation is the set code."
+      },
+      "cardmarketExpansionIds": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "integer"
+        },
+        "description": "The Cardmarket expansions that sell the set's cards, from Cardmarket's Riftbound product list (game 22). Kept by hand."
       }
     }
   }
