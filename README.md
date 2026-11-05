@@ -330,6 +330,10 @@ every card image is still served, about 1,800 requests, so CI runs it only for a
 Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files to a GitHub release
 named after the tag. Readers follow `releases/latest/download/<file>`, so a new tag is all a release takes.
 
+You can also publish a release from the GitHub web or app: choose a new tag `vX.Y.Z` on `main` and publish it.
+CI runs the same checks and attaches the four files to that release, usually within ten minutes. If a check
+fails, CI turns the release back into a draft, so readers keep getting the previous one.
+
 ## Adding a set or refreshing the data
 
 1. Run `uv run python tools/import_gallery.py`. If it names a new set, add it to `sets/sets.json` with its
