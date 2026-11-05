@@ -5,9 +5,18 @@ on:
   push:
     branches: [main]
     tags: ["v*"]
+  # A release published from the GitHub UI or app: CI fills it with the four files.
+  release:
+    types: [published]
 
 permissions:
   contents: read
+
+# Publishing a release in the UI also creates its tag, so one release can start two runs. Queue the second
+# rather than race it; the release step below is safe to run twice.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   validate:
@@ -31,6 +40,27 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - run: uv sync --group dev
       - run: uv run python tools/build.py --version "${GITHUB_REF_NAME#v}"
-      - run: gh release create "$GITHUB_REF_NAME" dist/AllSets.json dist/AllCards.json dist/AllPrintings.json dist/AllProducts.json --generate-notes
+      # A pushed tag has no release yet, so create it. A release published in the UI already exists, so attach
+      # the files to it (--clobber replaces them when a second run gets here).
+      - run: |
+          files="dist/AllSets.json dist/AllCards.json dist/AllPrintings.json dist/AllProducts.json"
+          if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" $files --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" $files --generate-notes
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+  # A release published in the UI is public before CI checks it. If the checks or the build fail, turn it back
+  # into a draft so `releases/latest` keeps pointing at the last good release, not at one with no files.
+  unpublish:
+    needs: [validate, release]
+    if: failure() && github.event_name == 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - run: gh release edit "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --draft=true
         env:
           GH_TOKEN: ${{ github.token }}
