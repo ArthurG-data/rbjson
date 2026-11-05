@@ -44,6 +44,9 @@ def blade(page: dict) -> dict:
     raise ValueError(f"the page has no {BLADE} blade")
 
 
+READS = 3
+
+
 def fetch(locale: str = "en-us", cache: Path | None = None) -> dict:
     """The gallery blade for a locale. With cache, the page document is kept at cache/gallery-<locale>.json and
     read from there on the next call."""
@@ -54,19 +57,25 @@ def fetch(locale: str = "en-us", cache: Path | None = None) -> dict:
     html = _get(f"{SITE}/{locale}/card-gallery").decode("utf-8")
     url = data_url(build_id(html), locale)
     # Riot's gallery now and then omits one entry from a response (seen 2026-11-04: 1,407 of 1,408, a different
-    # entry each time), so the page is read twice and an entry either read has is kept.
-    page = union_pages(json.loads(_get(url)), json.loads(_get(url)))
+    # entry each time). Two identical requests were not enough on CI (SFD-119 on 2026-11-04, SFD-054 on 11-05),
+    # likely because a cache served the same response twice. So each read gets its own query string, which the
+    # data route ignores, and an entry any read has is kept.
+    page = union_pages(*(json.loads(_get(f"{url}?read={n}")) for n in range(READS)))
     if cache:
         cache.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(page, ensure_ascii=False), encoding="utf-8")
     return blade(page)
 
 
-def union_pages(first: dict, second: dict) -> dict:
-    """``first`` with any card entry only ``second`` holds added after its own, in ``second``'s order."""
+def union_pages(first: dict, *others: dict) -> dict:
+    """``first`` with each card entry only a later page holds added after its own, in read order."""
     items = cards(blade(first))
     seen = {e["id"] for e in items}
-    items.extend(e for e in cards(blade(second)) if e["id"] not in seen)
+    for other in others:
+        for e in cards(blade(other)):
+            if e["id"] not in seen:
+                items.append(e)
+                seen.add(e["id"])
     return first
 
 
