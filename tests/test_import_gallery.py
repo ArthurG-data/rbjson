@@ -161,3 +161,7 @@ def test_union_pages_keeps_an_entry_one_read_omits():
 
     merged = gallery.union_pages(page("a", "c"), page("a", "b", "c"))
     assert [e["id"] for e in gallery.cards(gallery.blade(merged))] == ["a", "c", "b"]
+
+    # Any number of reads: an entry is kept once, from the first read that has it.
+    merged = gallery.union_pages(page("a"), page("a", "c"), page("b", "c"))
+    assert [e["id"] for e in gallery.cards(gallery.blade(merged))] == ["a", "c", "b"]
