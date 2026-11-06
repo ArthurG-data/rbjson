@@ -34,7 +34,8 @@ def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False
     english = {e["id"]: e for e in gallery.cards(gallery.fetch("en-us"))}
     for lang in sorted({p["language"] for p in printings.values()}):
         tag = "" if lang == "en" else f"{lang} "
-        by_gallery = {p["identifiers"]["galleryId"]: pid for pid, p in printings.items() if p["language"] == lang}
+        by_gallery = {p["identifiers"]["galleryId"]: pid for pid, p in printings.items()
+                      if p["language"] == lang and p["source"] == "riot-gallery"}
         entries = english if lang == "en" else {e["id"]: e for e in gallery.cards(gallery.fetch(gallery.LOCALE[lang]))}
         errors += [f"printing {pid}: {tag}gallery entry {gid} is gone" for gid, pid in by_gallery.items() if gid not in entries]
         # English lists every entry as a printing; another language only the entries whose image differs
@@ -103,7 +104,7 @@ def set_art_errors(sets: list[dict], head=head_status) -> list[str]:
 
 
 def image_errors(printings: dict[str, dict], head=head_status) -> list[str]:
-    items = sorted(printings.items())
+    items = sorted((pid, p) for pid, p in printings.items() if "image" in p)
     with ThreadPoolExecutor(IMAGE_WORKERS) as pool:
         statuses = list(pool.map(lambda kv: head(kv[1]["image"]), items))
     return [f"printing {pid}: image answers {status or 'nothing'}" for (pid, _), status in zip(items, statuses) if status is not None]

@@ -22,8 +22,8 @@
         "properties": {
           "number": {
             "type": "string",
-            "pattern": "^[A-Z]{3}-([0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})$",
-            "description": "Set code and collector number without any variant suffix: OGN-119 for OGN-119/298 and OGN-119a/298 alike. SP, R and T number promos, runes and tokens."
+            "pattern": "^[A-Z]{2,3}-((?:[A-Z]{3})?[0-9]{3}|(?:[A-Z]{3})?SP[0-9]+|R[0-9]{2}|T[0-9]{2}(?:\\+T[0-9]{2})?)$",
+            "description": "Set code and collector number without any variant suffix: OGN-119 for OGN-119/298 and OGN-119a/298 alike. SP, R and T number promos, runes and tokens. A promo set's number names the set it reprints (OPP-VEN134), and T06+T07 is a double-sided token."
           },
           "name": {
             "type": "string",
@@ -140,14 +140,13 @@
         "id",
         "collectorNumber",
         "rarity",
-        "image",
         "source",
         "identifiers"
       ],
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^[A-Z]{3}-([0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})[a*]?(~(fr|de|ja|ko))?$",
+          "pattern": "^[A-Z]{2,3}-((?:[A-Z]{3})?[0-9]{3}|(?:[A-Z]{3})?SP[0-9]+|R[0-9]{2}|T[0-9]{2}(?:\\+T[0-9]{2})?)[a-z*]?(\\.[a-z0-9-]+)?(~(fr|de|ja|ko))?$",
           "description": "The card number as printed, before the slash: OGN-119, OGN-119a, OGN-304*. The suffix tells the variants of one number apart. A printing in another language adds ~ and the language to its English twin's id (OGN-119a~ko)."
         },
         "language": {
@@ -166,10 +165,8 @@
           "description": "The number as an integer, as the gallery sorts by it."
         },
         "suffix": {
-          "enum": [
-            "a",
-            "*"
-          ],
+          "type": "string",
+          "pattern": "^[a-z*]$",
           "description": "The variant mark printed after the number. a is an alternate art of the same number; * marks a further variant of an overnumbered card."
         },
         "rarity": {
@@ -195,15 +192,15 @@
           }
         },
         "source": {
-          "const": "riot-gallery"
+          "enum": [
+            "riot-gallery",
+            "tcgplayer"
+          ],
+          "description": "riot-gallery for a gallery entry. tcgplayer for a printing the gallery omits, minted from its TCGplayer product; it has no image or gallery id."
         },
         "identifiers": {
           "type": "object",
           "additionalProperties": false,
-          "required": [
-            "galleryId",
-            "publicCode"
-          ],
           "properties": {
             "galleryId": {
               "type": "string",
@@ -260,12 +257,42 @@
             },
             "match": {
               "enum": [
+                "minted",
                 "number"
               ]
             }
           }
+        },
+        "variant": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "The stamp that tells apart two promo products of one number: metal-best-of, metal-prize-wall, champion, top-8."
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "source": {
+                "const": "riot-gallery"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "image"
+            ],
+            "properties": {
+              "identifiers": {
+                "required": [
+                  "galleryId",
+                  "publicCode"
+                ]
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }

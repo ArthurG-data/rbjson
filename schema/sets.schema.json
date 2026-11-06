@@ -10,14 +10,13 @@
     "required": [
       "id",
       "type",
-      "collectorNumberMax",
       "releases"
     ],
     "properties": {
       "id": {
         "type": "string",
-        "pattern": "^[A-Z]{3}$",
-        "description": "Riot's set code, the prefix of every card number in the set (OGN-004/298)."
+        "pattern": "^[A-Z]{2,3}$",
+        "description": "Riot's set code, the prefix of every card number in the set (OGN-004/298). A promo set takes its TCGplayer abbreviation (OPP, PR, JDG)."
       },
       "type": {
         "enum": [
@@ -30,7 +29,7 @@
       "collectorNumberMax": {
         "type": "integer",
         "minimum": 1,
-        "description": "The set size printed after the slash on every card (the 298 of OGN-004/298). A card numbered above it is an overnumbered variant."
+        "description": "The set size printed after the slash on every card (the 298 of OGN-004/298). A card numbered above it is an overnumbered variant. A promo set has none: its cards carry the sizes of the sets they reprint."
       },
       "parent": {
         "type": "string",
@@ -73,23 +72,58 @@
             "logo": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["url", "source"],
+              "required": [
+                "url",
+                "source"
+              ],
               "description": "The set's logo, hotlinked from the page that shows it (source). Absent: Riot publishes no standalone set logos.",
               "properties": {
-                "url": {"type": "string", "format": "uri"},
-                "source": {"type": "string", "format": "uri"}
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "source": {
+                  "type": "string",
+                  "format": "uri"
+                }
               }
             },
             "keyArt": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["url", "source", "size"],
+              "required": [
+                "url",
+                "source",
+                "size"
+              ],
               "description": "The hero image of the set's announcement on playriftbound.com (source), hotlinked from Riot's CDN: its pixel size, and optionally the crop [x, y, width, height] that keeps only the artwork when the image holds more. Absent when the set has no announcement of its own.",
               "properties": {
-                "url": {"type": "string", "format": "uri"},
-                "source": {"type": "string", "format": "uri"},
-                "size": {"type": "array", "items": {"type": "integer", "minimum": 1}, "minItems": 2, "maxItems": 2},
-                "crop": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 4, "maxItems": 4}
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "source": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "size": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "crop": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                }
               }
             }
           }

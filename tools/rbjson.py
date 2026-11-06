@@ -14,7 +14,10 @@ CARDS = ROOT / "data" / "cards"
 SEALED = ROOT / "data" / "sealed"
 SCHEMAS = ROOT / "schema"
 
-NUMBER = re.compile(r"^(?P<set>[A-Z]{3})-(?P<core>[0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})(?P<suffix>[a*]?)(?:~(?P<lang>[a-z]{2}))?$")
+# A promo set's number names the set it reprints (OPP-VEN134 is 134/166), and a stamped version adds a variant
+# (OPP-OGN269.metal-best-of). T06+T07 is a double-sided token.
+NUMBER = re.compile(r"^(?P<set>[A-Z]{2,3})-(?P<core>(?:[A-Z]{3})?[0-9]{3}|(?:[A-Z]{3})?SP[0-9]+|R[0-9]{2}|T[0-9]{2}(?:\+T[0-9]{2})?)"
+                    r"(?P<suffix>[a-z*]?)(?:\.(?P<variant>[a-z0-9-]+))?(?:~(?P<lang>[a-z]{2}))?$")
 
 
 def _schema(name: str) -> Draft202012Validator:
@@ -33,6 +36,14 @@ def split_id(printing_id: str) -> tuple[str, str, str]:
     if not m:
         raise ValueError(f"not a printing id: {printing_id}")
     return m["set"], f"{m['set']}-{m['core']}", m["suffix"]
+
+
+def variant_of(printing_id: str) -> str:
+    """The variant in a printing id: OPP-OGN269.metal-best-of -> "metal-best-of", OGN-119a -> ""."""
+    m = NUMBER.match(printing_id)
+    if not m:
+        raise ValueError(f"not a printing id: {printing_id}")
+    return m["variant"] or ""
 
 
 def load_sets() -> list[dict]:
@@ -73,6 +84,8 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
     for s in sets:
         langs = collections.Counter(r["language"] for r in s["releases"])
         errors += [f"sets.json: set {s['id']} has {n} {lang} releases" for lang, n in langs.items() if n > 1]
+        if s["type"] != "promo" and "collectorNumberMax" not in s:
+            errors.append(f"sets.json: set {s['id']} needs collectorNumberMax: only a promo set has no size of its own")
         if "parent" in s and (s["parent"] == s["id"] or s["parent"] not in set_ids):
             errors.append(f"sets.json: set {s['id']}: parent {s['parent']} is not a set")
 
@@ -107,6 +120,8 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
                     errors.append(f"printing {pid} is filed under card {number}")
                 if p.get("suffix", "") != suffix:
                     errors.append(f"printing {pid}: suffix field must be {suffix!r}, not {p.get('suffix', '')!r}")
+                if p.get("variant", "") != variant_of(pid):
+                    errors.append(f"printing {pid}: variant field must be {variant_of(pid)!r}")
                 lang = language(p)
                 if pid.partition("~")[2] != ("" if lang == "en" else lang):
                     errors.append(f"printing {pid}: a printing in {lang} has the id mark ~{lang}, and English has none")
@@ -118,6 +133,10 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
                     errors.append(f"printing {pid}: Cardmarket products are matched to English printings, so a {lang} printing has none")
                 if lang != "en" and ("tcgplayer" in p or "finishes" in p or p["identifiers"].get("tcgplayerProductIds")):
                     errors.append(f"printing {pid}: TCGplayer sells English cards, so a {lang} printing has no TCGplayer data")
+                if p["source"] != "riot-gallery":
+                    if not p["identifiers"].get("tcgplayerProductIds"):
+                        errors.append(f"printing {pid}: a printing the gallery does not list needs its TCGplayer product")
+                    continue
                 gid = p["identifiers"]["galleryId"]
                 if (lang, gid) in gallery_ids:
                     errors.append(f"gallery entry {gid} is on {gallery_ids[lang, gid]} and {pid}")
