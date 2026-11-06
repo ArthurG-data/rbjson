@@ -205,9 +205,21 @@ A printing's finishes are the price sub-types TCGplayer has ever priced its prod
 records every finish seen per product across runs, and a finish stays once seen. Origins: Proving Grounds is
 sold in Normal only; every other set in both.
 
-Not matched, and listed in `review/tcgplayer-89.json`: the oversized battlefields and the Spiritforged runes and
-tokens TCGplayer sells that the gallery does not list, double-sided token products (`T01 // T02`), and the
-promotional groups (PR, OPP, JDG, the bundles), whose stamped copies of base cards are a later step.
+A product whose number the gallery does not list is minted as a printing with `source: "tcgplayer"`: the runes and
+signatures the gallery leaves out, double-sided tokens (`T01 // T02` is `UNL-T01+T02`), and the promotional groups
+`OPP`, `PR` and `JDG`, which are sets of type `promo` with no set size. A promo's number repeats across sets and
+stamps, so its id names both. Sett, The Boss (Metal) (Best Of), sold at `269/298` in `OPP`, is
+`OPP-OGN269.metal-best-of` on the card `OPP-OGN269`. A rune that names its set, `Calm Rune (Vendetta)` at `R02b`, is
+`VEN-R02b`. A minted card copies its type, domains and tags from the card it reprints, or from another card with its
+name and subtitle, and a minted printing has no image and no gallery id.
+
+A stamped printing TCGplayer has never priced takes the finish every priced printing of that stamp has. TCGplayer has
+priced none of the 37 Metal Best Of products, so `STAMP_FINISHES` states them as foil, as Face to Face Games lists them.
+A double-sided token's two numbers are sorted: TCGplayer's `T07 // T04` is `UNL-T04+T07`.
+
+Listed in `review/tcgplayer-89.json`: oversized cards, singles with no number, a promo whose size is no set's, a second
+product with another name on a minted id (TCGplayer lists Jarvan IV and Aphelios both at `179*/167`), and the groups
+that are not sets (the bundles, Legacy, Secret Garden).
 
 ### Cardmarket products
 
@@ -275,9 +287,8 @@ the gallery import stays as the cross-check.
 
 - **Finishes** come from TCGplayer's price sub-types, so a printing TCGplayer has never priced has none, and a
   finish the rule of rarity would predict but TCGplayer has never priced is not claimed.
-- **Promotional printings.** TCGplayer's promotional groups sell stamped copies of base cards (a launch promo of
-  OGN-066, judge and organized-play promos) that the gallery does not list. They are counted in the review file
-  and not yet printings of their own.
+- **Minted printings.** A printing the gallery omits comes from TCGplayer's product list, so it has no image, no
+  artist and no gallery id, and its rarity is TCGplayer's or the reprinted card's.
 - **Untyped cards.** 13 Radiance and 2 Unleashed entries carry no type or domain in the gallery at the time of
   writing. Their `type` and `domains` are absent until Riot fills them in.
 - **Korean for Origins and Proving Grounds only.** Korean printings have no TCGplayer data, because TCGplayer

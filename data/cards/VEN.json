@@ -9308,6 +9308,44 @@
             "foil",
             "nonfoil"
           ]
+        },
+        {
+          "id": "VEN-R01a",
+          "collectorNumber": 1,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709312
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (R01a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "VEN-R01b",
+          "collectorNumber": 1,
+          "suffix": "b",
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709748
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (Vendetta)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9344,6 +9382,44 @@
           },
           "finishes": [
             "nonfoil"
+          ]
+        },
+        {
+          "id": "VEN-R02a",
+          "collectorNumber": 2,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709310
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (R02a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "VEN-R02b",
+          "collectorNumber": 2,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709746
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (Vendetta)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
           ]
         }
       ]
@@ -9383,6 +9459,44 @@
             "foil",
             "nonfoil"
           ]
+        },
+        {
+          "id": "VEN-R03a",
+          "collectorNumber": 3,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709313
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (R03a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "VEN-R03b",
+          "collectorNumber": 3,
+          "suffix": "b",
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709749
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (Vendetta)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9420,6 +9534,44 @@
           "finishes": [
             "foil",
             "nonfoil"
+          ]
+        },
+        {
+          "id": "VEN-R04a",
+          "collectorNumber": 4,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709309
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (R04a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "VEN-R04b",
+          "collectorNumber": 4,
+          "suffix": "b",
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709745
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (Vendetta)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
           ]
         }
       ]
@@ -9459,6 +9611,44 @@
             "foil",
             "nonfoil"
           ]
+        },
+        {
+          "id": "VEN-R05a",
+          "collectorNumber": 5,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709311
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (R05a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "VEN-R05b",
+          "collectorNumber": 5,
+          "suffix": "b",
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709747
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (Vendetta)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9497,6 +9687,44 @@
             "foil",
             "nonfoil"
           ]
+        },
+        {
+          "id": "VEN-R06a",
+          "collectorNumber": 6,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709314
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (R06a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "VEN-R06b",
+          "collectorNumber": 6,
+          "suffix": "b",
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709750
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (Vendetta)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9531,6 +9759,128 @@
               898151
             ]
           }
+        }
+      ]
+    },
+    {
+      "number": "VEN-T01+T02",
+      "name": "Empowered // Gold",
+      "printings": [
+        {
+          "id": "VEN-T01+T02",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709918
+            ]
+          },
+          "tcgplayer": {
+            "name": "Empowered // Gold",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "VEN-T01+T03",
+      "name": "Empowered // Mech",
+      "printings": [
+        {
+          "id": "VEN-T01+T03",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              723244
+            ]
+          },
+          "tcgplayer": {
+            "name": "Empowered // Mech",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "VEN-T01+T04",
+      "name": "Recruit // Empowered",
+      "printings": [
+        {
+          "id": "VEN-T01+T04",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              723243
+            ]
+          },
+          "tcgplayer": {
+            "name": "Recruit // Empowered",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "VEN-T03+T04",
+      "name": "Mech // Recruit",
+      "printings": [
+        {
+          "id": "VEN-T03+T04",
+          "collectorNumber": 3,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709917
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mech // Recruit",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "VEN-T05+T06",
+      "name": "Shadow Clone // Tentacle",
+      "printings": [
+        {
+          "id": "VEN-T05+T06",
+          "collectorNumber": 5,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              709916,
+              713239
+            ]
+          },
+          "tcgplayer": {
+            "name": "Shadow Clone // Tentacle (Full Art)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil",
+            "nonfoil"
+          ]
         }
       ]
     }

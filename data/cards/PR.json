@@ -1,0 +1,468 @@
+{
+  "cards": [
+    {
+      "number": "PR-OGN036",
+      "name": "Vi",
+      "subtitle": "Destructive",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "fury"
+      ],
+      "energy": 2,
+      "power": 1,
+      "might": 3,
+      "tags": [
+        "Vi",
+        "Piltover"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN036a",
+          "collectorNumber": 36,
+          "suffix": "a",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678053
+            ]
+          },
+          "tcgplayer": {
+            "name": "Vi, Destructive",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN066",
+      "name": "Ahri",
+      "subtitle": "Alluring",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "calm"
+      ],
+      "energy": 5,
+      "power": 1,
+      "might": 4,
+      "tags": [
+        "Ahri",
+        "Ionia"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN066.launch-exclusive",
+          "collectorNumber": 66,
+          "variant": "launch-exclusive",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              659765
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ahri, Alluring (Launch Exclusive)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN068",
+      "name": "Caitlyn",
+      "subtitle": "Patrolling",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "calm"
+      ],
+      "energy": 3,
+      "power": 1,
+      "might": 3,
+      "tags": [
+        "Caitlyn",
+        "Piltover"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN068a",
+          "collectorNumber": 68,
+          "suffix": "a",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678050
+            ]
+          },
+          "tcgplayer": {
+            "name": "Caitlyn, Patrolling",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN111",
+      "name": "Heimerdinger",
+      "subtitle": "Inventor",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "mind"
+      ],
+      "energy": 3,
+      "power": 1,
+      "might": 3,
+      "tags": [
+        "Yordle",
+        "Heimerdinger",
+        "Piltover"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN111a",
+          "collectorNumber": 111,
+          "suffix": "a",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678051
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heimerdinger, Inventor",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN159",
+      "name": "Warwick",
+      "subtitle": "Hunter",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "body"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Dog",
+        "Warwick",
+        "Zaun"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN159a",
+          "collectorNumber": 159,
+          "suffix": "a",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678049
+            ]
+          },
+          "tcgplayer": {
+            "name": "Warwick, Hunter",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN197",
+      "name": "Teemo",
+      "subtitle": "Scout",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "chaos"
+      ],
+      "energy": 2,
+      "might": 1,
+      "tags": [
+        "Yordle",
+        "Teemo",
+        "Bandle City"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN197",
+          "collectorNumber": 197,
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              659766
+            ]
+          },
+          "tcgplayer": {
+            "name": "Teemo, Scout",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN202",
+      "name": "Jinx",
+      "subtitle": "Rebel",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "chaos"
+      ],
+      "energy": 5,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Jinx",
+        "Zaun"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN202",
+          "collectorNumber": 202,
+          "rarity": "epic",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678052
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jinx, Rebel",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-OGN246",
+      "name": "Viktor",
+      "subtitle": "Leader",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "order"
+      ],
+      "energy": 4,
+      "power": 1,
+      "might": 4,
+      "tags": [
+        "Viktor",
+        "Zaun"
+      ],
+      "printings": [
+        {
+          "id": "PR-OGN246b",
+          "collectorNumber": 246,
+          "suffix": "b",
+          "rarity": "epic",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678054
+            ]
+          },
+          "tcgplayer": {
+            "name": "Viktor, Leader",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-RAD110",
+      "name": "Lulu",
+      "subtitle": "Whimsical",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "chaos"
+      ],
+      "energy": 3,
+      "might": 3,
+      "tags": [
+        "Yordle",
+        "Bandle City",
+        "Lulu"
+      ],
+      "printings": [
+        {
+          "id": "PR-RAD110a",
+          "collectorNumber": 110,
+          "suffix": "a",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              726827
+            ]
+          },
+          "tcgplayer": {
+            "name": "Lulu, Whimsical",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-RAD132",
+      "name": "Heimerdinger",
+      "subtitle": "Academy Instructor",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "order"
+      ],
+      "energy": 6,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Yordle",
+        "Heimerdinger",
+        "Piltover"
+      ],
+      "printings": [
+        {
+          "id": "PR-RAD132",
+          "collectorNumber": 132,
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724468
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heimerdinger, Academy Instructor",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-T02+T03",
+      "name": "Bird // Brush",
+      "printings": [
+        {
+          "id": "PR-T02+T03",
+          "collectorNumber": 2,
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              702608
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bird // Brush",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "PR-VEN041",
+      "name": "Riven",
+      "subtitle": "Shattered",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "calm"
+      ],
+      "energy": 3,
+      "power": 1,
+      "might": 3,
+      "tags": [
+        "Noxus",
+        "Riven"
+      ],
+      "printings": [
+        {
+          "id": "PR-VEN041a",
+          "collectorNumber": 41,
+          "suffix": "a",
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              710699
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, Shattered",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    }
+  ]
+}

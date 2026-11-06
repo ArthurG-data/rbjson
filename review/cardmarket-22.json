@@ -561,6 +561,39 @@
     },
     {
       "set": "SFD",
+      "name": "Body Rune",
+      "products": [
+        871896,
+        872481
+      ],
+      "prints": [
+        "SFD-R04"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Calm Rune",
+      "products": [
+        871894,
+        872479
+      ],
+      "prints": [
+        "SFD-R02"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Chaos Rune",
+      "products": [
+        871897,
+        872482
+      ],
+      "prints": [
+        "SFD-R05"
+      ]
+    },
+    {
+      "set": "SFD",
       "name": "Darius, Executioner",
       "products": [
         866983,
@@ -670,6 +703,17 @@
       ],
       "prints": [
         "SFD-180"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Fury Rune",
+      "products": [
+        871893,
+        872478
+      ],
+      "prints": [
+        "SFD-R01"
       ]
     },
     {
@@ -786,6 +830,28 @@
       "prints": [
         "SFD-183",
         "SFD-241"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Mind Rune",
+      "products": [
+        871895,
+        872480
+      ],
+      "prints": [
+        "SFD-R03"
+      ]
+    },
+    {
+      "set": "SFD",
+      "name": "Order Rune",
+      "products": [
+        871898,
+        872483
+      ],
+      "prints": [
+        "SFD-R06"
       ]
     },
     {
@@ -1054,6 +1120,39 @@
     },
     {
       "set": "UNL",
+      "name": "Body Rune",
+      "products": [
+        885241,
+        888473
+      ],
+      "prints": [
+        "UNL-R04"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Calm Rune",
+      "products": [
+        885239,
+        888471
+      ],
+      "prints": [
+        "UNL-R02"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Chaos Rune",
+      "products": [
+        885242,
+        888474
+      ],
+      "prints": [
+        "UNL-R05"
+      ]
+    },
+    {
+      "set": "UNL",
       "name": "Diana, Lunari",
       "products": [
         884046,
@@ -1096,6 +1195,17 @@
       ],
       "prints": [
         "UNL-118"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Fury Rune",
+      "products": [
+        885238,
+        888470
+      ],
+      "prints": [
+        "UNL-R01"
       ]
     },
     {
@@ -1295,6 +1405,28 @@
       "prints": [
         "UNL-191",
         "UNL-231"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Mind Rune",
+      "products": [
+        885240,
+        888472
+      ],
+      "prints": [
+        "UNL-R03"
+      ]
+    },
+    {
+      "set": "UNL",
+      "name": "Order Rune",
+      "products": [
+        885243,
+        888475
+      ],
+      "prints": [
+        "UNL-R06"
       ]
     },
     {
@@ -2485,57 +2617,9 @@
     },
     {
       "set": "SFD",
-      "name": "Body Rune",
-      "products": [
-        871896,
-        872481
-      ]
-    },
-    {
-      "set": "SFD",
-      "name": "Calm Rune",
-      "products": [
-        871894,
-        872479
-      ]
-    },
-    {
-      "set": "SFD",
-      "name": "Chaos Rune",
-      "products": [
-        871897,
-        872482
-      ]
-    },
-    {
-      "set": "SFD",
-      "name": "Fury Rune",
-      "products": [
-        871893,
-        872478
-      ]
-    },
-    {
-      "set": "SFD",
       "name": "Mech",
       "products": [
         866999
-      ]
-    },
-    {
-      "set": "SFD",
-      "name": "Mind Rune",
-      "products": [
-        871895,
-        872480
-      ]
-    },
-    {
-      "set": "SFD",
-      "name": "Order Rune",
-      "products": [
-        871898,
-        872483
       ]
     },
     {
@@ -2547,58 +2631,10 @@
     },
     {
       "set": "UNL",
-      "name": "Body Rune",
-      "products": [
-        885241,
-        888473
-      ]
-    },
-    {
-      "set": "UNL",
-      "name": "Calm Rune",
-      "products": [
-        885239,
-        888471
-      ]
-    },
-    {
-      "set": "UNL",
-      "name": "Chaos Rune",
-      "products": [
-        885242,
-        888474
-      ]
-    },
-    {
-      "set": "UNL",
-      "name": "Fury Rune",
-      "products": [
-        885238,
-        888470
-      ]
-    },
-    {
-      "set": "UNL",
       "name": "Lillia Fae Fawn",
       "products": [
         884050,
         884051
-      ]
-    },
-    {
-      "set": "UNL",
-      "name": "Mind Rune",
-      "products": [
-        885240,
-        888472
-      ]
-    },
-    {
-      "set": "UNL",
-      "name": "Order Rune",
-      "products": [
-        885243,
-        888475
       ]
     },
     {

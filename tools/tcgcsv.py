@@ -29,6 +29,10 @@ class Product:
         return self.extended.get("Number")
 
     @property
+    def rarity(self) -> str | None:
+        return self.extended.get("Rarity")
+
+    @property
     def is_single(self) -> bool:
         return bool(self.extended.get("Number") or self.extended.get("Rarity"))
 

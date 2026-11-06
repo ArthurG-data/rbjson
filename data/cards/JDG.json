@@ -1,0 +1,151 @@
+{
+  "cards": [
+    {
+      "number": "JDG-OGN111",
+      "name": "Heimerdinger",
+      "subtitle": "Inventor",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "mind"
+      ],
+      "energy": 3,
+      "power": 1,
+      "might": 3,
+      "tags": [
+        "Yordle",
+        "Heimerdinger",
+        "Piltover"
+      ],
+      "printings": [
+        {
+          "id": "JDG-OGN111",
+          "collectorNumber": 111,
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              668439
+            ]
+          },
+          "tcgplayer": {
+            "name": "Heimerdinger, Inventor",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "JDG-SFD059",
+      "name": "Svellsongur",
+      "type": "gear",
+      "domains": [
+        "calm"
+      ],
+      "energy": 3,
+      "power": 1,
+      "might": 0,
+      "mightBonus": 0,
+      "tags": [
+        "Equipment"
+      ],
+      "printings": [
+        {
+          "id": "JDG-SFD059",
+          "collectorNumber": 59,
+          "rarity": "epic",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              692372
+            ]
+          },
+          "tcgplayer": {
+            "name": "Svellsongur",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "JDG-UNL087",
+      "name": "Blue Sentinel",
+      "type": "unit",
+      "domains": [
+        "mind"
+      ],
+      "energy": 4,
+      "power": 1,
+      "might": 4,
+      "tags": [
+        "Mount Targon"
+      ],
+      "printings": [
+        {
+          "id": "JDG-UNL087",
+          "collectorNumber": 87,
+          "rarity": "epic",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              702632
+            ]
+          },
+          "tcgplayer": {
+            "name": "Blue Sentinel",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "JDG-VEN086",
+      "name": "Gangplank",
+      "subtitle": "Naval",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "body"
+      ],
+      "energy": 6,
+      "might": 6,
+      "tags": [
+        "Bilgewater",
+        "Gangplank"
+      ],
+      "printings": [
+        {
+          "id": "JDG-VEN086",
+          "collectorNumber": 86,
+          "rarity": "rare",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              721871
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gangplank, Naval",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    }
+  ]
+}
