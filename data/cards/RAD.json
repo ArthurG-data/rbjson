@@ -7203,6 +7203,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-168*",
+          "collectorNumber": 168,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724638
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ekko, Boy Who Shattered Time (Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7242,6 +7261,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-169*",
+          "collectorNumber": 169,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724656
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ziggs, Hexplosives Expert (Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7277,6 +7315,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-170*",
+          "collectorNumber": 170,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724651
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mordekaiser, Iron Revenant (Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7308,6 +7365,25 @@
           "tcgplayer": {
             "name": "Orianna, Lady of Clockwork (Overnumbered)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-171*",
+          "collectorNumber": 171,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724653
+            ]
+          },
+          "tcgplayer": {
+            "name": "Orianna, Lady of Clockwork (Signature)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -7350,6 +7426,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-172*",
+          "collectorNumber": 172,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724650
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Pride of Nazumah (Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7381,6 +7476,25 @@
           "tcgplayer": {
             "name": "Riven, The Exile (Overnumbered)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-173*",
+          "collectorNumber": 173,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724654
+            ]
+          },
+          "tcgplayer": {
+            "name": "Riven, The Exile (Signature)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -7420,6 +7534,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-174*",
+          "collectorNumber": 174,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724655
+            ]
+          },
+          "tcgplayer": {
+            "name": "Seraphine, Starry-Eyed Songstress (Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7454,6 +7587,25 @@
           "tcgplayer": {
             "name": "Evelynn, Agony's Embrace (Overnumbered)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-175*",
+          "collectorNumber": 175,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724642
+            ]
+          },
+          "tcgplayer": {
+            "name": "Evelynn, Agony's Embrace (Signature)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -7582,6 +7734,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-178*",
+          "collectorNumber": 178,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724657
+            ]
+          },
+          "tcgplayer": {
+            "name": "K'Sante, Courageous (Heartsteel Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7627,6 +7798,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-179*",
+          "collectorNumber": 179,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724641
+            ]
+          },
+          "tcgplayer": {
+            "name": "Jarvan IV, Exemplar of Demacia (Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7668,6 +7858,25 @@
           "tcgplayer": {
             "name": "Ezreal, Dashing (Heartsteel Overnumbered)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-180*",
+          "collectorNumber": 180,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724658
+            ]
+          },
+          "tcgplayer": {
+            "name": "Ezreal, Dashing (Heartsteel Signature)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -7718,6 +7927,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-181*",
+          "collectorNumber": 181,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724662
+            ]
+          },
+          "tcgplayer": {
+            "name": "Yone, Blademaster (Heartsteel Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7763,6 +7991,25 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-182*",
+          "collectorNumber": 182,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724659
+            ]
+          },
+          "tcgplayer": {
+            "name": "Kayn, Unleashed (Heartsteel Signature)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -7804,6 +8051,25 @@
           "tcgplayer": {
             "name": "Sett, Kingpin (Heartsteel Overnumbered)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-183*",
+          "collectorNumber": 183,
+          "suffix": "*",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              724663
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sett, Kingpin (Heartsteel Signature)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -8214,6 +8480,7 @@
             "match": "number"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -8416,6 +8683,150 @@
           },
           "finishes": [
             "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "RAD-T01+T02",
+      "name": "Bird // Bomb",
+      "printings": [
+        {
+          "id": "RAD-T01+T02",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              728162
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bird // Bomb",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "RAD-T02+T05",
+      "name": "Bomb // Gold",
+      "printings": [
+        {
+          "id": "RAD-T02+T05",
+          "collectorNumber": 2,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              728142
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bomb // Gold",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "RAD-T03+T07",
+      "name": "Buff // Recruit",
+      "printings": [
+        {
+          "id": "RAD-T03+T07",
+          "collectorNumber": 3,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              728167
+            ]
+          },
+          "tcgplayer": {
+            "name": "Buff // Recruit",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "RAD-T04+T07",
+      "name": "Empowered // Recruit",
+      "printings": [
+        {
+          "id": "RAD-T04+T07",
+          "collectorNumber": 4,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              728168
+            ]
+          },
+          "tcgplayer": {
+            "name": "Empowered // Recruit",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "RAD-T05+T06",
+      "name": "Gold // Mech",
+      "printings": [
+        {
+          "id": "RAD-T05+T06",
+          "collectorNumber": 5,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              728169
+            ]
+          },
+          "tcgplayer": {
+            "name": "Gold // Mech",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "RAD-T06+T07",
+      "name": "Mech // Recruit",
+      "printings": [
+        {
+          "id": "RAD-T06+T07",
+          "collectorNumber": 6,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              729796
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mech // Recruit",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
           ]
         }
       ]

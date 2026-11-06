@@ -11578,6 +11578,492 @@
           ]
         }
       ]
+    },
+    {
+      "number": "SFD-R01",
+      "name": "Fury Rune",
+      "type": "rune",
+      "superTypes": [
+        "basic"
+      ],
+      "domains": [
+        "fury"
+      ],
+      "printings": [
+        {
+          "id": "SFD-R01",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678183
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        },
+        {
+          "id": "SFD-R01a",
+          "collectorNumber": 1,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678224
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (R01a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "SFD-R01b",
+          "collectorNumber": 1,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              680274
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (R01b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-R02",
+      "name": "Calm Rune",
+      "type": "rune",
+      "superTypes": [
+        "basic"
+      ],
+      "domains": [
+        "calm"
+      ],
+      "printings": [
+        {
+          "id": "SFD-R02",
+          "collectorNumber": 2,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678181
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        },
+        {
+          "id": "SFD-R02a",
+          "collectorNumber": 2,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678227
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (R02a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "SFD-R02b",
+          "collectorNumber": 2,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              680304
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (R02b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-R03",
+      "name": "Mind Rune",
+      "type": "rune",
+      "superTypes": [
+        "basic"
+      ],
+      "domains": [
+        "mind"
+      ],
+      "printings": [
+        {
+          "id": "SFD-R03",
+          "collectorNumber": 3,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678185
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        },
+        {
+          "id": "SFD-R03a",
+          "collectorNumber": 3,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678229
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (R03a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "SFD-R03b",
+          "collectorNumber": 3,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              680331
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (R03b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-R04",
+      "name": "Body Rune",
+      "type": "rune",
+      "superTypes": [
+        "basic"
+      ],
+      "domains": [
+        "body"
+      ],
+      "printings": [
+        {
+          "id": "SFD-R04",
+          "collectorNumber": 4,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678180
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        },
+        {
+          "id": "SFD-R04a",
+          "collectorNumber": 4,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678231
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (R04a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "SFD-R04b",
+          "collectorNumber": 4,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              680347
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (R04b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-R05",
+      "name": "Chaos Rune",
+      "type": "rune",
+      "superTypes": [
+        "basic"
+      ],
+      "domains": [
+        "chaos"
+      ],
+      "printings": [
+        {
+          "id": "SFD-R05",
+          "collectorNumber": 5,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678182
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        },
+        {
+          "id": "SFD-R05a",
+          "collectorNumber": 5,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678232
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (R05a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "SFD-R05b",
+          "collectorNumber": 5,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              680392
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (R05b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-R06",
+      "name": "Order Rune",
+      "type": "rune",
+      "superTypes": [
+        "basic"
+      ],
+      "domains": [
+        "order"
+      ],
+      "printings": [
+        {
+          "id": "SFD-R06",
+          "collectorNumber": 6,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678184
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        },
+        {
+          "id": "SFD-R06a",
+          "collectorNumber": 6,
+          "suffix": "a",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678233
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (R06a)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "SFD-R06b",
+          "collectorNumber": 6,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              680432
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (R06b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-T01",
+      "name": "Mech // Buff",
+      "printings": [
+        {
+          "id": "SFD-T01",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678186
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mech // Buff",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-T01+T03",
+      "name": "Mech // Gold",
+      "printings": [
+        {
+          "id": "SFD-T01+T03",
+          "collectorNumber": 1,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              721767
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mech // Gold",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "SFD-T02",
+      "name": "Sand Soldier // Buff",
+      "printings": [
+        {
+          "id": "SFD-T02",
+          "collectorNumber": 2,
+          "rarity": "common",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              678187
+            ]
+          },
+          "tcgplayer": {
+            "name": "Sand Soldier // Buff",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
+        }
+      ]
     }
   ]
 }

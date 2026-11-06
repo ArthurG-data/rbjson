@@ -1698,21 +1698,6 @@
           ]
         },
         {
-          "id": "OGN-027~ko",
-          "language": "ko",
-          "collectorNumber": 27,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd8161c93a4fe64053c515cc16d36d911910bdd1-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "리그 오브 레전드 일러스트 팀"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-027-298",
-            "publicCode": "OGN-027/298"
-          }
-        },
-        {
           "id": "OGN-027a~ko",
           "language": "ko",
           "collectorNumber": 27,
@@ -1726,6 +1711,21 @@
           "identifiers": {
             "galleryId": "ogn-027a-298",
             "publicCode": "OGN-027a/298"
+          }
+        },
+        {
+          "id": "OGN-027~ko",
+          "language": "ko",
+          "collectorNumber": 27,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd8161c93a4fe64053c515cc16d36d911910bdd1-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-027-298",
+            "publicCode": "OGN-027/298"
           }
         }
       ]
@@ -1936,21 +1936,6 @@
           ]
         },
         {
-          "id": "OGN-030~ko",
-          "language": "ko",
-          "collectorNumber": 30,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ab404dc4c2503ed51623be370f6e6d3439b90ddc-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Kudos Productions"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-030-298",
-            "publicCode": "OGN-030/298"
-          }
-        },
-        {
           "id": "OGN-030a~ko",
           "language": "ko",
           "collectorNumber": 30,
@@ -1964,6 +1949,21 @@
           "identifiers": {
             "galleryId": "ogn-030a-298",
             "publicCode": "OGN-030a/298"
+          }
+        },
+        {
+          "id": "OGN-030~ko",
+          "language": "ko",
+          "collectorNumber": 30,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ab404dc4c2503ed51623be370f6e6d3439b90ddc-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-030-298",
+            "publicCode": "OGN-030/298"
           }
         }
       ]
@@ -2560,21 +2560,6 @@
           ]
         },
         {
-          "id": "OGN-039~ko",
-          "language": "ko",
-          "collectorNumber": 39,
-          "rarity": "epic",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3cac69eced2b56f83b1556d3fd3bb2c574299fe8-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "리그 오브 레전드 일러스트 팀"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-039-298",
-            "publicCode": "OGN-039/298"
-          }
-        },
-        {
           "id": "OGN-039a~ko",
           "language": "ko",
           "collectorNumber": 39,
@@ -2588,6 +2573,21 @@
           "identifiers": {
             "galleryId": "ogn-039a-298",
             "publicCode": "OGN-039a/298"
+          }
+        },
+        {
+          "id": "OGN-039~ko",
+          "language": "ko",
+          "collectorNumber": 39,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3cac69eced2b56f83b1556d3fd3bb2c574299fe8-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-039-298",
+            "publicCode": "OGN-039/298"
           }
         }
       ]
@@ -2727,21 +2727,6 @@
           ]
         },
         {
-          "id": "OGN-041~ko",
-          "language": "ko",
-          "collectorNumber": 41,
-          "rarity": "epic",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a30c51d18ac6f4ae5973198b32a5dc012849ed64-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Envar Studio"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-041-298",
-            "publicCode": "OGN-041/298"
-          }
-        },
-        {
           "id": "OGN-041a~ko",
           "language": "ko",
           "collectorNumber": 41,
@@ -2755,6 +2740,21 @@
           "identifiers": {
             "galleryId": "ogn-041a-298",
             "publicCode": "OGN-041a/298"
+          }
+        },
+        {
+          "id": "OGN-041~ko",
+          "language": "ko",
+          "collectorNumber": 41,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a30c51d18ac6f4ae5973198b32a5dc012849ed64-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Envar Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-041-298",
+            "publicCode": "OGN-041/298"
           }
         }
       ]
@@ -2795,6 +2795,7 @@
             "match": "number"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -2824,21 +2825,6 @@
           ]
         },
         {
-          "id": "OGN-042~ko",
-          "language": "ko",
-          "collectorNumber": 42,
-          "rarity": "common",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2ee6a7978bd12c17bbb942adaaaaa12d14a17543-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "그렉 기엘메티, 리아 첸"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-042-298",
-            "publicCode": "OGN-042/298"
-          }
-        },
-        {
           "id": "OGN-042a~ko",
           "language": "ko",
           "collectorNumber": 42,
@@ -2852,6 +2838,21 @@
           "identifiers": {
             "galleryId": "ogn-042a-298",
             "publicCode": "OGN-042a/298"
+          }
+        },
+        {
+          "id": "OGN-042~ko",
+          "language": "ko",
+          "collectorNumber": 42,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2ee6a7978bd12c17bbb942adaaaaa12d14a17543-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "그렉 기엘메티, 리아 첸"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-042-298",
+            "publicCode": "OGN-042/298"
           }
         }
       ]
@@ -4317,21 +4318,6 @@
           ]
         },
         {
-          "id": "OGN-066~ko",
-          "language": "ko",
-          "collectorNumber": 66,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc8efdd07ca7fd0b76a813f4560f8c1517e57df3-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "리그 오브 레전드 일러스트 팀"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-066-298",
-            "publicCode": "OGN-066/298"
-          }
-        },
-        {
           "id": "OGN-066a~ko",
           "language": "ko",
           "collectorNumber": 66,
@@ -4345,6 +4331,21 @@
           "identifiers": {
             "galleryId": "ogn-066a-298",
             "publicCode": "OGN-066a/298"
+          }
+        },
+        {
+          "id": "OGN-066~ko",
+          "language": "ko",
+          "collectorNumber": 66,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc8efdd07ca7fd0b76a813f4560f8c1517e57df3-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-066-298",
+            "publicCode": "OGN-066/298"
           }
         }
       ]
@@ -5007,21 +5008,6 @@
           ]
         },
         {
-          "id": "OGN-076~ko",
-          "language": "ko",
-          "collectorNumber": 76,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fdab812062933729a08e44ce57844ff2dc2cdf5d-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Six More Vodka"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-076-298",
-            "publicCode": "OGN-076/298"
-          }
-        },
-        {
           "id": "OGN-076a~ko",
           "language": "ko",
           "collectorNumber": 76,
@@ -5035,6 +5021,21 @@
           "identifiers": {
             "galleryId": "ogn-076a-298",
             "publicCode": "OGN-076a/298"
+          }
+        },
+        {
+          "id": "OGN-076~ko",
+          "language": "ko",
+          "collectorNumber": 76,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fdab812062933729a08e44ce57844ff2dc2cdf5d-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-076-298",
+            "publicCode": "OGN-076/298"
           }
         }
       ]
@@ -5173,21 +5174,6 @@
           ]
         },
         {
-          "id": "OGN-078~ko",
-          "language": "ko",
-          "collectorNumber": 78,
-          "rarity": "epic",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7ee3680fbb210bff5735d34f3b570f3d785ac312-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Six More Vodka"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-078-298",
-            "publicCode": "OGN-078/298"
-          }
-        },
-        {
           "id": "OGN-078a~ko",
           "language": "ko",
           "collectorNumber": 78,
@@ -5201,6 +5187,21 @@
           "identifiers": {
             "galleryId": "ogn-078a-298",
             "publicCode": "OGN-078a/298"
+          }
+        },
+        {
+          "id": "OGN-078~ko",
+          "language": "ko",
+          "collectorNumber": 78,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7ee3680fbb210bff5735d34f3b570f3d785ac312-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-078-298",
+            "publicCode": "OGN-078/298"
           }
         }
       ]
@@ -5282,21 +5283,6 @@
           ]
         },
         {
-          "id": "OGN-079~ko",
-          "language": "ko",
-          "collectorNumber": 79,
-          "rarity": "epic",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/243fd8130ca0f9d2cf9439d0f4289f9acb694a51-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Six More Vodka"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-079-298",
-            "publicCode": "OGN-079/298"
-          }
-        },
-        {
           "id": "OGN-079a~ko",
           "language": "ko",
           "collectorNumber": 79,
@@ -5310,6 +5296,21 @@
           "identifiers": {
             "galleryId": "ogn-079a-298",
             "publicCode": "OGN-079a/298"
+          }
+        },
+        {
+          "id": "OGN-079~ko",
+          "language": "ko",
+          "collectorNumber": 79,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/243fd8130ca0f9d2cf9439d0f4289f9acb694a51-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-079-298",
+            "publicCode": "OGN-079/298"
           }
         }
       ]
@@ -5925,21 +5926,6 @@
           ]
         },
         {
-          "id": "OGN-089~ko",
-          "language": "ko",
-          "collectorNumber": 89,
-          "rarity": "common",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e1ac89d993deb753cf1934539e053fd753b422b-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "그렉 기엘메티, 리아 첸"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-089-298",
-            "publicCode": "OGN-089/298"
-          }
-        },
-        {
           "id": "OGN-089a~ko",
           "language": "ko",
           "collectorNumber": 89,
@@ -5953,6 +5939,21 @@
           "identifiers": {
             "galleryId": "ogn-089a-298",
             "publicCode": "OGN-089a/298"
+          }
+        },
+        {
+          "id": "OGN-089~ko",
+          "language": "ko",
+          "collectorNumber": 89,
+          "rarity": "common",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e1ac89d993deb753cf1934539e053fd753b422b-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "그렉 기엘메티, 리아 첸"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-089-298",
+            "publicCode": "OGN-089/298"
           }
         }
       ]
@@ -7390,21 +7391,6 @@
           ]
         },
         {
-          "id": "OGN-112~ko",
-          "language": "ko",
-          "collectorNumber": 112,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8df0102bf4f1207e87719d52e7f5f7f9760dc45e-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Kudos Productions"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-112-298",
-            "publicCode": "OGN-112/298"
-          }
-        },
-        {
           "id": "OGN-112a~ko",
           "language": "ko",
           "collectorNumber": 112,
@@ -7418,6 +7404,21 @@
           "identifiers": {
             "galleryId": "ogn-112a-298",
             "publicCode": "OGN-112a/298"
+          }
+        },
+        {
+          "id": "OGN-112~ko",
+          "language": "ko",
+          "collectorNumber": 112,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8df0102bf4f1207e87719d52e7f5f7f9760dc45e-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Kudos Productions"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-112-298",
+            "publicCode": "OGN-112/298"
           }
         }
       ]
@@ -7747,21 +7748,6 @@
           ]
         },
         {
-          "id": "OGN-117~ko",
-          "language": "ko",
-          "collectorNumber": 117,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd50c355edaa5d70c7fd97407d81813db11c3bd4-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "리그 오브 레전드 일러스트 팀"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-117-298",
-            "publicCode": "OGN-117/298"
-          }
-        },
-        {
           "id": "OGN-117a~ko",
           "language": "ko",
           "collectorNumber": 117,
@@ -7775,6 +7761,21 @@
           "identifiers": {
             "galleryId": "ogn-117a-298",
             "publicCode": "OGN-117a/298"
+          }
+        },
+        {
+          "id": "OGN-117~ko",
+          "language": "ko",
+          "collectorNumber": 117,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd50c355edaa5d70c7fd97407d81813db11c3bd4-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-117-298",
+            "publicCode": "OGN-117/298"
           }
         }
       ]
@@ -9997,21 +9998,6 @@
           ]
         },
         {
-          "id": "OGN-151~ko",
-          "language": "ko",
-          "collectorNumber": 151,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f50c2b44579c530b1e2376e563e7a9e81fc4b078-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "리그 오브 레전드 일러스트 팀"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-151-298",
-            "publicCode": "OGN-151/298"
-          }
-        },
-        {
           "id": "OGN-151a~ko",
           "language": "ko",
           "collectorNumber": 151,
@@ -10025,6 +10011,21 @@
           "identifiers": {
             "galleryId": "ogn-151a-298",
             "publicCode": "OGN-151a/298"
+          }
+        },
+        {
+          "id": "OGN-151~ko",
+          "language": "ko",
+          "collectorNumber": 151,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f50c2b44579c530b1e2376e563e7a9e81fc4b078-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-151-298",
+            "publicCode": "OGN-151/298"
           }
         }
       ]
@@ -10479,21 +10480,6 @@
           ]
         },
         {
-          "id": "OGN-158~ko",
-          "language": "ko",
-          "collectorNumber": 158,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69363a19dde7e654a3fcb7f8d2e8f4377ad961c1-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Envar Studio"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-158-298",
-            "publicCode": "OGN-158/298"
-          }
-        },
-        {
           "id": "OGN-158a~ko",
           "language": "ko",
           "collectorNumber": 158,
@@ -10507,6 +10493,21 @@
           "identifiers": {
             "galleryId": "ogn-158a-298",
             "publicCode": "OGN-158a/298"
+          }
+        },
+        {
+          "id": "OGN-158~ko",
+          "language": "ko",
+          "collectorNumber": 158,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69363a19dde7e654a3fcb7f8d2e8f4377ad961c1-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Envar Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-158-298",
+            "publicCode": "OGN-158/298"
           }
         }
       ]
@@ -10948,21 +10949,6 @@
           ]
         },
         {
-          "id": "OGN-164~ko",
-          "language": "ko",
-          "collectorNumber": 164,
-          "rarity": "epic",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/432426cebfcff51c5e4b3191c2bc314feba09313-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Envar Studio"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-164-298",
-            "publicCode": "OGN-164/298"
-          }
-        },
-        {
           "id": "OGN-164a~ko",
           "language": "ko",
           "collectorNumber": 164,
@@ -10976,6 +10962,21 @@
           "identifiers": {
             "galleryId": "ogn-164a-298",
             "publicCode": "OGN-164a/298"
+          }
+        },
+        {
+          "id": "OGN-164~ko",
+          "language": "ko",
+          "collectorNumber": 164,
+          "rarity": "epic",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/432426cebfcff51c5e4b3191c2bc314feba09313-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Envar Studio"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-164-298",
+            "publicCode": "OGN-164/298"
           }
         }
       ]
@@ -12805,21 +12806,6 @@
           ]
         },
         {
-          "id": "OGN-193~ko",
-          "language": "ko",
-          "collectorNumber": 193,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f321a84b231b826bc65c887cd34d53728d40acee-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Six More Vodka"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-193-298",
-            "publicCode": "OGN-193/298"
-          }
-        },
-        {
           "id": "OGN-193a~ko",
           "language": "ko",
           "collectorNumber": 193,
@@ -12833,6 +12819,21 @@
           "identifiers": {
             "galleryId": "ogn-193a-298",
             "publicCode": "OGN-193a/298"
+          }
+        },
+        {
+          "id": "OGN-193~ko",
+          "language": "ko",
+          "collectorNumber": 193,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f321a84b231b826bc65c887cd34d53728d40acee-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-193-298",
+            "publicCode": "OGN-193/298"
           }
         }
       ]
@@ -15812,21 +15813,6 @@
           ]
         },
         {
-          "id": "OGN-238~ko",
-          "language": "ko",
-          "collectorNumber": 238,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1eaebf0fa8c19bfbcb3438aadf13c75740cff640-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "Six More Vodka"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-238-298",
-            "publicCode": "OGN-238/298"
-          }
-        },
-        {
           "id": "OGN-238a~ko",
           "language": "ko",
           "collectorNumber": 238,
@@ -15840,6 +15826,21 @@
           "identifiers": {
             "galleryId": "ogn-238a-298",
             "publicCode": "OGN-238a/298"
+          }
+        },
+        {
+          "id": "OGN-238~ko",
+          "language": "ko",
+          "collectorNumber": 238,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1eaebf0fa8c19bfbcb3438aadf13c75740cff640-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "Six More Vodka"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-238-298",
+            "publicCode": "OGN-238/298"
           }
         }
       ]
@@ -15983,21 +15984,6 @@
           ]
         },
         {
-          "id": "OGN-240~ko",
-          "language": "ko",
-          "collectorNumber": 240,
-          "rarity": "rare",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/71ed9aa0a17541bbb97c881ce9eac3677f6876c9-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "리그 오브 레전드 일러스트 팀"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-240-298",
-            "publicCode": "OGN-240/298"
-          }
-        },
-        {
           "id": "OGN-240a~ko",
           "language": "ko",
           "collectorNumber": 240,
@@ -16011,6 +15997,21 @@
           "identifiers": {
             "galleryId": "ogn-240a-298",
             "publicCode": "OGN-240a/298"
+          }
+        },
+        {
+          "id": "OGN-240~ko",
+          "language": "ko",
+          "collectorNumber": 240,
+          "rarity": "rare",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/71ed9aa0a17541bbb97c881ce9eac3677f6876c9-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "리그 오브 레전드 일러스트 팀"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-240-298",
+            "publicCode": "OGN-240/298"
           }
         }
       ]
@@ -19857,21 +19858,6 @@
           ]
         },
         {
-          "id": "OGN-301~ko",
-          "language": "ko",
-          "collectorNumber": 301,
-          "rarity": "showcase",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3f5fa54b4cb0d5a7fec1592bd65e1c34aef2232a-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "션 양"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-301-298",
-            "publicCode": "OGN-301/298"
-          }
-        },
-        {
           "id": "OGN-301*~ko",
           "language": "ko",
           "collectorNumber": 301,
@@ -19885,6 +19871,21 @@
           "identifiers": {
             "galleryId": "ogn-301-star-298",
             "publicCode": "OGN-301*/298"
+          }
+        },
+        {
+          "id": "OGN-301~ko",
+          "language": "ko",
+          "collectorNumber": 301,
+          "rarity": "showcase",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3f5fa54b4cb0d5a7fec1592bd65e1c34aef2232a-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "션 양"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-301-298",
+            "publicCode": "OGN-301/298"
           }
         }
       ]
@@ -20053,21 +20054,6 @@
           ]
         },
         {
-          "id": "OGN-303~ko",
-          "language": "ko",
-          "collectorNumber": 303,
-          "rarity": "showcase",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c1a658b712ff185c515e22693b77f7df00cf1dc-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "아이리 판"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-303-298",
-            "publicCode": "OGN-303/298"
-          }
-        },
-        {
           "id": "OGN-303*~ko",
           "language": "ko",
           "collectorNumber": 303,
@@ -20081,6 +20067,21 @@
           "identifiers": {
             "galleryId": "ogn-303-star-298",
             "publicCode": "OGN-303*/298"
+          }
+        },
+        {
+          "id": "OGN-303~ko",
+          "language": "ko",
+          "collectorNumber": 303,
+          "rarity": "showcase",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c1a658b712ff185c515e22693b77f7df00cf1dc-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "아이리 판"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-303-298",
+            "publicCode": "OGN-303/298"
           }
         }
       ]
@@ -20249,21 +20250,6 @@
           ]
         },
         {
-          "id": "OGN-305~ko",
-          "language": "ko",
-          "collectorNumber": 305,
-          "rarity": "showcase",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a234def73b420af8e2b100e258217d630064acd3-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "꾸이 호"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-305-298",
-            "publicCode": "OGN-305/298"
-          }
-        },
-        {
           "id": "OGN-305*~ko",
           "language": "ko",
           "collectorNumber": 305,
@@ -20277,6 +20263,21 @@
           "identifiers": {
             "galleryId": "ogn-305-star-298",
             "publicCode": "OGN-305*/298"
+          }
+        },
+        {
+          "id": "OGN-305~ko",
+          "language": "ko",
+          "collectorNumber": 305,
+          "rarity": "showcase",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a234def73b420af8e2b100e258217d630064acd3-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "꾸이 호"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-305-298",
+            "publicCode": "OGN-305/298"
           }
         }
       ]
@@ -20445,21 +20446,6 @@
           ]
         },
         {
-          "id": "OGN-307~ko",
-          "language": "ko",
-          "collectorNumber": 307,
-          "rarity": "showcase",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ea4ae949a441150b9ac1798c42b5d439e8ffdc6d-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "조던 윤"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-307-298",
-            "publicCode": "OGN-307/298"
-          }
-        },
-        {
           "id": "OGN-307*~ko",
           "language": "ko",
           "collectorNumber": 307,
@@ -20473,6 +20459,21 @@
           "identifiers": {
             "galleryId": "ogn-307-star-298",
             "publicCode": "OGN-307*/298"
+          }
+        },
+        {
+          "id": "OGN-307~ko",
+          "language": "ko",
+          "collectorNumber": 307,
+          "rarity": "showcase",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ea4ae949a441150b9ac1798c42b5d439e8ffdc6d-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "조던 윤"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-307-298",
+            "publicCode": "OGN-307/298"
           }
         }
       ]
@@ -20543,21 +20544,6 @@
           ]
         },
         {
-          "id": "OGN-308~ko",
-          "language": "ko",
-          "collectorNumber": 308,
-          "rarity": "showcase",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8f2b2c510823902b2d8727cbeb901c485b15fba-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "루디 시스완토"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-308-298",
-            "publicCode": "OGN-308/298"
-          }
-        },
-        {
           "id": "OGN-308*~ko",
           "language": "ko",
           "collectorNumber": 308,
@@ -20571,6 +20557,21 @@
           "identifiers": {
             "galleryId": "ogn-308-star-298",
             "publicCode": "OGN-308*/298"
+          }
+        },
+        {
+          "id": "OGN-308~ko",
+          "language": "ko",
+          "collectorNumber": 308,
+          "rarity": "showcase",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8f2b2c510823902b2d8727cbeb901c485b15fba-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "루디 시스완토"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-308-298",
+            "publicCode": "OGN-308/298"
           }
         }
       ]
@@ -20641,21 +20642,6 @@
           ]
         },
         {
-          "id": "OGN-309~ko",
-          "language": "ko",
-          "collectorNumber": 309,
-          "rarity": "showcase",
-          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e78643013b8f209cec7ce88676ef5c094cb6ae1f-1488x2079.png?accountingTag=RB",
-          "artists": [
-            "민디 강"
-          ],
-          "source": "riot-gallery",
-          "identifiers": {
-            "galleryId": "ogn-309-298",
-            "publicCode": "OGN-309/298"
-          }
-        },
-        {
           "id": "OGN-309*~ko",
           "language": "ko",
           "collectorNumber": 309,
@@ -20669,6 +20655,21 @@
           "identifiers": {
             "galleryId": "ogn-309-star-298",
             "publicCode": "OGN-309*/298"
+          }
+        },
+        {
+          "id": "OGN-309~ko",
+          "language": "ko",
+          "collectorNumber": 309,
+          "rarity": "showcase",
+          "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e78643013b8f209cec7ce88676ef5c094cb6ae1f-1488x2079.png?accountingTag=RB",
+          "artists": [
+            "민디 강"
+          ],
+          "source": "riot-gallery",
+          "identifiers": {
+            "galleryId": "ogn-309-298",
+            "publicCode": "OGN-309/298"
           }
         }
       ]

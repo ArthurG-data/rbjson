@@ -25,11 +25,11 @@
         "source": "https://playriftbound.com/ko-kr/card-gallery?set=OGN"
       }
     ],
-    "tcgplayerGroupIds": [
-      24344
-    ],
     "cardmarketExpansionIds": [
       6286
+    ],
+    "tcgplayerGroupIds": [
+      24344
     ]
   },
   {
@@ -50,11 +50,11 @@
         "source": "https://playriftbound.com/ko-kr/card-gallery?set=OGS"
       }
     ],
-    "tcgplayerGroupIds": [
-      24439
-    ],
     "cardmarketExpansionIds": [
       6289
+    ],
+    "tcgplayerGroupIds": [
+      24439
     ]
   },
   {
@@ -76,11 +76,11 @@
         }
       }
     ],
-    "tcgplayerGroupIds": [
-      24519
-    ],
     "cardmarketExpansionIds": [
       6399
+    ],
+    "tcgplayerGroupIds": [
+      24519
     ]
   },
   {
@@ -102,11 +102,11 @@
         }
       }
     ],
-    "tcgplayerGroupIds": [
-      24560
-    ],
     "cardmarketExpansionIds": [
       6491
+    ],
+    "tcgplayerGroupIds": [
+      24560
     ]
   },
   {
@@ -128,11 +128,11 @@
         }
       }
     ],
-    "tcgplayerGroupIds": [
-      24698
-    ],
     "cardmarketExpansionIds": [
       6587
+    ],
+    "tcgplayerGroupIds": [
+      24698
     ]
   },
   {
@@ -154,11 +154,53 @@
         }
       }
     ],
-    "tcgplayerGroupIds": [
-      24819
-    ],
     "cardmarketExpansionIds": [
       6659
+    ],
+    "tcgplayerGroupIds": [
+      24819
+    ]
+  },
+  {
+    "id": "OPP",
+    "type": "promo",
+    "releases": [
+      {
+        "language": "en",
+        "name": "Riftbound Organized Play Promotional Cards",
+        "source": "https://tcgcsv.com/tcgplayer/89/24528/products"
+      }
+    ],
+    "tcgplayerGroupIds": [
+      24528
+    ]
+  },
+  {
+    "id": "PR",
+    "type": "promo",
+    "releases": [
+      {
+        "language": "en",
+        "name": "Riftbound Promotional Cards",
+        "source": "https://tcgcsv.com/tcgplayer/89/24343/products"
+      }
+    ],
+    "tcgplayerGroupIds": [
+      24343
+    ]
+  },
+  {
+    "id": "JDG",
+    "type": "promo",
+    "releases": [
+      {
+        "language": "en",
+        "name": "Riftbound Judge Promotional Cards",
+        "source": "https://tcgcsv.com/tcgplayer/89/24552/products"
+      }
+    ],
+    "tcgplayerGroupIds": [
+      24552
     ]
   }
 ]
