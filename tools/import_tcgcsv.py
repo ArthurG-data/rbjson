@@ -14,7 +14,8 @@ Sett, The Boss (Metal) (Best Of) at 269/298 in OPP is OPP-OGN269.metal-best-of, 
 its set ("Calm Rune (Vendetta)", R02b) is that set's printing, VEN-R02b. A minted card copies its facts from the card
 it reprints: the number it names, else another card with its name and subtitle. A rerun removes every minted printing
 first and mints them again, so this tool owns them outright. Two products of different names on one minted id go to
-review, as TCGplayer lists Jarvan IV and Aphelios both at 179*/167, and the first keeps the printing. A stamped
+review, and so does a product whose name is not the card already at its number: TCGplayer lists Jarvan IV at 179*/167,
+which is Aphelios's number, so Jarvan IV's product goes to review and Aphelios keeps the printing. A stamped
 printing TCGplayer has never priced takes the finish every priced printing of that stamp has, and STAMP_FINISHES states
 it for a stamp TCGplayer has never priced at all.
 
@@ -70,6 +71,10 @@ class Plan(NamedTuple):
     name: str
 
 
+def _folded(text: str) -> str:
+    return _SLUG.sub("", text.replace("\u2019", "'").casefold())
+
+
 def _digits(core: str) -> int:
     return int(re.sub(r"[^0-9]", "", core.split("+")[0]))
 
@@ -93,6 +98,9 @@ def plan_product(product, set_entry: dict, set_of_size: dict[int, str], set_of_n
         named = [set_of_name[t] for t in tags if t in set_of_name]
         total = int(m["total"]) if m and m["total"] else None
         if named and core.startswith("R"):
+            # "Calm Rune (Vendetta) (Metal)" is a stamp on the rune, which is not the set's own printing.
+            if [t for t in tags if t not in set_of_name and t != f"{core}{suffix}"]:
+                return None
             code = named[0]
         else:
             if total is not None:
@@ -152,6 +160,19 @@ class Minter:
         self.by_name: dict[tuple[str, str | None], dict] = {}
         for card in self.cards.values():
             self.by_name.setdefault((card["name"], card.get("subtitle")), card)
+
+    def names_the_card(self, plan: Plan) -> bool:
+        """False when the plan's card number already holds a card this product's name is not. "Jarvan IV, Exemplar of
+        Demacia" is not RAD-179, Aphelios, Exalted. A signature is listed under its champion or its subtitle, so either
+        part of the product's name may be the card's name."""
+        card = self.cards.get(plan.card_number)
+        if card is None:
+            return True
+        parts = {_folded(p) for p in plan.name.split(", ")} | {_folded(plan.name)}
+        known = {_folded(card["name"]), _folded(card.get("subtitle") or ""),
+                 _folded(f"{card['name']}, {card.get('subtitle') or ''}")} - {""}
+        known |= {_folded(t) for t in card.get("tags", [])}
+        return bool(parts & known)
 
     def _card(self, plan: Plan) -> dict:
         found = self.cards.get(plan.card_number)
@@ -220,7 +241,10 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
     by_key = {p["id"]: p for body in files.values() for c in body["cards"] for p in c["printings"]
               if rbjson.language(p) == "en"}
     set_codes = {s["id"]: s for s in sets}
-    set_of_size = {s["collectorNumberMax"]: s["id"] for s in sets if "collectorNumberMax" in s}
+    sizes = collections.Counter(s.get("collectorNumberMax") for s in sets)
+    # A size two sets share cannot place a promo, so it is left out and the promo goes to review.
+    set_of_size = {s["collectorNumberMax"]: s["id"] for s in sets
+                   if "collectorNumberMax" in s and sizes[s["collectorNumberMax"]] == 1}
     set_of_name = {r["name"]: s["id"] for s in sets for r in s.get("releases", []) if r.get("language", "en") == "en"}
     minter = Minter(files)
     counts: collections.Counter = collections.Counter()
@@ -254,6 +278,11 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
             printing = by_key.get(plan.printing_id)
             match = MATCH
             if printing is None:
+                if not minter.names_the_card(plan):
+                    counts["unmatched"] += 1
+                    review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
+                                                "name": product.name, "number": product.number})
+                    continue
                 printing = by_key[plan.printing_id] = minter.mint(plan, product)
                 counts["minted"] += 1
             if printing.get("source") == SOURCE:

@@ -7807,11 +7807,11 @@
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
-              724641
+              724664
             ]
           },
           "tcgplayer": {
-            "name": "Jarvan IV, Exemplar of Demacia (Signature)",
+            "name": "Aphelios, Exalted (Heartsteel Signature)",
             "match": "minted"
           },
           "finishes": [

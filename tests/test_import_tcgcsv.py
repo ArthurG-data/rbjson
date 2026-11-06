@@ -171,3 +171,31 @@ def test_a_rerun_mints_the_same_printings_and_keeps_the_gallery_ones():
     snapshot = copy.deepcopy(files)
     _, again, _ = _promo_run(products, files=files)
     assert files == snapshot and set(first) == set(again) and "OGN-269" in again
+
+
+def test_a_product_that_is_not_the_card_at_its_number_goes_to_review():
+    files = {"VEN": {"cards": [{"number": "VEN-179", "name": "Aphelios", "subtitle": "Exalted",
+                                "printings": [_printing("VEN-179")]}]}}
+    sets = [{"id": "VEN", "type": "booster", "collectorNumberMax": 166,
+             "releases": [{"language": "en", "name": "Vendetta"}]}]
+    groups = [{"groupId": 2, "name": "Vendetta", "abbreviation": "VEN"}]
+    products = [Product(1, 2, "Jarvan IV, Exemplar of Demacia (Signature)", {"Number": "179*/166", "Rarity": "Showcase"}),
+                Product(2, 2, "Aphelios, Exalted (Heartsteel Signature)", {"Number": "179*/166", "Rarity": "Showcase"})]
+    result = import_tcgcsv.apply(files, sets, groups, lambda gid: products, {})
+    printing = next(p for p in files["VEN"]["cards"][0]["printings"] if p["id"] == "VEN-179*")
+    assert printing["identifiers"]["tcgplayerProductIds"] == [2]
+    assert [r["productId"] for r in result["review"]["unmatched"]] == [1]
+
+
+def test_a_stamped_rune_is_not_its_sets_printing():
+    products = [Product(1, 2, "Calm Rune (Vendetta) (Metal)", {"Number": "R02b", "Rarity": "Promo"})]
+    _, printings, result = _promo_run(products)
+    assert "VEN-R02b" not in printings and [r["productId"] for r in result["review"]["unmatched"]] == [1]
+
+
+def test_a_set_size_two_sets_share_names_neither():
+    sets = copy.deepcopy(PROMO_SETS) + [{"id": "XXX", "type": "booster", "collectorNumberMax": 298,
+                                         "releases": [{"language": "en", "name": "Other"}]}]
+    products = [Product(1, 2, "Sett, The Boss", {"Number": "269/298", "Rarity": "Promo"})]
+    result = import_tcgcsv.apply({}, sets, PROMO_GROUPS, lambda gid: products, {})
+    assert [r["productId"] for r in result["review"]["unmatched"]] == [1]
