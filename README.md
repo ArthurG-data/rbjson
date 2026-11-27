@@ -9,10 +9,12 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 `OGN-119a/298`) are one card with two printings, and every printing keeps the gallery id and printed code it
 came from, so a reader can always get back to Riot's own record.
 
-Release 0.4.0 holds 6 sets, 1,237 cards, 1,783 printings and 65 sealed products. 1,408 printings are English and
+The data holds 9 sets, 1,488 cards, 2,144 printings and 66 sealed products. 1,769 printings are English and
 375 are the Korean printings of Origins and Proving Grounds, each beside its English twin on the same card, which
-carries its Korean name. 1,399 English printings carry the TCGplayer product that sells them and the finishes it is
-sold in, and 941 carry the Cardmarket product that sells them. The starter set names its parent, and each booster set carries its key art.
+carries its Korean name. 1,783 printings come from the gallery and 361 from TCGplayer's catalogue: the runes,
+signatures, tokens and promos the gallery leaves out. 1,760 English printings carry the TCGplayer product that
+sells them, and 941 carry the Cardmarket product that sells them. Every card, printing and sealed product has a
+UUID that never changes. The starter set names its parent, and each booster set carries its key art.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -49,12 +51,17 @@ set can read `data/cards/<set>.json` straight from a checkout instead.
 |---|---|---|---|---|---|
 | OGN | Origins | booster | 298 | 310 | 703 |
 | OGS | Origins: Proving Grounds | starter | 24 | 24 | 48 |
-| SFD | Spiritforged | booster | 221 | 252 | 288 |
-| UNL | Unleashed | booster | 219 | 246 | 288 |
-| VEN | Vendetta | booster | 166 | 210 | 237 |
-| RAD | Radiance | booster | 167 | 195 | 219 |
+| SFD | Spiritforged | booster | 221 | 261 | 309 |
+| UNL | Unleashed | booster | 219 | 262 | 316 |
+| VEN | Vendetta | booster | 166 | 215 | 254 |
+| RAD | Radiance | booster | 167 | 201 | 239 |
+| OPP | Riftbound Organized Play Promotional Cards | promo | | 199 | 259 |
+| PR | Riftbound Promotional Cards | promo | | 12 | 12 |
+| JDG | Riftbound Judge Promotional Cards | promo | | 4 | 4 |
 
-Origins and Proving Grounds count their Korean printings (351 and 24); the other sets are English only.
+Origins and Proving Grounds count their Korean printings (351 and 24); the other sets are English only. The
+three promo sets are TCGplayer's promotional groups and have no set size of their own (see
+[TCGplayer products](#tcgplayer-products)).
 A set holds more cards than its set size because overnumbered showcase cards, promos, runes and tokens sit
 above or outside the numbered run. Vendetta and Radiance are in the gallery ahead of release, and a few of their
 cards still lack a type or domain (see [Known gaps](#known-gaps)).
@@ -108,6 +115,7 @@ checks that against an earlier `data/uuids.json`, and CI runs it against the bra
 ```json
 {
   "number": "OGN-119",
+  "uuid": "4a85c80e-3437-575d-a455-976f560f79a7",
   "name": "Ahri",
   "subtitle": "Inquisitive",
   "type": "unit",
@@ -118,11 +126,11 @@ checks that against an earlier `data/uuids.json`, and CI runs it against the bra
   "might": 3,
   "tags": ["Ahri", "Ionia"],
   "printings": [
-    {"id": "OGN-119", "collectorNumber": 119, "rarity": "epic", "source": "riot-gallery",
+    {"id": "OGN-119", "uuid": "0f7ae80d-3f11-5775-8b23-b6630bd75746", "collectorNumber": 119, "rarity": "epic", "source": "riot-gallery",
      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cfa28e1a...-744x1039.png?accountingTag=RB",
      "artists": ["Six More Vodka"],
      "identifiers": {"galleryId": "ogn-119-298", "publicCode": "OGN-119/298"}},
-    {"id": "OGN-119a", "collectorNumber": 119, "suffix": "a", "rarity": "showcase", "source": "riot-gallery",
+    {"id": "OGN-119a", "uuid": "fcc209de-b4d7-58c1-897b-211f929cfbf0", "collectorNumber": 119, "suffix": "a", "rarity": "showcase", "source": "riot-gallery",
      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7adc5aa8...-744x1039.png?accountingTag=RB",
      "artists": ["Kudos Productions"],
      "identifiers": {"galleryId": "ogn-119a-298", "publicCode": "OGN-119a/298"}}
@@ -162,13 +170,13 @@ A printing holds what sets one physical card apart from another with the same nu
 | `rarity` | `common`, `uncommon`, `rare`, `epic` or `showcase` |
 | `image` | A link to the card image on Riot's content delivery network. Not a copy |
 | `artists` | The illustrators the gallery credits |
-| `source` | `riot-gallery`, the only source today |
+| `source` | `riot-gallery`, or `tcgplayer` for a printing the gallery leaves out and TCGplayer sells (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`). A Korean printing has its English twin's id, because the Korean gallery numbers its entries the same way |
 | `identifiers.publicCode` | The code as the gallery prints it (`OGN-119a/298`) |
 | `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.cardmarketProductIds` | The Cardmarket product that sells the printing, on an English printing whose name fits one card and one product (see [Cardmarket products](#cardmarket-products)) |
 | `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent on a printing it has never priced |
-| `tcgplayer` | How the product was tied to the printing: its `name` and the `match` (`number`) |
+| `tcgplayer` | How the product was tied to the printing: its `name` and the `match`: `number` for a gallery printing, `minted` for one made from the product |
 
 No ability text, flavour text or artwork is copied into the data; see `NOTICE` for what is and is not taken
 from Riot.

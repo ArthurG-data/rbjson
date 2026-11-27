@@ -220,3 +220,20 @@ def test_refresh_runs_the_importers_in_the_order_each_needs_then_validates():
     assert steps == ["import_gallery.py", "import_tcgcsv.py", "import_sealed.py", "import_cardmarket.py", "validate.py"]
     assert all("--refresh" in cmd for cmd in refresh.commands(True, False)[:4])
     assert "--online" in refresh.commands(False, True)[-1]
+
+
+def test_the_readme_counts_are_the_datas():
+    """The README states the dataset's size; this keeps it from going stale when the data changes."""
+    import re
+    readme = (rbjson.ROOT / "README.md").read_text(encoding="utf-8")
+    sets, files, sealed = rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()
+    cards = [c for body in files.values() for c in body["cards"]]
+    printings = [p for c in cards for p in c["printings"]]
+    stated = re.search(r"The data holds (\d+) sets, ([\d,]+) cards, ([\d,]+) printings and (\d+) sealed products", readme)
+    assert stated, "the README's headline counts are missing"
+    assert [int(n.replace(",", "")) for n in stated.groups()] == [
+        len(sets), len(cards), len(printings), sum(len(b["products"]) for b in sealed.values())]
+    for code, body in files.items():
+        row = re.search(rf"^\| {code} \|[^|]*\|[^|]*\|[^|]*\| (\d+) \| (\d+) \|$", readme, re.M)
+        assert row, f"the README's set table has no row for {code}"
+        assert [int(n) for n in row.groups()] == [len(body["cards"]), sum(len(c["printings"]) for c in body["cards"])], code
