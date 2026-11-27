@@ -30,7 +30,7 @@ https://github.com/ArthurG-data/rbjson/releases/latest/download/AllPrintings.jso
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllProducts.json
 ```
 
-Every file is `{"meta": {"version": "0.4.0", "date": "2026-11-04"}, "data": {...}}`. All four come from one
+Every file is `{"meta": {"version": "0.4.0", "date": "2026-11-04"}, "data": {...}}`, where `date` is the day the data last changed. All four come from one
 build, so a reader that downloads them separately can check that the versions agree.
 
 | File | Keyed by | Holds |

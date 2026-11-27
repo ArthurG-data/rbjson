@@ -60,7 +60,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      # the whole history, so build.py dates the release by the last commit that changed the data
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: astral-sh/setup-uv@v5
       - run: uv sync --group dev
       - run: uv run python tools/build.py --version "${GITHUB_REF_NAME#v}"
