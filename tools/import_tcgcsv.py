@@ -248,6 +248,12 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
     minter = Minter(files)
     counts: collections.Counter = collections.Counter()
     review: dict = {"unmatched": [], "unmatched_groups": []}
+
+    def unmatched(product, set_entry: dict) -> None:
+        counts["unmatched"] += 1
+        review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
+                                    "name": product.name, "number": product.number})
+
     for p in by_key.values():
         p.get("identifiers", {}).pop("tcgplayerProductIds", None)
         p.pop("tcgplayer", None)
@@ -270,17 +276,13 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
                 continue
             plan = plan_product(product, set_entry, set_of_size, set_of_name)
             if plan is None:
-                counts["unmatched"] += 1
-                review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
-                                            "name": product.name, "number": product.number})
+                unmatched(product, set_entry)
                 continue
             printing = by_key.get(plan.printing_id)
             match = MATCH
             if printing is None:
                 if not minter.names_the_card(plan):
-                    counts["unmatched"] += 1
-                    review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
-                                                "name": product.name, "number": product.number})
+                    unmatched(product, set_entry)
                     continue
                 printing = by_key[plan.printing_id] = minter.mint(plan, product)
                 counts["minted"] += 1
@@ -288,9 +290,7 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
                 match = MINTED
                 held = printing.get("tcgplayer", {}).get("name")
                 if held and _TAG.sub("", held).strip() != plan.name:
-                    counts["unmatched"] += 1
-                    review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
-                                                "name": product.name, "number": product.number})
+                    unmatched(product, set_entry)
                     continue
             ids = printing.setdefault("identifiers", {}).setdefault("tcgplayerProductIds", [])
             if product.product_id not in ids:
