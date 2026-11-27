@@ -217,23 +217,24 @@ def test_a_non_integer_cardmarket_expansion_id_fails_the_schema():
 def test_refresh_runs_the_importers_in_the_order_each_needs_then_validates():
     import refresh
     steps = [cmd[1].rsplit("/", 1)[1] for cmd in refresh.commands(refresh=True, online=False)]
-    assert steps == ["import_gallery.py", "import_tcgcsv.py", "import_sealed.py", "import_cardmarket.py", "validate.py"]
+    assert steps == ["import_gallery.py", "import_tcgcsv.py", "import_sealed.py", "import_cardmarket.py", "readme.py",
+                     "validate.py"]
     assert all("--refresh" in cmd for cmd in refresh.commands(True, False)[:4])
     assert "--online" in refresh.commands(False, True)[-1]
 
 
 def test_the_readme_counts_are_the_datas():
-    """The README states the dataset's size; this keeps it from going stale when the data changes."""
-    import re
-    readme = (rbjson.ROOT / "README.md").read_text(encoding="utf-8")
+    """The README's counts are written from the data (tools/readme.py), so they cannot go stale unnoticed."""
+    import readme
+    text = readme.README.read_text(encoding="utf-8")
+    assert readme.update(text, rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()) == text, \
+        "README.md's counts are not the data's: run tools/readme.py"
+
+
+def test_readme_rewrites_only_what_lies_between_its_markers():
+    import readme
     sets, files, sealed = rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()
-    cards = [c for body in files.values() for c in body["cards"]]
-    printings = [p for c in cards for p in c["printings"]]
-    stated = re.search(r"The data holds (\d+) sets, ([\d,]+) cards, ([\d,]+) printings and (\d+) sealed products", readme)
-    assert stated, "the README's headline counts are missing"
-    assert [int(n.replace(",", "")) for n in stated.groups()] == [
-        len(sets), len(cards), len(printings), sum(len(b["products"]) for b in sealed.values())]
-    for code, body in files.items():
-        row = re.search(rf"^\| {code} \|[^|]*\|[^|]*\|[^|]*\| (\d+) \| (\d+) \|$", readme, re.M)
-        assert row, f"the README's set table has no row for {code}"
-        assert [int(n) for n in row.groups()] == [len(body["cards"]), sum(len(c["printings"]) for c in body["cards"])], code
+    text = "intro\n<!-- counts:start -->\nold\n<!-- counts:end -->\nmid\n<!-- sets:start -->\nold\n<!-- sets:end -->\nend\n"
+    out = readme.update(text, sets, files, sealed)
+    assert out.startswith("intro\n<!-- counts:start -->\nThe data holds ") and out.endswith("<!-- sets:end -->\nend\n")
+    assert "\nmid\n" in out and "| OGN | Origins |" in out

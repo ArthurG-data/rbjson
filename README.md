@@ -9,12 +9,10 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 `OGN-119a/298`) are one card with two printings, and every printing keeps the gallery id and printed code it
 came from, so a reader can always get back to Riot's own record.
 
-The data holds 9 sets, 1,488 cards, 2,144 printings and 66 sealed products. 1,769 printings are English and
-375 are the Korean printings of Origins and Proving Grounds, each beside its English twin on the same card, which
-carries its Korean name. 1,783 printings come from the gallery and 361 from TCGplayer's catalogue: the runes,
-signatures, tokens and promos the gallery leaves out. 1,760 English printings carry the TCGplayer product that
-sells them, and 941 carry the Cardmarket product that sells them. Every card, printing and sealed product has a
-UUID that never changes. The starter set names its parent, and each booster set carries its key art.
+<!-- counts:start -->
+The data holds 9 sets, 1,488 cards, 2,144 printings and 66 sealed products. 1,769 printings are English and 375 are Korean, each beside its English twin on the same card, which carries its Korean name. 1,783 printings come from the gallery and 361 from TCGplayer's catalogue: the runes, signatures, tokens and promos the gallery leaves out, 231 of them with TCGplayer's image. 1,760 English printings carry the TCGplayer product that sells them, and 941 carry the Cardmarket product that sells them. Every card, printing and sealed product has a UUID that never changes.
+<!-- counts:end -->
+The starter set names its parent, and each booster set carries its key art.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -48,17 +46,19 @@ set can read `data/cards/<set>.json` straight from a checkout instead.
 
 ## The sets
 
+<!-- sets:start -->
 | Code | Name | Type | Set size | Cards | Printings |
 |---|---|---|---|---|---|
 | OGN | Origins | booster | 298 | 310 | 703 |
-| OGS | Origins: Proving Grounds | starter | 24 | 24 | 48 |
+| OGS | Proving Grounds | starter | 24 | 24 | 48 |
 | SFD | Spiritforged | booster | 221 | 261 | 309 |
 | UNL | Unleashed | booster | 219 | 262 | 316 |
 | VEN | Vendetta | booster | 166 | 215 | 254 |
 | RAD | Radiance | booster | 167 | 201 | 239 |
-| OPP | Riftbound Organized Play Promotional Cards | promo | | 199 | 259 |
-| PR | Riftbound Promotional Cards | promo | | 12 | 12 |
-| JDG | Riftbound Judge Promotional Cards | promo | | 4 | 4 |
+| OPP | Riftbound Organized Play Promotional Cards | promo |  | 199 | 259 |
+| PR | Riftbound Promotional Cards | promo |  | 12 | 12 |
+| JDG | Riftbound Judge Promotional Cards | promo |  | 4 | 4 |
+<!-- sets:end -->
 
 Origins and Proving Grounds count their Korean printings (351 and 24); the other sets are English only. The
 three promo sets are TCGplayer's promotional groups and have no set size of their own (see
@@ -274,7 +274,7 @@ A minted printing has no gallery image, so it takes its TCGplayer product's imag
 it. The image belongs to TCGplayer; a reader showing it should credit TCGplayer. Many products have no image: the
 CDN answers 403 at every size whatever TCGCSV's `imageCount` says. So `data/tcgplayer_images.json` records the
 products whose image the CDN was seen to serve, `--refresh` (or `--probe-images`) asks about the rest, and a run
-from the cache reads only the record. 231 of the 361 minted printings have an image this way.
+from the cache reads only the record. [The counts](#rbjson) say how many minted printings have an image.
 
 A stamped printing TCGplayer has never priced takes the finish every priced printing of that stamp has. TCGplayer has
 priced none of the 37 Metal Best Of products, so `STAMP_FINISHES` states them as foil, as Face to Face Games lists them.
@@ -351,8 +351,8 @@ the gallery import stays as the cross-check.
 - **Finishes** come from TCGplayer's price sub-types, so a printing TCGplayer has never priced has none, and a
   finish the rule of rarity would predict but TCGplayer has never priced is not claimed.
 - **Minted printings.** A printing the gallery omits comes from TCGplayer's product list, so it has no artist and
-  no gallery id, its rarity is TCGplayer's or the reprinted card's, and its image is TCGplayer's: 130 of the 361 have
-  none, because TCGplayer has none.
+  no gallery id, its rarity is TCGplayer's or the reprinted card's, and its image is TCGplayer's, so one TCGplayer has no image for
+  has none.
 - **Untyped cards.** 13 Radiance and 2 Unleashed entries carry no type or domain in the gallery at the time of
   writing. Their `type` and `domains` are absent until Riot fills them in.
 - **Korean for Origins and Proving Grounds only.** Korean printings have no TCGplayer data, because TCGplayer
@@ -388,7 +388,8 @@ the gallery import stays as the cross-check.
 
 ```
 uv sync --group dev
-uv run python tools/refresh.py [--refresh]     # every importer below in order, then validate.py
+uv run python tools/refresh.py [--refresh]     # every importer below in order, readme.py, then validate.py
+uv run python tools/readme.py [--check]        # write the README's counts and set table from the data
 uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/ (--refresh to fetch again)
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
@@ -420,6 +421,13 @@ CI runs the same checks and attaches the files to that release, usually within t
 fails, CI turns the release back into a draft, so readers keep getting the previous one.
 
 ## Adding a set or refreshing the data
+
+`.github/workflows/refresh.yml` does this every day: it runs `tools/refresh.py --refresh`, checks the result
+(validator with the UUID history against `main`, lint, tests) and, when the sources hold anything new, opens a pull
+request from the branch `data/refresh`, or updates the one already open. A person reads the `review/` diffs and
+merges it. A run that fails is the notice that something needs a person: a new set to add to `sets/sets.json`, a
+UUID conflict, a correction the gallery now contradicts. It needs Settings > Actions > General > "Allow GitHub Actions
+to create and approve pull requests". By hand:
 
 1. Run `uv run python tools/refresh.py --refresh`. It runs `import_gallery`, `import_tcgcsv`, `import_sealed`
    and `import_cardmarket` in that order, each fetching its source again, then `validate.py`. Each importer

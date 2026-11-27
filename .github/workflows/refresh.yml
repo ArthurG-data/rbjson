@@ -1,0 +1,85 @@
+name: refresh
+
+# Every day, rebuild the data from Riot's gallery, TCGCSV and Cardmarket, and when anything changed, open a pull
+# request with it (or update the one already open). A person reviews and merges it; nothing reaches main unreviewed.
+#
+# A pull request opened with the workflow's own token does not start other workflows, so ci.yml does not run on it:
+# this job runs the same checks (validator with the UUID history, tests, lint) before it opens or updates the PR.
+# The repository must allow it: Settings > Actions > General > "Allow GitHub Actions to create and approve pull
+# requests".
+
+on:
+  schedule:
+    - cron: "41 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      BRANCH: data/refresh
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --group dev
+
+      # Fails when a source names something only a person can settle (a new set to add to sets/sets.json, a UUID
+      # conflict, a correction the gallery now contradicts); the failed run is the notice.
+      - name: Rebuild the data from every source
+        run: |
+          set -o pipefail  # without it, tee's success would hide a failed refresh
+          uv run python tools/refresh.py --refresh 2>&1 | tee refresh.log
+
+      - name: Check the rebuilt data
+        run: |
+          uv run python tools/validate.py --since HEAD
+          uv run ruff check tools tests
+          uv run pytest -q
+
+      - name: Open or update the pull request
+        run: |
+          paths="sets data review corrections README.md"
+          if git diff --quiet -- $paths && [ -z "$(git ls-files --others --exclude-standard -- $paths)" ]; then
+            echo "The sources hold nothing new."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add -- $paths
+          git commit -q -m "Refresh the data from the gallery, TCGCSV and Cardmarket"
+          git push --force origin "$BRANCH"
+
+          {
+            echo "The daily refresh found changes in the sources. Read the \`review/\` diffs for anything to settle by hand."
+            echo
+            echo '```'
+            git diff --stat HEAD~1 HEAD
+            echo '```'
+            echo
+            echo "<details><summary>Refresh log</summary>"
+            echo
+            echo '```'
+            cat refresh.log
+            echo '```'
+            echo "</details>"
+            echo
+            echo "Checked in the refresh run: the validator (with the UUID history against main), lint and the tests."
+          } > body.md
+
+          if [ "$(gh pr view "$BRANCH" --json state --jq .state 2>/dev/null)" = "OPEN" ]; then
+            gh pr edit "$BRANCH" --body-file body.md
+          else
+            gh pr create --base main --head "$BRANCH" --title "Refresh the data ($(date -u +%F))" --body-file body.md
+          fi
