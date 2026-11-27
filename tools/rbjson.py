@@ -4,6 +4,7 @@ from __future__ import annotations
 import collections
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 from jsonschema import Draft202012Validator, FormatChecker
@@ -18,6 +19,24 @@ SCHEMAS = ROOT / "schema"
 # (OPP-OGN269.metal-best-of). T06+T07 is a double-sided token.
 NUMBER = re.compile(r"^(?P<set>[A-Z]{2,3})-(?P<core>(?:[A-Z]{3})?[0-9]{3}|(?:[A-Z]{3})?SP[0-9]+|R[0-9]{2}|T[0-9]{2}(?:\+T[0-9]{2})?)"
                     r"(?P<suffix>[a-z*]?)(?:\.(?P<variant>[a-z0-9-]+))?(?:~(?P<lang>[a-z]{2}))?$")
+
+
+_NOT_SLUG = re.compile(r"[^a-z0-9]+")
+_NOT_FOLDED = re.compile(r"[^\w,' ]")
+
+
+def slug(text: str) -> str:
+    """Lowercase letters and digits, each run of anything else a hyphen: "Origins - Booster Display" ->
+    "origins-booster-display", "Metal Best Of" -> "metal-best-of"."""
+    return _NOT_SLUG.sub("-", text.casefold()).strip("-")
+
+
+def fold(name: str) -> str:
+    """A name as names are compared across sources: casefolded, accents removed, a hyphen a space, punctuation other
+    than commas and apostrophes dropped. "Rek’Saí" -> "rek'sai"."""
+    s = unicodedata.normalize("NFKD", name.replace("’", "'").replace("-", " "))
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return " ".join(_NOT_FOLDED.sub("", s.casefold()).split())
 
 
 def _schema(name: str) -> Draft202012Validator:

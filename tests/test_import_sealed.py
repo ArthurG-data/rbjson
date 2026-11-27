@@ -43,8 +43,8 @@ def test_classify_one_name_per_rule(name, category):
 
 
 def test_slug():
-    assert import_sealed.slug("Origins - Booster Display") == "origins-booster-display"
-    assert import_sealed.slug("Origins - Sleeved Booster Pack Art Bundle [Set of 3]") == \
+    assert rbjson.slug("Origins - Booster Display") == "origins-booster-display"
+    assert rbjson.slug("Origins - Sleeved Booster Pack Art Bundle [Set of 3]") == \
         "origins-sleeved-booster-pack-art-bundle-set-of-3"
 
 

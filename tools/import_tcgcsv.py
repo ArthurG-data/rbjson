@@ -52,7 +52,6 @@ STAMP_FINISHES = {"metal-best-of": {"foil"}}
 _NUMBER = re.compile(r"^(?P<core>[0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})(?P<suffix>[a-z*]?)(?:/(?P<total>[0-9]+))?$")
 _TOKEN_PAIR = re.compile(r"^(T[0-9]{2}) // (T[0-9]{2})$")
 _TAG = re.compile(r"\s*\(([^()]*)\)")
-_SLUG = re.compile(r"[^a-z0-9]+")
 # Tags that say nothing about which printing this is: the number's own suffix already tells an alternate art apart.
 _NOTE_TAGS = frozenset({"alternate art"})
 _REFUSED_TAG = "oversized"
@@ -71,7 +70,8 @@ class Plan(NamedTuple):
 
 
 def _folded(text: str) -> str:
-    return _SLUG.sub("", text.replace("\u2019", "'").casefold())
+    """A name with only its letters and digits, for comparing a product's name with a card's."""
+    return rbjson.slug(text).replace("-", "")
 
 
 def _digits(core: str) -> int:
@@ -110,7 +110,7 @@ def plan_product(product, set_entry: dict, set_of_size: dict[int, str], set_of_n
             elif core[0].isdigit():
                 return None
             kept = [t for t in tags if t.casefold() not in _NOTE_TAGS and t != f"{core}{suffix}" and t not in set_of_name]
-            variant = _SLUG.sub("-", " ".join(kept).casefold()).strip("-")
+            variant = rbjson.slug(" ".join(kept))
     tail = f".{variant}" if variant else ""
     return Plan(f"{code}-{prefix}{core}{suffix}{tail}", f"{code}-{prefix}{core}", code, _digits(core), suffix, variant, base, name)
 
