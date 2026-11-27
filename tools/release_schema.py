@@ -59,8 +59,11 @@ def schemas() -> dict[str, dict]:
                  set=set_code, oracleId={**UUID, "description": "Shared by every card with this name and subtitle: "
                                                                 "a reprint has its own number and the same oracleId."},
                  printings={"type": "array", "minItems": 1, "items": defs["printing"]["properties"]["id"]})
-    printing = _with(defs["printing"], ["number", "set", "language", "uuid"],
-                     number=cards["properties"]["cards"]["items"]["properties"]["number"], set=set_code)
+    printing = _with(defs["printing"], ["number", "set", "language", "uuid", "finishesKnown"],
+                     number=cards["properties"]["cards"]["items"]["properties"]["number"], set=set_code,
+                     finishesKnown={"type": "boolean", "description": "Whether the printing's finishes are known: "
+                                    "false means unknown (never priced by TCGplayer, or a Korean printing), never "
+                                    "that it has no finish. True with finishesInferred when they were inferred."})
     return {
         "AllSets": _release("AllSets", "rbjson sets", sets),
         "AllCards": _release("AllCards", "rbjson cards", card, {"byLanguage": defs["byLanguage"]}),

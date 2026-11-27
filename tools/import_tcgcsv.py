@@ -17,7 +17,7 @@ first and mints them again, so this tool owns them outright. Two products of dif
 review, and so does a product whose name is not the card already at its number: TCGplayer lists Jarvan IV at 179*/167,
 which is Aphelios's number, so Jarvan IV's product goes to review and Aphelios keeps the printing. A stamped
 printing TCGplayer has never priced takes the finish every priced printing of that stamp has, and STAMP_FINISHES states
-it for a stamp TCGplayer has never priced at all.
+it for a stamp TCGplayer has never priced at all; finishesInferred says so.
 
 A printing rbjson minted has no gallery image, so it takes its TCGplayer product's image, from TCGplayer's CDN, with
 imageSource "tcgplayer" as the credit. data/tcgplayer_images.json records the products whose image TCGplayer serves.
@@ -145,6 +145,7 @@ def _infer_stamp_finishes(printings: dict[str, dict]) -> int:
         found = seen.get(p.get("variant", ""), set())
         if p.get("variant") and not p.get("finishes") and len(found) == 1:
             p["finishes"] = sorted(found)
+            p["finishesInferred"] = True
             inferred += 1
     return inferred
 
@@ -304,6 +305,7 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
         p.get("identifiers", {}).pop("tcgplayerProductIds", None)
         p.pop("tcgplayer", None)
         p.pop("finishes", None)
+        p.pop("finishesInferred", None)
     for s in sets:
         s.pop("tcgplayerGroupIds", None)
     for group in sorted(groups, key=lambda g: g["groupId"]):

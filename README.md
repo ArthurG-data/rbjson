@@ -202,6 +202,8 @@ A printing holds what sets one physical card apart from another with the same nu
 | `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.cardmarketProductIds` | The Cardmarket product that sells the printing, on an English printing whose name fits one card and one product (see [Cardmarket products](#cardmarket-products)) |
 | `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent means unknown, never none: TCGplayer has never priced the printing, or it is a Korean printing TCGplayer does not sell |
+| `finishesInferred` | `true` when `finishes` were not priced but inferred from the printing's stamp: every priced printing of the stamp has that one finish (Metal Best Of promos are foil). Absent when TCGplayer priced them |
+| `finishesKnown` | In `AllPrintings.json` only, on every printing: `true` when it has `finishes`, `false` when they are unknown. A catalogue can store it as is, as AutoMana's `finishes_known` |
 | `tcgplayer` | How the product was tied to the printing: its `name` and the `match`: `number` for a gallery printing, `minted` for one made from the product |
 
 No ability text, flavour text or artwork is copied into the data; see `NOTICE` for what is and is not taken

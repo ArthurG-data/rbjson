@@ -264,6 +264,10 @@
           },
           "description": "The finishes TCGplayer has priced the printing's product in (Normal is nonfoil, Foil is foil). A finish stays once seen. Absent on a printing TCGplayer has never priced."
         },
+        "finishesInferred": {
+          "const": true,
+          "description": "The finishes were not priced by TCGplayer but inferred: every priced printing of the same stamp has that one finish (or tools/import_tcgcsv.py STAMP_FINISHES states it). Absent when TCGplayer priced them."
+        },
         "tcgplayer": {
           "type": "object",
           "additionalProperties": false,

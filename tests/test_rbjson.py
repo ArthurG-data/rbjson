@@ -238,3 +238,11 @@ def test_readme_rewrites_only_what_lies_between_its_markers():
     out = readme.update(text, sets, files, sealed)
     assert out.startswith("intro\n<!-- counts:start -->\nThe data holds ") and out.endswith("<!-- sets:end -->\nend\n")
     assert "\nmid\n" in out and "| OGN | Origins |" in out
+
+
+def test_finishes_inferred_on_a_printing_with_no_finishes_is_refused():
+    sets, files = _data()
+    files = copy.deepcopy(files)
+    printing = next(p for b in files.values() for c in b["cards"] for p in c["printings"] if "finishes" not in p)
+    printing["finishesInferred"] = True
+    assert any("finishesInferred says how finishes were found" in e for e in rbjson.validate(sets, files))

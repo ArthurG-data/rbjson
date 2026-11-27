@@ -146,6 +146,8 @@ def test_an_unpriced_stamp_takes_the_finish_all_priced_copies_agree_on():
                 Product(3, 2, "C, Z (Top 8)", {"Number": "003/298", "Rarity": "Promo"})]
     _, printings, result = _promo_run(products, {1: {"foil"}})
     assert printings["OPP-OGN002.metal-best-of"]["finishes"] == ["foil"]
+    assert printings["OPP-OGN002.metal-best-of"]["finishesInferred"] is True
+    assert "finishesInferred" not in printings["OPP-OGN001.metal-best-of"]  # TCGplayer priced it
     assert "finishes" not in printings["OPP-OGN003.top-8"] and result["counts"]["finishes_inferred"] == 1
 
 

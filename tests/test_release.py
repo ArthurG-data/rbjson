@@ -30,6 +30,7 @@ def test_the_committed_data_builds_release_files_their_schemas_describe(release)
     ("AllPrintings", "OGN-119a", lambda r: r.pop("uuid")),
     ("AllPrintings", "OGN-119a", lambda r: r.pop("language")),
     ("AllCards", "OGN-119", lambda r: r.pop("oracleId")),
+    ("AllPrintings", "OGN-119a", lambda r: r.pop("finishesKnown")),
     ("AllCards", "OGN-119", lambda r: r.update(printings=[{"id": "OGN-119"}])),
     ("AllCards", "OGN-119", lambda r: r.update(uuid="not-a-uuid")),
     ("AllProducts", "origins-booster-display", lambda r: r.update(price=1)),
@@ -56,3 +57,12 @@ def test_cards_of_one_name_and_subtitle_that_disagree_on_a_rule_fact_are_refused
     assert card["domains"]
     card["domains"] = ["colorless"] if card["domains"] != ["colorless"] else ["fury"]
     assert any("OPP-OGN269: shares its oracleId" in e for e in rbjson.validate(sets, files, rbjson.load_sealed()))
+
+
+def test_finishes_known_says_whether_a_printing_has_finishes_and_never_that_it_has_none(release):
+    printings = release["AllPrintings"]["data"]
+    assert all(p["finishesKnown"] == ("finishes" in p) for p in printings.values())
+    korean = next(p for p in printings.values() if p["language"] == "ko")
+    assert korean["finishesKnown"] is False
+    inferred = [p for p in printings.values() if p.get("finishesInferred")]
+    assert inferred and all(p["finishesKnown"] for p in inferred)
