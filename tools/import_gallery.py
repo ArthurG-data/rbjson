@@ -115,7 +115,7 @@ def build_files(entries: list[dict], known_sets: set[str], language: str = "en")
         variants = sorted(by_card[number], key=lambda v: _sort_key(v[0]))
         base = next((e for pid, suffix, e in variants if not suffix), variants[0][2])
         facts = card_facts(base)
-        for pid, suffix, entry in variants:
+        for pid, _, entry in variants:
             if entry is base:
                 continue
             other = card_facts(entry)

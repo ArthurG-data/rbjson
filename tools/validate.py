@@ -100,14 +100,14 @@ def set_art_errors(sets: list[dict], head=head_status) -> list[str]:
              for field, label in (("keyArt", "key art"), ("logo", "logo")) if field in r]
     with ThreadPoolExecutor(IMAGE_WORKERS) as pool:
         statuses = list(pool.map(lambda item: head(item[1]), items))
-    return [f"{what}: answers {status or 'nothing'}" for (what, _), status in zip(items, statuses) if status is not None]
+    return [f"{what}: answers {status or 'nothing'}" for (what, _), status in zip(items, statuses, strict=True) if status is not None]
 
 
 def image_errors(printings: dict[str, dict], head=head_status) -> list[str]:
     items = sorted((pid, p) for pid, p in printings.items() if "image" in p)
     with ThreadPoolExecutor(IMAGE_WORKERS) as pool:
         statuses = list(pool.map(lambda kv: head(kv[1]["image"]), items))
-    return [f"printing {pid}: image answers {status or 'nothing'}" for (pid, _), status in zip(items, statuses) if status is not None]
+    return [f"printing {pid}: image answers {status or 'nothing'}" for (pid, _), status in zip(items, statuses, strict=True) if status is not None]
 
 
 def main() -> None:

@@ -32,7 +32,6 @@ import argparse
 import collections
 import json
 import re
-from pathlib import Path
 from typing import NamedTuple
 
 import rbjson

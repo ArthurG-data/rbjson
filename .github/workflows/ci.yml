@@ -8,6 +8,10 @@ on:
   # A release published from the GitHub UI or app: CI fills it with the four files.
   release:
     types: [published]
+  # Riot, TCGplayer and Cardmarket change under the data. A weekly online check reports drift without failing PRs.
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -25,12 +29,24 @@ jobs:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
       - run: uv sync --group dev
+      - run: uv run ruff check tools tests
       - run: uv run pytest -q
-      # --images asks Riot for every card image: about 1,400 requests, so only a release tag pays for it.
+      - run: uv run python tools/validate.py
+
+  # The online checks compare the data with the live sources. A source can change at any time (Riot adds a card), which
+  # says nothing about a PR, so they run on a schedule, by hand, and before a release, not on every push.
+  online:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --group dev
+      # --images asks Riot for every card image: about 2,000 requests, so only a release tag pays for it.
       - run: uv run python tools/validate.py --online ${{ startsWith(github.ref, 'refs/tags/v') && '--images' || '' }}
 
   release:
-    needs: validate
+    needs: [validate, online]
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     permissions:
@@ -55,7 +71,7 @@ jobs:
   # A release published in the UI is public before CI checks it. If the checks or the build fail, turn it back
   # into a draft so `releases/latest` keeps pointing at the last good release, not at one with no files.
   unpublish:
-    needs: [validate, release]
+    needs: [validate, online, release]
     if: failure() && github.event_name == 'release'
     runs-on: ubuntu-latest
     permissions:
