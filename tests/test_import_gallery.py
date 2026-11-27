@@ -245,3 +245,17 @@ def test_reprints_whose_tags_differ_are_listed_for_review():
              "SFD": {"cards": [{**card, "number": "SFD-237", "tags": ["Karma"]}, {"number": "SFD-001", "name": "X"}]}}
     assert import_gallery.reprint_tags(files) == [
         {"card": "Karma, Channeler", "tags": {"OGN-235": ["Karma", "Ionia"], "SFD-237": ["Karma"]}}]
+
+
+def test_reprints_whose_tags_differ_only_in_order_are_not_listed():
+    card = {"name": "Teemo", "subtitle": "Strategist"}
+    files = {"OGN": {"cards": [{**card, "number": "OGN-121", "tags": ["Yordle", "Teemo", "Bandle City"]}]},
+             "SFD": {"cards": [{**card, "number": "SFD-230", "tags": ["Teemo", "Bandle City", "Yordle"]}]}}
+    assert import_gallery.reprint_tags(files) == []
+
+
+def test_a_gallery_that_gives_the_printed_tags_in_another_order_has_caught_up():
+    fixes = _fix("SFD-230", ["Yordle", "Teemo"], ["Teemo", "Bandle City", "Yordle"])
+    notes, problems = import_gallery.correction_notes([_tagged("SFD-230/221", ["Yordle", "Teemo", "Bandle City"])], fixes)
+    assert notes == ["corrections/gallery.json: the gallery now gives SFD-230 its printed tags; remove the correction"]
+    assert problems == []

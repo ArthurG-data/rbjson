@@ -4117,8 +4117,9 @@
       "energy": 6,
       "might": 6,
       "tags": [
+        "Gangplank",
         "Bilgewater",
-        "Gangplank"
+        "Pirate"
       ],
       "printings": [
         {
@@ -7959,7 +7960,8 @@
       "power": 1,
       "might": 3,
       "tags": [
-        "Vi"
+        "Vi",
+        "Piltover"
       ],
       "printings": [
         {
@@ -8009,7 +8011,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Jinx"
+        "Jinx",
+        "Zaun"
       ],
       "printings": [
         {
@@ -8059,7 +8062,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Zed"
+        "Zed",
+        "Ionia"
       ],
       "printings": [
         {
@@ -8106,7 +8110,8 @@
       "power": 1,
       "might": 6,
       "tags": [
-        "Shen"
+        "Shen",
+        "Ionia"
       ],
       "printings": [
         {
@@ -8153,7 +8158,8 @@
       "power": 1,
       "might": 3,
       "tags": [
-        "Riven"
+        "Riven",
+        "Noxus"
       ],
       "printings": [
         {
@@ -8200,7 +8206,8 @@
       "power": 1,
       "might": 3,
       "tags": [
-        "Draven"
+        "Draven",
+        "Noxus"
       ],
       "printings": [
         {
@@ -8250,7 +8257,9 @@
       "power": 1,
       "might": 6,
       "tags": [
-        "Swain"
+        "Swain",
+        "Noxus",
+        "Demon"
       ],
       "printings": [
         {
@@ -8397,7 +8406,8 @@
       "power": 1,
       "might": 3,
       "tags": [
-        "Viktor"
+        "Viktor",
+        "Zaun"
       ],
       "printings": [
         {
@@ -8446,7 +8456,8 @@
       "energy": 5,
       "might": 4,
       "tags": [
-        "Renekton"
+        "Renekton",
+        "Shurima"
       ],
       "printings": [
         {
@@ -8493,8 +8504,9 @@
       "power": 1,
       "might": 6,
       "tags": [
-        "Dog",
-        "Nasus"
+        "Nasus",
+        "Shurima",
+        "Dog"
       ],
       "printings": [
         {
@@ -8643,7 +8655,8 @@
       "energy": 6,
       "might": 6,
       "tags": [
-        "Gangplank"
+        "Gangplank",
+        "Bilgewater"
       ],
       "printings": [
         {
@@ -8689,7 +8702,8 @@
       "energy": 6,
       "might": 4,
       "tags": [
-        "Illaoi"
+        "Illaoi",
+        "Bilgewater"
       ],
       "printings": [
         {
@@ -8787,7 +8801,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Leona"
+        "Leona",
+        "Mount Targon"
       ],
       "printings": [
         {
@@ -8836,7 +8851,8 @@
       "energy": 3,
       "might": 3,
       "tags": [
-        "Kayle"
+        "Kayle",
+        "Mount Targon"
       ],
       "printings": [
         {
@@ -8883,7 +8899,8 @@
       "power": 1,
       "might": 5,
       "tags": [
-        "Morgana"
+        "Morgana",
+        "Demacia"
       ],
       "printings": [
         {
@@ -8929,7 +8946,8 @@
       "energy": 5,
       "might": 5,
       "tags": [
-        "Ambessa"
+        "Ambessa",
+        "Noxus"
       ],
       "printings": [
         {
@@ -8975,7 +8993,8 @@
       "energy": 5,
       "might": 4,
       "tags": [
-        "Mel"
+        "Mel",
+        "Noxus"
       ],
       "printings": [
         {
@@ -9625,7 +9644,8 @@
       "energy": 4,
       "might": 4,
       "tags": [
-        "Kai'Sa"
+        "Kai'Sa",
+        "The Void"
       ],
       "printings": [
         {
@@ -9675,7 +9695,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Sona"
+        "Sona",
+        "Demacia"
       ],
       "printings": [
         {
@@ -9776,7 +9797,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Sett"
+        "Sett",
+        "Ionia"
       ],
       "printings": [
         {
@@ -9876,7 +9898,8 @@
       "energy": 4,
       "might": 2,
       "tags": [
-        "Lux"
+        "Lux",
+        "Demacia"
       ],
       "printings": [
         {

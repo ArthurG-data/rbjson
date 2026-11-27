@@ -115,6 +115,13 @@ def load_corrections(path: Path = CORRECTIONS) -> dict[str, dict[str, dict]]:
     return dict(out)
 
 
+def _same(field: str, a, b) -> bool:
+    """Whether two values of ``field`` say the same: tags are a set, in whatever order a source lists them."""
+    if field == "tags" and isinstance(a, list) and isinstance(b, list):
+        return sorted(a) == sorted(b)
+    return a == b
+
+
 def _corrected(facts: dict, fixes: dict[str, dict]) -> dict:
     """``facts`` with each field the gallery states as the correction expects replaced by the printed value."""
     out = dict(facts)
@@ -142,7 +149,7 @@ def correction_notes(entries: list[dict], corrections: dict[str, dict[str, dict]
                 problems.append(f"corrections/gallery.json: the gallery no longer lists {number}")
                 continue
             said = facts[number].get(field)
-            if said == fix["printed"]:
+            if _same(field, said, fix["printed"]):
                 notes.append(f"corrections/gallery.json: the gallery now gives {number} its printed {field}; remove the correction")
             elif said != fix["gallery"]:
                 problems.append(f"corrections/gallery.json: the gallery now gives {number} {field} {said!r}, neither "
@@ -257,7 +264,7 @@ def reprint_tags(files: dict[str, dict]) -> list[dict]:
             groups[rbjson.oracle_key(card)].append(card)
     return [{"card": ", ".join(filter(None, (cards[0]["name"], cards[0].get("subtitle")))),
              "tags": {c["number"]: c.get("tags", []) for c in cards}}
-            for cards in groups.values() if len({tuple(c.get("tags", [])) for c in cards}) > 1]
+            for cards in groups.values() if len({tuple(sorted(c.get("tags", []))) for c in cards}) > 1]
 
 
 def main() -> None:

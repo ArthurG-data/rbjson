@@ -130,8 +130,8 @@ subtitle, so a reader can group a card's reprints. Sett, The Boss at `OGN-269` a
 `data/uuids.json` holds it like any other UUID, with the oracle's cards' UUIDs as its bridges. So if Riot fixes a
 typo in a card's name or subtitle, the card and its reprints keep their `oracleId`, and `validate.py --since`
 refuses an `oracleId` that changed. `validate.py` refuses two cards of one `oracleId` that
-state different types, domains, costs or might. The gallery tags a showcase reprint more sparely than its first
-printing, so tags may differ.
+state different types, domains, costs or might. Tags are not compared: a reprint can print other tags than its
+first printing (Vayne, Hunter gains SENTINEL in Spiritforged).
 
 ## Cards and printings
 
@@ -227,7 +227,9 @@ list and every card entry, with its type, domains, costs, stats, tags, rarity, a
    the card prints: the gallery tags Karma, Channeler (`OGN-235`) `Vi`, and its card reads KARMA · IONIA. When the
    gallery comes to agree with the card, the importer says the correction can go. When the gallery says something
    else again, the importer stops so the card is checked again. Cards of one name and subtitle whose tags differ
-   are listed in `review/gallery-tags.json`, since the gallery often tags a showcase reprint without its region.
+   (in any order) are listed in `review/gallery-tags.json`, since the gallery often tags a showcase reprint without
+   its region: all 26 such groups were checked against the printed cards on 2026-11-27, and 27 corrections came of
+   it. The two left, Vayne, Hunter and Gangplank, Naval, are printed with different tags.
 4. Each locale in `LOCALES` (`ko-kr` today) is fetched and its entries are matched to the English ones by gallery
    id. An entry whose card image differs from the English entry's is a printing in that language: it joins the
    English card as `<English id>~ko`, with the same collector number, suffix and rarity, the Korean image,

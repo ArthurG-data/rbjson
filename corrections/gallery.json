@@ -14,5 +14,221 @@
     "printed": ["Karma", "Ionia"],
     "checked": "2026-11-27",
     "note": "Karma, Channeler (showcase reprint). Both printings read CHAMPION UNIT · KARMA · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "SFD-227",
+    "field": "tags",
+    "gallery": ["Ahri"],
+    "printed": ["Ahri", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Ahri, Inquisitive. The printed card reads CHAMPION UNIT · AHRI · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "SFD-230",
+    "field": "tags",
+    "gallery": ["Yordle", "Teemo"],
+    "printed": ["Teemo", "Bandle City", "Yordle"],
+    "checked": "2026-11-27",
+    "note": "Teemo, Strategist. The printed card reads CHAMPION UNIT · TEEMO · BANDLE CITY · YORDLE; the gallery leaves out Bandle City."
+  },
+  {
+    "card": "SFD-232",
+    "field": "tags",
+    "gallery": ["Sett"],
+    "printed": ["Sett", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Sett, Brawler. The printed card reads CHAMPION UNIT · SETT · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "VEN-SP4",
+    "field": "tags",
+    "gallery": ["Sett"],
+    "printed": ["Sett", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Sett, Brawler. The printed card reads CHAMPION UNIT · SETT · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "SFD-235",
+    "field": "tags",
+    "gallery": ["Yasuo"],
+    "printed": ["Yasuo", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Yasuo, Windrider. The printed card reads CHAMPION UNIT · YASUO · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "SFD-236",
+    "field": "tags",
+    "gallery": ["Trifarian", "Darius"],
+    "printed": ["Darius", "Noxus", "Trifarian"],
+    "checked": "2026-11-27",
+    "note": "Darius, Executioner. The printed card reads CHAMPION UNIT · DARIUS · NOXUS · TRIFARIAN; the gallery leaves out Noxus."
+  },
+  {
+    "card": "VEN-SP6",
+    "field": "tags",
+    "gallery": ["Lux"],
+    "printed": ["Lux", "Demacia"],
+    "checked": "2026-11-27",
+    "note": "Lux, Crownguard. The printed card reads CHAMPION UNIT · LUX · DEMACIA; the gallery leaves out Demacia."
+  },
+  {
+    "card": "VEN-186",
+    "field": "tags",
+    "gallery": ["Morgana"],
+    "printed": ["Morgana", "Demacia"],
+    "checked": "2026-11-27",
+    "note": "Morgana, Vindictive. The printed card reads CHAMPION UNIT · MORGANA · DEMACIA; the gallery leaves out Demacia."
+  },
+  {
+    "card": "VEN-169",
+    "field": "tags",
+    "gallery": ["Zed"],
+    "printed": ["Zed", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Zed, From the Shadows. The printed card reads CHAMPION UNIT · ZED · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "VEN-171",
+    "field": "tags",
+    "gallery": ["Riven"],
+    "printed": ["Riven", "Noxus"],
+    "checked": "2026-11-27",
+    "note": "Riven, Shattered. The printed card reads CHAMPION UNIT · RIVEN · NOXUS; the gallery leaves out Noxus."
+  },
+  {
+    "card": "VEN-170",
+    "field": "tags",
+    "gallery": ["Shen"],
+    "printed": ["Shen", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Shen, Scourge of Shadows. The printed card reads CHAMPION UNIT · SHEN · IONIA; the gallery leaves out Ionia."
+  },
+  {
+    "card": "VEN-178",
+    "field": "tags",
+    "gallery": ["Dog", "Nasus"],
+    "printed": ["Nasus", "Shurima", "Dog"],
+    "checked": "2026-11-27",
+    "note": "Nasus, Guardian of Knowledge. The printed card reads CHAMPION UNIT · NASUS · SHURIMA · DOG; the gallery leaves out Shurima."
+  },
+  {
+    "card": "VEN-173",
+    "field": "tags",
+    "gallery": ["Swain"],
+    "printed": ["Swain", "Noxus", "Demon"],
+    "checked": "2026-11-27",
+    "note": "Swain, Visionary. The printed card reads CHAMPION UNIT · SWAIN · NOXUS · DEMON; the gallery leaves out Noxus and Demon."
+  },
+  {
+    "card": "VEN-086",
+    "field": "tags",
+    "gallery": ["Bilgewater", "Gangplank"],
+    "printed": ["Gangplank", "Bilgewater", "Pirate"],
+    "checked": "2026-11-27",
+    "note": "Gangplank, Naval. The printed card reads CHAMPION UNIT · GANGPLANK · BILGEWATER · PIRATE; the gallery leaves out Pirate."
+  },
+  {
+    "card": "VEN-181",
+    "field": "tags",
+    "gallery": ["Gangplank"],
+    "printed": ["Gangplank", "Bilgewater"],
+    "checked": "2026-11-27",
+    "note": "Gangplank, Naval. The printed card reads CHAMPION UNIT · GANGPLANK · BILGEWATER; the gallery leaves out Bilgewater."
+  },
+  {
+    "card": "VEN-177",
+    "field": "tags",
+    "gallery": ["Renekton"],
+    "printed": ["Renekton", "Shurima"],
+    "checked": "2026-11-27",
+    "note": "Renekton, Brute. The printed card reads CHAMPION UNIT · RENEKTON · SHURIMA; the gallery leaves out Shurima."
+  },
+  {
+    "card": "VEN-182",
+    "field": "tags",
+    "gallery": ["Illaoi"],
+    "printed": ["Illaoi", "Bilgewater"],
+    "checked": "2026-11-27",
+    "note": "Illaoi, Prophet of the Great Kraken. The printed card reads CHAMPION UNIT · ILLAOI · BILGEWATER; the gallery leaves out Bilgewater."
+  },
+  {
+    "card": "VEN-188",
+    "field": "tags",
+    "gallery": ["Mel"],
+    "printed": ["Mel", "Noxus"],
+    "checked": "2026-11-27",
+    "note": "Mel, Defiant Soul. The printed card reads CHAMPION UNIT · MEL · NOXUS; the gallery leaves out Noxus."
+  },
+  {
+    "card": "VEN-185",
+    "field": "tags",
+    "gallery": ["Kayle"],
+    "printed": ["Kayle", "Mount Targon"],
+    "checked": "2026-11-27",
+    "note": "Kayle, Justified. The printed card reads CHAMPION UNIT · KAYLE · MOUNT TARGON; the gallery leaves out Mount Targon."
+  },
+  {
+    "card": "VEN-187",
+    "field": "tags",
+    "gallery": ["Ambessa"],
+    "printed": ["Ambessa", "Noxus"],
+    "checked": "2026-11-27",
+    "note": "Ambessa, Respected and Feared. The printed card reads CHAMPION UNIT · AMBESSA · NOXUS; the gallery leaves out Noxus."
+  },
+  {
+    "card": "VEN-167",
+    "field": "tags",
+    "gallery": ["Vi"],
+    "printed": ["Vi", "Piltover"],
+    "checked": "2026-11-27",
+    "note": "Vi, Destructive. The printed card reads CHAMPION UNIT · VI · PILTOVER; the gallery leaves out Piltover."
+  },
+  {
+    "card": "VEN-168",
+    "field": "tags",
+    "gallery": ["Jinx"],
+    "printed": ["Jinx", "Zaun"],
+    "checked": "2026-11-27",
+    "note": "Jinx, Demolitionist. The printed card reads CHAMPION UNIT · JINX · ZAUN; the gallery leaves out Zaun."
+  },
+  {
+    "card": "VEN-172",
+    "field": "tags",
+    "gallery": ["Draven"],
+    "printed": ["Draven", "Noxus"],
+    "checked": "2026-11-27",
+    "note": "Draven, Showboat. The printed card reads CHAMPION UNIT · DRAVEN · NOXUS; the gallery leaves out Noxus."
+  },
+  {
+    "card": "VEN-176",
+    "field": "tags",
+    "gallery": ["Viktor"],
+    "printed": ["Viktor", "Zaun"],
+    "checked": "2026-11-27",
+    "note": "Viktor, Innovator. The printed card reads CHAMPION UNIT · VIKTOR · ZAUN; the gallery leaves out Zaun."
+  },
+  {
+    "card": "VEN-184",
+    "field": "tags",
+    "gallery": ["Leona"],
+    "printed": ["Leona", "Mount Targon"],
+    "checked": "2026-11-27",
+    "note": "Leona, Determined. The printed card reads CHAMPION UNIT · LEONA · MOUNT TARGON; the gallery leaves out Mount Targon."
+  },
+  {
+    "card": "VEN-SP1",
+    "field": "tags",
+    "gallery": ["Kai'Sa"],
+    "printed": ["Kai'Sa", "The Void"],
+    "checked": "2026-11-27",
+    "note": "Kai'Sa, Survivor. The printed card reads CHAMPION UNIT · KAI'SA · THE VOID; the gallery leaves out The Void."
+  },
+  {
+    "card": "VEN-SP2",
+    "field": "tags",
+    "gallery": ["Sona"],
+    "printed": ["Sona", "Demacia"],
+    "checked": "2026-11-27",
+    "note": "Sona, Harmonious. The printed card reads CHAMPION UNIT · SONA · DEMACIA; the gallery leaves out Demacia."
   }
 ]
