@@ -26,12 +26,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BRANCH: data/refresh
-      GH_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
+      # Actions are pinned to a commit, since this job can push: a moved tag cannot change what runs.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           ref: main
-      - uses: astral-sh/setup-uv@v5
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
       - run: uv sync --group dev
 
       # Fails when a source names something only a person can settle (a new set to add to sets/sets.json, a UUID
@@ -47,7 +48,10 @@ jobs:
           uv run ruff check tools tests
           uv run pytest -q
 
+      # The token reaches only this step, the one that pushes and calls gh, not the importers or the tests.
       - name: Open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           paths="sets data review corrections README.md"
           if git diff --quiet -- $paths && [ -z "$(git ls-files --others --exclude-standard -- $paths)" ]; then
@@ -59,7 +63,7 @@ jobs:
           git switch -C "$BRANCH"
           git add -- $paths
           git commit -q -m "Refresh the data from the gallery, TCGCSV and Cardmarket"
-          git push --force origin "$BRANCH"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/$BRANCH"
 
           {
             echo "The daily refresh found changes in the sources. Read the \`review/\` diffs for anything to settle by hand."
