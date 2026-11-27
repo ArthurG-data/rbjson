@@ -3,8 +3,12 @@ name: refresh
 # Every day, rebuild the data from Riot's gallery, TCGCSV and Cardmarket, and when anything changed, open a pull
 # request with it (or update the one already open). A person reviews and merges it; nothing reaches main unreviewed.
 #
-# A pull request opened with the workflow's own token does not start other workflows, so ci.yml does not run on it:
-# this job runs the same checks (validator with the UUID history, tests, lint) before it opens or updates the PR.
+# ci.yml's pull_request run on a PR the workflow's own token opened or pushed waits for someone to approve it in the
+# Actions tab, and until then the PR has no validate check, which main's ruleset needs before it can merge. So this
+# job runs the same checks (validator with the UUID history, tests, lint) before it opens or updates the PR, then
+# starts ci.yml on the branch by hand, which that token may do: that run needs no approval, and its validate check
+# lands on the PR's commit.
+#
 # The repository must allow it: Settings > Actions > General > "Allow GitHub Actions to create and approve pull
 # requests".
 
@@ -14,6 +18,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write  # to start ci.yml on the branch
   contents: write
   pull-requests: write
 
@@ -87,3 +92,4 @@ jobs:
           else
             gh pr create --base main --head "$BRANCH" --title "Refresh the data ($(date -u +%F))" --body-file body.md
           fi
+          gh workflow run ci.yml --ref "$BRANCH"
