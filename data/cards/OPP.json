@@ -40,43 +40,6 @@
       ]
     },
     {
-      "number": "OPP-OGN007",
-      "uuid": "7b8a4298-e920-5cb5-8aff-a16f5b9ce28b",
-      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
-      "name": "Fury Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "fury"
-      ],
-      "printings": [
-        {
-          "id": "OPP-OGN007b",
-          "uuid": "e45d9f53-79d8-5430-956e-f4998b617ca2",
-          "collectorNumber": 7,
-          "suffix": "b",
-          "rarity": "common",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662900_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              662900
-            ]
-          },
-          "tcgplayer": {
-            "name": "Fury Rune",
-            "match": "minted"
-          },
-          "finishes": [
-            "foil"
-          ]
-        }
-      ]
-    },
-    {
       "number": "OPP-OGN013",
       "uuid": "00fde0df-834e-5f01-9767-4ea0a821f3af",
       "oracleId": "048ad9e8-f9ad-5f83-9877-d18dcaf52c19",
@@ -185,43 +148,6 @@
           },
           "tcgplayer": {
             "name": "Tryndamere, Barbarian",
-            "match": "minted"
-          },
-          "finishes": [
-            "foil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-OGN042",
-      "uuid": "4a22e591-5454-5fdb-a5a6-fb5c3586f824",
-      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
-      "name": "Calm Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "calm"
-      ],
-      "printings": [
-        {
-          "id": "OPP-OGN042b",
-          "uuid": "2d373f46-ae0a-5126-bd03-fcc63b31efa5",
-          "collectorNumber": 42,
-          "suffix": "b",
-          "rarity": "common",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662902_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              662902
-            ]
-          },
-          "tcgplayer": {
-            "name": "Calm Rune",
             "match": "minted"
           },
           "finishes": [
@@ -464,43 +390,6 @@
       ]
     },
     {
-      "number": "OPP-OGN089",
-      "uuid": "2b0bc5ab-8c24-568c-b4d4-3484bdf98965",
-      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
-      "name": "Mind Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "mind"
-      ],
-      "printings": [
-        {
-          "id": "OPP-OGN089b",
-          "uuid": "6cb62540-9414-5c49-93db-0cbec2f0c7b2",
-          "collectorNumber": 89,
-          "suffix": "b",
-          "rarity": "common",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662899_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              662899
-            ]
-          },
-          "tcgplayer": {
-            "name": "Mind Rune",
-            "match": "minted"
-          },
-          "finishes": [
-            "foil"
-          ]
-        }
-      ]
-    },
-    {
       "number": "OPP-OGN092",
       "uuid": "e91592dc-2e0a-5727-93b8-89b18bd02902",
       "oracleId": "065a548f-f4b8-509d-a114-d03aa291c665",
@@ -570,43 +459,6 @@
           },
           "tcgplayer": {
             "name": "Ravenbloom Student",
-            "match": "minted"
-          },
-          "finishes": [
-            "foil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-OGN126",
-      "uuid": "7ca30448-8a5e-5202-9dcf-ade5e79b6e24",
-      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
-      "name": "Body Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "body"
-      ],
-      "printings": [
-        {
-          "id": "OPP-OGN126b",
-          "uuid": "faf6c4a8-10c7-5c11-bb82-7a6b8825d0be",
-          "collectorNumber": 126,
-          "suffix": "b",
-          "rarity": "common",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662903_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              662903
-            ]
-          },
-          "tcgplayer": {
-            "name": "Body Rune",
             "match": "minted"
           },
           "finishes": [
@@ -763,43 +615,6 @@
           },
           "tcgplayer": {
             "name": "Lee Sin, Centered",
-            "match": "minted"
-          },
-          "finishes": [
-            "foil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-OGN166",
-      "uuid": "acc71634-b1bf-5764-a877-825537778cbe",
-      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
-      "name": "Chaos Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "chaos"
-      ],
-      "printings": [
-        {
-          "id": "OPP-OGN166b",
-          "uuid": "c366e13b-8e84-5fe3-9b15-639b1908a944",
-          "collectorNumber": 166,
-          "suffix": "b",
-          "rarity": "common",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662904_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              662904
-            ]
-          },
-          "tcgplayer": {
-            "name": "Chaos Rune",
             "match": "minted"
           },
           "finishes": [
@@ -1084,41 +899,6 @@
           },
           "tcgplayer": {
             "name": "Daring Poro",
-            "match": "minted"
-          },
-          "finishes": [
-            "foil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-OGN214",
-      "uuid": "198c5ad7-177e-52c6-b36e-ac2215f5970d",
-      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
-      "name": "Order Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "order"
-      ],
-      "printings": [
-        {
-          "id": "OPP-OGN214b",
-          "uuid": "64f9b0ba-92a2-5a97-90ce-5f7c0f765463",
-          "collectorNumber": 214,
-          "suffix": "b",
-          "rarity": "common",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              662901
-            ]
-          },
-          "tcgplayer": {
-            "name": "Order Rune",
             "match": "minted"
           },
           "finishes": [
@@ -3097,224 +2877,6 @@
       ]
     },
     {
-      "number": "OPP-R01",
-      "uuid": "89d549b6-c6e3-5802-ada9-f5469e3ba42e",
-      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
-      "name": "Fury Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "fury"
-      ],
-      "printings": [
-        {
-          "id": "OPP-R01c",
-          "uuid": "0d7c3795-2a4a-503f-a953-3a1cb2ebf951",
-          "collectorNumber": 1,
-          "suffix": "c",
-          "rarity": "showcase",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697499_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              697499
-            ]
-          },
-          "tcgplayer": {
-            "name": "Fury Rune (R01c)",
-            "match": "minted"
-          },
-          "finishes": [
-            "nonfoil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-R02",
-      "uuid": "8b5f7e79-9c90-54d6-83e5-142fdce869fc",
-      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
-      "name": "Calm Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "calm"
-      ],
-      "printings": [
-        {
-          "id": "OPP-R02c",
-          "uuid": "6c1417b5-1dcc-54a3-bc59-d39ed697afbd",
-          "collectorNumber": 2,
-          "suffix": "c",
-          "rarity": "showcase",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697497_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              697497
-            ]
-          },
-          "tcgplayer": {
-            "name": "Calm Rune (R02c)",
-            "match": "minted"
-          },
-          "finishes": [
-            "nonfoil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-R03",
-      "uuid": "1563cee7-62a8-5e4b-92eb-5d2e0882ea96",
-      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
-      "name": "Mind Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "mind"
-      ],
-      "printings": [
-        {
-          "id": "OPP-R03c",
-          "uuid": "6a3837a3-ba8d-54b4-bbaf-1127beb3e48a",
-          "collectorNumber": 3,
-          "suffix": "c",
-          "rarity": "showcase",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              697496
-            ]
-          },
-          "tcgplayer": {
-            "name": "Mind Rune (R03c)",
-            "match": "minted"
-          },
-          "finishes": [
-            "nonfoil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-R04",
-      "uuid": "1412455a-2c8e-5bf3-a6b8-049bd3253389",
-      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
-      "name": "Body Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "body"
-      ],
-      "printings": [
-        {
-          "id": "OPP-R04c",
-          "uuid": "28805407-fea2-5df6-918b-120dd5d4fadb",
-          "collectorNumber": 4,
-          "suffix": "c",
-          "rarity": "showcase",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697495_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              697495
-            ]
-          },
-          "tcgplayer": {
-            "name": "Body Rune (R04c)",
-            "match": "minted"
-          },
-          "finishes": [
-            "nonfoil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-R05",
-      "uuid": "5768e5ba-095e-55c7-9c72-cf2c54a24027",
-      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
-      "name": "Chaos Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "chaos"
-      ],
-      "printings": [
-        {
-          "id": "OPP-R05c",
-          "uuid": "1fb5e3cf-a524-5975-8a55-420bc05b68ea",
-          "collectorNumber": 5,
-          "suffix": "c",
-          "rarity": "showcase",
-          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697493_in_1000x1000.jpg",
-          "imageSource": "tcgplayer",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              697493
-            ]
-          },
-          "tcgplayer": {
-            "name": "Chaos Rune (R05c)",
-            "match": "minted"
-          },
-          "finishes": [
-            "nonfoil"
-          ]
-        }
-      ]
-    },
-    {
-      "number": "OPP-R06",
-      "uuid": "ac812302-a3d3-598a-a3f1-c3d410876045",
-      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
-      "name": "Order Rune",
-      "type": "rune",
-      "superTypes": [
-        "basic"
-      ],
-      "domains": [
-        "order"
-      ],
-      "printings": [
-        {
-          "id": "OPP-R06c",
-          "uuid": "3997aeef-d158-567a-8bde-a0a92cc6938d",
-          "collectorNumber": 6,
-          "suffix": "c",
-          "rarity": "showcase",
-          "source": "tcgplayer",
-          "identifiers": {
-            "tcgplayerProductIds": [
-              697492
-            ]
-          },
-          "tcgplayer": {
-            "name": "Order Rune (R06c)",
-            "match": "minted"
-          },
-          "finishes": [
-            "nonfoil"
-          ]
-        }
-      ]
-    },
-    {
       "number": "OPP-RAD002",
       "uuid": "ea52afe5-628f-59dc-8db1-b44ed5c87453",
       "oracleId": "9b690223-b0c3-5c55-abb9-60b357d90bb6",
@@ -3410,6 +2972,51 @@
           },
           "tcgplayer": {
             "name": "Shimmering Swimmer",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "OPP-RAD015",
+      "uuid": "8cb0cc12-2993-5005-bf2f-005de064a3d5",
+      "oracleId": "7f857f6e-4a15-5675-ad8b-f47f89ed63c0",
+      "name": "Akali",
+      "subtitle": "Brash",
+      "type": "unit",
+      "superTypes": [
+        "champion"
+      ],
+      "domains": [
+        "fury"
+      ],
+      "energy": 5,
+      "power": 1,
+      "might": 5,
+      "tags": [
+        "Ionia",
+        "Akali"
+      ],
+      "printings": [
+        {
+          "id": "OPP-RAD015.champion",
+          "uuid": "8470ff93-7e7d-5dd1-8bc1-c41043b293c4",
+          "collectorNumber": 15,
+          "variant": "champion",
+          "rarity": "rare",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/735446_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              735446
+            ]
+          },
+          "tcgplayer": {
+            "name": "Akali, Brash (Champion)",
             "match": "minted"
           },
           "finishes": [

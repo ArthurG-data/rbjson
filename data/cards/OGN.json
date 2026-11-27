@@ -451,7 +451,7 @@
             ]
           },
           "tcgplayer": {
-            "name": "Fury Rune (Alternate Art)",
+            "name": "Fury Rune (A)",
             "match": "number"
           },
           "finishes": [
@@ -490,6 +490,28 @@
             "galleryId": "ogn-007-298",
             "publicCode": "OGN-007/298"
           }
+        },
+        {
+          "id": "OGN-007b",
+          "uuid": "e45d9f53-79d8-5430-956e-f4998b617ca2",
+          "collectorNumber": 7,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662900_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              662900
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (B)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -2995,7 +3017,7 @@
             ]
           },
           "tcgplayer": {
-            "name": "Calm Rune (Alternate Art)",
+            "name": "Calm Rune (A)",
             "match": "number"
           },
           "finishes": [
@@ -3034,6 +3056,28 @@
             "galleryId": "ogn-042-298",
             "publicCode": "OGN-042/298"
           }
+        },
+        {
+          "id": "OGN-042b",
+          "uuid": "2d373f46-ae0a-5126-bd03-fcc63b31efa5",
+          "collectorNumber": 42,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662902_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              662902
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (B)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -6294,7 +6338,7 @@
             ]
           },
           "tcgplayer": {
-            "name": "Mind Rune (Alternate Art)",
+            "name": "Mind Rune (A)",
             "match": "number"
           },
           "finishes": [
@@ -6333,6 +6377,28 @@
             "galleryId": "ogn-089-298",
             "publicCode": "OGN-089/298"
           }
+        },
+        {
+          "id": "OGN-089b",
+          "uuid": "6cb62540-9414-5c49-93db-0cbec2f0c7b2",
+          "collectorNumber": 89,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662899_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              662899
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (B)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -8925,6 +8991,7 @@
             "match": "number"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -8947,7 +9014,7 @@
             ]
           },
           "tcgplayer": {
-            "name": "Body Rune (Alternate Art)",
+            "name": "Body Rune (A)",
             "match": "number"
           },
           "finishes": [
@@ -8986,6 +9053,28 @@
             "galleryId": "ogn-126-298",
             "publicCode": "OGN-126/298"
           }
+        },
+        {
+          "id": "OGN-126b",
+          "uuid": "faf6c4a8-10c7-5c11-bb82-7a6b8825d0be",
+          "collectorNumber": 126,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662903_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              662903
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (B)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -11806,7 +11895,7 @@
             ]
           },
           "tcgplayer": {
-            "name": "Chaos Rune (Alternate Art)",
+            "name": "Chaos Rune (A)",
             "match": "number"
           },
           "finishes": [
@@ -11845,6 +11934,28 @@
             "galleryId": "ogn-166-298",
             "publicCode": "OGN-166/298"
           }
+        },
+        {
+          "id": "OGN-166b",
+          "uuid": "c366e13b-8e84-5fe3-9b15-639b1908a944",
+          "collectorNumber": 166,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/662904_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              662904
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (B)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -15166,7 +15277,7 @@
             ]
           },
           "tcgplayer": {
-            "name": "Order Rune (Alternate Art)",
+            "name": "Order Rune (A)",
             "match": "number"
           },
           "finishes": [
@@ -15205,6 +15316,26 @@
             "galleryId": "ogn-214-298",
             "publicCode": "OGN-214/298"
           }
+        },
+        {
+          "id": "OGN-214b",
+          "uuid": "64f9b0ba-92a2-5a97-90ce-5f7c0f765463",
+          "collectorNumber": 214,
+          "suffix": "b",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              662901
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (B)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
