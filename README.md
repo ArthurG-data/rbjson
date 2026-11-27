@@ -93,30 +93,41 @@ not yet link a reprint to the card it reprints.
 
 ### UUIDs
 
-Every card, printing and sealed product also carries a `uuid`, the key a catalogue should store. An id says what
-a record is, and a few ids are built from names another site picks: a promo's variant and a sealed product's id
-come from TCGplayer's product names, so a rename on TCGplayer would change them. A `uuid` does not change:
+Every card, printing and sealed product also carries a `uuid`, the key a catalogue should store. A UUID belongs to
+what a record is, which is not always its id. A gallery printing is its printed code and a card its number, but a
+printing made from TCGplayer's catalogue and a sealed product are a TCGplayer product. Their ids
+(`OPP-OGN269.metal-best-of`, `origins-booster-display`) are built from product names TCGplayer may change, and a
+sealed id can pass to another product when the one holding it is delisted. So each record has an identity key:
 
-- A record seen for the first time gets `uuid5(NAMESPACE, "<kind>:<id>")`, where `NAMESPACE` is
+| Record | Identity key |
+|---|---|
+| gallery printing | `id:<printing id>` |
+| printing made from TCGplayer, sealed product | `tcgplayer:<lowest TCGplayer product id>` |
+| card | `id:<number>` |
+
+`data/uuids.json` maps every identity key ever seen to its UUID, and the importers stamp it on what they write:
+
+- A key seen for the first time gets `uuid5(NAMESPACE, "<kind>:<id>")`, where `NAMESPACE` is
   `uuid5(NAMESPACE_URL, "https://github.com/ArthurG-data/rbjson")` and the kind is `cards`, `printings` or
   `products`. A rebuild from nothing gives every record the UUID it had.
-- `data/uuids.json` records the UUID of every id, and the importers stamp it on what they write. A record whose
-  id it knows keeps its UUID, however often the importers run.
-- A record with a new id takes the UUID of the record it replaces, when that record left and they share a
-  TCGplayer product (a promo whose product was renamed), or, for a card, when its printings were the left card's.
-  A rune TCGplayer sold before the gallery listed it keeps its UUID when the gallery starts listing it.
-- A record that leaves moves to `retired` in `data/uuids.json` with its UUID, and gets it back if it returns. A
-  renamed record's old id stays there too, so either id finds the UUID.
+- A known key keeps its UUID, however often the importers run and whatever id the record has now. Two promo
+  printings whose names TCGplayer swaps keep their own UUIDs.
+- A record with a new key that replaces one that left takes its UUID. The records' other ids, their TCGplayer
+  products and, for a card, its printings' UUIDs say what each was on (`bridges`). So a rune TCGplayer sold
+  before the gallery listed it keeps its UUID when the gallery starts listing it, a card renumbered with its
+  printings keeps its UUID, and a sealed product relisted under its old name gets its old UUID.
+- A record that leaves keeps its key, so it gets its UUID back if it returns.
 
-So a UUID is never given to another record, and an id never changes UUID.
+A key never changes UUID and is never dropped. `tools/validate.py --since <git ref>` checks that against an
+earlier `data/uuids.json`, and CI runs it against the branch a PR targets and against where a branch was before
+a push.
 
 A card in `AllCards.json` also has an `oracleId`, as Scryfall's `oracle_id`: one UUID for every card with the same
 name and subtitle, `uuid5(NAMESPACE, "oracle:<name>|<subtitle>")` with both folded (casefolded, accents
 removed). Sett, The Boss at `OGN-269` and its Metal Best Of promo at `OPP-OGN269` are two cards with two UUIDs and
 one `oracleId`, so a reader can group a card's reprints. `validate.py` refuses two cards of one `oracleId` that
 state different types, domains, costs or might. The gallery tags a showcase reprint more sparely than its first
-printing, so tags may differ. `tools/validate.py --since <git ref>`
-checks that against an earlier `data/uuids.json`, and CI runs it against the branch a PR targets.
+printing, so tags may differ.
 
 ## Cards and printings
 
@@ -349,8 +360,8 @@ the gallery import stays as the cross-check.
 - `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
 - `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
-- `data/uuids.json` records the UUID of every card, printing and sealed product id, current and retired, and the
-  UUID each TCGplayer product was last on. Written by the importers and `tools/uuids.py`; never edited by hand.
+- `data/uuids.json` maps the identity key of every card, printing and sealed product ever seen to its UUID (see
+  [UUIDs](#uuids)). Written by the importers and `tools/uuids.py`; never edited by hand.
 - `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
 - `tools/` holds the importers (gallery, TCGCSV, sealed, Cardmarket), the validator, the build script, and the gallery, TCGCSV and Cardmarket fetchers.
 - `tests/` checks the tools against a small gallery fixture and the committed data against the schemas.
@@ -397,8 +408,10 @@ fails, CI turns the release back into a draft, so readers keep getting the previ
    rebuilds what the one before it wrote, so run them all, not one alone.
 2. If the gallery names a new set, the run stops there: add the set to `sets/sets.json` with its code, type, set
    size and English name, and its `cardmarketExpansionIds`, then run step 1 again.
-3. If an id comes back whose UUID another record has taken, `tools/uuids.py` stops with a conflict: decide which record it is.
-4. If the gallery stops listing a set, `import_gallery` removes that set's gallery printings and says so.
+3. If two records claim one UUID (a record came back after another took its UUID), the importer stops with a
+   conflict and writes nothing: decide which record it is.
+4. If the gallery stops listing a set, `import_gallery` removes that set's gallery printings and says so. A set
+   the gallery still lists but sends no entry for is kept as it is.
 5. Read `review/gallery.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
 6. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
 7. Commit `sets/`, `data/` (with `data/uuids.json`) and `review/` together, so a release never mixes two snapshots.

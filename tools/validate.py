@@ -90,14 +90,16 @@ def image_errors(printings: dict[str, dict], head=net.head_status) -> list[str]:
 
 
 def registry_at(ref: str) -> dict:
-    """data/uuids.json as git ``ref`` has it; empty before the registry existed."""
+    """data/uuids.json as git ``ref`` has it; empty at a commit from before the registry existed."""
     path = uuids.REGISTRY.relative_to(rbjson.ROOT).as_posix()
-    shown = subprocess.run(["git", "show", f"{ref}:{path}"], cwd=rbjson.ROOT, capture_output=True, text=True)
-    if shown.returncode != 0:
-        if "exists on disk, but not in" in shown.stderr or "does not exist in" in shown.stderr:
-            return uuids.empty()
-        raise SystemExit(f"git show {ref}:{path}: {shown.stderr.strip()}")
-    return json.loads(shown.stdout)
+
+    def git(*args: str) -> subprocess.CompletedProcess:
+        return subprocess.run(["git", *args], cwd=rbjson.ROOT, capture_output=True, text=True)
+    if git("rev-parse", "--verify", "--quiet", f"{ref}^{{commit}}").returncode != 0:
+        raise SystemExit(f"--since {ref}: git knows no such commit")
+    if git("cat-file", "-e", f"{ref}:{path}").returncode != 0:
+        return uuids.empty()
+    return json.loads(git("show", f"{ref}:{path}").stdout)
 
 
 def main() -> None:

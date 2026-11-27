@@ -191,8 +191,13 @@ def test_a_set_the_gallery_no_longer_lists_loses_its_gallery_printings_and_keeps
         "GONE": {"cards": [{"number": "GONE-001", "printings": [p("GONE-001", "riot-gallery")]}]},
         "OPP": {"cards": [{"number": "OPP-OGN001", "printings": [p("OPP-OGN001", "tcgplayer")]}]},
     }
-    rest = import_gallery.others(on_disk, {"OGN": {"cards": []}})
+    rest = import_gallery.others(on_disk, {"OGN": {"cards": []}}, {"OGN"})
     assert set(rest) == {"OLD", "GONE", "OPP"}
     assert rest["OLD"] == {"cards": [{"number": "OLD-001", "printings": [p("OLD-001a", "tcgplayer")]}]}
     assert rest["GONE"] is None
     assert rest["OPP"] == on_disk["OPP"]
+
+
+def test_a_set_the_gallery_still_lists_but_sent_nothing_for_is_kept_whole():
+    body = {"cards": [{"number": "SFD-001", "printings": [{"id": "SFD-001", "source": "riot-gallery"}]}]}
+    assert import_gallery.others({"SFD": body}, {}, {"SFD"}) == {"SFD": body}

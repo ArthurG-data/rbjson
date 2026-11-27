@@ -2,28 +2,31 @@
 
     uv run python tools/uuids.py
 
-The ids rbjson builds (OGN-119a, OPP-OGN269.metal-best-of, origins-booster-display) say what a record is, and some
-of them are built from names another site chooses: a promo's variant and a sealed product's id come from TCGplayer's
-product names. A UUID is the key a catalogue can hold on to instead. data/uuids.json records which UUID each id has,
-and the importers stamp it on the records they write:
+A UUID belongs to what a record is, which is not always its id. A gallery printing is its printed code (OGN-119a)
+and a card its number (OGN-119), but a printing rbjson minted from TCGplayer and a sealed product are a TCGplayer
+product: their ids (OPP-OGN269.metal-best-of, origins-booster-display) are built from product names, which TCGplayer
+may change, and a sealed id can pass to another product when the one holding it is delisted. So each record has one
+identity key, and data/uuids.json maps each identity key ever seen to its UUID, per kind:
 
-- A record seen for the first time gets ``uuid5(NAMESPACE, "<kind>:<id>")``, so a rebuild from nothing gives every
-  record the UUID it had.
-- A record whose id the registry knows keeps its UUID.
-- A record with a new id takes the UUID of the record it replaces, when that record left and they share a TCGplayer
-  product (a promo whose product TCGplayer renamed), or, for a card, when its printings were the left card's
-  printings. The old id stays in ``retired`` with the UUID, so either id finds it.
-- A record that leaves moves to ``retired`` with its UUID, and gets it back if it returns.
+- ``id:<printed code>`` for a gallery printing, ``tcgplayer:<lowest product id>`` for a minted printing or a sealed
+  product, ``id:<number>`` for a card.
+- An identity key seen for the first time gets ``uuid5(NAMESPACE, "<kind>:<id>")``, so a rebuild from nothing gives
+  the same UUIDs. If the record replaces one that left, it takes that record's UUID instead: a record's alias keys
+  (its id, its TCGplayer products, for a card the UUIDs of its printings) name what each was last on, in
+  ``bridges``. A rune TCGplayer sold before the gallery listed it keeps its UUID when the gallery starts listing it,
+  and a card renumbered with its printings keeps its UUID.
+- A known identity key keeps its UUID. A record that leaves keeps its key, so it gets its UUID back if it returns.
+- A new TCGplayer product with the id of one that left (a sealed product relisted under its old name) is taken to be
+  that product and gets its UUID; a product whose own key is known keeps its own, whatever id it now has.
 
-So a UUID is never reused for another record and an id never changes UUID. ``history_errors`` checks that between
-two versions of the registry, and validate.py --since runs it in CI.
+``keys`` only grows and never changes a value: that is the whole promise, and ``history_errors`` checks it between
+two versions of the registry (validate.py --since, run in CI).
 """
 from __future__ import annotations
 
 import collections
 import json
 import uuid
-from collections.abc import Callable
 from pathlib import Path
 
 import rbjson
@@ -34,11 +37,12 @@ KINDS = ("cards", "printings", "products")
 
 
 class Conflict(Exception):
-    """An id returns whose UUID another record now holds. A person decides which record it is."""
+    """Two live records whose identity keys hold one UUID: a record that came back while the one that took its UUID
+    is still here. A person decides which is which."""
 
 
 def empty() -> dict:
-    return {**{k: {} for k in KINDS}, "retired": {k: {} for k in KINDS}, "tcgplayer": {}}
+    return {k: {"keys": {}, "bridges": {}} for k in KINDS}
 
 
 def load(path: Path = REGISTRY) -> dict:
@@ -47,15 +51,12 @@ def load(path: Path = REGISTRY) -> dict:
 
 def save(registry: dict, path: Path = REGISTRY) -> None:
     """Keys sorted, so a run that changes nothing leaves the file as it was."""
-    body = {k: dict(sorted(registry[k].items())) for k in KINDS}
-    body["retired"] = {k: dict(sorted(registry["retired"][k].items())) for k in KINDS}
-    body["tcgplayer"] = dict(sorted(registry["tcgplayer"].items(), key=lambda kv: int(kv[0])))
-    rbjson.dump(path, body)
+    rbjson.dump(path, {k: {part: dict(sorted(registry[k][part].items())) for part in ("keys", "bridges")} for k in KINDS})
 
 
 def first(kind: str, key: str, used: set[str]) -> str:
-    """The UUID a record gets when it is first seen: uuid5 of its kind and id, or of ``<kind>:<id>#2`` and on in the
-    rare case that UUID went to another record before."""
+    """The UUID of a record first seen: uuid5 of its kind and id, or of ``<kind>:<id>#2`` and on in the rare case that
+    UUID is taken."""
     n = 1
     while True:
         u = str(uuid.uuid5(NAMESPACE, f"{kind}:{key}" + (f"#{n}" if n > 1 else "")))
@@ -64,48 +65,56 @@ def first(kind: str, key: str, used: set[str]) -> str:
         n += 1
 
 
-def _assign(registry: dict, kind: str, records: dict[str, dict],
-            candidates: Callable[[str, dict], list[str]]) -> dict[str, str]:
-    """{id: UUID} for the live ``records``; updates the registry's current and retired ids of ``kind``.
-    ``candidates(id, record)`` names the UUIDs a new id may take over."""
-    current, retired = registry[kind], registry["retired"][kind]
-    used = set(current.values()) | set(retired.values())
+def _products(record: dict) -> list[int]:
+    return sorted(record.get("identifiers", {}).get("tcgplayerProductIds", []))
+
+
+def identity(kind: str, record: dict) -> str:
+    """The key a record's UUID belongs to: what the record is, which outlives its id."""
+    if kind == "cards":
+        return f"id:{record['number']}"
+    products = _products(record)
+    if products and (kind == "products" or record.get("source") == "tcgplayer"):
+        return f"tcgplayer:{products[0]}"
+    return f"id:{record['id']}"
+
+
+def _aliases(kind: str, record: dict) -> list[str]:
+    """Every key the record answers to: its identity, its id, its TCGplayer products, a card's printings."""
+    if kind == "cards":
+        return [f"id:{record['number']}", *sorted(f"printing:{p['uuid']}" for p in record["printings"])]
+    return list(dict.fromkeys([identity(kind, record), f"id:{record['id']}",
+                               *(f"tcgplayer:{pid}" for pid in _products(record))]))
+
+
+def _assign(registry: dict, kind: str, records: dict[str, dict]) -> dict[str, str]:
+    """{record id: UUID} for the live ``records`` of ``kind``; records new identity keys and the bridges in
+    ``registry``. Nothing is written into the registry unless every record gets a UUID."""
+    keys, bridges = registry[kind]["keys"], registry[kind]["bridges"]
+    ident = {rid: identity(kind, r) for rid, r in records.items()}
     out: dict[str, str] = {}
-    held: dict[str, str] = {}  # UUID -> the live id that holds it
-    new: list[str] = []
-    for key in sorted(records):
-        if key in current:
-            out[key] = current[key]
-            held[current[key]] = key
-        else:
-            new.append(key)
-    for key in new:
-        u = retired.get(key)
-        if u is not None and u in held:
-            raise Conflict(f"{kind} {key} is back, and its UUID {u} is now on {held[u]}")
+    held: dict[str, str] = {}  # UUID -> the live record id holding it
+    for rid in sorted(records, key=lambda r: ident[r]):
+        u = keys.get(ident[rid])
         if u is None:
-            free = sorted({c for c in candidates(key, records[key]) if c and c not in held})
-            u = free[0] if len(free) == 1 else first(kind, key, used)
-        out[key] = u
-        held[u] = key
+            continue
+        if u in held:
+            raise Conflict(f"{kind[:-1]} {rid} ({ident[rid]}) and {held[u]} both hold {u}: one of them came back "
+                           f"after the other took its UUID")
+        out[rid], held[u] = u, rid
+    used = set(keys.values()) | set(bridges.values())
+    for rid in sorted((r for r in records if r not in out), key=lambda r: ident[r]):
+        # a record that left, named by one of this record's keys: the first alias that names a free UUID
+        u = next((h for a in _aliases(kind, records[rid]) if (h := keys.get(a) or bridges.get(a)) and h not in held), None)
+        u = u or first(kind, rid, used)
+        out[rid], held[u] = u, rid
         used.add(u)
-    for key in [k for k in current if k not in records]:
-        retired[key] = current.pop(key)
-    for key, u in out.items():
-        retired.pop(key, None)
-        current[key] = u
+    for rid, record in records.items():
+        keys.setdefault(ident[rid], out[rid])
+        for alias in _aliases(kind, record):
+            if alias != ident[rid]:
+                bridges[alias] = out[rid]
     return out
-
-
-def _anchors(registry: dict, record: dict) -> list[str]:
-    """The UUIDs the record's TCGplayer products were on in the last run."""
-    return [registry["tcgplayer"].get(str(pid)) for pid in record.get("identifiers", {}).get("tcgplayerProductIds", [])]
-
-
-def _note_anchors(registry: dict, records: dict[str, dict], out: dict[str, str]) -> None:
-    for key, record in records.items():
-        for pid in record.get("identifiers", {}).get("tcgplayerProductIds", []):
-            registry["tcgplayer"][str(pid)] = out[key]
 
 
 def _stamp(record: dict, after: str, u: str) -> None:
@@ -118,69 +127,56 @@ def _stamp(record: dict, after: str, u: str) -> None:
             record["uuid"] = u
 
 
+def _run(registry: dict, kind: str, records: dict[str, dict], after: str) -> None:
+    out = _assign(registry, kind, records)
+    for rid, record in records.items():
+        _stamp(record, after, out[rid])
+
+
 def assign_cards(files: dict[str, dict], registry: dict) -> None:
-    """Stamp a UUID on every card and printing of ``files`` (all the card files, so that a record missing from them
-    counts as gone), and record them in ``registry``."""
-    printings = {p["id"]: p for body in files.values() for c in body["cards"] for p in c["printings"]}
-    was_on = {u: pid for pid, u in registry["printings"].items()}  # UUID -> printing id, before this run
-    out = _assign(registry, "printings", printings, lambda key, p: _anchors(registry, p))
-    _note_anchors(registry, printings, out)
-    for pid, p in printings.items():
-        _stamp(p, "id", out[pid])
-
-    cards = {c["number"]: c for body in files.values() for c in body["cards"]}
-    card_uuid = {**registry["retired"]["cards"], **registry["cards"]}
-
-    def left_card(key: str, card: dict) -> list[str]:
-        # the cards that held this card's printings before; one of them, if it left, is this card renumbered
-        before = {rbjson.split_id(was_on[p["uuid"]])[1] for p in card["printings"] if p["uuid"] in was_on}
-        return [card_uuid.get(n) for n in before if n not in cards]
-
-    out = _assign(registry, "cards", cards, left_card)
-    for number, card in cards.items():
-        _stamp(card, "number", out[number])
+    """Stamp a UUID on every card and printing of ``files``, and record them in ``registry``. The printings go first:
+    a card's alias keys are its printings' UUIDs."""
+    _run(registry, "printings", {p["id"]: p for b in files.values() for c in b["cards"] for p in c["printings"]}, "id")
+    _run(registry, "cards", {c["number"]: c for b in files.values() for c in b["cards"]}, "number")
 
 
 def assign_products(sealed: dict[str, dict], registry: dict) -> None:
     """Stamp a UUID on every sealed product, and record them in ``registry``."""
-    products = {p["id"]: p for body in sealed.values() for p in body["products"]}
-    out = _assign(registry, "products", products, lambda key, p: _anchors(registry, p))
-    _note_anchors(registry, products, out)
-    for key, p in products.items():
-        _stamp(p, "id", out[key])
+    _run(registry, "products", {p["id"]: p for b in sealed.values() for p in b["products"]}, "id")
+
+
+def _live(files: dict[str, dict], sealed: dict[str, dict]) -> dict[str, dict[str, dict]]:
+    return {"cards": {c["number"]: c for b in files.values() for c in b["cards"]},
+            "printings": {p["id"]: p for b in files.values() for c in b["cards"] for p in c["printings"]},
+            "products": {p["id"]: p for b in sealed.values() for p in b["products"]}}
 
 
 def errors(files: dict[str, dict], sealed: dict[str, dict], registry: dict) -> list[str]:
-    """The records whose UUID is missing or is not the registry's, the registry's ids that are no record, and any
-    UUID two records share."""
-    live = {"cards": {c["number"]: c for body in files.values() for c in body["cards"]},
-            "printings": {p["id"]: p for body in files.values() for c in body["cards"] for p in c["printings"]},
-            "products": {p["id"]: p for body in sealed.values() for p in body["products"]}}
+    """The records whose UUID is missing or is not the one data/uuids.json gives their identity, and any UUID two
+    records share."""
     found: list[str] = []
     every: collections.Counter = collections.Counter()
-    for kind in KINDS:
-        known = registry[kind]
-        for key, record in sorted(live[kind].items()):
+    for kind, records in _live(files, sealed).items():
+        keys = registry[kind]["keys"]
+        for rid, record in sorted(records.items()):
+            key = identity(kind, record)
             if "uuid" not in record:
-                found.append(f"{kind[:-1]} {key} has no uuid: run tools/uuids.py")
-            elif known.get(key) != record["uuid"]:
-                found.append(f"{kind[:-1]} {key}: uuid {record['uuid']} is not data/uuids.json's {known.get(key)}")
-        found += [f"data/uuids.json: {kind[:-1]} {key} is no longer in the data: run tools/uuids.py"
-                  for key in sorted(known.keys() - live[kind].keys())]
-        every.update(known.values())
-        retired_on_live = set(registry["retired"][kind]) & set(known)
-        found += [f"data/uuids.json: {kind[:-1]} {key} is both live and retired" for key in sorted(retired_on_live)]
-    found += [f"data/uuids.json: uuid {u} is on {n} live records" for u, n in every.items() if n > 1]
+                found.append(f"{kind[:-1]} {rid} has no uuid: run tools/uuids.py")
+                continue
+            if keys.get(key) != record["uuid"]:
+                found.append(f"{kind[:-1]} {rid}: uuid {record['uuid']} is not the one data/uuids.json gives {key}, "
+                             f"{keys.get(key)}: run tools/uuids.py")
+            every[record["uuid"]] += 1
+    found += [f"uuid {u} is on {n} records" for u, n in sorted(every.items()) if n > 1]
     return found
 
 
 def history_errors(before: dict, after: dict) -> list[str]:
-    """What breaks the promise between two versions of the registry: an id whose UUID changed or was dropped."""
+    """What breaks the promise between two versions of the registry: an identity key dropped or given another UUID."""
     found = []
     for kind in KINDS:
-        then = {**before["retired"][kind], **before[kind]}
-        now = {**after["retired"][kind], **after[kind]}
-        for key, u in sorted(then.items()):
+        now = after[kind]["keys"]
+        for key, u in sorted(before[kind]["keys"].items()):
             if key not in now:
                 found.append(f"{kind[:-1]} {key}: its uuid {u} was dropped from data/uuids.json")
             elif now[key] != u:
@@ -198,10 +194,9 @@ def main() -> None:
     for stem, body in sealed.items():
         rbjson.dump(rbjson.SEALED / f"{stem}.json", body)
     save(registry)
-    counts = {k: len(registry[k]) for k in KINDS}
-    retired = sum(len(v) for v in registry["retired"].values())
-    print(f"uuids: {counts['cards']} cards, {counts['printings']} printings, {counts['products']} products; "
-          f"{retired} retired")
+    live = _live(files, sealed)
+    retired = {k: len(set(registry[k]["keys"].values()) - {r["uuid"] for r in live[k].values()}) for k in KINDS}
+    print("uuids: " + ", ".join(f"{len(live[k])} {k} ({retired[k]} retired)" for k in KINDS))
 
 
 if __name__ == "__main__":

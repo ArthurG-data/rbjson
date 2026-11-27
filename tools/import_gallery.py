@@ -173,12 +173,19 @@ def merge_locale(files: dict[str, dict], english: list[dict], entries: list[dict
     return n, problems
 
 
-def others(on_disk: dict[str, dict], files: dict[str, dict]) -> dict[str, dict | None]:
-    """The card files this run did not rebuild, without their gallery printings: a set the gallery no longer lists
-    loses them, and the printings import_tcgcsv minted stay for it to manage. None for a file left with no card."""
+def others(on_disk: dict[str, dict], files: dict[str, dict], listed: set[str]) -> dict[str, dict | None]:
+    """The card files this run did not rebuild. A set the gallery no longer lists (``listed`` is the gallery's own set
+    list) loses its gallery printings, and the printings import_tcgcsv minted stay for it to manage; None for a file
+    left with no card. A set the gallery still lists but sent no entry for is kept as it is: that is a short answer
+    from the gallery, not a removal."""
     out: dict[str, dict | None] = {}
     for stem, body in on_disk.items():
         if stem in files:
+            continue
+        if stem in listed:
+            out[stem] = body
+            print(f"the gallery lists set {stem} but sent no entry for it: cards/{stem}.json is kept as it is",
+                  file=sys.stderr)
             continue
         cards = [{**c, "printings": [p for p in c["printings"] if p["source"] != "riot-gallery"]} for c in body["cards"]]
         cards = [c for c in cards if c["printings"]]
@@ -204,7 +211,7 @@ def main() -> None:
         added, found = merge_locale(files, english, gallery.cards(gallery.fetch(locale, args.cache, args.refresh)), language)
         print(f"{locale}: {added} {language} printings")
         problems += found
-    rest = others(rbjson.load_cards(), files)
+    rest = others(rbjson.load_cards(), files, {s["id"] for s in gallery.sets(g)})
     kept = {stem: body for stem, body in rest.items() if body is not None}
     registry = uuids.load()
     # the files this run does not rebuild (a promo set's) are live too, so their records keep their place
