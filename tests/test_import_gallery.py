@@ -1,3 +1,4 @@
+import copy
 import json
 from pathlib import Path
 
@@ -5,6 +6,7 @@ import pytest
 
 import gallery
 import import_gallery
+import rbjson
 
 FIXTURE = Path(__file__).parent / "fixtures" / "gallery_sample.json"
 
@@ -201,3 +203,45 @@ def test_a_set_the_gallery_no_longer_lists_loses_its_gallery_printings_and_keeps
 def test_a_set_the_gallery_still_lists_but_sent_nothing_for_is_kept_whole():
     body = {"cards": [{"number": "SFD-001", "printings": [{"id": "SFD-001", "source": "riot-gallery"}]}]}
     assert import_gallery.others({"SFD": body}, {}, {"SFD"}) == {"SFD": body}
+
+
+def _tagged(code, tags):
+    e = copy.deepcopy(_entries()[0])
+    e["id"], e["publicCode"], e["tags"] = code.lower().replace("/", "-"), code, {"tags": tags}
+    return e
+
+
+def _fix(card, gallery_says, printed):
+    return {card: {"tags": {"card": card, "field": "tags", "gallery": gallery_says, "printed": printed}}}
+
+
+def test_a_correction_replaces_what_the_gallery_says_with_what_the_card_prints_on_every_printing():
+    entries = [_tagged("OGN-235/298", ["Vi", "Ionia"]), _tagged("OGN-235a/298", ["Vi", "Ionia"])]
+    files, _, disagreements = import_gallery.build_files(entries, {"OGN"}, corrections=_fix("OGN-235", ["Vi", "Ionia"], ["Karma", "Ionia"]))
+    assert files["OGN"]["cards"][0]["tags"] == ["Karma", "Ionia"]
+    assert disagreements == []
+
+
+def test_a_correction_the_gallery_has_caught_up_with_is_a_note_and_one_it_contradicts_is_a_problem():
+    fixes = {**_fix("OGN-235", ["Vi", "Ionia"], ["Karma", "Ionia"]), **_fix("OGN-236", ["A"], ["B"]),
+             **_fix("OGN-237", ["A"], ["B"]), **_fix("OGN-238", ["A"], ["B"])}
+    entries = [_tagged("OGN-235/298", ["Karma", "Ionia"]), _tagged("OGN-236/298", ["A"]), _tagged("OGN-237/298", ["C"])]
+    notes, problems = import_gallery.correction_notes(entries, fixes)
+    assert notes == ["corrections/gallery.json: the gallery now gives OGN-235 its printed tags; remove the correction"]
+    assert [p.split(": ", 1)[1][:40] for p in problems] == ["the gallery now gives OGN-237 tags ['C']", "the gallery no longer lists OGN-238"]
+
+
+def test_the_committed_corrections_name_cards_and_fields_the_importer_knows():
+    facts = {"name", "subtitle", "type", "superTypes", "domains", "tags", *import_gallery.SCALARS}
+    for number, fixes in import_gallery.load_corrections().items():
+        rbjson.split_id(number)
+        assert set(fixes) <= facts, number
+        assert all(f["gallery"] != f["printed"] and f.get("checked") and f.get("note") for f in fixes.values()), number
+
+
+def test_reprints_whose_tags_differ_are_listed_for_review():
+    card = {"name": "Karma", "subtitle": "Channeler"}
+    files = {"OGN": {"cards": [{**card, "number": "OGN-235", "tags": ["Karma", "Ionia"]}]},
+             "SFD": {"cards": [{**card, "number": "SFD-237", "tags": ["Karma"]}, {"number": "SFD-001", "name": "X"}]}}
+    assert import_gallery.reprint_tags(files) == [
+        {"card": "Karma, Channeler", "tags": {"OGN-235": ["Karma", "Ionia"], "SFD-237": ["Karma"]}}]

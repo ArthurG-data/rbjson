@@ -215,6 +215,12 @@ list and every card entry, with its type, domains, costs, stats, tags, rarity, a
 3. A variant whose entry disagrees with the base on a card fact is recorded in `review/gallery.json` and takes
    the base's facts. The gallery tags 21 alternate arts differently from their base card today, and nothing
    else differs.
+   A fact the gallery gets wrong, checked by hand against the printed card, is corrected from
+   `corrections/gallery.json` on every printing of the card. Each correction states what the gallery says and what
+   the card prints: the gallery tags Karma, Channeler (`OGN-235`) `Vi`, and its card reads KARMA · IONIA. When the
+   gallery comes to agree with the card, the importer says the correction can go. When the gallery says something
+   else again, the importer stops so the card is checked again. Cards of one name and subtitle whose tags differ
+   are listed in `review/gallery-tags.json`, since the gallery often tags a showcase reprint without its region.
 4. Each locale in `LOCALES` (`ko-kr` today) is fetched and its entries are matched to the English ones by gallery
    id. An entry whose card image differs from the English entry's is a printing in that language: it joins the
    English card as `<English id>~ko`, with the same collector number, suffix and rarity, the Korean image,
@@ -355,6 +361,8 @@ the gallery import stays as the cross-check.
 - `sets/sets.json` lists every set, with its type, set size, parent and releases (with their key art). Hand-kept.
 - `data/cards/<set>.json` holds the cards of one set, each with every printing of it. Written by the importer.
 - `review/gallery.json` lists the variants whose gallery entry disagrees with their base. Written by the importer.
+- `review/gallery-tags.json` lists the cards of one name and subtitle whose tags differ. Written by the same importer.
+- `corrections/gallery.json` corrects the facts the gallery states wrongly, each checked against the printed card. Hand-kept.
 - `review/tcgplayer-89.json` lists the TCGplayer singles no printing matched and the groups that were not matched.
 - `review/cardmarket-22.json` lists the Cardmarket products left unmatched and the expansions no set claims. Written by `tools/import_cardmarket.py`.
 - `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
@@ -412,9 +420,9 @@ fails, CI turns the release back into a draft, so readers keep getting the previ
    conflict and writes nothing: decide which record it is.
 4. If the gallery stops listing a set, `import_gallery` removes that set's gallery printings and says so. A set
    the gallery still lists but sends no entry for is kept as it is.
-5. Read `review/gallery.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
+5. Read `review/gallery.json`, `review/gallery-tags.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
 6. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
-7. Commit `sets/`, `data/` (with `data/uuids.json`) and `review/` together, so a release never mixes two snapshots.
+7. Commit `sets/`, `corrections/`, `data/` (with `data/uuids.json`) and `review/` together, so a release never mixes two snapshots.
 
 ## Licence
 
