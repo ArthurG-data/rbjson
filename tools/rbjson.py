@@ -45,11 +45,17 @@ def fold(name: str) -> str:
     return " ".join(_NOT_FOLDED.sub("", s.casefold()).split())
 
 
+def oracle_key(card: dict) -> str:
+    """What every reprint of a card shares, as Scryfall's oracle_id does: its folded name and subtitle. Ahri,
+    Inquisitive in Origins and its stamped promo in OPP are one oracle with two numbers. A champion has one card per
+    subtitle, so the subtitle is part of it."""
+    return f"{fold(card['name'])}|{fold(card.get('subtitle') or '')}"
+
+
 def oracle_id(card: dict) -> str:
-    """The UUID every card with this name and subtitle shares, as Scryfall's oracle_id does: Ahri, Inquisitive in
-    Origins and its stamped promo in OPP have one oracleId and two numbers. A champion has one card per subtitle,
-    so the subtitle is part of it."""
-    return str(uuid.uuid5(NAMESPACE, f"oracle:{fold(card['name'])}|{fold(card.get('subtitle') or '')}"))
+    """The oracleId a card's oracle gets when it is first seen, uuid5 of its key. After that data/uuids.json holds it
+    (tools/uuids.py), so a card that Riot renames keeps the oracleId its reprints carry."""
+    return str(uuid.uuid5(NAMESPACE, f"oracle:{oracle_key(card)}"))
 
 
 def _schema(name: str) -> Draft202012Validator:
@@ -121,10 +127,10 @@ def _oracle_errors(files: dict[str, dict]) -> list[str]:
     errors = []
     first: dict[str, dict] = {}
     for _, card in _cards(files):
-        other = first.setdefault(oracle_id(card), card)
+        other = first.setdefault(card.get("oracleId") or oracle_id(card), card)
         for field in ORACLE_FACTS:
             if other is not card and field in card and field in other and card[field] != other[field]:
-                errors.append(f"card {card['number']}: shares its name and subtitle, so its oracleId, with "
+                errors.append(f"card {card['number']}: shares its oracleId with "
                               f"{other['number']} but has {field} {card[field]!r}, not {other[field]!r}")
     return errors
 
@@ -291,7 +297,7 @@ def flatten(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] | 
         for card in body["cards"]:
             facts = {k: v for k, v in card.items() if k != "printings"}
             facts["set"] = card["number"].split("-", 1)[0]
-            facts["oracleId"] = oracle_id(card)
+            facts.setdefault("oracleId", oracle_id(card))
             facts["printings"] = [p["id"] for p in card["printings"]]
             cards[card["number"]] = facts
             for p in card["printings"]:

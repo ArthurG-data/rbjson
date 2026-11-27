@@ -3,6 +3,7 @@
     {
       "number": "OGS-001",
       "uuid": "4422be64-9b71-5535-a44b-e22c57a186a7",
+      "oracleId": "9369b12f-9d3d-5f8b-80f6-78d3a1cccca0",
       "name": "Annie",
       "names": {
         "en": "Annie",
@@ -77,6 +78,7 @@
     {
       "number": "OGS-002",
       "uuid": "f2b06083-0453-5a58-a848-45cda99274de",
+      "oracleId": "fefc5bef-2663-56f3-8c0a-fa8a03908fcd",
       "name": "Firestorm",
       "names": {
         "en": "Firestorm",
@@ -138,6 +140,7 @@
     {
       "number": "OGS-003",
       "uuid": "7ddcf71a-2dbc-5ed8-9ca6-e4bc027042db",
+      "oracleId": "75cf629e-30b0-507e-8281-f39cfc9c8f8e",
       "name": "Incinerate",
       "names": {
         "en": "Incinerate",
@@ -198,6 +201,7 @@
     {
       "number": "OGS-004",
       "uuid": "2e8f6056-e5fe-52ce-82f6-d28073d1fb20",
+      "oracleId": "5f125e17-ef77-5f74-a47f-5405d21647d2",
       "name": "Master Yi",
       "names": {
         "en": "Master Yi",
@@ -272,6 +276,7 @@
     {
       "number": "OGS-005",
       "uuid": "cd16c0b8-7fb9-5785-8b11-490807f248b8",
+      "oracleId": "d647109d-e0dd-5a03-b61f-6809c7bc37c7",
       "name": "Zephyr Sage",
       "names": {
         "en": "Zephyr Sage",
@@ -338,6 +343,7 @@
     {
       "number": "OGS-006",
       "uuid": "1c9a41c0-f3fc-5238-a372-f72ea224ad2d",
+      "oracleId": "62f79fbf-6dd1-528f-bf9f-93780a8653f8",
       "name": "Lux",
       "names": {
         "en": "Lux",
@@ -412,6 +418,7 @@
     {
       "number": "OGS-007",
       "uuid": "beeb11e5-4cfe-5181-a46a-c2667ce1fee9",
+      "oracleId": "d9efeafc-1b2d-5165-8497-6739edf61cf0",
       "name": "Garen",
       "names": {
         "en": "Garen",
@@ -487,6 +494,7 @@
     {
       "number": "OGS-008",
       "uuid": "d63be8d0-31ad-564c-8a88-b9284236d19e",
+      "oracleId": "402ab505-a69f-5530-95d9-295cb5f0721f",
       "name": "Gentlemen's Duel",
       "names": {
         "en": "Gentlemen's Duel",
@@ -548,6 +556,7 @@
     {
       "number": "OGS-009",
       "uuid": "154576b2-2b8a-5531-be00-4cf5f907c79c",
+      "oracleId": "38cd3e1d-e4a4-5763-bcdb-cf44896fa5ad",
       "name": "Master Yi",
       "names": {
         "en": "Master Yi",
@@ -622,6 +631,7 @@
     {
       "number": "OGS-010",
       "uuid": "1c0b5802-b9c6-5c84-968a-58652d5bcfdb",
+      "oracleId": "778a1978-0f98-59ef-8a8e-e5f9d9181169",
       "name": "Annie",
       "names": {
         "en": "Annie",
@@ -696,6 +706,7 @@
     {
       "number": "OGS-011",
       "uuid": "8ead4f87-362e-5577-b770-08c251dd5ad7",
+      "oracleId": "c7ca9417-0df9-5578-bea2-64615ece0fbb",
       "name": "Flash",
       "names": {
         "en": "Flash",
@@ -756,6 +767,7 @@
     {
       "number": "OGS-012",
       "uuid": "a469744b-6502-5ea2-a64f-43879ed37b5b",
+      "oracleId": "647b55e7-deb1-57bd-9bf2-85e72da0ca65",
       "name": "Blast of Power",
       "names": {
         "en": "Blast of Power",
@@ -817,6 +829,7 @@
     {
       "number": "OGS-013",
       "uuid": "a4026b76-fc8e-5a9e-80cd-72b9e33744bf",
+      "oracleId": "8dc9890c-c60e-544f-b7d7-228c451750c3",
       "name": "Garen",
       "names": {
         "en": "Garen",
@@ -892,6 +905,7 @@
     {
       "number": "OGS-014",
       "uuid": "ae074d44-f239-57d9-bc37-565000b9e169",
+      "oracleId": "16f1a308-63c8-51e3-8f98-9775f11502ab",
       "name": "Lux",
       "names": {
         "en": "Lux",
@@ -965,6 +979,7 @@
     {
       "number": "OGS-015",
       "uuid": "810b19f8-b168-54af-b40d-81cb7e30c78b",
+      "oracleId": "e3ad9791-40e7-50ba-97cd-9d227d3ee8a2",
       "name": "Recruit the Vanguard",
       "names": {
         "en": "Recruit the Vanguard",
@@ -1025,6 +1040,7 @@
     {
       "number": "OGS-016",
       "uuid": "e4a40621-fc0d-5448-aea3-76e241bda9ac",
+      "oracleId": "3705453d-ce54-5f4e-bcae-0482a2f5a9ac",
       "name": "Vanguard Attendant",
       "names": {
         "en": "Vanguard Attendant",
@@ -1091,6 +1107,7 @@
     {
       "number": "OGS-017",
       "uuid": "0c56770f-6c36-584e-8170-a78b09a1c4d7",
+      "oracleId": "752e8b72-fea6-51cb-869c-1020f8a4c87d",
       "name": "Dark Child",
       "names": {
         "en": "Dark Child",
@@ -1162,6 +1179,7 @@
     {
       "number": "OGS-018",
       "uuid": "dfeb2ee4-d0cb-5f60-abad-61dab5963919",
+      "oracleId": "971c9bdf-9579-5ad7-b235-19ae92482c50",
       "name": "Tibbers",
       "names": {
         "en": "Tibbers",
@@ -1236,6 +1254,7 @@
     {
       "number": "OGS-019",
       "uuid": "36c5bf64-b74c-58dc-8979-bcc326816b15",
+      "oracleId": "65c11166-ff84-5eac-b162-866e6fd82fcf",
       "name": "Wuju Bladesman",
       "names": {
         "en": "Wuju Bladesman",
@@ -1307,6 +1326,7 @@
     {
       "number": "OGS-020",
       "uuid": "aee8f5f9-fa36-5f71-bf97-e272b737b4f2",
+      "oracleId": "c5511ce2-029b-5a50-961f-b142ec589d24",
       "name": "Highlander",
       "names": {
         "en": "Highlander",
@@ -1379,6 +1399,7 @@
     {
       "number": "OGS-021",
       "uuid": "256e9c91-223b-5de1-90a9-04ae55333c37",
+      "oracleId": "af45efd0-21b1-5cd6-b058-8985bd8074a0",
       "name": "Lady of Luminosity",
       "names": {
         "en": "Lady of Luminosity",
@@ -1450,6 +1471,7 @@
     {
       "number": "OGS-022",
       "uuid": "260d60ec-6fc7-5203-b387-f478ffac3738",
+      "oracleId": "5d52ca3a-95f4-5473-82b4-d6fc4a1a9f54",
       "name": "Final Spark",
       "names": {
         "en": "Final Spark",
@@ -1522,6 +1544,7 @@
     {
       "number": "OGS-023",
       "uuid": "95a5ba2a-f62c-58b9-aacf-b135d9a42130",
+      "oracleId": "faef795d-dd0a-52cd-bb13-68fc913cc7d9",
       "name": "Might of Demacia",
       "names": {
         "en": "Might of Demacia",
@@ -1593,6 +1616,7 @@
     {
       "number": "OGS-024",
       "uuid": "042067a4-9438-5cec-879c-63e92e1b317b",
+      "oracleId": "394d7f69-7301-528c-8b98-3330bd0a1861",
       "name": "Decisive Strike",
       "names": {
         "en": "Decisive Strike",

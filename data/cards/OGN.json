@@ -3,6 +3,7 @@
     {
       "number": "OGN-001",
       "uuid": "42dd1be8-b922-5f7d-8ce5-6a4ae9767bc3",
+      "oracleId": "ca4059de-4471-5665-ba11-d108ef0db016",
       "name": "Blazing Scorcher",
       "names": {
         "en": "Blazing Scorcher",
@@ -69,6 +70,7 @@
     {
       "number": "OGN-002",
       "uuid": "3c21a22a-ccf9-53b9-b7ee-a03c9acf6dae",
+      "oracleId": "f92f6e49-c5b5-555a-965a-0f7d05bab642",
       "name": "Brazen Buccaneer",
       "names": {
         "en": "Brazen Buccaneer",
@@ -135,6 +137,7 @@
     {
       "number": "OGN-003",
       "uuid": "9106c8ca-0ccd-5893-8ffe-6e8dcd1254c5",
+      "oracleId": "d549ae02-8024-5b9d-adc0-fa2b3095fe2a",
       "name": "Chemtech Enforcer",
       "names": {
         "en": "Chemtech Enforcer",
@@ -200,6 +203,7 @@
     {
       "number": "OGN-004",
       "uuid": "aecc8571-0881-54d1-b9dd-767d234147b1",
+      "oracleId": "3bba0feb-c97e-5dfb-b5fe-5b3ba6934127",
       "name": "Cleave",
       "names": {
         "en": "Cleave",
@@ -261,6 +265,7 @@
     {
       "number": "OGN-005",
       "uuid": "a9278982-a605-5918-98d7-79852802f9d2",
+      "oracleId": "d3bee76a-b8df-5ed0-a8e1-52c1be845c65",
       "name": "Disintegrate",
       "names": {
         "en": "Disintegrate",
@@ -322,6 +327,7 @@
     {
       "number": "OGN-006",
       "uuid": "13538fb1-af3e-5c65-87a4-068715c3282e",
+      "oracleId": "a3011ab7-8cd5-5f2e-a63d-d146c7263a9e",
       "name": "Flame Chompers",
       "names": {
         "en": "Flame Chompers",
@@ -387,6 +393,7 @@
     {
       "number": "OGN-007",
       "uuid": "4641b11a-d5f8-551f-aed4-3dfb0de781f7",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "names": {
         "en": "Fury Rune",
@@ -489,6 +496,7 @@
     {
       "number": "OGN-008",
       "uuid": "5b760303-1a28-5c1e-9f81-695a2734ee9e",
+      "oracleId": "7f8e6e5b-e305-59de-9398-0ba2a0a77ce6",
       "name": "Get Excited!",
       "names": {
         "en": "Get Excited!",
@@ -551,6 +559,7 @@
     {
       "number": "OGN-009",
       "uuid": "6a394829-77c1-559e-971a-602d72530eb3",
+      "oracleId": "20637580-03fc-5513-9111-b8b68612e2bc",
       "name": "Hextech Ray",
       "names": {
         "en": "Hextech Ray",
@@ -613,6 +622,7 @@
     {
       "number": "OGN-010",
       "uuid": "ff4081df-5e9d-5696-a5b5-e9f43a9e26e3",
+      "oracleId": "2c460a78-0480-5500-ad4a-3c3d4fa333f4",
       "name": "Legion Rearguard",
       "names": {
         "en": "Legion Rearguard",
@@ -679,6 +689,7 @@
     {
       "number": "OGN-011",
       "uuid": "233be275-208b-5ff4-aa36-8232b0923584",
+      "oracleId": "d0c89f0a-2efb-57b7-941a-a197fe038138",
       "name": "Magma Wurm",
       "names": {
         "en": "Magma Wurm",
@@ -745,6 +756,7 @@
     {
       "number": "OGN-012",
       "uuid": "5ecdabd6-1758-5905-a1a0-12067e902c98",
+      "oracleId": "3a7f5cdd-6708-5714-acc8-3a88d1992ed0",
       "name": "Noxus Hopeful",
       "names": {
         "en": "Noxus Hopeful",
@@ -811,6 +823,7 @@
     {
       "number": "OGN-013",
       "uuid": "420c238f-72c4-5e7d-bb1e-3dbcd63bd2c7",
+      "oracleId": "048ad9e8-f9ad-5f83-9877-d18dcaf52c19",
       "name": "Pouty Poro",
       "names": {
         "en": "Pouty Poro",
@@ -876,6 +889,7 @@
     {
       "number": "OGN-014",
       "uuid": "d8e40721-d276-5b7d-bbab-475c68245306",
+      "oracleId": "664ffe9f-ea1a-59fe-9556-919161a1b3be",
       "name": "Sky Splitter",
       "names": {
         "en": "Sky Splitter",
@@ -938,6 +952,7 @@
     {
       "number": "OGN-015",
       "uuid": "a8ea296a-5992-52cc-ad5f-4e7c3ef70e4e",
+      "oracleId": "2dba89af-0fce-52a1-b21f-5d187b178bc5",
       "name": "Captain Farron",
       "names": {
         "en": "Captain Farron",
@@ -1005,6 +1020,7 @@
     {
       "number": "OGN-016",
       "uuid": "faf50898-476a-545e-b660-e5f440ff09f9",
+      "oracleId": "c64b9775-b21d-542f-9323-e8273246f594",
       "name": "Dangerous Duo",
       "names": {
         "en": "Dangerous Duo",
@@ -1071,6 +1087,7 @@
     {
       "number": "OGN-017",
       "uuid": "bc888ece-e1a2-520c-926f-4f525e15c92b",
+      "oracleId": "cb750080-7780-59f0-a439-270d75af6e20",
       "name": "Iron Ballista",
       "names": {
         "en": "Iron Ballista",
@@ -1132,6 +1149,7 @@
     {
       "number": "OGN-018",
       "uuid": "f91adcb8-2de1-5ce2-ab8f-cc52f814d40d",
+      "oracleId": "a41fa7c3-5c3a-5100-ab39-edec2d2fafd9",
       "name": "Noxus Saboteur",
       "names": {
         "en": "Noxus Saboteur",
@@ -1198,6 +1216,7 @@
     {
       "number": "OGN-019",
       "uuid": "2068a564-133e-5959-a7d8-9a8a26a90735",
+      "oracleId": "d8e79d87-2104-5808-83a4-621411c25b60",
       "name": "Raging Soul",
       "names": {
         "en": "Raging Soul",
@@ -1264,6 +1283,7 @@
     {
       "number": "OGN-020",
       "uuid": "99432611-37f3-5dc4-aa04-dd92e75a074b",
+      "oracleId": "58cb53e6-4a83-56b6-967d-e679918886bc",
       "name": "Scrapyard Champion",
       "names": {
         "en": "Scrapyard Champion",
@@ -1331,6 +1351,7 @@
     {
       "number": "OGN-021",
       "uuid": "1db745d5-c198-523d-b12d-f7bed0e68bea",
+      "oracleId": "9d93d332-ede0-5cf4-a754-79042959838e",
       "name": "Sun Disc",
       "names": {
         "en": "Sun Disc",
@@ -1393,6 +1414,7 @@
     {
       "number": "OGN-022",
       "uuid": "e9cf41aa-88a5-5070-b88a-05b88859929c",
+      "oracleId": "745e00ff-71be-5ca9-9f4e-b0a5dcd334f6",
       "name": "Thermo Beam",
       "names": {
         "en": "Thermo Beam",
@@ -1455,6 +1477,7 @@
     {
       "number": "OGN-023",
       "uuid": "cbf33797-11c9-5ef9-b950-2f9b8bfb9764",
+      "oracleId": "bc63617a-d3f8-58f3-b2fe-53736b406a66",
       "name": "Unlicensed Armory",
       "names": {
         "en": "Unlicensed Armory",
@@ -1516,6 +1539,7 @@
     {
       "number": "OGN-024",
       "uuid": "f1784d37-a2d4-5298-9217-c51e691f69b3",
+      "oracleId": "f3695c36-5d80-540c-bf59-31f8dc44af4b",
       "name": "Void Seeker",
       "names": {
         "en": "Void Seeker",
@@ -1578,6 +1602,7 @@
     {
       "number": "OGN-025",
       "uuid": "66263481-1b61-53e9-90e9-3a56df13e523",
+      "oracleId": "5e2bba31-53bf-5043-9491-a8defdaf732d",
       "name": "Blind Fury",
       "names": {
         "en": "Blind Fury",
@@ -1639,6 +1664,7 @@
     {
       "number": "OGN-026",
       "uuid": "fd8554c5-9509-5d46-bda7-e3249e0c2fff",
+      "oracleId": "843c17f6-40b3-5588-bff4-bc8f2647b8b7",
       "name": "Brynhir Thundersong",
       "names": {
         "en": "Brynhir Thundersong",
@@ -1703,6 +1729,7 @@
     {
       "number": "OGN-027",
       "uuid": "b6a36764-f230-53e9-8acb-c234378b3dda",
+      "oracleId": "45b7cade-2f19-5be0-872d-23f324eba752",
       "name": "Darius",
       "names": {
         "en": "Darius",
@@ -1818,6 +1845,7 @@
     {
       "number": "OGN-028",
       "uuid": "1e1a21c9-9802-527b-9c5b-c4a9bb20bdb9",
+      "oracleId": "d6d86837-d08b-5509-874b-cf508cb15334",
       "name": "Draven",
       "names": {
         "en": "Draven",
@@ -1892,6 +1920,7 @@
     {
       "number": "OGN-029",
       "uuid": "e75de6ac-d9f4-5dea-aa60-11c0a63eab26",
+      "oracleId": "fcbabc0f-4ad3-5cb8-910f-1d29ddac0029",
       "name": "Falling Star",
       "names": {
         "en": "Falling Star",
@@ -1953,6 +1982,7 @@
     {
       "number": "OGN-030",
       "uuid": "a27ea712-20e5-5fc8-910b-ee9d55d70173",
+      "oracleId": "a6a7a716-9990-5936-9d54-8aaf9b96b786",
       "name": "Jinx",
       "names": {
         "en": "Jinx",
@@ -2067,6 +2097,7 @@
     {
       "number": "OGN-031",
       "uuid": "84d93781-eef1-5636-afb2-f6b7c15f4ad6",
+      "oracleId": "09ea5dc4-a940-59d2-8bb9-4e5649fa854d",
       "name": "Raging Firebrand",
       "names": {
         "en": "Raging Firebrand",
@@ -2133,6 +2164,7 @@
     {
       "number": "OGN-032",
       "uuid": "a80698fa-9b63-5e11-8abc-e527eedf0798",
+      "oracleId": "c2f59f3b-d3d1-5b4b-87b1-1bd3330e4f8b",
       "name": "Ravenborn Tome",
       "names": {
         "en": "Ravenborn Tome",
@@ -2193,6 +2225,7 @@
     {
       "number": "OGN-033",
       "uuid": "3fa5c9ea-f973-5e88-bbc0-9f0bff1f8be7",
+      "oracleId": "75208ef4-2c99-5975-9949-fc1a9bb1ad3c",
       "name": "Shakedown",
       "names": {
         "en": "Shakedown",
@@ -2254,6 +2287,7 @@
     {
       "number": "OGN-034",
       "uuid": "a7e24b05-3404-554e-823f-534a6d8d5fd9",
+      "oracleId": "29128c7a-4c0a-5107-beac-312e235ead50",
       "name": "Tryndamere",
       "names": {
         "en": "Tryndamere",
@@ -2328,6 +2362,7 @@
     {
       "number": "OGN-035",
       "uuid": "316db88c-491f-5630-b725-3eef3d377bc6",
+      "oracleId": "c62a5b5a-9952-5392-affb-736f1ec5af91",
       "name": "Vayne",
       "names": {
         "en": "Vayne",
@@ -2402,6 +2437,7 @@
     {
       "number": "OGN-036",
       "uuid": "5824170c-cbad-5c31-b5f9-99b83bf3dbdb",
+      "oracleId": "2f16de5b-fa89-5e16-9d13-f97d401edf7f",
       "name": "Vi",
       "names": {
         "en": "Vi",
@@ -2476,6 +2512,7 @@
     {
       "number": "OGN-037",
       "uuid": "c3d9ccbd-4af0-5080-b377-f7aa6565a804",
+      "oracleId": "8b6e076a-10d5-5f98-af45-1068500df4ca",
       "name": "Immortal Phoenix",
       "names": {
         "en": "Immortal Phoenix",
@@ -2541,6 +2578,7 @@
     {
       "number": "OGN-038",
       "uuid": "3131a915-99b5-5201-9db9-347ca7bf79ac",
+      "oracleId": "6bd4231f-da01-5dd0-ba3b-ed286d641363",
       "name": "Kadregrin the Infernal",
       "names": {
         "en": "Kadregrin the Infernal",
@@ -2607,6 +2645,7 @@
     {
       "number": "OGN-039",
       "uuid": "36109bf8-1eab-5ca0-bdc5-9af745f1d3ff",
+      "oracleId": "50fbf03f-a2eb-508d-8579-634c0a062b4e",
       "name": "Kai'Sa",
       "names": {
         "en": "Kai'Sa",
@@ -2720,6 +2759,7 @@
     {
       "number": "OGN-040",
       "uuid": "9a7195a3-f64b-50a0-8e42-b21b4fe3fee1",
+      "oracleId": "b9176a80-ba0c-504a-a031-3ddfa0400d17",
       "name": "Seal of Rage",
       "names": {
         "en": "Seal of Rage",
@@ -2781,6 +2821,7 @@
     {
       "number": "OGN-041",
       "uuid": "2da57297-3aa3-5052-b5e8-727fed3738d8",
+      "oracleId": "280acfe0-7392-5d62-b0ad-27b9b92719da",
       "name": "Volibear",
       "names": {
         "en": "Volibear",
@@ -2895,6 +2936,7 @@
     {
       "number": "OGN-042",
       "uuid": "dd0bb789-a8d8-59ef-b40a-6025a4f10f23",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "names": {
         "en": "Calm Rune",
@@ -2998,6 +3040,7 @@
     {
       "number": "OGN-043",
       "uuid": "27547395-2251-5830-98a2-3b2adbc14816",
+      "oracleId": "b2ce2757-a762-50d1-861b-9220fbb7a091",
       "name": "Charm",
       "names": {
         "en": "Charm",
@@ -3060,6 +3103,7 @@
     {
       "number": "OGN-044",
       "uuid": "bfaf231a-b380-5e21-a1a9-f3ffb7a32950",
+      "oracleId": "5862a112-e989-54b8-89bf-302d00a4a23b",
       "name": "Clockwork Keeper",
       "names": {
         "en": "Clockwork Keeper",
@@ -3125,6 +3169,7 @@
     {
       "number": "OGN-045",
       "uuid": "f137f1b6-1064-5aaf-9866-1f601a4a76b8",
+      "oracleId": "a147380c-a353-52b3-8e2b-9b5100c7911b",
       "name": "Defy",
       "names": {
         "en": "Defy",
@@ -3187,6 +3232,7 @@
     {
       "number": "OGN-046",
       "uuid": "fb06dffa-d57a-55a9-af05-08b8e8e141ef",
+      "oracleId": "de6f643b-2bd4-54f5-98a1-4bc11d588b99",
       "name": "En Garde",
       "names": {
         "en": "En Garde",
@@ -3248,6 +3294,7 @@
     {
       "number": "OGN-047",
       "uuid": "c12ef075-0749-52bb-abec-0d2fc15f5a43",
+      "oracleId": "2c60ba59-668c-58a4-a518-1fd3d282a5ee",
       "name": "Find Your Center",
       "names": {
         "en": "Find Your Center",
@@ -3309,6 +3356,7 @@
     {
       "number": "OGN-048",
       "uuid": "75df7d7a-e449-5a96-81b8-1e93b12ba828",
+      "oracleId": "ac88f90b-1d40-55ba-8faa-7a83ab31d57c",
       "name": "Meditation",
       "names": {
         "en": "Meditation",
@@ -3370,6 +3418,7 @@
     {
       "number": "OGN-049",
       "uuid": "4a535eea-aaa5-5ef2-9653-6997b5bd7a94",
+      "oracleId": "8d0f70af-f4f5-5e0a-8313-9e426c8ddd97",
       "name": "Playful Phantom",
       "names": {
         "en": "Playful Phantom",
@@ -3436,6 +3485,7 @@
     {
       "number": "OGN-050",
       "uuid": "a04c933e-e471-5e16-9c0e-8fd163126498",
+      "oracleId": "2daf87ae-14c4-54a0-87e2-ac3d83b32e17",
       "name": "Rune Prison",
       "names": {
         "en": "Rune Prison",
@@ -3498,6 +3548,7 @@
     {
       "number": "OGN-051",
       "uuid": "0000172f-0865-5e49-9f58-8644c8a8af57",
+      "oracleId": "1526460f-65e9-5645-85fa-dc8983f0663f",
       "name": "Solari Shieldbearer",
       "names": {
         "en": "Solari Shieldbearer",
@@ -3563,6 +3614,7 @@
     {
       "number": "OGN-052",
       "uuid": "b72bba1e-d8b7-578e-8b8a-0d863986ff7c",
+      "oracleId": "d8f055b6-b8c3-53cb-8c1a-967a9816deb3",
       "name": "Stalwart Poro",
       "names": {
         "en": "Stalwart Poro",
@@ -3628,6 +3680,7 @@
     {
       "number": "OGN-053",
       "uuid": "672cb79d-3021-54ed-9755-a57decd170b8",
+      "oracleId": "49b536c2-c2a8-526e-8a8b-1dfa557e1129",
       "name": "Stand United",
       "names": {
         "en": "Stand United",
@@ -3689,6 +3742,7 @@
     {
       "number": "OGN-054",
       "uuid": "e57eb65c-44ed-50cc-944d-3d31541c75d4",
+      "oracleId": "faae54b9-795d-5884-b904-b5bcf8d5286a",
       "name": "Sunlit Guardian",
       "names": {
         "en": "Sunlit Guardian",
@@ -3754,6 +3808,7 @@
     {
       "number": "OGN-055",
       "uuid": "4009736d-40fd-517c-b642-d045197269fb",
+      "oracleId": "3e808252-bcfc-5c88-9467-bfd73cd7702d",
       "name": "Wielder of Water",
       "names": {
         "en": "Wielder of Water",
@@ -3819,6 +3874,7 @@
     {
       "number": "OGN-056",
       "uuid": "cfca74a5-a45c-5d0e-a4ac-efd5d06f5b24",
+      "oracleId": "160bf3f3-fe1a-5653-9d92-9bb620894343",
       "name": "Adaptatron",
       "names": {
         "en": "Adaptatron",
@@ -3885,6 +3941,7 @@
     {
       "number": "OGN-057",
       "uuid": "1c1aa708-b6f0-59f6-9d54-47b4d1d7b892",
+      "oracleId": "8a0441d7-314b-59a9-89cd-d4d638eca550",
       "name": "Block",
       "names": {
         "en": "Block",
@@ -3946,6 +4003,7 @@
     {
       "number": "OGN-058",
       "uuid": "85ea598a-0520-5c88-9423-f177c17c1793",
+      "oracleId": "1563ec66-aca8-5bdd-9f34-6d92f87bcbff",
       "name": "Discipline",
       "names": {
         "en": "Discipline",
@@ -4007,6 +4065,7 @@
     {
       "number": "OGN-059",
       "uuid": "44c4007b-e6f4-5df3-917c-4d5c3fb0b749",
+      "oracleId": "14af942b-20f6-5846-b1cf-ae3f01087a64",
       "name": "Eclipse Herald",
       "names": {
         "en": "Eclipse Herald",
@@ -4074,6 +4133,7 @@
     {
       "number": "OGN-060",
       "uuid": "265732b4-1ee8-591f-8b9f-ebc2ee0dc4e5",
+      "oracleId": "8f315417-d962-5459-a0ff-277a2e58bfd1",
       "name": "Mask of Foresight",
       "names": {
         "en": "Mask of Foresight",
@@ -4135,6 +4195,7 @@
     {
       "number": "OGN-061",
       "uuid": "988c6850-8093-5ea9-80f4-ec76f16f48f2",
+      "oracleId": "14c6ad93-866a-5c5c-a8c0-b7cc918244b4",
       "name": "Poro Herder",
       "names": {
         "en": "Poro Herder",
@@ -4201,6 +4262,7 @@
     {
       "number": "OGN-062",
       "uuid": "81593717-9a0c-5340-a4fd-c84c2f55038e",
+      "oracleId": "91eb5963-acf1-53da-be47-a194988f9dc0",
       "name": "Reinforce",
       "names": {
         "en": "Reinforce",
@@ -4262,6 +4324,7 @@
     {
       "number": "OGN-063",
       "uuid": "1acde65a-9c75-513a-8e4d-f4a8ea3e4c58",
+      "oracleId": "f6409da8-ca16-5231-87bf-653a865e72d9",
       "name": "Spirit's Refuge",
       "names": {
         "en": "Spirit's Refuge",
@@ -4324,6 +4387,7 @@
     {
       "number": "OGN-064",
       "uuid": "4b8251aa-4fbf-5a7c-a9d8-478facac97e0",
+      "oracleId": "f6c3e2af-6820-504a-9d93-e245c8c9f7c4",
       "name": "Wind Wall",
       "names": {
         "en": "Wind Wall",
@@ -4386,6 +4450,7 @@
     {
       "number": "OGN-065",
       "uuid": "46b494c7-2a87-5ec1-96d1-832c1ddf842c",
+      "oracleId": "2ee0ce4a-1d99-5a0b-b77a-faf17a9d2be4",
       "name": "Wizened Elder",
       "names": {
         "en": "Wizened Elder",
@@ -4451,6 +4516,7 @@
     {
       "number": "OGN-066",
       "uuid": "114b0025-38e2-532a-afc8-33dc53446c17",
+      "oracleId": "4c150c87-a1a5-5efc-ab5a-e367d38aba15",
       "name": "Ahri",
       "names": {
         "en": "Ahri",
@@ -4565,6 +4631,7 @@
     {
       "number": "OGN-067",
       "uuid": "87e85119-b9d7-5f13-afe9-8bd486e75ed9",
+      "oracleId": "62467705-9606-545c-9e32-ba7b69ba4eda",
       "name": "Blitzcrank",
       "names": {
         "en": "Blitzcrank",
@@ -4640,6 +4707,7 @@
     {
       "number": "OGN-068",
       "uuid": "9a75f4f4-a5b6-5428-87b0-6696e95b05f9",
+      "oracleId": "2a5725e2-a417-5981-810d-aa1c73d1b237",
       "name": "Caitlyn",
       "names": {
         "en": "Caitlyn",
@@ -4714,6 +4782,7 @@
     {
       "number": "OGN-069",
       "uuid": "85e812cb-3482-581b-a5b6-c828c6e51c92",
+      "oracleId": "cf06eb46-5212-56ab-b7c9-3db067bef685",
       "name": "Last Stand",
       "names": {
         "en": "Last Stand",
@@ -4775,6 +4844,7 @@
     {
       "number": "OGN-070",
       "uuid": "26d047a3-6cc0-5c4b-9d27-44258bd0f4eb",
+      "oracleId": "d15847a3-fc25-5e12-8135-d3e4777cd887",
       "name": "Mageseeker Warden",
       "names": {
         "en": "Mageseeker Warden",
@@ -4840,6 +4910,7 @@
     {
       "number": "OGN-071",
       "uuid": "7781d003-6f84-54eb-bda6-5ef4b46829fa",
+      "oracleId": "ce5a0db7-25fe-5688-9683-f491dba63577",
       "name": "Party Favors",
       "names": {
         "en": "Party Favors",
@@ -4900,6 +4971,7 @@
     {
       "number": "OGN-072",
       "uuid": "7fec6345-a074-5cf0-a98c-46a7531e05fc",
+      "oracleId": "bbf406cc-1eb2-5a61-adde-c44daebbe5fd",
       "name": "Solari Shrine",
       "names": {
         "en": "Solari Shrine",
@@ -4960,6 +5032,7 @@
     {
       "number": "OGN-073",
       "uuid": "72f1e73c-eea9-5206-a314-4d48e472a114",
+      "oracleId": "e1e2528d-357d-5904-8630-3bd0a0c15b8d",
       "name": "Sona",
       "names": {
         "en": "Sona",
@@ -5034,6 +5107,7 @@
     {
       "number": "OGN-074",
       "uuid": "7d4e17f5-84dd-5d07-8fde-a660f24b4f98",
+      "oracleId": "f970fa38-04bb-5799-92e1-f26cbf4b0694",
       "name": "Taric",
       "names": {
         "en": "Taric",
@@ -5108,6 +5182,7 @@
     {
       "number": "OGN-075",
       "uuid": "18400351-5595-5427-bd34-aded9fa8321c",
+      "oracleId": "afe2ebc2-a9c3-52aa-9e1a-f8a90eb996e7",
       "name": "Tasty Faefolk",
       "names": {
         "en": "Tasty Faefolk",
@@ -5173,6 +5248,7 @@
     {
       "number": "OGN-076",
       "uuid": "61b77c9e-b241-50c3-8120-17576ebba68c",
+      "oracleId": "458c3a9b-4322-56f5-a87a-121a4c91eeb8",
       "name": "Yasuo",
       "names": {
         "en": "Yasuo",
@@ -5287,6 +5363,7 @@
     {
       "number": "OGN-077",
       "uuid": "7e009e71-0d44-5dca-81c4-885520532ae9",
+      "oracleId": "cf824bda-109d-521f-9009-b0a2f06ef606",
       "name": "Zhonya's Hourglass",
       "names": {
         "en": "Zhonya's Hourglass",
@@ -5347,6 +5424,7 @@
     {
       "number": "OGN-078",
       "uuid": "c5d34eda-0c9b-56b3-92c0-7fbf223fed09",
+      "oracleId": "38b61242-e4ef-54ed-beb8-d59d757167ac",
       "name": "Lee Sin",
       "names": {
         "en": "Lee Sin",
@@ -5461,6 +5539,7 @@
     {
       "number": "OGN-079",
       "uuid": "bd5d3809-acce-5bca-bc7c-cb961967d8e2",
+      "oracleId": "9f644182-4cde-5fee-93d4-8b03d02ae945",
       "name": "Leona",
       "names": {
         "en": "Leona",
@@ -5575,6 +5654,7 @@
     {
       "number": "OGN-080",
       "uuid": "b199cfa4-b2c9-5418-918b-fd45da01af95",
+      "oracleId": "e697dcec-0c2a-5397-bc9b-b6804af52181",
       "name": "Mystic Reversal",
       "names": {
         "en": "Mystic Reversal",
@@ -5636,6 +5716,7 @@
     {
       "number": "OGN-081",
       "uuid": "947c25c5-9ca4-5627-9fd7-13f2a6cd7151",
+      "oracleId": "7464f11a-a042-5011-baee-3880e0d7d365",
       "name": "Seal of Focus",
       "names": {
         "en": "Seal of Focus",
@@ -5697,6 +5778,7 @@
     {
       "number": "OGN-082",
       "uuid": "a89162c7-9b60-5910-b4cf-20dd8c0971c8",
+      "oracleId": "ad606328-9ad8-5d36-aa61-552e35498a41",
       "name": "Whiteflame Protector",
       "names": {
         "en": "Whiteflame Protector",
@@ -5763,6 +5845,7 @@
     {
       "number": "OGN-083",
       "uuid": "f622f37c-6415-5076-a09f-915dedac0f6a",
+      "oracleId": "0993620e-ad2a-59fe-8ce3-b9bfbe9616c2",
       "name": "Consult the Past",
       "names": {
         "en": "Consult the Past",
@@ -5824,6 +5907,7 @@
     {
       "number": "OGN-084",
       "uuid": "8685ef7d-52c4-559e-8239-911a0a643fbe",
+      "oracleId": "7f482e55-8326-5d3f-8d09-1d5f8d2c63f6",
       "name": "Eager Apprentice",
       "names": {
         "en": "Eager Apprentice",
@@ -5889,6 +5973,7 @@
     {
       "number": "OGN-085",
       "uuid": "a8e255ae-0286-51f3-9d88-6866e089b134",
+      "oracleId": "f13353b7-ded1-5506-8f25-c9430cff5c57",
       "name": "Falling Comet",
       "names": {
         "en": "Falling Comet",
@@ -5950,6 +6035,7 @@
     {
       "number": "OGN-086",
       "uuid": "1e3b72e7-c6b4-52d1-aba6-5ba75357ddcf",
+      "oracleId": "f6191941-8ec4-5ece-83c8-851781f0874e",
       "name": "Jeweled Colossus",
       "names": {
         "en": "Jeweled Colossus",
@@ -6015,6 +6101,7 @@
     {
       "number": "OGN-087",
       "uuid": "b9433058-b406-5e6c-ae03-9698cce0c705",
+      "oracleId": "60691f7b-cf07-5197-8822-dc3b043990ee",
       "name": "Lecturing Yordle",
       "names": {
         "en": "Lecturing Yordle",
@@ -6081,6 +6168,7 @@
     {
       "number": "OGN-088",
       "uuid": "f3af4dc9-ede4-5c40-b034-5237f3f7ee40",
+      "oracleId": "30e3abbe-3fb6-50e7-a6d6-2a3c9579d232",
       "name": "Mega-Mech",
       "names": {
         "en": "Mega-Mech",
@@ -6147,6 +6235,7 @@
     {
       "number": "OGN-089",
       "uuid": "cd0fc22c-a24b-5011-a05e-cd36277d551f",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "names": {
         "en": "Mind Rune",
@@ -6250,6 +6339,7 @@
     {
       "number": "OGN-090",
       "uuid": "d95393ed-d61a-53d4-9a4c-c76637fe7847",
+      "oracleId": "9b515ec9-f08d-5a83-abb3-67c6a958bf3f",
       "name": "Orb of Regret",
       "names": {
         "en": "Orb of Regret",
@@ -6311,6 +6401,7 @@
     {
       "number": "OGN-091",
       "uuid": "8a12fd60-60ef-585c-a5de-81f5ab7e828b",
+      "oracleId": "6189a2e6-04fd-5e18-9cfc-6ad834ebb6ed",
       "name": "Pit Crew",
       "names": {
         "en": "Pit Crew",
@@ -6376,6 +6467,7 @@
     {
       "number": "OGN-092",
       "uuid": "321dcf23-2710-53b3-948f-fc12de8a73fa",
+      "oracleId": "065a548f-f4b8-509d-a114-d03aa291c665",
       "name": "Riptide Rex",
       "names": {
         "en": "Riptide Rex",
@@ -6443,6 +6535,7 @@
     {
       "number": "OGN-093",
       "uuid": "fb91db12-2786-5747-bfb4-dbe951182d07",
+      "oracleId": "9cf136fa-7df2-5763-9a0a-5bbb8c746fe7",
       "name": "Smoke Screen",
       "names": {
         "en": "Smoke Screen",
@@ -6505,6 +6598,7 @@
     {
       "number": "OGN-094",
       "uuid": "5c86fc2b-255c-55ac-b406-8bf6de2557f8",
+      "oracleId": "b01f6c5f-baa3-54c4-bf43-22bf4d915261",
       "name": "Sprite Call",
       "names": {
         "en": "Sprite Call",
@@ -6566,6 +6660,7 @@
     {
       "number": "OGN-095",
       "uuid": "2c2b0850-e308-593c-8026-ada703eb0e38",
+      "oracleId": "0f0cd3e4-1fc1-57d1-9411-7da5a2b3c8d1",
       "name": "Stupefy",
       "names": {
         "en": "Stupefy",
@@ -6627,6 +6722,7 @@
     {
       "number": "OGN-096",
       "uuid": "43a90850-8784-5145-b086-79469cb6f75e",
+      "oracleId": "91135da6-07e3-5233-bf04-e455fafaf493",
       "name": "Watchful Sentry",
       "names": {
         "en": "Watchful Sentry",
@@ -6692,6 +6788,7 @@
     {
       "number": "OGN-097",
       "uuid": "ab1acd37-6c4f-5efb-b36d-0a3478ee30b2",
+      "oracleId": "c978f64b-e40d-5c93-a209-68cdc617d106",
       "name": "Blastcone Fae",
       "names": {
         "en": "Blastcone Fae",
@@ -6759,6 +6856,7 @@
     {
       "number": "OGN-098",
       "uuid": "81c5fc96-a558-5846-b2fa-d4d603e68334",
+      "oracleId": "77b86506-e9a9-5e6e-9087-56bd6e515d8e",
       "name": "Energy Conduit",
       "names": {
         "en": "Energy Conduit",
@@ -6820,6 +6918,7 @@
     {
       "number": "OGN-099",
       "uuid": "b5c7bc4b-442d-5264-bfa8-ef73ceb43e88",
+      "oracleId": "3a970f0d-82f0-5956-aa28-96d424fd1e74",
       "name": "Garbage Grabber",
       "names": {
         "en": "Garbage Grabber",
@@ -6881,6 +6980,7 @@
     {
       "number": "OGN-100",
       "uuid": "c20153bf-e2ad-5f22-856f-0966b8a1b435",
+      "oracleId": "9a1a0e05-6f38-53a6-9992-f31d46d0459d",
       "name": "Gemcraft Seer",
       "names": {
         "en": "Gemcraft Seer",
@@ -6947,6 +7047,7 @@
     {
       "number": "OGN-101",
       "uuid": "444807bd-dead-5b7a-a46c-8f10dfe4152f",
+      "oracleId": "a1290d95-9b1f-5fd4-9ac7-df3c1f4e159c",
       "name": "Mushroom Pouch",
       "names": {
         "en": "Mushroom Pouch",
@@ -7008,6 +7109,7 @@
     {
       "number": "OGN-102",
       "uuid": "1cefa6db-1b94-5b5e-aa7c-b5b41ece4db9",
+      "oracleId": "c7401c83-58a2-5327-bc12-71f9ebd036fd",
       "name": "Portal Rescue",
       "names": {
         "en": "Portal Rescue",
@@ -7070,6 +7172,7 @@
     {
       "number": "OGN-103",
       "uuid": "6680e35c-e7bc-5d29-8302-372187365382",
+      "oracleId": "6b8b9be3-a523-5604-8910-48ea58762f73",
       "name": "Ravenbloom Student",
       "names": {
         "en": "Ravenbloom Student",
@@ -7135,6 +7238,7 @@
     {
       "number": "OGN-104",
       "uuid": "43f33383-1bfb-5e01-bde4-fd9c711c5a1a",
+      "oracleId": "e8a50339-b420-5c36-a055-eb23d155384e",
       "name": "Retreat",
       "names": {
         "en": "Retreat",
@@ -7196,6 +7300,7 @@
     {
       "number": "OGN-105",
       "uuid": "46244fd0-4ffe-5df5-b1b3-8424765d6c78",
+      "oracleId": "24a17bf3-9a0d-578c-b5f7-2c9b618bae07",
       "name": "Singularity",
       "names": {
         "en": "Singularity",
@@ -7258,6 +7363,7 @@
     {
       "number": "OGN-106",
       "uuid": "0ba7e24e-02fe-52a3-a37e-e0a9af83bb5b",
+      "oracleId": "605a9255-8022-5355-9441-68481e012a9d",
       "name": "Sprite Mother",
       "names": {
         "en": "Sprite Mother",
@@ -7324,6 +7430,7 @@
     {
       "number": "OGN-107",
       "uuid": "f16b0cac-5976-5187-8ed7-ae9073add8c4",
+      "oracleId": "f5ae67b5-8af8-59c5-bba7-e611027322a2",
       "name": "Ava Achiever",
       "names": {
         "en": "Ava Achiever",
@@ -7388,6 +7495,7 @@
     {
       "number": "OGN-108",
       "uuid": "0434fc9b-7bee-52d2-b7d6-bbc530bc1bf4",
+      "oracleId": "324940b4-5fd6-54ac-963f-e6028db2b6de",
       "name": "Convergent Mutation",
       "names": {
         "en": "Convergent Mutation",
@@ -7449,6 +7557,7 @@
     {
       "number": "OGN-109",
       "uuid": "84760aa6-18d8-57b9-bda1-0a6bc4fb5451",
+      "oracleId": "67e7da26-f538-55eb-b61d-5d16a0bf9b55",
       "name": "Dr. Mundo",
       "names": {
         "en": "Dr. Mundo",
@@ -7523,6 +7632,7 @@
     {
       "number": "OGN-110",
       "uuid": "3109fd2c-67f6-5c96-8faf-d11767319e23",
+      "oracleId": "a8f259ee-a328-5e04-8736-f60ac335594a",
       "name": "Ekko",
       "names": {
         "en": "Ekko",
@@ -7597,6 +7707,7 @@
     {
       "number": "OGN-111",
       "uuid": "58bcfeb5-b962-566f-8a70-638cc5e2b177",
+      "oracleId": "80596503-3983-5f39-890f-8490249f2254",
       "name": "Heimerdinger",
       "names": {
         "en": "Heimerdinger",
@@ -7672,6 +7783,7 @@
     {
       "number": "OGN-112",
       "uuid": "4f0fa994-837d-5a69-8b0c-db6ab0a486e4",
+      "oracleId": "3cb86226-25d6-5189-ab97-873c9e76a138",
       "name": "Kai'Sa",
       "names": {
         "en": "Kai'Sa",
@@ -7786,6 +7898,7 @@
     {
       "number": "OGN-113",
       "uuid": "66f6da68-f319-5fde-bcfb-10aa1c64b464",
+      "oracleId": "d09b2daf-e989-5918-b264-26ad53b68683",
       "name": "Malzahar",
       "names": {
         "en": "Malzahar",
@@ -7859,6 +7972,7 @@
     {
       "number": "OGN-114",
       "uuid": "cfcf13b3-1431-5680-98e4-449b49985591",
+      "oracleId": "a279e364-07fa-56af-9dbe-8795840e2dab",
       "name": "Progress Day",
       "names": {
         "en": "Progress Day",
@@ -7920,6 +8034,7 @@
     {
       "number": "OGN-115",
       "uuid": "f2fb71f4-95f4-5668-a448-77e058a6199a",
+      "oracleId": "6b3e0bd5-72a5-5c9d-b1a5-f7ed4ab137c3",
       "name": "Promising Future",
       "names": {
         "en": "Promising Future",
@@ -7981,6 +8096,7 @@
     {
       "number": "OGN-116",
       "uuid": "e003cb6d-375d-59a9-9219-41e2d78fa325",
+      "oracleId": "b4a5ac07-577f-5f2e-b577-44d264468b2c",
       "name": "Thousand-Tailed Watcher",
       "names": {
         "en": "Thousand-Tailed Watcher",
@@ -8046,6 +8162,7 @@
     {
       "number": "OGN-117",
       "uuid": "db6a8f9b-edf1-5aba-b4f7-38ea87fe6430",
+      "oracleId": "ed3bad87-ba82-5795-8b93-0222b4967e59",
       "name": "Viktor",
       "names": {
         "en": "Viktor",
@@ -8160,6 +8277,7 @@
     {
       "number": "OGN-118",
       "uuid": "fbc132cf-dd31-506c-b134-6cbee28e9322",
+      "oracleId": "97a7b2a4-be2a-5b6d-8ef6-f387f5ed3b75",
       "name": "Wraith of Echoes",
       "names": {
         "en": "Wraith of Echoes",
@@ -8226,6 +8344,7 @@
     {
       "number": "OGN-119",
       "uuid": "4a85c80e-3437-575d-a455-976f560f79a7",
+      "oracleId": "dd18aebe-b532-5dc4-b566-576f98e0fd3f",
       "name": "Ahri",
       "names": {
         "en": "Ahri",
@@ -8340,6 +8459,7 @@
     {
       "number": "OGN-120",
       "uuid": "2cc4aca4-b8be-56e4-ae3b-b3a6415af773",
+      "oracleId": "98e51c6d-1c3f-51e7-8004-d69782adcc26",
       "name": "Seal of Insight",
       "names": {
         "en": "Seal of Insight",
@@ -8401,6 +8521,7 @@
     {
       "number": "OGN-121",
       "uuid": "a5c0ee76-83b9-5d15-b768-7884468f47fb",
+      "oracleId": "7946e8e7-1b27-513a-8ae2-6af47746a8e2",
       "name": "Teemo",
       "names": {
         "en": "Teemo",
@@ -8516,6 +8637,7 @@
     {
       "number": "OGN-122",
       "uuid": "3dac53bf-7b22-5302-8de1-50dba96057e0",
+      "oracleId": "dfda8874-fd00-5b66-a361-702f6b7d0c70",
       "name": "Time Warp",
       "names": {
         "en": "Time Warp",
@@ -8577,6 +8699,7 @@
     {
       "number": "OGN-123",
       "uuid": "955aa640-01ff-5c98-87b7-559eb0e51474",
+      "oracleId": "5e787298-8c8d-5178-b4c0-621c4e822410",
       "name": "Unchecked Power",
       "names": {
         "en": "Unchecked Power",
@@ -8638,6 +8761,7 @@
     {
       "number": "OGN-124",
       "uuid": "d34a6307-e4ef-522c-97fb-496606333189",
+      "oracleId": "3b6b890d-cffa-546f-af1c-3225b0067ee3",
       "name": "Arena Bar",
       "names": {
         "en": "Arena Bar",
@@ -8699,6 +8823,7 @@
     {
       "number": "OGN-125",
       "uuid": "b8153255-85e3-5bfb-a1c2-f9524fc6756a",
+      "oracleId": "f4903ba2-5412-5c95-b63a-8190f37c8494",
       "name": "Bilgewater Bully",
       "names": {
         "en": "Bilgewater Bully",
@@ -8764,6 +8889,7 @@
     {
       "number": "OGN-126",
       "uuid": "6ff3b9e0-1057-583a-ace5-a6a3d8ed5616",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "names": {
         "en": "Body Rune",
@@ -8866,6 +8992,7 @@
     {
       "number": "OGN-127",
       "uuid": "bfdd6f0d-38e4-538d-85e4-79c4594a219a",
+      "oracleId": "a5600a1b-5a4d-5784-9baa-f38c25a0a36e",
       "name": "Cannon Barrage",
       "names": {
         "en": "Cannon Barrage",
@@ -8928,6 +9055,7 @@
     {
       "number": "OGN-128",
       "uuid": "2a9f6ace-c59e-558f-8608-68452fc4b393",
+      "oracleId": "aa0c4b80-fb8e-5ef4-9447-e02156b1c74d",
       "name": "Challenge",
       "names": {
         "en": "Challenge",
@@ -8990,6 +9118,7 @@
     {
       "number": "OGN-129",
       "uuid": "e83b0d4b-f773-5f78-9352-558abf040f21",
+      "oracleId": "6c1fd64d-2c15-5c90-9ebf-7d2e102db618",
       "name": "Confront",
       "names": {
         "en": "Confront",
@@ -9051,6 +9180,7 @@
     {
       "number": "OGN-130",
       "uuid": "b538b2b1-5323-58a9-b941-7fc5cf14e172",
+      "oracleId": "088d4060-6876-5813-9725-96f69e3c0101",
       "name": "Crackshot Corsair",
       "names": {
         "en": "Crackshot Corsair",
@@ -9117,6 +9247,7 @@
     {
       "number": "OGN-131",
       "uuid": "70ab7131-9957-542f-90bd-c17bda074f9f",
+      "oracleId": "75f6f8f8-f1de-5199-a222-bab2863f7433",
       "name": "Dune Drake",
       "names": {
         "en": "Dune Drake",
@@ -9183,6 +9314,7 @@
     {
       "number": "OGN-132",
       "uuid": "d4072403-bfa3-5576-8c6e-c797f790d031",
+      "oracleId": "5ee64fff-35f9-5d34-bb7b-a610a37bfad4",
       "name": "First Mate",
       "names": {
         "en": "First Mate",
@@ -9249,6 +9381,7 @@
     {
       "number": "OGN-133",
       "uuid": "abdf20b6-588e-5ae7-ad81-cf1426d7dc22",
+      "oracleId": "4f20c62b-fee9-5dd0-8409-2a12bfd75118",
       "name": "Flurry of Blades",
       "names": {
         "en": "Flurry of Blades",
@@ -9310,6 +9443,7 @@
     {
       "number": "OGN-134",
       "uuid": "7ec339e3-17bd-5aa9-ba95-aedbf40ffc17",
+      "oracleId": "dc76af9a-796b-54f1-9eed-7e5b0c4b2a7a",
       "name": "Mobilize",
       "names": {
         "en": "Mobilize",
@@ -9371,6 +9505,7 @@
     {
       "number": "OGN-135",
       "uuid": "45879cd6-1a2e-5a12-aa26-1262f5d4cb8f",
+      "oracleId": "b145b22c-97aa-50a8-b873-a2b6efc9da80",
       "name": "Pakaa Cub",
       "names": {
         "en": "Pakaa Cub",
@@ -9437,6 +9572,7 @@
     {
       "number": "OGN-136",
       "uuid": "c95188e1-f1c8-5e9c-96c6-a8984a04654f",
+      "oracleId": "a991500f-e6b4-5a50-a160-7156d4d19e21",
       "name": "Pit Rookie",
       "names": {
         "en": "Pit Rookie",
@@ -9502,6 +9638,7 @@
     {
       "number": "OGN-137",
       "uuid": "f8240796-7f0b-5d0f-882f-ff81a09ecf5f",
+      "oracleId": "734836ca-68f4-5fe4-9d79-5dff1ede5320",
       "name": "Stormclaw Ursine",
       "names": {
         "en": "Stormclaw Ursine",
@@ -9567,6 +9704,7 @@
     {
       "number": "OGN-138",
       "uuid": "41a5c76a-3588-5a3e-a96f-b28a409c524b",
+      "oracleId": "2a6ff064-1586-5781-ab2a-dbfb66150312",
       "name": "Catalyst of Aeons",
       "names": {
         "en": "Catalyst of Aeons",
@@ -9628,6 +9766,7 @@
     {
       "number": "OGN-139",
       "uuid": "3f10094c-e20a-50cc-b432-84d7e8f8bde4",
+      "oracleId": "1a822063-300c-59b4-adff-fea77f286115",
       "name": "Cithria of Cloudfield",
       "names": {
         "en": "Cithria of Cloudfield",
@@ -9694,6 +9833,7 @@
     {
       "number": "OGN-140",
       "uuid": "3347c049-2758-58fb-b40d-aa530e16c9fa",
+      "oracleId": "fcf1f96c-5257-55ee-b0b1-ad7c65057a60",
       "name": "Herald of Scales",
       "names": {
         "en": "Herald of Scales",
@@ -9759,6 +9899,7 @@
     {
       "number": "OGN-141",
       "uuid": "19a5ed7d-c594-58fb-b934-d8cc14a95091",
+      "oracleId": "94f3ff30-3151-5a06-96c4-d30ad18a3803",
       "name": "Kinkou Monk",
       "names": {
         "en": "Kinkou Monk",
@@ -9825,6 +9966,7 @@
     {
       "number": "OGN-142",
       "uuid": "2f1a5dfe-05ae-5455-912f-fb55fed76fd6",
+      "oracleId": "c1aa7b6c-446e-5ba9-bf20-209e05bb74db",
       "name": "Mountain Drake",
       "names": {
         "en": "Mountain Drake",
@@ -9890,6 +10032,7 @@
     {
       "number": "OGN-143",
       "uuid": "f49a190a-ced0-59d3-a8cc-c9bfa0e299df",
+      "oracleId": "3aade7a5-aca9-56d6-90c6-345af263c722",
       "name": "Pirate's Haven",
       "names": {
         "en": "Pirate's Haven",
@@ -9951,6 +10094,7 @@
     {
       "number": "OGN-144",
       "uuid": "c6945873-c214-593e-8c0e-02abbf8f6f5c",
+      "oracleId": "1d3e564d-5c99-54c8-b63b-8ea06ed6f115",
       "name": "Spoils of War",
       "names": {
         "en": "Spoils of War",
@@ -10013,6 +10157,7 @@
     {
       "number": "OGN-145",
       "uuid": "7f4d7b16-8dea-5efd-8ed0-99ade0a3a536",
+      "oracleId": "39c97343-8424-5ada-9be4-18a68acc06d4",
       "name": "Unyielding Spirit",
       "names": {
         "en": "Unyielding Spirit",
@@ -10075,6 +10220,7 @@
     {
       "number": "OGN-146",
       "uuid": "5550265b-2042-5a47-a596-63409aea84bc",
+      "oracleId": "1eafc319-b1e3-5d0a-b817-31c0ec2c97d3",
       "name": "Wallop",
       "names": {
         "en": "Wallop",
@@ -10136,6 +10282,7 @@
     {
       "number": "OGN-147",
       "uuid": "8f190f35-ada8-5ae7-a034-4364334458fd",
+      "oracleId": "6ce7de64-62b5-548c-9b1e-b1ec8d865780",
       "name": "Wildclaw Shaman",
       "names": {
         "en": "Wildclaw Shaman",
@@ -10201,6 +10348,7 @@
     {
       "number": "OGN-148",
       "uuid": "ded8324f-5524-536c-9b6c-649b1ce5911b",
+      "oracleId": "a1e45530-8e14-5a6a-84ea-48c4eddeee50",
       "name": "Anivia",
       "names": {
         "en": "Anivia",
@@ -10276,6 +10424,7 @@
     {
       "number": "OGN-149",
       "uuid": "22b9ed4b-577e-59ca-a3bf-a673249b747f",
+      "oracleId": "327f9181-adfb-5768-b739-b22aa1b38272",
       "name": "Carnivorous Snapvine",
       "names": {
         "en": "Carnivorous Snapvine",
@@ -10341,6 +10490,7 @@
     {
       "number": "OGN-150",
       "uuid": "30c59c41-b963-5064-8b70-8e4d0c7e1a21",
+      "oracleId": "e5641ca0-1046-5fd7-ae18-0b84acd6180c",
       "name": "Kraken Hunter",
       "names": {
         "en": "Kraken Hunter",
@@ -10407,6 +10557,7 @@
     {
       "number": "OGN-151",
       "uuid": "5c1f8771-1e15-520a-96df-5ab852e70b91",
+      "oracleId": "8a9dbead-70db-5df3-bd98-1af74cab6d4c",
       "name": "Lee Sin",
       "names": {
         "en": "Lee Sin",
@@ -10520,6 +10671,7 @@
     {
       "number": "OGN-152",
       "uuid": "6c9d291a-1034-54ae-84b1-0d6f297db441",
+      "oracleId": "eea4f7da-51a6-51ab-83e7-907d155a94a7",
       "name": "Mistfall",
       "names": {
         "en": "Mistfall",
@@ -10580,6 +10732,7 @@
     {
       "number": "OGN-153",
       "uuid": "9d6fe03b-0c28-5044-9953-9ba22c973790",
+      "oracleId": "ebe505d9-a047-5744-bce4-53fa4ecd017d",
       "name": "Overt Operation",
       "names": {
         "en": "Overt Operation",
@@ -10641,6 +10794,7 @@
     {
       "number": "OGN-154",
       "uuid": "1c766ec5-5a1b-578e-aec2-43e206320e4a",
+      "oracleId": "4dbbd37d-1e18-5cf1-9a52-66c1edaa418c",
       "name": "Primal Strength",
       "names": {
         "en": "Primal Strength",
@@ -10702,6 +10856,7 @@
     {
       "number": "OGN-155",
       "uuid": "82fa5181-ab92-5642-9a27-738ef57caf7b",
+      "oracleId": "38a6f9de-ab01-507e-8110-02792049f85b",
       "name": "Qiyana",
       "names": {
         "en": "Qiyana",
@@ -10776,6 +10931,7 @@
     {
       "number": "OGN-156",
       "uuid": "890d76d4-efdf-5c71-9e71-9700bdf4a4f5",
+      "oracleId": "4a51826f-e5ad-59b2-af1f-6921dee07f97",
       "name": "Sabotage",
       "names": {
         "en": "Sabotage",
@@ -10837,6 +10993,7 @@
     {
       "number": "OGN-157",
       "uuid": "b9589993-e487-54a3-953f-fd677c3c54c8",
+      "oracleId": "1ecd4855-697b-5889-95fa-7aba06d6f668",
       "name": "Udyr",
       "names": {
         "en": "Udyr",
@@ -10911,6 +11068,7 @@
     {
       "number": "OGN-158",
       "uuid": "876d98af-d9d4-5baa-97f7-bd3f8ec08851",
+      "oracleId": "0faf43f5-6425-5592-994b-14419933d0fd",
       "name": "Volibear",
       "names": {
         "en": "Volibear",
@@ -11025,6 +11183,7 @@
     {
       "number": "OGN-159",
       "uuid": "fe22d04f-0008-5ef7-8de1-515a100471ec",
+      "oracleId": "305b65d0-692e-5b70-9a07-3fd9f6057bdb",
       "name": "Warwick",
       "names": {
         "en": "Warwick",
@@ -11100,6 +11259,7 @@
     {
       "number": "OGN-160",
       "uuid": "74b3c187-3393-50f8-97c3-1eb1205db9c6",
+      "oracleId": "6ad4bf43-be3e-5174-a494-b391c4938cf5",
       "name": "Dazzling Aurora",
       "names": {
         "en": "Dazzling Aurora",
@@ -11161,6 +11321,7 @@
     {
       "number": "OGN-161",
       "uuid": "f3a33bb5-e641-5ce2-bb77-5efe4f992292",
+      "oracleId": "b848e637-f6dc-53bb-b097-dd302b7f67ad",
       "name": "Deadbloom Predator",
       "names": {
         "en": "Deadbloom Predator",
@@ -11226,6 +11387,7 @@
     {
       "number": "OGN-162",
       "uuid": "b330623b-c852-5432-85f0-7076d7ea8bf6",
+      "oracleId": "2a9e6bbf-a3dd-592f-9087-d56d3390d69f",
       "name": "Miss Fortune",
       "names": {
         "en": "Miss Fortune",
@@ -11341,6 +11503,7 @@
     {
       "number": "OGN-163",
       "uuid": "685de5ae-7f5e-5355-ac8b-90d82c725d01",
+      "oracleId": "55c4a6e7-a6e7-5793-85ed-c7b102b110bb",
       "name": "Seal of Strength",
       "names": {
         "en": "Seal of Strength",
@@ -11402,6 +11565,7 @@
     {
       "number": "OGN-164",
       "uuid": "bfd8d7d0-59eb-5d67-8892-af17c10c5d4a",
+      "oracleId": "96de8575-74af-5f70-b6e6-678f528ce2e3",
       "name": "Sett",
       "names": {
         "en": "Sett",
@@ -11516,6 +11680,7 @@
     {
       "number": "OGN-165",
       "uuid": "39c3af8f-b4d8-5219-88f6-4294424a98ae",
+      "oracleId": "6a2d2f4a-3e04-5278-9e71-6b38ceb61d8b",
       "name": "Cemetery Attendant",
       "names": {
         "en": "Cemetery Attendant",
@@ -11583,6 +11748,7 @@
     {
       "number": "OGN-166",
       "uuid": "ef47815c-f1aa-50f2-a100-2aa5f5ab99a6",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "names": {
         "en": "Chaos Rune",
@@ -11685,6 +11851,7 @@
     {
       "number": "OGN-167",
       "uuid": "52479c50-b55d-5f40-8a9e-68953ef11ad0",
+      "oracleId": "222f96b7-a2af-5a08-b4c9-1377973054f9",
       "name": "Ember Monk",
       "names": {
         "en": "Ember Monk",
@@ -11750,6 +11917,7 @@
     {
       "number": "OGN-168",
       "uuid": "cc82216a-de3b-5e43-95db-da8a8747400f",
+      "oracleId": "f310d30e-e3c6-5b47-a9c4-07691fc9359b",
       "name": "Fight or Flight",
       "names": {
         "en": "Fight or Flight",
@@ -11811,6 +11979,7 @@
     {
       "number": "OGN-169",
       "uuid": "77a8e90a-6a22-561d-a9cf-d6fd6e7ed5bd",
+      "oracleId": "0f361f2d-a9c3-5f51-a2bb-60282479d5cd",
       "name": "Gust",
       "names": {
         "en": "Gust",
@@ -11872,6 +12041,7 @@
     {
       "number": "OGN-170",
       "uuid": "9eefd3bc-f9a5-5f53-be22-e2724aee23f7",
+      "oracleId": "9959faa1-eb35-5018-b47e-f3b94900592e",
       "name": "Morbid Return",
       "names": {
         "en": "Morbid Return",
@@ -11933,6 +12103,7 @@
     {
       "number": "OGN-171",
       "uuid": "636f0152-a4b2-58e8-b69c-de110b8a1d82",
+      "oracleId": "699e6d46-9481-5d54-9013-d08fa0461819",
       "name": "Mystic Poro",
       "names": {
         "en": "Mystic Poro",
@@ -11998,6 +12169,7 @@
     {
       "number": "OGN-172",
       "uuid": "b4c8193c-fbbf-5a91-88eb-6f6bfca75ee6",
+      "oracleId": "fdf6bb82-1c4f-599e-b8c3-3afdb5c3fc46",
       "name": "Rebuke",
       "names": {
         "en": "Rebuke",
@@ -12060,6 +12232,7 @@
     {
       "number": "OGN-173",
       "uuid": "34bd1af2-5cd9-5f11-aedc-08b0164e7a43",
+      "oracleId": "ab50436d-3acc-50ec-adb1-2e8159edbcff",
       "name": "Ride the Wind",
       "names": {
         "en": "Ride the Wind",
@@ -12122,6 +12295,7 @@
     {
       "number": "OGN-174",
       "uuid": "fae36556-35fe-5190-a139-970424fa65ed",
+      "oracleId": "c9d628ae-489e-5024-8e99-5001e1156515",
       "name": "Sai Scout",
       "names": {
         "en": "Sai Scout",
@@ -12187,6 +12361,7 @@
     {
       "number": "OGN-175",
       "uuid": "72807907-67e8-579f-ac49-a164c432da91",
+      "oracleId": "17cbded7-ee0b-5ac8-ae51-61966b0a500d",
       "name": "Shipyard Skulker",
       "names": {
         "en": "Shipyard Skulker",
@@ -12253,6 +12428,7 @@
     {
       "number": "OGN-176",
       "uuid": "ba81c8ff-4ee1-5c60-9629-ac406ecd80a6",
+      "oracleId": "0058ef1c-a3ce-5002-9665-ca069eb7ffd0",
       "name": "Sneaky Deckhand",
       "names": {
         "en": "Sneaky Deckhand",
@@ -12319,6 +12495,7 @@
     {
       "number": "OGN-177",
       "uuid": "7e83aaf5-1665-5a35-aa4d-3254301170b4",
+      "oracleId": "443ee877-4d88-5787-95f6-f8d90fad24ae",
       "name": "Stealthy Pursuer",
       "names": {
         "en": "Stealthy Pursuer",
@@ -12385,6 +12562,7 @@
     {
       "number": "OGN-178",
       "uuid": "5f188103-11dc-5694-9d50-dfd694a68fcc",
+      "oracleId": "889bcea8-ae4d-5055-909c-f38445c663e0",
       "name": "Undercover Agent",
       "names": {
         "en": "Undercover Agent",
@@ -12448,6 +12626,7 @@
     {
       "number": "OGN-179",
       "uuid": "0bc5cc78-7ba6-57b7-b25a-56329e889c3f",
+      "oracleId": "d781a3e5-e529-5338-b5a0-fac845fed470",
       "name": "Acceptable Losses",
       "names": {
         "en": "Acceptable Losses",
@@ -12509,6 +12688,7 @@
     {
       "number": "OGN-180",
       "uuid": "522c63a3-ec1b-567f-ab2b-f9f668c4f8e7",
+      "oracleId": "9caf7a80-e293-55ce-a744-a34a27173a2f",
       "name": "Fading Memories",
       "names": {
         "en": "Fading Memories",
@@ -12571,6 +12751,7 @@
     {
       "number": "OGN-181",
       "uuid": "2fb01990-3e57-5098-9f5f-061a2dc69f23",
+      "oracleId": "1a3a13ab-c20c-51b4-917a-fe4ba7583eef",
       "name": "Pack of Wonders",
       "names": {
         "en": "Pack of Wonders",
@@ -12632,6 +12813,7 @@
     {
       "number": "OGN-182",
       "uuid": "255a2a1d-bbd7-5216-9cbc-05799d6272c4",
+      "oracleId": "f218b823-4be5-54bb-a1a4-4952319116a9",
       "name": "Scrapheap",
       "names": {
         "en": "Scrapheap",
@@ -12693,6 +12875,7 @@
     {
       "number": "OGN-183",
       "uuid": "30679be8-4967-5356-8196-884bb717b210",
+      "oracleId": "b12645f2-30cf-5db5-8aee-0703763937eb",
       "name": "Stacked Deck",
       "names": {
         "en": "Stacked Deck",
@@ -12754,6 +12937,7 @@
     {
       "number": "OGN-184",
       "uuid": "a651566a-827b-55d6-be58-84b9b18e0390",
+      "oracleId": "4cb251cb-d861-565c-a583-9f6342b2393a",
       "name": "The Syren",
       "names": {
         "en": "The Syren",
@@ -12815,6 +12999,7 @@
     {
       "number": "OGN-185",
       "uuid": "eab1a9f0-3ec3-5c3a-9b5e-6ee620324d77",
+      "oracleId": "41186605-0e24-5737-9bc7-1b5cea15ddd3",
       "name": "Traveling Merchant",
       "names": {
         "en": "Traveling Merchant",
@@ -12880,6 +13065,7 @@
     {
       "number": "OGN-186",
       "uuid": "8e36c896-00d6-5791-92ae-99aadd89e208",
+      "oracleId": "a2416ff9-f257-53ab-be5b-b9e2c88d879e",
       "name": "Treasure Trove",
       "names": {
         "en": "Treasure Trove",
@@ -12941,6 +13127,7 @@
     {
       "number": "OGN-187",
       "uuid": "97aabb7e-3e49-5f0c-b68a-d5ea8c7a920e",
+      "oracleId": "ea8c1305-a47b-55e3-a114-88969f66b3ab",
       "name": "Whirlwind",
       "names": {
         "en": "Whirlwind",
@@ -13003,6 +13190,7 @@
     {
       "number": "OGN-188",
       "uuid": "38313c92-a9af-53fa-b451-2b78338a2175",
+      "oracleId": "e5d09c28-b2a9-57af-80b0-b284a6f2607c",
       "name": "Zaunite Bouncer",
       "names": {
         "en": "Zaunite Bouncer",
@@ -13069,6 +13257,7 @@
     {
       "number": "OGN-189",
       "uuid": "4575f74e-f056-56ef-bdff-8098656e1a46",
+      "oracleId": "7e71bad6-d8a3-5647-abf8-0ab7df7c746f",
       "name": "Kayn",
       "names": {
         "en": "Kayn",
@@ -13143,6 +13332,7 @@
     {
       "number": "OGN-190",
       "uuid": "b6fb8bad-e24b-5b50-b0a4-a925d4889aed",
+      "oracleId": "55ae1501-2981-592e-ac93-2a9a7f16b0db",
       "name": "Kog'Maw",
       "names": {
         "en": "Kog'Maw",
@@ -13217,6 +13407,7 @@
     {
       "number": "OGN-191",
       "uuid": "93e33cc4-8095-541e-807e-e3d04989e69a",
+      "oracleId": "7a808e13-3301-5e43-aee3-c2811e389df5",
       "name": "Maddened Marauder",
       "names": {
         "en": "Maddened Marauder",
@@ -13283,6 +13474,7 @@
     {
       "number": "OGN-192",
       "uuid": "93f8fe1a-e58a-58d3-8762-acfa167c546f",
+      "oracleId": "af9a0501-d063-544f-84ca-14cbdfcc0202",
       "name": "Mindsplitter",
       "names": {
         "en": "Mindsplitter",
@@ -13349,6 +13541,7 @@
     {
       "number": "OGN-193",
       "uuid": "cfbb6c11-e903-5fd2-be29-472c60cd54c9",
+      "oracleId": "d910ef7c-d9a4-5f2c-b1f2-82d4ea1525ed",
       "name": "Miss Fortune",
       "names": {
         "en": "Miss Fortune",
@@ -13464,6 +13657,7 @@
     {
       "number": "OGN-194",
       "uuid": "54cf5469-887c-5e4d-9762-59f93c13ab41",
+      "oracleId": "af16e896-3b74-524b-ba0e-a6d55855a0cf",
       "name": "Nocturne",
       "names": {
         "en": "Nocturne",
@@ -13537,6 +13731,7 @@
     {
       "number": "OGN-195",
       "uuid": "4f3ff249-906b-52d1-9873-513b61c94fc8",
+      "oracleId": "8c691867-f86c-51fc-8a4e-dbf887a15a5d",
       "name": "Rhasa the Sunderer",
       "names": {
         "en": "Rhasa the Sunderer",
@@ -13603,6 +13798,7 @@
     {
       "number": "OGN-196",
       "uuid": "b466ab45-ccb6-580c-9589-fab4c3bdfdc4",
+      "oracleId": "7746ee27-5f41-5842-97d2-6f35d1052554",
       "name": "Soulgorger",
       "names": {
         "en": "Soulgorger",
@@ -13669,6 +13865,7 @@
     {
       "number": "OGN-197",
       "uuid": "c2555d77-a11d-5480-8f53-9785da7bab53",
+      "oracleId": "795406c0-8312-5e8c-a513-da78923eae01",
       "name": "Teemo",
       "names": {
         "en": "Teemo",
@@ -13783,6 +13980,7 @@
     {
       "number": "OGN-198",
       "uuid": "0d847636-4100-5575-804b-46586d8d1c19",
+      "oracleId": "bf2f80da-acbd-5570-b984-fd22d360220e",
       "name": "The Harrowing",
       "names": {
         "en": "The Harrowing",
@@ -13844,6 +14042,7 @@
     {
       "number": "OGN-199",
       "uuid": "1df5378c-b605-5e95-bf41-236c6e00d24d",
+      "oracleId": "d4dd2365-ff13-5059-8b9d-1df4e4e2d1f1",
       "name": "Tideturner",
       "names": {
         "en": "Tideturner",
@@ -13908,6 +14107,7 @@
     {
       "number": "OGN-200",
       "uuid": "9d489357-8c88-5ba2-80d6-dee89b0c7b54",
+      "oracleId": "ffe18e3b-7c17-5523-9a21-5b41d02bb340",
       "name": "Twisted Fate",
       "names": {
         "en": "Twisted Fate",
@@ -13981,6 +14181,7 @@
     {
       "number": "OGN-201",
       "uuid": "a3557658-91fa-53ea-8479-fc4a239a5992",
+      "oracleId": "f27f7fe7-7ed4-5933-ae8a-c6d6671eb59a",
       "name": "Invert Timelines",
       "names": {
         "en": "Invert Timelines",
@@ -14042,6 +14243,7 @@
     {
       "number": "OGN-202",
       "uuid": "f0720b44-3ce7-56c2-8f94-cbbcd6ca4b57",
+      "oracleId": "0dcb8467-3052-5e11-9afd-5a935e8aea4a",
       "name": "Jinx",
       "names": {
         "en": "Jinx",
@@ -14156,6 +14358,7 @@
     {
       "number": "OGN-203",
       "uuid": "bf664ac9-a3ed-53bb-a5fc-987f6da430d4",
+      "oracleId": "1649fc01-7d96-5eb1-a0ab-a2082cabc138",
       "name": "Possession",
       "names": {
         "en": "Possession",
@@ -14217,6 +14420,7 @@
     {
       "number": "OGN-204",
       "uuid": "322d810a-2ca9-53b3-8170-db7d4e25076e",
+      "oracleId": "dd6f6f3e-23c7-592f-8e25-3909a2052cbc",
       "name": "Seal of Discord",
       "names": {
         "en": "Seal of Discord",
@@ -14278,6 +14482,7 @@
     {
       "number": "OGN-205",
       "uuid": "3298f7bf-7bc9-5d28-b44c-63d91402d08a",
+      "oracleId": "1d40a4d4-45a7-51c9-aee7-672df2396c40",
       "name": "Yasuo",
       "names": {
         "en": "Yasuo",
@@ -14392,6 +14597,7 @@
     {
       "number": "OGN-206",
       "uuid": "bb0d7b81-005b-5907-803b-743d15ad724f",
+      "oracleId": "64c5683c-61bb-5017-aee5-ad4d57c7301d",
       "name": "Back to Back",
       "names": {
         "en": "Back to Back",
@@ -14453,6 +14659,7 @@
     {
       "number": "OGN-207",
       "uuid": "b35343cc-1c5b-5519-ba1e-1d379716deec",
+      "oracleId": "eb0a93f0-8232-5662-ba05-b1197d5322c0",
       "name": "Call to Glory",
       "names": {
         "en": "Call to Glory",
@@ -14514,6 +14721,7 @@
     {
       "number": "OGN-208",
       "uuid": "e33080a7-ea8a-5c84-8d5e-b3ca3cb70d35",
+      "oracleId": "5cf78b98-b9ea-5050-9858-2dea10fa2fe7",
       "name": "Cruel Patron",
       "names": {
         "en": "Cruel Patron",
@@ -14579,6 +14787,7 @@
     {
       "number": "OGN-209",
       "uuid": "1cc1bd85-95d8-59af-840d-e29655c668f6",
+      "oracleId": "d7c69099-adff-555c-a6e4-378b9208b111",
       "name": "Cull the Weak",
       "names": {
         "en": "Cull the Weak",
@@ -14641,6 +14850,7 @@
     {
       "number": "OGN-210",
       "uuid": "33f448c8-9b60-5665-a0cb-16c939b64d67",
+      "oracleId": "27bef81a-ba11-53ee-a30e-55d856ae614d",
       "name": "Daring Poro",
       "names": {
         "en": "Daring Poro",
@@ -14706,6 +14916,7 @@
     {
       "number": "OGN-211",
       "uuid": "cd0f7071-30e4-50f2-850e-1f775d775a2d",
+      "oracleId": "0712fcbe-659f-5964-b37e-b59fe4fff12a",
       "name": "Faithful Manufactor",
       "names": {
         "en": "Faithful Manufactor",
@@ -14771,6 +14982,7 @@
     {
       "number": "OGN-212",
       "uuid": "e4c8385c-57a6-5bd9-9030-6deaa938e744",
+      "oracleId": "07876f36-1c86-57dc-9ad7-4691fad0258f",
       "name": "Forge of the Future",
       "names": {
         "en": "Forge of the Future",
@@ -14832,6 +15044,7 @@
     {
       "number": "OGN-213",
       "uuid": "7072b13a-ea71-5f6a-b644-83b60561d2fe",
+      "oracleId": "4582c32d-b247-541f-be7f-6fa7e330f5df",
       "name": "Hidden Blade",
       "names": {
         "en": "Hidden Blade",
@@ -14894,6 +15107,7 @@
     {
       "number": "OGN-214",
       "uuid": "7a0a14e9-d783-539e-a3bd-ada76fe65900",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "names": {
         "en": "Order Rune",
@@ -14997,6 +15211,7 @@
     {
       "number": "OGN-215",
       "uuid": "e039756f-c7c2-52e7-888b-e75fa063ed95",
+      "oracleId": "8cccda37-1f9e-56f5-bf9f-798d2b76ba7b",
       "name": "Petty Officer",
       "names": {
         "en": "Petty Officer",
@@ -15063,6 +15278,7 @@
     {
       "number": "OGN-216",
       "uuid": "d96792df-d733-5bc2-a953-01f082b5d22c",
+      "oracleId": "f0100532-ca6b-5d5e-8a33-1ed0cb3ab428",
       "name": "Soaring Scout",
       "names": {
         "en": "Soaring Scout",
@@ -15129,6 +15345,7 @@
     {
       "number": "OGN-217",
       "uuid": "36abad22-4c3b-5f79-a968-48ff5d91fb04",
+      "oracleId": "4cde0173-0b66-5e57-9682-e6cc799516dd",
       "name": "Trifarian Gloryseeker",
       "names": {
         "en": "Trifarian Gloryseeker",
@@ -15195,6 +15412,7 @@
     {
       "number": "OGN-218",
       "uuid": "e2bcde6c-22a6-5061-bb07-942c0c20edce",
+      "oracleId": "02276512-579f-5b71-b4fa-37337bd25a97",
       "name": "Vanguard Captain",
       "names": {
         "en": "Vanguard Captain",
@@ -15262,6 +15480,7 @@
     {
       "number": "OGN-219",
       "uuid": "7ed49a16-a4dd-591c-b2dd-b5e60d7dee0d",
+      "oracleId": "1018e052-c650-52b2-a9ef-ab0ab46b0701",
       "name": "Vanguard Sergeant",
       "names": {
         "en": "Vanguard Sergeant",
@@ -15328,6 +15547,7 @@
     {
       "number": "OGN-220",
       "uuid": "552c322f-e8a9-5d5a-8300-c905d80097af",
+      "oracleId": "796ea48f-4ac3-51e9-b066-6976e6b0aab3",
       "name": "Facebreaker",
       "names": {
         "en": "Facebreaker",
@@ -15389,6 +15609,7 @@
     {
       "number": "OGN-221",
       "uuid": "6178d8f7-cf81-5c01-8341-a0a9d5347b46",
+      "oracleId": "38f5ba2b-2f14-5237-900d-13e9e2707f03",
       "name": "Imperial Decree",
       "names": {
         "en": "Imperial Decree",
@@ -15451,6 +15672,7 @@
     {
       "number": "OGN-222",
       "uuid": "b63ecfca-228c-5e17-8c80-79fd0cdd4184",
+      "oracleId": "eb996366-5e7c-5079-afb0-61cd0674abae",
       "name": "Noxian Drummer",
       "names": {
         "en": "Noxian Drummer",
@@ -15517,6 +15739,7 @@
     {
       "number": "OGN-223",
       "uuid": "33b41c3b-c599-511f-a2dc-fc3f12299b5a",
+      "oracleId": "4ef9852a-2f39-5499-898c-d4ad874711f1",
       "name": "Peak Guardian",
       "names": {
         "en": "Peak Guardian",
@@ -15583,6 +15806,7 @@
     {
       "number": "OGN-224",
       "uuid": "4a1c505b-c43d-53c5-bcbb-c6c5323a7799",
+      "oracleId": "22258327-33fa-59bc-878f-691b8cedc51a",
       "name": "Salvage",
       "names": {
         "en": "Salvage",
@@ -15645,6 +15869,7 @@
     {
       "number": "OGN-225",
       "uuid": "469e1018-c515-5641-96ba-d65404cfb6a3",
+      "oracleId": "b8ea990b-af2c-5a1e-845c-c93398601c85",
       "name": "Solari Chief",
       "names": {
         "en": "Solari Chief",
@@ -15711,6 +15936,7 @@
     {
       "number": "OGN-226",
       "uuid": "5cf66754-72e4-50ff-9bb4-f7a70bd95179",
+      "oracleId": "6b09db66-ac37-5c59-a887-d2ff034e9656",
       "name": "Spectral Matron",
       "names": {
         "en": "Spectral Matron",
@@ -15778,6 +16004,7 @@
     {
       "number": "OGN-227",
       "uuid": "28864bce-aae6-5338-b7f3-ab1d49dbdd3f",
+      "oracleId": "cacfc692-b533-5957-bd71-be26d757f0f6",
       "name": "Symbol of the Solari",
       "names": {
         "en": "Symbol of the Solari",
@@ -15839,6 +16066,7 @@
     {
       "number": "OGN-228",
       "uuid": "4d460361-ba4c-59e5-b529-bb13f58d9aea",
+      "oracleId": "8d9d7ac6-5a25-58b1-98b3-406c0e8f7cd6",
       "name": "Vanguard Helm",
       "names": {
         "en": "Vanguard Helm",
@@ -15900,6 +16128,7 @@
     {
       "number": "OGN-229",
       "uuid": "aac58f96-1eed-55df-82b0-8a6e77316cb3",
+      "oracleId": "5ca42954-e0cc-510d-b468-e50a638cfce8",
       "name": "Vengeance",
       "names": {
         "en": "Vengeance",
@@ -15962,6 +16191,7 @@
     {
       "number": "OGN-230",
       "uuid": "0c20a84f-4395-5057-bf21-489c415db1d6",
+      "oracleId": "162830b5-e0a2-536f-9c23-9c8d67a2451b",
       "name": "Albus Ferros",
       "names": {
         "en": "Albus Ferros",
@@ -16026,6 +16256,7 @@
     {
       "number": "OGN-231",
       "uuid": "7d305977-8162-575d-8e91-2b5dab7077a3",
+      "oracleId": "00281dd7-df16-51c0-83ca-d27d03f619a8",
       "name": "Commander Ledros",
       "names": {
         "en": "Commander Ledros",
@@ -16092,6 +16323,7 @@
     {
       "number": "OGN-232",
       "uuid": "7ce2b28e-cfc7-53e8-9453-f8e3fd05870d",
+      "oracleId": "0dd84520-4d88-54f6-81c3-2fb51396b2e5",
       "name": "Fiora",
       "names": {
         "en": "Fiora",
@@ -16165,6 +16397,7 @@
     {
       "number": "OGN-233",
       "uuid": "e1f2965b-3bd1-5d2d-8c10-19ea9918ff67",
+      "oracleId": "3f29e4ce-47cc-5737-9394-6946839bf022",
       "name": "Grand Strategem",
       "names": {
         "en": "Grand Strategem",
@@ -16226,6 +16459,7 @@
     {
       "number": "OGN-234",
       "uuid": "34a67e2e-745e-51f6-9c82-5f55aa5f3626",
+      "oracleId": "3c304110-81ac-5fa9-8d2d-2bb87c487066",
       "name": "Harnessed Dragon",
       "names": {
         "en": "Harnessed Dragon",
@@ -16292,6 +16526,7 @@
     {
       "number": "OGN-235",
       "uuid": "1fe43e55-2354-505c-9fc5-e2be4eb25dfc",
+      "oracleId": "d3cd1acc-783a-523c-a362-02e9a6a38366",
       "name": "Karma",
       "names": {
         "en": "Karma",
@@ -16366,6 +16601,7 @@
     {
       "number": "OGN-236",
       "uuid": "bd8433e3-7469-5afb-bcf6-d430e9cb16d7",
+      "oracleId": "3031b232-82c8-5c68-b0d2-d5b43b1d10cd",
       "name": "Karthus",
       "names": {
         "en": "Karthus",
@@ -16441,6 +16677,7 @@
     {
       "number": "OGN-237",
       "uuid": "f1d3a0f9-2986-5fc8-ad24-0ccd09dcf6bd",
+      "oracleId": "433fc6eb-5e05-5563-9920-a0a997cacff1",
       "name": "King's Edict",
       "names": {
         "en": "King's Edict",
@@ -16502,6 +16739,7 @@
     {
       "number": "OGN-238",
       "uuid": "4b7c3ac7-2796-544d-a786-2b3791cdcdbe",
+      "oracleId": "9aa51f7d-98bd-580c-b7ff-d819a200b9de",
       "name": "Leona",
       "names": {
         "en": "Leona",
@@ -16616,6 +16854,7 @@
     {
       "number": "OGN-239",
       "uuid": "1fcef637-e138-5875-aab0-9cb59527bb12",
+      "oracleId": "9232bdb6-0f4e-54da-8baa-02a6367e7fd1",
       "name": "Machine Evangel",
       "names": {
         "en": "Machine Evangel",
@@ -16681,6 +16920,7 @@
     {
       "number": "OGN-240",
       "uuid": "b3a3e27a-c953-5d67-b127-d86e04603d40",
+      "oracleId": "cd308225-9dc2-5e10-807d-9d63fc7ff0bb",
       "name": "Sett",
       "names": {
         "en": "Sett",
@@ -16795,6 +17035,7 @@
     {
       "number": "OGN-241",
       "uuid": "86975a56-63e3-5132-af8c-a84ebb7a004c",
+      "oracleId": "95af70c7-4b2c-5a7b-83bb-29d513b32134",
       "name": "Shen",
       "names": {
         "en": "Shen",
@@ -16869,6 +17110,7 @@
     {
       "number": "OGN-242",
       "uuid": "0a95e92c-6591-58c7-9cff-5a75667d51f7",
+      "oracleId": "033d2dfa-92cd-580f-a89b-5372139e169c",
       "name": "Baited Hook",
       "names": {
         "en": "Baited Hook",
@@ -16929,6 +17171,7 @@
     {
       "number": "OGN-243",
       "uuid": "9dabd64b-508a-5df0-b7e5-843cd3817711",
+      "oracleId": "8471a339-9f9b-50d3-875f-2d501869277a",
       "name": "Darius",
       "names": {
         "en": "Darius",
@@ -17044,6 +17287,7 @@
     {
       "number": "OGN-244",
       "uuid": "b7e84068-5d37-54dd-8ef9-5b6be579d2c8",
+      "oracleId": "38ffab5d-ec12-5182-af85-51925e43ebd7",
       "name": "Divine Judgment",
       "names": {
         "en": "Divine Judgment",
@@ -17105,6 +17349,7 @@
     {
       "number": "OGN-245",
       "uuid": "9c1e7f43-c9aa-50d5-a328-39d10b88f4c2",
+      "oracleId": "15d04283-29a4-5f39-b372-82a40866c206",
       "name": "Seal of Unity",
       "names": {
         "en": "Seal of Unity",
@@ -17166,6 +17411,7 @@
     {
       "number": "OGN-246",
       "uuid": "21ec94bf-af06-5b90-93be-0201413639da",
+      "oracleId": "18e368d0-73da-5670-b481-34e348dc325e",
       "name": "Viktor",
       "names": {
         "en": "Viktor",
@@ -17263,6 +17509,7 @@
     {
       "number": "OGN-247",
       "uuid": "7ba71ded-623f-5057-a358-a308c6966552",
+      "oracleId": "90232b66-d213-55d3-b1a9-9d72cf6a5271",
       "name": "Daughter of the Void",
       "names": {
         "en": "Daughter of the Void",
@@ -17323,6 +17570,7 @@
     {
       "number": "OGN-248",
       "uuid": "7812bc6c-c8cc-5c58-b261-20c1f377098a",
+      "oracleId": "a5e10f90-08a6-5f8d-99a4-9d8815511a15",
       "name": "Icathian Rain",
       "names": {
         "en": "Icathian Rain",
@@ -17396,6 +17644,7 @@
     {
       "number": "OGN-249",
       "uuid": "a2155481-3ae4-5110-8762-8512db082456",
+      "oracleId": "65e98076-3a19-5f0d-a827-d4f838ed893d",
       "name": "Relentless Storm",
       "names": {
         "en": "Relentless Storm",
@@ -17456,6 +17705,7 @@
     {
       "number": "OGN-250",
       "uuid": "c26a4793-6759-59cb-af19-38d66563745f",
+      "oracleId": "8ae629d1-50fd-5d8f-90b0-1b19ccd07eff",
       "name": "Stormbringer",
       "names": {
         "en": "Stormbringer",
@@ -17529,6 +17779,7 @@
     {
       "number": "OGN-251",
       "uuid": "c9868094-1f90-5807-adfc-561e3beb396f",
+      "oracleId": "d830dc6f-0259-577b-b9b4-9c7160684c9a",
       "name": "Loose Cannon",
       "names": {
         "en": "Loose Cannon",
@@ -17589,6 +17840,7 @@
     {
       "number": "OGN-252",
       "uuid": "c1b0bc4e-8621-5da6-9ce9-f23169d61ea0",
+      "oracleId": "c5d8b985-269d-5c81-bcaf-8a98d58658d9",
       "name": "Super Mega Death Rocket!",
       "names": {
         "en": "Super Mega Death Rocket!",
@@ -17662,6 +17914,7 @@
     {
       "number": "OGN-253",
       "uuid": "6b34726f-7bff-5181-8951-19d854a916db",
+      "oracleId": "bb366486-66b6-588c-83f3-8bc67008bd7c",
       "name": "Hand of Noxus",
       "names": {
         "en": "Hand of Noxus",
@@ -17722,6 +17975,7 @@
     {
       "number": "OGN-254",
       "uuid": "e654ee71-c559-5209-90af-d9bde923563d",
+      "oracleId": "68d61ddf-5bfa-519d-becf-349a4510f247",
       "name": "Noxian Guillotine",
       "names": {
         "en": "Noxian Guillotine",
@@ -17795,6 +18049,7 @@
     {
       "number": "OGN-255",
       "uuid": "f4bbc4bc-d751-5c96-81ba-1f7946770eab",
+      "oracleId": "7557fdac-78fa-5761-a824-ed5e1b4266c2",
       "name": "Nine-Tailed Fox",
       "names": {
         "en": "Nine-Tailed Fox",
@@ -17855,6 +18110,7 @@
     {
       "number": "OGN-256",
       "uuid": "8ca07dc5-ecfd-5576-92ac-1eb92893d694",
+      "oracleId": "80c449bd-84a3-5ac5-906c-b155d7e1453e",
       "name": "Fox-Fire",
       "names": {
         "en": "Fox-Fire",
@@ -17927,6 +18183,7 @@
     {
       "number": "OGN-257",
       "uuid": "8245e8ed-d6be-5f72-abf7-9d5e81dc05be",
+      "oracleId": "0fa715d0-c132-5f10-8edd-59be970bd5f3",
       "name": "Blind Monk",
       "names": {
         "en": "Blind Monk",
@@ -17987,6 +18244,7 @@
     {
       "number": "OGN-258",
       "uuid": "3b697657-e03e-5ffd-b52b-5a6e518af6e8",
+      "oracleId": "69fb690d-e81a-5de6-a133-aeb7d7e2b3a6",
       "name": "Dragon's Rage",
       "names": {
         "en": "Dragon's Rage",
@@ -18060,6 +18318,7 @@
     {
       "number": "OGN-259",
       "uuid": "ab0403c1-6f7f-5e57-bf63-60350451ab0a",
+      "oracleId": "c299e62a-d43a-58a7-8b77-b03f5f96e92a",
       "name": "Unforgiven",
       "names": {
         "en": "Unforgiven",
@@ -18120,6 +18379,7 @@
     {
       "number": "OGN-260",
       "uuid": "6b04be8c-ecf9-5f16-93e3-5683b84954ac",
+      "oracleId": "29b28fe8-78bc-558e-a666-95ff066221f7",
       "name": "Last Breath",
       "names": {
         "en": "Last Breath",
@@ -18193,6 +18453,7 @@
     {
       "number": "OGN-261",
       "uuid": "ada71461-aa4f-5c3c-8621-f3c8bcc73f4c",
+      "oracleId": "bd98b613-3c7a-5780-9128-6ff95ea34d83",
       "name": "Radiant Dawn",
       "names": {
         "en": "Radiant Dawn",
@@ -18253,6 +18514,7 @@
     {
       "number": "OGN-262",
       "uuid": "f8c5522a-e5c2-5690-a850-eab707f8cfb6",
+      "oracleId": "76d81987-7077-5733-8818-db5696021e27",
       "name": "Zenith Blade",
       "names": {
         "en": "Zenith Blade",
@@ -18326,6 +18588,7 @@
     {
       "number": "OGN-263",
       "uuid": "503d0bda-ceec-5fb3-91cb-9c8189f7933e",
+      "oracleId": "50ba2129-74a7-59fe-a621-9f8e77352725",
       "name": "Swift Scout",
       "names": {
         "en": "Swift Scout",
@@ -18386,6 +18649,7 @@
     {
       "number": "OGN-264",
       "uuid": "0694cf73-e7bb-5814-ba02-4ba59022518a",
+      "oracleId": "cb7f138d-be54-57b8-aa04-9d99c864d6c5",
       "name": "Guerilla Warfare",
       "names": {
         "en": "Guerilla Warfare",
@@ -18459,6 +18723,7 @@
     {
       "number": "OGN-265",
       "uuid": "3b6fe6c6-12cc-5d22-b1bd-35f650f6105b",
+      "oracleId": "bd28ffdc-8992-57df-a807-bd679786efae",
       "name": "Herald of the Arcane",
       "names": {
         "en": "Herald of the Arcane",
@@ -18519,6 +18784,7 @@
     {
       "number": "OGN-266",
       "uuid": "31ac85fc-34ff-53a8-84c9-e38fb879950e",
+      "oracleId": "ed46ea12-5408-598b-9c33-7f5a6311c86a",
       "name": "Siphon Power",
       "names": {
         "en": "Siphon Power",
@@ -18592,6 +18858,7 @@
     {
       "number": "OGN-267",
       "uuid": "dfb2fd94-1e21-509b-a097-3fad6985977a",
+      "oracleId": "da602689-52c9-517f-8914-5c1a0cb4c368",
       "name": "Bounty Hunter",
       "names": {
         "en": "Bounty Hunter",
@@ -18652,6 +18919,7 @@
     {
       "number": "OGN-268",
       "uuid": "cb772a5e-38e5-580d-869f-483ee406fd9d",
+      "oracleId": "c8cbb2ad-4eac-5ae4-a667-94856d2bf9ef",
       "name": "Bullet Time",
       "names": {
         "en": "Bullet Time",
@@ -18724,6 +18992,7 @@
     {
       "number": "OGN-269",
       "uuid": "3e9b2232-5eee-5575-9023-c8c542248377",
+      "oracleId": "bc07b631-9158-5b32-8a32-3a3be363443f",
       "name": "The Boss",
       "names": {
         "en": "The Boss",
@@ -18784,6 +19053,7 @@
     {
       "number": "OGN-270",
       "uuid": "0aff6887-4847-578f-8d66-4094bf642769",
+      "oracleId": "462d30b3-5c53-5cca-9391-88f281129166",
       "name": "Showstopper",
       "names": {
         "en": "Showstopper",
@@ -18857,6 +19127,7 @@
     {
       "number": "OGN-271",
       "uuid": "516d354c-cccb-5b3e-b991-219c6dcf45ed",
+      "oracleId": "071583e8-3169-566f-9868-6908e8f383c5",
       "name": "Recruit (DE)",
       "names": {
         "en": "Recruit (DE)",
@@ -18920,6 +19191,7 @@
     {
       "number": "OGN-272",
       "uuid": "2945d99a-0d33-5bd3-9acc-ce130e17b1b4",
+      "oracleId": "3e9e4b31-e1b2-5fb0-9c41-28a188b7ee00",
       "name": "Recruit (NX)",
       "names": {
         "en": "Recruit (NX)",
@@ -18983,6 +19255,7 @@
     {
       "number": "OGN-273",
       "uuid": "ee13838d-a37b-5798-9448-82ce82f8b4cb",
+      "oracleId": "d0bce3e1-83bc-566e-a0e3-be394317298e",
       "name": "Recruit (ZN)",
       "names": {
         "en": "Recruit (ZN)",
@@ -19046,6 +19319,7 @@
     {
       "number": "OGN-274",
       "uuid": "e863dbbc-84a1-58cc-8df9-b0ab53612c30",
+      "oracleId": "a67e50bf-9c9e-5fa0-a3c4-439a0a57317d",
       "name": "Sprite",
       "names": {
         "en": "Sprite",
@@ -19112,6 +19386,7 @@
     {
       "number": "OGN-275",
       "uuid": "42803ec4-4190-52ac-aa79-f643525cc85d",
+      "oracleId": "f9127e14-d0c5-5dbf-b61d-35915e08f228",
       "name": "Altar to Unity",
       "names": {
         "en": "Altar to Unity",
@@ -19172,6 +19447,7 @@
     {
       "number": "OGN-276",
       "uuid": "b58daf95-13d8-517d-b71b-dbbb56ecb8b4",
+      "oracleId": "73070004-b8a1-5dec-98ef-6da1ef694cdf",
       "name": "Aspirant's Climb",
       "names": {
         "en": "Aspirant's Climb",
@@ -19232,6 +19508,7 @@
     {
       "number": "OGN-277",
       "uuid": "6e7e7148-a3a3-5d75-b6a9-a4064d6b7de2",
+      "oracleId": "fa2adc18-3170-5a12-ad6d-c2a94d689c93",
       "name": "Back-Alley Bar",
       "names": {
         "en": "Back-Alley Bar",
@@ -19292,6 +19569,7 @@
     {
       "number": "OGN-278",
       "uuid": "d6f27d5d-82c9-5571-b812-aed2d9863a1a",
+      "oracleId": "76f24e88-3af1-5200-8871-1a9dc4a2332a",
       "name": "Bandle Tree",
       "names": {
         "en": "Bandle Tree",
@@ -19352,6 +19630,7 @@
     {
       "number": "OGN-279",
       "uuid": "e5707102-dcf1-517b-ace4-58a71b7a7942",
+      "oracleId": "644a0521-a36b-5805-bfe5-e73ac716ef06",
       "name": "Fortified Position",
       "names": {
         "en": "Fortified Position",
@@ -19412,6 +19691,7 @@
     {
       "number": "OGN-280",
       "uuid": "8b2b1804-86d5-54f9-b68d-b10a03a6fdfa",
+      "oracleId": "2299f6c0-a049-53b2-922e-c68fa9a061ea",
       "name": "Grove of the God-Willow",
       "names": {
         "en": "Grove of the God-Willow",
@@ -19472,6 +19752,7 @@
     {
       "number": "OGN-281",
       "uuid": "fecc3190-0203-58b0-ad8a-e43155ab97bb",
+      "oracleId": "17d5bb47-ea08-5d73-82a3-3ab2c61447b6",
       "name": "Hallowed Tomb",
       "names": {
         "en": "Hallowed Tomb",
@@ -19532,6 +19813,7 @@
     {
       "number": "OGN-282",
       "uuid": "1e055ade-6153-5988-aa41-0ff9c10963c8",
+      "oracleId": "9663e5e9-78a7-5ef3-8d84-db0480b5dd7a",
       "name": "Monastery of Hirana",
       "names": {
         "en": "Monastery of Hirana",
@@ -19592,6 +19874,7 @@
     {
       "number": "OGN-283",
       "uuid": "9a346e32-f006-58df-a2e9-064cfadf6292",
+      "oracleId": "a000674a-1e90-5e4a-8940-79b51e311cab",
       "name": "Navori Fighting Pit",
       "names": {
         "en": "Navori Fighting Pit",
@@ -19652,6 +19935,7 @@
     {
       "number": "OGN-284",
       "uuid": "e403620e-5940-558a-a586-2be87c073ef4",
+      "oracleId": "1469a227-3bca-5bcf-83fe-56acc0d7f8b9",
       "name": "Obelisk of Power",
       "names": {
         "en": "Obelisk of Power",
@@ -19712,6 +19996,7 @@
     {
       "number": "OGN-285",
       "uuid": "1817d0f7-5e83-595d-9407-5d5e848ae7bb",
+      "oracleId": "66d7b26c-78e2-59ed-9b22-5a127e895ee6",
       "name": "Reaver's Row",
       "names": {
         "en": "Reaver's Row",
@@ -19772,6 +20057,7 @@
     {
       "number": "OGN-286",
       "uuid": "9b329b52-26be-5fc2-b48e-ba61e2648f61",
+      "oracleId": "e7a92dcf-907a-584e-b206-54ee1473b14b",
       "name": "Reckoner's Arena",
       "names": {
         "en": "Reckoner's Arena",
@@ -19832,6 +20118,7 @@
     {
       "number": "OGN-287",
       "uuid": "89524ece-bbae-57a5-bf02-7a16f323f3bd",
+      "oracleId": "0be89e97-2cc8-539d-b90d-bcb7e59e639e",
       "name": "Sigil of the Storm",
       "names": {
         "en": "Sigil of the Storm",
@@ -19892,6 +20179,7 @@
     {
       "number": "OGN-288",
       "uuid": "88047efb-607a-58b5-b40c-9defef3dcf3a",
+      "oracleId": "fe436df6-6fba-562a-bd5e-4988f8657469",
       "name": "Startipped Peak",
       "names": {
         "en": "Startipped Peak",
@@ -19952,6 +20240,7 @@
     {
       "number": "OGN-289",
       "uuid": "f96532f5-afdf-535a-9e98-97f985519107",
+      "oracleId": "3775bd26-b0b6-527c-8813-52c36b037b41",
       "name": "Targon's Peak",
       "names": {
         "en": "Targon's Peak",
@@ -20012,6 +20301,7 @@
     {
       "number": "OGN-290",
       "uuid": "3485a085-34e3-5b96-a28f-0449aebe1001",
+      "oracleId": "99f56cdf-a235-5035-acba-c08b77725461",
       "name": "The Arena's Greatest",
       "names": {
         "en": "The Arena's Greatest",
@@ -20072,6 +20362,7 @@
     {
       "number": "OGN-291",
       "uuid": "a842e785-d69e-53d2-b665-83d8e00348b5",
+      "oracleId": "98b0895b-37a2-590f-9221-5a7e239a152d",
       "name": "The Candlelit Sanctum",
       "names": {
         "en": "The Candlelit Sanctum",
@@ -20132,6 +20423,7 @@
     {
       "number": "OGN-292",
       "uuid": "54409e77-9547-5ef1-883b-0c2144554760",
+      "oracleId": "379630a8-3c36-50e0-aa15-662263e3fd7c",
       "name": "The Dreaming Tree",
       "names": {
         "en": "The Dreaming Tree",
@@ -20192,6 +20484,7 @@
     {
       "number": "OGN-293",
       "uuid": "ec11c847-b495-5cdd-8fac-a3ba8b8c9933",
+      "oracleId": "8bf61ab1-3756-5ef2-8887-b2e3029fa878",
       "name": "The Grand Plaza",
       "names": {
         "en": "The Grand Plaza",
@@ -20252,6 +20545,7 @@
     {
       "number": "OGN-294",
       "uuid": "cc9b7191-741e-5e28-a55e-f6c56e85e37c",
+      "oracleId": "99b3171a-03bc-5e05-bb36-3af80dc37c78",
       "name": "Trifarian War Camp",
       "names": {
         "en": "Trifarian War Camp",
@@ -20312,6 +20606,7 @@
     {
       "number": "OGN-295",
       "uuid": "1ae13237-4f4a-50a3-8566-49a0ceae547a",
+      "oracleId": "c39fdaa7-5563-5012-be46-8a322b79509c",
       "name": "Vilemaw's Lair",
       "names": {
         "en": "Vilemaw's Lair",
@@ -20372,6 +20667,7 @@
     {
       "number": "OGN-296",
       "uuid": "263f40fa-408d-52c1-b8f4-9b9cad5f9d22",
+      "oracleId": "fffb554a-7bbf-5b35-8852-afb75a338245",
       "name": "Void Gate",
       "names": {
         "en": "Void Gate",
@@ -20432,6 +20728,7 @@
     {
       "number": "OGN-297",
       "uuid": "146f8671-f0a5-5c7e-9a9c-5c35528a9758",
+      "oracleId": "e2accf29-e4bc-59d8-b1e9-4392ba40b04d",
       "name": "Windswept Hillock",
       "names": {
         "en": "Windswept Hillock",
@@ -20492,6 +20789,7 @@
     {
       "number": "OGN-298",
       "uuid": "8142f66a-8c2b-57b8-9107-8715b8aa90c0",
+      "oracleId": "fc999f43-de88-5c89-aeed-443731586a9e",
       "name": "Zaun Warrens",
       "names": {
         "en": "Zaun Warrens",
@@ -20552,6 +20850,7 @@
     {
       "number": "OGN-299",
       "uuid": "17597225-75f3-59bb-9daa-0d1db30e48f9",
+      "oracleId": "90232b66-d213-55d3-b1a9-9d72cf6a5271",
       "name": "Daughter of the Void",
       "names": {
         "en": "Daughter of the Void",
@@ -20655,6 +20954,7 @@
     {
       "number": "OGN-300",
       "uuid": "704d6f7f-7a56-5cdd-9603-b63d4c7d6ee9",
+      "oracleId": "65e98076-3a19-5f0d-a827-d4f838ed893d",
       "name": "Relentless Storm",
       "names": {
         "en": "Relentless Storm",
@@ -20758,6 +21058,7 @@
     {
       "number": "OGN-301",
       "uuid": "63c60253-f384-5a6e-b483-71cceacd7594",
+      "oracleId": "d830dc6f-0259-577b-b9b4-9c7160684c9a",
       "name": "Loose Cannon",
       "names": {
         "en": "Loose Cannon",
@@ -20861,6 +21162,7 @@
     {
       "number": "OGN-302",
       "uuid": "0dc60001-525b-5dfb-b8bb-a9c2f6a55bc3",
+      "oracleId": "bb366486-66b6-588c-83f3-8bc67008bd7c",
       "name": "Hand of Noxus",
       "names": {
         "en": "Hand of Noxus",
@@ -20964,6 +21266,7 @@
     {
       "number": "OGN-303",
       "uuid": "45519959-57f8-51c1-be55-8aa0c9cbf7e3",
+      "oracleId": "7557fdac-78fa-5761-a824-ed5e1b4266c2",
       "name": "Nine-Tailed Fox",
       "names": {
         "en": "Nine-Tailed Fox",
@@ -21067,6 +21370,7 @@
     {
       "number": "OGN-304",
       "uuid": "6736bc9d-267f-55b2-8aef-932713d9528a",
+      "oracleId": "0fa715d0-c132-5f10-8edd-59be970bd5f3",
       "name": "Blind Monk",
       "names": {
         "en": "Blind Monk",
@@ -21170,6 +21474,7 @@
     {
       "number": "OGN-305",
       "uuid": "b1fb51d3-66c5-5bf6-a79f-383124b8bbf7",
+      "oracleId": "c299e62a-d43a-58a7-8b77-b03f5f96e92a",
       "name": "Unforgiven",
       "names": {
         "en": "Unforgiven",
@@ -21273,6 +21578,7 @@
     {
       "number": "OGN-306",
       "uuid": "367af811-a367-52f4-952a-d114712b4eea",
+      "oracleId": "bd98b613-3c7a-5780-9128-6ff95ea34d83",
       "name": "Radiant Dawn",
       "names": {
         "en": "Radiant Dawn",
@@ -21376,6 +21682,7 @@
     {
       "number": "OGN-307",
       "uuid": "5ecf268a-2ba7-5c3b-b089-3f880142930d",
+      "oracleId": "50ba2129-74a7-59fe-a621-9f8e77352725",
       "name": "Swift Scout",
       "names": {
         "en": "Swift Scout",
@@ -21479,6 +21786,7 @@
     {
       "number": "OGN-308",
       "uuid": "e6ad040a-dc93-5f68-92a0-d73c8f9ebc24",
+      "oracleId": "bd28ffdc-8992-57df-a807-bd679786efae",
       "name": "Herald of the Arcane",
       "names": {
         "en": "Herald of the Arcane",
@@ -21582,6 +21890,7 @@
     {
       "number": "OGN-309",
       "uuid": "eb1be1be-b369-543b-9592-8eb861348d78",
+      "oracleId": "da602689-52c9-517f-8914-5c1a0cb4c368",
       "name": "Bounty Hunter",
       "names": {
         "en": "Bounty Hunter",
@@ -21685,6 +21994,7 @@
     {
       "number": "OGN-310",
       "uuid": "34b9f677-a10f-5e06-8b09-94a13904f150",
+      "oracleId": "bc07b631-9158-5b32-8a32-3a3be363443f",
       "name": "The Boss",
       "names": {
         "en": "The Boss",

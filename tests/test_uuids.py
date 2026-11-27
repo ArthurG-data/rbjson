@@ -1,8 +1,10 @@
 import copy
+import json
 import uuid
 
 import pytest
 
+import rbjson
 import uuids
 
 
@@ -189,3 +191,74 @@ def test_history_allows_new_and_left_records_and_refuses_a_changed_or_dropped_ke
     assert uuids.history_errors(before, changed) == [
         f"printing id:OGN-001: its uuid changed from {old['id:OGN-001']} to {keys['id:OGN-001']}",
         f"printing id:OGN-002: its uuid {old['id:OGN-002']} was dropped from data/uuids.json"]
+
+
+def _card(number, name, subtitle=None, printing=None):
+    card = {"number": number, "name": name, "printings": [_printing(printing or number)]}
+    if subtitle:
+        card["subtitle"] = subtitle
+    return card
+
+
+def _deck(*cards):
+    files = {}
+    for card in cards:
+        files.setdefault(card["number"].split("-")[0], {"cards": []})["cards"].append(card)
+    return files
+
+
+def _oracles(files, registry):
+    uuids.assign_cards(files, registry)
+    return {c["number"]: c["oracleId"] for b in files.values() for c in b["cards"]}
+
+
+def test_an_oracle_first_seen_gets_the_oracle_id_rbjson_computes():
+    files = _deck(_card("OGN-269", "Sett", "The Boss"))
+    assert _oracles(files, uuids.empty()) == {"OGN-269": rbjson.oracle_id(files["OGN"]["cards"][0])}
+    assert list(files["OGN"]["cards"][0])[:3] == ["number", "uuid", "oracleId"]
+
+
+def test_a_card_and_its_reprints_share_one_oracle_id_and_two_subtitles_are_two():
+    got = _oracles(_deck(_card("OGN-269", "Sett", "The Boss"), _card("OPP-OGN269", "Sett", "The Boss"),
+                         _card("SFD-001", "Sett", "Kingpin")), uuids.empty())
+    assert got["OGN-269"] == got["OPP-OGN269"] != got["SFD-001"]
+
+
+def test_a_renamed_card_and_its_reprints_keep_their_oracle_id():
+    registry = uuids.empty()
+    before = _oracles(_deck(_card("OGN-269", "Set", "The Boss"), _card("OPP-OGN269", "Set", "The Boss")), registry)
+    # Riot fixes the typo on both cards
+    after = _oracles(_deck(_card("OGN-269", "Sett", "The Boss"), _card("OPP-OGN269", "Sett", "The Boss")), registry)
+    assert after == before
+
+
+def test_a_reprint_renamed_away_from_its_oracle_gets_a_new_one_and_the_rest_keep_theirs():
+    registry = uuids.empty()
+    before = _oracles(_deck(_card("OGN-269", "Sett", "The Boss"), _card("OPP-OGN269", "Sett", "The Boss")), registry)
+    after = _oracles(_deck(_card("OGN-269", "Sett", "The Boss"), _card("OPP-OGN269", "Sett", "Kingpin")), registry)
+    assert after["OGN-269"] == before["OGN-269"]
+    assert after["OPP-OGN269"] != before["OPP-OGN269"]
+
+
+def test_errors_names_a_card_whose_oracle_id_is_not_its_oracles():
+    registry = uuids.empty()
+    files = _deck(_card("OGN-269", "Sett", "The Boss"), _card("OPP-OGN269", "Sett", "The Boss"))
+    _oracles(files, registry)
+    assert uuids.errors(files, {}, registry) == []
+    files["OPP"]["cards"][0]["oracleId"] = str(uuid.uuid4())
+    assert [e for e in uuids.errors(files, {}, registry) if "oracleId" in e] == [
+        f"card OPP-OGN269: oracleId {files['OPP']['cards'][0]['oracleId']} is not the one data/uuids.json gives "
+        f"name:sett|the boss, {files['OGN']['cards'][0]['oracleId']}: run tools/uuids.py"]
+
+
+def test_history_refuses_an_oracle_id_that_changed():
+    before = uuids.empty()
+    _oracles(_deck(_card("OGN-269", "Sett", "The Boss")), before)
+    after = copy.deepcopy(before)
+    after["oracles"]["keys"]["name:sett|the boss"] = str(uuid.uuid4())
+    assert [e.split(":")[0] for e in uuids.history_errors(before, after)] == ["oracle name"]
+
+
+def test_a_registry_from_before_oracles_reads_with_none():
+    old = {k: {"keys": {}, "bridges": {}} for k in ("cards", "printings", "products")}
+    assert uuids.parse(json.dumps(old))["oracles"] == {"keys": {}, "bridges": {}}

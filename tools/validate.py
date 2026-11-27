@@ -12,7 +12,6 @@ IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried before it 
 from __future__ import annotations
 
 import argparse
-import json
 import subprocess
 import sys
 import tempfile
@@ -99,7 +98,7 @@ def registry_at(ref: str) -> dict:
         raise SystemExit(f"--since {ref}: git knows no such commit")
     if git("cat-file", "-e", f"{ref}:{path}").returncode != 0:
         return uuids.empty()
-    return json.loads(git("show", f"{ref}:{path}").stdout)
+    return uuids.parse(git("show", f"{ref}:{path}").stdout)
 
 
 def main() -> None:

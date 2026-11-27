@@ -254,7 +254,7 @@ def reprint_tags(files: dict[str, dict]) -> list[dict]:
     groups: dict[str, list[dict]] = collections.defaultdict(list)
     for body in files.values():
         for card in body["cards"]:
-            groups[rbjson.oracle_id(card)].append(card)
+            groups[rbjson.oracle_key(card)].append(card)
     return [{"card": ", ".join(filter(None, (cards[0]["name"], cards[0].get("subtitle")))),
              "tags": {c["number"]: c.get("tags", []) for c in cards}}
             for cards in groups.values() if len({tuple(c.get("tags", [])) for c in cards}) > 1]

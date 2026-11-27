@@ -3,6 +3,7 @@
     {
       "number": "PR-OGN036",
       "uuid": "58451ab0-f47c-5a3f-8efa-3d7326bcf07f",
+      "oracleId": "2f16de5b-fa89-5e16-9d13-f97d401edf7f",
       "name": "Vi",
       "subtitle": "Destructive",
       "type": "unit",
@@ -47,6 +48,7 @@
     {
       "number": "PR-OGN066",
       "uuid": "415d0e15-c78b-5f83-8321-8714cd74a9d7",
+      "oracleId": "4c150c87-a1a5-5efc-ab5a-e367d38aba15",
       "name": "Ahri",
       "subtitle": "Alluring",
       "type": "unit",
@@ -91,6 +93,7 @@
     {
       "number": "PR-OGN068",
       "uuid": "fd109d41-e984-5236-bc61-e51395e51df0",
+      "oracleId": "2a5725e2-a417-5981-810d-aa1c73d1b237",
       "name": "Caitlyn",
       "subtitle": "Patrolling",
       "type": "unit",
@@ -135,6 +138,7 @@
     {
       "number": "PR-OGN111",
       "uuid": "4443f050-6099-546c-b770-94ae7d1451f4",
+      "oracleId": "80596503-3983-5f39-890f-8490249f2254",
       "name": "Heimerdinger",
       "subtitle": "Inventor",
       "type": "unit",
@@ -180,6 +184,7 @@
     {
       "number": "PR-OGN159",
       "uuid": "e01fb8dd-ca93-540e-ace3-49d22293ffbe",
+      "oracleId": "305b65d0-692e-5b70-9a07-3fd9f6057bdb",
       "name": "Warwick",
       "subtitle": "Hunter",
       "type": "unit",
@@ -225,6 +230,7 @@
     {
       "number": "PR-OGN197",
       "uuid": "030da70c-45c1-5aff-ba3e-1342f2df0d13",
+      "oracleId": "795406c0-8312-5e8c-a513-da78923eae01",
       "name": "Teemo",
       "subtitle": "Scout",
       "type": "unit",
@@ -268,6 +274,7 @@
     {
       "number": "PR-OGN202",
       "uuid": "437149f8-7db8-5a93-bd7d-ab6ac7ca8c0a",
+      "oracleId": "0dcb8467-3052-5e11-9afd-5a935e8aea4a",
       "name": "Jinx",
       "subtitle": "Rebel",
       "type": "unit",
@@ -311,6 +318,7 @@
     {
       "number": "PR-OGN246",
       "uuid": "acfdcd31-6ee1-5eeb-ba9a-9fa0b6dadc52",
+      "oracleId": "18e368d0-73da-5670-b481-34e348dc325e",
       "name": "Viktor",
       "subtitle": "Leader",
       "type": "unit",
@@ -355,6 +363,7 @@
     {
       "number": "PR-RAD110",
       "uuid": "ed335055-3f78-5f1f-822e-02d8859d4428",
+      "oracleId": "bdebc6fb-c420-53d0-98d0-7cfcb9a952f5",
       "name": "Lulu",
       "subtitle": "Whimsical",
       "type": "unit",
@@ -399,6 +408,7 @@
     {
       "number": "PR-RAD132",
       "uuid": "12ec9d3b-4684-5658-abdb-352b2877ae33",
+      "oracleId": "c633b552-d9b3-5c07-869c-396906f19423",
       "name": "Heimerdinger",
       "subtitle": "Academy Instructor",
       "type": "unit",
@@ -443,6 +453,7 @@
     {
       "number": "PR-T02+T03",
       "uuid": "670104a3-ec06-56ff-80cf-68a8356e8d08",
+      "oracleId": "a287ec01-7d73-5c14-85d9-75a12855d4d7",
       "name": "Bird // Brush",
       "printings": [
         {
@@ -469,6 +480,7 @@
     {
       "number": "PR-VEN041",
       "uuid": "5567b1c7-e0b4-5a82-9543-9d03270ec70f",
+      "oracleId": "99d56481-63b3-5428-9be6-2aa1c789d8bd",
       "name": "Riven",
       "subtitle": "Shattered",
       "type": "unit",

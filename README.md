@@ -104,12 +104,13 @@ sealed id can pass to another product when the one holding it is delisted. So ea
 | gallery printing | `id:<printing id>` |
 | printing made from TCGplayer, sealed product | `tcgplayer:<lowest TCGplayer product id>` |
 | card | `id:<number>` |
+| oracle (a card and its reprints, see below) | `name:<name>\|<subtitle>`, both folded |
 
 `data/uuids.json` maps every identity key ever seen to its UUID, and the importers stamp it on what they write:
 
 - A key seen for the first time gets `uuid5(NAMESPACE, "<kind>:<id>")`, where `NAMESPACE` is
   `uuid5(NAMESPACE_URL, "https://github.com/ArthurG-data/rbjson")` and the kind is `cards`, `printings` or
-  `products`. A rebuild from nothing gives every record the UUID it had.
+  `products` (`oracle` for an oracle). A rebuild from nothing gives every record the UUID it had.
 - A known key keeps its UUID, however often the importers run and whatever id the record has now. Two promo
   printings whose names TCGplayer swaps keep their own UUIDs.
 - A record with a new key that replaces one that left takes its UUID. The records' other ids, their TCGplayer
@@ -122,10 +123,13 @@ A key never changes UUID and is never dropped. `tools/validate.py --since <git r
 earlier `data/uuids.json`, and CI runs it against the branch a PR targets and against where a branch was before
 a push.
 
-A card in `AllCards.json` also has an `oracleId`, as Scryfall's `oracle_id`: one UUID for every card with the same
-name and subtitle, `uuid5(NAMESPACE, "oracle:<name>|<subtitle>")` with both folded (casefolded, accents
-removed). Sett, The Boss at `OGN-269` and its Metal Best Of promo at `OPP-OGN269` are two cards with two UUIDs and
-one `oracleId`, so a reader can group a card's reprints. `validate.py` refuses two cards of one `oracleId` that
+Every card also has an `oracleId`, as Scryfall's `oracle_id`: one UUID for every card with the same name and
+subtitle, so a reader can group a card's reprints. Sett, The Boss at `OGN-269` and its Metal Best Of promo at
+`OPP-OGN269` are two cards with two UUIDs and one `oracleId`. An oracle first seen gets
+`uuid5(NAMESPACE, "oracle:<name>|<subtitle>")`, with both folded (casefolded, accents removed). After that
+`data/uuids.json` holds it like any other UUID, with the oracle's cards' UUIDs as its bridges. So if Riot fixes a
+typo in a card's name or subtitle, the card and its reprints keep their `oracleId`, and `validate.py --since`
+refuses an `oracleId` that changed. `validate.py` refuses two cards of one `oracleId` that
 state different types, domains, costs or might. The gallery tags a showcase reprint more sparely than its first
 printing, so tags may differ.
 
@@ -135,6 +139,7 @@ printing, so tags may differ.
 {
   "number": "OGN-119",
   "uuid": "4a85c80e-3437-575d-a455-976f560f79a7",
+  "oracleId": "dd18aebe-b532-5dc4-b566-576f98e0fd3f",
   "name": "Ahri",
   "subtitle": "Inquisitive",
   "type": "unit",
@@ -164,6 +169,7 @@ field is absent rather than null when the gallery gives nothing.
 |---|---|
 | `number` | Set code and collector number, without any variant suffix |
 | `uuid` | The card's UUID, which never changes (see [UUIDs](#uuids)) |
+| `oracleId` | Shared by the card and its reprints, and never changes (see [UUIDs](#uuids)) |
 | `name` | The card's English name as printed |
 | `names` | The name in each language the card has printings in, keyed by language: `{"en": "Ahri", "ko": "아리"}`. Present on a card with a non-English printing |
 | `subtitle` | The epithet under a champion's name (Ahri, *Inquisitive*). One champion has one card per subtitle |
@@ -378,7 +384,7 @@ the gallery import stays as the cross-check.
 - `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
 - `data/tcgplayer_images.json` records the TCGplayer products whose image TCGplayer's CDN serves.
-- `data/uuids.json` maps the identity key of every card, printing and sealed product ever seen to its UUID (see
+- `data/uuids.json` maps the identity key of every card, printing, sealed product and oracle ever seen to its UUID (see
   [UUIDs](#uuids)). Written by the importers and `tools/uuids.py`; never edited by hand.
 - `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
 - `tools/` holds the importers (gallery, TCGCSV, sealed, Cardmarket), the validator, the build script, and the gallery, TCGCSV and Cardmarket fetchers.

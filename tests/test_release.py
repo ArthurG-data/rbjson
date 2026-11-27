@@ -55,4 +55,4 @@ def test_cards_of_one_name_and_subtitle_that_disagree_on_a_rule_fact_are_refused
     card = next(c for c in files["OPP"]["cards"] if c["number"] == "OPP-OGN269")
     assert card["domains"]
     card["domains"] = ["colorless"] if card["domains"] != ["colorless"] else ["fury"]
-    assert any("OPP-OGN269: shares its name and subtitle" in e for e in rbjson.validate(sets, files, rbjson.load_sealed()))
+    assert any("OPP-OGN269: shares its oracleId" in e for e in rbjson.validate(sets, files, rbjson.load_sealed()))

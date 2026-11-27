@@ -3,6 +3,7 @@
     {
       "number": "JDG-OGN111",
       "uuid": "8b469cd8-43c2-5050-83b6-ae94057053e5",
+      "oracleId": "80596503-3983-5f39-890f-8490249f2254",
       "name": "Heimerdinger",
       "subtitle": "Inventor",
       "type": "unit",
@@ -47,6 +48,7 @@
     {
       "number": "JDG-SFD059",
       "uuid": "ed4bae4d-66e7-58fa-870c-c1a46be75919",
+      "oracleId": "1d1d373a-a3e1-56e9-a35d-155b23f82853",
       "name": "Svellsongur",
       "type": "gear",
       "domains": [
@@ -86,6 +88,7 @@
     {
       "number": "JDG-UNL087",
       "uuid": "702c9500-18fb-592a-9a63-a1d55cf2d850",
+      "oracleId": "05600852-7817-5f1d-ae78-3c7ce5400ff6",
       "name": "Blue Sentinel",
       "type": "unit",
       "domains": [
@@ -124,6 +127,7 @@
     {
       "number": "JDG-VEN086",
       "uuid": "2c724c1f-755a-5d54-a744-0ba3b6f8637b",
+      "oracleId": "59b308e2-13d2-5393-a265-9c1f5249b24a",
       "name": "Gangplank",
       "subtitle": "Naval",
       "type": "unit",

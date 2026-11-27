@@ -3,6 +3,7 @@
     {
       "number": "OPP-OGN001",
       "uuid": "4b22bda0-ce9e-5d39-a54c-58ee37fe21f9",
+      "oracleId": "ca4059de-4471-5665-ba11-d108ef0db016",
       "name": "Blazing Scorcher",
       "type": "unit",
       "domains": [
@@ -41,6 +42,7 @@
     {
       "number": "OPP-OGN007",
       "uuid": "7b8a4298-e920-5cb5-8aff-a16f5b9ce28b",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -77,6 +79,7 @@
     {
       "number": "OPP-OGN013",
       "uuid": "00fde0df-834e-5f01-9767-4ea0a821f3af",
+      "oracleId": "048ad9e8-f9ad-5f83-9877-d18dcaf52c19",
       "name": "Pouty Poro",
       "type": "unit",
       "domains": [
@@ -114,6 +117,7 @@
     {
       "number": "OPP-OGN024",
       "uuid": "ed90e665-d760-53a2-9a79-9bb93d889d8b",
+      "oracleId": "f3695c36-5d80-540c-bf59-31f8dc44af4b",
       "name": "Void Seeker",
       "type": "spell",
       "domains": [
@@ -148,6 +152,7 @@
     {
       "number": "OPP-OGN034",
       "uuid": "e3509ef6-6eaf-5004-8157-7e480e29ba58",
+      "oracleId": "29128c7a-4c0a-5107-beac-312e235ead50",
       "name": "Tryndamere",
       "subtitle": "Barbarian",
       "type": "unit",
@@ -191,6 +196,7 @@
     {
       "number": "OPP-OGN042",
       "uuid": "4a22e591-5454-5fdb-a5a6-fb5c3586f824",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -227,6 +233,7 @@
     {
       "number": "OPP-OGN052",
       "uuid": "1f8740ce-2259-59bf-a7cb-4b640d63d5e9",
+      "oracleId": "d8f055b6-b8c3-53cb-8c1a-967a9816deb3",
       "name": "Stalwart Poro",
       "type": "unit",
       "domains": [
@@ -264,6 +271,7 @@
     {
       "number": "OPP-OGN055",
       "uuid": "1e807a1d-c4bd-5a84-98e7-1e0f6270bf4f",
+      "oracleId": "3e808252-bcfc-5c88-9467-bfd73cd7702d",
       "name": "Wielder of Water",
       "type": "unit",
       "domains": [
@@ -301,6 +309,7 @@
     {
       "number": "OPP-OGN058",
       "uuid": "84755ec2-60b2-5295-9061-392c02738f18",
+      "oracleId": "1563ec66-aca8-5bdd-9f34-6d92f87bcbff",
       "name": "Discipline",
       "type": "spell",
       "domains": [
@@ -334,6 +343,7 @@
     {
       "number": "OPP-OGN067",
       "uuid": "e9b409b3-c73c-57cb-9bf3-4cbb6d0c1048",
+      "oracleId": "62467705-9606-545c-9e32-ba7b69ba4eda",
       "name": "Blitzcrank",
       "subtitle": "Impassive",
       "type": "unit",
@@ -378,6 +388,7 @@
     {
       "number": "OPP-OGN078",
       "uuid": "6c32f28f-0fd9-5d7f-9aa2-8c5f68b288d8",
+      "oracleId": "38b61242-e4ef-54ed-beb8-d59d757167ac",
       "name": "Lee Sin",
       "subtitle": "Ascetic",
       "type": "unit",
@@ -421,6 +432,7 @@
     {
       "number": "OPP-OGN083",
       "uuid": "ccaed786-9e65-55f4-8ab0-03af4391a432",
+      "oracleId": "0993620e-ad2a-59fe-8ce3-b9bfbe9616c2",
       "name": "Consult the Past",
       "type": "spell",
       "domains": [
@@ -454,6 +466,7 @@
     {
       "number": "OPP-OGN089",
       "uuid": "2b0bc5ab-8c24-568c-b4d4-3484bdf98965",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -490,6 +503,7 @@
     {
       "number": "OPP-OGN092",
       "uuid": "e91592dc-2e0a-5727-93b8-89b18bd02902",
+      "oracleId": "065a548f-f4b8-509d-a114-d03aa291c665",
       "name": "Riptide Rex",
       "type": "unit",
       "domains": [
@@ -529,6 +543,7 @@
     {
       "number": "OPP-OGN103",
       "uuid": "f9336569-0dfe-5518-a404-2ee5a4c5a85b",
+      "oracleId": "6b8b9be3-a523-5604-8910-48ea58762f73",
       "name": "Ravenbloom Student",
       "type": "unit",
       "domains": [
@@ -566,6 +581,7 @@
     {
       "number": "OPP-OGN126",
       "uuid": "7ca30448-8a5e-5202-9dcf-ade5e79b6e24",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -602,6 +618,7 @@
     {
       "number": "OPP-OGN128",
       "uuid": "76df7ce6-57ae-5b28-8290-223621080234",
+      "oracleId": "aa0c4b80-fb8e-5ef4-9447-e02156b1c74d",
       "name": "Challenge",
       "type": "spell",
       "domains": [
@@ -636,6 +653,7 @@
     {
       "number": "OPP-OGN135",
       "uuid": "83942de6-2c06-5d90-8ea4-daf78232bdc2",
+      "oracleId": "b145b22c-97aa-50a8-b873-a2b6efc9da80",
       "name": "Pakaa Cub",
       "type": "unit",
       "domains": [
@@ -674,6 +692,7 @@
     {
       "number": "OPP-OGN137",
       "uuid": "a649d5f4-cb14-5566-a134-4c440a9027ea",
+      "oracleId": "734836ca-68f4-5fe4-9d79-5dff1ede5320",
       "name": "Stormclaw Ursine",
       "type": "unit",
       "domains": [
@@ -711,6 +730,7 @@
     {
       "number": "OPP-OGN151",
       "uuid": "4be53e2c-732e-5cea-ae3a-72040546233a",
+      "oracleId": "8a9dbead-70db-5df3-bd98-1af74cab6d4c",
       "name": "Lee Sin",
       "subtitle": "Centered",
       "type": "unit",
@@ -754,6 +774,7 @@
     {
       "number": "OPP-OGN166",
       "uuid": "acc71634-b1bf-5764-a877-825537778cbe",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -790,6 +811,7 @@
     {
       "number": "OPP-OGN171",
       "uuid": "85dc1f3e-3235-55a7-82ad-8133a20d030d",
+      "oracleId": "699e6d46-9481-5d54-9013-d08fa0461819",
       "name": "Mystic Poro",
       "type": "unit",
       "domains": [
@@ -827,6 +849,7 @@
     {
       "number": "OPP-OGN177",
       "uuid": "83fdf59b-60e9-5682-b9df-1a4ad7ae2080",
+      "oracleId": "443ee877-4d88-5787-95f6-f8d90fad24ae",
       "name": "Stealthy Pursuer",
       "type": "unit",
       "domains": [
@@ -865,6 +888,7 @@
     {
       "number": "OPP-OGN183",
       "uuid": "205ba16f-316c-58bb-9eb7-68c1faa884c7",
+      "oracleId": "b12645f2-30cf-5db5-8aee-0703763937eb",
       "name": "Stacked Deck",
       "type": "spell",
       "domains": [
@@ -898,6 +922,7 @@
     {
       "number": "OPP-OGN193",
       "uuid": "80eecb4e-c637-57d8-93e3-dbdd7db02dee",
+      "oracleId": "d910ef7c-d9a4-5f2c-b1f2-82d4ea1525ed",
       "name": "Miss Fortune",
       "subtitle": "Buccaneer",
       "type": "unit",
@@ -942,6 +967,7 @@
     {
       "number": "OPP-OGN197",
       "uuid": "6f0a7010-afd8-546e-b15b-862f057eb79b",
+      "oracleId": "795406c0-8312-5e8c-a513-da78923eae01",
       "name": "Teemo",
       "subtitle": "Scout",
       "type": "unit",
@@ -987,6 +1013,7 @@
     {
       "number": "OPP-OGN202",
       "uuid": "b21f6840-fd42-5289-b0ea-843fc1c88749",
+      "oracleId": "0dcb8467-3052-5e11-9afd-5a935e8aea4a",
       "name": "Jinx",
       "subtitle": "Rebel",
       "type": "unit",
@@ -1030,6 +1057,7 @@
     {
       "number": "OPP-OGN210",
       "uuid": "a23ddd50-e1e6-58d3-8611-744e2b35ae6c",
+      "oracleId": "27bef81a-ba11-53ee-a30e-55d856ae614d",
       "name": "Daring Poro",
       "type": "unit",
       "domains": [
@@ -1067,6 +1095,7 @@
     {
       "number": "OPP-OGN214",
       "uuid": "198c5ad7-177e-52c6-b36e-ac2215f5970d",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -1101,6 +1130,7 @@
     {
       "number": "OPP-OGN218",
       "uuid": "821e9a1d-1319-54ee-9f35-8e012aa2c274",
+      "oracleId": "02276512-579f-5b71-b4fa-37337bd25a97",
       "name": "Vanguard Captain",
       "type": "unit",
       "domains": [
@@ -1140,6 +1170,7 @@
     {
       "number": "OPP-OGN229",
       "uuid": "a56953ec-0ca8-5099-9c2c-e494f9e2ce4c",
+      "oracleId": "5ca42954-e0cc-510d-b468-e50a638cfce8",
       "name": "Vengeance",
       "type": "spell",
       "domains": [
@@ -1174,6 +1205,7 @@
     {
       "number": "OPP-OGN246",
       "uuid": "dbd354af-e97e-5a7f-833c-8d9d62939882",
+      "oracleId": "18e368d0-73da-5670-b481-34e348dc325e",
       "name": "Viktor",
       "subtitle": "Leader",
       "type": "unit",
@@ -1217,6 +1249,7 @@
     {
       "number": "OPP-OGN247",
       "uuid": "af169dcf-db2a-514b-b48e-cb8f656ecfa0",
+      "oracleId": "90232b66-d213-55d3-b1a9-9d72cf6a5271",
       "name": "Daughter of the Void",
       "type": "legend",
       "domains": [
@@ -1297,6 +1330,7 @@
     {
       "number": "OPP-OGN249",
       "uuid": "d22accd5-00dc-5f6d-bad1-c26a77192ef5",
+      "oracleId": "65e98076-3a19-5f0d-a827-d4f838ed893d",
       "name": "Relentless Storm",
       "type": "legend",
       "domains": [
@@ -1377,6 +1411,7 @@
     {
       "number": "OPP-OGN251",
       "uuid": "b58e85fa-6834-53cf-a105-65c2990910ab",
+      "oracleId": "d830dc6f-0259-577b-b9b4-9c7160684c9a",
       "name": "Loose Cannon",
       "type": "legend",
       "domains": [
@@ -1453,6 +1488,7 @@
     {
       "number": "OPP-OGN253",
       "uuid": "4379b6b1-d9f0-5715-b809-01ccac49b868",
+      "oracleId": "bb366486-66b6-588c-83f3-8bc67008bd7c",
       "name": "Hand of Noxus",
       "type": "legend",
       "domains": [
@@ -1529,6 +1565,7 @@
     {
       "number": "OPP-OGN255",
       "uuid": "91f8b830-6e56-5fdd-85be-596a22d6cdba",
+      "oracleId": "7557fdac-78fa-5761-a824-ed5e1b4266c2",
       "name": "Nine-Tailed Fox",
       "type": "legend",
       "domains": [
@@ -1607,6 +1644,7 @@
     {
       "number": "OPP-OGN257",
       "uuid": "56e82822-4201-5a22-8973-2fcef2463556",
+      "oracleId": "0fa715d0-c132-5f10-8edd-59be970bd5f3",
       "name": "Blind Monk",
       "type": "legend",
       "domains": [
@@ -1683,6 +1721,7 @@
     {
       "number": "OPP-OGN259",
       "uuid": "f8514904-ba23-55be-b120-f50e121244d1",
+      "oracleId": "c299e62a-d43a-58a7-8b77-b03f5f96e92a",
       "name": "Unforgiven",
       "type": "legend",
       "domains": [
@@ -1763,6 +1802,7 @@
     {
       "number": "OPP-OGN261",
       "uuid": "3770aaa4-96c1-5a5b-b232-8b534ed71d27",
+      "oracleId": "bd98b613-3c7a-5780-9128-6ff95ea34d83",
       "name": "Radiant Dawn",
       "type": "legend",
       "domains": [
@@ -1843,6 +1883,7 @@
     {
       "number": "OPP-OGN263",
       "uuid": "84af584b-0f05-5f44-a4cc-712615c4d9cb",
+      "oracleId": "50ba2129-74a7-59fe-a621-9f8e77352725",
       "name": "Swift Scout",
       "type": "legend",
       "domains": [
@@ -1923,6 +1964,7 @@
     {
       "number": "OPP-OGN265",
       "uuid": "530896b7-3321-52cf-8fe5-46e4c63ede1e",
+      "oracleId": "bd28ffdc-8992-57df-a807-bd679786efae",
       "name": "Herald of the Arcane",
       "type": "legend",
       "domains": [
@@ -2003,6 +2045,7 @@
     {
       "number": "OPP-OGN267",
       "uuid": "32c6935a-ce59-5a13-b2bb-c426c2f415e5",
+      "oracleId": "da602689-52c9-517f-8914-5c1a0cb4c368",
       "name": "Bounty Hunter",
       "type": "legend",
       "domains": [
@@ -2083,6 +2126,7 @@
     {
       "number": "OPP-OGN269",
       "uuid": "95437471-87c5-5345-b7f3-8f667cb66628",
+      "oracleId": "bc07b631-9158-5b32-8a32-3a3be363443f",
       "name": "The Boss",
       "type": "legend",
       "domains": [
@@ -2163,6 +2207,7 @@
     {
       "number": "OPP-OGS001",
       "uuid": "fa493d14-38c7-51a9-ad13-4c96346e4b2e",
+      "oracleId": "9369b12f-9d3d-5f8b-80f6-78d3a1cccca0",
       "name": "Annie",
       "subtitle": "Fiery",
       "type": "unit",
@@ -2206,6 +2251,7 @@
     {
       "number": "OPP-OGS004",
       "uuid": "189fe72c-aa3f-5413-b594-2f206f14feeb",
+      "oracleId": "5f125e17-ef77-5f74-a47f-5405d21647d2",
       "name": "Master Yi",
       "subtitle": "Meditative",
       "type": "unit",
@@ -2249,6 +2295,7 @@
     {
       "number": "OPP-OGS006",
       "uuid": "24e80794-76e1-58fe-8c3d-ca48f47151e8",
+      "oracleId": "62f79fbf-6dd1-528f-bf9f-93780a8653f8",
       "name": "Lux",
       "subtitle": "Illuminated",
       "type": "unit",
@@ -2292,6 +2339,7 @@
     {
       "number": "OPP-OGS007",
       "uuid": "2390af9b-719a-5989-8537-a3edaf578cfa",
+      "oracleId": "d9efeafc-1b2d-5165-8497-6739edf61cf0",
       "name": "Garen",
       "subtitle": "Rugged",
       "type": "unit",
@@ -2336,6 +2384,7 @@
     {
       "number": "OPP-OGS009",
       "uuid": "48e2a5f9-4039-5df0-946a-8051690278ee",
+      "oracleId": "38cd3e1d-e4a4-5763-bcdb-cf44896fa5ad",
       "name": "Master Yi",
       "subtitle": "Honed",
       "type": "unit",
@@ -2379,6 +2428,7 @@
     {
       "number": "OPP-OGS010",
       "uuid": "c28ba228-59f9-551b-9d0b-edca783df55e",
+      "oracleId": "778a1978-0f98-59ef-8a8e-e5f9d9181169",
       "name": "Annie",
       "subtitle": "Stubborn",
       "type": "unit",
@@ -2422,6 +2472,7 @@
     {
       "number": "OPP-OGS011",
       "uuid": "d08b40b1-5a3f-5671-956c-f836cf5ed9d9",
+      "oracleId": "c7ca9417-0df9-5578-bea2-64615ece0fbb",
       "name": "Flash",
       "type": "spell",
       "domains": [
@@ -2455,6 +2506,7 @@
     {
       "number": "OPP-OGS013",
       "uuid": "46605178-9ce3-5445-b6ab-495662f995ea",
+      "oracleId": "8dc9890c-c60e-544f-b7d7-228c451750c3",
       "name": "Garen",
       "subtitle": "Commander",
       "type": "unit",
@@ -2499,6 +2551,7 @@
     {
       "number": "OPP-OGS014",
       "uuid": "7fcaf093-f062-5676-9b46-fbced81a47d3",
+      "oracleId": "16f1a308-63c8-51e3-8f98-9775f11502ab",
       "name": "Lux",
       "subtitle": "Crownguard",
       "type": "unit",
@@ -2541,6 +2594,7 @@
     {
       "number": "OPP-OGS017",
       "uuid": "159f0bac-4fbf-5490-b676-704d831f8697",
+      "oracleId": "752e8b72-fea6-51cb-869c-1020f8a4c87d",
       "name": "Dark Child",
       "subtitle": "Starter",
       "type": "legend",
@@ -2623,6 +2677,7 @@
     {
       "number": "OPP-OGS018",
       "uuid": "acaea137-df00-5c49-8b6b-4594e23d082c",
+      "oracleId": "971c9bdf-9579-5ad7-b235-19ae92482c50",
       "name": "Tibbers",
       "subtitle": "Annie",
       "type": "unit",
@@ -2666,6 +2721,7 @@
     {
       "number": "OPP-OGS019",
       "uuid": "dd3d7363-be03-5abf-8a36-c9e17948af0d",
+      "oracleId": "65c11166-ff84-5eac-b162-866e6fd82fcf",
       "name": "Wuju Bladesman",
       "subtitle": "Starter",
       "type": "legend",
@@ -2750,6 +2806,7 @@
     {
       "number": "OPP-OGS020",
       "uuid": "38cbee25-c16d-5dd2-8267-f4763758fd54",
+      "oracleId": "c5511ce2-029b-5a50-961f-b142ec589d24",
       "name": "Highlander",
       "subtitle": "Yi",
       "type": "spell",
@@ -2789,6 +2846,7 @@
     {
       "number": "OPP-OGS021",
       "uuid": "fcd28816-4fa8-5c0c-9695-7241b6dcd612",
+      "oracleId": "af45efd0-21b1-5cd6-b058-8985bd8074a0",
       "name": "Lady of Luminosity",
       "subtitle": "Starter",
       "type": "legend",
@@ -2873,6 +2931,7 @@
     {
       "number": "OPP-OGS022",
       "uuid": "c94b7159-a2a1-5262-b917-91ef31199694",
+      "oracleId": "5d52ca3a-95f4-5473-82b4-d6fc4a1a9f54",
       "name": "Final Spark",
       "subtitle": "Lux",
       "type": "spell",
@@ -2914,6 +2973,7 @@
     {
       "number": "OPP-OGS023",
       "uuid": "36174756-191a-5936-a94f-ce01daeb8851",
+      "oracleId": "faef795d-dd0a-52cd-bb13-68fc913cc7d9",
       "name": "Might of Demacia",
       "subtitle": "Starter",
       "type": "legend",
@@ -2996,6 +3056,7 @@
     {
       "number": "OPP-OGS024",
       "uuid": "f27f6191-656c-5b36-a621-93f8a71c4455",
+      "oracleId": "394d7f69-7301-528c-8b98-3330bd0a1861",
       "name": "Decisive Strike",
       "subtitle": "Garen",
       "type": "spell",
@@ -3038,6 +3099,7 @@
     {
       "number": "OPP-R01",
       "uuid": "89d549b6-c6e3-5802-ada9-f5469e3ba42e",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -3074,6 +3136,7 @@
     {
       "number": "OPP-R02",
       "uuid": "8b5f7e79-9c90-54d6-83e5-142fdce869fc",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -3110,6 +3173,7 @@
     {
       "number": "OPP-R03",
       "uuid": "1563cee7-62a8-5e4b-92eb-5d2e0882ea96",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -3144,6 +3208,7 @@
     {
       "number": "OPP-R04",
       "uuid": "1412455a-2c8e-5bf3-a6b8-049bd3253389",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -3180,6 +3245,7 @@
     {
       "number": "OPP-R05",
       "uuid": "5768e5ba-095e-55c7-9c72-cf2c54a24027",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -3216,6 +3282,7 @@
     {
       "number": "OPP-R06",
       "uuid": "ac812302-a3d3-598a-a3f1-c3d410876045",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -3250,6 +3317,7 @@
     {
       "number": "OPP-RAD002",
       "uuid": "ea52afe5-628f-59dc-8db1-b44ed5c87453",
+      "oracleId": "9b690223-b0c3-5c55-abb9-60b357d90bb6",
       "name": "Banner of Conquest",
       "type": "gear",
       "domains": [
@@ -3287,6 +3355,7 @@
     {
       "number": "OPP-RAD008",
       "uuid": "05118f5f-fe97-5db4-aa45-6f30c8ce8dab",
+      "oracleId": "9ed27435-9c93-5081-86df-392ea0b92c6a",
       "name": "War Scout",
       "type": "unit",
       "domains": [
@@ -3319,6 +3388,7 @@
     {
       "number": "OPP-RAD014",
       "uuid": "310f2a36-1ea4-5540-9b35-c20d8c4b379c",
+      "oracleId": "bb3e2205-cf7c-57c1-8ae6-6a41bc7265e7",
       "name": "Shimmering Swimmer",
       "type": "unit",
       "domains": [
@@ -3351,6 +3421,7 @@
     {
       "number": "OPP-RAD019",
       "uuid": "02e19918-4d42-5e69-89ba-754a8c354033",
+      "oracleId": "d107464e-1083-5e02-838c-7ca21aef863b",
       "name": "Firebrand Raider",
       "type": "unit",
       "domains": [
@@ -3384,6 +3455,7 @@
     {
       "number": "OPP-RAD027",
       "uuid": "ec09b898-6f95-58cc-8158-5f5b9dac4241",
+      "oracleId": "250de0b7-7494-5829-94be-1762a11d0b2e",
       "name": "Iridescent Avian",
       "type": "unit",
       "domains": [
@@ -3416,6 +3488,7 @@
     {
       "number": "OPP-RAD029",
       "uuid": "1882e92b-e378-5f3e-b00b-8d3d6e5f05af",
+      "oracleId": "bd277566-8f7e-5d20-a877-1d08bde94ed0",
       "name": "Life from Stone",
       "type": "spell",
       "domains": [
@@ -3449,6 +3522,7 @@
     {
       "number": "OPP-RAD037",
       "uuid": "efd2b745-fd64-504f-9cba-abf248a650c8",
+      "oracleId": "19858c50-72f4-5e51-96e9-ca139d395ccd",
       "name": "Watchful Curator",
       "type": "unit",
       "domains": [
@@ -3482,6 +3556,7 @@
     {
       "number": "OPP-RAD041",
       "uuid": "b2eaf902-8a94-5173-b68f-bb409f473334",
+      "oracleId": "dcf9c8d4-1c01-53c9-998d-b17d1850cd25",
       "name": "Hush",
       "energy": 1,
       "power": 2,
@@ -3512,6 +3587,7 @@
     {
       "number": "OPP-RAD048",
       "uuid": "9639710d-13ad-5cd2-aac8-b61158d87bfb",
+      "oracleId": "00940d70-ab1d-54c0-b087-d4439b51e0ce",
       "name": "High Note",
       "type": "spell",
       "domains": [
@@ -3543,6 +3619,7 @@
     {
       "number": "OPP-RAD054",
       "uuid": "0d19346a-6b91-5ac6-bbfb-8c9cbda29ad4",
+      "oracleId": "1c03dc18-2230-559f-98e0-8edc707b0975",
       "name": "Trinket Peddler",
       "type": "unit",
       "domains": [
@@ -3575,6 +3652,7 @@
     {
       "number": "OPP-RAD055",
       "uuid": "cf705d8a-e1db-585a-9bbf-83248131fb17",
+      "oracleId": "d5768730-41aa-5bbb-9237-73d66839c96c",
       "name": "Clanging Sentry",
       "type": "unit",
       "domains": [
@@ -3607,6 +3685,7 @@
     {
       "number": "OPP-RAD066",
       "uuid": "8d06783a-8ad9-542e-acc0-b0ab671a2ba8",
+      "oracleId": "cc4da734-570f-5d2d-801f-05702a8bc909",
       "name": "Spirit of the Forge",
       "type": "unit",
       "domains": [
@@ -3640,6 +3719,7 @@
     {
       "number": "OPP-RAD070",
       "uuid": "2a2ad85d-3296-5896-b5e6-6e430acdaf21",
+      "oracleId": "59555554-5ebe-5a37-b613-3cbf9a7c8cc9",
       "name": "Hold 'Em",
       "type": "spell",
       "domains": [
@@ -3671,6 +3751,7 @@
     {
       "number": "OPP-RAD076",
       "uuid": "5c1c0a75-eb2f-5bbb-9340-8792a3778a48",
+      "oracleId": "e8ce7ece-b51b-54de-a7ed-b3d117f868e5",
       "name": "Sneaky Zeebles",
       "type": "unit",
       "domains": [
@@ -3703,6 +3784,7 @@
     {
       "number": "OPP-RAD083",
       "uuid": "5d283eb9-b216-5836-a4e9-0f82dc14b8fa",
+      "oracleId": "1a181fd4-0d6d-51fd-8b2b-abca395c6473",
       "name": "Stalwart Goatherd",
       "type": "unit",
       "domains": [
@@ -3735,6 +3817,7 @@
     {
       "number": "OPP-RAD087",
       "uuid": "18c5280f-b235-53cf-b152-7f0c6bc38a3b",
+      "oracleId": "0078f22f-80b3-5b11-931c-df2783da8015",
       "name": "Portable Portal",
       "type": "unit",
       "domains": [
@@ -3769,6 +3852,7 @@
     {
       "number": "OPP-RAD094",
       "uuid": "5aa30e2e-9d4a-5427-a4cc-193c07f15b40",
+      "oracleId": "f207cfa6-2bda-51aa-91a6-b220c961aa75",
       "name": "Explosimian",
       "type": "unit",
       "domains": [
@@ -3801,6 +3885,7 @@
     {
       "number": "OPP-RAD096",
       "uuid": "501adc89-9c17-5674-b006-3d8795be0973",
+      "oracleId": "0c9b386e-8a15-5d75-8a9c-b049ae9ee89e",
       "name": "Satchel Charge",
       "type": "spell",
       "domains": [
@@ -3833,6 +3918,7 @@
     {
       "number": "OPP-RAD105",
       "uuid": "f5d091b2-0756-5016-8912-2b6d6db4c1ee",
+      "oracleId": "24019336-9bfb-5d86-bbad-212ab4fce17d",
       "name": "Reckless Innovator",
       "type": "unit",
       "domains": [
@@ -3865,6 +3951,7 @@
     {
       "number": "OPP-RAD107",
       "uuid": "5cc67758-27e4-5597-aea4-5685efbfae79",
+      "oracleId": "5ca1cf92-fda7-5a93-80ed-f5cc428e6ce6",
       "name": "Bedeviling Stranger",
       "type": "unit",
       "domains": [
@@ -3897,6 +3984,7 @@
     {
       "number": "OPP-RAD119",
       "uuid": "abe9c99a-e0fa-5d5e-b228-1465a5d433db",
+      "oracleId": "636ffdb3-6d06-5caa-a0c1-904f4e71f5a9",
       "name": "Hunting Dog",
       "type": "unit",
       "domains": [
@@ -3929,6 +4017,7 @@
     {
       "number": "OPP-RAD122",
       "uuid": "ec0a687e-2573-5bbc-880a-93e4dcf5ad2f",
+      "oracleId": "5d22a482-db58-5418-ad2f-7464945a68b1",
       "name": "Party Crasher",
       "type": "unit",
       "domains": [
@@ -3962,6 +4051,7 @@
     {
       "number": "OPP-RAD127",
       "uuid": "6be031fe-1900-5f4a-a75d-d0d57406c652",
+      "oracleId": "7f368bf2-f9cd-57c8-800e-27f74579be03",
       "name": "Rousing Display",
       "domains": [
         "order"
@@ -3992,6 +4082,7 @@
     {
       "number": "OPP-RAD130",
       "uuid": "ae87d579-23ee-57e2-9f39-a8377884120f",
+      "oracleId": "79701eb7-21e7-52ab-92dd-48b5428a87e9",
       "name": "Battlefield Armorer",
       "type": "spell",
       "domains": [
@@ -4024,6 +4115,7 @@
     {
       "number": "OPP-SFD007",
       "uuid": "44329fc3-233c-54d4-8e64-ec24d17d95a8",
+      "oracleId": "d25bf965-1284-53fb-82d6-64df5c9df6f7",
       "name": "Gem Jammer",
       "type": "unit",
       "domains": [
@@ -4060,6 +4152,7 @@
     {
       "number": "OPP-SFD009",
       "uuid": "52776d00-cad5-5816-9ca4-90b4f2d937cd",
+      "oracleId": "d3122fb5-e220-514f-aecb-c2e71df8aa2b",
       "name": "Serrated Dirk",
       "type": "gear",
       "domains": [
@@ -4098,6 +4191,7 @@
     {
       "number": "OPP-SFD013",
       "uuid": "90796e54-2104-50fc-83f2-6db1c90f0b7a",
+      "oracleId": "2672c126-2981-5acb-a0f3-a9a8d5d49cee",
       "name": "Blast Corps Cadet",
       "type": "unit",
       "domains": [
@@ -4135,6 +4229,7 @@
     {
       "number": "OPP-SFD022",
       "uuid": "8c52352a-e9d5-53db-b9d8-18f0e03b0f40",
+      "oracleId": "47aac3de-76cb-5297-a286-cde6768175ab",
       "name": "Long Sword",
       "type": "gear",
       "domains": [
@@ -4175,6 +4270,7 @@
     {
       "number": "OPP-SFD033",
       "uuid": "e78396d3-d6b6-52fd-aeb6-057f4c01e9c8",
+      "oracleId": "c03b2f02-0cf3-59c8-b499-784648c36c20",
       "name": "Doran's Shield",
       "type": "gear",
       "domains": [
@@ -4213,6 +4309,7 @@
     {
       "number": "OPP-SFD037",
       "uuid": "1c49a6cd-728c-5755-ad78-e4a2175cbebb",
+      "oracleId": "61f0d4e5-0e2b-5051-8012-67ebd72a55ed",
       "name": "Navori Scout",
       "type": "unit",
       "domains": [
@@ -4251,6 +4348,7 @@
     {
       "number": "OPP-SFD048",
       "uuid": "ba54811a-b05a-51aa-afaa-c6967f64ad72",
+      "oracleId": "d93919b1-be5a-5a9c-9845-46fae387e459",
       "name": "Stellacorn Herder",
       "type": "unit",
       "domains": [
@@ -4288,6 +4386,7 @@
     {
       "number": "OPP-SFD051",
       "uuid": "95643b46-04f6-5b7a-8c44-0f262ab0c7ca",
+      "oracleId": "ebbfb499-02a7-5087-b4d4-f43adbb6f2d9",
       "name": "Guardian Angel",
       "type": "gear",
       "domains": [
@@ -4345,6 +4444,7 @@
     {
       "number": "OPP-SFD064",
       "uuid": "655d5413-2b25-536f-8e9d-c157e3eb2d6c",
+      "oracleId": "b5a27dd6-b43e-53ad-949b-65af574adb6d",
       "name": "Cloth Armor",
       "type": "gear",
       "domains": [
@@ -4383,6 +4483,7 @@
     {
       "number": "OPP-SFD067",
       "uuid": "3710c581-d893-5666-a6f6-8794dd36c832",
+      "oracleId": "36b6f855-9935-5ae0-a706-e1eb6d740eec",
       "name": "Frostcoat Cub",
       "type": "unit",
       "domains": [
@@ -4421,6 +4522,7 @@
     {
       "number": "OPP-SFD076",
       "uuid": "3fa314ed-347b-5c7f-85af-64973d390720",
+      "oracleId": "d16eb583-30ae-50a5-93c1-c6057c43746e",
       "name": "Production Surge",
       "type": "spell",
       "domains": [
@@ -4455,6 +4557,7 @@
     {
       "number": "OPP-SFD084",
       "uuid": "d2082156-fc54-5dcb-8341-97196d6b4915",
+      "oracleId": "2e7bac20-341d-541b-9999-2df170abb5ab",
       "name": "Jayce",
       "subtitle": "Man of Progress",
       "type": "unit",
@@ -4497,6 +4600,7 @@
     {
       "number": "OPP-SFD086",
       "uuid": "9a2c5d29-120e-5cea-b4e3-affef671d9f8",
+      "oracleId": "8c8ab5af-66b5-5daa-98bc-f049476b5353",
       "name": "World Atlas",
       "type": "gear",
       "domains": [
@@ -4535,6 +4639,7 @@
     {
       "number": "OPP-SFD095",
       "uuid": "68625888-481a-5e87-ba66-769d65c4b876",
+      "oracleId": "01c3c4c6-f941-5584-abe5-fe1ed7afd9e0",
       "name": "Doran's Blade",
       "type": "gear",
       "domains": [
@@ -4573,6 +4678,7 @@
     {
       "number": "OPP-SFD098",
       "uuid": "a8ca7731-9753-5259-810d-9cb5bce71ff0",
+      "oracleId": "e0f18a91-1cde-5ae6-ad41-fb4e4bd20c36",
       "name": "Sea Monkey",
       "type": "unit",
       "domains": [
@@ -4611,6 +4717,7 @@
     {
       "number": "OPP-SFD101",
       "uuid": "7a5cde1b-a878-5e86-a984-49d28738b5d8",
+      "oracleId": "ef286032-6689-5507-9885-bfbe270a85b1",
       "name": "Fae Dragon",
       "type": "unit",
       "domains": [
@@ -4651,6 +4758,7 @@
     {
       "number": "OPP-SFD116",
       "uuid": "c1a73ee6-db8d-5d76-93b5-ede80c7731a2",
+      "oracleId": "83c3efd7-413c-5b2e-9350-37384471bdf0",
       "name": "Yone",
       "subtitle": "Blademaster",
       "type": "unit",
@@ -4695,6 +4803,7 @@
     {
       "number": "OPP-SFD118",
       "uuid": "e26e0ac0-dd13-55c9-a58e-126480dfae55",
+      "oracleId": "9c387d05-4da1-55d8-8fa4-f9cf6d98b7a0",
       "name": "Boneshiver",
       "type": "gear",
       "domains": [
@@ -4734,6 +4843,7 @@
     {
       "number": "OPP-SFD124",
       "uuid": "68359519-5a2f-503a-ab14-09aca6d17cae",
+      "oracleId": "305ffb9c-044a-5194-acfb-5d685d8e1f80",
       "name": "Doran's Ring",
       "type": "gear",
       "domains": [
@@ -4772,6 +4882,7 @@
     {
       "number": "OPP-SFD130",
       "uuid": "413ca169-7e7e-5b0f-bb2d-a2623ca4e923",
+      "oracleId": "36ace976-1ac7-5110-892e-aedc945946dc",
       "name": "Treasure Hunter",
       "type": "unit",
       "domains": [
@@ -4809,6 +4920,7 @@
     {
       "number": "OPP-SFD137",
       "uuid": "dce541cd-a40b-515e-b5bc-1fa651b1b274",
+      "oracleId": "28b14a93-3df2-5c4d-9395-e503e210a6d0",
       "name": "Harpoon Squad",
       "type": "unit",
       "domains": [
@@ -4845,6 +4957,7 @@
     {
       "number": "OPP-SFD139",
       "uuid": "a9b34bb8-bbee-54d9-9f28-890af82e05a7",
+      "oracleId": "cf664656-ea8f-5cef-9aa7-ac3bc70a1e36",
       "name": "Edge of Night",
       "type": "gear",
       "domains": [
@@ -4906,6 +5019,7 @@
     {
       "number": "OPP-SFD153",
       "uuid": "28c76c44-6608-56e2-ad68-590f8944008a",
+      "oracleId": "35ed7f4a-8fb8-5d09-96c1-9a94690b492c",
       "name": "Eye of the Herald",
       "type": "gear",
       "domains": [
@@ -4944,6 +5058,7 @@
     {
       "number": "OPP-SFD156",
       "uuid": "dc477aa4-6a48-5ce8-a0c3-4db2cfc1b401",
+      "oracleId": "dd210145-0765-5e0b-af9e-0b67774d66ca",
       "name": "Laurent Duelist",
       "type": "unit",
       "domains": [
@@ -4981,6 +5096,7 @@
     {
       "number": "OPP-SFD167",
       "uuid": "81b3720c-3801-58b2-becb-0906d871b4d8",
+      "oracleId": "f51fe665-45d9-5486-b036-22c21a391427",
       "name": "Unsung Hero",
       "type": "unit",
       "domains": [
@@ -5019,6 +5135,7 @@
     {
       "number": "OPP-SFD181",
       "uuid": "04f8bc8f-545c-5f0c-80fc-87b3b6ad64c8",
+      "oracleId": "c15b8d63-a1a4-5585-8dbc-b6a4f93ae262",
       "name": "Mechanized Menace",
       "type": "legend",
       "domains": [
@@ -5078,6 +5195,7 @@
     {
       "number": "OPP-SFD183",
       "uuid": "4cec5953-3d81-56ae-9ebb-25e0b3d54330",
+      "oracleId": "4f779c40-14e4-581e-8074-71b01b8286fc",
       "name": "Purifier",
       "type": "legend",
       "domains": [
@@ -5137,6 +5255,7 @@
     {
       "number": "OPP-SFD185",
       "uuid": "d0cf3d2e-9c7c-5f84-8965-95597ab5f38e",
+      "oracleId": "d5881c47-0199-5732-a573-0bcbd7f9b0db",
       "name": "Glorious Executioner",
       "type": "legend",
       "domains": [
@@ -5192,6 +5311,7 @@
     {
       "number": "OPP-SFD187",
       "uuid": "a084f0b3-efb3-5452-96d2-01651e4ff8bd",
+      "oracleId": "1495f52f-2b52-542e-a256-ebca337378c7",
       "name": "Void Burrower",
       "type": "legend",
       "domains": [
@@ -5251,6 +5371,7 @@
     {
       "number": "OPP-SFD189",
       "uuid": "226270a9-3dfc-5c9e-bc63-c1cc57c7b4bc",
+      "oracleId": "06ad21f3-8147-5e0e-bd0e-25f67922b141",
       "name": "Fire Below the Mountain",
       "type": "legend",
       "domains": [
@@ -5310,6 +5431,7 @@
     {
       "number": "OPP-SFD193",
       "uuid": "1d1ed719-1f8b-56c3-9c36-1050c8461028",
+      "oracleId": "15a1a4ff-764c-514c-899e-b319714009ae",
       "name": "Grandmaster at Arms",
       "type": "legend",
       "domains": [
@@ -5365,6 +5487,7 @@
     {
       "number": "OPP-SFD195",
       "uuid": "f266455a-e05f-5ad5-84ec-78b604f0b891",
+      "oracleId": "a355b88e-43d9-58e0-8053-68e47b4e7ce1",
       "name": "Blade Dancer",
       "type": "legend",
       "domains": [
@@ -5420,6 +5543,7 @@
     {
       "number": "OPP-SFD197",
       "uuid": "c71bbaec-4c90-5110-b928-ebf1fca68d42",
+      "oracleId": "1305e205-8327-5230-9569-6241b1c0d2fc",
       "name": "Emperor of the Sands",
       "type": "legend",
       "domains": [
@@ -5475,6 +5599,7 @@
     {
       "number": "OPP-SFD199",
       "uuid": "dd71b9fa-ee32-5a6a-8c81-1e77aa07eb87",
+      "oracleId": "83594a20-377a-530f-b215-2fbb112c5caa",
       "name": "Prodigal Explorer",
       "type": "legend",
       "domains": [
@@ -5530,6 +5655,7 @@
     {
       "number": "OPP-SFD201",
       "uuid": "f44b9f9b-1a61-51fd-a751-07845a122d2a",
+      "oracleId": "95cdec14-891b-566c-8005-da5228a5fe8b",
       "name": "Chem-Baroness",
       "type": "legend",
       "domains": [
@@ -5589,6 +5715,7 @@
     {
       "number": "OPP-SFD203",
       "uuid": "49ac0e16-053e-524f-9595-7b61fc4adf97",
+      "oracleId": "7abd304c-0765-55e7-a450-1d077cbaabe6",
       "name": "Battle Mistress",
       "type": "legend",
       "domains": [
@@ -5648,6 +5775,7 @@
     {
       "number": "OPP-SFD205",
       "uuid": "0339fe68-4b52-510d-a737-94901da25777",
+      "oracleId": "64459d7b-204e-5246-85a9-40f6c87e6fb7",
       "name": "Grand Duelist",
       "type": "legend",
       "domains": [
@@ -5703,6 +5831,7 @@
     {
       "number": "OPP-T02+T03",
       "uuid": "031e7155-a617-5c31-bce8-88340a2d7d3a",
+      "oracleId": "be557cb5-37b8-5735-bcc1-a93becab3679",
       "name": "Bird // Buff",
       "printings": [
         {
@@ -5729,6 +5858,7 @@
     {
       "number": "OPP-UNL001",
       "uuid": "9f3a8e77-4c7c-5e48-ae18-31ec07d865ec",
+      "oracleId": "26691c20-4c67-5684-a2a8-1038783ac217",
       "name": "Arena Kingpin",
       "type": "unit",
       "domains": [
@@ -5767,6 +5897,7 @@
     {
       "number": "OPP-UNL009",
       "uuid": "d7dc76df-55b3-5e86-9eb7-00a3b0bb6f07",
+      "oracleId": "485bb3bd-e30a-540c-9f3c-a2141a6f078a",
       "name": "Upstage Comedy",
       "type": "spell",
       "domains": [
@@ -5800,6 +5931,7 @@
     {
       "number": "OPP-UNL016",
       "uuid": "9627df4d-b689-54a8-b427-9fd57314b0da",
+      "oracleId": "bcb25009-c76b-5d0f-a413-b87a8b1df3b5",
       "name": "Scorchclaw",
       "type": "unit",
       "domains": [
@@ -5839,6 +5971,7 @@
     {
       "number": "OPP-UNL036",
       "uuid": "ee759d1e-8763-5108-9952-b1778dcc9aea",
+      "oracleId": "c9d10912-4bc0-5508-8071-c02b7cc6c1ef",
       "name": "Mutated Mouser",
       "type": "unit",
       "domains": [
@@ -5877,6 +6010,7 @@
     {
       "number": "OPP-UNL039",
       "uuid": "cfca3247-049b-5c45-91d2-3aacc832e016",
+      "oracleId": "3dce01d5-59e4-5d89-abf9-b5e2c44b1401",
       "name": "Soul Sword",
       "type": "gear",
       "domains": [
@@ -5915,6 +6049,7 @@
     {
       "number": "OPP-UNL047",
       "uuid": "3c02b3ae-c3cf-5608-9151-203a265e672c",
+      "oracleId": "98975215-251c-5d14-b8c2-17cc35570b2f",
       "name": "Mosstomper",
       "type": "unit",
       "domains": [
@@ -5954,6 +6089,7 @@
     {
       "number": "OPP-UNL056",
       "uuid": "22fe90ff-f9dd-52e5-bcb7-2af9bfb67ba4",
+      "oracleId": "99de6329-b30e-50ed-96a4-42b167d8ac9e",
       "name": "Yuumi",
       "subtitle": "Magical Cat",
       "type": "unit",
@@ -5999,6 +6135,7 @@
     {
       "number": "OPP-UNL058",
       "uuid": "c9ab9580-bfa0-51f7-b0b7-0f4cce7bf022",
+      "oracleId": "7619a8fe-d804-5689-b4d2-907c7287f21e",
       "name": "Lillia",
       "subtitle": "Protector of Dreams",
       "type": "unit",
@@ -6064,6 +6201,7 @@
     {
       "number": "OPP-UNL061",
       "uuid": "417414a6-09fc-55d4-9368-fbc1f4a5322e",
+      "oracleId": "69c10807-b4f4-5f15-800f-d5ad27858e2a",
       "name": "Downstage Dramatics",
       "type": "spell",
       "domains": [
@@ -6097,6 +6235,7 @@
     {
       "number": "OPP-UNL065",
       "uuid": "3fe411b4-afd2-5af5-9e81-face8575727f",
+      "oracleId": "6d891733-e1bb-5b77-b419-5f4bb7a3fa9e",
       "name": "Icevale Archer",
       "type": "unit",
       "domains": [
@@ -6132,6 +6271,7 @@
     {
       "number": "OPP-UNL075",
       "uuid": "044cca68-3e88-5df5-973b-708122f6f91d",
+      "oracleId": "85cdfc4f-7cbf-5ef7-8114-c1868cf41244",
       "name": "Gustwalker",
       "type": "unit",
       "domains": [
@@ -6169,6 +6309,7 @@
     {
       "number": "OPP-UNL086",
       "uuid": "06d7aa6e-d70d-5632-bd56-38110a671ec5",
+      "oracleId": "e8d574fa-b12c-58eb-a76a-1187765a6222",
       "name": "Zilean",
       "subtitle": "Time Mage",
       "type": "unit",
@@ -6212,6 +6353,7 @@
     {
       "number": "OPP-UNL093",
       "uuid": "2df7d066-4193-5787-bb33-156a7f68ffe0",
+      "oracleId": "da9a4866-0bb2-56e8-8182-4f580967d194",
       "name": "Dragonsoul Sage",
       "type": "unit",
       "domains": [
@@ -6249,6 +6391,7 @@
     {
       "number": "OPP-UNL100",
       "uuid": "b3f723f4-3910-5b18-8398-8523152242cb",
+      "oracleId": "a5f355d7-258e-5607-85c1-e6e5402ab086",
       "name": "Voracious Gromp",
       "type": "unit",
       "domains": [
@@ -6286,6 +6429,7 @@
     {
       "number": "OPP-UNL107",
       "uuid": "8c4f0e22-3c42-5de0-9279-70660d926c88",
+      "oracleId": "48f3478d-d99e-5a2c-855c-730fe6f91c12",
       "name": "Stare Down",
       "type": "spell",
       "domains": [
@@ -6319,6 +6463,7 @@
     {
       "number": "OPP-UNL120",
       "uuid": "e6db1b9f-036e-5bb5-9ae3-627daf1813f0",
+      "oracleId": "2e498566-9335-53f9-874f-5ef1d4b6c966",
       "name": "Rengar",
       "subtitle": "Trophy Hunter",
       "type": "unit",
@@ -6385,6 +6530,7 @@
     {
       "number": "OPP-UNL125",
       "uuid": "04698aea-f366-55cb-8ddc-0a1401f41a07",
+      "oracleId": "a3c94422-e217-5233-ab62-cb108f9c8c0e",
       "name": "Lunar Boon",
       "type": "spell",
       "domains": [
@@ -6418,6 +6564,7 @@
     {
       "number": "OPP-UNL127",
       "uuid": "c0ab1b4d-3db1-5d77-a8a2-38afb93712cf",
+      "oracleId": "c3fcdb63-cd2e-5bc1-841f-4a2ae8486fcc",
       "name": "Mister Root",
       "type": "unit",
       "domains": [
@@ -6456,6 +6603,7 @@
     {
       "number": "OPP-UNL137",
       "uuid": "74be29b4-a899-5c6e-8c69-a9680badcc46",
+      "oracleId": "19acd2c7-7445-5fa9-b138-470989e20843",
       "name": "Sinister Poro",
       "type": "unit",
       "domains": [
@@ -6495,6 +6643,7 @@
     {
       "number": "OPP-UNL156",
       "uuid": "2ed15caf-6f58-53f0-acfc-cf7ca419d7e4",
+      "oracleId": "2546424f-d30e-5f91-96de-5bf84c661c0f",
       "name": "Loyal Poro",
       "type": "unit",
       "domains": [
@@ -6533,6 +6682,7 @@
     {
       "number": "OPP-UNL160",
       "uuid": "ca77300a-a2b4-5679-b48d-5f2bef5593a6",
+      "oracleId": "ccf0384a-9788-51f0-b7c3-e46369e0a46f",
       "name": "Ultrasoft Poro",
       "type": "unit",
       "domains": [
@@ -6571,6 +6721,7 @@
     {
       "number": "OPP-UNL168",
       "uuid": "14378e2c-34ca-5600-af6c-e8f55af055f9",
+      "oracleId": "8a446fed-7759-5677-9cf9-1f535af9d469",
       "name": "Undying Loyalty",
       "type": "spell",
       "domains": [
@@ -6605,6 +6756,7 @@
     {
       "number": "OPP-UNL169",
       "uuid": "420b83f4-a33d-5e70-ae6c-0d05fd5a9bd3",
+      "oracleId": "c1e1890b-cbda-52ec-9fe3-6e1e015342d8",
       "name": "Ashe",
       "subtitle": "Focused",
       "type": "unit",
@@ -6648,6 +6800,7 @@
     {
       "number": "OPP-UNL178",
       "uuid": "500614d8-fdf2-5d2f-a8cb-965658120370",
+      "oracleId": "35af91a9-c3fe-50a3-8a84-f1ffcf68176b",
       "name": "Poppy",
       "subtitle": "Defender of the Meek",
       "type": "unit",
@@ -6714,6 +6867,7 @@
     {
       "number": "OPP-UNL181",
       "uuid": "e849c5eb-dd50-5f55-b4f6-2bfec7bffd5b",
+      "oracleId": "399121ef-5e97-599b-aec0-fe3a5660bed6",
       "name": "Virtuoso",
       "type": "legend",
       "domains": [
@@ -6749,6 +6903,7 @@
     {
       "number": "OPP-UNL183",
       "uuid": "bd41b885-a353-5ba9-ad96-ad6dd93f3e61",
+      "oracleId": "0a4dc9d4-99ed-54a7-ab54-7b366e44d9d8",
       "name": "Pridestalker",
       "type": "legend",
       "domains": [
@@ -6786,6 +6941,7 @@
     {
       "number": "OPP-UNL185",
       "uuid": "b7eebd8e-2d72-58dd-8119-bf97e07d9e29",
+      "oracleId": "4938bca5-2e46-5063-9395-0658fd168c4a",
       "name": "Bloodharbor Ripper",
       "type": "legend",
       "domains": [
@@ -6821,6 +6977,7 @@
     {
       "number": "OPP-UNL187",
       "uuid": "e007d328-9c25-50c8-b516-b4e61dd36053",
+      "oracleId": "fc7d07f1-4c3d-5020-934b-01c996a02ff8",
       "name": "Piltover Enforcer",
       "type": "legend",
       "domains": [
@@ -6858,6 +7015,7 @@
     {
       "number": "OPP-UNL189",
       "uuid": "0e1ea9fd-a031-5806-ba13-1306133ddb07",
+      "oracleId": "4cebbbaf-96d7-5335-bfe4-0d68d8644eac",
       "name": "Bashful Bloom",
       "type": "legend",
       "domains": [
@@ -6895,6 +7053,7 @@
     {
       "number": "OPP-UNL191",
       "uuid": "b8fc0044-06c3-5591-a583-fc67bc6c06cb",
+      "oracleId": "5b987534-80a2-5133-aa58-115679987638",
       "name": "Wuju Master",
       "type": "legend",
       "domains": [
@@ -6930,6 +7089,7 @@
     {
       "number": "OPP-UNL193",
       "uuid": "52bc2c41-d9bc-5ea2-b6aa-f299a9a54723",
+      "oracleId": "0a8a262a-6006-560d-981c-2ed0e5818aa6",
       "name": "Gloomist",
       "type": "legend",
       "domains": [
@@ -6965,6 +7125,7 @@
     {
       "number": "OPP-UNL195",
       "uuid": "a56a47db-2da4-5eef-86af-27ae34865180",
+      "oracleId": "39c06334-5d21-5c16-8586-c04237e830f8",
       "name": "Green Father",
       "type": "legend",
       "domains": [
@@ -7000,6 +7161,7 @@
     {
       "number": "OPP-UNL197",
       "uuid": "3e67540f-ea8d-588f-bc72-b594038f1fe4",
+      "oracleId": "08bc5583-9696-5d02-ac2a-9a294395aa71",
       "name": "Scorn of the Moon",
       "type": "legend",
       "domains": [
@@ -7035,6 +7197,7 @@
     {
       "number": "OPP-UNL199",
       "uuid": "a02fea20-fdd3-569c-a136-d1d50076e832",
+      "oracleId": "9fdc24a3-df24-5bc5-ac49-2e0af9806a17",
       "name": "Deceiver",
       "type": "legend",
       "domains": [
@@ -7070,6 +7233,7 @@
     {
       "number": "OPP-UNL201",
       "uuid": "c3773315-f31d-5ce3-8c26-0df391264596",
+      "oracleId": "d48db64b-adca-5ceb-830e-a13d43602986",
       "name": "Voidreaver",
       "type": "legend",
       "domains": [
@@ -7107,6 +7271,7 @@
     {
       "number": "OPP-UNL203",
       "uuid": "671d66ac-d5a1-5cfa-a39a-c82393d6c5fa",
+      "oracleId": "a9c20be8-3042-59de-8d6a-0a150eb2f037",
       "name": "Keeper of the Hammer",
       "type": "legend",
       "domains": [
@@ -7142,6 +7307,7 @@
     {
       "number": "OPP-VEN002",
       "uuid": "ff9afa1d-dd1a-55b9-97ab-d1bc2c0654a5",
+      "oracleId": "98f73806-ebc3-5c52-b22c-481645af3739",
       "name": "Blade Twirler",
       "type": "unit",
       "domains": [
@@ -7180,6 +7346,7 @@
     {
       "number": "OPP-VEN004",
       "uuid": "72f3b1a8-7b5f-5739-a037-90fd95d0eae2",
+      "oracleId": "0f0f7eb5-c1b3-563e-a9bd-d9ffc02ac364",
       "name": "Dune Surfer",
       "type": "unit",
       "domains": [
@@ -7217,6 +7384,7 @@
     {
       "number": "OPP-VEN013",
       "uuid": "1b9b93de-1e88-594a-ac4a-2e799ed3c614",
+      "oracleId": "72e50413-b5ad-51db-a071-d8c9e212bf55",
       "name": "Shadow Assassin",
       "type": "unit",
       "domains": [
@@ -7254,6 +7422,7 @@
     {
       "number": "OPP-VEN017",
       "uuid": "9e15c496-fd06-55c4-854d-598281cb6820",
+      "oracleId": "493dbe48-362d-5332-ae19-a2f75c201afb",
       "name": "Morgana",
       "subtitle": "Vindictive",
       "type": "unit",
@@ -7297,6 +7466,7 @@
     {
       "number": "OPP-VEN026",
       "uuid": "a681eb54-c896-56b5-a756-4eda8b0744b2",
+      "oracleId": "6086f430-4715-55b8-9713-dc5850a7abc2",
       "name": "Field Musicians",
       "type": "unit",
       "domains": [
@@ -7334,6 +7504,7 @@
     {
       "number": "OPP-VEN029",
       "uuid": "bab0b5a9-bc64-5986-815a-eecc7ec684e7",
+      "oracleId": "d4c12997-3e43-5ca4-9bce-319b236a0f4b",
       "name": "Ol' Poro",
       "type": "unit",
       "domains": [
@@ -7372,6 +7543,7 @@
     {
       "number": "OPP-VEN037",
       "uuid": "aee9135e-1c88-58be-8728-6a5988385cce",
+      "oracleId": "b2022f5e-c510-56ea-8c0e-99fb703baac5",
       "name": "Tomb-Raider Barbara",
       "type": "unit",
       "domains": [
@@ -7409,6 +7581,7 @@
     {
       "number": "OPP-VEN041",
       "uuid": "2845cd42-f66d-5568-9db3-2b58fa1828a3",
+      "oracleId": "99d56481-63b3-5428-9be6-2aa1c789d8bd",
       "name": "Riven",
       "subtitle": "Shattered",
       "type": "unit",
@@ -7452,6 +7625,7 @@
     {
       "number": "OPP-VEN048",
       "uuid": "27ea8a22-0190-5c3f-b26e-afa80344d751",
+      "oracleId": "5ca6955f-4ffe-5a20-9c24-dbd541c7772f",
       "name": "Cloud Drake",
       "type": "unit",
       "domains": [
@@ -7490,6 +7664,7 @@
     {
       "number": "OPP-VEN050",
       "uuid": "c0308a5e-7d77-52a7-849f-c082c5bc4105",
+      "oracleId": "bd93cb8b-cc4f-5feb-b21c-4651541fea19",
       "name": "Grumpy Rockbear",
       "type": "unit",
       "domains": [
@@ -7525,6 +7700,7 @@
     {
       "number": "OPP-VEN058",
       "uuid": "892762ba-db81-559b-a205-47d8bb41b1cc",
+      "oracleId": "6494a509-8cc2-58db-8ecf-f91529144c14",
       "name": "Patched Porobot",
       "type": "unit",
       "domains": [
@@ -7564,6 +7740,7 @@
     {
       "number": "OPP-VEN065",
       "uuid": "30646d1d-39f6-5411-89c3-352f20e4fc1b",
+      "oracleId": "611b7f46-7d03-541d-8909-ecf436c1189f",
       "name": "Swain",
       "subtitle": "Visionary",
       "type": "unit",
@@ -7608,6 +7785,7 @@
     {
       "number": "OPP-VEN068",
       "uuid": "886dc033-b397-5003-a6d2-d83acdf5f2e8",
+      "oracleId": "1f05e263-c18d-576f-a821-39d22368b6d8",
       "name": "Jayce",
       "subtitle": "Brilliant Inventor",
       "type": "unit",
@@ -7651,6 +7829,7 @@
     {
       "number": "OPP-VEN069",
       "uuid": "1cf4ef59-d344-55ea-92c3-35761a7a1d37",
+      "oracleId": "ba9300e3-fc85-50b0-8d8a-5a133241b6b1",
       "name": "Mel",
       "subtitle": "Newly Awakened",
       "type": "unit",
@@ -7695,6 +7874,7 @@
     {
       "number": "OPP-VEN071",
       "uuid": "7c5fa521-7a37-5c31-86d0-638828aa1520",
+      "oracleId": "dabd47c9-21fe-573b-9420-76aa6c1dc423",
       "name": "Fretful Feline",
       "type": "unit",
       "domains": [
@@ -7733,6 +7913,7 @@
     {
       "number": "OPP-VEN076",
       "uuid": "f5b5ef0a-7154-50d5-89e8-8603c43b62c7",
+      "oracleId": "6f8a7752-0452-54a2-af48-8782a9b34802",
       "name": "Repair Specialist",
       "type": "unit",
       "domains": [
@@ -7770,6 +7951,7 @@
     {
       "number": "OPP-VEN082",
       "uuid": "cc5bdf47-284d-5965-8aa7-a2b48baa981a",
+      "oracleId": "839815b2-3df0-528e-8359-953eb266850b",
       "name": "Profiteer",
       "type": "unit",
       "domains": [
@@ -7807,6 +7989,7 @@
     {
       "number": "OPP-VEN097",
       "uuid": "8514fe4f-ca96-5c00-ae6b-669de89f3e99",
+      "oracleId": "75272572-0d99-57a6-892e-43adacb8fdf3",
       "name": "Spiderling",
       "type": "unit",
       "domains": [
@@ -7845,6 +8028,7 @@
     {
       "number": "OPP-VEN099",
       "uuid": "ddb44baa-6733-5a29-865f-563e22753cce",
+      "oracleId": "fd006b0d-e7fe-56e7-a11c-7211ca672129",
       "name": "Tornado Warrior",
       "type": "unit",
       "domains": [
@@ -7883,6 +8067,7 @@
     {
       "number": "OPP-VEN101",
       "uuid": "52f15633-410a-54dd-aeed-84bba2bbb76a",
+      "oracleId": "2f90f388-1291-5a7f-8c08-1c8efbf00a42",
       "name": "Gust Monk",
       "type": "unit",
       "domains": [
@@ -7919,6 +8104,7 @@
     {
       "number": "OPP-VEN109",
       "uuid": "cd23529e-9e1d-50c4-bc82-684599f4f2b0",
+      "oracleId": "963a8404-111e-5fe2-a834-c9824eb5622f",
       "name": "Illaoi",
       "subtitle": "Prophet of the Great Kraken",
       "type": "unit",
@@ -7980,6 +8166,7 @@
     {
       "number": "OPP-VEN118",
       "uuid": "161a0746-2ad6-51c7-b585-30ff711b2ea1",
+      "oracleId": "bf089cae-3857-5c5a-8d8c-4ace2a59b13d",
       "name": "Horns of the Dragon",
       "type": "unit",
       "domains": [
@@ -8015,6 +8202,7 @@
     {
       "number": "OPP-VEN123",
       "uuid": "fe814e2e-0ec9-5696-a17c-48f362e2f685",
+      "oracleId": "93b3e194-1d2f-51d9-8aef-c243739a09dc",
       "name": "Soulspinner",
       "type": "unit",
       "domains": [
@@ -8053,6 +8241,7 @@
     {
       "number": "OPP-VEN125",
       "uuid": "14c6d432-fc9b-5df2-a8e5-660b62e41777",
+      "oracleId": "1c8326b3-980c-57a0-a43a-c269bbb637b4",
       "name": "Hungry Wolf",
       "type": "unit",
       "domains": [
@@ -8089,6 +8278,7 @@
     {
       "number": "OPP-VEN134",
       "uuid": "0cf3b538-7876-565f-b6f9-e0513768fe80",
+      "oracleId": "4dc07660-a884-5e0f-abc1-058ab5e168fb",
       "name": "Kayle",
       "subtitle": "Justified",
       "type": "unit",
@@ -8154,6 +8344,7 @@
     {
       "number": "OPP-VEN139",
       "uuid": "d5590c4f-19a8-5b48-ab24-33c812da2cf9",
+      "oracleId": "417e5cfd-312b-5967-a852-751f4370fa78",
       "name": "Rogue Assassin",
       "type": "legend",
       "domains": [
@@ -8209,6 +8400,7 @@
     {
       "number": "OPP-VEN141",
       "uuid": "d4b7e6a5-45b8-5c86-95b9-6063301023ba",
+      "oracleId": "aa14faaf-7b03-5c88-9129-28892e9de6cb",
       "name": "Butcher of the Sands",
       "type": "legend",
       "domains": [
@@ -8264,6 +8456,7 @@
     {
       "number": "OPP-VEN143",
       "uuid": "e58b11f4-333d-54bf-bed7-79e7afd38b49",
+      "oracleId": "6af17f66-6067-54fe-ad3f-b2e90c625892",
       "name": "Master of Shadows",
       "type": "legend",
       "domains": [
@@ -8319,6 +8512,7 @@
     {
       "number": "OPP-VEN145",
       "uuid": "24086636-69a8-5312-b210-d2d90e6d72d8",
+      "oracleId": "aea7cbd8-710f-5763-a156-2fc4437946c2",
       "name": "Curator of the Sands",
       "type": "legend",
       "domains": [
@@ -8374,6 +8568,7 @@
     {
       "number": "OPP-VEN147",
       "uuid": "96bd4f87-4523-5d7d-8700-2dd759436f54",
+      "oracleId": "e4b9813f-3f06-52af-a444-7e68910818d6",
       "name": "Eye of Twilight",
       "type": "legend",
       "domains": [
@@ -8429,6 +8624,7 @@
     {
       "number": "OPP-VEN149",
       "uuid": "c387afdb-40c4-5b48-b0d4-45f1f94fb558",
+      "oracleId": "60283309-ca0a-57ab-bdb3-9df8a367af1a",
       "name": "Defender of Tomorrow",
       "type": "legend",
       "domains": [
@@ -8484,6 +8680,7 @@
     {
       "number": "OPP-VEN151",
       "uuid": "54ee516a-01ce-58d6-803b-6e9f76a8c2f9",
+      "oracleId": "9cc7ad34-e3c8-565e-9f53-9cc7a0e1b58c",
       "name": "Soul's Reflection",
       "type": "legend",
       "domains": [
@@ -8539,6 +8736,7 @@
     {
       "number": "OPP-VEN153",
       "uuid": "ec402b6a-7082-5824-b7d3-272ef39766f7",
+      "oracleId": "48f5faa1-5031-5e63-ac8f-4f1bef25acfc",
       "name": "Matriarch of War",
       "type": "legend",
       "domains": [
@@ -8594,6 +8792,7 @@
     {
       "number": "OPP-VEN155",
       "uuid": "a1577fda-f629-57b4-ad6f-10c2d620e404",
+      "oracleId": "aecbf224-487b-54fc-a193-26ce6fe5b2a4",
       "name": "Heart of the Tempest",
       "type": "legend",
       "domains": [
