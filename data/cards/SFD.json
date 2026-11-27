@@ -11023,7 +11023,8 @@
       "power": 1,
       "might": 3,
       "tags": [
-        "Ahri"
+        "Ahri",
+        "Ionia"
       ],
       "printings": [
         {
@@ -11211,8 +11212,9 @@
       "power": 1,
       "might": 2,
       "tags": [
-        "Yordle",
-        "Teemo"
+        "Teemo",
+        "Bandle City",
+        "Yordle"
       ],
       "printings": [
         {
@@ -11327,7 +11329,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Sett"
+        "Sett",
+        "Ionia"
       ],
       "printings": [
         {
@@ -11517,7 +11520,8 @@
       "power": 1,
       "might": 4,
       "tags": [
-        "Yasuo"
+        "Yasuo",
+        "Ionia"
       ],
       "printings": [
         {
@@ -11590,8 +11594,9 @@
       "power": 1,
       "might": 6,
       "tags": [
-        "Trifarian",
-        "Darius"
+        "Darius",
+        "Noxus",
+        "Trifarian"
       ],
       "printings": [
         {
