@@ -25,6 +25,11 @@
             "pattern": "^[A-Z]{2,3}-((?:[A-Z]{3})?[0-9]{3}|(?:[A-Z]{3})?SP[0-9]+|R[0-9]{2}|T[0-9]{2}(?:\\+T[0-9]{2})?)$",
             "description": "Set code and collector number without any variant suffix: OGN-119 for OGN-119/298 and OGN-119a/298 alike. SP, R and T number promos, runes and tokens. A promo set's number names the set it reprints (OPP-VEN134), and T06+T07 is a double-sided token."
           },
+          "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "description": "The record's UUID: given once, kept for good, recorded in data/uuids.json (see tools/uuids.py)."
+          },
           "name": {
             "type": "string",
             "minLength": 1
@@ -149,6 +154,11 @@
           "pattern": "^[A-Z]{2,3}-((?:[A-Z]{3})?[0-9]{3}|(?:[A-Z]{3})?SP[0-9]+|R[0-9]{2}|T[0-9]{2}(?:\\+T[0-9]{2})?)[a-z*]?(\\.[a-z0-9-]+)?(~(fr|de|ja|ko))?$",
           "description": "The card number as printed, before the slash: OGN-119, OGN-119a, OGN-304*. The suffix tells the variants of one number apart. A printing in another language adds ~ and the language to its English twin's id (OGN-119a~ko)."
         },
+        "uuid": {
+          "type": "string",
+          "format": "uuid",
+          "description": "The record's UUID: given once, kept for good, recorded in data/uuids.json (see tools/uuids.py)."
+        },
         "language": {
           "enum": [
             "en",
@@ -181,6 +191,12 @@
         "image": {
           "type": "string",
           "format": "uri"
+        },
+        "imageSource": {
+          "enum": [
+            "tcgplayer"
+          ],
+          "description": "Whose image `image` is, when it is not Riot's: tcgplayer for TCGplayer's product image, given to a printing the gallery has no image for. The image belongs to TCGplayer; credit it when showing it. Absent means the image is Riot's, from the gallery."
         },
         "artists": {
           "type": "array",

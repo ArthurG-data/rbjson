@@ -19,25 +19,13 @@ from __future__ import annotations
 
 import argparse
 import collections
-import re
-import unicodedata
 
 import cardmarket
 import rbjson
+from rbjson import fold
 
 CACHE = rbjson.ROOT / ".cache" / "cardmarket"
 REVIEW = rbjson.ROOT / "review" / "cardmarket-22.json"
-
-_FOLDED = re.compile(r"[^\w,' ]")
-
-
-def fold(name: str) -> str:
-    """A name as it is compared: casefolded, accents removed, punctuation other than commas and apostrophes
-    dropped (a hyphen is a space)."""
-    s = unicodedata.normalize("NFKD", name.replace("’", "'").replace("-", " "))
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    return " ".join(_FOLDED.sub("", s.casefold()).split())
-
 
 def champions(files: dict[str, dict]) -> set[str]:
     """The folded names of the cards whose super types hold ``champion``."""

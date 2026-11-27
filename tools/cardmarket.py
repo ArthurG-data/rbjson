@@ -1,14 +1,13 @@
 """Cardmarket's Riftbound product catalogue (game 22), cached under .cache/cardmarket."""
 from __future__ import annotations
 
-import json
-import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 
+import net
+
 CATALOGUE = "https://downloads.s3.cardmarket.com/productCatalog/productList"
 GAME = 22
-USER_AGENT = "rbjson (+https://github.com/ArthurG-data/rbjson)"
 
 
 @dataclass(frozen=True)
@@ -19,15 +18,7 @@ class Product:
 
 
 def _get(url: str, cache: Path, refresh: bool) -> dict:
-    cache.mkdir(parents=True, exist_ok=True)
-    path = cache / url.rsplit("/", 1)[1]
-    if path.exists() and not refresh:
-        return json.loads(path.read_text(encoding="utf-8"))
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    path.write_text(json.dumps(data), encoding="utf-8")
-    return data
+    return net.cached(cache / url.rsplit("/", 1)[1], refresh, lambda: net.get_json(url))
 
 
 def singles(cache: Path, refresh: bool = False) -> list[Product]:

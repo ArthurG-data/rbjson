@@ -2,6 +2,7 @@
   "products": [
     {
       "id": "radiance-booster-display",
+      "uuid": "a19ef23b-e0e0-5275-a521-41490ca688f2",
       "set": "RAD",
       "category": "booster_box",
       "name": "Radiance - Booster Display",
@@ -25,6 +26,7 @@
     },
     {
       "id": "radiance-booster-display-case",
+      "uuid": "087bb58f-9d15-514b-bd34-8230aac65363",
       "set": "RAD",
       "category": "case",
       "name": "Radiance - Booster Display Case",
@@ -48,6 +50,7 @@
     },
     {
       "id": "radiance-booster-pack",
+      "uuid": "be8370e0-3271-51e9-9db7-bfe60450e7bd",
       "set": "RAD",
       "category": "booster_pack",
       "name": "Radiance - Booster Pack",
@@ -71,6 +74,7 @@
     },
     {
       "id": "radiance-pre-rift-event-kit",
+      "uuid": "9aa838a7-1544-52af-b92c-b504b56ce821",
       "set": "RAD",
       "category": "tournament_kit",
       "name": "Radiance - Pre-Rift Event Kit",
@@ -88,6 +92,7 @@
     },
     {
       "id": "radiance-pre-rift-kit",
+      "uuid": "96b7cbd9-6c57-5a64-90fb-6500800a9191",
       "set": "RAD",
       "category": "collection",
       "name": "Radiance - Pre-Rift Kit",
@@ -105,6 +110,7 @@
     },
     {
       "id": "radiance-showdown-decks-evelynn-vs-seraphine",
+      "uuid": "b61a459b-67bc-58f2-a276-d2588aebe16a",
       "set": "RAD",
       "category": "starter_deck",
       "name": "Radiance - Showdown Decks: Evelynn vs Seraphine",
@@ -122,6 +128,7 @@
     },
     {
       "id": "radiance-showdown-decks-evelynn-vs-seraphine-display",
+      "uuid": "dae160ca-6b89-5031-ae60-42e291c47163",
       "set": "RAD",
       "category": "display",
       "name": "Radiance - Showdown Decks: Evelynn vs Seraphine Display",
@@ -145,6 +152,7 @@
     },
     {
       "id": "radiance-sleeved-booster-pack",
+      "uuid": "a79ce1d9-5839-5153-876e-28d18e227337",
       "set": "RAD",
       "category": "sleeved_booster_pack",
       "name": "Radiance - Sleeved Booster Pack",
@@ -168,6 +176,7 @@
     },
     {
       "id": "radiance-sleeved-booster-pack-art-bundle-set-of-3",
+      "uuid": "a72d909a-d551-5a54-b66a-891c53f92490",
       "set": "RAD",
       "category": "display",
       "name": "Radiance - Sleeved Booster Pack Art Bundle (Set of 3)",
@@ -191,6 +200,7 @@
     },
     {
       "id": "radiance-vault-bundle",
+      "uuid": "8542bfdb-6bdd-5383-899d-1c737649f718",
       "set": "RAD",
       "category": "collection",
       "name": "Radiance - Vault Bundle",
@@ -214,6 +224,7 @@
     },
     {
       "id": "radiance-vault-bundle-case",
+      "uuid": "18bfe631-c229-5926-b1b5-a9f91bde3154",
       "set": "RAD",
       "category": "case",
       "name": "Radiance - Vault Bundle Case",

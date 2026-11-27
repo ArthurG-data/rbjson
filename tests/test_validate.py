@@ -1,5 +1,6 @@
 import urllib.error
 
+import net
 import validate
 
 
@@ -24,16 +25,16 @@ def _http(code):
 
 def test_a_5xx_is_retried_and_a_later_answer_passes(monkeypatch):
     calls = []
-    monkeypatch.setattr(validate.urllib.request, "urlopen", _urlopen([_http(502), _http(503), "ok"], calls))
-    monkeypatch.setattr(validate.time, "sleep", lambda s: None)
-    assert validate.head_status("https://x/a.png") is None
+    monkeypatch.setattr(net.urllib.request, "urlopen", _urlopen([_http(502), _http(503), "ok"], calls))
+    monkeypatch.setattr(net.time, "sleep", lambda s: None)
+    assert net.head_status("https://x/a.png") is None
     assert len(calls) == 3
 
 
 def test_a_4xx_is_final_without_a_retry(monkeypatch):
     calls = []
-    monkeypatch.setattr(validate.urllib.request, "urlopen", _urlopen([_http(404)], calls))
-    assert validate.head_status("https://x/a.png") == 404
+    monkeypatch.setattr(net.urllib.request, "urlopen", _urlopen([_http(404)], calls))
+    assert net.head_status("https://x/a.png") == 404
     assert len(calls) == 1
 
 

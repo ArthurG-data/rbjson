@@ -212,3 +212,29 @@ def test_a_non_integer_cardmarket_expansion_id_fails_the_schema():
     sets = copy.deepcopy(sets)
     sets[0]["cardmarketExpansionIds"] = ["6286"]
     assert any("cardmarketExpansionIds" in e for e in rbjson.validate(sets, files))
+
+
+def test_refresh_runs_the_importers_in_the_order_each_needs_then_validates():
+    import refresh
+    steps = [cmd[1].rsplit("/", 1)[1] for cmd in refresh.commands(refresh=True, online=False)]
+    assert steps == ["import_gallery.py", "import_tcgcsv.py", "import_sealed.py", "import_cardmarket.py", "readme.py",
+                     "validate.py"]
+    assert all("--refresh" in cmd for cmd in refresh.commands(True, False)[:4])
+    assert "--online" in refresh.commands(False, True)[-1]
+
+
+def test_the_readme_counts_are_the_datas():
+    """The README's counts are written from the data (tools/readme.py), so they cannot go stale unnoticed."""
+    import readme
+    text = readme.README.read_text(encoding="utf-8")
+    assert readme.update(text, rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()) == text, \
+        "README.md's counts are not the data's: run tools/readme.py"
+
+
+def test_readme_rewrites_only_what_lies_between_its_markers():
+    import readme
+    sets, files, sealed = rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()
+    text = "intro\n<!-- counts:start -->\nold\n<!-- counts:end -->\nmid\n<!-- sets:start -->\nold\n<!-- sets:end -->\nend\n"
+    out = readme.update(text, sets, files, sealed)
+    assert out.startswith("intro\n<!-- counts:start -->\nThe data holds ") and out.endswith("<!-- sets:end -->\nend\n")
+    assert "\nmid\n" in out and "| OGN | Origins |" in out

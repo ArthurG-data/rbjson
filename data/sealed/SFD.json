@@ -2,6 +2,7 @@
   "products": [
     {
       "id": "riftbound-bulk-runes",
+      "uuid": "4b9f7471-73e4-567f-b29f-cd99bb2036e9",
       "set": "SFD",
       "category": "other",
       "name": "Riftbound: Bulk Runes",
@@ -19,6 +20,7 @@
     },
     {
       "id": "riftbound-bulk-runes-case",
+      "uuid": "43958dc5-e790-5ea4-9286-cc54968e9df0",
       "set": "SFD",
       "category": "case",
       "name": "Riftbound: Bulk Runes Case",
@@ -42,6 +44,7 @@
     },
     {
       "id": "spiritforged-booster-display",
+      "uuid": "32ee9a4d-5e2c-5aed-a50e-4d1a87597e7c",
       "set": "SFD",
       "category": "booster_box",
       "name": "Spiritforged - Booster Display",
@@ -65,6 +68,7 @@
     },
     {
       "id": "spiritforged-booster-display-case",
+      "uuid": "e249a853-a481-5931-9eba-bd171e919c68",
       "set": "SFD",
       "category": "case",
       "name": "Spiritforged - Booster Display Case",
@@ -88,6 +92,7 @@
     },
     {
       "id": "spiritforged-booster-pack",
+      "uuid": "1fc2aad1-fdd1-5c70-8bf8-696d4a801791",
       "set": "SFD",
       "category": "booster_pack",
       "name": "Spiritforged - Booster Pack",
@@ -111,6 +116,7 @@
     },
     {
       "id": "spiritforged-champion-deck-fiora",
+      "uuid": "b750c3ae-bd38-583b-8280-d57a05391e91",
       "set": "SFD",
       "category": "starter_deck",
       "name": "Spiritforged - Champion Deck (Fiora)",
@@ -128,6 +134,7 @@
     },
     {
       "id": "spiritforged-champion-deck-fiora-display",
+      "uuid": "8331fe29-c2a0-5e09-8e91-377dee2fe78d",
       "set": "SFD",
       "category": "display",
       "name": "Spiritforged - Champion Deck (Fiora) Display",
@@ -151,6 +158,7 @@
     },
     {
       "id": "spiritforged-champion-deck-rumble",
+      "uuid": "32b61fb9-1b95-551e-9453-86d6290d787b",
       "set": "SFD",
       "category": "starter_deck",
       "name": "Spiritforged - Champion Deck (Rumble)",
@@ -168,6 +176,7 @@
     },
     {
       "id": "spiritforged-champion-deck-rumble-display",
+      "uuid": "3a49fff1-baeb-504b-9793-b14092de6829",
       "set": "SFD",
       "category": "display",
       "name": "Spiritforged - Champion Deck (Rumble) Display",
@@ -191,6 +200,7 @@
     },
     {
       "id": "spiritforged-nexus-night-promo-pack",
+      "uuid": "810f2033-da1d-5d41-8fa1-faade24c8e89",
       "set": "SFD",
       "category": "promo_pack",
       "name": "Spiritforged - Nexus Night Promo Pack",
@@ -208,6 +218,7 @@
     },
     {
       "id": "spiritforged-pre-rift-event-kit",
+      "uuid": "8382f3de-dc23-575b-9637-d3495dc98f7b",
       "set": "SFD",
       "category": "tournament_kit",
       "name": "Spiritforged - Pre-Rift Event Kit",
@@ -225,6 +236,7 @@
     },
     {
       "id": "spiritforged-pre-rift-kit",
+      "uuid": "9095b915-1913-5ad9-97bc-a5f085e4ed30",
       "set": "SFD",
       "category": "collection",
       "name": "Spiritforged - Pre-Rift Kit",
@@ -242,6 +254,7 @@
     },
     {
       "id": "spiritforged-sleeved-booster-pack",
+      "uuid": "5a63785f-b595-52cb-b317-aadce35ea8ac",
       "set": "SFD",
       "category": "sleeved_booster_pack",
       "name": "Spiritforged - Sleeved Booster Pack",
@@ -265,6 +278,7 @@
     },
     {
       "id": "spiritforged-sleeved-booster-pack-art-bundle-set-of-3",
+      "uuid": "89804531-cd69-57e2-bc89-7a5d7b7a9437",
       "set": "SFD",
       "category": "display",
       "name": "Spiritforged - Sleeved Booster Pack Art Bundle [Set of 3]",

@@ -1,0 +1,18 @@
+[
+  {
+    "card": "OGN-235",
+    "field": "tags",
+    "gallery": ["Vi", "Ionia"],
+    "printed": ["Karma", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Karma, Channeler. The printed card reads CHAMPION UNIT · KARMA · IONIA; the gallery tags it Vi."
+  },
+  {
+    "card": "SFD-237",
+    "field": "tags",
+    "gallery": ["Karma"],
+    "printed": ["Karma", "Ionia"],
+    "checked": "2026-11-27",
+    "note": "Karma, Channeler (showcase reprint). Both printings read CHAMPION UNIT · KARMA · IONIA; the gallery leaves out Ionia."
+  }
+]

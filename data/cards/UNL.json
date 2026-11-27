@@ -2,6 +2,7 @@
   "cards": [
     {
       "number": "UNL-001",
+      "uuid": "d71199f6-6600-5547-abf3-1d30b1c7a999",
       "name": "Arena Kingpin",
       "type": "unit",
       "domains": [
@@ -16,6 +17,7 @@
       "printings": [
         {
           "id": "UNL-001",
+          "uuid": "41de89f1-b87f-5df5-8f63-112589a3649f",
           "collectorNumber": 1,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/db48f8c1da0e4f9804ae94398f0864859db0002a-744x1039.png?accountingTag=RB",
@@ -46,6 +48,7 @@
     },
     {
       "number": "UNL-002",
+      "uuid": "d82cd8bd-718d-53ee-84f7-31cf6401ce7c",
       "name": "Inferna",
       "type": "unit",
       "domains": [
@@ -59,6 +62,7 @@
       "printings": [
         {
           "id": "UNL-002",
+          "uuid": "7022a4bc-c0a7-5ea8-8f71-68974dab2a98",
           "collectorNumber": 2,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5db9d66fc22887e8686a13ffdfe480106cbd3b35-744x1039.png?accountingTag=RB",
@@ -89,6 +93,7 @@
     },
     {
       "number": "UNL-003",
+      "uuid": "f5eea3f2-fae5-5c9e-8c15-5e65144b3a7a",
       "name": "Mischievous Marai",
       "type": "unit",
       "domains": [
@@ -102,6 +107,7 @@
       "printings": [
         {
           "id": "UNL-003",
+          "uuid": "b209ccb9-c228-5bdf-b59a-2a241dc55a24",
           "collectorNumber": 3,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb2e82cca7aa93c857ed1fe54de7344016779520-744x1039.png?accountingTag=RB",
@@ -132,6 +138,7 @@
     },
     {
       "number": "UNL-004",
+      "uuid": "c079a556-2f7c-51fe-a048-54a3b9eaee31",
       "name": "Prepared Neophyte",
       "type": "unit",
       "domains": [
@@ -145,6 +152,7 @@
       "printings": [
         {
           "id": "UNL-004",
+          "uuid": "364e7edf-3b3d-5a01-ad6e-1297674c55b2",
           "collectorNumber": 4,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ad993e451437950e56935a7ecff44fea09e522b2-744x1039.png?accountingTag=RB",
@@ -175,6 +183,7 @@
     },
     {
       "number": "UNL-005",
+      "uuid": "dd64823e-b56e-5b23-9d12-c7616da90875",
       "name": "Revna the Lorekeeper",
       "type": "unit",
       "domains": [
@@ -189,6 +198,7 @@
       "printings": [
         {
           "id": "UNL-005",
+          "uuid": "5aadf807-7292-5b16-a7b1-4bb42e89f88b",
           "collectorNumber": 5,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8e251eed411d614de504480181b357df3f78b133-744x1039.png?accountingTag=RB",
@@ -219,6 +229,7 @@
     },
     {
       "number": "UNL-006",
+      "uuid": "5c7eba8d-8dd2-5f99-a040-d28ec4b95b9e",
       "name": "Sharkling",
       "type": "unit",
       "domains": [
@@ -232,6 +243,7 @@
       "printings": [
         {
           "id": "UNL-006",
+          "uuid": "bcabb77b-b8ad-5918-993c-7d1c5101e167",
           "collectorNumber": 6,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f2aa213fe1e54d0d6f1507c7ed8829c8ba2bc610-744x1039.png?accountingTag=RB",
@@ -262,6 +274,7 @@
     },
     {
       "number": "UNL-007",
+      "uuid": "2a7dda7a-510e-5bb8-a697-0920b6eed102",
       "name": "Smite",
       "type": "spell",
       "domains": [
@@ -272,6 +285,7 @@
       "printings": [
         {
           "id": "UNL-007",
+          "uuid": "dac915f4-5e61-524e-a95e-af0fe9ef90ea",
           "collectorNumber": 7,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f46252e8c65a2eb3f476ea51f214af7651d0622d-744x1039.png?accountingTag=RB",
@@ -302,6 +316,7 @@
     },
     {
       "number": "UNL-008",
+      "uuid": "669fba15-34a9-5b6e-b2ef-bd351e9d2816",
       "name": "Towering Pairofant",
       "type": "unit",
       "domains": [
@@ -315,6 +330,7 @@
       "printings": [
         {
           "id": "UNL-008",
+          "uuid": "6a459f61-3e93-5271-bbc6-01420f8c6abd",
           "collectorNumber": 8,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47ac3971efe67f7910771709b8bb9a5df5b63952-744x1039.png?accountingTag=RB",
@@ -345,6 +361,7 @@
     },
     {
       "number": "UNL-009",
+      "uuid": "e9fa6e1a-c649-55e0-8d34-d240c906fce4",
       "name": "Upstage Comedy",
       "type": "spell",
       "domains": [
@@ -354,6 +371,7 @@
       "printings": [
         {
           "id": "UNL-009",
+          "uuid": "7e8ec7f2-6cc9-54c3-af7d-08fbaccdb464",
           "collectorNumber": 9,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a636fcd682b32b41a4886c7383e781414139adb-744x1039.png?accountingTag=RB",
@@ -384,6 +402,7 @@
     },
     {
       "number": "UNL-010",
+      "uuid": "5d753b7c-eeec-5db0-8c09-a1518257add6",
       "name": "Vault Breaker",
       "type": "spell",
       "domains": [
@@ -394,6 +413,7 @@
       "printings": [
         {
           "id": "UNL-010",
+          "uuid": "fa8ee773-1208-50e2-80eb-19e7ab3aaf62",
           "collectorNumber": 10,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8046c9f133be83268d7dc9788abea58f461914d8-744x1039.png?accountingTag=RB",
@@ -424,6 +444,7 @@
     },
     {
       "number": "UNL-011",
+      "uuid": "e41b087c-6cdd-5dd6-88ed-ee9267eeddff",
       "name": "Fresh Beans",
       "type": "gear",
       "domains": [
@@ -433,6 +454,7 @@
       "printings": [
         {
           "id": "UNL-011",
+          "uuid": "3c364abe-b459-5902-8f53-21991256823a",
           "collectorNumber": 11,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1737d7d02cd0619a520aba258d1b40fdbb5d1129-744x1039.png?accountingTag=RB",
@@ -463,6 +485,7 @@
     },
     {
       "number": "UNL-012",
+      "uuid": "a0340cb9-9f30-5e5d-b259-0064677fc20e",
       "name": "Lord Broadmane",
       "type": "unit",
       "domains": [
@@ -477,6 +500,7 @@
       "printings": [
         {
           "id": "UNL-012",
+          "uuid": "8c32066f-2fe8-5c67-a3b5-e2dd416d9755",
           "collectorNumber": 12,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f564001228383a27372c0ddc4d8c0ed4e4843dc7-744x1039.png?accountingTag=RB",
@@ -507,6 +531,7 @@
     },
     {
       "number": "UNL-013",
+      "uuid": "2100b329-c147-56f8-a2bf-a62b2e56f1b6",
       "name": "Lotus Trap",
       "type": "spell",
       "domains": [
@@ -516,6 +541,7 @@
       "printings": [
         {
           "id": "UNL-013",
+          "uuid": "82304f80-5301-5026-b850-96f28fe1d4ae",
           "collectorNumber": 13,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9490f8c80da1bf4467e14c39b66ae4262e5f7f7b-744x1039.png?accountingTag=RB",
@@ -546,6 +572,7 @@
     },
     {
       "number": "UNL-014",
+      "uuid": "03cc2b03-c620-5428-9ceb-6cab455bc47f",
       "name": "Monster Harpoon",
       "type": "spell",
       "domains": [
@@ -556,6 +583,7 @@
       "printings": [
         {
           "id": "UNL-014",
+          "uuid": "1f32871e-93be-57d0-b0a3-cedaee7f6558",
           "collectorNumber": 14,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed51ed36ad0938048ee50894d75d299c29d17759-744x1039.png?accountingTag=RB",
@@ -586,6 +614,7 @@
     },
     {
       "number": "UNL-015",
+      "uuid": "956f5d6b-ca97-527a-bf13-db3c03bd593f",
       "name": "Right of Conquest",
       "type": "spell",
       "domains": [
@@ -596,6 +625,7 @@
       "printings": [
         {
           "id": "UNL-015",
+          "uuid": "da9c93e0-1af9-5d84-b44d-194b8df8d948",
           "collectorNumber": 15,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2467e43f316e8700ad43b66e3b5d490f3f9d3cea-744x1039.png?accountingTag=RB",
@@ -626,6 +656,7 @@
     },
     {
       "number": "UNL-016",
+      "uuid": "559a3f75-5c13-583e-9d07-a9d2ee6a0fe0",
       "name": "Scorchclaw",
       "type": "unit",
       "domains": [
@@ -641,6 +672,7 @@
       "printings": [
         {
           "id": "UNL-016",
+          "uuid": "706a2289-8839-570f-a602-5a1aea276a8b",
           "collectorNumber": 16,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f69940824f8ce62a479df28988dcbdf6ea6d3960-744x1039.png?accountingTag=RB",
@@ -671,6 +703,7 @@
     },
     {
       "number": "UNL-017",
+      "uuid": "20d912db-ca60-5186-b84f-402962fdb1e9",
       "name": "Square Up",
       "type": "spell",
       "domains": [
@@ -680,6 +713,7 @@
       "printings": [
         {
           "id": "UNL-017",
+          "uuid": "61d76abd-1fc3-5f70-a1b4-09ac79293640",
           "collectorNumber": 17,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e14c09db2f064e5f6986f500a04335d73d459dd-744x1039.png?accountingTag=RB",
@@ -710,6 +744,7 @@
     },
     {
       "number": "UNL-018",
+      "uuid": "156a7125-6858-52d9-9274-4a8eb3c3a58b",
       "name": "Yeti Brawler",
       "type": "unit",
       "domains": [
@@ -723,6 +758,7 @@
       "printings": [
         {
           "id": "UNL-018",
+          "uuid": "c2cc7f09-2751-5686-a2e9-e26dd5be2091",
           "collectorNumber": 18,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38b59ae384ef6df8c94d5c51418101b2630b43a7-744x1039.png?accountingTag=RB",
@@ -753,6 +789,7 @@
     },
     {
       "number": "UNL-019",
+      "uuid": "75c9311c-910e-54f8-b2d7-3ae3675d723a",
       "name": "Blighted Battleaxe",
       "type": "gear",
       "domains": [
@@ -767,6 +804,7 @@
       "printings": [
         {
           "id": "UNL-019",
+          "uuid": "e5961762-6d5d-5c10-830a-080dc80a1074",
           "collectorNumber": 19,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a6425462180dc6bc3396397cd491c0abae58f616-744x1039.png?accountingTag=RB",
@@ -796,6 +834,7 @@
     },
     {
       "number": "UNL-020",
+      "uuid": "b4529d16-9846-518f-b7df-79b7a7f4790d",
       "name": "Dancing Grenade",
       "type": "spell",
       "domains": [
@@ -806,6 +845,7 @@
       "printings": [
         {
           "id": "UNL-020",
+          "uuid": "24c3b26e-4cf0-5859-8127-557158498413",
           "collectorNumber": 20,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8afc30b1bc7cc1841dfe11cfa29adbcc02257845-744x1039.png?accountingTag=RB",
@@ -835,6 +875,7 @@
     },
     {
       "number": "UNL-021",
+      "uuid": "d7234a3f-8aee-58bf-af0b-383b96a127ff",
       "name": "Grim Apothecary",
       "type": "unit",
       "domains": [
@@ -848,6 +889,7 @@
       "printings": [
         {
           "id": "UNL-021",
+          "uuid": "91458fdf-c66f-5b96-9aa8-496b5f2f7d72",
           "collectorNumber": 21,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af548bbfc856e306c5feefb34eb6bd9a4e442904-744x1039.png?accountingTag=RB",
@@ -877,6 +919,7 @@
     },
     {
       "number": "UNL-022",
+      "uuid": "b12001b0-64d4-59ac-a8b6-97385b52f4c6",
       "name": "Jhin",
       "subtitle": "Murderous Artist",
       "type": "unit",
@@ -896,6 +939,7 @@
       "printings": [
         {
           "id": "UNL-022",
+          "uuid": "d1861266-a9ce-5d90-8d1a-2a1c44851746",
           "collectorNumber": 22,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8da724a842cf61cb24c3c02dd99adc93a9222e06-744x1039.png?accountingTag=RB",
@@ -920,6 +964,7 @@
         },
         {
           "id": "UNL-022a",
+          "uuid": "7d9d3f54-5846-5107-a00b-24b8845276f1",
           "collectorNumber": 22,
           "suffix": "a",
           "rarity": "showcase",
@@ -947,6 +992,7 @@
     },
     {
       "number": "UNL-023",
+      "uuid": "cadff927-add6-5982-91c2-760dd5461287",
       "name": "Katarina",
       "subtitle": "Reckless",
       "type": "unit",
@@ -966,6 +1012,7 @@
       "printings": [
         {
           "id": "UNL-023",
+          "uuid": "787ff9e6-a99e-53e8-beab-bfae2e1691a1",
           "collectorNumber": 23,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/12da73cb78a9cfa052749f317ed56a27106908c6-744x1039.png?accountingTag=RB",
@@ -995,6 +1042,7 @@
     },
     {
       "number": "UNL-024",
+      "uuid": "0d48a56e-54f6-58ca-a186-7031a0a14af8",
       "name": "Rengar",
       "subtitle": "Unseen",
       "type": "unit",
@@ -1015,6 +1063,7 @@
       "printings": [
         {
           "id": "UNL-024",
+          "uuid": "02e7d9ca-beb0-5e2e-8344-630952a2ac8d",
           "collectorNumber": 24,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80c7d1c62301dd6e3ced910156f3fdeb8d34a621-744x1039.png?accountingTag=RB",
@@ -1039,6 +1088,7 @@
         },
         {
           "id": "UNL-024a",
+          "uuid": "de730e46-af29-58e4-8b9a-d71d0a70e9a4",
           "collectorNumber": 24,
           "suffix": "a",
           "rarity": "showcase",
@@ -1066,6 +1116,7 @@
     },
     {
       "number": "UNL-025",
+      "uuid": "9bb0e98b-f773-5278-bc6d-ed77b78d9165",
       "name": "Undying Legion",
       "type": "unit",
       "domains": [
@@ -1080,6 +1131,7 @@
       "printings": [
         {
           "id": "UNL-025",
+          "uuid": "c8feddbb-de40-5a0a-a92a-42fa4e7e74ce",
           "collectorNumber": 25,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a6955daff2982e0ba4417533052d5ea334232fb-744x1039.png?accountingTag=RB",
@@ -1109,6 +1161,7 @@
     },
     {
       "number": "UNL-026",
+      "uuid": "d81c25ce-8f4c-5afb-ac53-5593eee72107",
       "name": "Xerath",
       "subtitle": "Freed",
       "type": "unit",
@@ -1127,6 +1180,7 @@
       "printings": [
         {
           "id": "UNL-026",
+          "uuid": "e55c9eca-92b8-56bb-914d-d1ca2b6602bb",
           "collectorNumber": 26,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef52e66a137a80cf5df862f31a114bfc00914a93-744x1039.png?accountingTag=RB",
@@ -1156,6 +1210,7 @@
     },
     {
       "number": "UNL-027",
+      "uuid": "12451f2b-0698-5da0-85f3-c0450fb3a463",
       "name": "Inviolus Vox",
       "type": "unit",
       "domains": [
@@ -1171,6 +1226,7 @@
       "printings": [
         {
           "id": "UNL-027",
+          "uuid": "0f6ff5e5-8060-5e99-a368-61e5b9933743",
           "collectorNumber": 27,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9b742ef3dc17f5da03d41e3349839037183b5ea9-744x1039.png?accountingTag=RB",
@@ -1200,6 +1256,7 @@
     },
     {
       "number": "UNL-028",
+      "uuid": "86553f10-6802-56f0-a746-52cb973abf62",
       "name": "Pyke",
       "subtitle": "Dockside Butcher",
       "type": "unit",
@@ -1218,6 +1275,7 @@
       "printings": [
         {
           "id": "UNL-028",
+          "uuid": "a5f2e888-be32-5108-875f-03d5d84aeba3",
           "collectorNumber": 28,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e0ce05148d7368070bcc8c0a43f66ece0834653a-744x1039.png?accountingTag=RB",
@@ -1242,6 +1300,7 @@
         },
         {
           "id": "UNL-028a",
+          "uuid": "d48fad6b-b2af-5bcb-b783-ec06b174fcaf",
           "collectorNumber": 28,
           "suffix": "a",
           "rarity": "showcase",
@@ -1269,6 +1328,7 @@
     },
     {
       "number": "UNL-029",
+      "uuid": "c6e2bce9-a56c-5c90-8145-080697765f69",
       "name": "Red Brambleback",
       "type": "unit",
       "domains": [
@@ -1283,6 +1343,7 @@
       "printings": [
         {
           "id": "UNL-029",
+          "uuid": "c254eb61-63bc-5f8c-aa4d-ffe85feb4b77",
           "collectorNumber": 29,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/14e9d009985f6a0d8ab63416aee7570ede42c657-744x1039.png?accountingTag=RB",
@@ -1307,6 +1368,7 @@
         },
         {
           "id": "UNL-029a",
+          "uuid": "4ce5a140-914f-51be-b1ba-1c49da4be1da",
           "collectorNumber": 29,
           "suffix": "a",
           "rarity": "showcase",
@@ -1334,6 +1396,7 @@
     },
     {
       "number": "UNL-030",
+      "uuid": "4f8c9a68-aa4c-5900-bb7a-a5ccd00dc20f",
       "name": "Vi",
       "subtitle": "Hotheaded",
       "type": "unit",
@@ -1352,6 +1415,7 @@
       "printings": [
         {
           "id": "UNL-030",
+          "uuid": "863d0b5b-af36-583f-ad43-7c5a81aa42a2",
           "collectorNumber": 30,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/03a55e8d494d7efe20da792365161f5c43c20779-744x1039.png?accountingTag=RB",
@@ -1376,6 +1440,7 @@
         },
         {
           "id": "UNL-030a",
+          "uuid": "bba9abb2-de2a-5441-8ac2-8921ba2caa57",
           "collectorNumber": 30,
           "suffix": "a",
           "rarity": "showcase",
@@ -1403,6 +1468,7 @@
     },
     {
       "number": "UNL-031",
+      "uuid": "b94cbc19-e9cf-5eed-8f3a-3dda0c4dfb23",
       "name": "Combat Experience",
       "type": "spell",
       "domains": [
@@ -1412,6 +1478,7 @@
       "printings": [
         {
           "id": "UNL-031",
+          "uuid": "3af62e49-06c0-5ace-90c2-68d3fa788581",
           "collectorNumber": 31,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/537b66b5f0259f80bf25b1aafb78558f4db6886a-744x1039.png?accountingTag=RB",
@@ -1442,6 +1509,7 @@
     },
     {
       "number": "UNL-032",
+      "uuid": "e2a70854-6066-5add-9b5a-61d27ca1df3f",
       "name": "Double Trouble",
       "type": "spell",
       "domains": [
@@ -1451,6 +1519,7 @@
       "printings": [
         {
           "id": "UNL-032",
+          "uuid": "dab031a0-1c69-5705-b718-1c917c9aaac6",
           "collectorNumber": 32,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64e977213f50471ad7b6e8664488fb9017693f71-744x1039.png?accountingTag=RB",
@@ -1481,6 +1550,7 @@
     },
     {
       "number": "UNL-033",
+      "uuid": "b28cc5e4-cdef-5357-b934-0dc43e609766",
       "name": "Frisky Hunter",
       "type": "unit",
       "domains": [
@@ -1495,6 +1565,7 @@
       "printings": [
         {
           "id": "UNL-033",
+          "uuid": "aedac13b-94c1-51ff-81ab-c1af9df17153",
           "collectorNumber": 33,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6bf8978ca42fa50a60067e74364b3caf78b3e928-744x1039.png?accountingTag=RB",
@@ -1525,6 +1596,7 @@
     },
     {
       "number": "UNL-034",
+      "uuid": "b70aec19-5bec-59b1-97eb-ece31a7e7d34",
       "name": "Herald of Spring",
       "type": "unit",
       "domains": [
@@ -1539,6 +1611,7 @@
       "printings": [
         {
           "id": "UNL-034",
+          "uuid": "9dd3b73e-306f-58cc-aa37-4b97d2b4fbec",
           "collectorNumber": 34,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5bf7ba27b809d22296deb755b6f5324ac46a5a20-744x1039.png?accountingTag=RB",
@@ -1569,6 +1642,7 @@
     },
     {
       "number": "UNL-035",
+      "uuid": "d83289b8-4914-58bf-81ba-a379290b5752",
       "name": "Monch",
       "type": "unit",
       "domains": [
@@ -1582,6 +1656,7 @@
       "printings": [
         {
           "id": "UNL-035",
+          "uuid": "717e0e22-8733-5556-acf0-177838a868bf",
           "collectorNumber": 35,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef10724add3b6d9e69415cb194e895f6ea9969b7-744x1039.png?accountingTag=RB",
@@ -1612,6 +1687,7 @@
     },
     {
       "number": "UNL-036",
+      "uuid": "b9f28e21-396b-57c3-9fc9-a323be953287",
       "name": "Mutated Mouser",
       "type": "unit",
       "domains": [
@@ -1626,6 +1702,7 @@
       "printings": [
         {
           "id": "UNL-036",
+          "uuid": "0d8867ea-54ec-5d28-aa59-a2318469dfd2",
           "collectorNumber": 36,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20276519677a4d1ebe230aaad7692588e1e8d046-744x1039.png?accountingTag=RB",
@@ -1656,6 +1733,7 @@
     },
     {
       "number": "UNL-037",
+      "uuid": "21df3f68-baaf-5d02-838b-e249011f632f",
       "name": "Shadow Watcher",
       "type": "unit",
       "domains": [
@@ -1670,6 +1748,7 @@
       "printings": [
         {
           "id": "UNL-037",
+          "uuid": "104b1ceb-894c-55e9-8993-72b555bbc0a5",
           "collectorNumber": 37,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6f5ff413efc57d7948b4b9a46a4bba6eebd39d2-744x1039.png?accountingTag=RB",
@@ -1700,6 +1779,7 @@
     },
     {
       "number": "UNL-038",
+      "uuid": "e39d6dd7-ca47-5f1c-a71e-b8e64776c493",
       "name": "Skyward Strike",
       "type": "spell",
       "domains": [
@@ -1710,6 +1790,7 @@
       "printings": [
         {
           "id": "UNL-038",
+          "uuid": "b0db24c0-23e2-5d4b-9fb3-a0f7900f3402",
           "collectorNumber": 38,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/998740e590fec024f204ad26ed7e2dad2a0c8d66-744x1039.png?accountingTag=RB",
@@ -1740,6 +1821,7 @@
     },
     {
       "number": "UNL-039",
+      "uuid": "20a39f46-0868-5837-a3e3-823821506115",
       "name": "Soul Sword",
       "type": "gear",
       "domains": [
@@ -1754,6 +1836,7 @@
       "printings": [
         {
           "id": "UNL-039",
+          "uuid": "fcc06151-0efb-5f1e-ae88-e06320230ae6",
           "collectorNumber": 39,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/519361230cb8554cdf0f5dd795e115ffbb5bb932-744x1039.png?accountingTag=RB",
@@ -1784,6 +1867,7 @@
     },
     {
       "number": "UNL-040",
+      "uuid": "f6185735-bcbc-5413-aae1-2f946e9a9122",
       "name": "Wuju Apprentice",
       "type": "unit",
       "domains": [
@@ -1797,6 +1881,7 @@
       "printings": [
         {
           "id": "UNL-040",
+          "uuid": "ff18d59d-fb2e-56ff-a738-dea35420de5b",
           "collectorNumber": 40,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/543789dd1b4b2654392a151d4bb1b0c6263c47dc-744x1039.png?accountingTag=RB",
@@ -1827,6 +1912,7 @@
     },
     {
       "number": "UNL-041",
+      "uuid": "fc866543-2ccf-5459-9903-39f24d128bfb",
       "name": "Allay, Eager Admirer",
       "type": "unit",
       "domains": [
@@ -1841,6 +1927,7 @@
       "printings": [
         {
           "id": "UNL-041",
+          "uuid": "a9857943-ae48-5bcb-bc78-b43fe675eaac",
           "collectorNumber": 41,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf1045b559b20d3e86383a07de54cd1893e5a94b-744x1039.png?accountingTag=RB",
@@ -1871,6 +1958,7 @@
     },
     {
       "number": "UNL-042",
+      "uuid": "d9d90aa3-6377-56e4-9c6e-052cd84ad8b2",
       "name": "Back Off",
       "type": "spell",
       "domains": [
@@ -1880,6 +1968,7 @@
       "printings": [
         {
           "id": "UNL-042",
+          "uuid": "7f78e9b9-846b-5341-91bb-d4fd752e6a54",
           "collectorNumber": 42,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0e7f7fa55ae618f94fe48920f92406ddd7e3512-744x1039.png?accountingTag=RB",
@@ -1910,6 +1999,7 @@
     },
     {
       "number": "UNL-043",
+      "uuid": "845a5eae-0ae2-55bc-afec-c46cad0b0fb0",
       "name": "Enthusiastic Promoter",
       "type": "unit",
       "domains": [
@@ -1924,6 +2014,7 @@
       "printings": [
         {
           "id": "UNL-043",
+          "uuid": "f7573b7f-90ee-54a0-9cad-56111c2281ea",
           "collectorNumber": 43,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c03bdc371440cbf6de773b0b39010808bfdecea1-744x1039.png?accountingTag=RB",
@@ -1954,6 +2045,7 @@
     },
     {
       "number": "UNL-044",
+      "uuid": "ccda5cf9-01f0-5d02-8246-e6999b3e149e",
       "name": "Flurry of Feathers",
       "type": "spell",
       "domains": [
@@ -1964,6 +2056,7 @@
       "printings": [
         {
           "id": "UNL-044",
+          "uuid": "aa4fbdd7-635e-58a1-a942-66546e36ec6c",
           "collectorNumber": 44,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/77bd864b29f4975868e557e31a39b94d06a4ecb2-744x1039.png?accountingTag=RB",
@@ -1994,6 +2087,7 @@
     },
     {
       "number": "UNL-045",
+      "uuid": "395bed52-29b1-5f26-8447-c63d0c0574f9",
       "name": "Forgotten Signpost",
       "type": "gear",
       "domains": [
@@ -2003,6 +2097,7 @@
       "printings": [
         {
           "id": "UNL-045",
+          "uuid": "6c9e33fb-020b-54fd-a746-b9d295389c2a",
           "collectorNumber": 45,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/edf248974d1d97ff5ff1c6745f663fa059dbc82d-744x1039.png?accountingTag=RB",
@@ -2033,6 +2128,7 @@
     },
     {
       "number": "UNL-046",
+      "uuid": "c927d58f-91b8-5c26-ab28-8e8b92275e90",
       "name": "Friendship",
       "type": "spell",
       "domains": [
@@ -2042,6 +2138,7 @@
       "printings": [
         {
           "id": "UNL-046",
+          "uuid": "bbe0c5e9-5f5a-502e-b8ff-279037e813fb",
           "collectorNumber": 46,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a1a08ec8c23a2663babd2fc683481888347407a-744x1039.png?accountingTag=RB",
@@ -2072,6 +2169,7 @@
     },
     {
       "number": "UNL-047",
+      "uuid": "84eb3f7c-dcf7-529a-9998-288e9430701a",
       "name": "Mosstomper",
       "type": "unit",
       "domains": [
@@ -2087,6 +2185,7 @@
       "printings": [
         {
           "id": "UNL-047",
+          "uuid": "94ac25f1-595e-597d-a03b-38fe8259a092",
           "collectorNumber": 47,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0ea32d0f6f49c0b48b1ea2cc98fe0a3c540bc9db-744x1039.png?accountingTag=RB",
@@ -2117,6 +2216,7 @@
     },
     {
       "number": "UNL-048",
+      "uuid": "a5037c50-8042-50b2-99e0-c6172430f11d",
       "name": "Trevor Snoozebottom",
       "type": "unit",
       "domains": [
@@ -2131,6 +2231,7 @@
       "printings": [
         {
           "id": "UNL-048",
+          "uuid": "2b425a94-aa67-587b-b319-bdbe6b16d8ab",
           "collectorNumber": 48,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fa843ee80d1a35416d61482bc1602279955a2c7f-744x1039.png?accountingTag=RB",
@@ -2161,6 +2262,7 @@
     },
     {
       "number": "UNL-049",
+      "uuid": "8dd10b5e-ef63-56c8-a4e8-f266c8eeb2e8",
       "name": "Honeyfruit",
       "type": "gear",
       "domains": [
@@ -2170,6 +2272,7 @@
       "printings": [
         {
           "id": "UNL-049",
+          "uuid": "48e3d032-9411-520d-a51d-d8134676cb1f",
           "collectorNumber": 49,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4794052d16d88b12861b348a466673ace098c32e-744x1039.png?accountingTag=RB",
@@ -2199,6 +2302,7 @@
     },
     {
       "number": "UNL-050",
+      "uuid": "50e85309-b653-5a5f-b61c-cc3ef24f98e3",
       "name": "Iascylla",
       "type": "unit",
       "domains": [
@@ -2213,6 +2317,7 @@
       "printings": [
         {
           "id": "UNL-050",
+          "uuid": "9b6e32e1-4146-5b0f-be05-63f34d3f8bfb",
           "collectorNumber": 50,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/debdbfa22e4e75822fe1fbf0e7ab14bccbbdf191-744x1039.png?accountingTag=RB",
@@ -2242,6 +2347,7 @@
     },
     {
       "number": "UNL-051",
+      "uuid": "27dc64d7-0478-5488-9f05-d7fcecfb09ca",
       "name": "Ivern",
       "subtitle": "Nurturer",
       "type": "unit",
@@ -2261,6 +2367,7 @@
       "printings": [
         {
           "id": "UNL-051",
+          "uuid": "db7db010-9b77-5946-9123-75d4bd35279e",
           "collectorNumber": 51,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a72b08dd57422d3441df88eb61c000cdb4ac688a-744x1039.png?accountingTag=RB",
@@ -2285,6 +2392,7 @@
         },
         {
           "id": "UNL-051a",
+          "uuid": "51b89e9b-48a9-5d1e-bf3d-ece5613cc8f9",
           "collectorNumber": 51,
           "suffix": "a",
           "rarity": "showcase",
@@ -2312,6 +2420,7 @@
     },
     {
       "number": "UNL-052",
+      "uuid": "1028e4c1-2d0f-56c5-8e9a-5afb7583fbe6",
       "name": "Nami",
       "subtitle": "Headstrong",
       "type": "unit",
@@ -2330,6 +2439,7 @@
       "printings": [
         {
           "id": "UNL-052",
+          "uuid": "6b014c4f-2544-50fc-97d1-6a63111a5b64",
           "collectorNumber": 52,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c65521065700f308689608fc6c4fa8963f3264c0-744x1039.png?accountingTag=RB",
@@ -2359,6 +2469,7 @@
     },
     {
       "number": "UNL-053",
+      "uuid": "5fb3ab67-6c5b-516c-a230-40eb5ed2dd35",
       "name": "Scuttle Crab",
       "type": "unit",
       "domains": [
@@ -2372,6 +2483,7 @@
       "printings": [
         {
           "id": "UNL-053",
+          "uuid": "19f4db4e-87d4-5c3b-8936-32f40dcdce29",
           "collectorNumber": 53,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c9a251b2deb21716fba0ac83c6aac96563fa19d-744x1039.png?accountingTag=RB",
@@ -2401,6 +2513,7 @@
     },
     {
       "number": "UNL-054",
+      "uuid": "fd7245c9-37a5-55f5-a032-10066be227d3",
       "name": "Tricksy Tentacles",
       "type": "spell",
       "domains": [
@@ -2411,6 +2524,7 @@
       "printings": [
         {
           "id": "UNL-054",
+          "uuid": "f6fbb9e5-9fa7-53d1-9e2c-e5531be23452",
           "collectorNumber": 54,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e1e77df44c076599fa780f7fd01a4550f67af45-744x1039.png?accountingTag=RB",
@@ -2440,6 +2554,7 @@
     },
     {
       "number": "UNL-055",
+      "uuid": "0501e216-78f0-5a03-b3e2-fe474b9eab3a",
       "name": "Vex",
       "subtitle": "Mocking",
       "type": "unit",
@@ -2460,6 +2575,7 @@
       "printings": [
         {
           "id": "UNL-055",
+          "uuid": "4585065e-3fa0-55cb-ae10-0af28fcfb643",
           "collectorNumber": 55,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed2c20de6ceb7ff23f62ccb28a49fd305c5b15b7-744x1039.png?accountingTag=RB",
@@ -2484,6 +2600,7 @@
         },
         {
           "id": "UNL-055a",
+          "uuid": "bcff1b53-eeb7-5e4e-bef7-3a560fa9f03f",
           "collectorNumber": 55,
           "suffix": "a",
           "rarity": "showcase",
@@ -2511,6 +2628,7 @@
     },
     {
       "number": "UNL-056",
+      "uuid": "eaf6c394-eb19-5ca3-9728-c46a20047580",
       "name": "Yuumi",
       "subtitle": "Magical Cat",
       "type": "unit",
@@ -2532,6 +2650,7 @@
       "printings": [
         {
           "id": "UNL-056",
+          "uuid": "d4e89c89-9a62-590e-b314-deaac15ef90c",
           "collectorNumber": 56,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/588ddfeb01ab7b37110d8a7e656cf9f35530ce4e-744x1039.png?accountingTag=RB",
@@ -2561,6 +2680,7 @@
     },
     {
       "number": "UNL-057",
+      "uuid": "04a60804-150a-55d7-aae5-deb3e9c8583d",
       "name": "Alpha Wildclaw",
       "type": "unit",
       "domains": [
@@ -2576,6 +2696,7 @@
       "printings": [
         {
           "id": "UNL-057",
+          "uuid": "5619dec0-136f-50b1-81ba-6660f45f89e5",
           "collectorNumber": 57,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/39ec974dae18bf82fcc18a95044d8df04cc14d3c-744x1039.png?accountingTag=RB",
@@ -2605,6 +2726,7 @@
     },
     {
       "number": "UNL-058",
+      "uuid": "599eda35-4264-5463-8daf-f6124a7ef048",
       "name": "Lillia",
       "subtitle": "Protector of Dreams",
       "type": "unit",
@@ -2624,6 +2746,7 @@
       "printings": [
         {
           "id": "UNL-058",
+          "uuid": "7328ea43-eab8-5a07-bc23-43e3902ed651",
           "collectorNumber": 58,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/daa5fe15e0a1c14c8dbb8f858d8a6d444ea6096e-744x1039.png?accountingTag=RB",
@@ -2648,6 +2771,7 @@
         },
         {
           "id": "UNL-058a",
+          "uuid": "2b69017f-785b-50f6-afae-30954fda724c",
           "collectorNumber": 58,
           "suffix": "a",
           "rarity": "showcase",
@@ -2675,6 +2799,7 @@
     },
     {
       "number": "UNL-059",
+      "uuid": "716f4cff-5f9d-573f-8548-e15fe9d3339e",
       "name": "Master Yi",
       "subtitle": "Unstoppable",
       "type": "unit",
@@ -2694,6 +2819,7 @@
       "printings": [
         {
           "id": "UNL-059",
+          "uuid": "e3b54cbf-4f8b-5534-b16a-6dcfea1f9fbf",
           "collectorNumber": 59,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a6d46d701eebaff0850a5b7400816517006d7e9-744x1039.png?accountingTag=RB",
@@ -2718,6 +2844,7 @@
         },
         {
           "id": "UNL-059a",
+          "uuid": "8e62819c-8726-56f9-ab4b-07d50ffbb5d0",
           "collectorNumber": 59,
           "suffix": "a",
           "rarity": "showcase",
@@ -2745,6 +2872,7 @@
     },
     {
       "number": "UNL-060",
+      "uuid": "22d8e8f8-14c9-514f-a33e-0eda3cbff2ce",
       "name": "Vilemaw",
       "type": "unit",
       "domains": [
@@ -2760,6 +2888,7 @@
       "printings": [
         {
           "id": "UNL-060",
+          "uuid": "b20a1ca7-7b28-505d-84d9-ecebbac70bfb",
           "collectorNumber": 60,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb6dde0284f9ef84cbc9c0f07d2e7aac2fe6f919-744x1039.png?accountingTag=RB",
@@ -2784,6 +2913,7 @@
         },
         {
           "id": "UNL-060a",
+          "uuid": "cb92ff8e-9a1b-53f0-8682-fc17c4b605ce",
           "collectorNumber": 60,
           "suffix": "a",
           "rarity": "showcase",
@@ -2811,6 +2941,7 @@
     },
     {
       "number": "UNL-061",
+      "uuid": "bdd8ed37-841a-5251-b739-5fdf0a3b0237",
       "name": "Downstage Dramatics",
       "type": "spell",
       "domains": [
@@ -2820,6 +2951,7 @@
       "printings": [
         {
           "id": "UNL-061",
+          "uuid": "a0a89422-8ea3-55fc-a7d5-f62f9ee2dc46",
           "collectorNumber": 61,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d76418eabcddbea148f3331913223b79a39aabda-744x1039.png?accountingTag=RB",
@@ -2850,6 +2982,7 @@
     },
     {
       "number": "UNL-062",
+      "uuid": "d9eaaead-44aa-5be6-bed6-82d4c24b83ab",
       "name": "Dramatic Visionary",
       "type": "unit",
       "domains": [
@@ -2863,6 +2996,7 @@
       "printings": [
         {
           "id": "UNL-062",
+          "uuid": "e87a159e-aa2c-5fff-860a-b876f18e71e1",
           "collectorNumber": 62,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3153c05a8c3fb4d8f945a95fad54ea25e087ad47-744x1039.png?accountingTag=RB",
@@ -2893,6 +3027,7 @@
     },
     {
       "number": "UNL-063",
+      "uuid": "4dacbf50-d1d0-5842-8cc8-43f3239360ed",
       "name": "Eclipse",
       "type": "spell",
       "domains": [
@@ -2902,6 +3037,7 @@
       "printings": [
         {
           "id": "UNL-063",
+          "uuid": "70f2f34c-0926-50cb-93de-a219c3fe4fd7",
           "collectorNumber": 63,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fcef3d1d7de3c219aabcab88d0550c9d8cd4311-744x1039.png?accountingTag=RB",
@@ -2932,6 +3068,7 @@
     },
     {
       "number": "UNL-064",
+      "uuid": "51d85629-f923-51e6-a28b-315ec2a6239b",
       "name": "Fate Weaver",
       "type": "unit",
       "domains": [
@@ -2945,6 +3082,7 @@
       "printings": [
         {
           "id": "UNL-064",
+          "uuid": "a2fb8f73-cd7d-502b-a838-dcf5a8eb261a",
           "collectorNumber": 64,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ab713d332b48a7526585b0be3718fea9e9f93622-744x1039.png?accountingTag=RB",
@@ -2975,6 +3113,7 @@
     },
     {
       "number": "UNL-065",
+      "uuid": "f2664661-c961-5207-81bf-6b56a41c40a5",
       "name": "Icevale Archer",
       "type": "unit",
       "domains": [
@@ -2988,6 +3127,7 @@
       "printings": [
         {
           "id": "UNL-065",
+          "uuid": "379a6097-21f6-5661-b8b3-c3941310e36b",
           "collectorNumber": 65,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c14db2ae064ccee80d8ec373f9fe9b4f44776e3e-744x1039.png?accountingTag=RB",
@@ -3018,6 +3158,7 @@
     },
     {
       "number": "UNL-066",
+      "uuid": "16fbeede-a4fc-5dce-843a-3c335c3ed806",
       "name": "Moonlight Affliction",
       "type": "spell",
       "domains": [
@@ -3027,6 +3168,7 @@
       "printings": [
         {
           "id": "UNL-066",
+          "uuid": "14148dea-74d1-5e17-b1dd-6a2c6e0202a2",
           "collectorNumber": 66,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8f75280599fdb4d3b6191cf8e8443aadf33ad11e-744x1039.png?accountingTag=RB",
@@ -3057,6 +3199,7 @@
     },
     {
       "number": "UNL-067",
+      "uuid": "1efd7b30-3317-58d8-ab6a-b838c0dcf85b",
       "name": "Ruined Rex",
       "type": "unit",
       "domains": [
@@ -3071,6 +3214,7 @@
       "printings": [
         {
           "id": "UNL-067",
+          "uuid": "8f06355c-d08c-530c-bdd3-f678f4b4ba1f",
           "collectorNumber": 67,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/05fc9613bd3a3c3c5002ff1d7d665b37fd18dcb7-744x1039.png?accountingTag=RB",
@@ -3101,6 +3245,7 @@
     },
     {
       "number": "UNL-068",
+      "uuid": "1b45f5fe-1cc3-5535-bc52-4da47821f735",
       "name": "Spectral Centaur",
       "type": "unit",
       "domains": [
@@ -3115,6 +3260,7 @@
       "printings": [
         {
           "id": "UNL-068",
+          "uuid": "6917ba5f-0ba7-578b-8553-5bf27d839f6b",
           "collectorNumber": 68,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60fb267f2d0cd16714d35a0eefd0d5864304102b-744x1039.png?accountingTag=RB",
@@ -3145,6 +3291,7 @@
     },
     {
       "number": "UNL-069",
+      "uuid": "816dae6f-6d29-5a43-af3a-409c0596fb27",
       "name": "Sprite Burst",
       "type": "spell",
       "domains": [
@@ -3154,6 +3301,7 @@
       "printings": [
         {
           "id": "UNL-069",
+          "uuid": "12989518-18d3-5b69-bc8c-fb156407e494",
           "collectorNumber": 69,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4427ceffae1c3e7b012167461ce7c080bb2c1fe4-744x1039.png?accountingTag=RB",
@@ -3184,6 +3332,7 @@
     },
     {
       "number": "UNL-070",
+      "uuid": "e8477133-eaf9-5ba8-aab9-8e20ffa1a276",
       "name": "Turn to Dust",
       "type": "spell",
       "domains": [
@@ -3193,6 +3342,7 @@
       "printings": [
         {
           "id": "UNL-070",
+          "uuid": "e6798217-4489-5466-adcb-407a14b3f38c",
           "collectorNumber": 70,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4986c0c2fea96d9a88d736789d604374a64d03fb-744x1039.png?accountingTag=RB",
@@ -3223,6 +3373,7 @@
     },
     {
       "number": "UNL-071",
+      "uuid": "12bb9d93-a5de-58cd-a211-0e9baa1a358e",
       "name": "Chakram Dancer",
       "type": "unit",
       "domains": [
@@ -3236,6 +3387,7 @@
       "printings": [
         {
           "id": "UNL-071",
+          "uuid": "154d8899-10d3-5b80-b6b4-133a82c20606",
           "collectorNumber": 71,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/29abe06f1c16a9eed622a5060330116268b73b8c-744x1039.png?accountingTag=RB",
@@ -3266,6 +3418,7 @@
     },
     {
       "number": "UNL-072",
+      "uuid": "0ae0812b-14eb-54ba-952e-f631b74a37a9",
       "name": "Crescent Strike",
       "type": "spell",
       "domains": [
@@ -3276,6 +3429,7 @@
       "printings": [
         {
           "id": "UNL-072",
+          "uuid": "f9959d9c-b9d2-544b-82c7-26252df68fd3",
           "collectorNumber": 72,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/34ab7eff1eb8833ab8b9978eac18c4fb18b1ac81-744x1039.png?accountingTag=RB",
@@ -3306,6 +3460,7 @@
     },
     {
       "number": "UNL-073",
+      "uuid": "f8da6177-b294-5b56-a3b8-c933e7023bcb",
       "name": "Deadly Flourish",
       "type": "spell",
       "domains": [
@@ -3315,6 +3470,7 @@
       "printings": [
         {
           "id": "UNL-073",
+          "uuid": "29b07bab-fc80-53af-b2b0-ad944e824972",
           "collectorNumber": 73,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/81195df7122beaba38ebc8b8212ceb0e7593afe9-744x1039.png?accountingTag=RB",
@@ -3345,6 +3501,7 @@
     },
     {
       "number": "UNL-074",
+      "uuid": "515b2452-8c57-5c8c-a481-ec63c501615c",
       "name": "Frigid Jewel",
       "type": "gear",
       "domains": [
@@ -3354,6 +3511,7 @@
       "printings": [
         {
           "id": "UNL-074",
+          "uuid": "46c166ac-4c6b-5fb9-905f-bb816c9af512",
           "collectorNumber": 74,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f1a6c28649bf4478b4728379b6d548058739f0e9-744x1039.png?accountingTag=RB",
@@ -3384,6 +3542,7 @@
     },
     {
       "number": "UNL-075",
+      "uuid": "f1b033df-382a-5fcd-8104-69461d99e58a",
       "name": "Gustwalker",
       "type": "unit",
       "domains": [
@@ -3399,6 +3558,7 @@
       "printings": [
         {
           "id": "UNL-075",
+          "uuid": "92ef23a4-ce06-51e5-a070-527f5b240d08",
           "collectorNumber": 75,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3f314cea0c05d2ea274a81d723299e4e20b2ebde-744x1039.png?accountingTag=RB",
@@ -3429,6 +3589,7 @@
     },
     {
       "number": "UNL-076",
+      "uuid": "12057ce5-729a-5917-8cea-c4ce73a4af32",
       "name": "Petal Pixie",
       "type": "unit",
       "domains": [
@@ -3443,6 +3604,7 @@
       "printings": [
         {
           "id": "UNL-076",
+          "uuid": "e634a5ac-265f-5f23-b48c-6ccb68638e94",
           "collectorNumber": 76,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/68189fb5a6b3193e8925969ac0c545bc78b210c9-744x1039.png?accountingTag=RB",
@@ -3473,6 +3635,7 @@
     },
     {
       "number": "UNL-077",
+      "uuid": "8bb3ef61-7a56-59f1-91d5-c769551ae5b8",
       "name": "Soul Shepherd",
       "type": "unit",
       "domains": [
@@ -3486,6 +3649,7 @@
       "printings": [
         {
           "id": "UNL-077",
+          "uuid": "400ec0c8-028c-5576-8cb4-3606997e4941",
           "collectorNumber": 77,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb2a157e715ef103e688e094c21f772003775e45-744x1039.png?accountingTag=RB",
@@ -3516,6 +3680,7 @@
     },
     {
       "number": "UNL-078",
+      "uuid": "1d9ad700-c522-5f07-816a-9c97da54ea44",
       "name": "Sprite Fountain",
       "type": "gear",
       "domains": [
@@ -3526,6 +3691,7 @@
       "printings": [
         {
           "id": "UNL-078",
+          "uuid": "07b554b8-e75b-58f7-b5d0-2bf9315133be",
           "collectorNumber": 78,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fcb3ea3e8f829b8dc845fbf49080552d635bb47b-744x1039.png?accountingTag=RB",
@@ -3556,6 +3722,7 @@
     },
     {
       "number": "UNL-079",
+      "uuid": "80e0ee45-ee41-5df9-a256-488b334e63a5",
       "name": "Diana",
       "subtitle": "Lunari",
       "type": "unit",
@@ -3574,6 +3741,7 @@
       "printings": [
         {
           "id": "UNL-079",
+          "uuid": "e603f3de-f062-5f22-9a4e-59d3322c682d",
           "collectorNumber": 79,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e284397713abb21d2c8d9b85202ab65d21689e9-744x1039.png?accountingTag=RB",
@@ -3598,6 +3766,7 @@
         },
         {
           "id": "UNL-079a",
+          "uuid": "4e6a3672-a0ea-5a41-bc59-7031758c77de",
           "collectorNumber": 79,
           "suffix": "a",
           "rarity": "showcase",
@@ -3625,6 +3794,7 @@
     },
     {
       "number": "UNL-080",
+      "uuid": "98c279c4-c1e2-5699-ba2a-ee3024b944e7",
       "name": "Hwei",
       "subtitle": "Brooding Painter",
       "type": "unit",
@@ -3644,6 +3814,7 @@
       "printings": [
         {
           "id": "UNL-080",
+          "uuid": "bd4a0235-7cb8-5298-9f26-01a964c13c41",
           "collectorNumber": 80,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ddbb13ba5617cc443b9a3a51485b1697da570121-744x1039.png?accountingTag=RB",
@@ -3673,6 +3844,7 @@
     },
     {
       "number": "UNL-081",
+      "uuid": "761794af-7bb2-5baa-bdd5-4ccbbc6ac918",
       "name": "Keeper of Masks",
       "type": "unit",
       "domains": [
@@ -3686,6 +3858,7 @@
       "printings": [
         {
           "id": "UNL-081",
+          "uuid": "78764aa9-662c-5d64-9612-fbf2bf9d031c",
           "collectorNumber": 81,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67606d98bd3d8816e686dacacb91a56627d4b5f5-744x1039.png?accountingTag=RB",
@@ -3715,6 +3888,7 @@
     },
     {
       "number": "UNL-082",
+      "uuid": "ba595c58-82ca-55f9-8f5c-1ee6601ab7de",
       "name": "Lillia",
       "subtitle": "Fae Fawn",
       "type": "unit",
@@ -3734,6 +3908,7 @@
       "printings": [
         {
           "id": "UNL-082",
+          "uuid": "a5d1856f-9e2e-5b12-bc8f-211613c5f606",
           "collectorNumber": 82,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/65d0af5361b335a7e65c7aa03a099fc0de3431e6-744x1039.png?accountingTag=RB",
@@ -3758,6 +3933,7 @@
         },
         {
           "id": "UNL-082a",
+          "uuid": "a2f63c4c-8ec9-5758-a5d1-abec3885d85a",
           "collectorNumber": 82,
           "suffix": "a",
           "rarity": "showcase",
@@ -3785,6 +3961,7 @@
     },
     {
       "number": "UNL-083",
+      "uuid": "f18e7acc-e26e-5697-9e3a-eda89ec465fc",
       "name": "Smoke and Mirrors",
       "type": "spell",
       "domains": [
@@ -3794,6 +3971,7 @@
       "printings": [
         {
           "id": "UNL-083",
+          "uuid": "c454bc99-686c-5aa4-ae30-c7d8946ced70",
           "collectorNumber": 83,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38886634ee8646707d9c26020f977f14c934a4c0-744x1039.png?accountingTag=RB",
@@ -3823,6 +4001,7 @@
     },
     {
       "number": "UNL-084",
+      "uuid": "29961a4c-fd48-50b2-9da3-8ce3c06b6b83",
       "name": "Sprite Queen",
       "type": "unit",
       "domains": [
@@ -3838,6 +4017,7 @@
       "printings": [
         {
           "id": "UNL-084",
+          "uuid": "4517b613-e78c-58f1-b646-e9163809eaae",
           "collectorNumber": 84,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64b7debe0dd3d7b644f627eba562187bc45dd313-744x1039.png?accountingTag=RB",
@@ -3867,6 +4047,7 @@
     },
     {
       "number": "UNL-085",
+      "uuid": "d036027f-88d7-539c-a9fe-d6aa74942c6f",
       "name": "Sumpworks Map",
       "type": "gear",
       "domains": [
@@ -3876,6 +4057,7 @@
       "printings": [
         {
           "id": "UNL-085",
+          "uuid": "7fcb5955-1b42-53ae-b79f-e3ca2f2ee589",
           "collectorNumber": 85,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/87c3d5007aa3c3e2c4ff3d5bf78a92a2bee58db3-744x1039.png?accountingTag=RB",
@@ -3905,6 +4087,7 @@
     },
     {
       "number": "UNL-086",
+      "uuid": "47a27131-7951-5037-9702-f181c141d6b2",
       "name": "Zilean",
       "subtitle": "Time Mage",
       "type": "unit",
@@ -3924,6 +4107,7 @@
       "printings": [
         {
           "id": "UNL-086",
+          "uuid": "a131560c-c45b-53d1-899f-787fb2ed63a8",
           "collectorNumber": 86,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2a3165b43bd9878c0eb519bc25d370064aacac35-744x1039.png?accountingTag=RB",
@@ -3953,6 +4137,7 @@
     },
     {
       "number": "UNL-087",
+      "uuid": "b457e516-c8db-51cf-a7ac-d6a73577eb91",
       "name": "Blue Sentinel",
       "type": "unit",
       "domains": [
@@ -3967,6 +4152,7 @@
       "printings": [
         {
           "id": "UNL-087",
+          "uuid": "98b0ce52-e2b4-59d3-b079-8947388b970c",
           "collectorNumber": 87,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bec7e8f108fac2d9c94db01c85cf143133d13325-744x1039.png?accountingTag=RB",
@@ -3991,6 +4177,7 @@
         },
         {
           "id": "UNL-087a",
+          "uuid": "9a424479-5dfb-59da-881c-84ff8f1cbc72",
           "collectorNumber": 87,
           "suffix": "a",
           "rarity": "showcase",
@@ -4018,6 +4205,7 @@
     },
     {
       "number": "UNL-088",
+      "uuid": "19aa1594-91a4-599a-8bc1-33c4bc296a67",
       "name": "Gutter Palace",
       "type": "gear",
       "domains": [
@@ -4027,6 +4215,7 @@
       "printings": [
         {
           "id": "UNL-088",
+          "uuid": "ef3b63ed-bc2c-5f3f-bc36-63f9f616aedc",
           "collectorNumber": 88,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f1addf7bb3925871cbcf4615f5a449dc61f762da-744x1039.png?accountingTag=RB",
@@ -4056,6 +4245,7 @@
     },
     {
       "number": "UNL-089",
+      "uuid": "86e6f13c-7e9e-5d88-8df9-562de429ae51",
       "name": "Jhin",
       "subtitle": "Meticulous Killer",
       "type": "unit",
@@ -4074,6 +4264,7 @@
       "printings": [
         {
           "id": "UNL-089",
+          "uuid": "21865947-31e6-52cb-b346-bc9231a95153",
           "collectorNumber": 89,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/88fb6023ee9bd90fef3f36995ca27615dcd669f7-744x1039.png?accountingTag=RB",
@@ -4098,6 +4289,7 @@
         },
         {
           "id": "UNL-089a",
+          "uuid": "7da39102-6ecd-5833-bcb7-51529c04c07b",
           "collectorNumber": 89,
           "suffix": "a",
           "rarity": "showcase",
@@ -4125,6 +4317,7 @@
     },
     {
       "number": "UNL-090",
+      "uuid": "783521af-b178-5862-9c28-57ec57bcf780",
       "name": "LeBlanc",
       "subtitle": "Everywhere at Once",
       "type": "unit",
@@ -4143,6 +4336,7 @@
       "printings": [
         {
           "id": "UNL-090",
+          "uuid": "2724798f-456c-57bb-b4c3-025e95fcb4e0",
           "collectorNumber": 90,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0389576206b1e750a0852c6ff46efd2646d47da-744x1039.png?accountingTag=RB",
@@ -4167,6 +4361,7 @@
         },
         {
           "id": "UNL-090a",
+          "uuid": "6eca9c33-5632-5d30-b210-26b78354148f",
           "collectorNumber": 90,
           "suffix": "a",
           "rarity": "showcase",
@@ -4194,6 +4389,7 @@
     },
     {
       "number": "UNL-091",
+      "uuid": "4b905c7b-3bb2-573f-90d6-4c0c3b0debb2",
       "name": "Concentrate",
       "type": "spell",
       "domains": [
@@ -4203,6 +4399,7 @@
       "printings": [
         {
           "id": "UNL-091",
+          "uuid": "34d46b86-d75b-5139-8e2b-d517c01b5bd1",
           "collectorNumber": 91,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e032420b6dcbdd96dca122b4d7875868feb82ed-744x1039.png?accountingTag=RB",
@@ -4233,6 +4430,7 @@
     },
     {
       "number": "UNL-092",
+      "uuid": "222765c4-0b29-536b-83b6-fe75ac34b4ac",
       "name": "Demacian Diplomat",
       "type": "unit",
       "domains": [
@@ -4246,6 +4444,7 @@
       "printings": [
         {
           "id": "UNL-092",
+          "uuid": "0ba00e7c-6f97-5ecc-a7db-308cc9d60515",
           "collectorNumber": 92,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dabc873f161248d3c959932ee54b5cf550c471b9-744x1039.png?accountingTag=RB",
@@ -4276,6 +4475,7 @@
     },
     {
       "number": "UNL-093",
+      "uuid": "af6f7744-6988-5892-9375-8caf23f4b319",
       "name": "Dragonsoul Sage",
       "type": "unit",
       "domains": [
@@ -4289,6 +4489,7 @@
       "printings": [
         {
           "id": "UNL-093",
+          "uuid": "fb8d8fc6-76e6-59c6-a198-e18cc50510ca",
           "collectorNumber": 93,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2065a3b0fef9779fed8a3d42202606a31acf59ff-744x1039.png?accountingTag=RB",
@@ -4319,6 +4520,7 @@
     },
     {
       "number": "UNL-094",
+      "uuid": "24f66623-0044-5917-97c3-9fe6ea78f013",
       "name": "Gemhand Hunter",
       "type": "unit",
       "domains": [
@@ -4333,6 +4535,7 @@
       "printings": [
         {
           "id": "UNL-094",
+          "uuid": "f3d18845-0cb7-5e62-9231-6b693eacd3e3",
           "collectorNumber": 94,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d824d666dc5f50c3c513c3f9722f6eafe21c6289-744x1039.png?accountingTag=RB",
@@ -4363,6 +4566,7 @@
     },
     {
       "number": "UNL-095",
+      "uuid": "0b2c6240-fc8e-5aee-82d5-b4b94f59222d",
       "name": "Grim Resolve",
       "type": "spell",
       "domains": [
@@ -4372,6 +4576,7 @@
       "printings": [
         {
           "id": "UNL-095",
+          "uuid": "04753bc8-ffd9-5e52-a57d-85aa9b59eede",
           "collectorNumber": 95,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4705a4ef2589f2a82021f1b70dcdb7e289a88fdf-744x1039.png?accountingTag=RB",
@@ -4402,6 +4607,7 @@
     },
     {
       "number": "UNL-096",
+      "uuid": "311fe1fd-edb3-5f70-ad3d-6ae7eaeed7f0",
       "name": "Hunter's Machete",
       "type": "gear",
       "domains": [
@@ -4416,6 +4622,7 @@
       "printings": [
         {
           "id": "UNL-096",
+          "uuid": "947ff349-39f0-59f9-94c8-9d2978007a5b",
           "collectorNumber": 96,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/374fd9220c204810c2b1abd48217b4d233362753-744x1039.png?accountingTag=RB",
@@ -4446,6 +4653,7 @@
     },
     {
       "number": "UNL-097",
+      "uuid": "0c817206-e034-5223-8a88-5899eaa84a39",
       "name": "Kinkou Initiate",
       "type": "unit",
       "domains": [
@@ -4459,6 +4667,7 @@
       "printings": [
         {
           "id": "UNL-097",
+          "uuid": "c61ae87b-33f1-59ab-9bb0-02bc206a7cad",
           "collectorNumber": 97,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/358c56479ff4a02df622827092265fe4e8373fc2-744x1039.png?accountingTag=RB",
@@ -4489,6 +4698,7 @@
     },
     {
       "number": "UNL-098",
+      "uuid": "0886189b-8658-5d1d-9792-58df4410fcc1",
       "name": "Targonian Visionary",
       "type": "unit",
       "domains": [
@@ -4502,6 +4712,7 @@
       "printings": [
         {
           "id": "UNL-098",
+          "uuid": "e9aca862-5369-5442-b973-0e227fe3cbc7",
           "collectorNumber": 98,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fe645cecdd1f251218f5bf33225cde6c1e12b67e-744x1039.png?accountingTag=RB",
@@ -4532,6 +4743,7 @@
     },
     {
       "number": "UNL-099",
+      "uuid": "57fb2541-b772-53d4-9193-431250375c5f",
       "name": "Towering Combatant",
       "type": "unit",
       "domains": [
@@ -4545,6 +4757,7 @@
       "printings": [
         {
           "id": "UNL-099",
+          "uuid": "c4019e9f-bcb3-5021-a8c4-a94433e2e7cd",
           "collectorNumber": 99,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2a2eefa9b85684489e97870145eb2f94b20b60ed-744x1039.png?accountingTag=RB",
@@ -4575,6 +4788,7 @@
     },
     {
       "number": "UNL-100",
+      "uuid": "25d2ceee-687b-5c40-a659-a9729306434e",
       "name": "Voracious Gromp",
       "type": "unit",
       "domains": [
@@ -4588,6 +4802,7 @@
       "printings": [
         {
           "id": "UNL-100",
+          "uuid": "39ac51aa-48f3-58a0-901f-66891f756506",
           "collectorNumber": 100,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c006b8c9aa4581ad90c258cc6cfac9098d3c296-744x1039.png?accountingTag=RB",
@@ -4618,6 +4833,7 @@
     },
     {
       "number": "UNL-101",
+      "uuid": "af42271b-296b-5cab-bb4d-f91ad4305e9f",
       "name": "Call to Battle",
       "type": "spell",
       "domains": [
@@ -4627,6 +4843,7 @@
       "printings": [
         {
           "id": "UNL-101",
+          "uuid": "83892d0a-b26c-5e5a-938d-71fe43ed5a02",
           "collectorNumber": 101,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c7e0f93c72654f786f5df37895c6e95fa9d4d60-744x1039.png?accountingTag=RB",
@@ -4657,6 +4874,7 @@
     },
     {
       "number": "UNL-102",
+      "uuid": "e679834f-6209-52ee-826f-9ba19c01e898",
       "name": "Crowd Favorite",
       "type": "unit",
       "domains": [
@@ -4670,6 +4888,7 @@
       "printings": [
         {
           "id": "UNL-102",
+          "uuid": "c314f92c-3f47-561f-b471-8108c8b32ab7",
           "collectorNumber": 102,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0031569ff123a8317e1be753f0bd895501bf838b-744x1039.png?accountingTag=RB",
@@ -4700,6 +4919,7 @@
     },
     {
       "number": "UNL-103",
+      "uuid": "f25a4fa8-8c6a-5983-b337-e53269e5eca9",
       "name": "Disposal Order",
       "type": "spell",
       "domains": [
@@ -4709,6 +4929,7 @@
       "printings": [
         {
           "id": "UNL-103",
+          "uuid": "23164215-76a8-5479-ab44-b27a2be26c11",
           "collectorNumber": 103,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/de7b7c683f16a297418bc9a326178c520f17ef2b-744x1039.png?accountingTag=RB",
@@ -4739,6 +4960,7 @@
     },
     {
       "number": "UNL-104",
+      "uuid": "bc54485c-a111-55c6-9d13-01320ff31c90",
       "name": "Gentle Gemdragon",
       "type": "unit",
       "domains": [
@@ -4753,6 +4975,7 @@
       "printings": [
         {
           "id": "UNL-104",
+          "uuid": "6178d601-e03d-51c2-b5b7-4cca7569fc5a",
           "collectorNumber": 104,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/65fcaff267b7f27cbda09ad23f2449188195d28e-744x1039.png?accountingTag=RB",
@@ -4783,6 +5006,7 @@
     },
     {
       "number": "UNL-105",
+      "uuid": "e3707680-0f77-594b-9c67-8ac8b48f394a",
       "name": "Imposing Challenger",
       "type": "unit",
       "domains": [
@@ -4796,6 +5020,7 @@
       "printings": [
         {
           "id": "UNL-105",
+          "uuid": "2a48bac3-2221-5cc6-ab4a-f09fa11332af",
           "collectorNumber": 105,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/01596f6039ef5618fae686e1c7df291e1c570fc3-744x1039.png?accountingTag=RB",
@@ -4826,6 +5051,7 @@
     },
     {
       "number": "UNL-106",
+      "uuid": "12a2be91-cbf3-562e-a1e9-a1ca86807377",
       "name": "Repulse",
       "type": "spell",
       "domains": [
@@ -4836,6 +5062,7 @@
       "printings": [
         {
           "id": "UNL-106",
+          "uuid": "dc268e70-95b1-5cee-9042-7375ea6ac0f8",
           "collectorNumber": 106,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ca56ad44ec24db67e10a4ee18f5c7f3756c83d94-744x1039.png?accountingTag=RB",
@@ -4866,6 +5093,7 @@
     },
     {
       "number": "UNL-107",
+      "uuid": "47c19516-8325-51ab-a97a-e81a2dcaab51",
       "name": "Stare Down",
       "type": "spell",
       "domains": [
@@ -4875,6 +5103,7 @@
       "printings": [
         {
           "id": "UNL-107",
+          "uuid": "12f58fba-bc26-5773-8c1a-45b8471a257e",
           "collectorNumber": 107,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/58d0353a966bb0ca292855a0a55de5769e28d155-744x1039.png?accountingTag=RB",
@@ -4905,6 +5134,7 @@
     },
     {
       "number": "UNL-108",
+      "uuid": "d48c9f2a-ba27-538c-8c47-6717b02c6525",
       "name": "Wily Newtfish",
       "type": "unit",
       "domains": [
@@ -4918,6 +5148,7 @@
       "printings": [
         {
           "id": "UNL-108",
+          "uuid": "409463f3-5eae-54de-a962-1030152929b6",
           "collectorNumber": 108,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a0b0ebe9f47dadeb3b5f0520ec566a528df9c94-744x1039.png?accountingTag=RB",
@@ -4948,6 +5179,7 @@
     },
     {
       "number": "UNL-109",
+      "uuid": "1656c176-57a5-5eda-955f-3076e56a5ce8",
       "name": "Blood Rose",
       "type": "gear",
       "domains": [
@@ -4957,6 +5189,7 @@
       "printings": [
         {
           "id": "UNL-109",
+          "uuid": "5bf551b7-c3dc-5667-8719-384b77bb7bcf",
           "collectorNumber": 109,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64067ebdbe3140e9a458da7ecf7253a5fae9a31b-744x1039.png?accountingTag=RB",
@@ -4986,6 +5219,7 @@
     },
     {
       "number": "UNL-110",
+      "uuid": "0c84bcdd-5076-5f9d-a4ea-769a22650b63",
       "name": "Clash of Giants",
       "type": "spell",
       "domains": [
@@ -4996,6 +5230,7 @@
       "printings": [
         {
           "id": "UNL-110",
+          "uuid": "6214cddd-734e-5387-bd53-bdff90baa90d",
           "collectorNumber": 110,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/afe7cbde874003db673925275a13614d5f35266b-744x1039.png?accountingTag=RB",
@@ -5025,6 +5260,7 @@
     },
     {
       "number": "UNL-111",
+      "uuid": "f209bb99-0739-5af3-9ccf-a9092022ad0c",
       "name": "Determined Sentry",
       "type": "unit",
       "domains": [
@@ -5039,6 +5275,7 @@
       "printings": [
         {
           "id": "UNL-111",
+          "uuid": "20706094-931a-52d4-b8ab-11e9806edca5",
           "collectorNumber": 111,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b491c050b8505c52000c5ad7bb5a0b7855fa4ad1-744x1039.png?accountingTag=RB",
@@ -5068,6 +5305,7 @@
     },
     {
       "number": "UNL-112",
+      "uuid": "de106631-be4a-574e-b3fe-bfb0a07b9d46",
       "name": "Irresistible Faefolk",
       "type": "unit",
       "domains": [
@@ -5082,6 +5320,7 @@
       "printings": [
         {
           "id": "UNL-112",
+          "uuid": "57bf81c3-b19f-5b71-9ce3-388c3fb02925",
           "collectorNumber": 112,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6834e4b00a22dd6d7476d36884b43cf59b60c611-744x1039.png?accountingTag=RB",
@@ -5111,6 +5350,7 @@
     },
     {
       "number": "UNL-113",
+      "uuid": "d7048c14-e18e-5fbd-ae56-96eeea13c342",
       "name": "Master Yi",
       "subtitle": "Tempered",
       "type": "unit",
@@ -5129,6 +5369,7 @@
       "printings": [
         {
           "id": "UNL-113",
+          "uuid": "18dd0821-2907-510c-9552-5b2c39971c7c",
           "collectorNumber": 113,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a21feb3555825392fdb98f868840db3827ad0389-744x1039.png?accountingTag=RB",
@@ -5153,6 +5394,7 @@
         },
         {
           "id": "UNL-113a",
+          "uuid": "3020b701-e99f-5234-a42a-33b2b1b1b993",
           "collectorNumber": 113,
           "suffix": "a",
           "rarity": "showcase",
@@ -5180,6 +5422,7 @@
     },
     {
       "number": "UNL-114",
+      "uuid": "f2575ba6-b710-5923-a958-998deef116dc",
       "name": "Nidalee",
       "subtitle": "Cat Form",
       "type": "unit",
@@ -5200,6 +5443,7 @@
       "printings": [
         {
           "id": "UNL-114",
+          "uuid": "21bbfdef-14f5-5583-80f2-b4db27d06019",
           "collectorNumber": 114,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e51e39dfe4f922b2c8c9bff785d170350e9b803-744x1039.png?accountingTag=RB",
@@ -5229,6 +5473,7 @@
     },
     {
       "number": "UNL-115",
+      "uuid": "740d4cb0-5d52-5edf-ba15-e97cab0e6b95",
       "name": "Nilah",
       "subtitle": "Joyful Ascetic",
       "type": "unit",
@@ -5249,6 +5494,7 @@
       "printings": [
         {
           "id": "UNL-115",
+          "uuid": "f32f714e-30a4-544d-88ef-ab690a5bc162",
           "collectorNumber": 115,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6138c519310f917461e09d90fe3f2a9480914947-744x1039.png?accountingTag=RB",
@@ -5278,6 +5524,7 @@
     },
     {
       "number": "UNL-116",
+      "uuid": "ff766af8-6ec4-5c45-b4cb-df6ce39a7105",
       "name": "Poppy",
       "subtitle": "Paragon",
       "type": "unit",
@@ -5297,6 +5544,7 @@
       "printings": [
         {
           "id": "UNL-116",
+          "uuid": "090bc8df-2285-5886-8637-7580189d83be",
           "collectorNumber": 116,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef8a8434e1a4c4262dd97213741a4b126cb1449b-744x1039.png?accountingTag=RB",
@@ -5321,6 +5569,7 @@
         },
         {
           "id": "UNL-116a",
+          "uuid": "8c94168a-3ab3-5561-8e80-32c6a1a965f8",
           "collectorNumber": 116,
           "suffix": "a",
           "rarity": "showcase",
@@ -5348,6 +5597,7 @@
     },
     {
       "number": "UNL-117",
+      "uuid": "130167b1-e0a6-5c42-9374-a7edb00bf977",
       "name": "Arachnoid Horror",
       "type": "unit",
       "domains": [
@@ -5363,6 +5613,7 @@
       "printings": [
         {
           "id": "UNL-117",
+          "uuid": "839b788c-5762-59c7-8c02-37e17118ed5e",
           "collectorNumber": 117,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ae2ec829a6714ac75e8b203631af08c0c1e1565f-744x1039.png?accountingTag=RB",
@@ -5392,6 +5643,7 @@
     },
     {
       "number": "UNL-118",
+      "uuid": "3396be42-b7f8-5da3-a33e-cda319ad926a",
       "name": "Elder Dragon",
       "type": "unit",
       "domains": [
@@ -5407,6 +5659,7 @@
       "printings": [
         {
           "id": "UNL-118",
+          "uuid": "ceadc2b8-aada-50f5-8d77-887dae85c335",
           "collectorNumber": 118,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fcf578e447d4e2785c8b25f3c39928b98e7b44ca-744x1039.png?accountingTag=RB",
@@ -5431,6 +5684,7 @@
         },
         {
           "id": "UNL-118a",
+          "uuid": "aa24c260-a684-516c-8949-0fef2b890203",
           "collectorNumber": 118,
           "suffix": "a",
           "rarity": "showcase",
@@ -5458,6 +5712,7 @@
     },
     {
       "number": "UNL-119",
+      "uuid": "ad0586cd-68ec-50fa-a4bd-fe9688507a3d",
       "name": "Kha'Zix",
       "subtitle": "Evolving Hunter",
       "type": "unit",
@@ -5477,6 +5732,7 @@
       "printings": [
         {
           "id": "UNL-119",
+          "uuid": "ebbe85e0-bf7a-56e6-ba11-6bf00872b015",
           "collectorNumber": 119,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ac07031af5b35881d781b7a7d7b78c59a0fb2cd4-744x1039.png?accountingTag=RB",
@@ -5501,6 +5757,7 @@
         },
         {
           "id": "UNL-119a",
+          "uuid": "8b8ad4e9-b7b2-54e9-8fb9-528cd7a88f93",
           "collectorNumber": 119,
           "suffix": "a",
           "rarity": "showcase",
@@ -5528,6 +5785,7 @@
     },
     {
       "number": "UNL-120",
+      "uuid": "c626888a-8a8c-5cc2-8ff7-d95eee64f591",
       "name": "Rengar",
       "subtitle": "Trophy Hunter",
       "type": "unit",
@@ -5548,6 +5806,7 @@
       "printings": [
         {
           "id": "UNL-120",
+          "uuid": "6c2f4df5-5d0d-57b7-b1e7-dc152faa37ea",
           "collectorNumber": 120,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8e159fd8aa9bb349e32bda6a10b0178cc28ca8dd-744x1039.png?accountingTag=RB",
@@ -5572,6 +5831,7 @@
         },
         {
           "id": "UNL-120a",
+          "uuid": "4512411e-96f3-5aa2-be36-64f2c4558e32",
           "collectorNumber": 120,
           "suffix": "a",
           "rarity": "showcase",
@@ -5599,6 +5859,7 @@
     },
     {
       "number": "UNL-121",
+      "uuid": "d7548568-a0a9-5d8e-a0bd-846f02adf1c1",
       "name": "Bewitching Spirit",
       "type": "unit",
       "domains": [
@@ -5613,6 +5874,7 @@
       "printings": [
         {
           "id": "UNL-121",
+          "uuid": "e329e349-98f3-5df4-a67c-44771728df02",
           "collectorNumber": 121,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a771917dea98b137c3f4a13e4967dccf9ee445e5-744x1039.png?accountingTag=RB",
@@ -5643,6 +5905,7 @@
     },
     {
       "number": "UNL-122",
+      "uuid": "b349ece4-03b1-53c3-8423-ab16171f15fd",
       "name": "Crescent Guardian",
       "type": "unit",
       "domains": [
@@ -5656,6 +5919,7 @@
       "printings": [
         {
           "id": "UNL-122",
+          "uuid": "89e2da16-0665-52ca-b539-525a0546490c",
           "collectorNumber": 122,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0ff22e9a517d029fd17cfbbbc93ca2f90c2c676c-744x1039.png?accountingTag=RB",
@@ -5686,6 +5950,7 @@
     },
     {
       "number": "UNL-123",
+      "uuid": "7f6e43ec-7a53-57ef-8b95-857f09311532",
       "name": "Evershade Stalker",
       "type": "unit",
       "domains": [
@@ -5699,6 +5964,7 @@
       "printings": [
         {
           "id": "UNL-123",
+          "uuid": "47ced7b6-a6e1-52e0-9bb2-f068f8ec7c65",
           "collectorNumber": 123,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8fb687ecdb22d7497ac55a1be0db0ba33596b43-744x1039.png?accountingTag=RB",
@@ -5729,6 +5995,7 @@
     },
     {
       "number": "UNL-124",
+      "uuid": "af856b29-2407-545d-8983-44c79e8a7fed",
       "name": "Isolate",
       "type": "spell",
       "domains": [
@@ -5738,6 +6005,7 @@
       "printings": [
         {
           "id": "UNL-124",
+          "uuid": "2b55c808-9a4b-516d-80d9-e86b5ba6649a",
           "collectorNumber": 124,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bde23f07e4869fa96b14fcab329e782894b1e1e3-744x1039.png?accountingTag=RB",
@@ -5768,6 +6036,7 @@
     },
     {
       "number": "UNL-125",
+      "uuid": "12f3c594-8849-5f8f-a386-606bbb3dd2ff",
       "name": "Lunar Boon",
       "type": "spell",
       "domains": [
@@ -5777,6 +6046,7 @@
       "printings": [
         {
           "id": "UNL-125",
+          "uuid": "5f342f3b-36e4-53c9-911c-3e312e04674d",
           "collectorNumber": 125,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7dc31cec93a355ba52b8cf2ca0b232a0edd57586-744x1039.png?accountingTag=RB",
@@ -5807,6 +6077,7 @@
     },
     {
       "number": "UNL-126",
+      "uuid": "009b9168-ed59-5451-bfe1-96cf9cb5c722",
       "name": "Megatusk",
       "type": "unit",
       "domains": [
@@ -5820,6 +6091,7 @@
       "printings": [
         {
           "id": "UNL-126",
+          "uuid": "585aec80-268f-59dc-a087-02f279c9717a",
           "collectorNumber": 126,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d073247bc2437443d8a9901f089632a15d11e7a0-744x1039.png?accountingTag=RB",
@@ -5850,6 +6122,7 @@
     },
     {
       "number": "UNL-127",
+      "uuid": "ae78f958-ee23-594f-8217-b4068c5847a2",
       "name": "Mister Root",
       "type": "unit",
       "domains": [
@@ -5864,6 +6137,7 @@
       "printings": [
         {
           "id": "UNL-127",
+          "uuid": "20667abd-4c6f-5141-a7f2-98f8fc5e64fe",
           "collectorNumber": 127,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c9bb7a8f5a1426a4af9843f2473ee6cc37dd24bd-744x1039.png?accountingTag=RB",
@@ -5894,6 +6168,7 @@
     },
     {
       "number": "UNL-128",
+      "uuid": "af28a61a-e66f-5d83-bd9b-3e578c6d10a0",
       "name": "Star-Crossed",
       "type": "spell",
       "domains": [
@@ -5904,6 +6179,7 @@
       "printings": [
         {
           "id": "UNL-128",
+          "uuid": "970c340e-4ba3-5e16-9cac-795fec1fc670",
           "collectorNumber": 128,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0bfa45e6e86dfc256de0163f96273b761e9592fb-744x1039.png?accountingTag=RB",
@@ -5934,6 +6210,7 @@
     },
     {
       "number": "UNL-129",
+      "uuid": "a98e6e0f-f8be-5f43-b12b-56602118008b",
       "name": "Vicious Snapjaws",
       "type": "unit",
       "domains": [
@@ -5947,6 +6224,7 @@
       "printings": [
         {
           "id": "UNL-129",
+          "uuid": "53f40145-66f6-5e59-b970-ec57f032c108",
           "collectorNumber": 129,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/99845de971eb165c7a6bb424050cd9a29b45b548-744x1039.png?accountingTag=RB",
@@ -5977,6 +6255,7 @@
     },
     {
       "number": "UNL-130",
+      "uuid": "5332ea0b-dd38-56fe-b7a8-8b0d96a2264b",
       "name": "Walking Roost",
       "type": "unit",
       "domains": [
@@ -5990,6 +6269,7 @@
       "printings": [
         {
           "id": "UNL-130",
+          "uuid": "953abd16-d79f-5027-a13a-1de9fa534bfc",
           "collectorNumber": 130,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d9b344b4b29b2baab0a1dc2e16a6e946192edaf5-744x1039.png?accountingTag=RB",
@@ -6020,6 +6300,7 @@
     },
     {
       "number": "UNL-131",
+      "uuid": "080c4d16-5638-59bb-9311-390b2aa91d2d",
       "name": "Abandon",
       "type": "spell",
       "domains": [
@@ -6029,6 +6310,7 @@
       "printings": [
         {
           "id": "UNL-131",
+          "uuid": "4b30084a-c897-5b93-a6e3-30ff0702a040",
           "collectorNumber": 131,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/89929cfa4417c99576477793529c6808af145919-744x1039.png?accountingTag=RB",
@@ -6059,6 +6341,7 @@
     },
     {
       "number": "UNL-132",
+      "uuid": "4278659c-71f7-58f7-85c6-9a5f21f330e7",
       "name": "Angler Beast",
       "type": "unit",
       "domains": [
@@ -6073,6 +6356,7 @@
       "printings": [
         {
           "id": "UNL-132",
+          "uuid": "488e3236-fbc1-567e-8fad-c46ed9a1da68",
           "collectorNumber": 132,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/68872e2119146768f8fa113376876fa64699297d-744x1039.png?accountingTag=RB",
@@ -6103,6 +6387,7 @@
     },
     {
       "number": "UNL-133",
+      "uuid": "88fa84bd-e3ec-5a21-87bd-084945814ee6",
       "name": "Blast Cone",
       "type": "gear",
       "domains": [
@@ -6113,6 +6398,7 @@
       "printings": [
         {
           "id": "UNL-133",
+          "uuid": "e12734a4-d3f9-5dff-84f4-b275867a165d",
           "collectorNumber": 133,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/093799f1ad34084f05011f3b326d4d32d96849e5-744x1039.png?accountingTag=RB",
@@ -6143,6 +6429,7 @@
     },
     {
       "number": "UNL-134",
+      "uuid": "da2d28bb-87de-5c03-89b6-09d8b848f017",
       "name": "Existential Dread",
       "type": "spell",
       "domains": [
@@ -6153,6 +6440,7 @@
       "printings": [
         {
           "id": "UNL-134",
+          "uuid": "2043fddf-2e05-50e1-8174-e37623b82777",
           "collectorNumber": 134,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0a197ec3bf96e10307859e2a152c1742288b2b09-744x1039.png?accountingTag=RB",
@@ -6183,6 +6471,7 @@
     },
     {
       "number": "UNL-135",
+      "uuid": "1b567101-4f48-5222-8bfb-d279a4859193",
       "name": "Insightful Investigator",
       "type": "unit",
       "domains": [
@@ -6196,6 +6485,7 @@
       "printings": [
         {
           "id": "UNL-135",
+          "uuid": "c80b0f4d-4b65-5815-a7a3-b70769b56f15",
           "collectorNumber": 135,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3540a748211afd35b9ef4873dae0850c238fa964-744x1039.png?accountingTag=RB",
@@ -6226,6 +6516,7 @@
     },
     {
       "number": "UNL-136",
+      "uuid": "79ea8d0d-ef93-5f6f-a984-3c8884198b93",
       "name": "Scryer's Bloom",
       "type": "gear",
       "domains": [
@@ -6235,6 +6526,7 @@
       "printings": [
         {
           "id": "UNL-136",
+          "uuid": "acc0807e-5117-5a55-aa3f-13f5b69b3dd0",
           "collectorNumber": 136,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b10a544d24d3ae3e177d4791743bb2cfb742abcc-744x1039.png?accountingTag=RB",
@@ -6265,6 +6557,7 @@
     },
     {
       "number": "UNL-137",
+      "uuid": "75ddbe7d-616e-552e-a9a9-945ecfc5ebed",
       "name": "Sinister Poro",
       "type": "unit",
       "domains": [
@@ -6280,6 +6573,7 @@
       "printings": [
         {
           "id": "UNL-137",
+          "uuid": "cb680558-b7ee-5ba0-8bd1-0256280d083c",
           "collectorNumber": 137,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7f2a623a83556bafebfbe7cb280bdedcfe116531-744x1039.png?accountingTag=RB",
@@ -6310,6 +6604,7 @@
     },
     {
       "number": "UNL-138",
+      "uuid": "a7c47342-623c-5185-a108-3e086446867d",
       "name": "The List",
       "type": "gear",
       "domains": [
@@ -6319,6 +6614,7 @@
       "printings": [
         {
           "id": "UNL-138",
+          "uuid": "a1001199-932f-5dc0-8943-a0af5d91ca26",
           "collectorNumber": 138,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f35b49faeb444071445662c9af13710c00a4569c-744x1039.png?accountingTag=RB",
@@ -6349,6 +6645,7 @@
     },
     {
       "number": "UNL-139",
+      "uuid": "89a23d07-4777-582e-ad96-67dd5071c36c",
       "name": "Bone Skewer",
       "type": "spell",
       "domains": [
@@ -6359,6 +6656,7 @@
       "printings": [
         {
           "id": "UNL-139",
+          "uuid": "fb4e5d10-4f62-5a4a-9c5f-3470f7e05d0d",
           "collectorNumber": 139,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e06e3e3033640bc8a5bc98acd4e3a0925c6e2c9a-744x1039.png?accountingTag=RB",
@@ -6388,6 +6686,7 @@
     },
     {
       "number": "UNL-140",
+      "uuid": "a6b5db89-ec24-568b-a0bb-68c5083d36ac",
       "name": "Conscription",
       "type": "spell",
       "domains": [
@@ -6398,6 +6697,7 @@
       "printings": [
         {
           "id": "UNL-140",
+          "uuid": "86f412e1-7331-51e0-aeeb-41a9b3ee6419",
           "collectorNumber": 140,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1c05bff48666586a2b3552b5638deaf20d9006f7-744x1039.png?accountingTag=RB",
@@ -6427,6 +6727,7 @@
     },
     {
       "number": "UNL-141",
+      "uuid": "cdc5c68c-0a2b-50fa-a8dc-fa34e598a144",
       "name": "Evelynn",
       "subtitle": "Entrancing",
       "type": "unit",
@@ -6445,6 +6746,7 @@
       "printings": [
         {
           "id": "UNL-141",
+          "uuid": "c39e3f3f-b267-5835-95c2-7195641df322",
           "collectorNumber": 141,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1cea41a2b9c3de59a1c95ceacc59950be1d01907-744x1039.png?accountingTag=RB",
@@ -6474,6 +6776,7 @@
     },
     {
       "number": "UNL-142",
+      "uuid": "7d2d59d3-4217-50e6-bcff-3f32a0fbf3b1",
       "name": "Heedless Resurrection",
       "type": "spell",
       "domains": [
@@ -6484,6 +6787,7 @@
       "printings": [
         {
           "id": "UNL-142",
+          "uuid": "501e862f-388e-5ff6-9776-660929e81bf1",
           "collectorNumber": 142,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92419d138824a7d46155b59f0e5903196d68d9f7-744x1039.png?accountingTag=RB",
@@ -6513,6 +6817,7 @@
     },
     {
       "number": "UNL-143",
+      "uuid": "519348ff-1a11-5e17-b6c6-93f1594ea1a8",
       "name": "Kha'Zix",
       "subtitle": "Mutating Horror",
       "type": "unit",
@@ -6532,6 +6837,7 @@
       "printings": [
         {
           "id": "UNL-143",
+          "uuid": "0305e371-e368-5478-9322-fc6242a2018c",
           "collectorNumber": 143,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8306abc5ffce45add8c75c2e215162b2d1aed320-744x1039.png?accountingTag=RB",
@@ -6556,6 +6862,7 @@
         },
         {
           "id": "UNL-143a",
+          "uuid": "38084183-aa13-5eb0-818b-9537a56e6289",
           "collectorNumber": 143,
           "suffix": "a",
           "rarity": "showcase",
@@ -6583,6 +6890,7 @@
     },
     {
       "number": "UNL-144",
+      "uuid": "4c372842-58e8-5bb1-bcd5-89ea59bab4c3",
       "name": "Maduli the Gatekeeper",
       "type": "unit",
       "domains": [
@@ -6597,6 +6905,7 @@
       "printings": [
         {
           "id": "UNL-144",
+          "uuid": "bc0d2717-7ef4-50f0-8a93-eeb625f5a6cb",
           "collectorNumber": 144,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20f1b46435845de99987e37125e0ef7bd61c00bb-744x1039.png?accountingTag=RB",
@@ -6626,6 +6935,7 @@
     },
     {
       "number": "UNL-145",
+      "uuid": "d1188595-10c7-52b5-afc6-cb1537087bff",
       "name": "Pyke",
       "subtitle": "Returned",
       "type": "unit",
@@ -6644,6 +6954,7 @@
       "printings": [
         {
           "id": "UNL-145",
+          "uuid": "e45d203d-9a31-5b61-84e2-c68bb56c443e",
           "collectorNumber": 145,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2eaa5396b1cac9b245bde5a56b87314f8ae76a38-744x1039.png?accountingTag=RB",
@@ -6668,6 +6979,7 @@
         },
         {
           "id": "UNL-145a",
+          "uuid": "557333af-d2a2-52d9-a24e-84c840ec3db2",
           "collectorNumber": 145,
           "suffix": "a",
           "rarity": "showcase",
@@ -6695,6 +7007,7 @@
     },
     {
       "number": "UNL-146",
+      "uuid": "dd5d815f-9358-53f6-9970-06930b2932c0",
       "name": "Syndra",
       "subtitle": "Transcendent",
       "type": "unit",
@@ -6714,6 +7027,7 @@
       "printings": [
         {
           "id": "UNL-146",
+          "uuid": "a8e7c45e-d4e0-573f-824d-e09aa9c38981",
           "collectorNumber": 146,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a3695d011175801aaf6ec5a6557b65b8d6341e81-744x1039.png?accountingTag=RB",
@@ -6743,6 +7057,7 @@
     },
     {
       "number": "UNL-147",
+      "uuid": "f048684d-badb-51c2-8e13-e26cde33f021",
       "name": "Baron Nashor",
       "type": "unit",
       "domains": [
@@ -6757,6 +7072,7 @@
       "printings": [
         {
           "id": "UNL-147",
+          "uuid": "2a2b3f4e-7bbe-5015-9f1e-81a7f8420d28",
           "collectorNumber": 147,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/59946969e8d21869c3ffe801a3ffbdd8165a873f-744x1039.png?accountingTag=RB",
@@ -6781,6 +7097,7 @@
         },
         {
           "id": "UNL-147a",
+          "uuid": "19e117aa-3ea5-5749-8043-aec764fde16b",
           "collectorNumber": 147,
           "suffix": "a",
           "rarity": "showcase",
@@ -6808,6 +7125,7 @@
     },
     {
       "number": "UNL-148",
+      "uuid": "157df8b3-3ce3-5fec-af81-6d95bd2c6ab3",
       "name": "Cursed Sarcophagus",
       "type": "gear",
       "domains": [
@@ -6818,6 +7136,7 @@
       "printings": [
         {
           "id": "UNL-148",
+          "uuid": "0d5b5794-677c-5ccd-94da-07e7c46d4bb6",
           "collectorNumber": 148,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ae3823d4109d9bbae8c7983ec1c1082ba5b4f190-744x1039.png?accountingTag=RB",
@@ -6847,6 +7166,7 @@
     },
     {
       "number": "UNL-149",
+      "uuid": "c40fbe4e-5392-50a5-9b19-4fa03ea9b1a8",
       "name": "Diana",
       "subtitle": "No Longer Human",
       "type": "unit",
@@ -6866,6 +7186,7 @@
       "printings": [
         {
           "id": "UNL-149",
+          "uuid": "4751ba67-7617-52db-a76e-e30639a1a5cf",
           "collectorNumber": 149,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/37b015a64b6bc15e856c2d78e275b10e64db1de4-744x1039.png?accountingTag=RB",
@@ -6890,6 +7211,7 @@
         },
         {
           "id": "UNL-149a",
+          "uuid": "c6159e21-2571-5857-a3cd-73f6199ebf91",
           "collectorNumber": 149,
           "suffix": "a",
           "rarity": "showcase",
@@ -6917,6 +7239,7 @@
     },
     {
       "number": "UNL-150",
+      "uuid": "974749a4-ea9a-5c49-b363-34250d45bee9",
       "name": "Vex",
       "subtitle": "Apathetic",
       "type": "unit",
@@ -6936,6 +7259,7 @@
       "printings": [
         {
           "id": "UNL-150",
+          "uuid": "3d2b597d-704d-5c32-bc62-9875b8311ba2",
           "collectorNumber": 150,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7f13b0216c5d805400bb64cf26cd119acfc6c5ca-744x1039.png?accountingTag=RB",
@@ -6960,6 +7284,7 @@
         },
         {
           "id": "UNL-150a",
+          "uuid": "e855e99e-8167-5354-a46f-68f8062d0879",
           "collectorNumber": 150,
           "suffix": "a",
           "rarity": "showcase",
@@ -6987,6 +7312,7 @@
     },
     {
       "number": "UNL-151",
+      "uuid": "36131037-2bb8-5368-a1dd-d8567ed9898d",
       "name": "Bandle Soldier",
       "type": "unit",
       "domains": [
@@ -7002,6 +7328,7 @@
       "printings": [
         {
           "id": "UNL-151",
+          "uuid": "bdba21fb-13fa-5e21-bdc5-73cd15553e12",
           "collectorNumber": 151,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e43b54f22e0a038ee1f94ba2e99f80dd89999d8e-744x1039.png?accountingTag=RB",
@@ -7032,6 +7359,7 @@
     },
     {
       "number": "UNL-152",
+      "uuid": "591b2ecc-cd26-5fe3-b441-1151fe5dea3b",
       "name": "Black Rose Dignitary",
       "type": "unit",
       "domains": [
@@ -7045,6 +7373,7 @@
       "printings": [
         {
           "id": "UNL-152",
+          "uuid": "405ec912-ee1e-5051-a29d-4be054ec17ff",
           "collectorNumber": 152,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b63912e07914c3ef7e2bcdb95d5521fc26c880f2-744x1039.png?accountingTag=RB",
@@ -7075,6 +7404,7 @@
     },
     {
       "number": "UNL-153",
+      "uuid": "f1069649-dc20-5a40-bb92-0e98e334d5fb",
       "name": "Carrion Dredger",
       "type": "unit",
       "domains": [
@@ -7089,6 +7419,7 @@
       "printings": [
         {
           "id": "UNL-153",
+          "uuid": "26e7d267-6e4a-56b0-9aa2-6d3f9b822e9e",
           "collectorNumber": 153,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/84d8b6d7a9cab2b78a465a8e0caf597f3ef5a175-744x1039.png?accountingTag=RB",
@@ -7119,6 +7450,7 @@
     },
     {
       "number": "UNL-154",
+      "uuid": "0176af08-8c77-571c-8ce3-d6482df72bd5",
       "name": "Crimson Pigeons",
       "type": "unit",
       "domains": [
@@ -7133,6 +7465,7 @@
       "printings": [
         {
           "id": "UNL-154",
+          "uuid": "0d3b9828-1586-5c8d-9439-36f30910828a",
           "collectorNumber": 154,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/68786cd39a886a586b401d6bf818a80bf9f9e2cd-744x1039.png?accountingTag=RB",
@@ -7163,6 +7496,7 @@
     },
     {
       "number": "UNL-155",
+      "uuid": "3b85a56f-a8d4-532d-a330-c67b6acf69db",
       "name": "Heroic Charge",
       "type": "spell",
       "domains": [
@@ -7172,6 +7506,7 @@
       "printings": [
         {
           "id": "UNL-155",
+          "uuid": "cb582adb-1028-58fe-92a7-b99f1f8a3803",
           "collectorNumber": 155,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/944b89db8a7f7961a28e66ec4fb7d30bb863f324-744x1039.png?accountingTag=RB",
@@ -7202,6 +7537,7 @@
     },
     {
       "number": "UNL-156",
+      "uuid": "3f1c1ef4-780d-599e-b5b5-4d6d64e3f819",
       "name": "Loyal Poro",
       "type": "unit",
       "domains": [
@@ -7216,6 +7552,7 @@
       "printings": [
         {
           "id": "UNL-156",
+          "uuid": "d06509a5-7031-5a7f-913c-774fd8fca168",
           "collectorNumber": 156,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/860e1afc7364a002c6305ece7b6941e2e328d0a4-744x1039.png?accountingTag=RB",
@@ -7246,6 +7583,7 @@
     },
     {
       "number": "UNL-157",
+      "uuid": "536536d1-fd5f-5237-ac85-97ef60aa8ec4",
       "name": "Scrutinizing Sergeant",
       "type": "unit",
       "domains": [
@@ -7260,6 +7598,7 @@
       "printings": [
         {
           "id": "UNL-157",
+          "uuid": "164fde1c-4909-58ca-a340-3f091ba024cf",
           "collectorNumber": 157,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18a034ba1f4eaf7204312ca68ffb413012f6cf6b-744x1039.png?accountingTag=RB",
@@ -7290,6 +7629,7 @@
     },
     {
       "number": "UNL-158",
+      "uuid": "044522b3-6828-531a-8e34-7e50adf20218",
       "name": "Shepherd's Heirloom",
       "type": "gear",
       "domains": [
@@ -7304,6 +7644,7 @@
       "printings": [
         {
           "id": "UNL-158",
+          "uuid": "85419532-31dd-57ee-945b-aab92053258d",
           "collectorNumber": 158,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fadd95487f164f60c9ad08a457f11170c6afa420-744x1039.png?accountingTag=RB",
@@ -7334,6 +7675,7 @@
     },
     {
       "number": "UNL-159",
+      "uuid": "10958abc-5d5a-50a2-aca4-0c4288e79212",
       "name": "Soul Harvest",
       "type": "spell",
       "domains": [
@@ -7344,6 +7686,7 @@
       "printings": [
         {
           "id": "UNL-159",
+          "uuid": "d73523f5-873f-50bb-8740-ba3829131db3",
           "collectorNumber": 159,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/baee7644d00219dfa4160d59e6f6e78e55f5e619-744x1039.png?accountingTag=RB",
@@ -7374,6 +7717,7 @@
     },
     {
       "number": "UNL-160",
+      "uuid": "a3dbb170-7bf4-5ca2-8d21-8f14741cb6ad",
       "name": "Ultrasoft Poro",
       "type": "unit",
       "domains": [
@@ -7388,6 +7732,7 @@
       "printings": [
         {
           "id": "UNL-160",
+          "uuid": "9a576441-d5f8-56d8-aed1-ba0a717a0fee",
           "collectorNumber": 160,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/36900508e2ce61196450a4bf7e27722ae36521d9-744x1039.png?accountingTag=RB",
@@ -7418,6 +7763,7 @@
     },
     {
       "number": "UNL-161",
+      "uuid": "3a92d3a9-38f6-5f4e-98f9-28260ddaaa31",
       "name": "Divining Shells",
       "type": "gear",
       "domains": [
@@ -7427,6 +7773,7 @@
       "printings": [
         {
           "id": "UNL-161",
+          "uuid": "64be1d6a-2be2-5134-9814-8e6f747e18eb",
           "collectorNumber": 161,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f2b626602f5db047b96cf9112474d42bf5b483e7-744x1039.png?accountingTag=RB",
@@ -7457,6 +7804,7 @@
     },
     {
       "number": "UNL-162",
+      "uuid": "2a7b3692-efb2-5599-87e6-86b662eaa096",
       "name": "Enthralling Protector",
       "type": "unit",
       "domains": [
@@ -7471,6 +7819,7 @@
       "printings": [
         {
           "id": "UNL-162",
+          "uuid": "1f025ceb-e78e-5bb7-927b-5fd28d6d882d",
           "collectorNumber": 162,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3fdfe3bc7c7f81b99aa715bf54b52930ad41dcfa-744x1039.png?accountingTag=RB",
@@ -7501,6 +7850,7 @@
     },
     {
       "number": "UNL-163",
+      "uuid": "6d5bee62-08ea-5165-b915-15a15318af1c",
       "name": "Mageseeker Investigator",
       "type": "unit",
       "domains": [
@@ -7514,6 +7864,7 @@
       "printings": [
         {
           "id": "UNL-163",
+          "uuid": "d3ce3cd4-6599-52e1-a9bd-68dbfdda0f08",
           "collectorNumber": 163,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/004c77c98bc5a6f679191a0d289b26ac13e84728-744x1039.png?accountingTag=RB",
@@ -7544,6 +7895,7 @@
     },
     {
       "number": "UNL-164",
+      "uuid": "8e3e0d69-8592-539d-a8e6-78367529df61",
       "name": "Safety Inspector",
       "type": "unit",
       "domains": [
@@ -7559,6 +7911,7 @@
       "printings": [
         {
           "id": "UNL-164",
+          "uuid": "99f8e3c8-f003-5f7b-aabb-417bf9bbb6a2",
           "collectorNumber": 164,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/499e65eb2d35e2bd774ea7fe2a70672234f71e90-744x1039.png?accountingTag=RB",
@@ -7589,6 +7942,7 @@
     },
     {
       "number": "UNL-165",
+      "uuid": "6cc1c03a-014a-5cf8-b64c-ffccf7679ccd",
       "name": "Shadow's Call",
       "type": "spell",
       "domains": [
@@ -7598,6 +7952,7 @@
       "printings": [
         {
           "id": "UNL-165",
+          "uuid": "c733c27c-d83d-5b63-9fdf-cffe310377b3",
           "collectorNumber": 165,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5a9a81d353131fc275313e737d55ca6e2661dce6-744x1039.png?accountingTag=RB",
@@ -7628,6 +7983,7 @@
     },
     {
       "number": "UNL-166",
+      "uuid": "80f45d7a-ad94-51d8-9801-595a92f6ec69",
       "name": "Stalking Wolf",
       "type": "unit",
       "domains": [
@@ -7643,6 +7999,7 @@
       "printings": [
         {
           "id": "UNL-166",
+          "uuid": "779070a6-5e44-5e8b-afb1-d6fd9e836103",
           "collectorNumber": 166,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5f5f66caad21d59bf966ddc501bb4f9c84a595c6-744x1039.png?accountingTag=RB",
@@ -7673,6 +8030,7 @@
     },
     {
       "number": "UNL-167",
+      "uuid": "5933092d-6099-593f-b388-728c166cb795",
       "name": "Starhound",
       "type": "unit",
       "domains": [
@@ -7688,6 +8046,7 @@
       "printings": [
         {
           "id": "UNL-167",
+          "uuid": "c0e10377-3cf3-57fd-b5e7-800d7ce467d0",
           "collectorNumber": 167,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/085edeb9e6bbb0fb71ab902393eb48ea33a8addc-744x1039.png?accountingTag=RB",
@@ -7718,6 +8077,7 @@
     },
     {
       "number": "UNL-168",
+      "uuid": "ba1c10ca-32ea-597f-b61d-0d0f05303e45",
       "name": "Undying Loyalty",
       "type": "spell",
       "domains": [
@@ -7728,6 +8088,7 @@
       "printings": [
         {
           "id": "UNL-168",
+          "uuid": "b2708e3d-2ac0-544e-87d1-eae0dc296d7b",
           "collectorNumber": 168,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/703b85f8284ed13865012289d03602e2cd24f4b2-744x1039.png?accountingTag=RB",
@@ -7758,6 +8119,7 @@
     },
     {
       "number": "UNL-169",
+      "uuid": "6f740b33-264d-5200-9534-27a1cf346340",
       "name": "Ashe",
       "subtitle": "Focused",
       "type": "unit",
@@ -7777,6 +8139,7 @@
       "printings": [
         {
           "id": "UNL-169",
+          "uuid": "a7d20201-9e5d-5ae8-b46c-b37b8b2c482f",
           "collectorNumber": 169,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ebc033772f2005b7f39ba87ba9ea35f43df0da7a-744x1039.png?accountingTag=RB",
@@ -7806,6 +8169,7 @@
     },
     {
       "number": "UNL-170",
+      "uuid": "c12f28d9-aa29-5567-8eee-8cf09bde8510",
       "name": "Atakhan",
       "type": "unit",
       "domains": [
@@ -7821,6 +8185,7 @@
       "printings": [
         {
           "id": "UNL-170",
+          "uuid": "32c82278-ad2e-51e1-a5c8-32349438fb37",
           "collectorNumber": 170,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0b3994aad6b6c64ace14193c1363713e6b6ede2-744x1039.png?accountingTag=RB",
@@ -7850,6 +8215,7 @@
     },
     {
       "number": "UNL-171",
+      "uuid": "16f2a3e8-6f80-5b19-8778-840a0b1de40f",
       "name": "Galio",
       "subtitle": "Indefatigable",
       "type": "unit",
@@ -7869,6 +8235,7 @@
       "printings": [
         {
           "id": "UNL-171",
+          "uuid": "8f0b4516-7815-5731-8e88-4471d3ccba96",
           "collectorNumber": 171,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc3f1248dc4a02ce90ce172c3b3d5ec35e5f14c3-744x1039.png?accountingTag=RB",
@@ -7898,6 +8265,7 @@
     },
     {
       "number": "UNL-172",
+      "uuid": "916764f0-8933-529e-8593-746bf6e2506e",
       "name": "LeBlanc",
       "subtitle": "Fragmented",
       "type": "unit",
@@ -7917,6 +8285,7 @@
       "printings": [
         {
           "id": "UNL-172",
+          "uuid": "69507e63-7407-5cc9-a636-efb89b2c855c",
           "collectorNumber": 172,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ee9f8d7a65e57c1d907edd4e5df2a3ea6966bff9-744x1039.png?accountingTag=RB",
@@ -7941,6 +8310,7 @@
         },
         {
           "id": "UNL-172a",
+          "uuid": "db3d3b2e-123f-51d5-a0b7-3d7eaef8ead3",
           "collectorNumber": 172,
           "suffix": "a",
           "rarity": "showcase",
@@ -7968,6 +8338,7 @@
     },
     {
       "number": "UNL-173",
+      "uuid": "5cd4f9dd-e290-597d-8990-9bafecea8f51",
       "name": "Sacrifice",
       "type": "spell",
       "domains": [
@@ -7977,6 +8348,7 @@
       "printings": [
         {
           "id": "UNL-173",
+          "uuid": "f1702c63-939d-5605-92de-6e35235dfc50",
           "collectorNumber": 173,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/139153ae4b4f786442018c09765c67e35515df24-744x1039.png?accountingTag=RB",
@@ -8006,6 +8378,7 @@
     },
     {
       "number": "UNL-174",
+      "uuid": "43bb4965-1c58-5b6a-8725-60e85a15f500",
       "name": "Shard of Undoing",
       "type": "gear",
       "domains": [
@@ -8015,6 +8388,7 @@
       "printings": [
         {
           "id": "UNL-174",
+          "uuid": "b01223a4-f504-5781-b031-81e58b793326",
           "collectorNumber": 174,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d167f4e37714f0f8983fce16a9c657bc7ce39642-744x1039.png?accountingTag=RB",
@@ -8044,6 +8418,7 @@
     },
     {
       "number": "UNL-175",
+      "uuid": "6d2fa81a-d054-5fdd-85e9-0b46d8401b10",
       "name": "Tactical Retreat",
       "type": "spell",
       "domains": [
@@ -8053,6 +8428,7 @@
       "printings": [
         {
           "id": "UNL-175",
+          "uuid": "64b16d4c-959a-54c9-8d04-c0bb1240157a",
           "collectorNumber": 175,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cd5abf6c27f5faac247f6044306db3d710fb9d61-744x1039.png?accountingTag=RB",
@@ -8082,6 +8458,7 @@
     },
     {
       "number": "UNL-176",
+      "uuid": "6f0045cd-5b2f-5d93-8b5d-42c52ac2c19f",
       "name": "Vi",
       "subtitle": "Peacekeeper",
       "type": "unit",
@@ -8101,6 +8478,7 @@
       "printings": [
         {
           "id": "UNL-176",
+          "uuid": "45e9ce41-143c-5882-b9a9-9e2fb2b40d33",
           "collectorNumber": 176,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/51610bbdecd77b15f58b9a968611e536ebdf445e-744x1039.png?accountingTag=RB",
@@ -8125,6 +8503,7 @@
         },
         {
           "id": "UNL-176a",
+          "uuid": "ab4edaba-178b-58c0-9f7f-37be4f26b3ed",
           "collectorNumber": 176,
           "suffix": "a",
           "rarity": "showcase",
@@ -8152,6 +8531,7 @@
     },
     {
       "number": "UNL-177",
+      "uuid": "d3a587ea-1731-5fec-8b16-4880e795e995",
       "name": "Ivern",
       "subtitle": "Friend to All",
       "type": "unit",
@@ -8170,6 +8550,7 @@
       "printings": [
         {
           "id": "UNL-177",
+          "uuid": "27c76aa3-1b4d-5be3-af4b-5d7482ebb8d5",
           "collectorNumber": 177,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e450956e0561ddca36558d095b71d3b60dff8b03-744x1039.png?accountingTag=RB",
@@ -8194,6 +8575,7 @@
         },
         {
           "id": "UNL-177a",
+          "uuid": "daea6ba1-a9f5-5a03-9fe8-a0b233a0f5d1",
           "collectorNumber": 177,
           "suffix": "a",
           "rarity": "showcase",
@@ -8221,6 +8603,7 @@
     },
     {
       "number": "UNL-178",
+      "uuid": "3cb97465-a62a-5fd1-b75d-d7bea8c8cae3",
       "name": "Poppy",
       "subtitle": "Defender of the Meek",
       "type": "unit",
@@ -8241,6 +8624,7 @@
       "printings": [
         {
           "id": "UNL-178",
+          "uuid": "2fd01e7c-1af6-5dc5-9a2f-2def0fb9ca2f",
           "collectorNumber": 178,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1a75c5322b2179e772af83b1fd16fed864c5bf24-744x1039.png?accountingTag=RB",
@@ -8265,6 +8649,7 @@
         },
         {
           "id": "UNL-178a",
+          "uuid": "47d67998-76d8-5fff-b7e5-409d3c34d875",
           "collectorNumber": 178,
           "suffix": "a",
           "rarity": "showcase",
@@ -8292,6 +8677,7 @@
     },
     {
       "number": "UNL-179",
+      "uuid": "6ae172b0-f5f2-531d-aee3-263d867df10d",
       "name": "Rift Herald",
       "type": "unit",
       "domains": [
@@ -8306,6 +8692,7 @@
       "printings": [
         {
           "id": "UNL-179",
+          "uuid": "18f0734e-75f3-5b7b-9c7c-8134dcdcf791",
           "collectorNumber": 179,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4da94f3af92222bebe7be49197ef8d840772d73d-744x1039.png?accountingTag=RB",
@@ -8330,6 +8717,7 @@
         },
         {
           "id": "UNL-179a",
+          "uuid": "62406ba7-88af-57ad-80d5-338745a9f1e9",
           "collectorNumber": 179,
           "suffix": "a",
           "rarity": "showcase",
@@ -8357,6 +8745,7 @@
     },
     {
       "number": "UNL-180",
+      "uuid": "dcdbc32e-02a8-5c25-9302-79129b3f657c",
       "name": "The Ruination",
       "type": "spell",
       "domains": [
@@ -8367,6 +8756,7 @@
       "printings": [
         {
           "id": "UNL-180",
+          "uuid": "fe67e6a8-35f9-528f-aa11-eae092006bd6",
           "collectorNumber": 180,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f1fea5bfad864f8d58b1b55b04de951285f6ad4e-744x1039.png?accountingTag=RB",
@@ -8396,6 +8786,7 @@
     },
     {
       "number": "UNL-181",
+      "uuid": "ed5219b3-4863-55d6-9d93-9cc3d6fb1996",
       "name": "Virtuoso",
       "type": "legend",
       "domains": [
@@ -8408,6 +8799,7 @@
       "printings": [
         {
           "id": "UNL-181",
+          "uuid": "f7d2cc09-16b8-56a1-a871-d9d24297f87d",
           "collectorNumber": 181,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d1e6947cf43a19488a2c31f71a4887aa0423a966-744x1039.png?accountingTag=RB",
@@ -8434,6 +8826,7 @@
     },
     {
       "number": "UNL-182",
+      "uuid": "f1e15141-4420-5816-8045-0fe21308ba62",
       "name": "Curtain Call",
       "type": "spell",
       "superTypes": [
@@ -8450,6 +8843,7 @@
       "printings": [
         {
           "id": "UNL-182",
+          "uuid": "47be1b1d-b2e0-51f9-aec0-b978b6dcdcad",
           "collectorNumber": 182,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/01496068d9a8d5567672d802bd008297bd1fe8cc-744x1039.png?accountingTag=RB",
@@ -8479,6 +8873,7 @@
     },
     {
       "number": "UNL-183",
+      "uuid": "9da1b5cb-56b2-5b99-8a88-1d9c9c3f5054",
       "name": "Pridestalker",
       "type": "legend",
       "domains": [
@@ -8491,6 +8886,7 @@
       "printings": [
         {
           "id": "UNL-183",
+          "uuid": "b07cfe77-e1ac-5494-a045-e154b624294d",
           "collectorNumber": 183,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b3d3085f62aee993b9f5b80d4659a88439da83be-744x1039.png?accountingTag=RB",
@@ -8517,6 +8913,7 @@
     },
     {
       "number": "UNL-184",
+      "uuid": "7bb60f36-9ce1-5e1f-a082-227a03330880",
       "name": "Thrill of the Hunt",
       "type": "spell",
       "superTypes": [
@@ -8534,6 +8931,7 @@
       "printings": [
         {
           "id": "UNL-184",
+          "uuid": "909e1c96-8872-5f37-aaa9-b981b9c8a4d1",
           "collectorNumber": 184,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2753c2b3ea4fd55e5225a4451a29736b5c3434a8-744x1039.png?accountingTag=RB",
@@ -8563,6 +8961,7 @@
     },
     {
       "number": "UNL-185",
+      "uuid": "f200dc14-871a-56e1-bc97-322e040ed25f",
       "name": "Bloodharbor Ripper",
       "type": "legend",
       "domains": [
@@ -8575,6 +8974,7 @@
       "printings": [
         {
           "id": "UNL-185",
+          "uuid": "f6229fc7-412d-5f9d-9463-75784ac07ea7",
           "collectorNumber": 185,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ca1bfde8d898a11a6abc73bbab8fc7092b0dcb4-744x1039.png?accountingTag=RB",
@@ -8601,6 +9001,7 @@
     },
     {
       "number": "UNL-186",
+      "uuid": "b74d255f-46e5-51ca-8baf-4df1246079d0",
       "name": "Death from Below",
       "type": "spell",
       "superTypes": [
@@ -8618,6 +9019,7 @@
       "printings": [
         {
           "id": "UNL-186",
+          "uuid": "96b920ce-0086-5009-b0d3-a0cd47852519",
           "collectorNumber": 186,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/17d93a11a252287e3b0f4bbe32722ecc9469ec66-744x1039.png?accountingTag=RB",
@@ -8647,6 +9049,7 @@
     },
     {
       "number": "UNL-187",
+      "uuid": "32b4c241-afec-550d-908a-78c237b2aa78",
       "name": "Piltover Enforcer",
       "type": "legend",
       "domains": [
@@ -8659,6 +9062,7 @@
       "printings": [
         {
           "id": "UNL-187",
+          "uuid": "f335d63f-e036-5e18-afd9-fc65652eef53",
           "collectorNumber": 187,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b52fca3d644599008c4b1a67ffd359a9f9c4d8d7-744x1039.png?accountingTag=RB",
@@ -8685,6 +9089,7 @@
     },
     {
       "number": "UNL-188",
+      "uuid": "65d8b349-5a39-50f1-957c-0e6945b1bb5d",
       "name": "Hextech Gauntlets",
       "type": "gear",
       "superTypes": [
@@ -8704,6 +9109,7 @@
       "printings": [
         {
           "id": "UNL-188",
+          "uuid": "48158784-8905-5879-bbdd-f70f932b64a0",
           "collectorNumber": 188,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/22755fc744a79fbdcce0ceadfe20d6d0a2b8624a-744x1039.png?accountingTag=RB",
@@ -8733,6 +9139,7 @@
     },
     {
       "number": "UNL-189",
+      "uuid": "c40bd9d6-10e2-56c4-a2a3-fded3af0a8c2",
       "name": "Bashful Bloom",
       "type": "legend",
       "domains": [
@@ -8745,6 +9152,7 @@
       "printings": [
         {
           "id": "UNL-189",
+          "uuid": "ef208bb6-2192-5771-9356-8852cb17261f",
           "collectorNumber": 189,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e1554365120c5042947aef8bcac48a07445e9f3-744x1039.png?accountingTag=RB",
@@ -8771,6 +9179,7 @@
     },
     {
       "number": "UNL-190",
+      "uuid": "02888cee-f124-56ca-af9b-5e2abbc9625e",
       "name": "Lilting Lullaby",
       "type": "spell",
       "superTypes": [
@@ -8788,6 +9197,7 @@
       "printings": [
         {
           "id": "UNL-190",
+          "uuid": "930cf025-cb2c-5560-bc6d-cf6693041270",
           "collectorNumber": 190,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/272b71b493575e38ff8888ec187cd33e54c0eacc-744x1039.png?accountingTag=RB",
@@ -8817,6 +9227,7 @@
     },
     {
       "number": "UNL-191",
+      "uuid": "5fc9fa9d-8497-5dbc-87f5-3b1bc87882df",
       "name": "Wuju Master",
       "type": "legend",
       "domains": [
@@ -8829,6 +9240,7 @@
       "printings": [
         {
           "id": "UNL-191",
+          "uuid": "0f0ddd36-6ae7-5714-a9bf-358e0669f953",
           "collectorNumber": 191,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed9af55066593b4ee738b9529b847f2f738078e0-744x1039.png?accountingTag=RB",
@@ -8855,6 +9267,7 @@
     },
     {
       "number": "UNL-192",
+      "uuid": "a9d0ad18-e7f3-5afc-9f3e-2465ec5fdf22",
       "name": "Alpha Strike",
       "type": "spell",
       "superTypes": [
@@ -8872,6 +9285,7 @@
       "printings": [
         {
           "id": "UNL-192",
+          "uuid": "838c4725-f47f-5c21-8c46-c12ec04f362c",
           "collectorNumber": 192,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/154940caa774fd8219625cf051ddcb230ffc7f02-744x1039.png?accountingTag=RB",
@@ -8901,6 +9315,7 @@
     },
     {
       "number": "UNL-193",
+      "uuid": "cd36a0dd-4af1-5e48-915e-c1370e50a8a7",
       "name": "Gloomist",
       "type": "legend",
       "domains": [
@@ -8913,6 +9328,7 @@
       "printings": [
         {
           "id": "UNL-193",
+          "uuid": "8e59e5ac-e717-5822-8fb9-bc01badf2099",
           "collectorNumber": 193,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/653e9b8fc4989bba59aa7ade4e0c33ffd5596e5a-744x1039.png?accountingTag=RB",
@@ -8939,6 +9355,7 @@
     },
     {
       "number": "UNL-194",
+      "uuid": "a62f3014-111e-512e-b900-d71f2c240213",
       "name": "Shadow",
       "type": "unit",
       "superTypes": [
@@ -8957,6 +9374,7 @@
       "printings": [
         {
           "id": "UNL-194",
+          "uuid": "3164ca25-4faf-5c72-a797-1c2d76a66155",
           "collectorNumber": 194,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/690ee4937b3926810d8ed814afd14d4d9e98b13e-744x1039.png?accountingTag=RB",
@@ -8986,6 +9404,7 @@
     },
     {
       "number": "UNL-195",
+      "uuid": "24cc8a40-1231-5a55-a385-82ddbf6a2490",
       "name": "Green Father",
       "type": "legend",
       "domains": [
@@ -8998,6 +9417,7 @@
       "printings": [
         {
           "id": "UNL-195",
+          "uuid": "46a5fe30-0c04-5475-abd7-27f4b0590f55",
           "collectorNumber": 195,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a2ca02d26c1e95db03690729bd31113bda7e4140-744x1039.png?accountingTag=RB",
@@ -9024,6 +9444,7 @@
     },
     {
       "number": "UNL-196",
+      "uuid": "83a4ec41-3519-5de1-93e8-93b113ac0282",
       "name": "Daisy!",
       "type": "unit",
       "superTypes": [
@@ -9043,6 +9464,7 @@
       "printings": [
         {
           "id": "UNL-196",
+          "uuid": "67d1b849-dde7-5406-bfb9-62a5e369652d",
           "collectorNumber": 196,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ada85b2a6076b60933831454d02a21da3654362c-744x1039.png?accountingTag=RB",
@@ -9072,6 +9494,7 @@
     },
     {
       "number": "UNL-197",
+      "uuid": "b58807ca-72c8-5762-843f-5590efb6e4d1",
       "name": "Scorn of the Moon",
       "type": "legend",
       "domains": [
@@ -9084,6 +9507,7 @@
       "printings": [
         {
           "id": "UNL-197",
+          "uuid": "b84dc2eb-8189-5861-9992-148c550b6f0f",
           "collectorNumber": 197,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b00d922d62daca19190e13149fe3cf725c900330-744x1039.png?accountingTag=RB",
@@ -9110,6 +9534,7 @@
     },
     {
       "number": "UNL-198",
+      "uuid": "26707ae1-d145-5b3e-8659-3225bd0c1707",
       "name": "Moonfall",
       "type": "spell",
       "superTypes": [
@@ -9127,6 +9552,7 @@
       "printings": [
         {
           "id": "UNL-198",
+          "uuid": "63158e6a-f6a2-56b8-a826-91d65fcdfe80",
           "collectorNumber": 198,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2eda8d4bbee47857b1916599b5c7d5fa7ca400dc-744x1039.png?accountingTag=RB",
@@ -9156,6 +9582,7 @@
     },
     {
       "number": "UNL-199",
+      "uuid": "d2df1697-dccb-56c4-b93b-ec4cf5f1ce3f",
       "name": "Deceiver",
       "type": "legend",
       "domains": [
@@ -9168,6 +9595,7 @@
       "printings": [
         {
           "id": "UNL-199",
+          "uuid": "5d4dc419-5abc-5fdb-9cf8-6ac8bedaed85",
           "collectorNumber": 199,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c17d29602d61d6702372fec4db44c6fb2a29e8a2-744x1039.png?accountingTag=RB",
@@ -9194,6 +9622,7 @@
     },
     {
       "number": "UNL-200",
+      "uuid": "94d7327a-c713-5243-8a28-e34066b4d44d",
       "name": "Mirror Image",
       "type": "spell",
       "superTypes": [
@@ -9211,6 +9640,7 @@
       "printings": [
         {
           "id": "UNL-200",
+          "uuid": "5791612d-9da4-57c0-8856-4a2ec043de63",
           "collectorNumber": 200,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7ef8a09c0297cd796c4e2dee15922745ede7417-744x1039.png?accountingTag=RB",
@@ -9240,6 +9670,7 @@
     },
     {
       "number": "UNL-201",
+      "uuid": "f0e1b9e4-5dd1-555b-acc1-87ca5f455811",
       "name": "Voidreaver",
       "type": "legend",
       "domains": [
@@ -9252,6 +9683,7 @@
       "printings": [
         {
           "id": "UNL-201",
+          "uuid": "69b35a42-6c50-5684-9c30-0112f0171b2c",
           "collectorNumber": 201,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a5db0b3340a189de1cf9d8174b11eb583f19ea28-744x1039.png?accountingTag=RB",
@@ -9278,6 +9710,7 @@
     },
     {
       "number": "UNL-202",
+      "uuid": "845ac86c-ea3a-5eaa-9a5b-0f3976e46abe",
       "name": "Void Assault",
       "type": "spell",
       "superTypes": [
@@ -9295,6 +9728,7 @@
       "printings": [
         {
           "id": "UNL-202",
+          "uuid": "772ac98e-5d29-5300-ae3a-96a8b40a3ed0",
           "collectorNumber": 202,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0b79108a9492fb34866cc63815b57bfab8a5aeae-744x1039.png?accountingTag=RB",
@@ -9324,6 +9758,7 @@
     },
     {
       "number": "UNL-203",
+      "uuid": "3ebf0c42-9ae5-555e-a3d1-ef3ee074f460",
       "name": "Keeper of the Hammer",
       "type": "legend",
       "domains": [
@@ -9336,6 +9771,7 @@
       "printings": [
         {
           "id": "UNL-203",
+          "uuid": "de041dd5-210c-5174-9aa2-600da5606de7",
           "collectorNumber": 203,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ee1393b9bace7bfea4e87405b793bb5462305ed0-744x1039.png?accountingTag=RB",
@@ -9362,6 +9798,7 @@
     },
     {
       "number": "UNL-204",
+      "uuid": "409545f3-87b1-5c32-a51a-67ff9f3c66a9",
       "name": "Keeper's Verdict",
       "type": "spell",
       "superTypes": [
@@ -9379,6 +9816,7 @@
       "printings": [
         {
           "id": "UNL-204",
+          "uuid": "4477b140-0f44-507e-b75a-e7d470d2e23c",
           "collectorNumber": 204,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/90dcafd8ca6cedd534416232ebd29c451f12107c-744x1039.png?accountingTag=RB",
@@ -9408,6 +9846,7 @@
     },
     {
       "number": "UNL-205",
+      "uuid": "9d77b7d8-b7f2-5163-8bbb-761ea3f4e524",
       "name": "Abandoned Hall",
       "type": "battlefield",
       "domains": [
@@ -9416,6 +9855,7 @@
       "printings": [
         {
           "id": "UNL-205",
+          "uuid": "0b5c6953-571d-5000-97ec-3ae6e3ef9da0",
           "collectorNumber": 205,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7447b04d1e78192509e89e5ff3556368ea5c471a-1039x744.png?accountingTag=RB",
@@ -9446,6 +9886,7 @@
     },
     {
       "number": "UNL-206",
+      "uuid": "93a4cdf1-0fb6-534c-8186-a8a3db24a997",
       "name": "Altar of Blood",
       "type": "battlefield",
       "domains": [
@@ -9454,6 +9895,7 @@
       "printings": [
         {
           "id": "UNL-206",
+          "uuid": "c36c9c54-deda-5913-a191-5c7b51feb114",
           "collectorNumber": 206,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a17e5bb639866671772dc514a6096a5863712f71-1039x744.png?accountingTag=RB",
@@ -9484,6 +9926,7 @@
     },
     {
       "number": "UNL-207",
+      "uuid": "288e8df0-dbfd-5716-b5a9-19734dff6699",
       "name": "Amateur Recital",
       "type": "battlefield",
       "domains": [
@@ -9492,6 +9935,7 @@
       "printings": [
         {
           "id": "UNL-207",
+          "uuid": "fa5dffcb-c641-5243-8069-8b336089e21d",
           "collectorNumber": 207,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9372a1574aa077e8b02cc6f00a1add060ae3b520-1039x744.png?accountingTag=RB",
@@ -9522,6 +9966,7 @@
     },
     {
       "number": "UNL-208",
+      "uuid": "8232304f-32f0-581d-9e67-ad4189e7b3fc",
       "name": "Black Flame Altar",
       "type": "battlefield",
       "domains": [
@@ -9530,6 +9975,7 @@
       "printings": [
         {
           "id": "UNL-208",
+          "uuid": "19a40e14-3706-5a42-8032-eed0c7ad4ae7",
           "collectorNumber": 208,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8cd4edde3e59c8edc8cdcea626fc443c5ed6e1f2-1039x744.png?accountingTag=RB",
@@ -9560,6 +10006,7 @@
     },
     {
       "number": "UNL-209",
+      "uuid": "e3970d54-0d79-5672-b822-39f0c96307fd",
       "name": "Dusk Rose Lab",
       "type": "battlefield",
       "domains": [
@@ -9568,6 +10015,7 @@
       "printings": [
         {
           "id": "UNL-209",
+          "uuid": "57121d90-a5de-5583-a151-e4acf3950ef5",
           "collectorNumber": 209,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fa81c474ff29b9d2c42dd4e64a5789bf793e5221-1039x744.png?accountingTag=RB",
@@ -9598,6 +10046,7 @@
     },
     {
       "number": "UNL-210",
+      "uuid": "c4834976-0c58-51a8-8db5-81a745762d29",
       "name": "Forbidding Waste",
       "type": "battlefield",
       "domains": [
@@ -9606,6 +10055,7 @@
       "printings": [
         {
           "id": "UNL-210",
+          "uuid": "239f3a1d-bf47-50d2-b6fd-236fc31399fc",
           "collectorNumber": 210,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/83dbc88d462da85be9398c790e88ff13da8637d4-1039x744.png?accountingTag=RB",
@@ -9636,6 +10086,7 @@
     },
     {
       "number": "UNL-211",
+      "uuid": "e524c5f3-38aa-540d-aafa-14bace94fada",
       "name": "Forgotten Library",
       "type": "battlefield",
       "domains": [
@@ -9644,6 +10095,7 @@
       "printings": [
         {
           "id": "UNL-211",
+          "uuid": "4b1b7221-7d11-5073-a836-8eb10bad36e9",
           "collectorNumber": 211,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7905fb94abe453f05a4108cf5424fd1ca50f6de-1039x744.png?accountingTag=RB",
@@ -9674,6 +10126,7 @@
     },
     {
       "number": "UNL-212",
+      "uuid": "eeb00df5-42f9-5081-a0c5-9f4460308ecb",
       "name": "Frozen Fortress",
       "type": "battlefield",
       "domains": [
@@ -9682,6 +10135,7 @@
       "printings": [
         {
           "id": "UNL-212",
+          "uuid": "16deb861-177a-5d79-b86a-ada75715800e",
           "collectorNumber": 212,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b5e33fdb4ddc8c73e03bca648862fc080aa8bbcf-1039x744.png?accountingTag=RB",
@@ -9712,6 +10166,7 @@
     },
     {
       "number": "UNL-213",
+      "uuid": "49c83c5d-1ed2-514d-9d0e-4199fd3304e1",
       "name": "Gardens of Becoming",
       "type": "battlefield",
       "domains": [
@@ -9720,6 +10175,7 @@
       "printings": [
         {
           "id": "UNL-213",
+          "uuid": "6bac83ce-f224-5562-9d82-2bb8c9014366",
           "collectorNumber": 213,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0497a44ab302ea055b6f1f0d00a36c8023ed2344-1039x744.png?accountingTag=RB",
@@ -9750,6 +10206,7 @@
     },
     {
       "number": "UNL-214",
+      "uuid": "fdcf6f9b-9343-5782-bf36-41350d4a2161",
       "name": "Ripper's Bay",
       "type": "battlefield",
       "domains": [
@@ -9758,6 +10215,7 @@
       "printings": [
         {
           "id": "UNL-214",
+          "uuid": "255692f8-5f2b-55b0-a912-625bf323f3c1",
           "collectorNumber": 214,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6d0540edbabcdb7d5a6859ce2f820f744cb498c-1039x744.png?accountingTag=RB",
@@ -9788,6 +10246,7 @@
     },
     {
       "number": "UNL-215",
+      "uuid": "87eb48c7-29cb-51fa-b0da-9ea4779afb8f",
       "name": "Star Spring",
       "type": "battlefield",
       "domains": [
@@ -9796,6 +10255,7 @@
       "printings": [
         {
           "id": "UNL-215",
+          "uuid": "1dffead6-9621-5e4e-ba19-8570936044eb",
           "collectorNumber": 215,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0c4fe88ffb5c1b02b58b2c6b4f02de441ac451d6-1039x744.png?accountingTag=RB",
@@ -9826,6 +10286,7 @@
     },
     {
       "number": "UNL-216",
+      "uuid": "805569d9-490f-5fa2-8fd9-cfad4375027b",
       "name": "The Academy",
       "type": "battlefield",
       "domains": [
@@ -9834,6 +10295,7 @@
       "printings": [
         {
           "id": "UNL-216",
+          "uuid": "10c73d7a-3d8e-5b7d-a22c-5a6f47b9d805",
           "collectorNumber": 216,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/82646c995f3d0b897ce97f7b68c35f5fd9384b8e-1039x744.png?accountingTag=RB",
@@ -9864,6 +10326,7 @@
     },
     {
       "number": "UNL-217",
+      "uuid": "6f96c4ec-1bfd-5053-875b-216d31528141",
       "name": "Trapping Grounds",
       "type": "battlefield",
       "domains": [
@@ -9872,6 +10335,7 @@
       "printings": [
         {
           "id": "UNL-217",
+          "uuid": "97cc1a6b-d2a4-5a17-a88b-1936c10d4f62",
           "collectorNumber": 217,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/234bb01e24892aefa024ae402f6ee7703ccdbbd4-1039x744.png?accountingTag=RB",
@@ -9902,6 +10366,7 @@
     },
     {
       "number": "UNL-218",
+      "uuid": "10f486b0-27a3-5b90-b57b-c5137c8b9547",
       "name": "Valley of Idols",
       "type": "battlefield",
       "domains": [
@@ -9910,6 +10375,7 @@
       "printings": [
         {
           "id": "UNL-218",
+          "uuid": "09eaf2e8-cc5c-509c-9e83-c505e1549e4b",
           "collectorNumber": 218,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4191aa2fda9e754a7f5421edc94bd829f5795650-1039x744.png?accountingTag=RB",
@@ -9940,6 +10406,7 @@
     },
     {
       "number": "UNL-219",
+      "uuid": "f4432af8-49f9-54d8-a9ce-a32b6a22cbb3",
       "name": "Vaults of Helia",
       "type": "battlefield",
       "domains": [
@@ -9948,6 +10415,7 @@
       "printings": [
         {
           "id": "UNL-219",
+          "uuid": "3db9e4fb-a77d-5ccd-9d53-19fa92e43c6c",
           "collectorNumber": 219,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fc7b9a8294665881eece0dacaf3fc70e39f19e4-1039x744.png?accountingTag=RB",
@@ -9978,6 +10446,7 @@
     },
     {
       "number": "UNL-220",
+      "uuid": "6b72bc41-2699-5ace-9148-f25a5b9fe4a5",
       "name": "Pouty Poro",
       "type": "unit",
       "domains": [
@@ -9991,6 +10460,7 @@
       "printings": [
         {
           "id": "UNL-220",
+          "uuid": "8936264c-f19d-50e5-b1b6-e26fa1f7f381",
           "collectorNumber": 220,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0c91b90d91c4f988aa9942dd9e06a634a66c6975-744x1039.png?accountingTag=RB",
@@ -10020,6 +10490,7 @@
     },
     {
       "number": "UNL-221",
+      "uuid": "884e8ebf-7c47-5dfb-9405-8fccdacc1907",
       "name": "Lonely Poro",
       "type": "unit",
       "domains": [
@@ -10034,6 +10505,7 @@
       "printings": [
         {
           "id": "UNL-221",
+          "uuid": "e6fdd3f2-ecef-5473-9166-f5a83545b28b",
           "collectorNumber": 221,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/82b7043ef6519a4c7e2eb7d45cb6ae91dfd749ca-744x1039.png?accountingTag=RB",
@@ -10063,6 +10535,7 @@
     },
     {
       "number": "UNL-222",
+      "uuid": "f2a106b1-6f14-50ce-843a-0f59a9f35381",
       "name": "Plundering Poro",
       "type": "unit",
       "domains": [
@@ -10078,6 +10551,7 @@
       "printings": [
         {
           "id": "UNL-222",
+          "uuid": "808beaa9-230f-5c28-a03f-f0de95f92d94",
           "collectorNumber": 222,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c6c996fcead364682a031f32948a084101d83493-744x1039.png?accountingTag=RB",
@@ -10107,6 +10581,7 @@
     },
     {
       "number": "UNL-223",
+      "uuid": "4bdb4be8-59aa-5e16-b10d-b70f0db027a3",
       "name": "Veteran Poro",
       "type": "unit",
       "domains": [
@@ -10121,6 +10596,7 @@
       "printings": [
         {
           "id": "UNL-223",
+          "uuid": "d1af27b0-d51a-5b9b-8202-aba2347aa64d",
           "collectorNumber": 223,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/337f38fae6a4d801fc14abcda2a7d09c3e7e6ae3-744x1039.png?accountingTag=RB",
@@ -10150,6 +10626,7 @@
     },
     {
       "number": "UNL-224",
+      "uuid": "f7c6e417-d23c-53fe-ad3b-87165a9474a0",
       "name": "Mystic Poro",
       "type": "unit",
       "domains": [
@@ -10163,6 +10640,7 @@
       "printings": [
         {
           "id": "UNL-224",
+          "uuid": "ded07e66-23b8-5708-a4fe-001fa8da8ded",
           "collectorNumber": 224,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2fdb5e1ff9aae4137910fa59065b69ef17144752-744x1039.png?accountingTag=RB",
@@ -10192,6 +10670,7 @@
     },
     {
       "number": "UNL-225",
+      "uuid": "b94f287d-deba-5282-9209-9e3933665710",
       "name": "Daring Poro",
       "type": "unit",
       "domains": [
@@ -10205,6 +10684,7 @@
       "printings": [
         {
           "id": "UNL-225",
+          "uuid": "b60d98fd-f6a4-59d2-86dc-6748de45bcda",
           "collectorNumber": 225,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9b097e8f9866788e0de2bfada48627c752d3e4b9-744x1039.png?accountingTag=RB",
@@ -10234,6 +10714,7 @@
     },
     {
       "number": "UNL-226",
+      "uuid": "f4e61255-61b2-52f6-8cd0-810b97268e6f",
       "name": "Virtuoso",
       "type": "legend",
       "domains": [
@@ -10246,6 +10727,7 @@
       "printings": [
         {
           "id": "UNL-226",
+          "uuid": "ee2bd1d5-6e32-5b73-b934-0f9195cced59",
           "collectorNumber": 226,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47f10693258104e9373396165e335014bf5783a2-744x1039.png?accountingTag=RB",
@@ -10270,6 +10752,7 @@
         },
         {
           "id": "UNL-226*",
+          "uuid": "d072a9b3-8395-5c98-9d1c-d4ce72b54e02",
           "collectorNumber": 226,
           "suffix": "*",
           "rarity": "showcase",
@@ -10297,6 +10780,7 @@
     },
     {
       "number": "UNL-227",
+      "uuid": "95a2a334-2e65-5ae8-ab85-cfa7b115eacc",
       "name": "Pridestalker",
       "type": "legend",
       "domains": [
@@ -10309,6 +10793,7 @@
       "printings": [
         {
           "id": "UNL-227",
+          "uuid": "2f116901-5b80-5ed5-b580-d8b27c5ef558",
           "collectorNumber": 227,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f80a016015ebc77bd3d23ce471e364d70698279-744x1039.png?accountingTag=RB",
@@ -10333,6 +10818,7 @@
         },
         {
           "id": "UNL-227*",
+          "uuid": "9f08df17-342f-5463-93d9-1d3474ea248d",
           "collectorNumber": 227,
           "suffix": "*",
           "rarity": "showcase",
@@ -10360,6 +10846,7 @@
     },
     {
       "number": "UNL-228",
+      "uuid": "1a63508f-fbd6-5495-b733-904a79ae89bb",
       "name": "Bloodharbor Ripper",
       "type": "legend",
       "domains": [
@@ -10372,6 +10859,7 @@
       "printings": [
         {
           "id": "UNL-228",
+          "uuid": "838b0656-bec4-5205-b1ed-40403a6c4e75",
           "collectorNumber": 228,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b4095d98aff998fda5a08d4c32e97a2a66ccf1e6-744x1039.png?accountingTag=RB",
@@ -10396,6 +10884,7 @@
         },
         {
           "id": "UNL-228*",
+          "uuid": "cec3f82c-8fd1-5045-bd4e-a02048890d94",
           "collectorNumber": 228,
           "suffix": "*",
           "rarity": "showcase",
@@ -10423,6 +10912,7 @@
     },
     {
       "number": "UNL-229",
+      "uuid": "3f4f4c55-6a99-5479-a771-cb11e35a2ba7",
       "name": "Piltover Enforcer",
       "type": "legend",
       "domains": [
@@ -10435,6 +10925,7 @@
       "printings": [
         {
           "id": "UNL-229",
+          "uuid": "c94fc68f-e6ea-5d2a-9e7d-041ed8ae9599",
           "collectorNumber": 229,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08c48ad82381bb5830a0b413d7a2f25dd2b20d76-744x1039.png?accountingTag=RB",
@@ -10459,6 +10950,7 @@
         },
         {
           "id": "UNL-229*",
+          "uuid": "8b39178c-87f2-5d4f-b30e-a0cd67201809",
           "collectorNumber": 229,
           "suffix": "*",
           "rarity": "showcase",
@@ -10486,6 +10978,7 @@
     },
     {
       "number": "UNL-230",
+      "uuid": "0ad70c87-fd22-5c95-909d-07462a7e8621",
       "name": "Bashful Bloom",
       "type": "legend",
       "domains": [
@@ -10498,6 +10991,7 @@
       "printings": [
         {
           "id": "UNL-230",
+          "uuid": "2f19d252-3dab-5bc0-b829-e80aa9c1ea20",
           "collectorNumber": 230,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5099aa2938091dfcc54277877e320a7f83aeeec1-744x1039.png?accountingTag=RB",
@@ -10522,6 +11016,7 @@
         },
         {
           "id": "UNL-230*",
+          "uuid": "66d7de5d-1e87-5c06-a24f-f83a1d7167e2",
           "collectorNumber": 230,
           "suffix": "*",
           "rarity": "showcase",
@@ -10549,6 +11044,7 @@
     },
     {
       "number": "UNL-231",
+      "uuid": "dd5a071d-5bb3-547a-8dc6-f9e3bb20123e",
       "name": "Wuju Master",
       "type": "legend",
       "domains": [
@@ -10561,6 +11057,7 @@
       "printings": [
         {
           "id": "UNL-231",
+          "uuid": "b349f901-3850-5390-840d-f4425e29ccca",
           "collectorNumber": 231,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/557e41d84ac36ffa2bf805deda159f45e0a815f9-744x1039.png?accountingTag=RB",
@@ -10585,6 +11082,7 @@
         },
         {
           "id": "UNL-231*",
+          "uuid": "ed6876c2-2b0a-5ab8-85c1-fd5806e8a2c9",
           "collectorNumber": 231,
           "suffix": "*",
           "rarity": "showcase",
@@ -10612,6 +11110,7 @@
     },
     {
       "number": "UNL-232",
+      "uuid": "923fbd32-7723-5ce6-aa30-22abf0588ad3",
       "name": "Gloomist",
       "type": "legend",
       "domains": [
@@ -10624,6 +11123,7 @@
       "printings": [
         {
           "id": "UNL-232",
+          "uuid": "0c3d0c3d-c88c-5fc1-b8da-5c7f681f8031",
           "collectorNumber": 232,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d044ea46fa38cff80c39fdb0b890dd7226c22b89-744x1039.png?accountingTag=RB",
@@ -10648,6 +11148,7 @@
         },
         {
           "id": "UNL-232*",
+          "uuid": "23bd9899-1154-5868-84f7-d27c2e490dea",
           "collectorNumber": 232,
           "suffix": "*",
           "rarity": "showcase",
@@ -10675,6 +11176,7 @@
     },
     {
       "number": "UNL-233",
+      "uuid": "7c3c8dd9-250e-589e-9fb1-7392fca76347",
       "name": "Green Father",
       "type": "legend",
       "domains": [
@@ -10687,6 +11189,7 @@
       "printings": [
         {
           "id": "UNL-233",
+          "uuid": "4eaaf755-086c-597d-9e72-5687fb1968a1",
           "collectorNumber": 233,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d200178cde5075990f7ca1856675d02c4c2538be-744x1039.png?accountingTag=RB",
@@ -10711,6 +11214,7 @@
         },
         {
           "id": "UNL-233*",
+          "uuid": "2af0be00-eada-5fed-828a-8e6f5c326486",
           "collectorNumber": 233,
           "suffix": "*",
           "rarity": "showcase",
@@ -10738,6 +11242,7 @@
     },
     {
       "number": "UNL-234",
+      "uuid": "f9cd2666-e676-5459-a32b-d6ef0a004120",
       "name": "Scorn of the Moon",
       "type": "legend",
       "domains": [
@@ -10750,6 +11255,7 @@
       "printings": [
         {
           "id": "UNL-234",
+          "uuid": "2c374900-ed28-5199-87ed-fd582cfd82d4",
           "collectorNumber": 234,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bd4006c34aa020211e501e3cb7ee14ab5b4c41f-744x1039.png?accountingTag=RB",
@@ -10774,6 +11280,7 @@
         },
         {
           "id": "UNL-234*",
+          "uuid": "2591c799-6578-53c7-808c-a8028df1ff57",
           "collectorNumber": 234,
           "suffix": "*",
           "rarity": "showcase",
@@ -10801,6 +11308,7 @@
     },
     {
       "number": "UNL-235",
+      "uuid": "44e73a11-8885-5919-bb16-b9ef59b704d8",
       "name": "Deceiver",
       "type": "legend",
       "domains": [
@@ -10813,6 +11321,7 @@
       "printings": [
         {
           "id": "UNL-235",
+          "uuid": "4736124a-d10a-5b9d-b353-9029aeec47c8",
           "collectorNumber": 235,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/656450f89be4dc253438a4e0af7f7638ed5f90b2-744x1039.png?accountingTag=RB",
@@ -10837,6 +11346,7 @@
         },
         {
           "id": "UNL-235*",
+          "uuid": "a00706e1-5db3-536c-8756-16979d726536",
           "collectorNumber": 235,
           "suffix": "*",
           "rarity": "showcase",
@@ -10864,6 +11374,7 @@
     },
     {
       "number": "UNL-236",
+      "uuid": "9a896ab9-ee64-5a6a-a530-30768c87c118",
       "name": "Voidreaver",
       "type": "legend",
       "domains": [
@@ -10876,6 +11387,7 @@
       "printings": [
         {
           "id": "UNL-236",
+          "uuid": "82781304-8bdb-53d2-afa2-30cbff6404a5",
           "collectorNumber": 236,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ffed0102adcae6fe01d173042487ea85ebe899bc-744x1039.png?accountingTag=RB",
@@ -10900,6 +11412,7 @@
         },
         {
           "id": "UNL-236*",
+          "uuid": "653f7bb4-0ae6-52d4-a61a-b0a34e2756e2",
           "collectorNumber": 236,
           "suffix": "*",
           "rarity": "showcase",
@@ -10927,6 +11440,7 @@
     },
     {
       "number": "UNL-237",
+      "uuid": "5d2358b3-d2bb-59db-bc36-9dc4d06a9cb6",
       "name": "Keeper of the Hammer",
       "type": "legend",
       "domains": [
@@ -10939,6 +11453,7 @@
       "printings": [
         {
           "id": "UNL-237",
+          "uuid": "c28fc114-76c4-5251-b39d-82fb828c8a5c",
           "collectorNumber": 237,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/41321ddb3b1c63492285d1c3d067ee42ade502e4-744x1039.png?accountingTag=RB",
@@ -10963,6 +11478,7 @@
         },
         {
           "id": "UNL-237*",
+          "uuid": "f0fb7d19-0ac3-5bf4-9c09-6dda20ab442b",
           "collectorNumber": 237,
           "suffix": "*",
           "rarity": "showcase",
@@ -10990,6 +11506,7 @@
     },
     {
       "number": "UNL-238",
+      "uuid": "d9e0e0b9-e30f-558b-a24f-cb4ac31aa2a7",
       "name": "Baron Nashor",
       "type": "unit",
       "domains": [
@@ -11004,6 +11521,7 @@
       "printings": [
         {
           "id": "UNL-238",
+          "uuid": "06267199-ba2c-5330-aaef-f2b431aadd25",
           "collectorNumber": 238,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e8d207a8057b97f9059ea6025a16e59229dc54d-744x1039.png?accountingTag=RB",
@@ -11030,6 +11548,7 @@
     },
     {
       "number": "UNL-T01",
+      "uuid": "ed8693a5-c9d4-55b9-915f-11da8e4ccf4c",
       "name": "Baron Pit",
       "type": "battlefield",
       "superTypes": [
@@ -11041,6 +11560,7 @@
       "printings": [
         {
           "id": "UNL-T01",
+          "uuid": "109b2213-347c-5e5f-9313-16dcbe61663c",
           "collectorNumber": 1,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e44f173629322a4e0c32d3f8902c294d4482ef42-1039x744.png?accountingTag=RB",
@@ -11060,6 +11580,7 @@
     },
     {
       "number": "UNL-T02",
+      "uuid": "d55698f4-69e8-58b9-8ccb-56a44ba9cc02",
       "name": "Bird",
       "type": "unit",
       "superTypes": [
@@ -11075,6 +11596,7 @@
       "printings": [
         {
           "id": "UNL-T02",
+          "uuid": "bb8036b4-5273-5be7-9fdb-7c70bd5a0b46",
           "collectorNumber": 2,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/949a2e43263a9fe0d957595325c7e2ebe06bf85f-744x1039.png?accountingTag=RB",
@@ -11094,6 +11616,7 @@
     },
     {
       "number": "UNL-T03",
+      "uuid": "f5a96d9c-3d4e-5622-905c-06dad3f3899a",
       "name": "Brush",
       "type": "battlefield",
       "superTypes": [
@@ -11105,6 +11628,7 @@
       "printings": [
         {
           "id": "UNL-T03",
+          "uuid": "8be0066d-a316-50e6-8803-c45359ac6026",
           "collectorNumber": 3,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fad09d6bd9bf38e376f430ecb0b400762420d061-1039x744.png?accountingTag=RB",
@@ -11124,6 +11648,7 @@
     },
     {
       "number": "UNL-T04",
+      "uuid": "05d321cd-350b-576d-beed-113a78b6e9c0",
       "name": "Buff",
       "superTypes": [
         "token"
@@ -11135,6 +11660,7 @@
       "printings": [
         {
           "id": "UNL-T04",
+          "uuid": "e30b78bd-23ad-5660-99c9-a36c713a7460",
           "collectorNumber": 4,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64b9df938587aa93a3d0769a349d9b0cc6942dc2-744x1039.png?accountingTag=RB",
@@ -11151,6 +11677,7 @@
     },
     {
       "number": "UNL-T05",
+      "uuid": "475863e3-b7d8-554d-9466-5dcaeb66b32c",
       "name": "Gold",
       "type": "gear",
       "superTypes": [
@@ -11162,6 +11689,7 @@
       "printings": [
         {
           "id": "UNL-T05",
+          "uuid": "02692c8f-e131-547f-9a6b-0a65d2874f07",
           "collectorNumber": 5,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e566605fa989e12e91cd3d3e0b7985f7a8be8e74-744x1039.png?accountingTag=RB",
@@ -11181,6 +11709,7 @@
     },
     {
       "number": "UNL-T06",
+      "uuid": "abe74b23-27f5-59ff-a78c-a02b393e70f5",
       "name": "Reflection",
       "type": "unit",
       "superTypes": [
@@ -11193,6 +11722,7 @@
       "printings": [
         {
           "id": "UNL-T06",
+          "uuid": "2a22c12d-c53d-54f5-bd48-8d2c9e233875",
           "collectorNumber": 6,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80327b196c59841a67a65327974a93223a3c541a-744x1039.png?accountingTag=RB",
@@ -11212,6 +11742,7 @@
     },
     {
       "number": "UNL-T07",
+      "uuid": "d8e8921f-4669-5172-a80b-8daf22f07a56",
       "name": "Sprite",
       "type": "unit",
       "superTypes": [
@@ -11227,6 +11758,7 @@
       "printings": [
         {
           "id": "UNL-T07",
+          "uuid": "246a266f-931d-55e9-ac1a-0b69f7caf4fe",
           "collectorNumber": 7,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1a90578f055e01515ebfb069dc3dbdba08d24da0-744x1039.png?accountingTag=RB",
@@ -11246,6 +11778,7 @@
     },
     {
       "number": "UNL-T08",
+      "uuid": "dd8c1420-9d91-5a9b-b03a-23ebf8b81dec",
       "name": "XP Tracker",
       "superTypes": [
         "token"
@@ -11256,6 +11789,7 @@
       "printings": [
         {
           "id": "UNL-T08",
+          "uuid": "41976744-5632-5c4c-ac91-28e9e67bb746",
           "collectorNumber": 8,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/715d5bb52fc8ce0886b28f1c15fe89457e504fc9-744x1039.png?accountingTag=RB",
@@ -11275,6 +11809,7 @@
     },
     {
       "number": "UNL-R01",
+      "uuid": "bb7ac63e-e04d-57d5-b93e-19ae9c6c74e6",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -11286,6 +11821,7 @@
       "printings": [
         {
           "id": "UNL-R01",
+          "uuid": "949c160d-43db-53f8-9e9c-22221b4cf184",
           "collectorNumber": 1,
           "rarity": "common",
           "source": "tcgplayer",
@@ -11304,9 +11840,12 @@
         },
         {
           "id": "UNL-R01a",
+          "uuid": "d24be45c-029c-59fb-acd6-c3dacab87e58",
           "collectorNumber": 1,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692932_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11323,9 +11862,12 @@
         },
         {
           "id": "UNL-R01b",
+          "uuid": "21a0dc67-b168-5b75-a12c-759e591f3f5d",
           "collectorNumber": 1,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/694649_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11344,6 +11886,7 @@
     },
     {
       "number": "UNL-R02",
+      "uuid": "b3073e72-3539-5ed5-83f3-73d71ca3d823",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -11355,6 +11898,7 @@
       "printings": [
         {
           "id": "UNL-R02",
+          "uuid": "63a0d349-35e9-5211-a48e-0735dbe5d381",
           "collectorNumber": 2,
           "rarity": "common",
           "source": "tcgplayer",
@@ -11373,9 +11917,12 @@
         },
         {
           "id": "UNL-R02a",
+          "uuid": "c18b1151-2fb0-5068-b1e6-fed5196b6609",
           "collectorNumber": 2,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692933_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11392,9 +11939,12 @@
         },
         {
           "id": "UNL-R02b",
+          "uuid": "d7ace15a-f175-5dc1-9567-e55ab24c628c",
           "collectorNumber": 2,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/694647_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11413,6 +11963,7 @@
     },
     {
       "number": "UNL-R03",
+      "uuid": "09fab57f-1984-50e7-bef7-a590bda3cf3e",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -11424,6 +11975,7 @@
       "printings": [
         {
           "id": "UNL-R03",
+          "uuid": "57546d27-60fa-52e4-8bda-e12747d0601c",
           "collectorNumber": 3,
           "rarity": "common",
           "source": "tcgplayer",
@@ -11443,9 +11995,12 @@
         },
         {
           "id": "UNL-R03a",
+          "uuid": "f5c813c5-ca57-5ae0-b64b-173d65c53d29",
           "collectorNumber": 3,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692934_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11462,6 +12017,7 @@
         },
         {
           "id": "UNL-R03b",
+          "uuid": "94f6f0dd-698a-5c1c-a36c-801b75722097",
           "collectorNumber": 3,
           "suffix": "b",
           "rarity": "showcase",
@@ -11483,6 +12039,7 @@
     },
     {
       "number": "UNL-R04",
+      "uuid": "8c76d10c-a8a8-5e86-b6ca-8a2a3d26283e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -11494,6 +12051,7 @@
       "printings": [
         {
           "id": "UNL-R04",
+          "uuid": "288ca9bd-f7af-58a8-a0a5-b97bc05e4827",
           "collectorNumber": 4,
           "rarity": "common",
           "source": "tcgplayer",
@@ -11512,9 +12070,12 @@
         },
         {
           "id": "UNL-R04a",
+          "uuid": "365fd080-7f2d-535f-99e2-1413f3433e21",
           "collectorNumber": 4,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692935_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11531,9 +12092,12 @@
         },
         {
           "id": "UNL-R04b",
+          "uuid": "7331190a-276e-5e03-8937-50ccaab20bf5",
           "collectorNumber": 4,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/694646_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11552,6 +12116,7 @@
     },
     {
       "number": "UNL-R05",
+      "uuid": "49f01119-12b4-59e6-a210-4e6766418c50",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -11563,6 +12128,7 @@
       "printings": [
         {
           "id": "UNL-R05",
+          "uuid": "85d92d12-6818-5dde-8387-60edad8bb194",
           "collectorNumber": 5,
           "rarity": "common",
           "source": "tcgplayer",
@@ -11581,9 +12147,12 @@
         },
         {
           "id": "UNL-R05a",
+          "uuid": "b78e16ea-1240-5ef1-b5b4-38eff67cccc7",
           "collectorNumber": 5,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692936_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11600,9 +12169,12 @@
         },
         {
           "id": "UNL-R05b",
+          "uuid": "a900326f-13ff-5235-bddf-85f72ee86b1a",
           "collectorNumber": 5,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/694648_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11621,6 +12193,7 @@
     },
     {
       "number": "UNL-R06",
+      "uuid": "8a6ef1a6-6775-5dec-9c8e-958803d86ee7",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -11632,6 +12205,7 @@
       "printings": [
         {
           "id": "UNL-R06",
+          "uuid": "d0f89bb7-6eb8-514c-958f-3abdda888da1",
           "collectorNumber": 6,
           "rarity": "common",
           "source": "tcgplayer",
@@ -11650,9 +12224,12 @@
         },
         {
           "id": "UNL-R06a",
+          "uuid": "4dd9e935-4174-5ef8-b38b-7a824160fb85",
           "collectorNumber": 6,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692937_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -11669,6 +12246,7 @@
         },
         {
           "id": "UNL-R06b",
+          "uuid": "6544af67-d98d-5a79-b469-0dcc4e036964",
           "collectorNumber": 6,
           "suffix": "b",
           "rarity": "showcase",
@@ -11690,10 +12268,12 @@
     },
     {
       "number": "UNL-T01+T05",
+      "uuid": "6ee8a881-6f1c-5094-9b16-b4c281074768",
       "name": "Baron Pit // Gold",
       "printings": [
         {
           "id": "UNL-T01+T05",
+          "uuid": "55130661-f3e1-5215-a962-c8c0dcde818b",
           "collectorNumber": 1,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11714,10 +12294,12 @@
     },
     {
       "number": "UNL-T02+T04",
+      "uuid": "0074a65b-39cb-57c4-98dc-30dcf023a3cd",
       "name": "Bird // Buff",
       "printings": [
         {
           "id": "UNL-T02+T04",
+          "uuid": "7e86c02d-a4a9-54c0-b957-39977684e147",
           "collectorNumber": 2,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11738,10 +12320,12 @@
     },
     {
       "number": "UNL-T02+T05",
+      "uuid": "3032016a-8d1d-5f28-80a4-300f79f5da10",
       "name": "Bird // Gold",
       "printings": [
         {
           "id": "UNL-T02+T05",
+          "uuid": "c0d4705e-a54e-5853-9611-5147131f4558",
           "collectorNumber": 2,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11762,10 +12346,12 @@
     },
     {
       "number": "UNL-T03+T04",
+      "uuid": "a699f915-e2c6-516f-ba31-882f73afefcc",
       "name": "Brush // Buff",
       "printings": [
         {
           "id": "UNL-T03+T04",
+          "uuid": "bf8b2ede-ee35-5131-9df1-d828ae8e2a44",
           "collectorNumber": 3,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11786,10 +12372,12 @@
     },
     {
       "number": "UNL-T04+T06",
+      "uuid": "aa7c2696-f6b0-57f4-b906-e6341547534e",
       "name": "Reflection // Buff",
       "printings": [
         {
           "id": "UNL-T04+T06",
+          "uuid": "e0af28e7-98f8-54cb-a0f3-4b1e61cf2230",
           "collectorNumber": 4,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11810,10 +12398,12 @@
     },
     {
       "number": "UNL-T04+T07",
+      "uuid": "863e0366-9c99-5ca7-970d-1c5b5fcfd9e3",
       "name": "Sprite // Buff",
       "printings": [
         {
           "id": "UNL-T04+T07",
+          "uuid": "5cd1f7da-c0e9-5925-9f3d-a425b93c1cac",
           "collectorNumber": 4,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11834,10 +12424,12 @@
     },
     {
       "number": "UNL-T04+T08",
+      "uuid": "8e9c721d-ee4f-5471-ab9f-892f8bd80a47",
       "name": "XP Tracker // Buff",
       "printings": [
         {
           "id": "UNL-T04+T08",
+          "uuid": "b82b8da3-5428-5674-8598-e3e13fa8009d",
           "collectorNumber": 4,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11858,10 +12450,12 @@
     },
     {
       "number": "UNL-T05+T06",
+      "uuid": "dcdb258b-e7ec-5724-8b37-8c01f8122a61",
       "name": "Reflection // Gold",
       "printings": [
         {
           "id": "UNL-T05+T06",
+          "uuid": "edf95a96-67bb-562a-a50c-36d384c45fd9",
           "collectorNumber": 5,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11882,10 +12476,12 @@
     },
     {
       "number": "UNL-T05+T07",
+      "uuid": "aaf7026d-bc22-51db-bb6a-4e69fdb9cf38",
       "name": "Sprite // Gold",
       "printings": [
         {
           "id": "UNL-T05+T07",
+          "uuid": "abeaa621-6528-543e-9ca2-4ce8d660aa86",
           "collectorNumber": 5,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -11906,10 +12502,12 @@
     },
     {
       "number": "UNL-T05+T08",
+      "uuid": "812903a4-9e45-5491-bf75-9dba8400aba9",
       "name": "XP Tracker // Gold",
       "printings": [
         {
           "id": "UNL-T05+T08",
+          "uuid": "e736fc3c-bec1-5dac-8be6-66add6948660",
           "collectorNumber": 5,
           "rarity": "showcase",
           "source": "tcgplayer",

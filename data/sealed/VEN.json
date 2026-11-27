@@ -2,6 +2,7 @@
   "products": [
     {
       "id": "vendetta-booster-display",
+      "uuid": "d5ffa515-e7f1-51ad-870d-93fd21db2dbb",
       "set": "VEN",
       "category": "booster_box",
       "name": "Vendetta - Booster Display",
@@ -25,6 +26,7 @@
     },
     {
       "id": "vendetta-booster-display-case",
+      "uuid": "026ade9b-2a66-5171-bf77-f4e12eebb13e",
       "set": "VEN",
       "category": "case",
       "name": "Vendetta - Booster Display Case",
@@ -48,6 +50,7 @@
     },
     {
       "id": "vendetta-booster-pack",
+      "uuid": "6210ac40-a2ba-510e-b640-b30afd899631",
       "set": "VEN",
       "category": "booster_pack",
       "name": "Vendetta - Booster Pack",
@@ -71,6 +74,7 @@
     },
     {
       "id": "vendetta-nexus-night-promo-pack",
+      "uuid": "da541313-1bbe-5ee2-a1be-dfcc724e1181",
       "set": "VEN",
       "category": "promo_pack",
       "name": "Vendetta - Nexus Night Promo Pack",
@@ -88,6 +92,7 @@
     },
     {
       "id": "vendetta-pre-rift-event-kit",
+      "uuid": "2cc4e3c9-3b4c-5b73-97ac-23340e773b72",
       "set": "VEN",
       "category": "tournament_kit",
       "name": "Vendetta - Pre-Rift Event Kit",
@@ -105,6 +110,7 @@
     },
     {
       "id": "vendetta-pre-rift-kit",
+      "uuid": "3cf5eb03-dfa3-528d-bbe0-d5f161b8003d",
       "set": "VEN",
       "category": "collection",
       "name": "Vendetta - Pre-Rift Kit",
@@ -122,6 +128,7 @@
     },
     {
       "id": "vendetta-showdown-decks-zed-vs-shen",
+      "uuid": "6161f8ac-4556-5147-965d-8d15ee94b10f",
       "set": "VEN",
       "category": "starter_deck",
       "name": "Vendetta - Showdown Decks: Zed vs Shen",
@@ -139,6 +146,7 @@
     },
     {
       "id": "vendetta-showdown-decks-zed-vs-shen-display",
+      "uuid": "4a627a11-9c58-5a0a-b93b-79f2980870d2",
       "set": "VEN",
       "category": "display",
       "name": "Vendetta - Showdown Decks: Zed vs Shen Display",
@@ -162,6 +170,7 @@
     },
     {
       "id": "vendetta-sleeved-booster-pack",
+      "uuid": "e553ef09-e881-55af-ae82-b52ba8601082",
       "set": "VEN",
       "category": "sleeved_booster_pack",
       "name": "Vendetta - Sleeved Booster Pack",
@@ -185,6 +194,7 @@
     },
     {
       "id": "vendetta-sleeved-booster-pack-art-bundle-set-of-3",
+      "uuid": "9ea63714-4fe2-5dd3-8703-c2184f77a155",
       "set": "VEN",
       "category": "display",
       "name": "Vendetta - Sleeved Booster Pack Art Bundle [Set of 3]",
@@ -208,6 +218,7 @@
     },
     {
       "id": "vendetta-vault-bundle",
+      "uuid": "143f0721-6db8-5eb6-8aed-a70a9db2e963",
       "set": "VEN",
       "category": "collection",
       "name": "Vendetta - Vault Bundle",
@@ -231,6 +242,7 @@
     },
     {
       "id": "vendetta-vault-bundle-case",
+      "uuid": "e4101731-9a0d-5501-a5d0-592daf0598fd",
       "set": "VEN",
       "category": "case",
       "name": "Vendetta - Vault Bundle Case",

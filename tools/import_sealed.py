@@ -23,6 +23,7 @@ import re
 
 import rbjson
 import tcgcsv
+import uuids
 
 CACHE = rbjson.ROOT / ".cache" / "tcgcsv"
 REVIEW = rbjson.ROOT / "review" / "sealed.json"
@@ -40,7 +41,6 @@ CATEGORY_RULES = [
     (r"vault bundle|pre-rift kit", "collection"),
     (r"booster pack", "booster_pack"),
 ]
-_SLUG = re.compile(r"[^a-z0-9]+")
 _CONTAINER = re.compile(r"\s*(case|display)$", re.I)
 
 
@@ -49,10 +49,6 @@ def classify(name: str) -> str:
         if re.search(pattern, name, re.I):
             return category
     return "other"
-
-
-def slug(name: str) -> str:
-    return _SLUG.sub("-", name.lower().replace("!!", "")).strip("-")
 
 
 def release_date(group: dict, released_on: str | None) -> str | None:
@@ -75,7 +71,7 @@ def build(sets: list[dict], groups: list[dict], products_of) -> tuple[dict[str, 
                                "group": g.get("abbreviation"), "name": p.name})
                 continue
             category = classify(p.name)
-            product = {"id": slug(p.name), "set": set_id, "category": category, "name": p.name,
+            product = {"id": rbjson.slug(p.name), "set": set_id, "category": category, "name": p.name,
                        "identifiers": {"tcgplayerProductIds": [p.product_id]},
                        "contentsStatus": "unknown", "contents": {},
                        "sources": [f"https://www.tcgplayer.com/product/{p.product_id}"]}
@@ -130,11 +126,14 @@ def main() -> None:
     sets = rbjson.load_sets()
     groups = tcgcsv.groups(CACHE, args.refresh)
     by_set, review = build(sets, groups, lambda gid: tcgcsv.products(gid, CACHE, args.refresh))
+    registry = uuids.load()
+    uuids.assign_products({s: {"products": ps} for s, ps in by_set.items()}, registry)
     rbjson.SEALED.mkdir(parents=True, exist_ok=True)
     for old in rbjson.SEALED.glob("*.json"):
         old.unlink()
     for set_id, products in sorted(by_set.items()):
         rbjson.dump(rbjson.SEALED / f"{set_id}.json", {"products": products})
+    uuids.save(registry)
     rbjson.dump(REVIEW, {"unmatched": review})
     counts = collections.Counter(p["category"] for ps in by_set.values() for p in ps)
     total = sum(counts.values())

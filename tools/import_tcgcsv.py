@@ -19,6 +19,9 @@ which is Aphelios's number, so Jarvan IV's product goes to review and Aphelios k
 printing TCGplayer has never priced takes the finish every priced printing of that stamp has, and STAMP_FINISHES states
 it for a stamp TCGplayer has never priced at all.
 
+A printing rbjson minted has no gallery image, so it takes its TCGplayer product's image, from TCGplayer's CDN, with
+imageSource "tcgplayer" as the credit. data/tcgplayer_images.json records the products whose image TCGplayer serves.
+
 A printing's finishes are the price sub-types TCGplayer has ever priced its product in (Normal is nonfoil, Foil
 is foil). TCGplayer drops a sub-type's price row while it has no price, so data/tcgplayer_finishes.json records
 every finish seen per product, and a finish stays once seen.
@@ -32,14 +35,20 @@ import argparse
 import collections
 import json
 import re
-from pathlib import Path
 from typing import NamedTuple
 
+import net
 import rbjson
 import tcgcsv
+import uuids
 
 CACHE = rbjson.ROOT / ".cache" / "tcgcsv"
 FINISH_RECORD = rbjson.ROOT / "data" / "tcgplayer_finishes.json"
+# The products whose image TCGplayer's CDN was seen to serve. Many products have none (the CDN answers 403 at every
+# size, whatever TCGCSV's imageCount says), so a product is probed once and kept here when it has one.
+IMAGE_RECORD = rbjson.ROOT / "data" / "tcgplayer_images.json"
+IMAGE_URL = "https://tcgplayer-cdn.tcgplayer.com/product/{}_in_1000x1000.jpg"
+IMAGE_SOURCE = "tcgplayer"
 REVIEW = rbjson.ROOT / "review" / "tcgplayer-89.json"
 MATCH = "number"
 MINTED = "minted"
@@ -53,7 +62,6 @@ STAMP_FINISHES = {"metal-best-of": {"foil"}}
 _NUMBER = re.compile(r"^(?P<core>[0-9]{3}|SP[0-9]+|R[0-9]{2}|T[0-9]{2})(?P<suffix>[a-z*]?)(?:/(?P<total>[0-9]+))?$")
 _TOKEN_PAIR = re.compile(r"^(T[0-9]{2}) // (T[0-9]{2})$")
 _TAG = re.compile(r"\s*\(([^()]*)\)")
-_SLUG = re.compile(r"[^a-z0-9]+")
 # Tags that say nothing about which printing this is: the number's own suffix already tells an alternate art apart.
 _NOTE_TAGS = frozenset({"alternate art"})
 _REFUSED_TAG = "oversized"
@@ -72,7 +80,8 @@ class Plan(NamedTuple):
 
 
 def _folded(text: str) -> str:
-    return _SLUG.sub("", text.replace("\u2019", "'").casefold())
+    """A name with only its letters and digits, for comparing a product's name with a card's."""
+    return rbjson.slug(text).replace("-", "")
 
 
 def _digits(core: str) -> int:
@@ -111,7 +120,7 @@ def plan_product(product, set_entry: dict, set_of_size: dict[int, str], set_of_n
             elif core[0].isdigit():
                 return None
             kept = [t for t in tags if t.casefold() not in _NOTE_TAGS and t != f"{core}{suffix}" and t not in set_of_name]
-            variant = _SLUG.sub("-", " ".join(kept).casefold()).strip("-")
+            variant = rbjson.slug(" ".join(kept))
     tail = f".{variant}" if variant else ""
     return Plan(f"{code}-{prefix}{core}{suffix}{tail}", f"{code}-{prefix}{core}", code, _digits(core), suffix, variant, base, name)
 
@@ -233,9 +242,45 @@ def finish_record_text(finishes: dict[int, set[str]]) -> str:
     return "{\n" + ",\n".join(lines) + "\n}\n"
 
 
-def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products_of, finishes: dict[int, set[str]]) -> dict:
-    """Write the product ids, finishes and group ids into ``files`` and ``sets`` in place; returns the review
-    document and counts. ``products_of(group_id)`` lists a group's products."""
+def _with_image(printing: dict, url: str) -> None:
+    """Give the printing TCGplayer's image, after its rarity as a gallery printing has its own, in place."""
+    rest = {k: v for k, v in printing.items() if k not in ("image", "imageSource")}
+    printing.clear()
+    for k, v in rest.items():
+        printing[k] = v
+        if k == "rarity":
+            printing["image"], printing["imageSource"] = url, IMAGE_SOURCE
+
+
+def add_images(printings, has_image) -> int:
+    """Give each printing the gallery has no image for (one rbjson minted) the image of its first TCGplayer product
+    that has one, credited to TCGplayer in ``imageSource``. Returns how many gained one."""
+    added = 0
+    for p in printings:
+        if p.get("source") != SOURCE or "image" in p:
+            continue
+        pid = next((pid for pid in sorted(p["identifiers"].get("tcgplayerProductIds", [])) if has_image(pid)), None)
+        if pid is not None:
+            _with_image(p, IMAGE_URL.format(pid))
+            added += 1
+    return added
+
+
+def image_check(record: set[int], probe: bool):
+    """has_image(product id) for add_images: the record, and with probe a HEAD of each product it lacks, kept in the
+    record when the image is served."""
+    def has_image(pid: int) -> bool:
+        if pid not in record and probe and net.head_status(IMAGE_URL.format(pid)) is None:
+            record.add(pid)
+        return pid in record
+    return has_image
+
+
+def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products_of, finishes: dict[int, set[str]],
+          has_image=lambda pid: False) -> dict:
+    """Write the product ids, finishes, images and group ids into ``files`` and ``sets`` in place; returns the review
+    document and counts. ``products_of(group_id)`` lists a group's products; ``has_image(product id)`` says whether
+    TCGplayer serves its image."""
     _remove_minted(files)
     # English printings only: TCGplayer sells no other language, and a ~ko id is not a key a product can name
     by_key = {p["id"]: p for body in files.values() for c in body["cards"] for p in c["printings"]
@@ -249,6 +294,12 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
     minter = Minter(files)
     counts: collections.Counter = collections.Counter()
     review: dict = {"unmatched": [], "unmatched_groups": []}
+
+    def unmatched(product, set_entry: dict) -> None:
+        counts["unmatched"] += 1
+        review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
+                                    "name": product.name, "number": product.number})
+
     for p in by_key.values():
         p.get("identifiers", {}).pop("tcgplayerProductIds", None)
         p.pop("tcgplayer", None)
@@ -271,17 +322,13 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
                 continue
             plan = plan_product(product, set_entry, set_of_size, set_of_name)
             if plan is None:
-                counts["unmatched"] += 1
-                review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
-                                            "name": product.name, "number": product.number})
+                unmatched(product, set_entry)
                 continue
             printing = by_key.get(plan.printing_id)
             match = MATCH
             if printing is None:
                 if not minter.names_the_card(plan):
-                    counts["unmatched"] += 1
-                    review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
-                                                "name": product.name, "number": product.number})
+                    unmatched(product, set_entry)
                     continue
                 printing = by_key[plan.printing_id] = minter.mint(plan, product)
                 counts["minted"] += 1
@@ -289,9 +336,7 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
                 match = MINTED
                 held = printing.get("tcgplayer", {}).get("name")
                 if held and _TAG.sub("", held).strip() != plan.name:
-                    counts["unmatched"] += 1
-                    review["unmatched"].append({"productId": product.product_id, "group": set_entry["id"],
-                                                "name": product.name, "number": product.number})
+                    unmatched(product, set_entry)
                     continue
             ids = printing.setdefault("identifiers", {}).setdefault("tcgplayerProductIds", [])
             if product.product_id not in ids:
@@ -302,6 +347,7 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
                 printing["finishes"] = sorted(set(printing.get("finishes", [])) | found)
             counts["matched"] += 1
     counts["finishes_inferred"] = _infer_stamp_finishes(by_key)
+    counts["images_from_tcgplayer"] = add_images(by_key.values(), has_image)
     minter.sort()
     counts["printings_with_product"] = sum(1 for p in by_key.values() if p.get("identifiers", {}).get("tcgplayerProductIds"))
     counts["printings_with_finishes"] = sum(1 for p in by_key.values() if p.get("finishes"))
@@ -311,16 +357,24 @@ def apply(files: dict[str, dict], sets: list[dict], groups: list[dict], products
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="fetch TCGCSV again instead of reading .cache/tcgcsv")
+    ap.add_argument("--probe-images", action="store_true",
+                    help="ask TCGplayer's CDN for the images data/tcgplayer_images.json lacks (--refresh does too)")
     args = ap.parse_args()
     sets, files = rbjson.load_sets(), rbjson.load_cards()
     groups = tcgcsv.groups(CACHE, args.refresh)
     recorded = json.loads(FINISH_RECORD.read_text(encoding="utf-8")) if FINISH_RECORD.exists() else {}
     finishes = product_finishes(recorded, (row for g in groups for row in tcgcsv.prices(g["groupId"], CACHE, args.refresh)))
-    result = apply(files, sets, groups, lambda gid: tcgcsv.products(gid, CACHE, args.refresh), finishes)
+    images = set(json.loads(IMAGE_RECORD.read_text(encoding="utf-8"))) if IMAGE_RECORD.exists() else set()
+    result = apply(files, sets, groups, lambda gid: tcgcsv.products(gid, CACHE, args.refresh), finishes,
+                   image_check(images, args.refresh or args.probe_images))
+    registry = uuids.load()
+    uuids.assign_cards(files, registry)
     for stem, body in files.items():
         rbjson.dump(rbjson.CARDS / f"{stem}.json", body)
     rbjson.dump(rbjson.SETS, sets)
+    uuids.save(registry)
     FINISH_RECORD.write_text(finish_record_text(finishes), encoding="utf-8")
+    IMAGE_RECORD.write_text("[\n" + ",\n".join(f"  {pid}" for pid in sorted(images)) + "\n]\n", encoding="utf-8")
     rbjson.dump(REVIEW, result["review"])
     print(" ".join(f"{k}={v}" for k, v in sorted(result["counts"].items())))
 

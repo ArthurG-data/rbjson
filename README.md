@@ -9,10 +9,10 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 `OGN-119a/298`) are one card with two printings, and every printing keeps the gallery id and printed code it
 came from, so a reader can always get back to Riot's own record.
 
-Release 0.4.0 holds 6 sets, 1,237 cards, 1,783 printings and 65 sealed products. 1,408 printings are English and
-375 are the Korean printings of Origins and Proving Grounds, each beside its English twin on the same card, which
-carries its Korean name. 1,399 English printings carry the TCGplayer product that sells them and the finishes it is
-sold in, and 941 carry the Cardmarket product that sells them. The starter set names its parent, and each booster set carries its key art.
+<!-- counts:start -->
+The data holds 9 sets, 1,488 cards, 2,144 printings and 66 sealed products. 1,769 printings are English and 375 are Korean, each beside its English twin on the same card, which carries its Korean name. 1,783 printings come from the gallery and 361 from TCGplayer's catalogue: the runes, signatures, tokens and promos the gallery leaves out, 231 of them with TCGplayer's image. 1,760 English printings carry the TCGplayer product that sells them, and 941 carry the Cardmarket product that sells them. Every card, printing and sealed product has a UUID that never changes.
+<!-- counts:end -->
+The starter set names its parent, and each booster set carries its key art.
 
 rbjson is the Riftbound sibling of [opjson](https://github.com/ArthurG-data/opjson) (One Piece),
 [ygjson](https://github.com/ArthurG-data/ygjson) (Yu-Gi-Oh!) and [pkmjson](https://github.com/ArthurG-data/pkmjson)
@@ -21,7 +21,8 @@ written for one needs little change for another.
 
 ## Using the data
 
-Each tagged release attaches four files to a GitHub release:
+Each tagged release attaches four files to a GitHub release, each with its JSON schema beside it
+(`AllSets.schema.json`, ...):
 
 ```
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllSets.json
@@ -30,13 +31,13 @@ https://github.com/ArthurG-data/rbjson/releases/latest/download/AllPrintings.jso
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllProducts.json
 ```
 
-Every file is `{"meta": {"version": "0.4.0", "date": "2026-11-04"}, "data": {...}}`. All four come from one
+Every file is `{"meta": {"version": "0.4.0", "date": "2026-11-04"}, "data": {...}}`, where `date` is the day the data last changed. All four come from one
 build, so a reader that downloads them separately can check that the versions agree.
 
 | File | Keyed by | Holds |
 |---|---|---|
 | `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids (`tcgplayerGroupIds`), Cardmarket expansion ids (`cardmarketExpansionIds`), and per release (`en`, and `ko` for Origins and Proving Grounds) the name, date, source page and key art |
-| `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its name and subtitle in each language it has printings in, its set, and the ids of its printings |
+| `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its name and subtitle in each language it has printings in, its set, its `oracleId`, and the ids of its printings |
 | `AllPrintings.json` | printing id (`OGN-119a`, `OGN-119a~ko`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery, TCGplayer and Cardmarket (`cardmarketProductIds`) identifiers |
 | `AllProducts.json` | product id (`origins-booster-display`) | the sealed products: set, category, name, release date, TCGplayer product id, and what the product holds |
 
@@ -45,16 +46,23 @@ set can read `data/cards/<set>.json` straight from a checkout instead.
 
 ## The sets
 
+<!-- sets:start -->
 | Code | Name | Type | Set size | Cards | Printings |
 |---|---|---|---|---|---|
 | OGN | Origins | booster | 298 | 310 | 703 |
-| OGS | Origins: Proving Grounds | starter | 24 | 24 | 48 |
-| SFD | Spiritforged | booster | 221 | 252 | 288 |
-| UNL | Unleashed | booster | 219 | 246 | 288 |
-| VEN | Vendetta | booster | 166 | 210 | 237 |
-| RAD | Radiance | booster | 167 | 195 | 219 |
+| OGS | Proving Grounds | starter | 24 | 24 | 48 |
+| SFD | Spiritforged | booster | 221 | 261 | 309 |
+| UNL | Unleashed | booster | 219 | 262 | 316 |
+| VEN | Vendetta | booster | 166 | 215 | 254 |
+| RAD | Radiance | booster | 167 | 201 | 239 |
+| OPP | Riftbound Organized Play Promotional Cards | promo |  | 199 | 259 |
+| PR | Riftbound Promotional Cards | promo |  | 12 | 12 |
+| JDG | Riftbound Judge Promotional Cards | promo |  | 4 | 4 |
+<!-- sets:end -->
 
-Origins and Proving Grounds count their Korean printings (351 and 24); the other sets are English only.
+Origins and Proving Grounds count their Korean printings (351 and 24); the other sets are English only. The
+three promo sets are TCGplayer's promotional groups and have no set size of their own (see
+[TCGplayer products](#tcgplayer-products)).
 A set holds more cards than its set size because overnumbered showcase cards, promos, runes and tokens sit
 above or outside the numbered run. Vendetta and Radiance are in the gallery ahead of release, and a few of their
 cards still lack a type or domain (see [Known gaps](#known-gaps)).
@@ -83,11 +91,50 @@ The same champion appears in several sets with different subtitles (Ahri, Inquis
 Confident in Radiance). Each is its own card, because each has its own number, cost and stats. rbjson does
 not yet link a reprint to the card it reprints.
 
+### UUIDs
+
+Every card, printing and sealed product also carries a `uuid`, the key a catalogue should store. A UUID belongs to
+what a record is, which is not always its id. A gallery printing is its printed code and a card its number, but a
+printing made from TCGplayer's catalogue and a sealed product are a TCGplayer product. Their ids
+(`OPP-OGN269.metal-best-of`, `origins-booster-display`) are built from product names TCGplayer may change, and a
+sealed id can pass to another product when the one holding it is delisted. So each record has an identity key:
+
+| Record | Identity key |
+|---|---|
+| gallery printing | `id:<printing id>` |
+| printing made from TCGplayer, sealed product | `tcgplayer:<lowest TCGplayer product id>` |
+| card | `id:<number>` |
+
+`data/uuids.json` maps every identity key ever seen to its UUID, and the importers stamp it on what they write:
+
+- A key seen for the first time gets `uuid5(NAMESPACE, "<kind>:<id>")`, where `NAMESPACE` is
+  `uuid5(NAMESPACE_URL, "https://github.com/ArthurG-data/rbjson")` and the kind is `cards`, `printings` or
+  `products`. A rebuild from nothing gives every record the UUID it had.
+- A known key keeps its UUID, however often the importers run and whatever id the record has now. Two promo
+  printings whose names TCGplayer swaps keep their own UUIDs.
+- A record with a new key that replaces one that left takes its UUID. The records' other ids, their TCGplayer
+  products and, for a card, its printings' UUIDs say what each was on (`bridges`). So a rune TCGplayer sold
+  before the gallery listed it keeps its UUID when the gallery starts listing it, a card renumbered with its
+  printings keeps its UUID, and a sealed product relisted under its old name gets its old UUID.
+- A record that leaves keeps its key, so it gets its UUID back if it returns.
+
+A key never changes UUID and is never dropped. `tools/validate.py --since <git ref>` checks that against an
+earlier `data/uuids.json`, and CI runs it against the branch a PR targets and against where a branch was before
+a push.
+
+A card in `AllCards.json` also has an `oracleId`, as Scryfall's `oracle_id`: one UUID for every card with the same
+name and subtitle, `uuid5(NAMESPACE, "oracle:<name>|<subtitle>")` with both folded (casefolded, accents
+removed). Sett, The Boss at `OGN-269` and its Metal Best Of promo at `OPP-OGN269` are two cards with two UUIDs and
+one `oracleId`, so a reader can group a card's reprints. `validate.py` refuses two cards of one `oracleId` that
+state different types, domains, costs or might. The gallery tags a showcase reprint more sparely than its first
+printing, so tags may differ.
+
 ## Cards and printings
 
 ```json
 {
   "number": "OGN-119",
+  "uuid": "4a85c80e-3437-575d-a455-976f560f79a7",
   "name": "Ahri",
   "subtitle": "Inquisitive",
   "type": "unit",
@@ -98,11 +145,11 @@ not yet link a reprint to the card it reprints.
   "might": 3,
   "tags": ["Ahri", "Ionia"],
   "printings": [
-    {"id": "OGN-119", "collectorNumber": 119, "rarity": "epic", "source": "riot-gallery",
+    {"id": "OGN-119", "uuid": "0f7ae80d-3f11-5775-8b23-b6630bd75746", "collectorNumber": 119, "rarity": "epic", "source": "riot-gallery",
      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cfa28e1a...-744x1039.png?accountingTag=RB",
      "artists": ["Six More Vodka"],
      "identifiers": {"galleryId": "ogn-119-298", "publicCode": "OGN-119/298"}},
-    {"id": "OGN-119a", "collectorNumber": 119, "suffix": "a", "rarity": "showcase", "source": "riot-gallery",
+    {"id": "OGN-119a", "uuid": "fcc209de-b4d7-58c1-897b-211f929cfbf0", "collectorNumber": 119, "suffix": "a", "rarity": "showcase", "source": "riot-gallery",
      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7adc5aa8...-744x1039.png?accountingTag=RB",
      "artists": ["Kudos Productions"],
      "identifiers": {"galleryId": "ogn-119a-298", "publicCode": "OGN-119a/298"}}
@@ -116,6 +163,7 @@ field is absent rather than null when the gallery gives nothing.
 | Field | Meaning |
 |---|---|
 | `number` | Set code and collector number, without any variant suffix |
+| `uuid` | The card's UUID, which never changes (see [UUIDs](#uuids)) |
 | `name` | The card's English name as printed |
 | `names` | The name in each language the card has printings in, keyed by language: `{"en": "Ahri", "ko": "아리"}`. Present on a card with a non-English printing |
 | `subtitle` | The epithet under a champion's name (Ahri, *Inquisitive*). One champion has one card per subtitle |
@@ -134,19 +182,21 @@ A printing holds what sets one physical card apart from another with the same nu
 | Field | Meaning |
 |---|---|
 | `id` | The printed code before the slash: `OGN-119`, `OGN-119a`, `OGN-304*`. A printing in another language adds `~` and its language to the English twin's id: `OGN-119a~ko` |
+| `uuid` | The printing's UUID, which never changes (see [UUIDs](#uuids)) |
 | `language` | `en`, `fr`, `de`, `ja` or `ko`. Absent means `en`; only `en` and `ko` are used today. A `ko` printing has the same number, suffix and rarity as its English twin, its own image, artists and gallery entry, and no TCGplayer data |
 | `collectorNumber` | The number as an integer, as the gallery sorts by it |
 | `suffix` | `a` or `*`, the variant mark printed after the number. Absent on the base printing |
 | `rarity` | `common`, `uncommon`, `rare`, `epic` or `showcase` |
-| `image` | A link to the card image on Riot's content delivery network. Not a copy |
+| `image` | A link to the card image on Riot's content delivery network, or on TCGplayer's for a printing the gallery has no image for. Not a copy |
+| `imageSource` | `tcgplayer` when `image` is TCGplayer's product image: credit TCGplayer when showing it. Absent when the image is Riot's |
 | `artists` | The illustrators the gallery credits |
-| `source` | `riot-gallery`, the only source today |
+| `source` | `riot-gallery`, or `tcgplayer` for a printing the gallery leaves out and TCGplayer sells (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`). A Korean printing has its English twin's id, because the Korean gallery numbers its entries the same way |
 | `identifiers.publicCode` | The code as the gallery prints it (`OGN-119a/298`) |
 | `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.cardmarketProductIds` | The Cardmarket product that sells the printing, on an English printing whose name fits one card and one product (see [Cardmarket products](#cardmarket-products)) |
-| `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent on a printing it has never priced |
-| `tcgplayer` | How the product was tied to the printing: its `name` and the `match` (`number`) |
+| `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent means unknown, never none: TCGplayer has never priced the printing, or it is a Korean printing TCGplayer does not sell |
+| `tcgplayer` | How the product was tied to the printing: its `name` and the `match`: `number` for a gallery printing, `minted` for one made from the product |
 
 No ability text, flavour text or artwork is copied into the data; see `NOTICE` for what is and is not taken
 from Riot.
@@ -166,6 +216,12 @@ list and every card entry, with its type, domains, costs, stats, tags, rarity, a
 3. A variant whose entry disagrees with the base on a card fact is recorded in `review/gallery.json` and takes
    the base's facts. The gallery tags 21 alternate arts differently from their base card today, and nothing
    else differs.
+   A fact the gallery gets wrong, checked by hand against the printed card, is corrected from
+   `corrections/gallery.json` on every printing of the card. Each correction states what the gallery says and what
+   the card prints: the gallery tags Karma, Channeler (`OGN-235`) `Vi`, and its card reads KARMA · IONIA. When the
+   gallery comes to agree with the card, the importer says the correction can go. When the gallery says something
+   else again, the importer stops so the card is checked again. Cards of one name and subtitle whose tags differ
+   are listed in `review/gallery-tags.json`, since the gallery often tags a showcase reprint without its region.
 4. Each locale in `LOCALES` (`ko-kr` today) is fetched and its entries are matched to the English ones by gallery
    id. An entry whose card image differs from the English entry's is a printing in that language: it joins the
    English card as `<English id>~ko`, with the same collector number, suffix and rarity, the Korean image,
@@ -211,7 +267,14 @@ signatures the gallery leaves out, double-sided tokens (`T01 // T02` is `UNL-T01
 stamps, so its id names both. Sett, The Boss (Metal) (Best Of), sold at `269/298` in `OPP`, is
 `OPP-OGN269.metal-best-of` on the card `OPP-OGN269`. A rune that names its set, `Calm Rune (Vendetta)` at `R02b`, is
 `VEN-R02b`. A minted card copies its type, domains and tags from the card it reprints, or from another card with its
-name and subtitle, and a minted printing has no image and no gallery id.
+name and subtitle, and a minted printing has no gallery id.
+
+A minted printing has no gallery image, so it takes its TCGplayer product's image from TCGplayer's CDN
+(`https://tcgplayer-cdn.tcgplayer.com/product/<id>_in_1000x1000.jpg`), with `imageSource: "tcgplayer"` to credit
+it. The image belongs to TCGplayer; a reader showing it should credit TCGplayer. Many products have no image: the
+CDN answers 403 at every size whatever TCGCSV's `imageCount` says. So `data/tcgplayer_images.json` records the
+products whose image the CDN was seen to serve, `--refresh` (or `--probe-images`) asks about the rest, and a run
+from the cache reads only the record. [The counts](#rbjson) say how many minted printings have an image.
 
 A stamped printing TCGplayer has never priced takes the finish every priced printing of that stamp has. TCGplayer has
 priced none of the 37 Metal Best Of products, so `STAMP_FINISHES` states them as foil, as Face to Face Games lists them.
@@ -287,8 +350,9 @@ the gallery import stays as the cross-check.
 
 - **Finishes** come from TCGplayer's price sub-types, so a printing TCGplayer has never priced has none, and a
   finish the rule of rarity would predict but TCGplayer has never priced is not claimed.
-- **Minted printings.** A printing the gallery omits comes from TCGplayer's product list, so it has no image, no
-  artist and no gallery id, and its rarity is TCGplayer's or the reprinted card's.
+- **Minted printings.** A printing the gallery omits comes from TCGplayer's product list, so it has no artist and
+  no gallery id, its rarity is TCGplayer's or the reprinted card's, and its image is TCGplayer's, so one TCGplayer has no image for
+  has none.
 - **Untyped cards.** 13 Radiance and 2 Unleashed entries carry no type or domain in the gallery at the time of
   writing. Their `type` and `domains` are absent until Riot fills them in.
 - **Korean for Origins and Proving Grounds only.** Korean printings have no TCGplayer data, because TCGplayer
@@ -306,11 +370,16 @@ the gallery import stays as the cross-check.
 - `sets/sets.json` lists every set, with its type, set size, parent and releases (with their key art). Hand-kept.
 - `data/cards/<set>.json` holds the cards of one set, each with every printing of it. Written by the importer.
 - `review/gallery.json` lists the variants whose gallery entry disagrees with their base. Written by the importer.
+- `review/gallery-tags.json` lists the cards of one name and subtitle whose tags differ. Written by the same importer.
+- `corrections/gallery.json` corrects the facts the gallery states wrongly, each checked against the printed card. Hand-kept.
 - `review/tcgplayer-89.json` lists the TCGplayer singles no printing matched and the groups that were not matched.
 - `review/cardmarket-22.json` lists the Cardmarket products left unmatched and the expansions no set claims. Written by `tools/import_cardmarket.py`.
 - `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
 - `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
+- `data/tcgplayer_images.json` records the TCGplayer products whose image TCGplayer's CDN serves.
+- `data/uuids.json` maps the identity key of every card, printing and sealed product ever seen to its UUID (see
+  [UUIDs](#uuids)). Written by the importers and `tools/uuids.py`; never edited by hand.
 - `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
 - `tools/` holds the importers (gallery, TCGCSV, sealed, Cardmarket), the validator, the build script, and the gallery, TCGCSV and Cardmarket fetchers.
 - `tests/` checks the tools against a small gallery fixture and the committed data against the schemas.
@@ -319,11 +388,14 @@ the gallery import stays as the cross-check.
 
 ```
 uv sync --group dev
-uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/
+uv run python tools/refresh.py [--refresh]     # every importer below in order, readme.py, then validate.py
+uv run python tools/readme.py [--check]        # write the README's counts and set table from the data
+uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/ (--refresh to fetch again)
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
 uv run python tools/import_cardmarket.py       # Cardmarket product ids, cached in .cache/cardmarket
-uv run python tools/validate.py [--online [--images]]
+uv run python tools/uuids.py                   # stamp UUIDs (the importers already do; this repairs a hand edit)
+uv run python tools/validate.py [--online [--images]] [--since main]
 uv run python tools/build.py --version 0.4.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json, AllProducts.json
 uv run pytest -q
 ```
@@ -334,27 +406,41 @@ printing or sealed product, a Cardmarket product sits on one English printing, a
 data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists, and Cardmarket whether every Cardmarket product id is still in its singles list. `--images` also asks Riot whether
 every card image is still served, about 1,800 requests, so CI runs it only for a release tag.
 
+Every record must carry the UUID `data/uuids.json` gives its id, and the registry must list no id the data lacks.
+`--since <ref>` also checks that no id has changed or lost its UUID since that git ref.
+
 `build.py` refuses to write `dist/` while the data is invalid.
 
 ## Releasing
 
-Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files to a GitHub release
+Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files and their schemas to a GitHub release
 named after the tag. Readers follow `releases/latest/download/<file>`, so a new tag is all a release takes.
 
 You can also publish a release from the GitHub web or app: choose a new tag `vX.Y.Z` on `main` and publish it.
-CI runs the same checks and attaches the four files to that release, usually within ten minutes. If a check
+CI runs the same checks and attaches the files to that release, usually within ten minutes. If a check
 fails, CI turns the release back into a draft, so readers keep getting the previous one.
 
 ## Adding a set or refreshing the data
 
-1. Run `uv run python tools/import_gallery.py`. If it names a new set, add it to `sets/sets.json` with its
-   code, type, set size and English name, then run the importer again.
-2. Run `uv run python tools/import_tcgcsv.py --refresh` to pick up new products and finishes.
-3. Run `uv run python tools/import_sealed.py --refresh`.
-4. Run `uv run python tools/import_cardmarket.py --refresh`. A new set needs its `cardmarketExpansionIds` in `sets/sets.json` first.
-5. Read `review/gallery.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
+`.github/workflows/refresh.yml` does this every day: it runs `tools/refresh.py --refresh`, checks the result
+(validator with the UUID history against `main`, lint, tests) and, when the sources hold anything new, opens a pull
+request from the branch `data/refresh`, or updates the one already open. A person reads the `review/` diffs and
+merges it. A run that fails is the notice that something needs a person: a new set to add to `sets/sets.json`, a
+UUID conflict, a correction the gallery now contradicts. It needs Settings > Actions > General > "Allow GitHub Actions
+to create and approve pull requests". By hand:
+
+1. Run `uv run python tools/refresh.py --refresh`. It runs `import_gallery`, `import_tcgcsv`, `import_sealed`
+   and `import_cardmarket` in that order, each fetching its source again, then `validate.py`. Each importer
+   rebuilds what the one before it wrote, so run them all, not one alone.
+2. If the gallery names a new set, the run stops there: add the set to `sets/sets.json` with its code, type, set
+   size and English name, and its `cardmarketExpansionIds`, then run step 1 again.
+3. If two records claim one UUID (a record came back after another took its UUID), the importer stops with a
+   conflict and writes nothing: decide which record it is.
+4. If the gallery stops listing a set, `import_gallery` removes that set's gallery printings and says so. A set
+   the gallery still lists but sends no entry for is kept as it is.
+5. Read `review/gallery.json`, `review/gallery-tags.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
 6. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
-7. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
+7. Commit `sets/`, `corrections/`, `data/` (with `data/uuids.json`) and `review/` together, so a release never mixes two snapshots.
 
 ## Licence
 

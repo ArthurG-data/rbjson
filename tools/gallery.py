@@ -8,21 +8,15 @@ from __future__ import annotations
 
 import json
 import re
-import urllib.request
 from pathlib import Path
 
-USER_AGENT = "rbjson/0.1 (+https://github.com/ArthurG-data/rbjson)"
+import net
+
 SITE = "https://playriftbound.com"
 # The gallery locale that serves each printing language.
 LOCALE = {"en": "en-us", "fr": "fr-fr", "de": "de-de", "ja": "ja-jp", "ko": "ko-kr"}
 BLADE = "riftboundCardGallery"
 BUILD_ID = re.compile(r'"buildId":"([^"]+)"')
-
-
-def _get(url: str, timeout: int = 120) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
 
 
 def build_id(html: str) -> str:
@@ -47,24 +41,22 @@ def blade(page: dict) -> dict:
 READS = 3
 
 
-def fetch(locale: str = "en-us", cache: Path | None = None) -> dict:
+def fetch(locale: str = "en-us", cache: Path | None = None, refresh: bool = False) -> dict:
     """The gallery blade for a locale. With cache, the page document is kept at cache/gallery-<locale>.json and
-    read from there on the next call."""
+    read from there on the next call, unless refresh asks for the live gallery again."""
     if cache:
-        path = cache / f"gallery-{locale}.json"
-        if path.exists():
-            return blade(json.loads(path.read_text(encoding="utf-8")))
-    html = _get(f"{SITE}/{locale}/card-gallery").decode("utf-8")
+        return blade(net.cached(cache / f"gallery-{locale}.json", refresh, lambda: _page(locale)))
+    return blade(_page(locale))
+
+
+def _page(locale: str) -> dict:
+    html = net.get(f"{SITE}/{locale}/card-gallery", timeout=120).decode("utf-8")
     url = data_url(build_id(html), locale)
     # Riot's gallery now and then omits one entry from a response (seen 2026-11-04: 1,407 of 1,408, a different
     # entry each time). Two identical requests were not enough on CI (SFD-119 on 2026-11-04, SFD-054 on 11-05),
     # likely because a cache served the same response twice. So each read gets its own query string, which the
     # data route ignores, and an entry any read has is kept.
-    page = union_pages(*(json.loads(_get(f"{url}?read={n}")) for n in range(READS)))
-    if cache:
-        cache.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(page, ensure_ascii=False), encoding="utf-8")
-    return blade(page)
+    return union_pages(*(json.loads(net.get(f"{url}?read={n}", timeout=120)) for n in range(READS)))
 
 
 def union_pages(first: dict, *others: dict) -> dict:

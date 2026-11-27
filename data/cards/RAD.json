@@ -2,6 +2,7 @@
   "cards": [
     {
       "number": "RAD-001",
+      "uuid": "45c47933-6a67-58f0-b1c3-a5e3d0579923",
       "name": "Amateur Demolitionist",
       "type": "unit",
       "domains": [
@@ -12,6 +13,7 @@
       "printings": [
         {
           "id": "RAD-001",
+          "uuid": "dd299b4b-7f4b-5ef5-b097-8bdb902ba49e",
           "collectorNumber": 1,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3dca5e04ff8dff983993f87d5a82a7fd56d7bc9c-744x1039.png?accountingTag=RB",
@@ -42,6 +44,7 @@
     },
     {
       "number": "RAD-002",
+      "uuid": "b4cc5f4d-6e80-5e12-b3d8-1edc75545be0",
       "name": "Banner of Conquest",
       "type": "gear",
       "domains": [
@@ -55,6 +58,7 @@
       "printings": [
         {
           "id": "RAD-002",
+          "uuid": "ac840871-530f-5ff3-a670-30a07c21c30d",
           "collectorNumber": 2,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1e2a4e0a8cf533c82e9c3f4d507dd7eb63ece943-744x1039.png?accountingTag=RB",
@@ -85,6 +89,7 @@
     },
     {
       "number": "RAD-003",
+      "uuid": "6a513566-c04d-510b-8fb9-ee5640d031bd",
       "name": "Bilgewater Tracker",
       "type": "unit",
       "domains": [
@@ -95,6 +100,7 @@
       "printings": [
         {
           "id": "RAD-003",
+          "uuid": "2eca3d77-aa22-5501-8cfa-7314689a86c0",
           "collectorNumber": 3,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b660759a6bcb9c7ca41ea969cf11463259e284c9-744x1039.png?accountingTag=RB",
@@ -125,6 +131,7 @@
     },
     {
       "number": "RAD-004",
+      "uuid": "d88b58c7-e735-5485-b917-701e2f617fc1",
       "name": "Brawl",
       "type": "spell",
       "domains": [
@@ -135,6 +142,7 @@
       "printings": [
         {
           "id": "RAD-004",
+          "uuid": "f4e6072f-3125-58c8-91d7-330aef8a5542",
           "collectorNumber": 4,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38fd13c7522bb47dcc5ce1596aeb6a638087ee09-744x1039.png?accountingTag=RB",
@@ -165,6 +173,7 @@
     },
     {
       "number": "RAD-005",
+      "uuid": "d3dcfb64-51d1-5d0e-8129-4eb6c78ce179",
       "name": "Lingering Animus",
       "type": "unit",
       "domains": [
@@ -175,6 +184,7 @@
       "printings": [
         {
           "id": "RAD-005",
+          "uuid": "d24da53a-3080-529d-a26a-cab9e6411b77",
           "collectorNumber": 5,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5453008d27b3bb4f00941cb5a0d9ca52e4eb0245-744x1039.png?accountingTag=RB",
@@ -205,12 +215,14 @@
     },
     {
       "number": "RAD-006",
+      "uuid": "18404dae-e53d-53d0-ae16-011bb447bf0c",
       "name": "Scorched Earth",
       "energy": 4,
       "power": 1,
       "printings": [
         {
           "id": "RAD-006",
+          "uuid": "3f4076c9-b90a-5c11-843e-551fb205cb02",
           "collectorNumber": 6,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e646f9850571e20eca22e07af5d4dd68813fdd19-744x1039.png?accountingTag=RB",
@@ -241,6 +253,7 @@
     },
     {
       "number": "RAD-007",
+      "uuid": "ffac57b6-8d7e-5c23-90cd-5946bde4dad4",
       "name": "Rally for War",
       "type": "gear",
       "domains": [
@@ -251,6 +264,7 @@
       "printings": [
         {
           "id": "RAD-007",
+          "uuid": "14bfda3b-88f6-5d75-8932-939fcf5c45f8",
           "collectorNumber": 7,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/09c0fc35d8f4b72f58a95d1745b99c4133d02513-744x1039.png?accountingTag=RB",
@@ -281,6 +295,7 @@
     },
     {
       "number": "RAD-008",
+      "uuid": "064ecbe1-ac9a-5430-ac56-d9a3a65ad885",
       "name": "War Scout",
       "type": "unit",
       "domains": [
@@ -291,6 +306,7 @@
       "printings": [
         {
           "id": "RAD-008",
+          "uuid": "36161c6a-95b7-580b-b3c5-59e7d196a19a",
           "collectorNumber": 8,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3adae96f4731752074cf2145507a175dee800411-744x1039.png?accountingTag=RB",
@@ -321,6 +337,7 @@
     },
     {
       "number": "RAD-009",
+      "uuid": "def67fe5-b97a-5cf3-b458-f1fd4781edd1",
       "name": "Antagonistic Apparatus",
       "energy": 6,
       "power": 1,
@@ -328,6 +345,7 @@
       "printings": [
         {
           "id": "RAD-009",
+          "uuid": "65762573-b51c-5037-98d7-a7ae55bc68f9",
           "collectorNumber": 9,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5be775464c8b897501317c6d32fd60c8b962b5c2-744x1039.png?accountingTag=RB",
@@ -358,6 +376,7 @@
     },
     {
       "number": "RAD-010",
+      "uuid": "b66693db-5b4b-5f0a-96fb-6d4fd8067a76",
       "name": "Forbidden Technique",
       "type": "spell",
       "domains": [
@@ -367,6 +386,7 @@
       "printings": [
         {
           "id": "RAD-010",
+          "uuid": "fc7ae1a0-3179-5144-bf9b-80280660e5c0",
           "collectorNumber": 10,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/293518dcf6c2f9e3f59a2e259826fd813436b3a5-744x1039.png?accountingTag=RB",
@@ -397,6 +417,7 @@
     },
     {
       "number": "RAD-011",
+      "uuid": "61c60658-ca5a-5f52-bc2b-294894038780",
       "name": "Incorrigible Construct",
       "type": "unit",
       "domains": [
@@ -407,6 +428,7 @@
       "printings": [
         {
           "id": "RAD-011",
+          "uuid": "6eb32696-3920-5049-8f69-490d060e3c78",
           "collectorNumber": 11,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e95470d5c2fbc9f7f8ab0b1c19f32fd704918c83-744x1039.png?accountingTag=RB",
@@ -437,6 +459,7 @@
     },
     {
       "number": "RAD-012",
+      "uuid": "af44ce1b-e016-582f-92a7-46542a95ebe9",
       "name": "Runeblade Anvil",
       "type": "unit",
       "domains": [
@@ -446,6 +469,7 @@
       "printings": [
         {
           "id": "RAD-012",
+          "uuid": "38299c8a-1b76-5052-b966-1ba3629691cd",
           "collectorNumber": 12,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/11e2ddea70ec4dd8e562681a1ab1dfbc2b2dca0f-744x1039.png?accountingTag=RB",
@@ -476,6 +500,7 @@
     },
     {
       "number": "RAD-013",
+      "uuid": "88f0c8b5-6fb9-5aec-86fe-9eb5ff99c41c",
       "name": "Lost to the Sands",
       "type": "spell",
       "domains": [
@@ -486,6 +511,7 @@
       "printings": [
         {
           "id": "RAD-013",
+          "uuid": "5032ef10-b2a4-5260-8852-6211891a4da5",
           "collectorNumber": 13,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92071a0f4d495f5f7acdf78d060133b98d1cebae-744x1039.png?accountingTag=RB",
@@ -516,6 +542,7 @@
     },
     {
       "number": "RAD-014",
+      "uuid": "95624009-de00-5bb0-8502-abbd406f48a1",
       "name": "Shimmering Swimmer",
       "type": "unit",
       "domains": [
@@ -526,6 +553,7 @@
       "printings": [
         {
           "id": "RAD-014",
+          "uuid": "90ac867a-3bf7-56e6-8ec8-0856b04e7bd5",
           "collectorNumber": 14,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/02ef2a5c93cf60048bb932a709d3a5b17b93bb1d-744x1039.png?accountingTag=RB",
@@ -556,6 +584,7 @@
     },
     {
       "number": "RAD-015",
+      "uuid": "2340b358-596e-5283-90aa-ec4628c4c2e1",
       "name": "Akali",
       "subtitle": "Brash",
       "type": "unit",
@@ -575,6 +604,7 @@
       "printings": [
         {
           "id": "RAD-015",
+          "uuid": "1e8e81d7-4185-5ce5-ab4f-ab3f88b7ca5f",
           "collectorNumber": 15,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20997ddaef2cd714c36e5473c156faf331b80b7b-744x1039.png?accountingTag=RB",
@@ -601,6 +631,7 @@
     },
     {
       "number": "RAD-016",
+      "uuid": "b511d6d8-28e6-53dd-82b5-5b992d1379b0",
       "name": "Coalesced Energy",
       "type": "spell",
       "domains": [
@@ -612,6 +643,7 @@
       "printings": [
         {
           "id": "RAD-016",
+          "uuid": "91e9cfb9-9bf7-5e31-b7c3-cfdc2ccbfa00",
           "collectorNumber": 16,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/59e551045ca75d932ff76c4820d873d4a2cde9e8-744x1039.png?accountingTag=RB",
@@ -641,6 +673,7 @@
     },
     {
       "number": "RAD-017",
+      "uuid": "ed74eb71-5e2c-568e-8549-f331b7e1bf36",
       "name": "Detonation Amplifier",
       "type": "gear",
       "domains": [
@@ -654,6 +687,7 @@
       "printings": [
         {
           "id": "RAD-017",
+          "uuid": "13392a31-449a-5e43-9d0e-07a196b8561e",
           "collectorNumber": 17,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0cd07e77e69a53b78486b07dd7610183c953d581-744x1039.png?accountingTag=RB",
@@ -683,6 +717,7 @@
     },
     {
       "number": "RAD-018",
+      "uuid": "a09bada8-3386-513d-9ca8-b022f0d11f01",
       "name": "Drakehound Packmaster",
       "type": "unit",
       "domains": [
@@ -694,6 +729,7 @@
       "printings": [
         {
           "id": "RAD-018",
+          "uuid": "e8043eb0-4689-501f-8674-b95e2b12d89b",
           "collectorNumber": 18,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9ddc2759cf8b039bc1ee77e32326c5475cc001e8-744x1039.png?accountingTag=RB",
@@ -723,6 +759,7 @@
     },
     {
       "number": "RAD-019",
+      "uuid": "eea06080-c52a-52d8-ba56-67d02c71a3cb",
       "name": "Firebrand Raider",
       "type": "unit",
       "domains": [
@@ -734,6 +771,7 @@
       "printings": [
         {
           "id": "RAD-019",
+          "uuid": "6062b673-5e7b-50c1-96cf-a134abfef3d5",
           "collectorNumber": 19,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/922ef5a266378fa8ebd7e75bf83435bacd1a75d8-744x1039.png?accountingTag=RB",
@@ -763,6 +801,7 @@
     },
     {
       "number": "RAD-020",
+      "uuid": "d5724753-06ca-5976-a07e-1ae8113f68fa",
       "name": "Mordekaiser",
       "subtitle": "Twice Slain",
       "type": "unit",
@@ -782,6 +821,7 @@
       "printings": [
         {
           "id": "RAD-020",
+          "uuid": "b4138deb-f4dd-5a4c-92fd-59137a727b41",
           "collectorNumber": 20,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/66db9510de566ac43157ecdcc96f33b5f553a38d-744x1039.png?accountingTag=RB",
@@ -803,6 +843,7 @@
         },
         {
           "id": "RAD-020a",
+          "uuid": "aaa74adc-6d2e-5d53-a9eb-37ae31c76e76",
           "collectorNumber": 20,
           "suffix": "a",
           "rarity": "showcase",
@@ -827,6 +868,7 @@
     },
     {
       "number": "RAD-021",
+      "uuid": "c36af42f-498c-59b6-a583-ef4dd7ad072f",
       "name": "Ekko",
       "subtitle": "Revolutionary",
       "type": "unit",
@@ -846,6 +888,7 @@
       "printings": [
         {
           "id": "RAD-021",
+          "uuid": "28c0a8a8-46d9-50e4-87c3-91fbcb688ba4",
           "collectorNumber": 21,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d13964c46506f9f36430dfe91ee02d258a304908-744x1039.png?accountingTag=RB",
@@ -867,6 +910,7 @@
         },
         {
           "id": "RAD-021a",
+          "uuid": "35ac25fe-be0f-5f70-a543-5a324edf1aad",
           "collectorNumber": 21,
           "suffix": "a",
           "rarity": "showcase",
@@ -894,12 +938,14 @@
     },
     {
       "number": "RAD-022",
+      "uuid": "7701ac39-3b3c-5da5-a925-a363fdc03870",
       "name": "Whirling Twirligig",
       "energy": 4,
       "power": 1,
       "printings": [
         {
           "id": "RAD-022",
+          "uuid": "ac2d491b-5601-5f7b-90fa-dc036f59e03e",
           "collectorNumber": 22,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a05ff95e5bb933664e09656973c72f4d39d8e701-744x1039.png?accountingTag=RB",
@@ -929,6 +975,7 @@
     },
     {
       "number": "RAD-023",
+      "uuid": "a86ecefb-7555-55b1-bfdf-81b081237154",
       "name": "Ziggs",
       "subtitle": "Short-Fused",
       "type": "unit",
@@ -948,6 +995,7 @@
       "printings": [
         {
           "id": "RAD-023",
+          "uuid": "d2b41ee5-6c61-5095-9573-4c387ca3c55b",
           "collectorNumber": 23,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9df0d347bcfc0593cb724258ee07a1208c620848-744x1039.png?accountingTag=RB",
@@ -969,6 +1017,7 @@
         },
         {
           "id": "RAD-023a",
+          "uuid": "2295e667-be21-53d9-b7d7-e9123ae2e41d",
           "collectorNumber": 23,
           "suffix": "a",
           "rarity": "showcase",
@@ -996,6 +1045,7 @@
     },
     {
       "number": "RAD-024",
+      "uuid": "be654400-c2d3-5c92-9f42-11feb7cbb2b6",
       "name": "Blossoming Dreamroot",
       "type": "gear",
       "domains": [
@@ -1008,6 +1058,7 @@
       "printings": [
         {
           "id": "RAD-024",
+          "uuid": "fb091a9f-982b-5540-9267-cc683d5b460b",
           "collectorNumber": 24,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b819cc232389f3ef1438350d68c7801e181961c-744x1039.png?accountingTag=RB",
@@ -1038,6 +1089,7 @@
     },
     {
       "number": "RAD-025",
+      "uuid": "84f19e1e-f526-542c-944a-8aa65ad53e30",
       "name": "Consult the Heavens",
       "type": "unit",
       "domains": [
@@ -1047,6 +1099,7 @@
       "printings": [
         {
           "id": "RAD-025",
+          "uuid": "3da7371e-2aa6-582e-ab45-22e751f30c41",
           "collectorNumber": 25,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/120b20ee26d221cea31f510090cef037e74c023f-744x1039.png?accountingTag=RB",
@@ -1077,12 +1130,14 @@
     },
     {
       "number": "RAD-026",
+      "uuid": "3cff0bc0-f1b8-57f7-bdf6-3ca8cb68e85a",
       "name": "Entrenched Boar",
       "energy": 2,
       "might": 2,
       "printings": [
         {
           "id": "RAD-026",
+          "uuid": "55cdeb76-2bd9-504a-b318-f5efabf60db8",
           "collectorNumber": 26,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8d8688f43e219f7f4b5f5fd17cff204dcebc3bdc-744x1039.png?accountingTag=RB",
@@ -1113,6 +1168,7 @@
     },
     {
       "number": "RAD-027",
+      "uuid": "0d88ac0c-42c9-5f2f-8128-b2583d5bb561",
       "name": "Iridescent Avian",
       "type": "unit",
       "domains": [
@@ -1123,6 +1179,7 @@
       "printings": [
         {
           "id": "RAD-027",
+          "uuid": "b0c21afc-c919-5c6f-ab1f-01b461b5da5a",
           "collectorNumber": 27,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/73fde9189b222313dcf8c2abe79b38082c76961e-744x1039.png?accountingTag=RB",
@@ -1153,6 +1210,7 @@
     },
     {
       "number": "RAD-028",
+      "uuid": "03fd1648-c4de-5664-adc1-ee0caeea7019",
       "name": "Ki Burst",
       "type": "spell",
       "domains": [
@@ -1162,6 +1220,7 @@
       "printings": [
         {
           "id": "RAD-028",
+          "uuid": "372ef697-d97c-5ae1-b40c-08c558d1b26e",
           "collectorNumber": 28,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/33af916b50007c01b33e78aef3dc99b757edc3f2-744x1039.png?accountingTag=RB",
@@ -1189,6 +1248,7 @@
     },
     {
       "number": "RAD-029",
+      "uuid": "c9783f06-d98a-5d1c-865b-0a333baf8476",
       "name": "Life from Stone",
       "type": "spell",
       "domains": [
@@ -1198,6 +1258,7 @@
       "printings": [
         {
           "id": "RAD-029",
+          "uuid": "9802fefd-a7d9-5ec5-8151-198812b2da9a",
           "collectorNumber": 29,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a849c0425f0fecb8d00e1b9494e975c4dbbba75-744x1039.png?accountingTag=RB",
@@ -1228,6 +1289,7 @@
     },
     {
       "number": "RAD-030",
+      "uuid": "9429b239-ca42-5090-a69a-2b602fb17e60",
       "name": "Sanctum Conservator",
       "type": "unit",
       "domains": [
@@ -1238,6 +1300,7 @@
       "printings": [
         {
           "id": "RAD-030",
+          "uuid": "6909dae1-a53b-54d9-9c16-a59fda139045",
           "collectorNumber": 30,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/776973101613a15a7d0a2fc90587d19098ecc894-744x1039.png?accountingTag=RB",
@@ -1268,6 +1331,7 @@
     },
     {
       "number": "RAD-031",
+      "uuid": "980cd273-e4f3-56fe-a22f-a7541f305280",
       "name": "Stoic Ferryman",
       "type": "unit",
       "domains": [
@@ -1278,6 +1342,7 @@
       "printings": [
         {
           "id": "RAD-031",
+          "uuid": "277a780d-9c78-5cd5-96be-bfc769616956",
           "collectorNumber": 31,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8513fbe02a37f957b2a98bcee5badfdc56f41e82-744x1039.png?accountingTag=RB",
@@ -1308,6 +1373,7 @@
     },
     {
       "number": "RAD-032",
+      "uuid": "a48478e0-9fde-5de8-bfc3-c5426686387a",
       "name": "Battle Preparations",
       "type": "spell",
       "domains": [
@@ -1317,6 +1383,7 @@
       "printings": [
         {
           "id": "RAD-032",
+          "uuid": "63f6669c-8fc6-5aa5-94e9-753d04c50d6c",
           "collectorNumber": 32,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9422caf2fcd4cfb346cf0dce48245ef13a77180f-744x1039.png?accountingTag=RB",
@@ -1347,6 +1414,7 @@
     },
     {
       "number": "RAD-033",
+      "uuid": "3086552f-3f4d-516f-8675-fd3f47cf900a",
       "name": "Command: Attack",
       "type": "gear",
       "domains": [
@@ -1357,6 +1425,7 @@
       "printings": [
         {
           "id": "RAD-033",
+          "uuid": "9a299214-2c78-5aa2-9d19-32582646e089",
           "collectorNumber": 33,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b025756992e22af480902e13b01e25acbc747221-744x1039.png?accountingTag=RB",
@@ -1384,6 +1453,7 @@
     },
     {
       "number": "RAD-034",
+      "uuid": "156451dd-69ea-5a2e-bf0c-6f25c4b1325c",
       "name": "Hunker Down",
       "domains": [
         "calm"
@@ -1392,6 +1462,7 @@
       "printings": [
         {
           "id": "RAD-034",
+          "uuid": "cdb55faf-d548-5a87-8c91-9667916b7227",
           "collectorNumber": 34,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/111c518590b17919e5b851ef6c713c7eb7504ae2-744x1039.png?accountingTag=RB",
@@ -1422,6 +1493,7 @@
     },
     {
       "number": "RAD-035",
+      "uuid": "976f85f3-0e55-5700-afeb-5a00dbed2fbd",
       "name": "Invigorating Bloom",
       "type": "unit",
       "domains": [
@@ -1431,6 +1503,7 @@
       "printings": [
         {
           "id": "RAD-035",
+          "uuid": "4927e940-98ab-5b30-b3e6-9fe1a2990400",
           "collectorNumber": 35,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/66d4436ef5d7a7a81c60ee9b1b3ebae06162b7d2-744x1039.png?accountingTag=RB",
@@ -1461,6 +1534,7 @@
     },
     {
       "number": "RAD-036",
+      "uuid": "c1f0a9c1-28fa-5895-8e29-977b9a02034b",
       "name": "Storm Raptor",
       "type": "unit",
       "domains": [
@@ -1471,6 +1545,7 @@
       "printings": [
         {
           "id": "RAD-036",
+          "uuid": "e4081600-a2aa-5df4-bd95-3abd2c6798d1",
           "collectorNumber": 36,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc59661dfc70a1fdb393d795c90779a2b5661609-744x1039.png?accountingTag=RB",
@@ -1501,6 +1576,7 @@
     },
     {
       "number": "RAD-037",
+      "uuid": "81b2b706-5ebd-54e8-870c-d4a24293e55e",
       "name": "Watchful Curator",
       "type": "unit",
       "domains": [
@@ -1512,6 +1588,7 @@
       "printings": [
         {
           "id": "RAD-037",
+          "uuid": "e7e46991-8577-5cfd-a98a-e57a7e294acd",
           "collectorNumber": 37,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5081f81341bb02dfd26c970c09651fcf64a18a04-744x1039.png?accountingTag=RB",
@@ -1542,6 +1619,7 @@
     },
     {
       "number": "RAD-038",
+      "uuid": "f17e8e3f-033b-5267-877f-4a94ff307b12",
       "name": "Ahri",
       "subtitle": "Confident",
       "type": "unit",
@@ -1561,6 +1639,7 @@
       "printings": [
         {
           "id": "RAD-038",
+          "uuid": "ba88d6fd-6160-54fa-bb25-8ec46c02ec17",
           "collectorNumber": 38,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cf3c6a5963ad27976960977b0a51ea185f551696-744x1039.png?accountingTag=RB",
@@ -1587,6 +1666,7 @@
     },
     {
       "number": "RAD-039",
+      "uuid": "309f5f64-4b7b-53bb-84fb-4954acb9a3f1",
       "name": "Ephemeral Ward",
       "type": "unit",
       "domains": [
@@ -1597,6 +1677,7 @@
       "printings": [
         {
           "id": "RAD-039",
+          "uuid": "586485f7-2d18-5c91-a4ae-94e34a5ce69a",
           "collectorNumber": 39,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d2e562a1b69a42ebd9c8f95a9420750f45aca5dc-744x1039.png?accountingTag=RB",
@@ -1626,6 +1707,7 @@
     },
     {
       "number": "RAD-040",
+      "uuid": "be88224f-0b44-5e3a-b62a-16f487439c0e",
       "name": "Heartening Soul",
       "type": "unit",
       "domains": [
@@ -1637,6 +1719,7 @@
       "printings": [
         {
           "id": "RAD-040",
+          "uuid": "b5a2bc9a-b90c-559d-a17c-c250c9752574",
           "collectorNumber": 40,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0a5f9ab3216462356f6ddf8f172284dca6be21e9-744x1039.png?accountingTag=RB",
@@ -1666,12 +1749,14 @@
     },
     {
       "number": "RAD-041",
+      "uuid": "65f27520-a888-5f54-96e7-5a6c0e46bc84",
       "name": "Hush",
       "energy": 1,
       "power": 2,
       "printings": [
         {
           "id": "RAD-041",
+          "uuid": "e9c12547-8ae9-5b50-b619-774bf4210a35",
           "collectorNumber": 41,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9c1b9441e42639805b715466938ccd26b89892d-744x1039.png?accountingTag=RB",
@@ -1701,6 +1786,7 @@
     },
     {
       "number": "RAD-042",
+      "uuid": "937a00c8-55c2-5c0f-8c48-27c62475d8d8",
       "name": "Orianna",
       "subtitle": "Exquisite",
       "type": "unit",
@@ -1719,6 +1805,7 @@
       "printings": [
         {
           "id": "RAD-042",
+          "uuid": "7df4c8c5-f0ad-5bfd-9e44-6300cef32313",
           "collectorNumber": 42,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e608c51698b6fb0cc6a00335dbd1bca84f57c73-744x1039.png?accountingTag=RB",
@@ -1740,6 +1827,7 @@
         },
         {
           "id": "RAD-042a",
+          "uuid": "7a57eb20-b30c-57b8-af15-5d41981afa02",
           "collectorNumber": 42,
           "suffix": "a",
           "rarity": "showcase",
@@ -1764,6 +1852,7 @@
     },
     {
       "number": "RAD-043",
+      "uuid": "7c6ae5de-2788-5adc-89da-7b5a90538642",
       "name": "Riven",
       "subtitle": "Broken Blade",
       "type": "unit",
@@ -1781,6 +1870,7 @@
       "printings": [
         {
           "id": "RAD-043",
+          "uuid": "b48e0d1a-a18b-5ec5-8448-e9833329d893",
           "collectorNumber": 43,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0c9ac0da1c144f46a1e0c5423f51f9b8f6ba295b-744x1039.png?accountingTag=RB",
@@ -1805,6 +1895,7 @@
         },
         {
           "id": "RAD-043a",
+          "uuid": "db97ae0a-2d8d-5f91-bd2e-b98192eff3b0",
           "collectorNumber": 43,
           "suffix": "a",
           "rarity": "showcase",
@@ -1832,6 +1923,7 @@
     },
     {
       "number": "RAD-044",
+      "uuid": "f5f95959-e708-56b9-903d-ef533815ab28",
       "name": "Hunting Blind",
       "type": "unit",
       "domains": [
@@ -1845,6 +1937,7 @@
       "printings": [
         {
           "id": "RAD-044",
+          "uuid": "e2677d39-3e4b-5fc8-be41-2e0704990abb",
           "collectorNumber": 44,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0a625c22d828c83302132b0465dceb3ab11a08bc-744x1039.png?accountingTag=RB",
@@ -1871,6 +1964,7 @@
     },
     {
       "number": "RAD-045",
+      "uuid": "9b8ea3b2-159f-5f36-8432-ed9d6dcfa8fa",
       "name": "K'Sante",
       "subtitle": "Dauntless",
       "type": "unit",
@@ -1890,6 +1984,7 @@
       "printings": [
         {
           "id": "RAD-045",
+          "uuid": "7dd633bd-5767-57f9-a896-0d8526230043",
           "collectorNumber": 45,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f56e9f9db199f915e32ea264b7dab70202f97957-744x1039.png?accountingTag=RB",
@@ -1911,6 +2006,7 @@
         },
         {
           "id": "RAD-045a",
+          "uuid": "f778dd20-b846-5951-9791-f81689579b35",
           "collectorNumber": 45,
           "suffix": "a",
           "rarity": "showcase",
@@ -1938,6 +2034,7 @@
     },
     {
       "number": "RAD-046",
+      "uuid": "f5494841-56e0-5d6a-92c9-8c916a6ba43b",
       "name": "Resplendent Rostrum",
       "type": "spell",
       "domains": [
@@ -1948,6 +2045,7 @@
       "printings": [
         {
           "id": "RAD-046",
+          "uuid": "c3ab3a9e-c097-5a8d-86b2-11063ce4eb24",
           "collectorNumber": 46,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/df1c12e65cc3c63c96fb6c96b2071795f37f30a6-744x1039.png?accountingTag=RB",
@@ -1977,11 +2075,13 @@
     },
     {
       "number": "RAD-047",
+      "uuid": "bb44af05-dfac-5b6a-9908-31479d7dfc73",
       "name": "Fanfare",
       "energy": 3,
       "printings": [
         {
           "id": "RAD-047",
+          "uuid": "ba57aab9-05d5-5501-ad3d-375d23668765",
           "collectorNumber": 47,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/75a3d8fbfd8caeabfd5be38513a6624c61f5230f-744x1039.png?accountingTag=RB",
@@ -2012,6 +2112,7 @@
     },
     {
       "number": "RAD-048",
+      "uuid": "3229ff31-59f7-56b0-99d9-c1036fa169ca",
       "name": "High Note",
       "type": "spell",
       "domains": [
@@ -2021,6 +2122,7 @@
       "printings": [
         {
           "id": "RAD-048",
+          "uuid": "1a452b47-1c87-5da9-b1c6-bec51773d9c2",
           "collectorNumber": 48,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/afba3669ea1063dafb0e4c2c766694e00540eb13-744x1039.png?accountingTag=RB",
@@ -2051,12 +2153,14 @@
     },
     {
       "number": "RAD-049",
+      "uuid": "60c60bb5-cd34-501a-bf52-cae210704258",
       "name": "Industrious Mechsmith",
       "energy": 4,
       "might": 1,
       "printings": [
         {
           "id": "RAD-049",
+          "uuid": "79173ee7-3947-57e5-bc2a-d87814465ec6",
           "collectorNumber": 49,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8f6b4191874f23b522566f8ebeeb6e5ee18eb7f-744x1039.png?accountingTag=RB",
@@ -2087,6 +2191,7 @@
     },
     {
       "number": "RAD-050",
+      "uuid": "36078b70-b04a-5030-bb1d-92e455f3f8f5",
       "name": "Mysterious Chronomancer",
       "type": "unit",
       "domains": [
@@ -2097,6 +2202,7 @@
       "printings": [
         {
           "id": "RAD-050",
+          "uuid": "1bf473e6-a6d7-5b1a-b67f-97bec9a6ec3d",
           "collectorNumber": 50,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/72828b0fe019b2e03069510f781dfa8f5759ac12-744x1039.png?accountingTag=RB",
@@ -2127,6 +2233,7 @@
     },
     {
       "number": "RAD-051",
+      "uuid": "29cf1859-5539-5ed7-ad71-92e872ef974a",
       "name": "Parallel Convergence",
       "type": "spell",
       "domains": [
@@ -2137,6 +2244,7 @@
       "printings": [
         {
           "id": "RAD-051",
+          "uuid": "b33b0885-5c5a-52a8-924d-270ace4ac46d",
           "collectorNumber": 51,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/55e382346c6fa890936a1cf14abaf57b8ee0b8f2-744x1039.png?accountingTag=RB",
@@ -2167,6 +2275,7 @@
     },
     {
       "number": "RAD-052",
+      "uuid": "6acc7e10-272f-5245-a98a-5fba93de028b",
       "name": "Resource Extractor",
       "type": "gear",
       "domains": [
@@ -2179,6 +2288,7 @@
       "printings": [
         {
           "id": "RAD-052",
+          "uuid": "55aba0b0-131f-56b9-9aea-808cf98cf30b",
           "collectorNumber": 52,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d5cc2f85febe2260e51b88bddfeab6ce700c85dd-744x1039.png?accountingTag=RB",
@@ -2209,6 +2319,7 @@
     },
     {
       "number": "RAD-053",
+      "uuid": "c77daad6-2a1f-5781-84f8-27f2e9e3c7ce",
       "name": "Strigian Oracle",
       "type": "unit",
       "domains": [
@@ -2219,6 +2330,7 @@
       "printings": [
         {
           "id": "RAD-053",
+          "uuid": "49ba5441-8e09-5830-a8ab-40fba038c927",
           "collectorNumber": 53,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5973b5036060f29e24f8778949bf6f01f360c0a4-744x1039.png?accountingTag=RB",
@@ -2249,6 +2361,7 @@
     },
     {
       "number": "RAD-054",
+      "uuid": "a5f260cc-c78a-5cb6-9f47-3027a212df1c",
       "name": "Trinket Peddler",
       "type": "unit",
       "domains": [
@@ -2259,6 +2372,7 @@
       "printings": [
         {
           "id": "RAD-054",
+          "uuid": "cf4e1d60-a9ad-5dde-949f-153a3c63b986",
           "collectorNumber": 54,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/78106b7cea441b13d108e532adc5ce063f448165-744x1039.png?accountingTag=RB",
@@ -2289,6 +2403,7 @@
     },
     {
       "number": "RAD-055",
+      "uuid": "8e0d1e34-1510-5214-8b22-eaa77aa2f5c0",
       "name": "Clanging Sentry",
       "type": "unit",
       "domains": [
@@ -2299,6 +2414,7 @@
       "printings": [
         {
           "id": "RAD-055",
+          "uuid": "8c10ba42-4434-5ea0-a4fc-7182364c6f78",
           "collectorNumber": 55,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5d4c22ef863e041887a00d34b2dae1f3ce658326-744x1039.png?accountingTag=RB",
@@ -2329,6 +2445,7 @@
     },
     {
       "number": "RAD-056",
+      "uuid": "2d08d327-a430-5a54-b94d-eb5ca09f3399",
       "name": "Improvised Projectile",
       "type": "gear",
       "domains": [
@@ -2339,6 +2456,7 @@
       "printings": [
         {
           "id": "RAD-056",
+          "uuid": "32629df4-0923-5357-961c-9516ae8129a7",
           "collectorNumber": 56,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ecbb970f955b8e12369921f30ad08cab04e59a3f-744x1039.png?accountingTag=RB",
@@ -2369,6 +2487,7 @@
     },
     {
       "number": "RAD-057",
+      "uuid": "9b53c336-0675-59c8-91d0-1560b1c81e42",
       "name": "Piltovan Guidebot",
       "type": "unit",
       "domains": [
@@ -2379,6 +2498,7 @@
       "printings": [
         {
           "id": "RAD-057",
+          "uuid": "7cda9896-5700-515a-86ff-f668e7cf8138",
           "collectorNumber": 57,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9558ced7593f5a26911eb6e1393aae3289842e20-744x1039.png?accountingTag=RB",
@@ -2409,6 +2529,7 @@
     },
     {
       "number": "RAD-058",
+      "uuid": "0160f541-5f73-5c1d-9ab3-ef55e1dd4c30",
       "name": "Riptide Mage",
       "type": "unit",
       "domains": [
@@ -2420,6 +2541,7 @@
       "printings": [
         {
           "id": "RAD-058",
+          "uuid": "cac1669a-fd7a-58ec-8ad0-4220ffb58eaa",
           "collectorNumber": 58,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4e3c24c1c315656772d0bfd8d100bc7893e94994-744x1039.png?accountingTag=RB",
@@ -2450,6 +2572,7 @@
     },
     {
       "number": "RAD-059",
+      "uuid": "188149a9-d851-5921-9496-09afb9261170",
       "name": "Supernova",
       "type": "unit",
       "domains": [
@@ -2460,6 +2583,7 @@
       "printings": [
         {
           "id": "RAD-059",
+          "uuid": "0759247b-c6ca-5531-a3d9-eb22062528d4",
           "collectorNumber": 59,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bea8e402f99b0afb5af1b19c0ee8ea34052e736f-744x1039.png?accountingTag=RB",
@@ -2490,6 +2614,7 @@
     },
     {
       "number": "RAD-060",
+      "uuid": "0a2cb829-8cb1-538e-9890-e8f77a0386ab",
       "name": "The Empyrean",
       "type": "unit",
       "domains": [
@@ -2503,6 +2628,7 @@
       "printings": [
         {
           "id": "RAD-060",
+          "uuid": "c4227c20-8c9c-5917-a7c4-d9a7ce0b8cf7",
           "collectorNumber": 60,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b7cd2e475834863bf4e66994118a835ba4377d16-744x1039.png?accountingTag=RB",
@@ -2533,6 +2659,7 @@
     },
     {
       "number": "RAD-061",
+      "uuid": "54bf66cd-0701-5f50-9dcc-533a00384b77",
       "name": "Ekko",
       "subtitle": "Ingenious",
       "type": "unit",
@@ -2551,6 +2678,7 @@
       "printings": [
         {
           "id": "RAD-061",
+          "uuid": "2998727b-1929-5cf7-90ff-5e3dce88fd70",
           "collectorNumber": 61,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3129469742d7aa5c6921ebae841ccee1923bb279-744x1039.png?accountingTag=RB",
@@ -2575,6 +2703,7 @@
         },
         {
           "id": "RAD-061a",
+          "uuid": "be70e5c3-ebe9-59a5-807f-da786b0ae103",
           "collectorNumber": 61,
           "suffix": "a",
           "rarity": "showcase",
@@ -2602,6 +2731,7 @@
     },
     {
       "number": "RAD-062",
+      "uuid": "fec0b8e1-8766-588d-a771-3efa06dc1f57",
       "name": "Gravity Field",
       "type": "gear",
       "domains": [
@@ -2615,6 +2745,7 @@
       "printings": [
         {
           "id": "RAD-062",
+          "uuid": "c01bdb37-42ca-50ee-b2ee-5aae8190f74c",
           "collectorNumber": 62,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/51f589e5ed0f7316b6cb64ebc93c4ef3e75b7f46-744x1039.png?accountingTag=RB",
@@ -2644,6 +2775,7 @@
     },
     {
       "number": "RAD-063",
+      "uuid": "e3b40e02-2805-572a-afaa-1c835d36a23e",
       "name": "Kai'Sa",
       "subtitle": "Rebel",
       "type": "unit",
@@ -2663,6 +2795,7 @@
       "printings": [
         {
           "id": "RAD-063",
+          "uuid": "4845e1f0-c730-5337-8f4a-05c7415163da",
           "collectorNumber": 63,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/53a7fdbb66f0d05111f4a7f54853db30f62fa5c4-744x1039.png?accountingTag=RB",
@@ -2689,6 +2822,7 @@
     },
     {
       "number": "RAD-064",
+      "uuid": "2c108145-32d2-5115-b150-05579071791d",
       "name": "Scrutinizing Scope",
       "type": "spell",
       "domains": [
@@ -2698,6 +2832,7 @@
       "printings": [
         {
           "id": "RAD-064",
+          "uuid": "5a7b796a-7122-5bda-bab5-9b997ad763cd",
           "collectorNumber": 64,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a028fc372c14dda73864aba3d3e84063f6da98d-744x1039.png?accountingTag=RB",
@@ -2727,6 +2862,7 @@
     },
     {
       "number": "RAD-065",
+      "uuid": "b7869ade-4b41-5521-9ce2-8af5479e60fd",
       "name": "Seraphine",
       "subtitle": "Inspiring",
       "type": "unit",
@@ -2746,6 +2882,7 @@
       "printings": [
         {
           "id": "RAD-065",
+          "uuid": "a6941823-5c75-5840-986b-85cc9d860446",
           "collectorNumber": 65,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60e0711c64958cc3a59a3bd3bf4c013758b1b92b-744x1039.png?accountingTag=RB",
@@ -2770,6 +2907,7 @@
         },
         {
           "id": "RAD-065a",
+          "uuid": "c992d016-6e43-5b26-b067-5fd6397e411e",
           "collectorNumber": 65,
           "suffix": "a",
           "rarity": "showcase",
@@ -2794,6 +2932,7 @@
     },
     {
       "number": "RAD-066",
+      "uuid": "0c33f8d2-fabe-5fa8-a42c-a0a563aba5fa",
       "name": "Spirit of the Forge",
       "type": "unit",
       "domains": [
@@ -2805,6 +2944,7 @@
       "printings": [
         {
           "id": "RAD-066",
+          "uuid": "48a78827-6da1-58a7-bfa4-a755f59d9ba3",
           "collectorNumber": 66,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7a1f527e5910fbc18f7cb3cddf2aa59b483393f4-744x1039.png?accountingTag=RB",
@@ -2834,6 +2974,7 @@
     },
     {
       "number": "RAD-067",
+      "uuid": "308e05de-b9f9-598e-90b9-0c200a23a6e5",
       "name": "Clocktower Guardian",
       "type": "unit",
       "domains": [
@@ -2848,6 +2989,7 @@
       "printings": [
         {
           "id": "RAD-067",
+          "uuid": "e75f1a86-296d-591d-8a34-7e9c0ed482f1",
           "collectorNumber": 67,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b846d604eee450a4ab8f457f2738b0596e7b361e-744x1039.png?accountingTag=RB",
@@ -2877,6 +3019,7 @@
     },
     {
       "number": "RAD-068",
+      "uuid": "6fef7ec5-b28d-5096-8d5f-aa878dfe408c",
       "name": "Orianna",
       "subtitle": "Mechanical Marvel",
       "type": "unit",
@@ -2895,6 +3038,7 @@
       "printings": [
         {
           "id": "RAD-068",
+          "uuid": "8170754b-77fc-5634-93fc-893c8051794d",
           "collectorNumber": 68,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/00f5a081a085e9c3851daf79d9e39bd378f71fe3-744x1039.png?accountingTag=RB",
@@ -2919,6 +3063,7 @@
         },
         {
           "id": "RAD-068a",
+          "uuid": "e21b47fa-4d52-54c7-8bfb-6039f59aad59",
           "collectorNumber": 68,
           "suffix": "a",
           "rarity": "showcase",
@@ -2943,6 +3088,7 @@
     },
     {
       "number": "RAD-069",
+      "uuid": "93131b91-7295-5939-a40f-cfc828fd964b",
       "name": "Zero Point Inflection",
       "type": "spell",
       "domains": [
@@ -2953,6 +3099,7 @@
       "printings": [
         {
           "id": "RAD-069",
+          "uuid": "b39f3e34-b32b-5c70-b898-6ed2ee658c7c",
           "collectorNumber": 69,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e0646270d27f9fa78f4c3a637695e5cdeb8ee67-744x1039.png?accountingTag=RB",
@@ -2982,6 +3129,7 @@
     },
     {
       "number": "RAD-070",
+      "uuid": "b383fc19-295c-5a42-9bcb-d69d6938b43d",
       "name": "Hold 'Em",
       "type": "spell",
       "domains": [
@@ -2991,6 +3139,7 @@
       "printings": [
         {
           "id": "RAD-070",
+          "uuid": "3d48999a-28cb-57d8-b510-20843d88cb58",
           "collectorNumber": 70,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0d9af22d38d32b0ec2a6584d25abe201730f9e11-744x1039.png?accountingTag=RB",
@@ -3021,6 +3170,7 @@
     },
     {
       "number": "RAD-071",
+      "uuid": "195978bd-590d-5099-ad50-e5a618ddcb13",
       "name": "Nazuman Ntofo",
       "type": "gear",
       "domains": [
@@ -3032,6 +3182,7 @@
       "printings": [
         {
           "id": "RAD-071",
+          "uuid": "336e2603-5bbb-556f-9d46-9421a57d34a2",
           "collectorNumber": 71,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d518a6db3ae174096b09cf80cece2997f685ede-744x1039.png?accountingTag=RB",
@@ -3059,6 +3210,7 @@
     },
     {
       "number": "RAD-072",
+      "uuid": "1a754953-2a08-525e-b051-0d8fe5ca4675",
       "name": "Overloaded Traveler",
       "type": "spell",
       "domains": [
@@ -3069,6 +3221,7 @@
       "printings": [
         {
           "id": "RAD-072",
+          "uuid": "308acb40-2d22-5ff1-a2e5-aa6d071fdbfd",
           "collectorNumber": 72,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6db2839d8702b15ab62413028c0321c75e87801c-744x1039.png?accountingTag=RB",
@@ -3099,6 +3252,7 @@
     },
     {
       "number": "RAD-073",
+      "uuid": "e6e5472f-7dea-5295-b29f-9a0b6c6e60e6",
       "name": "Pillaged Armory",
       "type": "gear",
       "domains": [
@@ -3111,6 +3265,7 @@
       "printings": [
         {
           "id": "RAD-073",
+          "uuid": "9678c763-5feb-5fe0-b433-3daa7548cd9c",
           "collectorNumber": 73,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/374248eb65ca1e90a434652073dbbd3a12a11eda-744x1039.png?accountingTag=RB",
@@ -3138,6 +3293,7 @@
     },
     {
       "number": "RAD-074",
+      "uuid": "bcc942c2-2e4d-562b-b2bc-75ef4a8ac1b4",
       "name": "Raving Witness",
       "type": "unit",
       "domains": [
@@ -3148,6 +3304,7 @@
       "printings": [
         {
           "id": "RAD-074",
+          "uuid": "bdab76ed-c012-5d12-9177-1a222b0e5f30",
           "collectorNumber": 74,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/778e70b353d7f28eae9b54b1a37af3853238ba04-744x1039.png?accountingTag=RB",
@@ -3178,6 +3335,7 @@
     },
     {
       "number": "RAD-075",
+      "uuid": "d17efddd-e0c9-5ca1-a038-fb44d3ae96ed",
       "name": "Skystrike Squadron",
       "type": "unit",
       "domains": [
@@ -3188,6 +3346,7 @@
       "printings": [
         {
           "id": "RAD-075",
+          "uuid": "f27f8098-cb62-5dfd-9b82-b01ae457a28e",
           "collectorNumber": 75,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/694a362579d3f2e9805cac0da4814ea911423033-744x1039.png?accountingTag=RB",
@@ -3218,6 +3377,7 @@
     },
     {
       "number": "RAD-076",
+      "uuid": "f5d47ee5-16d8-5c8d-89e8-27a4e43089c7",
       "name": "Sneaky Zeebles",
       "type": "unit",
       "domains": [
@@ -3228,6 +3388,7 @@
       "printings": [
         {
           "id": "RAD-076",
+          "uuid": "fbc77c93-8622-5b4e-b211-7e955c6bb20d",
           "collectorNumber": 76,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c04963c90ab2b338883c980ac947b8c9d80a7427-744x1039.png?accountingTag=RB",
@@ -3258,6 +3419,7 @@
     },
     {
       "number": "RAD-077",
+      "uuid": "245bb405-7534-5b25-b677-62dff3b10aad",
       "name": "Wrath of the Freljord",
       "type": "unit",
       "domains": [
@@ -3268,6 +3430,7 @@
       "printings": [
         {
           "id": "RAD-077",
+          "uuid": "17e49a7e-e278-507e-a440-2b79a8895886",
           "collectorNumber": 77,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/531b923f3437f497b858bf186b46b4ac88460da6-744x1039.png?accountingTag=RB",
@@ -3298,6 +3461,7 @@
     },
     {
       "number": "RAD-078",
+      "uuid": "2233fd3f-f076-51ef-baf5-dd4c792bd607",
       "name": "Armored Tusker",
       "type": "unit",
       "domains": [
@@ -3309,6 +3473,7 @@
       "printings": [
         {
           "id": "RAD-078",
+          "uuid": "e7da4046-360c-599a-9dd8-8488827ad169",
           "collectorNumber": 78,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c479f2fda00506e71a57ac4e8cc297f7f3110a54-744x1039.png?accountingTag=RB",
@@ -3339,6 +3504,7 @@
     },
     {
       "number": "RAD-079",
+      "uuid": "182a3475-f029-58e8-bf83-50c15569758e",
       "name": "Avalanche",
       "type": "spell",
       "domains": [
@@ -3349,6 +3515,7 @@
       "printings": [
         {
           "id": "RAD-079",
+          "uuid": "898a9c34-7e5f-5d7e-81d4-171d9db89c3c",
           "collectorNumber": 79,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b2103352935061e19cf90036a6aa4cd35ad5922-744x1039.png?accountingTag=RB",
@@ -3379,6 +3546,7 @@
     },
     {
       "number": "RAD-080",
+      "uuid": "a20e8607-97e4-5b9d-8b36-2fb9ccdfd8ce",
       "name": "Bloodscent Swarm",
       "type": "unit",
       "domains": [
@@ -3390,6 +3558,7 @@
       "printings": [
         {
           "id": "RAD-080",
+          "uuid": "f0cd8a0a-126c-5e3f-b8a1-638c9e7c8996",
           "collectorNumber": 80,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/775ccea752fb404be2433c4b870c7877e2445a8c-744x1039.png?accountingTag=RB",
@@ -3420,6 +3589,7 @@
     },
     {
       "number": "RAD-081",
+      "uuid": "784b6326-7654-55b3-90f3-2d31ff295b18",
       "name": "Elnuk Herd",
       "type": "unit",
       "domains": [
@@ -3430,6 +3600,7 @@
       "printings": [
         {
           "id": "RAD-081",
+          "uuid": "5675db7d-2ee0-5b0a-bdff-f3808d5fe146",
           "collectorNumber": 81,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1799cd4c46fcf0243b4022de2d427b15e67a15ad-744x1039.png?accountingTag=RB",
@@ -3460,6 +3631,7 @@
     },
     {
       "number": "RAD-082",
+      "uuid": "5b70ffd8-ac50-5bbd-8368-87524cee2206",
       "name": "Primordial Roar",
       "type": "spell",
       "domains": [
@@ -3470,6 +3642,7 @@
       "printings": [
         {
           "id": "RAD-082",
+          "uuid": "5033baf5-a454-54bf-abbb-8856207bb1ba",
           "collectorNumber": 82,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/945633b0c2ed7f303245c917ffbcdb80dcfb524e-744x1039.png?accountingTag=RB",
@@ -3500,6 +3673,7 @@
     },
     {
       "number": "RAD-083",
+      "uuid": "e2ac6d9a-1fb4-5664-9098-21aaec2a54c0",
       "name": "Stalwart Goatherd",
       "type": "unit",
       "domains": [
@@ -3510,6 +3684,7 @@
       "printings": [
         {
           "id": "RAD-083",
+          "uuid": "a90e4b85-7fcb-5c61-b59d-ba6102be8ee7",
           "collectorNumber": 83,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bff85727b58017cbd3921fd73e9b363f5a0205e4-744x1039.png?accountingTag=RB",
@@ -3540,6 +3715,7 @@
     },
     {
       "number": "RAD-084",
+      "uuid": "d7111ecb-50c2-5322-9588-84e221e2ce69",
       "name": "Cataclysm",
       "type": "spell",
       "domains": [
@@ -3550,6 +3726,7 @@
       "printings": [
         {
           "id": "RAD-084",
+          "uuid": "aed25b88-14f9-5325-a93b-877a932f1f15",
           "collectorNumber": 84,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc551ece6cf007c76a3a16feba5f26fb7dd4ed65-744x1039.png?accountingTag=RB",
@@ -3579,6 +3756,7 @@
     },
     {
       "number": "RAD-085",
+      "uuid": "da5d8a8f-b0ea-54e3-b0c9-86ed1774600a",
       "name": "Graves",
       "subtitle": "Blasting Through",
       "type": "unit",
@@ -3598,6 +3776,7 @@
       "printings": [
         {
           "id": "RAD-085",
+          "uuid": "9b07ef11-e12e-5c07-a5d1-c72d16eff001",
           "collectorNumber": 85,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5bc0671f9f78630e2932052bb9f7f42ef2742c86-744x1039.png?accountingTag=RB",
@@ -3624,6 +3803,7 @@
     },
     {
       "number": "RAD-086",
+      "uuid": "d225b8ca-06fe-55e5-b4d4-094d256f1665",
       "name": "K'Sante",
       "subtitle": "Courageous",
       "type": "unit",
@@ -3642,6 +3822,7 @@
       "printings": [
         {
           "id": "RAD-086",
+          "uuid": "00d3388f-e6b9-5881-b713-9681495e787f",
           "collectorNumber": 86,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2a5edfa252798770045f8cd7cc50a93fbbb690fa-744x1039.png?accountingTag=RB",
@@ -3663,6 +3844,7 @@
         },
         {
           "id": "RAD-086a",
+          "uuid": "f1bc5abd-96c7-555c-bd1b-5b9a57cf08f8",
           "collectorNumber": 86,
           "suffix": "a",
           "rarity": "showcase",
@@ -3690,6 +3872,7 @@
     },
     {
       "number": "RAD-087",
+      "uuid": "f4400c42-a654-5d1d-bfac-fb50e23085b5",
       "name": "Portable Portal",
       "type": "unit",
       "domains": [
@@ -3702,6 +3885,7 @@
       "printings": [
         {
           "id": "RAD-087",
+          "uuid": "976d972a-1ee6-53d5-a7cf-727013f6117c",
           "collectorNumber": 87,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dba5c879aae5c614198eb8408e0104a1b0618102-744x1039.png?accountingTag=RB",
@@ -3728,6 +3912,7 @@
     },
     {
       "number": "RAD-088",
+      "uuid": "45662745-8232-5b46-87d5-fabd23a1d4f8",
       "name": "Staunch Survivor",
       "type": "unit",
       "domains": [
@@ -3739,6 +3924,7 @@
       "printings": [
         {
           "id": "RAD-088",
+          "uuid": "0626a9b7-63c6-5b60-8407-8d05fe127a63",
           "collectorNumber": 88,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/91c4670531d7773cae9e7b4bfd5ac4e259602162-744x1039.png?accountingTag=RB",
@@ -3768,6 +3954,7 @@
     },
     {
       "number": "RAD-089",
+      "uuid": "2b987fed-1938-5d7d-9a85-5db3abc5bab9",
       "name": "Titanic Shrine",
       "type": "gear",
       "domains": [
@@ -3780,6 +3967,7 @@
       "printings": [
         {
           "id": "RAD-089",
+          "uuid": "c1302455-6b5f-53ef-be4b-77eef697bcf5",
           "collectorNumber": 89,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7d027f4e30df4f7141799709f9fb785835adefed-744x1039.png?accountingTag=RB",
@@ -3809,6 +3997,7 @@
     },
     {
       "number": "RAD-090",
+      "uuid": "32e0fbd2-cecb-56d2-8515-24ff26802fda",
       "name": "Evelynn",
       "subtitle": "Consuming",
       "type": "unit",
@@ -3827,6 +4016,7 @@
       "printings": [
         {
           "id": "RAD-090",
+          "uuid": "bf7d8c9d-7668-5d73-87a1-98228e607636",
           "collectorNumber": 90,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/26b83de26622fb5163d2fe321ff29e2bf16ac027-744x1039.png?accountingTag=RB",
@@ -3851,6 +4041,7 @@
         },
         {
           "id": "RAD-090a",
+          "uuid": "ca690bce-a392-5575-9a0d-1c590bf72561",
           "collectorNumber": 90,
           "suffix": "a",
           "rarity": "showcase",
@@ -3878,6 +4069,7 @@
     },
     {
       "number": "RAD-091",
+      "uuid": "f11429fe-6b2b-5692-9694-d81b1c854ad6",
       "name": "Jarvan IV",
       "subtitle": "Martial Paragon",
       "type": "unit",
@@ -3897,6 +4089,7 @@
       "printings": [
         {
           "id": "RAD-091",
+          "uuid": "509ad394-9d2b-5a43-a25c-4e8f44e6a958",
           "collectorNumber": 91,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8edacba51db193506e13e1afb6a8509256cdf55c-744x1039.png?accountingTag=RB",
@@ -3921,6 +4114,7 @@
         },
         {
           "id": "RAD-091a",
+          "uuid": "78a63968-0883-50d4-a83b-9341cfb3aa84",
           "collectorNumber": 91,
           "suffix": "a",
           "rarity": "showcase",
@@ -3948,6 +4142,7 @@
     },
     {
       "number": "RAD-092",
+      "uuid": "b99711b7-1154-5669-b6a6-3a8fe1ac6fb4",
       "name": "Seraphic Wyvern",
       "type": "unit",
       "domains": [
@@ -3961,6 +4156,7 @@
       "printings": [
         {
           "id": "RAD-092",
+          "uuid": "a2971549-e2d2-53ae-849a-3dedae8d5651",
           "collectorNumber": 92,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ad1793554440d8d5017eadc565ca6c787a969de1-744x1039.png?accountingTag=RB",
@@ -3987,6 +4183,7 @@
     },
     {
       "number": "RAD-093",
+      "uuid": "991a19a1-1af9-509e-90f4-a9382d2c2ee5",
       "name": "Disposal Expert",
       "type": "unit",
       "domains": [
@@ -3997,6 +4194,7 @@
       "printings": [
         {
           "id": "RAD-093",
+          "uuid": "e1348a4b-16bd-5aab-8b90-6b4f4a345cdd",
           "collectorNumber": 93,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/79ec89753be773e7ea93b2116ea29d21c81fcef9-744x1039.png?accountingTag=RB",
@@ -4027,6 +4225,7 @@
     },
     {
       "number": "RAD-094",
+      "uuid": "b95962bf-c36c-5be3-a898-3d3ed5ee8863",
       "name": "Explosimian",
       "type": "unit",
       "domains": [
@@ -4037,6 +4236,7 @@
       "printings": [
         {
           "id": "RAD-094",
+          "uuid": "38612415-a51f-5708-ba65-252d66a5caef",
           "collectorNumber": 94,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f2590617229f3efc078aa2429f65b85101303200-744x1039.png?accountingTag=RB",
@@ -4067,6 +4267,7 @@
     },
     {
       "number": "RAD-095",
+      "uuid": "c5aa0fbc-7bb4-5f28-8c4f-3f0b57a2fb89",
       "name": "Momentary Companion",
       "type": "unit",
       "domains": [
@@ -4077,6 +4278,7 @@
       "printings": [
         {
           "id": "RAD-095",
+          "uuid": "925d8d21-d6d7-5ea3-a619-99e42bb15618",
           "collectorNumber": 95,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aea67209470e47ec876a11ae9b3eacda00df7be1-744x1039.png?accountingTag=RB",
@@ -4107,6 +4309,7 @@
     },
     {
       "number": "RAD-096",
+      "uuid": "18f33afd-4c30-5c43-ab7e-36c95eb67423",
       "name": "Satchel Charge",
       "type": "spell",
       "domains": [
@@ -4117,6 +4320,7 @@
       "printings": [
         {
           "id": "RAD-096",
+          "uuid": "c9e620db-0496-57a8-ba2c-8464330fe6da",
           "collectorNumber": 96,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b07c26438f600b87c92e4ed778a1c8b073b47f5c-744x1039.png?accountingTag=RB",
@@ -4147,6 +4351,7 @@
     },
     {
       "number": "RAD-097",
+      "uuid": "a914d731-9cfc-5155-9b5e-748e7630b4d6",
       "name": "Siren of the Shallows",
       "type": "spell",
       "domains": [
@@ -4157,6 +4362,7 @@
       "printings": [
         {
           "id": "RAD-097",
+          "uuid": "8b4b01e4-a167-57f5-b615-9cd651d90743",
           "collectorNumber": 97,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e666029dcebc507cc80435eee17db435305d1361-744x1039.png?accountingTag=RB",
@@ -4187,6 +4393,7 @@
     },
     {
       "number": "RAD-098",
+      "uuid": "c4b9ad8d-266d-5352-bf70-131a66af3056",
       "name": "Siren's Song",
       "type": "spell",
       "domains": [
@@ -4196,6 +4403,7 @@
       "printings": [
         {
           "id": "RAD-098",
+          "uuid": "b78d84a3-1f85-5683-a427-c0a1d6455b1f",
           "collectorNumber": 98,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/742967b3e85f51b242fc04b8db4c4e3cd7b88672-744x1039.png?accountingTag=RB",
@@ -4226,6 +4434,7 @@
     },
     {
       "number": "RAD-099",
+      "uuid": "fa5f86ac-907b-56b0-b753-5e1ef2fc9b9d",
       "name": "Suave Negotiator",
       "type": "unit",
       "domains": [
@@ -4236,6 +4445,7 @@
       "printings": [
         {
           "id": "RAD-099",
+          "uuid": "ad859a61-bef8-5e57-8d9e-2b3d276080ac",
           "collectorNumber": 99,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20e2752ddf0af274d26a3c25c737ccea2c353e39-744x1039.png?accountingTag=RB",
@@ -4266,6 +4476,7 @@
     },
     {
       "number": "RAD-100",
+      "uuid": "0916885e-81cf-54b6-990c-7d67a89217f7",
       "name": "The Waters' Wage",
       "type": "spell",
       "domains": [
@@ -4275,6 +4486,7 @@
       "printings": [
         {
           "id": "RAD-100",
+          "uuid": "03869558-0436-5663-9b08-695023d5b2db",
           "collectorNumber": 100,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0552932562db1dd48f14c74779999a645d62cc0d-744x1039.png?accountingTag=RB",
@@ -4305,6 +4517,7 @@
     },
     {
       "number": "RAD-101",
+      "uuid": "7014a92f-3853-53da-a0f2-122c02daa6b7",
       "name": "An Offer You Can't Refuse",
       "type": "gear",
       "domains": [
@@ -4314,6 +4527,7 @@
       "printings": [
         {
           "id": "RAD-101",
+          "uuid": "79d64dee-be47-5442-9e36-30154b5ddd3e",
           "collectorNumber": 101,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f724f95257abeacee82c774eff64973b56035357-744x1039.png?accountingTag=RB",
@@ -4344,6 +4558,7 @@
     },
     {
       "number": "RAD-102",
+      "uuid": "b2ed73be-a5c1-5647-80da-13d72539e5a0",
       "name": "Demon Shade",
       "type": "spell",
       "domains": [
@@ -4353,6 +4568,7 @@
       "printings": [
         {
           "id": "RAD-102",
+          "uuid": "d95c593e-03eb-5266-885e-d86a42badec8",
           "collectorNumber": 102,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e9dd313886624aafc7e0c7f9e1689225c042b484-744x1039.png?accountingTag=RB",
@@ -4383,6 +4599,7 @@
     },
     {
       "number": "RAD-103",
+      "uuid": "c21f7766-7dc6-5f5c-8ff7-965adcb7ae6b",
       "name": "Gutter Guardian",
       "type": "unit",
       "domains": [
@@ -4393,6 +4610,7 @@
       "printings": [
         {
           "id": "RAD-103",
+          "uuid": "29377e08-4ebf-5284-b5f3-c330fce83bdf",
           "collectorNumber": 103,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/756827744317003e4992163ff9bf1dc991682de8-744x1039.png?accountingTag=RB",
@@ -4423,6 +4641,7 @@
     },
     {
       "number": "RAD-104",
+      "uuid": "e5a8f6fb-c6d7-587f-8174-c12cbb3ab851",
       "name": "Pitiless Stalker",
       "energy": 5,
       "power": 1,
@@ -4430,6 +4649,7 @@
       "printings": [
         {
           "id": "RAD-104",
+          "uuid": "730027b8-3ff9-5944-a455-af5db162f6fc",
           "collectorNumber": 104,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc61b244fb3ed01d61617c3c2633a71424604130-744x1039.png?accountingTag=RB",
@@ -4460,6 +4680,7 @@
     },
     {
       "number": "RAD-105",
+      "uuid": "e0791efd-4a7d-5333-8c87-e1eb8c76663e",
       "name": "Reckless Innovator",
       "type": "unit",
       "domains": [
@@ -4470,6 +4691,7 @@
       "printings": [
         {
           "id": "RAD-105",
+          "uuid": "eb2dd54b-dc04-5379-9a67-1537bbd892c0",
           "collectorNumber": 105,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b7ff5684309bcd346e6b3534e0d1f38ec1a38726-744x1039.png?accountingTag=RB",
@@ -4500,6 +4722,7 @@
     },
     {
       "number": "RAD-106",
+      "uuid": "7cf84138-5fe7-5d01-9242-debf987d8e6f",
       "name": "The Good Stuff",
       "type": "gear",
       "domains": [
@@ -4513,6 +4736,7 @@
       "printings": [
         {
           "id": "RAD-106",
+          "uuid": "1fb11330-8e6e-5f2a-826e-5b0c13f4a1c4",
           "collectorNumber": 106,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7dcc9ad059b471373f0093453a0ca7537d6aa0f-744x1039.png?accountingTag=RB",
@@ -4540,6 +4764,7 @@
     },
     {
       "number": "RAD-107",
+      "uuid": "58a6834e-4e12-56c8-b8bb-5d263bed41a9",
       "name": "Bedeviling Stranger",
       "type": "unit",
       "domains": [
@@ -4550,6 +4775,7 @@
       "printings": [
         {
           "id": "RAD-107",
+          "uuid": "07efdc23-d87f-5d84-aa3c-e0573abf9480",
           "collectorNumber": 107,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d112a706fe957e5cea58ea1e4366ac02e3ba292b-744x1039.png?accountingTag=RB",
@@ -4579,6 +4805,7 @@
     },
     {
       "number": "RAD-108",
+      "uuid": "a9b391b0-2b96-5bd8-b658-afccf956b2f4",
       "name": "Bushwhack Trap",
       "type": "unit",
       "domains": [
@@ -4591,6 +4818,7 @@
       "printings": [
         {
           "id": "RAD-108",
+          "uuid": "9c33d440-4883-5ef5-acae-3a593a6f00e8",
           "collectorNumber": 108,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/120762e23a599ee14d3f88856fcf707154338fb0-744x1039.png?accountingTag=RB",
@@ -4620,6 +4848,7 @@
     },
     {
       "number": "RAD-109",
+      "uuid": "a46b7187-a044-5e12-8562-81257b7b069a",
       "name": "Evelynn",
       "subtitle": "In Control",
       "type": "unit",
@@ -4638,6 +4867,7 @@
       "printings": [
         {
           "id": "RAD-109",
+          "uuid": "cb77a505-a5ca-52be-8e3c-63c7abcd72bd",
           "collectorNumber": 109,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c17158e6153eddb4b56abd8a09cbbd20600b049-744x1039.png?accountingTag=RB",
@@ -4662,6 +4892,7 @@
         },
         {
           "id": "RAD-109a",
+          "uuid": "ee08c7dd-f117-5fbb-8c62-2ed86db4ef35",
           "collectorNumber": 109,
           "suffix": "a",
           "rarity": "showcase",
@@ -4689,6 +4920,7 @@
     },
     {
       "number": "RAD-110",
+      "uuid": "c7205061-0e60-5b41-b56c-044a92e7db97",
       "name": "Lulu",
       "subtitle": "Whimsical",
       "type": "unit",
@@ -4708,6 +4940,7 @@
       "printings": [
         {
           "id": "RAD-110",
+          "uuid": "be9b063d-f3d6-5e64-afe5-35552b1c79ab",
           "collectorNumber": 110,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/defd09480671a1e394725f21b6c3448ebec77913-744x1039.png?accountingTag=RB",
@@ -4737,6 +4970,7 @@
     },
     {
       "number": "RAD-111",
+      "uuid": "aa8106b7-c9b7-5d4e-bc25-56acaee536e2",
       "name": "Mechanical Bandit",
       "type": "gear",
       "domains": [
@@ -4750,6 +4984,7 @@
       "printings": [
         {
           "id": "RAD-111",
+          "uuid": "beae7ead-4ce0-5e0a-b13e-db9c223848d5",
           "collectorNumber": 111,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb2a419b61b6f1e6d138c3c3b07b393a4037237b-744x1039.png?accountingTag=RB",
@@ -4779,6 +5014,7 @@
     },
     {
       "number": "RAD-112",
+      "uuid": "607477f0-1642-5ebc-8f3e-f5e24993a015",
       "name": "Ziggs",
       "subtitle": "Explosive",
       "type": "unit",
@@ -4797,6 +5033,7 @@
       "printings": [
         {
           "id": "RAD-112",
+          "uuid": "ea264915-96bb-5441-95aa-3d6b6aff93e8",
           "collectorNumber": 112,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f0c1f1f3b69b31a69f9637ece841b5ee1029cdd3-744x1039.png?accountingTag=RB",
@@ -4818,6 +5055,7 @@
         },
         {
           "id": "RAD-112a",
+          "uuid": "71c3566c-1bc3-5269-a8c1-768a99289176",
           "collectorNumber": 112,
           "suffix": "a",
           "rarity": "showcase",
@@ -4845,6 +5083,7 @@
     },
     {
       "number": "RAD-113",
+      "uuid": "f3ed8413-6d68-5685-bfa5-fcb746c59119",
       "name": "Angler Wyrm",
       "type": "unit",
       "domains": [
@@ -4855,6 +5094,7 @@
       "printings": [
         {
           "id": "RAD-113",
+          "uuid": "bc213841-5bbb-5085-8a63-252a74286438",
           "collectorNumber": 113,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e805eba9add03fd3e1b1601b15c12a46fd403282-744x1039.png?accountingTag=RB",
@@ -4884,6 +5124,7 @@
     },
     {
       "number": "RAD-114",
+      "uuid": "70d8e75e-1539-5b50-b8d8-5356ee4ef0c1",
       "name": "Riven",
       "subtitle": "Deserter",
       "type": "unit",
@@ -4902,6 +5143,7 @@
       "printings": [
         {
           "id": "RAD-114",
+          "uuid": "b114a3ca-f22f-5623-a6ff-6be17f0e31bc",
           "collectorNumber": 114,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/59c080321a697164c9eeb6f0ad297ff0d0b85808-744x1039.png?accountingTag=RB",
@@ -4923,6 +5165,7 @@
         },
         {
           "id": "RAD-114a",
+          "uuid": "9702f3d6-3db2-5cfd-8f12-c085d1601fc1",
           "collectorNumber": 114,
           "suffix": "a",
           "rarity": "showcase",
@@ -4950,6 +5193,7 @@
     },
     {
       "number": "RAD-115",
+      "uuid": "3e2c60d1-453b-5afa-ad31-607509c6dfe5",
       "name": "Transpositionist",
       "type": "unit",
       "domains": [
@@ -4960,6 +5204,7 @@
       "printings": [
         {
           "id": "RAD-115",
+          "uuid": "61e40568-bc98-5030-abe7-97552378d90a",
           "collectorNumber": 115,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60cf9dbb9345d44f0a9a78b60d5fb71411b50d69-744x1039.png?accountingTag=RB",
@@ -4989,6 +5234,7 @@
     },
     {
       "number": "RAD-116",
+      "uuid": "af6397dc-e7c1-588b-b90b-4465977d9d51",
       "name": "Concert Poster",
       "type": "gear",
       "domains": [
@@ -5001,6 +5247,7 @@
       "printings": [
         {
           "id": "RAD-116",
+          "uuid": "5a6a7836-e1c5-5fc0-a513-4899e94407b1",
           "collectorNumber": 116,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e80322dac6065e3ee726f5f9a2650a88195a44c-744x1039.png?accountingTag=RB",
@@ -5028,6 +5275,7 @@
     },
     {
       "number": "RAD-117",
+      "uuid": "5285ccb5-274e-5e42-a6b8-fe41d9bfb905",
       "name": "For Demacia!",
       "type": "spell",
       "domains": [
@@ -5037,6 +5285,7 @@
       "printings": [
         {
           "id": "RAD-117",
+          "uuid": "3cb04171-0748-5a6d-a6e4-3b757e919b13",
           "collectorNumber": 117,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5d119653fcba423c150815de3a412922c4e481e8-744x1039.png?accountingTag=RB",
@@ -5067,6 +5316,7 @@
     },
     {
       "number": "RAD-118",
+      "uuid": "2ef25268-ae34-5c8e-9295-5c8c62b1091a",
       "name": "Herald of the Emperor",
       "type": "unit",
       "domains": [
@@ -5077,6 +5327,7 @@
       "printings": [
         {
           "id": "RAD-118",
+          "uuid": "55b27666-57dd-5956-8346-51f65f58610e",
           "collectorNumber": 118,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a168856002994f7ac67150d991e65152e6434ab6-744x1039.png?accountingTag=RB",
@@ -5107,6 +5358,7 @@
     },
     {
       "number": "RAD-119",
+      "uuid": "09e376c7-5b25-57c4-9f1f-a032d7199c39",
       "name": "Hunting Dog",
       "type": "unit",
       "domains": [
@@ -5117,6 +5369,7 @@
       "printings": [
         {
           "id": "RAD-119",
+          "uuid": "845ee4ed-6c2c-5a5b-b484-caf70a5cb7c8",
           "collectorNumber": 119,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cefd575150527670879748a7212f80a1f4c1c4fc-744x1039.png?accountingTag=RB",
@@ -5147,6 +5400,7 @@
     },
     {
       "number": "RAD-120",
+      "uuid": "eda335c2-0ae1-51b8-8bb7-32a298590a34",
       "name": "Meticulous Restorationist",
       "type": "gear",
       "domains": [
@@ -5160,6 +5414,7 @@
       "printings": [
         {
           "id": "RAD-120",
+          "uuid": "7339dcac-1884-5c43-bd23-8bd02ddb87fb",
           "collectorNumber": 120,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ee50fbf5e902e7109a3d54b417edc440b5a37198-744x1039.png?accountingTag=RB",
@@ -5190,11 +5445,13 @@
     },
     {
       "number": "RAD-121",
+      "uuid": "f75fb0e0-e168-5c8c-8904-52f27ec96a2f",
       "name": "One-Two Punch",
       "energy": 3,
       "printings": [
         {
           "id": "RAD-121",
+          "uuid": "2d5ea338-61b2-57ee-8fd0-3508f51f17b0",
           "collectorNumber": 121,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f246286c658d44dc4e7d51c158b2f822da39825-744x1039.png?accountingTag=RB",
@@ -5225,6 +5482,7 @@
     },
     {
       "number": "RAD-122",
+      "uuid": "f5f5c4e9-0f06-5ea6-bdbd-7a1e803860d3",
       "name": "Party Crasher",
       "type": "unit",
       "domains": [
@@ -5236,6 +5494,7 @@
       "printings": [
         {
           "id": "RAD-122",
+          "uuid": "16da7edf-18a3-5981-bffc-3abb581a42d4",
           "collectorNumber": 122,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3413fc46086d559c2a60657e4729f22475bbdec0-744x1039.png?accountingTag=RB",
@@ -5266,6 +5525,7 @@
     },
     {
       "number": "RAD-123",
+      "uuid": "8d4e9897-ab68-56f9-9708-65d52fb34cd2",
       "name": "Protector's Shield",
       "energy": 2,
       "power": 1,
@@ -5274,6 +5534,7 @@
       "printings": [
         {
           "id": "RAD-123",
+          "uuid": "13a224c2-4305-5116-b10f-3bf0ea296c82",
           "collectorNumber": 123,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/97618bc30e9b65a2e5223e6f94db58d7098d30a6-744x1039.png?accountingTag=RB",
@@ -5304,6 +5565,7 @@
     },
     {
       "number": "RAD-124",
+      "uuid": "c0e5b5a1-9c9f-5870-9ef9-81ef931e4703",
       "name": "Burn Away",
       "type": "gear",
       "domains": [
@@ -5314,6 +5576,7 @@
       "printings": [
         {
           "id": "RAD-124",
+          "uuid": "12d1336a-490e-575d-83f4-f3e7aa2f4644",
           "collectorNumber": 124,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/751629a34ee6ba6476ce2f0a821b9f84b5562acd-744x1039.png?accountingTag=RB",
@@ -5344,6 +5607,7 @@
     },
     {
       "number": "RAD-125",
+      "uuid": "6efff32f-a703-5ab0-ac4f-dfc0baca4234",
       "name": "Dune Devourer",
       "type": "unit",
       "domains": [
@@ -5355,6 +5619,7 @@
       "printings": [
         {
           "id": "RAD-125",
+          "uuid": "b07acce8-a6fb-5df5-8829-03a30e0b2ca7",
           "collectorNumber": 125,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4f49bf38f0d3abb71e148783ebec97f446db8166-744x1039.png?accountingTag=RB",
@@ -5385,6 +5650,7 @@
     },
     {
       "number": "RAD-126",
+      "uuid": "d373d31f-29a3-5625-9682-8040cbb69566",
       "name": "Mournful Spirit",
       "type": "unit",
       "domains": [
@@ -5398,6 +5664,7 @@
       "printings": [
         {
           "id": "RAD-126",
+          "uuid": "713db776-d553-5510-b2db-79f89421b3e0",
           "collectorNumber": 126,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d8500ac7efc5382985f566212d88ac8f41c135d-744x1039.png?accountingTag=RB",
@@ -5428,6 +5695,7 @@
     },
     {
       "number": "RAD-127",
+      "uuid": "cea185ac-a509-58d0-ba85-ca39123a2813",
       "name": "Rousing Display",
       "domains": [
         "order"
@@ -5436,6 +5704,7 @@
       "printings": [
         {
           "id": "RAD-127",
+          "uuid": "92a94035-ac69-52f5-bb1f-25005a892b69",
           "collectorNumber": 127,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18aa7cab082fd0e293260bcf480a1a76d12b64d9-744x1039.png?accountingTag=RB",
@@ -5466,6 +5735,7 @@
     },
     {
       "number": "RAD-128",
+      "uuid": "f237c95e-c812-57d1-a04d-6165a41ee347",
       "name": "Steadfast Outrider",
       "type": "unit",
       "domains": [
@@ -5476,6 +5746,7 @@
       "printings": [
         {
           "id": "RAD-128",
+          "uuid": "b53e7009-8241-5dda-9db4-e97bb25a34b5",
           "collectorNumber": 128,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/efa8d58e65b1b1f804d37bb51bb67ea52e0b3205-744x1039.png?accountingTag=RB",
@@ -5506,6 +5777,7 @@
     },
     {
       "number": "RAD-129",
+      "uuid": "85325419-8abd-566f-82c8-0b1a246bc318",
       "name": "Trifarian Captain",
       "type": "unit",
       "domains": [
@@ -5516,6 +5788,7 @@
       "printings": [
         {
           "id": "RAD-129",
+          "uuid": "7c7af34b-cea9-5626-bde0-709d91049e1c",
           "collectorNumber": 129,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/914ced10400826a878ed5cf7294207a4e7b542b1-744x1039.png?accountingTag=RB",
@@ -5546,6 +5819,7 @@
     },
     {
       "number": "RAD-130",
+      "uuid": "879ff229-513c-56e0-8eee-7bba91d3758b",
       "name": "Battlefield Armorer",
       "type": "spell",
       "domains": [
@@ -5556,6 +5830,7 @@
       "printings": [
         {
           "id": "RAD-130",
+          "uuid": "3d421989-3455-5315-9279-1a037c3ef28c",
           "collectorNumber": 130,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eb04c39763de8fb8e56153d1f0e4f799e15dced9-744x1039.png?accountingTag=RB",
@@ -5585,6 +5860,7 @@
     },
     {
       "number": "RAD-131",
+      "uuid": "4a0b3f4d-5b6e-5dad-a2ff-5f8a2e29680d",
       "name": "Demacian Illuminators",
       "type": "spell",
       "domains": [
@@ -5596,6 +5872,7 @@
       "printings": [
         {
           "id": "RAD-131",
+          "uuid": "779d8c8f-c343-5b57-97a0-94b70127b162",
           "collectorNumber": 131,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/127c2700ee4e2557dfd463ed84c45f4600ad9723-744x1039.png?accountingTag=RB",
@@ -5625,6 +5902,7 @@
     },
     {
       "number": "RAD-132",
+      "uuid": "a9fcc226-51bf-55d5-8f08-b3b159e46d31",
       "name": "Heimerdinger",
       "subtitle": "Academy Instructor",
       "type": "unit",
@@ -5645,6 +5923,7 @@
       "printings": [
         {
           "id": "RAD-132",
+          "uuid": "2c7df8ef-78ce-5519-b327-0e13bc64e446",
           "collectorNumber": 132,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1795e905171c74b84b4b7f84a57fecbb4bbd6f75-744x1039.png?accountingTag=RB",
@@ -5674,6 +5953,7 @@
     },
     {
       "number": "RAD-133",
+      "uuid": "2cbc8363-0869-569f-ae77-8f315819456a",
       "name": "Jarvan IV",
       "subtitle": "Royal Heir",
       "type": "unit",
@@ -5693,6 +5973,7 @@
       "printings": [
         {
           "id": "RAD-133",
+          "uuid": "21e7d94a-22bd-5b8c-9f8d-6e813b5279cd",
           "collectorNumber": 133,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/967de7aa18d5833896825bfd7d78b234e088ae73-744x1039.png?accountingTag=RB",
@@ -5717,6 +5998,7 @@
         },
         {
           "id": "RAD-133a",
+          "uuid": "45ef0873-4c5b-524c-b16f-74235e73ca0e",
           "collectorNumber": 133,
           "suffix": "a",
           "rarity": "showcase",
@@ -5744,12 +6026,14 @@
     },
     {
       "number": "RAD-134",
+      "uuid": "185fdad0-582d-5496-a459-f1778d2c99f9",
       "name": "Raucous Anthem",
       "energy": 7,
       "power": 1,
       "printings": [
         {
           "id": "RAD-134",
+          "uuid": "6cd4bfdd-4b3c-59ca-9718-2328205eb44c",
           "collectorNumber": 134,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0c307d5f4785efc4f0a4c8e486b53735f8cf04aa-744x1039.png?accountingTag=RB",
@@ -5779,6 +6063,7 @@
     },
     {
       "number": "RAD-135",
+      "uuid": "fd9af44c-554c-5633-a1c2-5ceb47f8a1d6",
       "name": "Remember the Fallen",
       "type": "spell",
       "domains": [
@@ -5789,6 +6074,7 @@
       "printings": [
         {
           "id": "RAD-135",
+          "uuid": "6ecd273d-a504-5cfa-9e96-a36ce4afaa77",
           "collectorNumber": 135,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0bfd45446d5ffb816438ae2668ad4e5b7f188ad3-744x1039.png?accountingTag=RB",
@@ -5818,6 +6104,7 @@
     },
     {
       "number": "RAD-136",
+      "uuid": "d752c6a0-bcbe-53fc-9e15-28f7dfc33c43",
       "name": "Dockside Lock-Up",
       "type": "unit",
       "domains": [
@@ -5831,6 +6118,7 @@
       "printings": [
         {
           "id": "RAD-136",
+          "uuid": "b4b949c4-d007-5944-8b98-1a4dcb3cb071",
           "collectorNumber": 136,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4f477ccc474cb16e4e9d681b388f0673f77fae5b-744x1039.png?accountingTag=RB",
@@ -5857,6 +6145,7 @@
     },
     {
       "number": "RAD-137",
+      "uuid": "29f01852-5f61-58dc-9deb-80615ea09bd5",
       "name": "Mordekaiser",
       "subtitle": "Dominating",
       "type": "unit",
@@ -5876,6 +6165,7 @@
       "printings": [
         {
           "id": "RAD-137",
+          "uuid": "4e372f46-1f0b-5e1d-91ba-eb61f2de35fb",
           "collectorNumber": 137,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/43068166258356908b364566abcfc57123e96caa-744x1039.png?accountingTag=RB",
@@ -5900,6 +6190,7 @@
         },
         {
           "id": "RAD-137a",
+          "uuid": "2f6a8b2b-a019-59c7-b3d9-0a5c0b4ccc4f",
           "collectorNumber": 137,
           "suffix": "a",
           "rarity": "showcase",
@@ -5927,6 +6218,7 @@
     },
     {
       "number": "RAD-138",
+      "uuid": "0df43fa4-2082-5992-a65f-1a466f17ec8e",
       "name": "Seraphine",
       "subtitle": "Not Alone",
       "type": "unit",
@@ -5946,6 +6238,7 @@
       "printings": [
         {
           "id": "RAD-138",
+          "uuid": "2e9989ea-8c7c-5b37-99d7-bc765f3891f7",
           "collectorNumber": 138,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/756f0d5d9e83ba0ebcfaf1b69055fdc29458b084-744x1039.png?accountingTag=RB",
@@ -5967,6 +6260,7 @@
         },
         {
           "id": "RAD-138a",
+          "uuid": "b49cda8c-8e9e-5789-b3c3-4e174046a1a9",
           "collectorNumber": 138,
           "suffix": "a",
           "rarity": "showcase",
@@ -5991,6 +6285,7 @@
     },
     {
       "number": "RAD-139",
+      "uuid": "68300132-6f7e-5125-9ee4-008528891581",
       "name": "Boy Who Shattered Time",
       "type": "legend",
       "domains": [
@@ -6003,6 +6298,7 @@
       "printings": [
         {
           "id": "RAD-139",
+          "uuid": "9ccdf35b-0ac6-533a-8250-2594f1a4df86",
           "collectorNumber": 139,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ca3ef446631784ce1d261e30f6a163843ffcb2b-744x1039.png?accountingTag=RB",
@@ -6029,6 +6325,7 @@
     },
     {
       "number": "RAD-140",
+      "uuid": "4f1e86b1-1252-5b14-9599-616aaf96070c",
       "name": "Chronobreak",
       "type": "spell",
       "superTypes": [
@@ -6045,6 +6342,7 @@
       "printings": [
         {
           "id": "RAD-140",
+          "uuid": "2efc98d2-ede8-5cb2-b10e-fd0c46c71c5d",
           "collectorNumber": 140,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af2123a99f3e3e7e6c9b101c5fc2c9b0ff56e096-744x1040.png?accountingTag=RB",
@@ -6074,6 +6372,7 @@
     },
     {
       "number": "RAD-141",
+      "uuid": "f3c7dd45-41aa-5f7b-9cb6-daa555f0f7de",
       "name": "Hexplosives Expert",
       "type": "legend",
       "domains": [
@@ -6087,6 +6386,7 @@
       "printings": [
         {
           "id": "RAD-141",
+          "uuid": "39b5a60f-5ad7-5c06-8213-b1d6edad06bf",
           "collectorNumber": 141,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69899f4d5e05ff0a060b9f38894cd77f9e17d195-744x1039.png?accountingTag=RB",
@@ -6113,6 +6413,7 @@
     },
     {
       "number": "RAD-142",
+      "uuid": "e48ce7b8-dcce-517c-9b6f-307b035f3147",
       "name": "Hexplosive Minefield",
       "type": "spell",
       "superTypes": [
@@ -6130,6 +6431,7 @@
       "printings": [
         {
           "id": "RAD-142",
+          "uuid": "b425ca46-ba17-56c4-845a-80c160507413",
           "collectorNumber": 142,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/65b599befcc6ed873de0e7965bf497a805505327-744x1040.png?accountingTag=RB",
@@ -6159,6 +6461,7 @@
     },
     {
       "number": "RAD-143",
+      "uuid": "8ae92abb-402a-5bf6-870f-ba3a35d6354a",
       "name": "Iron Revenant",
       "type": "legend",
       "domains": [
@@ -6171,6 +6474,7 @@
       "printings": [
         {
           "id": "RAD-143",
+          "uuid": "f102b41a-c176-5e56-a4c4-46f501b7c12f",
           "collectorNumber": 143,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/90ec3319518771820909592eee963d34dab037bc-744x1039.png?accountingTag=RB",
@@ -6197,6 +6501,7 @@
     },
     {
       "number": "RAD-144",
+      "uuid": "c36d23e0-9a08-56e5-ad3e-fe99872b1a8a",
       "name": "Realm of Death",
       "type": "spell",
       "superTypes": [
@@ -6214,6 +6519,7 @@
       "printings": [
         {
           "id": "RAD-144",
+          "uuid": "1c560d94-b5f1-5945-93d5-efea50f35fed",
           "collectorNumber": 144,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd3b4c6939b6a80b33956da7e3a9102eba9c32a8-744x1040.png?accountingTag=RB",
@@ -6240,6 +6546,7 @@
     },
     {
       "number": "RAD-145",
+      "uuid": "d8d61544-8561-5085-b6df-b7784f9dcaeb",
       "name": "Lady of Clockwork",
       "type": "legend",
       "domains": [
@@ -6252,6 +6559,7 @@
       "printings": [
         {
           "id": "RAD-145",
+          "uuid": "227bdeee-0012-56a9-b948-0405f89c5b5a",
           "collectorNumber": 145,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d1f940425d4d913d8f56c017254343bc898f4892-744x1039.png?accountingTag=RB",
@@ -6278,6 +6586,7 @@
     },
     {
       "number": "RAD-146",
+      "uuid": "440baca0-0e20-55b9-9497-1bc8f4f01519",
       "name": "The Ball",
       "type": "gear",
       "superTypes": [
@@ -6296,6 +6605,7 @@
       "printings": [
         {
           "id": "RAD-146",
+          "uuid": "41a9b572-6ec8-57a1-b460-8dfd22dfba41",
           "collectorNumber": 146,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4b11f36bd5ce2b08677959664cda3906a04d234c-744x1040.png?accountingTag=RB",
@@ -6322,6 +6632,7 @@
     },
     {
       "number": "RAD-147",
+      "uuid": "1062512c-2952-5fbd-bd0e-b5317990232e",
       "name": "Pride of Nazumah",
       "type": "legend",
       "domains": [
@@ -6334,6 +6645,7 @@
       "printings": [
         {
           "id": "RAD-147",
+          "uuid": "1c11f668-b8c7-53c8-86bb-0c47da954ce6",
           "collectorNumber": 147,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/190a27bf844fa21105824efc19de4e71c3137df6-744x1039.png?accountingTag=RB",
@@ -6360,6 +6672,7 @@
     },
     {
       "number": "RAD-148",
+      "uuid": "95851d9c-ddd5-5c2a-ab15-40b71b627d7a",
       "name": "Ntofo Strikes",
       "type": "spell",
       "superTypes": [
@@ -6377,6 +6690,7 @@
       "printings": [
         {
           "id": "RAD-148",
+          "uuid": "f1958c42-6fc9-51c5-b22b-3b0e854fcdfc",
           "collectorNumber": 148,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ab5aa7d29bd49efe2c9da3b62a8065295c189991-744x1040.png?accountingTag=RB",
@@ -6406,6 +6720,7 @@
     },
     {
       "number": "RAD-149",
+      "uuid": "76745bd9-a2b9-59ef-97cf-cd0b54dfad42",
       "name": "The Exile",
       "type": "legend",
       "domains": [
@@ -6418,6 +6733,7 @@
       "printings": [
         {
           "id": "RAD-149",
+          "uuid": "f2305f0d-49c2-5295-b20e-3a3f4d7d41ae",
           "collectorNumber": 149,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/342befcaab98642a2348bd2f6fdb92c68563b6d7-744x1039.png?accountingTag=RB",
@@ -6444,6 +6760,7 @@
     },
     {
       "number": "RAD-150",
+      "uuid": "7c7b39a2-2279-5e02-bbb2-7c4586164e68",
       "name": "Blade of the Exile",
       "type": "gear",
       "superTypes": [
@@ -6464,6 +6781,7 @@
       "printings": [
         {
           "id": "RAD-150",
+          "uuid": "d52d238a-a814-5ff6-a510-faf271e81bf7",
           "collectorNumber": 150,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/04aaded01b23641e496e39f51882ccfe89715492-744x1040.png?accountingTag=RB",
@@ -6493,6 +6811,7 @@
     },
     {
       "number": "RAD-151",
+      "uuid": "63bdde90-9ae7-54d6-9096-1ec378dc841b",
       "name": "Starry-Eyed Songstress",
       "type": "legend",
       "domains": [
@@ -6505,6 +6824,7 @@
       "printings": [
         {
           "id": "RAD-151",
+          "uuid": "e8e9cc65-3636-53aa-a468-6f55c008ee33",
           "collectorNumber": 151,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/399262205b15aa3b6306eb1d80a308791dcbe2ca-744x1039.png?accountingTag=RB",
@@ -6531,6 +6851,7 @@
     },
     {
       "number": "RAD-152",
+      "uuid": "f57eecb0-9c2c-5c90-9a9e-3a650246d6c2",
       "name": "Encore",
       "type": "spell",
       "superTypes": [
@@ -6548,6 +6869,7 @@
       "printings": [
         {
           "id": "RAD-152",
+          "uuid": "ecd7d481-842c-53e2-9aeb-59ee5f52da77",
           "collectorNumber": 152,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0200aeca5d0a1cca4b8ab5b3f3910207118ee4e4-744x1040.png?accountingTag=RB",
@@ -6577,6 +6899,7 @@
     },
     {
       "number": "RAD-153",
+      "uuid": "d1b2ff35-4e53-571f-95e8-1cce8546e679",
       "name": "Agony's Embrace",
       "type": "legend",
       "domains": [
@@ -6589,6 +6912,7 @@
       "printings": [
         {
           "id": "RAD-153",
+          "uuid": "d91946c5-629f-5ab7-9156-ea9aaa758540",
           "collectorNumber": 153,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ca217b57d0e8d2e04e7a35105deaa6be17e854f0-744x1039.png?accountingTag=RB",
@@ -6615,6 +6939,7 @@
     },
     {
       "number": "RAD-154",
+      "uuid": "cbd786dc-528c-5444-aaec-98436a9e132d",
       "name": "Last Caress",
       "type": "spell",
       "superTypes": [
@@ -6631,6 +6956,7 @@
       "printings": [
         {
           "id": "RAD-154",
+          "uuid": "32a9ac2d-0ea0-50be-a8b1-98fe013656e6",
           "collectorNumber": 154,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c34881b6fe2e63f6345845fe95cfe72eb9d4878c-744x1040.png?accountingTag=RB",
@@ -6660,6 +6986,7 @@
     },
     {
       "number": "RAD-155",
+      "uuid": "e98081fe-e900-5b09-b442-6f98eeeea03a",
       "name": "Exemplar of Demacia",
       "type": "legend",
       "domains": [
@@ -6672,6 +6999,7 @@
       "printings": [
         {
           "id": "RAD-155",
+          "uuid": "547ace7a-3c5e-5900-9417-645d462f68d5",
           "collectorNumber": 155,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e85c005f938e44655f926bb406a47359ae51ecc1-744x1039.png?accountingTag=RB",
@@ -6698,6 +7026,7 @@
     },
     {
       "number": "RAD-156",
+      "uuid": "e58f5c78-86d9-52e0-ab96-1a3e782976cd",
       "name": "Demacian Standard",
       "type": "gear",
       "superTypes": [
@@ -6716,6 +7045,7 @@
       "printings": [
         {
           "id": "RAD-156",
+          "uuid": "a0f144a3-bb49-5171-8c2f-6fd07ccf3f88",
           "collectorNumber": 156,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/315b0f7901a83df38b9765f12b1edfdc7de566a3-744x1040.png?accountingTag=RB",
@@ -6745,6 +7075,7 @@
     },
     {
       "number": "RAD-157",
+      "uuid": "0eb9fb0f-2e49-501e-b30b-4dd0f231f0d9",
       "name": "Bandle Scouts' Academy",
       "type": "battlefield",
       "domains": [
@@ -6753,6 +7084,7 @@
       "printings": [
         {
           "id": "RAD-157",
+          "uuid": "0aff09a5-956c-50bd-8fe0-caaa3a1ddf78",
           "collectorNumber": 157,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f5bb93e1ad9005fd42a9129b91f72877f1dedbe1-1039x744.png?accountingTag=RB",
@@ -6783,6 +7115,7 @@
     },
     {
       "number": "RAD-158",
+      "uuid": "943f735d-ea1b-554a-a585-6405520d9f1e",
       "name": "Black Market",
       "type": "battlefield",
       "domains": [
@@ -6791,6 +7124,7 @@
       "printings": [
         {
           "id": "RAD-158",
+          "uuid": "d2748f40-2e55-5014-9acd-757eddf40a7f",
           "collectorNumber": 158,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9a02ae108f32a8b88be47a94b5f0d39b5a06a6a1-1039x744.png?accountingTag=RB",
@@ -6821,6 +7155,7 @@
     },
     {
       "number": "RAD-159",
+      "uuid": "0e86e81b-f81f-5011-87ec-64c5841aa2a8",
       "name": "Black Rose Sanctum",
       "type": "battlefield",
       "domains": [
@@ -6829,6 +7164,7 @@
       "printings": [
         {
           "id": "RAD-159",
+          "uuid": "ebaa573d-4d76-5fd6-af12-89f1e342fd41",
           "collectorNumber": 159,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/03ce18a231c7c919875b436b06bbe4e1a99c4831-1039x744.png?accountingTag=RB",
@@ -6859,6 +7195,7 @@
     },
     {
       "number": "RAD-160",
+      "uuid": "75c5e8eb-d948-50b0-b444-442dea5e09e2",
       "name": "Cosmic Vista",
       "type": "battlefield",
       "domains": [
@@ -6867,6 +7204,7 @@
       "printings": [
         {
           "id": "RAD-160",
+          "uuid": "35633377-1794-5923-9101-3e6fe59d23e6",
           "collectorNumber": 160,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0efb6db0a41350e9cfc116b235eeb92bb05ed5bf-1039x744.png?accountingTag=RB",
@@ -6897,6 +7235,7 @@
     },
     {
       "number": "RAD-161",
+      "uuid": "d1d91fb9-9d5c-5b73-a05c-59b2c88c3dee",
       "name": "Durand Memorial",
       "type": "battlefield",
       "domains": [
@@ -6905,6 +7244,7 @@
       "printings": [
         {
           "id": "RAD-161",
+          "uuid": "8acbf267-49e4-5f33-9d77-7030a76ce06e",
           "collectorNumber": 161,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b565fec4e11308f5f01416a1c914d50a1d17ca19-1039x744.png?accountingTag=RB",
@@ -6935,6 +7275,7 @@
     },
     {
       "number": "RAD-162",
+      "uuid": "73866b47-42df-53ec-b37e-710054bd259e",
       "name": "Firelights' Hideout",
       "type": "battlefield",
       "domains": [
@@ -6943,6 +7284,7 @@
       "printings": [
         {
           "id": "RAD-162",
+          "uuid": "d8d30427-ec7e-5291-9118-b4afe94741a9",
           "collectorNumber": 162,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f8e2d555ff0dc250de38a1c8924a199dc121f036-1039x744.png?accountingTag=RB",
@@ -6973,6 +7315,7 @@
     },
     {
       "number": "RAD-163",
+      "uuid": "29b0f1e2-43f0-58de-b817-61bdc85f49ca",
       "name": "Hunters' Circle",
       "type": "battlefield",
       "domains": [
@@ -6981,6 +7324,7 @@
       "printings": [
         {
           "id": "RAD-163",
+          "uuid": "b4a65d15-c275-58f3-934a-790c2bd7f357",
           "collectorNumber": 163,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7e25d90506d805f1996e7f751cb5b6baa8ec305-1039x744.png?accountingTag=RB",
@@ -7011,6 +7355,7 @@
     },
     {
       "number": "RAD-164",
+      "uuid": "dbd9e7b2-edb7-502a-b102-3ac8c46d2b95",
       "name": "Packed Amphitheater",
       "type": "battlefield",
       "domains": [
@@ -7019,6 +7364,7 @@
       "printings": [
         {
           "id": "RAD-164",
+          "uuid": "a243d584-7e54-5027-b9ab-68e22dd65198",
           "collectorNumber": 164,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4b396780dd7a5aa1be43f763265f308ee0fe665-1039x744.png?accountingTag=RB",
@@ -7046,6 +7392,7 @@
     },
     {
       "number": "RAD-165",
+      "uuid": "4bf2c2a1-cfac-54f5-82eb-a2d2f0301794",
       "name": "Rakelstake",
       "type": "battlefield",
       "domains": [
@@ -7054,6 +7401,7 @@
       "printings": [
         {
           "id": "RAD-165",
+          "uuid": "c8db59ac-514d-553b-a6d9-208993c2a916",
           "collectorNumber": 165,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/53c096e4bc843a4cfe84fd16d922033b7fcfb330-1039x744.png?accountingTag=RB",
@@ -7084,6 +7432,7 @@
     },
     {
       "number": "RAD-166",
+      "uuid": "18f9abca-0b42-507d-980a-3578959ff5d2",
       "name": "Ruined Monastery",
       "type": "battlefield",
       "domains": [
@@ -7092,6 +7441,7 @@
       "printings": [
         {
           "id": "RAD-166",
+          "uuid": "144d6928-1562-5d85-b1da-d4ab0601f1c4",
           "collectorNumber": 166,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2d756c5198dafb151f51cceca4f11824575960cd-1039x744.png?accountingTag=RB",
@@ -7122,6 +7472,7 @@
     },
     {
       "number": "RAD-167",
+      "uuid": "351befcd-c4b8-5f5b-b265-ba73ac654a4a",
       "name": "Neeko",
       "subtitle": "Blending In",
       "type": "unit",
@@ -7141,6 +7492,7 @@
       "printings": [
         {
           "id": "RAD-167",
+          "uuid": "4b9760b1-11a8-5542-8027-63e637ee8b56",
           "collectorNumber": 167,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/607da6f534ce1b960ad02586ed4cd47c996e2c42-744x1039.png?accountingTag=RB",
@@ -7170,6 +7522,7 @@
     },
     {
       "number": "RAD-168",
+      "uuid": "9d9bbd9e-ec36-551d-90f4-2b412d9ccb2e",
       "name": "Boy Who Shattered Time",
       "type": "legend",
       "domains": [
@@ -7182,6 +7535,7 @@
       "printings": [
         {
           "id": "RAD-168",
+          "uuid": "90db174d-264a-506f-b6f1-cea572f3a157",
           "collectorNumber": 168,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0a921eca1acad149fd4bcb13244e3af25feac488-744x1039.png?accountingTag=RB",
@@ -7206,6 +7560,7 @@
         },
         {
           "id": "RAD-168*",
+          "uuid": "6a000ba6-269f-5541-8340-b1df20c7338b",
           "collectorNumber": 168,
           "suffix": "*",
           "rarity": "showcase",
@@ -7227,6 +7582,7 @@
     },
     {
       "number": "RAD-169",
+      "uuid": "684494fc-96e4-5c04-8a10-1cde33346829",
       "name": "Hexplosives Expert",
       "type": "legend",
       "domains": [
@@ -7240,6 +7596,7 @@
       "printings": [
         {
           "id": "RAD-169",
+          "uuid": "41923d08-92ff-5d99-8285-6e93242fb427",
           "collectorNumber": 169,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d18e53ec0d84e5e44294c906321ebac737166b2-744x1039.png?accountingTag=RB",
@@ -7264,6 +7621,7 @@
         },
         {
           "id": "RAD-169*",
+          "uuid": "7b798b22-f14f-5284-a74b-7cd311492f1a",
           "collectorNumber": 169,
           "suffix": "*",
           "rarity": "showcase",
@@ -7285,6 +7643,7 @@
     },
     {
       "number": "RAD-170",
+      "uuid": "be1b4d6c-7124-5bd7-940b-85ee4aa69153",
       "name": "Iron Revenant",
       "type": "legend",
       "domains": [
@@ -7297,6 +7656,7 @@
       "printings": [
         {
           "id": "RAD-170",
+          "uuid": "649f3dfe-4f70-5ddf-85d7-b3f6caf7733a",
           "collectorNumber": 170,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/57ad15a4a09ffc2038e1b8548d861eb74d46d4f7-744x1039.png?accountingTag=RB",
@@ -7318,6 +7678,7 @@
         },
         {
           "id": "RAD-170*",
+          "uuid": "518e9fbc-257c-564c-bb5b-2c6971beb023",
           "collectorNumber": 170,
           "suffix": "*",
           "rarity": "showcase",
@@ -7339,6 +7700,7 @@
     },
     {
       "number": "RAD-171",
+      "uuid": "48367d02-49e0-5a89-9c20-9b0cd886c83e",
       "name": "Lady of Clockwork",
       "type": "legend",
       "domains": [
@@ -7351,6 +7713,7 @@
       "printings": [
         {
           "id": "RAD-171",
+          "uuid": "0daf8cde-3db2-53df-8627-a2d362425e29",
           "collectorNumber": 171,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8530505c438f23877bede020d829c6a9cf5fce78-744x1039.png?accountingTag=RB",
@@ -7372,9 +7735,12 @@
         },
         {
           "id": "RAD-171*",
+          "uuid": "71756ce4-b75e-55d6-ae90-5440624b23cb",
           "collectorNumber": 171,
           "suffix": "*",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/724653_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -7393,6 +7759,7 @@
     },
     {
       "number": "RAD-172",
+      "uuid": "5c181530-de65-584c-98af-6868ee177046",
       "name": "Pride of Nazumah",
       "type": "legend",
       "domains": [
@@ -7405,6 +7772,7 @@
       "printings": [
         {
           "id": "RAD-172",
+          "uuid": "01e784f5-d771-5c52-981c-50d94f80bad2",
           "collectorNumber": 172,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d0d05c7427684aae952f5b66d7e724374c14ccc-744x1039.png?accountingTag=RB",
@@ -7429,6 +7797,7 @@
         },
         {
           "id": "RAD-172*",
+          "uuid": "5601eba5-1281-585d-8a71-fbf7c66e4e53",
           "collectorNumber": 172,
           "suffix": "*",
           "rarity": "showcase",
@@ -7450,6 +7819,7 @@
     },
     {
       "number": "RAD-173",
+      "uuid": "d5a719e9-10ea-5905-a7e1-282026a91e0d",
       "name": "The Exile",
       "type": "legend",
       "domains": [
@@ -7462,6 +7832,7 @@
       "printings": [
         {
           "id": "RAD-173",
+          "uuid": "8d6c808f-28c8-5bb8-aa78-ab0a66b84958",
           "collectorNumber": 173,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8cec0480427b3646cb48cb2e3fe3a02b629f7aeb-744x1039.png?accountingTag=RB",
@@ -7483,6 +7854,7 @@
         },
         {
           "id": "RAD-173*",
+          "uuid": "cbc4be32-82ec-5f21-82b8-fd90ec12bd7f",
           "collectorNumber": 173,
           "suffix": "*",
           "rarity": "showcase",
@@ -7504,6 +7876,7 @@
     },
     {
       "number": "RAD-174",
+      "uuid": "e5ee5c66-c330-5107-ad31-72c0e1ae787f",
       "name": "Starry-Eyed Songstress",
       "type": "legend",
       "domains": [
@@ -7516,6 +7889,7 @@
       "printings": [
         {
           "id": "RAD-174",
+          "uuid": "37802041-6878-5a22-aeff-4716e1587f49",
           "collectorNumber": 174,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/88f6970ac5639bdd47552befcb575a6f73c6dcdb-744x1039.png?accountingTag=RB",
@@ -7537,6 +7911,7 @@
         },
         {
           "id": "RAD-174*",
+          "uuid": "d9272566-e39e-575d-9fc3-0512b588d067",
           "collectorNumber": 174,
           "suffix": "*",
           "rarity": "showcase",
@@ -7558,6 +7933,7 @@
     },
     {
       "number": "RAD-175",
+      "uuid": "a2d4439c-ea30-5a94-9eaa-fe3f66928a54",
       "name": "Agony's Embrace",
       "type": "legend",
       "domains": [
@@ -7570,6 +7946,7 @@
       "printings": [
         {
           "id": "RAD-175",
+          "uuid": "b57774fa-a98a-5a3a-90ca-67cd48126cf9",
           "collectorNumber": 175,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/37ac535445b224fa28f6e27b0d733474a38e369c-744x1039.png?accountingTag=RB",
@@ -7594,6 +7971,7 @@
         },
         {
           "id": "RAD-175*",
+          "uuid": "be9f88bd-ce36-569b-9a9c-03a72d780c3d",
           "collectorNumber": 175,
           "suffix": "*",
           "rarity": "showcase",
@@ -7615,6 +7993,7 @@
     },
     {
       "number": "RAD-176",
+      "uuid": "060d1cdb-959c-5ce1-9a71-230e3555b500",
       "name": "Exemplar of Demacia",
       "type": "legend",
       "domains": [
@@ -7627,6 +8006,7 @@
       "printings": [
         {
           "id": "RAD-176",
+          "uuid": "ac01604d-2ddf-5ab0-9a1d-701d876880ac",
           "collectorNumber": 176,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5eb1418a7485194f5249c4f4a5a247b21b7daf5b-744x1039.png?accountingTag=RB",
@@ -7650,6 +8030,7 @@
     },
     {
       "number": "RAD-177",
+      "uuid": "8a4f63a6-bedb-5737-9cb5-5b9634337383",
       "name": "Ekko",
       "subtitle": "Revolutionary",
       "type": "unit",
@@ -7669,6 +8050,7 @@
       "printings": [
         {
           "id": "RAD-177",
+          "uuid": "ddffdf9b-7430-5cee-b107-e14b1d9a2573",
           "collectorNumber": 177,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb1dc5301c1dd9054e5da6d9735b8ad27ce200c4-744x1039.png?accountingTag=RB",
@@ -7695,6 +8077,7 @@
     },
     {
       "number": "RAD-178",
+      "uuid": "41bfcbee-9dc5-5d42-a91c-6c52ecf56d80",
       "name": "K'Sante",
       "subtitle": "Courageous",
       "type": "unit",
@@ -7713,6 +8096,7 @@
       "printings": [
         {
           "id": "RAD-178",
+          "uuid": "901a6128-93a8-5de0-b28e-cafd0a0def64",
           "collectorNumber": 178,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/299741933964a0953312d7c2cc0919501d28bc98-744x1039.png?accountingTag=RB",
@@ -7737,6 +8121,7 @@
         },
         {
           "id": "RAD-178*",
+          "uuid": "46b7df81-86bc-5a84-b16e-4c97d3ac96ed",
           "collectorNumber": 178,
           "suffix": "*",
           "rarity": "showcase",
@@ -7758,6 +8143,7 @@
     },
     {
       "number": "RAD-179",
+      "uuid": "963d283c-5644-57da-a48e-d76a781b850a",
       "name": "Aphelios",
       "subtitle": "Exalted",
       "type": "unit",
@@ -7777,6 +8163,7 @@
       "printings": [
         {
           "id": "RAD-179",
+          "uuid": "88a0a460-b889-57a4-b7f9-2858d81dd7ff",
           "collectorNumber": 179,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d1ffd27d5777e08178ab9a9aad0943b8d72af98b-744x1039.png?accountingTag=RB",
@@ -7801,6 +8188,7 @@
         },
         {
           "id": "RAD-179*",
+          "uuid": "29c8df89-ed3d-5efe-bb62-f6013c0dab3a",
           "collectorNumber": 179,
           "suffix": "*",
           "rarity": "showcase",
@@ -7822,6 +8210,7 @@
     },
     {
       "number": "RAD-180",
+      "uuid": "ac7e8994-b836-5c98-a4a3-69a57d222414",
       "name": "Ezreal",
       "subtitle": "Dashing",
       "type": "unit",
@@ -7841,6 +8230,7 @@
       "printings": [
         {
           "id": "RAD-180",
+          "uuid": "ccfa3051-bee1-51d6-a323-669e1afc1231",
           "collectorNumber": 180,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/262da39c80211046e27a839c50d210d19592267c-744x1039.png?accountingTag=RB",
@@ -7865,6 +8255,7 @@
         },
         {
           "id": "RAD-180*",
+          "uuid": "29d40053-0484-5f00-8b8f-0e201c411aa9",
           "collectorNumber": 180,
           "suffix": "*",
           "rarity": "showcase",
@@ -7886,6 +8277,7 @@
     },
     {
       "number": "RAD-181",
+      "uuid": "9c2946e7-8577-5135-b42d-720ada56180c",
       "name": "Yone",
       "subtitle": "Blademaster",
       "type": "unit",
@@ -7906,6 +8298,7 @@
       "printings": [
         {
           "id": "RAD-181",
+          "uuid": "0017fc5e-6d86-5767-a5ee-e53b1267ae0f",
           "collectorNumber": 181,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1b40d15346ef3770703148402e875d24f5feef5b-744x1039.png?accountingTag=RB",
@@ -7930,6 +8323,7 @@
         },
         {
           "id": "RAD-181*",
+          "uuid": "68d251d3-2b93-5f99-8808-da67aabf349d",
           "collectorNumber": 181,
           "suffix": "*",
           "rarity": "showcase",
@@ -7951,6 +8345,7 @@
     },
     {
       "number": "RAD-182",
+      "uuid": "94b5420a-984e-512f-b588-cc5416f38d9f",
       "name": "Kayn",
       "subtitle": "Unleashed",
       "type": "unit",
@@ -7970,6 +8365,7 @@
       "printings": [
         {
           "id": "RAD-182",
+          "uuid": "1f3b5652-7d3e-531c-9565-91c361cdc268",
           "collectorNumber": 182,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/df2fbb56c0d56c6c4e310edb17f0c2ae7a9d9e97-744x1039.png?accountingTag=RB",
@@ -7994,6 +8390,7 @@
         },
         {
           "id": "RAD-182*",
+          "uuid": "7373de4b-3039-5483-bd3a-c2d84e09120d",
           "collectorNumber": 182,
           "suffix": "*",
           "rarity": "showcase",
@@ -8015,6 +8412,7 @@
     },
     {
       "number": "RAD-183",
+      "uuid": "4a382f70-688b-53de-b526-6e0c3472bb08",
       "name": "Sett",
       "subtitle": "Kingpin",
       "type": "unit",
@@ -8034,6 +8432,7 @@
       "printings": [
         {
           "id": "RAD-183",
+          "uuid": "90b7162f-2478-58fc-a7fd-10ce6589041c",
           "collectorNumber": 183,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fbc2c6a0a0ea33b58c9cfbdc91c6c229b02a90da-744x1039.png?accountingTag=RB",
@@ -8058,6 +8457,7 @@
         },
         {
           "id": "RAD-183*",
+          "uuid": "194f8c0f-754c-5138-94ba-3cb4c2ef31fa",
           "collectorNumber": 183,
           "suffix": "*",
           "rarity": "showcase",
@@ -8079,6 +8479,7 @@
     },
     {
       "number": "RAD-184",
+      "uuid": "b01a7fba-eef0-5390-904b-05c8e10f7da8",
       "name": "Packed Amphitheater",
       "type": "battlefield",
       "domains": [
@@ -8087,6 +8488,7 @@
       "printings": [
         {
           "id": "RAD-184",
+          "uuid": "3eb40183-0fd7-54e6-b50a-dc76fb59bf17",
           "collectorNumber": 184,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a6d9ad1a2a165e5e6b5cb1e7d8133e544cf9b0b1-1039x744.png?accountingTag=RB",
@@ -8113,6 +8515,7 @@
     },
     {
       "number": "RAD-SP1",
+      "uuid": "19959ebe-397f-57fe-a8a3-a13724a75d6c",
       "name": "Ahri",
       "subtitle": "Confident",
       "type": "unit",
@@ -8132,6 +8535,7 @@
       "printings": [
         {
           "id": "RAD-SP1",
+          "uuid": "ebb5558a-45d1-5306-b23b-7d507787711c",
           "collectorNumber": 1,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e4be56cd7dc8075298567c5b28ecc3e46b87bc57-744x1039.png?accountingTag=RB",
@@ -8158,6 +8562,7 @@
     },
     {
       "number": "RAD-SP2",
+      "uuid": "d904dcb0-25b9-5e56-838f-612c5dfb4f04",
       "name": "Akali",
       "subtitle": "Brash",
       "type": "unit",
@@ -8177,6 +8582,7 @@
       "printings": [
         {
           "id": "RAD-SP2",
+          "uuid": "701d9c5d-88b6-58cc-b633-46ef636882aa",
           "collectorNumber": 2,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f19416576af7d609b525d72884ca42cf8795bf74-744x1039.png?accountingTag=RB",
@@ -8200,6 +8606,7 @@
     },
     {
       "number": "RAD-SP3",
+      "uuid": "d184baa1-c5fa-51bd-ba3b-8ec57d1ae4bc",
       "name": "Evelynn",
       "subtitle": "In Control",
       "type": "unit",
@@ -8218,6 +8625,7 @@
       "printings": [
         {
           "id": "RAD-SP3",
+          "uuid": "75ae3783-c763-5a1a-924a-b4338191cd99",
           "collectorNumber": 3,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f79b82a0a56c2e4af641beb84762abcd6b058195-744x1039.png?accountingTag=RB",
@@ -8244,6 +8652,7 @@
     },
     {
       "number": "RAD-SP4",
+      "uuid": "7da6fe57-a7d8-574c-a3e0-0ab3a645e8fe",
       "name": "Kai'Sa",
       "subtitle": "Rebel",
       "type": "unit",
@@ -8263,6 +8672,7 @@
       "printings": [
         {
           "id": "RAD-SP4",
+          "uuid": "1c9f6673-25f1-595f-be48-cd335b288abf",
           "collectorNumber": 4,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1c1bc3c006b5acf9013e98072a135ae411b2ccac-744x1039.png?accountingTag=RB",
@@ -8289,6 +8699,7 @@
     },
     {
       "number": "RAD-SP5",
+      "uuid": "b1c1accb-41b2-5875-852c-43917a6d2916",
       "name": "Seraphine",
       "subtitle": "Not Alone",
       "type": "unit",
@@ -8308,6 +8719,7 @@
       "printings": [
         {
           "id": "RAD-SP5",
+          "uuid": "7b907c29-ee06-5518-9cfa-950f756d0346",
           "collectorNumber": 5,
           "rarity": "showcase",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef6f277389bbb6361ef29a0332cd2cb34d4905aa-744x1039.png?accountingTag=RB",
@@ -8331,6 +8743,7 @@
     },
     {
       "number": "RAD-R01",
+      "uuid": "0d2b4db4-9f12-5a5f-957c-a51b8483a4ee",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -8342,6 +8755,7 @@
       "printings": [
         {
           "id": "RAD-R01",
+          "uuid": "ec85f6ba-ae37-581c-b7c5-e87d049b0030",
           "collectorNumber": 1,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e0337944fa56c357ab3b9a822064a8f58ead8315-744x1039.png?accountingTag=RB",
@@ -8367,6 +8781,7 @@
         },
         {
           "id": "RAD-R01a",
+          "uuid": "9765f0f2-326a-5f47-a5c1-3ed22a4a0aaf",
           "collectorNumber": 1,
           "suffix": "a",
           "rarity": "showcase",
@@ -8391,6 +8806,7 @@
     },
     {
       "number": "RAD-R02",
+      "uuid": "9da1529d-e4e7-5545-8a72-aa4c94d1cd30",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -8402,6 +8818,7 @@
       "printings": [
         {
           "id": "RAD-R02",
+          "uuid": "8ae8919c-9cea-525d-bc2a-fd6aa6e1932e",
           "collectorNumber": 2,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/34661f9fff9e12addbfa320a88b794fcffd6652f-744x1039.png?accountingTag=RB",
@@ -8426,6 +8843,7 @@
         },
         {
           "id": "RAD-R02a",
+          "uuid": "be473a77-bdb8-5989-bab2-5e0a5dad3f46",
           "collectorNumber": 2,
           "suffix": "a",
           "rarity": "showcase",
@@ -8450,6 +8868,7 @@
     },
     {
       "number": "RAD-R03",
+      "uuid": "7bd2bfd9-2cb6-5074-bb7b-b13216fa1c0f",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -8461,6 +8880,7 @@
       "printings": [
         {
           "id": "RAD-R03",
+          "uuid": "3894ddcf-f358-519d-a283-bb862d494a57",
           "collectorNumber": 3,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/10804d84483e8813a6b5277e4527ac148bbabdd0-744x1039.png?accountingTag=RB",
@@ -8486,6 +8906,7 @@
         },
         {
           "id": "RAD-R03a",
+          "uuid": "3eeec5cb-575b-52be-886f-0a5cd70767ee",
           "collectorNumber": 3,
           "suffix": "a",
           "rarity": "showcase",
@@ -8510,6 +8931,7 @@
     },
     {
       "number": "RAD-R04",
+      "uuid": "88fb6b19-417c-5d3a-875b-a5b6d06f7151",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -8521,6 +8943,7 @@
       "printings": [
         {
           "id": "RAD-R04",
+          "uuid": "fea799c2-fcdc-5738-adc1-9c9fcd3b84af",
           "collectorNumber": 4,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d78f8e8cf237cc19a8546184501d4be97df29fd-744x1039.png?accountingTag=RB",
@@ -8546,6 +8969,7 @@
         },
         {
           "id": "RAD-R04a",
+          "uuid": "509a0468-2ce4-552b-bc3d-2b38b313bfd9",
           "collectorNumber": 4,
           "suffix": "a",
           "rarity": "showcase",
@@ -8570,6 +8994,7 @@
     },
     {
       "number": "RAD-R05",
+      "uuid": "4f80f946-5b8c-57c8-99a8-f5610743f576",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -8581,6 +9006,7 @@
       "printings": [
         {
           "id": "RAD-R05",
+          "uuid": "d7689995-24d1-5288-b441-12c7c410fd85",
           "collectorNumber": 5,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f420625850dc43c96e29b6d85b6581c7ccb6126c-744x1039.png?accountingTag=RB",
@@ -8605,6 +9031,7 @@
         },
         {
           "id": "RAD-R05a",
+          "uuid": "765dabd7-cbc1-56aa-b754-e1b70219c496",
           "collectorNumber": 5,
           "suffix": "a",
           "rarity": "showcase",
@@ -8629,6 +9056,7 @@
     },
     {
       "number": "RAD-R06",
+      "uuid": "e40e3112-74ea-58e4-8473-c9e6df2a0064",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -8640,6 +9068,7 @@
       "printings": [
         {
           "id": "RAD-R06",
+          "uuid": "a9d3a593-a4b9-5001-b33a-bd4a0b8f5b81",
           "collectorNumber": 6,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/402fa10965dbee64aa1ddef654e4b9d9a5ccd28e-744x1039.png?accountingTag=RB",
@@ -8665,6 +9094,7 @@
         },
         {
           "id": "RAD-R06a",
+          "uuid": "e9528700-6c68-518c-9425-1957be12aa16",
           "collectorNumber": 6,
           "suffix": "a",
           "rarity": "showcase",
@@ -8689,12 +9119,16 @@
     },
     {
       "number": "RAD-T01+T02",
+      "uuid": "1e7bfe4b-4c6e-5513-8a07-4cdfb5b96cf5",
       "name": "Bird // Bomb",
       "printings": [
         {
           "id": "RAD-T01+T02",
+          "uuid": "14ac83e6-790b-52b3-8904-2422a997e6f6",
           "collectorNumber": 1,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728162_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -8713,12 +9147,16 @@
     },
     {
       "number": "RAD-T02+T05",
+      "uuid": "74d104e0-35d2-56cb-bcb2-202500f40576",
       "name": "Bomb // Gold",
       "printings": [
         {
           "id": "RAD-T02+T05",
+          "uuid": "8666606b-892e-55d6-8f05-1ed8169b65c8",
           "collectorNumber": 2,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728142_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -8737,12 +9175,16 @@
     },
     {
       "number": "RAD-T03+T07",
+      "uuid": "f06f5f36-9e03-566f-99f2-cbf42027d550",
       "name": "Buff // Recruit",
       "printings": [
         {
           "id": "RAD-T03+T07",
+          "uuid": "612b4812-b7d1-510e-a6ff-e4fcec34a01f",
           "collectorNumber": 3,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728167_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -8761,12 +9203,16 @@
     },
     {
       "number": "RAD-T04+T07",
+      "uuid": "c63d3c18-6c3f-53db-9706-fcdfb7fc9598",
       "name": "Empowered // Recruit",
       "printings": [
         {
           "id": "RAD-T04+T07",
+          "uuid": "1429ae2d-4df3-5513-aa50-a4e84b62e293",
           "collectorNumber": 4,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728168_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -8785,12 +9231,16 @@
     },
     {
       "number": "RAD-T05+T06",
+      "uuid": "5b9eb300-51f3-5228-b1c2-75d21cb8c406",
       "name": "Gold // Mech",
       "printings": [
         {
           "id": "RAD-T05+T06",
+          "uuid": "b9bc0b4e-a679-5bb1-a5c5-97b9ca0bd7e5",
           "collectorNumber": 5,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728169_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -8809,12 +9259,16 @@
     },
     {
       "number": "RAD-T06+T07",
+      "uuid": "736bdfbf-6c18-560d-8830-76e35e3f1301",
       "name": "Mech // Recruit",
       "printings": [
         {
           "id": "RAD-T06+T07",
+          "uuid": "340aa338-2cdc-5453-8c01-01db67fc9608",
           "collectorNumber": 6,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/729796_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [

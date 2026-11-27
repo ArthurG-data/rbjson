@@ -2,6 +2,7 @@
   "products": [
     {
       "id": "origins-booster-display",
+      "uuid": "8071350d-e974-5932-baa3-78bfc74eb2b4",
       "set": "OGN",
       "category": "booster_box",
       "name": "Origins - Booster Display",
@@ -25,6 +26,7 @@
     },
     {
       "id": "origins-booster-display-case",
+      "uuid": "2e485287-a9b4-59ff-8e02-c24050713a07",
       "set": "OGN",
       "category": "case",
       "name": "Origins - Booster Display Case",
@@ -48,6 +50,7 @@
     },
     {
       "id": "origins-booster-pack",
+      "uuid": "aaebeb70-ae95-50b9-b0b8-466de8ec386a",
       "set": "OGN",
       "category": "booster_pack",
       "name": "Origins - Booster Pack",
@@ -71,6 +74,7 @@
     },
     {
       "id": "origins-champion-deck-jinx",
+      "uuid": "69dcb3aa-df9e-546c-826d-2a326eddeba6",
       "set": "OGN",
       "category": "starter_deck",
       "name": "Origins - Champion Deck (Jinx)",
@@ -88,6 +92,7 @@
     },
     {
       "id": "origins-champion-deck-jinx-display",
+      "uuid": "8101a52c-1d31-57c8-9387-732f979bc8d5",
       "set": "OGN",
       "category": "display",
       "name": "Origins - Champion Deck (Jinx) Display",
@@ -111,6 +116,7 @@
     },
     {
       "id": "origins-champion-deck-lee-sin",
+      "uuid": "6e5399cd-45bc-5517-957d-eebd4d58fca1",
       "set": "OGN",
       "category": "starter_deck",
       "name": "Origins - Champion Deck (Lee Sin)",
@@ -128,6 +134,7 @@
     },
     {
       "id": "origins-champion-deck-lee-sin-display",
+      "uuid": "ca7a2859-c3a0-5e5b-afe0-101032ed6e3f",
       "set": "OGN",
       "category": "display",
       "name": "Origins - Champion Deck (Lee Sin) Display",
@@ -151,6 +158,7 @@
     },
     {
       "id": "origins-champion-deck-viktor",
+      "uuid": "ce710961-787a-5460-b4f1-3a79f53189da",
       "set": "OGN",
       "category": "starter_deck",
       "name": "Origins - Champion Deck (Viktor)",
@@ -168,6 +176,7 @@
     },
     {
       "id": "origins-champion-deck-viktor-display",
+      "uuid": "dcb5fc8c-cabd-5d78-9d8c-5204462e2e6c",
       "set": "OGN",
       "category": "display",
       "name": "Origins - Champion Deck (Viktor) Display",
@@ -191,6 +200,7 @@
     },
     {
       "id": "origins-nexus-night-promo-pack",
+      "uuid": "c24153ef-9ba8-55c4-851b-4fdf20f9a29f",
       "set": "OGN",
       "category": "promo_pack",
       "name": "Origins - Nexus Night Promo Pack",
@@ -208,6 +218,7 @@
     },
     {
       "id": "origins-sleeved-booster-pack",
+      "uuid": "6f8ec223-b5e7-5bcd-965b-add7150587bf",
       "set": "OGN",
       "category": "sleeved_booster_pack",
       "name": "Origins - Sleeved Booster Pack",
@@ -231,6 +242,7 @@
     },
     {
       "id": "origins-sleeved-booster-pack-art-bundle-set-of-3",
+      "uuid": "cf0506bd-f041-5526-be96-0be47d5fc56f",
       "set": "OGN",
       "category": "display",
       "name": "Origins - Sleeved Booster Pack Art Bundle [Set of 3]",

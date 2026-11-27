@@ -2,6 +2,7 @@
   "products": [
     {
       "id": "origins-proving-grounds-box-set",
+      "uuid": "ac24b5f6-71b1-580d-920e-3cade1230dea",
       "set": "OGS",
       "category": "starter_deck",
       "name": "Origins - Proving Grounds Box Set",
@@ -19,6 +20,7 @@
     },
     {
       "id": "origins-proving-grounds-box-set-case",
+      "uuid": "d75c9499-1705-557e-b43f-d70d2d056a86",
       "set": "OGS",
       "category": "case",
       "name": "Origins - Proving Grounds Box Set Case",
