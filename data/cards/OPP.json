@@ -2,6 +2,7 @@
   "cards": [
     {
       "number": "OPP-OGN001",
+      "uuid": "4b22bda0-ce9e-5d39-a54c-58ee37fe21f9",
       "name": "Blazing Scorcher",
       "type": "unit",
       "domains": [
@@ -16,6 +17,7 @@
       "printings": [
         {
           "id": "OPP-OGN001",
+          "uuid": "ed6a7b2f-cfe6-50ea-9681-cda758a9828c",
           "collectorNumber": 1,
           "rarity": "common",
           "source": "tcgplayer",
@@ -36,6 +38,7 @@
     },
     {
       "number": "OPP-OGN007",
+      "uuid": "7b8a4298-e920-5cb5-8aff-a16f5b9ce28b",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -47,6 +50,7 @@
       "printings": [
         {
           "id": "OPP-OGN007b",
+          "uuid": "e45d9f53-79d8-5430-956e-f4998b617ca2",
           "collectorNumber": 7,
           "suffix": "b",
           "rarity": "common",
@@ -68,6 +72,7 @@
     },
     {
       "number": "OPP-OGN013",
+      "uuid": "00fde0df-834e-5f01-9767-4ea0a821f3af",
       "name": "Pouty Poro",
       "type": "unit",
       "domains": [
@@ -81,6 +86,7 @@
       "printings": [
         {
           "id": "OPP-OGN013",
+          "uuid": "c17f28d4-8319-5b50-ae10-dd63963609b4",
           "collectorNumber": 13,
           "rarity": "common",
           "source": "tcgplayer",
@@ -101,6 +107,7 @@
     },
     {
       "number": "OPP-OGN024",
+      "uuid": "ed90e665-d760-53a2-9a79-9bb93d889d8b",
       "name": "Void Seeker",
       "type": "spell",
       "domains": [
@@ -111,6 +118,7 @@
       "printings": [
         {
           "id": "OPP-OGN024",
+          "uuid": "b006fb2b-a2e7-5963-ac11-c0469ced971c",
           "collectorNumber": 24,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -131,6 +139,7 @@
     },
     {
       "number": "OPP-OGN034",
+      "uuid": "e3509ef6-6eaf-5004-8157-7e480e29ba58",
       "name": "Tryndamere",
       "subtitle": "Barbarian",
       "type": "unit",
@@ -150,6 +159,7 @@
       "printings": [
         {
           "id": "OPP-OGN034",
+          "uuid": "e59c4f70-a547-50d4-905a-7aeed3e7b758",
           "collectorNumber": 34,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -170,6 +180,7 @@
     },
     {
       "number": "OPP-OGN042",
+      "uuid": "4a22e591-5454-5fdb-a5a6-fb5c3586f824",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -181,6 +192,7 @@
       "printings": [
         {
           "id": "OPP-OGN042b",
+          "uuid": "2d373f46-ae0a-5126-bd03-fcc63b31efa5",
           "collectorNumber": 42,
           "suffix": "b",
           "rarity": "common",
@@ -202,6 +214,7 @@
     },
     {
       "number": "OPP-OGN052",
+      "uuid": "1f8740ce-2259-59bf-a7cb-4b640d63d5e9",
       "name": "Stalwart Poro",
       "type": "unit",
       "domains": [
@@ -215,6 +228,7 @@
       "printings": [
         {
           "id": "OPP-OGN052",
+          "uuid": "04ed009b-4e5b-5d1e-ad1c-2594748d9c64",
           "collectorNumber": 52,
           "rarity": "common",
           "source": "tcgplayer",
@@ -235,6 +249,7 @@
     },
     {
       "number": "OPP-OGN055",
+      "uuid": "1e807a1d-c4bd-5a84-98e7-1e0f6270bf4f",
       "name": "Wielder of Water",
       "type": "unit",
       "domains": [
@@ -248,6 +263,7 @@
       "printings": [
         {
           "id": "OPP-OGN055",
+          "uuid": "a982011b-8635-5980-b2cb-636cdb078d89",
           "collectorNumber": 55,
           "rarity": "common",
           "source": "tcgplayer",
@@ -268,6 +284,7 @@
     },
     {
       "number": "OPP-OGN058",
+      "uuid": "84755ec2-60b2-5295-9061-392c02738f18",
       "name": "Discipline",
       "type": "spell",
       "domains": [
@@ -277,6 +294,7 @@
       "printings": [
         {
           "id": "OPP-OGN058",
+          "uuid": "091e60c8-29fd-554a-8ac0-14d51d4dc1d8",
           "collectorNumber": 58,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -297,6 +315,7 @@
     },
     {
       "number": "OPP-OGN067",
+      "uuid": "e9b409b3-c73c-57cb-9bf3-4cbb6d0c1048",
       "name": "Blitzcrank",
       "subtitle": "Impassive",
       "type": "unit",
@@ -317,6 +336,7 @@
       "printings": [
         {
           "id": "OPP-OGN067",
+          "uuid": "7a54156a-73b6-50bc-9aba-51bc6072b6f7",
           "collectorNumber": 67,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -337,6 +357,7 @@
     },
     {
       "number": "OPP-OGN078",
+      "uuid": "6c32f28f-0fd9-5d7f-9aa2-8c5f68b288d8",
       "name": "Lee Sin",
       "subtitle": "Ascetic",
       "type": "unit",
@@ -356,6 +377,7 @@
       "printings": [
         {
           "id": "OPP-OGN078",
+          "uuid": "9e35fd58-1ef7-5ab7-a5d5-3e506b2576fd",
           "collectorNumber": 78,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -376,6 +398,7 @@
     },
     {
       "number": "OPP-OGN083",
+      "uuid": "ccaed786-9e65-55f4-8ab0-03af4391a432",
       "name": "Consult the Past",
       "type": "spell",
       "domains": [
@@ -385,6 +408,7 @@
       "printings": [
         {
           "id": "OPP-OGN083",
+          "uuid": "f761b3c1-d2b4-5ed1-a97b-dfc849dba306",
           "collectorNumber": 83,
           "rarity": "common",
           "source": "tcgplayer",
@@ -405,6 +429,7 @@
     },
     {
       "number": "OPP-OGN089",
+      "uuid": "2b0bc5ab-8c24-568c-b4d4-3484bdf98965",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -416,6 +441,7 @@
       "printings": [
         {
           "id": "OPP-OGN089b",
+          "uuid": "6cb62540-9414-5c49-93db-0cbec2f0c7b2",
           "collectorNumber": 89,
           "suffix": "b",
           "rarity": "common",
@@ -437,6 +463,7 @@
     },
     {
       "number": "OPP-OGN092",
+      "uuid": "e91592dc-2e0a-5727-93b8-89b18bd02902",
       "name": "Riptide Rex",
       "type": "unit",
       "domains": [
@@ -452,6 +479,7 @@
       "printings": [
         {
           "id": "OPP-OGN092",
+          "uuid": "6e6db3c4-769f-5213-b06a-81b6c32f3a6a",
           "collectorNumber": 92,
           "rarity": "common",
           "source": "tcgplayer",
@@ -472,6 +500,7 @@
     },
     {
       "number": "OPP-OGN103",
+      "uuid": "f9336569-0dfe-5518-a404-2ee5a4c5a85b",
       "name": "Ravenbloom Student",
       "type": "unit",
       "domains": [
@@ -485,6 +514,7 @@
       "printings": [
         {
           "id": "OPP-OGN103",
+          "uuid": "fd7450b3-6445-5623-b556-8cab04bccf4e",
           "collectorNumber": 103,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -505,6 +535,7 @@
     },
     {
       "number": "OPP-OGN126",
+      "uuid": "7ca30448-8a5e-5202-9dcf-ade5e79b6e24",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -516,6 +547,7 @@
       "printings": [
         {
           "id": "OPP-OGN126b",
+          "uuid": "faf6c4a8-10c7-5c11-bb82-7a6b8825d0be",
           "collectorNumber": 126,
           "suffix": "b",
           "rarity": "common",
@@ -537,6 +569,7 @@
     },
     {
       "number": "OPP-OGN128",
+      "uuid": "76df7ce6-57ae-5b28-8290-223621080234",
       "name": "Challenge",
       "type": "spell",
       "domains": [
@@ -547,6 +580,7 @@
       "printings": [
         {
           "id": "OPP-OGN128",
+          "uuid": "ca653427-f66d-5f63-bde4-9278871ba897",
           "collectorNumber": 128,
           "rarity": "common",
           "source": "tcgplayer",
@@ -567,6 +601,7 @@
     },
     {
       "number": "OPP-OGN135",
+      "uuid": "83942de6-2c06-5d90-8ea4-daf78232bdc2",
       "name": "Pakaa Cub",
       "type": "unit",
       "domains": [
@@ -581,6 +616,7 @@
       "printings": [
         {
           "id": "OPP-OGN135",
+          "uuid": "75438e94-ae0d-5706-9b03-58c4cc66550d",
           "collectorNumber": 135,
           "rarity": "common",
           "source": "tcgplayer",
@@ -601,6 +637,7 @@
     },
     {
       "number": "OPP-OGN137",
+      "uuid": "a649d5f4-cb14-5566-a134-4c440a9027ea",
       "name": "Stormclaw Ursine",
       "type": "unit",
       "domains": [
@@ -614,6 +651,7 @@
       "printings": [
         {
           "id": "OPP-OGN137",
+          "uuid": "06486597-c572-575f-a344-502f3d23c82f",
           "collectorNumber": 137,
           "rarity": "common",
           "source": "tcgplayer",
@@ -634,6 +672,7 @@
     },
     {
       "number": "OPP-OGN151",
+      "uuid": "4be53e2c-732e-5cea-ae3a-72040546233a",
       "name": "Lee Sin",
       "subtitle": "Centered",
       "type": "unit",
@@ -652,6 +691,7 @@
       "printings": [
         {
           "id": "OPP-OGN151b",
+          "uuid": "29a854cd-c014-5fb0-bf1b-532a79874e37",
           "collectorNumber": 151,
           "suffix": "b",
           "rarity": "rare",
@@ -673,6 +713,7 @@
     },
     {
       "number": "OPP-OGN166",
+      "uuid": "acc71634-b1bf-5764-a877-825537778cbe",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -684,6 +725,7 @@
       "printings": [
         {
           "id": "OPP-OGN166b",
+          "uuid": "c366e13b-8e84-5fe3-9b15-639b1908a944",
           "collectorNumber": 166,
           "suffix": "b",
           "rarity": "common",
@@ -705,6 +747,7 @@
     },
     {
       "number": "OPP-OGN171",
+      "uuid": "85dc1f3e-3235-55a7-82ad-8133a20d030d",
       "name": "Mystic Poro",
       "type": "unit",
       "domains": [
@@ -718,6 +761,7 @@
       "printings": [
         {
           "id": "OPP-OGN171",
+          "uuid": "cf050a4f-12ad-51a1-a78a-2b2692e28a3d",
           "collectorNumber": 171,
           "rarity": "common",
           "source": "tcgplayer",
@@ -738,6 +782,7 @@
     },
     {
       "number": "OPP-OGN177",
+      "uuid": "83fdf59b-60e9-5682-b9df-1a4ad7ae2080",
       "name": "Stealthy Pursuer",
       "type": "unit",
       "domains": [
@@ -752,6 +797,7 @@
       "printings": [
         {
           "id": "OPP-OGN177",
+          "uuid": "87e24c9c-cbd5-570a-a0a4-38bc8fa8fe4a",
           "collectorNumber": 177,
           "rarity": "common",
           "source": "tcgplayer",
@@ -772,6 +818,7 @@
     },
     {
       "number": "OPP-OGN183",
+      "uuid": "205ba16f-316c-58bb-9eb7-68c1faa884c7",
       "name": "Stacked Deck",
       "type": "spell",
       "domains": [
@@ -781,6 +828,7 @@
       "printings": [
         {
           "id": "OPP-OGN183",
+          "uuid": "5edb27f9-928c-5d98-bf46-4c069788b6e5",
           "collectorNumber": 183,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -801,6 +849,7 @@
     },
     {
       "number": "OPP-OGN193",
+      "uuid": "80eecb4e-c637-57d8-93e3-dbdd7db02dee",
       "name": "Miss Fortune",
       "subtitle": "Buccaneer",
       "type": "unit",
@@ -821,6 +870,7 @@
       "printings": [
         {
           "id": "OPP-OGN193",
+          "uuid": "01e87168-4041-5570-816b-fcfbb169bde6",
           "collectorNumber": 193,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -841,6 +891,7 @@
     },
     {
       "number": "OPP-OGN197",
+      "uuid": "6f0a7010-afd8-546e-b15b-862f057eb79b",
       "name": "Teemo",
       "subtitle": "Scout",
       "type": "unit",
@@ -860,6 +911,7 @@
       "printings": [
         {
           "id": "OPP-OGN197b.gg-ez",
+          "uuid": "8af23ebd-c678-5cec-b2fa-2467051e9f42",
           "collectorNumber": 197,
           "suffix": "b",
           "variant": "gg-ez",
@@ -882,6 +934,7 @@
     },
     {
       "number": "OPP-OGN202",
+      "uuid": "b21f6840-fd42-5289-b0ea-843fc1c88749",
       "name": "Jinx",
       "subtitle": "Rebel",
       "type": "unit",
@@ -901,6 +954,7 @@
       "printings": [
         {
           "id": "OPP-OGN202",
+          "uuid": "a4ac6898-aa2f-5642-8061-db31af47779d",
           "collectorNumber": 202,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -921,6 +975,7 @@
     },
     {
       "number": "OPP-OGN210",
+      "uuid": "a23ddd50-e1e6-58d3-8611-744e2b35ae6c",
       "name": "Daring Poro",
       "type": "unit",
       "domains": [
@@ -934,6 +989,7 @@
       "printings": [
         {
           "id": "OPP-OGN210",
+          "uuid": "5891bf75-a6b0-5f63-9211-f6cae31d52e0",
           "collectorNumber": 210,
           "rarity": "common",
           "source": "tcgplayer",
@@ -954,6 +1010,7 @@
     },
     {
       "number": "OPP-OGN214",
+      "uuid": "198c5ad7-177e-52c6-b36e-ac2215f5970d",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -965,6 +1022,7 @@
       "printings": [
         {
           "id": "OPP-OGN214b",
+          "uuid": "64f9b0ba-92a2-5a97-90ce-5f7c0f765463",
           "collectorNumber": 214,
           "suffix": "b",
           "rarity": "common",
@@ -986,6 +1044,7 @@
     },
     {
       "number": "OPP-OGN218",
+      "uuid": "821e9a1d-1319-54ee-9f35-8e012aa2c274",
       "name": "Vanguard Captain",
       "type": "unit",
       "domains": [
@@ -1001,6 +1060,7 @@
       "printings": [
         {
           "id": "OPP-OGN218",
+          "uuid": "2078f326-f8c9-5dfd-abef-1822221614a7",
           "collectorNumber": 218,
           "rarity": "common",
           "source": "tcgplayer",
@@ -1021,6 +1081,7 @@
     },
     {
       "number": "OPP-OGN229",
+      "uuid": "a56953ec-0ca8-5099-9c2c-e494f9e2ce4c",
       "name": "Vengeance",
       "type": "spell",
       "domains": [
@@ -1031,6 +1092,7 @@
       "printings": [
         {
           "id": "OPP-OGN229",
+          "uuid": "3f4da40e-0703-5488-8235-1c4f7ee48248",
           "collectorNumber": 229,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -1051,6 +1113,7 @@
     },
     {
       "number": "OPP-OGN246",
+      "uuid": "dbd354af-e97e-5a7f-833c-8d9d62939882",
       "name": "Viktor",
       "subtitle": "Leader",
       "type": "unit",
@@ -1070,6 +1133,7 @@
       "printings": [
         {
           "id": "OPP-OGN246",
+          "uuid": "81dacd7e-b41b-55ec-96db-af00230283e1",
           "collectorNumber": 246,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -1090,6 +1154,7 @@
     },
     {
       "number": "OPP-OGN247",
+      "uuid": "af169dcf-db2a-514b-b48e-cb8f656ecfa0",
       "name": "Daughter of the Void",
       "type": "legend",
       "domains": [
@@ -1102,6 +1167,7 @@
       "printings": [
         {
           "id": "OPP-OGN247",
+          "uuid": "dca5a0d5-9a10-5c67-ac37-1d2101633ec4",
           "collectorNumber": 247,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1120,6 +1186,7 @@
         },
         {
           "id": "OPP-OGN247.metal-best-of",
+          "uuid": "6921b685-e1d9-5270-8760-f1497d76f726",
           "collectorNumber": 247,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1139,6 +1206,7 @@
         },
         {
           "id": "OPP-OGN247.metal-prize-wall",
+          "uuid": "6ee2e314-9ed2-5b3e-a8a9-4cddc95c4006",
           "collectorNumber": 247,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1160,6 +1228,7 @@
     },
     {
       "number": "OPP-OGN249",
+      "uuid": "d22accd5-00dc-5f6d-bad1-c26a77192ef5",
       "name": "Relentless Storm",
       "type": "legend",
       "domains": [
@@ -1172,6 +1241,7 @@
       "printings": [
         {
           "id": "OPP-OGN249",
+          "uuid": "33fc7d68-59db-5951-a1ef-ad6e2ee00df5",
           "collectorNumber": 249,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1190,6 +1260,7 @@
         },
         {
           "id": "OPP-OGN249.metal-best-of",
+          "uuid": "53867467-da58-5fa1-9eb7-8b5888d8316c",
           "collectorNumber": 249,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1209,6 +1280,7 @@
         },
         {
           "id": "OPP-OGN249.metal-prize-wall",
+          "uuid": "1a61a634-14ff-5314-8e97-628477ecec00",
           "collectorNumber": 249,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1230,6 +1302,7 @@
     },
     {
       "number": "OPP-OGN251",
+      "uuid": "b58e85fa-6834-53cf-a105-65c2990910ab",
       "name": "Loose Cannon",
       "type": "legend",
       "domains": [
@@ -1242,6 +1315,7 @@
       "printings": [
         {
           "id": "OPP-OGN251",
+          "uuid": "5aedc76b-5cc8-5e78-b108-ff71fda24088",
           "collectorNumber": 251,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1260,6 +1334,7 @@
         },
         {
           "id": "OPP-OGN251.metal-best-of",
+          "uuid": "662d2f59-9bc6-5a94-9e0e-cf471b8bf6c1",
           "collectorNumber": 251,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1279,6 +1354,7 @@
         },
         {
           "id": "OPP-OGN251.metal-prize-wall",
+          "uuid": "5c8e04d1-f5fc-5a4b-8b8d-8a8bbb70e6b3",
           "collectorNumber": 251,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1300,6 +1376,7 @@
     },
     {
       "number": "OPP-OGN253",
+      "uuid": "4379b6b1-d9f0-5715-b809-01ccac49b868",
       "name": "Hand of Noxus",
       "type": "legend",
       "domains": [
@@ -1312,6 +1389,7 @@
       "printings": [
         {
           "id": "OPP-OGN253",
+          "uuid": "170873fe-fe8a-55dc-b286-e6e3df78654a",
           "collectorNumber": 253,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1330,6 +1408,7 @@
         },
         {
           "id": "OPP-OGN253.metal-best-of",
+          "uuid": "4ad7f1ca-eaf5-5ec8-83b9-757c30e8f062",
           "collectorNumber": 253,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1349,6 +1428,7 @@
         },
         {
           "id": "OPP-OGN253.metal-prize-wall",
+          "uuid": "b8cc96d6-bd78-577e-aee2-82f0764dc5be",
           "collectorNumber": 253,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1370,6 +1450,7 @@
     },
     {
       "number": "OPP-OGN255",
+      "uuid": "91f8b830-6e56-5fdd-85be-596a22d6cdba",
       "name": "Nine-Tailed Fox",
       "type": "legend",
       "domains": [
@@ -1382,6 +1463,7 @@
       "printings": [
         {
           "id": "OPP-OGN255",
+          "uuid": "b74fa9b3-f308-58c4-90c1-f09eea1f0c3b",
           "collectorNumber": 255,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1400,6 +1482,7 @@
         },
         {
           "id": "OPP-OGN255.metal-best-of",
+          "uuid": "810ef835-f510-5b1f-9a29-94bbb4002fd1",
           "collectorNumber": 255,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1419,6 +1502,7 @@
         },
         {
           "id": "OPP-OGN255.metal-prize-wall",
+          "uuid": "400e0ec0-9b07-5208-9a5c-335351a627cd",
           "collectorNumber": 255,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1440,6 +1524,7 @@
     },
     {
       "number": "OPP-OGN257",
+      "uuid": "56e82822-4201-5a22-8973-2fcef2463556",
       "name": "Blind Monk",
       "type": "legend",
       "domains": [
@@ -1452,6 +1537,7 @@
       "printings": [
         {
           "id": "OPP-OGN257",
+          "uuid": "9336bfab-591f-51d8-85ba-a0b6bb763fe6",
           "collectorNumber": 257,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1470,6 +1556,7 @@
         },
         {
           "id": "OPP-OGN257.metal-best-of",
+          "uuid": "5931bdda-7b89-57a4-aa65-7328b5e4aac4",
           "collectorNumber": 257,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1489,6 +1576,7 @@
         },
         {
           "id": "OPP-OGN257.metal-prize-wall",
+          "uuid": "1f5ea06d-207f-5b5a-b1a9-c275f2899811",
           "collectorNumber": 257,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1510,6 +1598,7 @@
     },
     {
       "number": "OPP-OGN259",
+      "uuid": "f8514904-ba23-55be-b120-f50e121244d1",
       "name": "Unforgiven",
       "type": "legend",
       "domains": [
@@ -1522,6 +1611,7 @@
       "printings": [
         {
           "id": "OPP-OGN259",
+          "uuid": "308c47eb-43d4-581f-b3be-6a4330e6a3ea",
           "collectorNumber": 259,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1540,6 +1630,7 @@
         },
         {
           "id": "OPP-OGN259.metal-best-of",
+          "uuid": "61529ece-9c49-561e-86d3-7cc6e258212f",
           "collectorNumber": 259,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1559,6 +1650,7 @@
         },
         {
           "id": "OPP-OGN259.metal-prize-wall",
+          "uuid": "3f7dad2d-5984-586d-bac2-73d9caff5444",
           "collectorNumber": 259,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1580,6 +1672,7 @@
     },
     {
       "number": "OPP-OGN261",
+      "uuid": "3770aaa4-96c1-5a5b-b232-8b534ed71d27",
       "name": "Radiant Dawn",
       "type": "legend",
       "domains": [
@@ -1592,6 +1685,7 @@
       "printings": [
         {
           "id": "OPP-OGN261",
+          "uuid": "df682178-c03b-58dd-ba5c-60b2fb58babb",
           "collectorNumber": 261,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1610,6 +1704,7 @@
         },
         {
           "id": "OPP-OGN261.metal-best-of",
+          "uuid": "a465a29c-12c3-5d36-8450-d194cb79f8e3",
           "collectorNumber": 261,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1629,6 +1724,7 @@
         },
         {
           "id": "OPP-OGN261.metal-prize-wall",
+          "uuid": "806df4ec-7488-5316-99de-db305c25406b",
           "collectorNumber": 261,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1650,6 +1746,7 @@
     },
     {
       "number": "OPP-OGN263",
+      "uuid": "84af584b-0f05-5f44-a4cc-712615c4d9cb",
       "name": "Swift Scout",
       "type": "legend",
       "domains": [
@@ -1662,6 +1759,7 @@
       "printings": [
         {
           "id": "OPP-OGN263",
+          "uuid": "e988e58d-2662-5a1c-822c-43816afe1eed",
           "collectorNumber": 263,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1680,6 +1778,7 @@
         },
         {
           "id": "OPP-OGN263.metal-best-of",
+          "uuid": "9bc86c91-63ec-5f7b-9b40-95cb4c7317ae",
           "collectorNumber": 263,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1699,6 +1798,7 @@
         },
         {
           "id": "OPP-OGN263.metal-prize-wall",
+          "uuid": "92a338ff-c68b-5b59-a250-905b8925f573",
           "collectorNumber": 263,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1720,6 +1820,7 @@
     },
     {
       "number": "OPP-OGN265",
+      "uuid": "530896b7-3321-52cf-8fe5-46e4c63ede1e",
       "name": "Herald of the Arcane",
       "type": "legend",
       "domains": [
@@ -1732,6 +1833,7 @@
       "printings": [
         {
           "id": "OPP-OGN265",
+          "uuid": "23e5768b-9702-50be-8882-0453aeb79c1e",
           "collectorNumber": 265,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1750,6 +1852,7 @@
         },
         {
           "id": "OPP-OGN265.metal-best-of",
+          "uuid": "cc00614e-735d-5660-8106-65d6d0ddfa66",
           "collectorNumber": 265,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1769,6 +1872,7 @@
         },
         {
           "id": "OPP-OGN265.metal-prize-wall",
+          "uuid": "157006af-9d10-5f0e-b5b1-ac2c654217ea",
           "collectorNumber": 265,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1790,6 +1894,7 @@
     },
     {
       "number": "OPP-OGN267",
+      "uuid": "32c6935a-ce59-5a13-b2bb-c426c2f415e5",
       "name": "Bounty Hunter",
       "type": "legend",
       "domains": [
@@ -1802,6 +1907,7 @@
       "printings": [
         {
           "id": "OPP-OGN267",
+          "uuid": "cd486210-a776-59c3-b2cd-6bc197af0099",
           "collectorNumber": 267,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1820,6 +1926,7 @@
         },
         {
           "id": "OPP-OGN267.metal-best-of",
+          "uuid": "1225114d-3fd1-56dc-a230-88dad69a430f",
           "collectorNumber": 267,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1839,6 +1946,7 @@
         },
         {
           "id": "OPP-OGN267.metal-prize-wall",
+          "uuid": "04da1922-8166-52e3-a189-ad69bd506833",
           "collectorNumber": 267,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1860,6 +1968,7 @@
     },
     {
       "number": "OPP-OGN269",
+      "uuid": "95437471-87c5-5345-b7f3-8f667cb66628",
       "name": "The Boss",
       "type": "legend",
       "domains": [
@@ -1872,6 +1981,7 @@
       "printings": [
         {
           "id": "OPP-OGN269",
+          "uuid": "678432a9-a76e-56d0-9c40-1aea88ecdfa3",
           "collectorNumber": 269,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -1890,6 +2000,7 @@
         },
         {
           "id": "OPP-OGN269.metal-best-of",
+          "uuid": "96aa9ebf-d64e-5ada-a0b0-a87076f5dce1",
           "collectorNumber": 269,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -1909,6 +2020,7 @@
         },
         {
           "id": "OPP-OGN269.metal-prize-wall",
+          "uuid": "e3090e57-970a-5f9a-9c0a-fc1efdcfd8c5",
           "collectorNumber": 269,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -1930,6 +2042,7 @@
     },
     {
       "number": "OPP-OGS001",
+      "uuid": "fa493d14-38c7-51a9-ad13-4c96346e4b2e",
       "name": "Annie",
       "subtitle": "Fiery",
       "type": "unit",
@@ -1949,6 +2062,7 @@
       "printings": [
         {
           "id": "OPP-OGS001",
+          "uuid": "34f78d36-e1a9-5c28-ab61-96c783a6d95d",
           "collectorNumber": 1,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -1969,6 +2083,7 @@
     },
     {
       "number": "OPP-OGS004",
+      "uuid": "189fe72c-aa3f-5413-b594-2f206f14feeb",
       "name": "Master Yi",
       "subtitle": "Meditative",
       "type": "unit",
@@ -1988,6 +2103,7 @@
       "printings": [
         {
           "id": "OPP-OGS004",
+          "uuid": "fcf1c782-00af-5398-a5b4-d5bf47413387",
           "collectorNumber": 4,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2008,6 +2124,7 @@
     },
     {
       "number": "OPP-OGS006",
+      "uuid": "24e80794-76e1-58fe-8c3d-ca48f47151e8",
       "name": "Lux",
       "subtitle": "Illuminated",
       "type": "unit",
@@ -2027,6 +2144,7 @@
       "printings": [
         {
           "id": "OPP-OGS006",
+          "uuid": "816d6af3-f6e6-569c-a1df-d271d61f530e",
           "collectorNumber": 6,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2047,6 +2165,7 @@
     },
     {
       "number": "OPP-OGS007",
+      "uuid": "2390af9b-719a-5989-8537-a3edaf578cfa",
       "name": "Garen",
       "subtitle": "Rugged",
       "type": "unit",
@@ -2067,6 +2186,7 @@
       "printings": [
         {
           "id": "OPP-OGS007",
+          "uuid": "1247d4db-5062-50fa-909d-b3cc1e73a45d",
           "collectorNumber": 7,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2087,6 +2207,7 @@
     },
     {
       "number": "OPP-OGS009",
+      "uuid": "48e2a5f9-4039-5df0-946a-8051690278ee",
       "name": "Master Yi",
       "subtitle": "Honed",
       "type": "unit",
@@ -2106,6 +2227,7 @@
       "printings": [
         {
           "id": "OPP-OGS009",
+          "uuid": "fd2afd87-44c7-5613-89fb-af41c893bea1",
           "collectorNumber": 9,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2126,6 +2248,7 @@
     },
     {
       "number": "OPP-OGS010",
+      "uuid": "c28ba228-59f9-551b-9d0b-edca783df55e",
       "name": "Annie",
       "subtitle": "Stubborn",
       "type": "unit",
@@ -2145,6 +2268,7 @@
       "printings": [
         {
           "id": "OPP-OGS010",
+          "uuid": "581fd924-9416-5513-9bd9-b36ac3435bac",
           "collectorNumber": 10,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2165,6 +2289,7 @@
     },
     {
       "number": "OPP-OGS011",
+      "uuid": "d08b40b1-5a3f-5671-956c-f836cf5ed9d9",
       "name": "Flash",
       "type": "spell",
       "domains": [
@@ -2174,6 +2299,7 @@
       "printings": [
         {
           "id": "OPP-OGS011",
+          "uuid": "cd30e24b-a299-5128-8096-55594fa4dcd6",
           "collectorNumber": 11,
           "rarity": "common",
           "source": "tcgplayer",
@@ -2194,6 +2320,7 @@
     },
     {
       "number": "OPP-OGS013",
+      "uuid": "46605178-9ce3-5445-b6ab-495662f995ea",
       "name": "Garen",
       "subtitle": "Commander",
       "type": "unit",
@@ -2214,6 +2341,7 @@
       "printings": [
         {
           "id": "OPP-OGS013",
+          "uuid": "e0c682d6-40d3-50d1-8955-53f844de7a44",
           "collectorNumber": 13,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2234,6 +2362,7 @@
     },
     {
       "number": "OPP-OGS014",
+      "uuid": "7fcaf093-f062-5676-9b46-fbced81a47d3",
       "name": "Lux",
       "subtitle": "Crownguard",
       "type": "unit",
@@ -2252,6 +2381,7 @@
       "printings": [
         {
           "id": "OPP-OGS014",
+          "uuid": "e200f5b7-0b81-55ae-9bc5-dc852a4a0e0b",
           "collectorNumber": 14,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2272,6 +2402,7 @@
     },
     {
       "number": "OPP-OGS017",
+      "uuid": "159f0bac-4fbf-5490-b676-704d831f8697",
       "name": "Dark Child",
       "subtitle": "Starter",
       "type": "legend",
@@ -2288,6 +2419,7 @@
       "printings": [
         {
           "id": "OPP-OGS017",
+          "uuid": "62c326f8-bac9-5ebe-9bae-ad58e1e9b3d9",
           "collectorNumber": 17,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2306,6 +2438,7 @@
         },
         {
           "id": "OPP-OGS017.metal-best-of",
+          "uuid": "5711a481-e0ff-548d-8d7d-c1c7cc542b24",
           "collectorNumber": 17,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -2325,6 +2458,7 @@
         },
         {
           "id": "OPP-OGS017.metal-prize-wall",
+          "uuid": "94106e46-2e1a-59be-a842-e0c5f8c14380",
           "collectorNumber": 17,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -2346,6 +2480,7 @@
     },
     {
       "number": "OPP-OGS018",
+      "uuid": "acaea137-df00-5c49-8b6b-4594e23d082c",
       "name": "Tibbers",
       "subtitle": "Annie",
       "type": "unit",
@@ -2365,6 +2500,7 @@
       "printings": [
         {
           "id": "OPP-OGS018",
+          "uuid": "c7ec397c-0033-5eb9-a9d6-efd0408851a5",
           "collectorNumber": 18,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2385,6 +2521,7 @@
     },
     {
       "number": "OPP-OGS019",
+      "uuid": "dd3d7363-be03-5abf-8a36-c9e17948af0d",
       "name": "Wuju Bladesman",
       "subtitle": "Starter",
       "type": "legend",
@@ -2401,6 +2538,7 @@
       "printings": [
         {
           "id": "OPP-OGS019",
+          "uuid": "8671f6dc-f830-53e1-af22-7ce7692841b4",
           "collectorNumber": 19,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2419,6 +2557,7 @@
         },
         {
           "id": "OPP-OGS019.metal-best-of",
+          "uuid": "f12fc08e-838b-5507-ac4b-ceb5b498e6aa",
           "collectorNumber": 19,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -2438,6 +2577,7 @@
         },
         {
           "id": "OPP-OGS019.metal-prize-wall",
+          "uuid": "fd3930d2-3077-5137-888a-10ea39837eb6",
           "collectorNumber": 19,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -2459,6 +2599,7 @@
     },
     {
       "number": "OPP-OGS020",
+      "uuid": "38cbee25-c16d-5dd2-8267-f4763758fd54",
       "name": "Highlander",
       "subtitle": "Yi",
       "type": "spell",
@@ -2476,6 +2617,7 @@
       "printings": [
         {
           "id": "OPP-OGS020",
+          "uuid": "9543f10c-3057-5d79-aa74-54ae2681c6e2",
           "collectorNumber": 20,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2496,6 +2638,7 @@
     },
     {
       "number": "OPP-OGS021",
+      "uuid": "fcd28816-4fa8-5c0c-9695-7241b6dcd612",
       "name": "Lady of Luminosity",
       "subtitle": "Starter",
       "type": "legend",
@@ -2512,6 +2655,7 @@
       "printings": [
         {
           "id": "OPP-OGS021",
+          "uuid": "4f3e8258-72ca-5c82-9ac9-67e4df86f68f",
           "collectorNumber": 21,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2530,6 +2674,7 @@
         },
         {
           "id": "OPP-OGS021.metal-best-of",
+          "uuid": "fefe8bca-f4c2-50ab-ae34-0b3ec86cfff6",
           "collectorNumber": 21,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -2549,6 +2694,7 @@
         },
         {
           "id": "OPP-OGS021.metal-prize-wall",
+          "uuid": "ac3b7b32-934c-52ad-b254-893deb28bc7c",
           "collectorNumber": 21,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -2570,6 +2716,7 @@
     },
     {
       "number": "OPP-OGS022",
+      "uuid": "c94b7159-a2a1-5262-b917-91ef31199694",
       "name": "Final Spark",
       "subtitle": "Lux",
       "type": "spell",
@@ -2587,6 +2734,7 @@
       "printings": [
         {
           "id": "OPP-OGS022",
+          "uuid": "d498a330-a7d0-5cb6-811f-a9d1de489d15",
           "collectorNumber": 22,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2607,6 +2755,7 @@
     },
     {
       "number": "OPP-OGS023",
+      "uuid": "36174756-191a-5936-a94f-ce01daeb8851",
       "name": "Might of Demacia",
       "subtitle": "Starter",
       "type": "legend",
@@ -2623,6 +2772,7 @@
       "printings": [
         {
           "id": "OPP-OGS023",
+          "uuid": "547730c9-12a3-5e9a-9977-335d01399a8e",
           "collectorNumber": 23,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -2641,6 +2791,7 @@
         },
         {
           "id": "OPP-OGS023.metal-best-of",
+          "uuid": "e1ceb92d-5b3f-564b-98f1-d6ef267b11ce",
           "collectorNumber": 23,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -2660,6 +2811,7 @@
         },
         {
           "id": "OPP-OGS023.metal-prize-wall",
+          "uuid": "b2761798-9bf6-55d0-8b16-6eb7e3d5461e",
           "collectorNumber": 23,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -2681,6 +2833,7 @@
     },
     {
       "number": "OPP-OGS024",
+      "uuid": "f27f6191-656c-5b36-a621-93f8a71c4455",
       "name": "Decisive Strike",
       "subtitle": "Garen",
       "type": "spell",
@@ -2699,6 +2852,7 @@
       "printings": [
         {
           "id": "OPP-OGS024",
+          "uuid": "3ac563ef-b9f4-5a57-bc4b-88ad65ba3e72",
           "collectorNumber": 24,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -2719,6 +2873,7 @@
     },
     {
       "number": "OPP-R01",
+      "uuid": "89d549b6-c6e3-5802-ada9-f5469e3ba42e",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -2730,6 +2885,7 @@
       "printings": [
         {
           "id": "OPP-R01c",
+          "uuid": "0d7c3795-2a4a-503f-a953-3a1cb2ebf951",
           "collectorNumber": 1,
           "suffix": "c",
           "rarity": "showcase",
@@ -2751,6 +2907,7 @@
     },
     {
       "number": "OPP-R02",
+      "uuid": "8b5f7e79-9c90-54d6-83e5-142fdce869fc",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -2762,6 +2919,7 @@
       "printings": [
         {
           "id": "OPP-R02c",
+          "uuid": "6c1417b5-1dcc-54a3-bc59-d39ed697afbd",
           "collectorNumber": 2,
           "suffix": "c",
           "rarity": "showcase",
@@ -2783,6 +2941,7 @@
     },
     {
       "number": "OPP-R03",
+      "uuid": "1563cee7-62a8-5e4b-92eb-5d2e0882ea96",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -2794,6 +2953,7 @@
       "printings": [
         {
           "id": "OPP-R03c",
+          "uuid": "6a3837a3-ba8d-54b4-bbaf-1127beb3e48a",
           "collectorNumber": 3,
           "suffix": "c",
           "rarity": "showcase",
@@ -2815,6 +2975,7 @@
     },
     {
       "number": "OPP-R04",
+      "uuid": "1412455a-2c8e-5bf3-a6b8-049bd3253389",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -2826,6 +2987,7 @@
       "printings": [
         {
           "id": "OPP-R04c",
+          "uuid": "28805407-fea2-5df6-918b-120dd5d4fadb",
           "collectorNumber": 4,
           "suffix": "c",
           "rarity": "showcase",
@@ -2847,6 +3009,7 @@
     },
     {
       "number": "OPP-R05",
+      "uuid": "5768e5ba-095e-55c7-9c72-cf2c54a24027",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -2858,6 +3021,7 @@
       "printings": [
         {
           "id": "OPP-R05c",
+          "uuid": "1fb5e3cf-a524-5975-8a55-420bc05b68ea",
           "collectorNumber": 5,
           "suffix": "c",
           "rarity": "showcase",
@@ -2879,6 +3043,7 @@
     },
     {
       "number": "OPP-R06",
+      "uuid": "ac812302-a3d3-598a-a3f1-c3d410876045",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -2890,6 +3055,7 @@
       "printings": [
         {
           "id": "OPP-R06c",
+          "uuid": "3997aeef-d158-567a-8bde-a0a92cc6938d",
           "collectorNumber": 6,
           "suffix": "c",
           "rarity": "showcase",
@@ -2911,6 +3077,7 @@
     },
     {
       "number": "OPP-RAD002",
+      "uuid": "ea52afe5-628f-59dc-8db1-b44ed5c87453",
       "name": "Banner of Conquest",
       "type": "gear",
       "domains": [
@@ -2924,6 +3091,7 @@
       "printings": [
         {
           "id": "OPP-RAD002",
+          "uuid": "e6d55038-21b5-5d4b-b830-29f38ab5b786",
           "collectorNumber": 2,
           "rarity": "common",
           "source": "tcgplayer",
@@ -2944,6 +3112,7 @@
     },
     {
       "number": "OPP-RAD008",
+      "uuid": "05118f5f-fe97-5db4-aa45-6f30c8ce8dab",
       "name": "War Scout",
       "type": "unit",
       "domains": [
@@ -2954,6 +3123,7 @@
       "printings": [
         {
           "id": "OPP-RAD008",
+          "uuid": "70d1ffce-edf0-51ae-aff3-c1e7501d1274",
           "collectorNumber": 8,
           "rarity": "common",
           "source": "tcgplayer",
@@ -2974,6 +3144,7 @@
     },
     {
       "number": "OPP-RAD014",
+      "uuid": "310f2a36-1ea4-5540-9b35-c20d8c4b379c",
       "name": "Shimmering Swimmer",
       "type": "unit",
       "domains": [
@@ -2984,6 +3155,7 @@
       "printings": [
         {
           "id": "OPP-RAD014",
+          "uuid": "b907c7ed-5503-552e-9f56-fa5df79973bb",
           "collectorNumber": 14,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3004,6 +3176,7 @@
     },
     {
       "number": "OPP-RAD019",
+      "uuid": "02e19918-4d42-5e69-89ba-754a8c354033",
       "name": "Firebrand Raider",
       "type": "unit",
       "domains": [
@@ -3015,6 +3188,7 @@
       "printings": [
         {
           "id": "OPP-RAD019",
+          "uuid": "35c8beaa-adfe-5bdf-8659-cd0f0e6e0a46",
           "collectorNumber": 19,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -3035,6 +3209,7 @@
     },
     {
       "number": "OPP-RAD027",
+      "uuid": "ec09b898-6f95-58cc-8158-5f5b9dac4241",
       "name": "Iridescent Avian",
       "type": "unit",
       "domains": [
@@ -3045,6 +3220,7 @@
       "printings": [
         {
           "id": "OPP-RAD027",
+          "uuid": "b36954a6-abcd-5b39-92aa-a5a226a832a3",
           "collectorNumber": 27,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3065,6 +3241,7 @@
     },
     {
       "number": "OPP-RAD029",
+      "uuid": "1882e92b-e378-5f3e-b00b-8d3d6e5f05af",
       "name": "Life from Stone",
       "type": "spell",
       "domains": [
@@ -3074,6 +3251,7 @@
       "printings": [
         {
           "id": "OPP-RAD029",
+          "uuid": "18b59a6d-89cf-5b72-acea-8b7fb4404d41",
           "collectorNumber": 29,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3094,6 +3272,7 @@
     },
     {
       "number": "OPP-RAD037",
+      "uuid": "efd2b745-fd64-504f-9cba-abf248a650c8",
       "name": "Watchful Curator",
       "type": "unit",
       "domains": [
@@ -3105,6 +3284,7 @@
       "printings": [
         {
           "id": "OPP-RAD037",
+          "uuid": "2e9f5b81-4a0d-520c-a42c-a1a1a16cf189",
           "collectorNumber": 37,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3125,12 +3305,14 @@
     },
     {
       "number": "OPP-RAD041",
+      "uuid": "b2eaf902-8a94-5173-b68f-bb409f473334",
       "name": "Hush",
       "energy": 1,
       "power": 2,
       "printings": [
         {
           "id": "OPP-RAD041",
+          "uuid": "65eaea09-74a5-5590-a04d-6dc3ba568d08",
           "collectorNumber": 41,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -3151,6 +3333,7 @@
     },
     {
       "number": "OPP-RAD048",
+      "uuid": "9639710d-13ad-5cd2-aac8-b61158d87bfb",
       "name": "High Note",
       "type": "spell",
       "domains": [
@@ -3160,6 +3343,7 @@
       "printings": [
         {
           "id": "OPP-RAD048",
+          "uuid": "7784a22a-2430-51aa-85f5-01c64688d053",
           "collectorNumber": 48,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3180,6 +3364,7 @@
     },
     {
       "number": "OPP-RAD054",
+      "uuid": "0d19346a-6b91-5ac6-bbfb-8c9cbda29ad4",
       "name": "Trinket Peddler",
       "type": "unit",
       "domains": [
@@ -3190,6 +3375,7 @@
       "printings": [
         {
           "id": "OPP-RAD054",
+          "uuid": "bf375f33-e7af-54fc-bb92-5c60cfe9fba2",
           "collectorNumber": 54,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3210,6 +3396,7 @@
     },
     {
       "number": "OPP-RAD055",
+      "uuid": "cf705d8a-e1db-585a-9bbf-83248131fb17",
       "name": "Clanging Sentry",
       "type": "unit",
       "domains": [
@@ -3220,6 +3407,7 @@
       "printings": [
         {
           "id": "OPP-RAD055",
+          "uuid": "3156ac48-f2d9-5bf1-b90b-3abf6cbd65bc",
           "collectorNumber": 55,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3240,6 +3428,7 @@
     },
     {
       "number": "OPP-RAD066",
+      "uuid": "8d06783a-8ad9-542e-acc0-b0ab671a2ba8",
       "name": "Spirit of the Forge",
       "type": "unit",
       "domains": [
@@ -3251,6 +3440,7 @@
       "printings": [
         {
           "id": "OPP-RAD066",
+          "uuid": "59e053fb-7123-54fb-9771-81ecbf29182e",
           "collectorNumber": 66,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -3271,6 +3461,7 @@
     },
     {
       "number": "OPP-RAD070",
+      "uuid": "2a2ad85d-3296-5896-b5e6-6e430acdaf21",
       "name": "Hold 'Em",
       "type": "spell",
       "domains": [
@@ -3280,6 +3471,7 @@
       "printings": [
         {
           "id": "OPP-RAD070",
+          "uuid": "95d93933-2da4-5003-a448-dd716cd0df65",
           "collectorNumber": 70,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3300,6 +3492,7 @@
     },
     {
       "number": "OPP-RAD076",
+      "uuid": "5c1c0a75-eb2f-5bbb-9340-8792a3778a48",
       "name": "Sneaky Zeebles",
       "type": "unit",
       "domains": [
@@ -3310,6 +3503,7 @@
       "printings": [
         {
           "id": "OPP-RAD076",
+          "uuid": "786d52f7-4b0c-5791-b811-63b0c96fdea3",
           "collectorNumber": 76,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3330,6 +3524,7 @@
     },
     {
       "number": "OPP-RAD083",
+      "uuid": "5d283eb9-b216-5836-a4e9-0f82dc14b8fa",
       "name": "Stalwart Goatherd",
       "type": "unit",
       "domains": [
@@ -3340,6 +3535,7 @@
       "printings": [
         {
           "id": "OPP-RAD083",
+          "uuid": "c6d78853-45d4-57d7-8442-975fa6980784",
           "collectorNumber": 83,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3360,6 +3556,7 @@
     },
     {
       "number": "OPP-RAD087",
+      "uuid": "18c5280f-b235-53cf-b152-7f0c6bc38a3b",
       "name": "Portable Portal",
       "type": "unit",
       "domains": [
@@ -3372,6 +3569,7 @@
       "printings": [
         {
           "id": "OPP-RAD087",
+          "uuid": "6d41e8ab-77e0-5f45-bf19-4b859c21deaa",
           "collectorNumber": 87,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -3392,6 +3590,7 @@
     },
     {
       "number": "OPP-RAD094",
+      "uuid": "5aa30e2e-9d4a-5427-a4cc-193c07f15b40",
       "name": "Explosimian",
       "type": "unit",
       "domains": [
@@ -3402,6 +3601,7 @@
       "printings": [
         {
           "id": "OPP-RAD094",
+          "uuid": "afdc5b8e-0fc7-59d5-b84d-086205d55613",
           "collectorNumber": 94,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3422,6 +3622,7 @@
     },
     {
       "number": "OPP-RAD096",
+      "uuid": "501adc89-9c17-5674-b006-3d8795be0973",
       "name": "Satchel Charge",
       "type": "spell",
       "domains": [
@@ -3432,6 +3633,7 @@
       "printings": [
         {
           "id": "OPP-RAD096",
+          "uuid": "98adc3c6-9a54-5bdb-909f-f80c3505bde8",
           "collectorNumber": 96,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3452,6 +3654,7 @@
     },
     {
       "number": "OPP-RAD105",
+      "uuid": "f5d091b2-0756-5016-8912-2b6d6db4c1ee",
       "name": "Reckless Innovator",
       "type": "unit",
       "domains": [
@@ -3462,6 +3665,7 @@
       "printings": [
         {
           "id": "OPP-RAD105",
+          "uuid": "bd601437-4cce-5eec-82a9-6ed69132345c",
           "collectorNumber": 105,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3482,6 +3686,7 @@
     },
     {
       "number": "OPP-RAD107",
+      "uuid": "5cc67758-27e4-5597-aea4-5685efbfae79",
       "name": "Bedeviling Stranger",
       "type": "unit",
       "domains": [
@@ -3492,6 +3697,7 @@
       "printings": [
         {
           "id": "OPP-RAD107",
+          "uuid": "974ce877-3731-506e-badf-dd3959e9dae5",
           "collectorNumber": 107,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -3512,6 +3718,7 @@
     },
     {
       "number": "OPP-RAD119",
+      "uuid": "abe9c99a-e0fa-5d5e-b228-1465a5d433db",
       "name": "Hunting Dog",
       "type": "unit",
       "domains": [
@@ -3522,6 +3729,7 @@
       "printings": [
         {
           "id": "OPP-RAD119",
+          "uuid": "06dc7057-fcd1-5c3d-b6a9-2827cb28c43f",
           "collectorNumber": 119,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3542,6 +3750,7 @@
     },
     {
       "number": "OPP-RAD122",
+      "uuid": "ec0a687e-2573-5bbc-880a-93e4dcf5ad2f",
       "name": "Party Crasher",
       "type": "unit",
       "domains": [
@@ -3553,6 +3762,7 @@
       "printings": [
         {
           "id": "OPP-RAD122",
+          "uuid": "db6e63aa-ad32-5496-bde5-f3e30bdd1a43",
           "collectorNumber": 122,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3573,6 +3783,7 @@
     },
     {
       "number": "OPP-RAD127",
+      "uuid": "6be031fe-1900-5f4a-a75d-d0d57406c652",
       "name": "Rousing Display",
       "domains": [
         "order"
@@ -3581,6 +3792,7 @@
       "printings": [
         {
           "id": "OPP-RAD127",
+          "uuid": "fecd9e76-6bd2-5723-986d-815eeea23f0b",
           "collectorNumber": 127,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3601,6 +3813,7 @@
     },
     {
       "number": "OPP-RAD130",
+      "uuid": "ae87d579-23ee-57e2-9f39-a8377884120f",
       "name": "Battlefield Armorer",
       "type": "spell",
       "domains": [
@@ -3611,6 +3824,7 @@
       "printings": [
         {
           "id": "OPP-RAD130",
+          "uuid": "be59736a-3410-53b3-b31c-3410eb157b84",
           "collectorNumber": 130,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -3631,6 +3845,7 @@
     },
     {
       "number": "OPP-SFD007",
+      "uuid": "44329fc3-233c-54d4-8e64-ec24d17d95a8",
       "name": "Gem Jammer",
       "type": "unit",
       "domains": [
@@ -3645,6 +3860,7 @@
       "printings": [
         {
           "id": "OPP-SFD007",
+          "uuid": "a748e664-71ca-5878-9295-27b256a2f3b1",
           "collectorNumber": 7,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3665,6 +3881,7 @@
     },
     {
       "number": "OPP-SFD009",
+      "uuid": "52776d00-cad5-5816-9ca4-90b4f2d937cd",
       "name": "Serrated Dirk",
       "type": "gear",
       "domains": [
@@ -3679,6 +3896,7 @@
       "printings": [
         {
           "id": "OPP-SFD009",
+          "uuid": "8e57c34e-726b-520e-a929-e584c78414d2",
           "collectorNumber": 9,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3699,6 +3917,7 @@
     },
     {
       "number": "OPP-SFD013",
+      "uuid": "90796e54-2104-50fc-83f2-6db1c90f0b7a",
       "name": "Blast Corps Cadet",
       "type": "unit",
       "domains": [
@@ -3712,6 +3931,7 @@
       "printings": [
         {
           "id": "OPP-SFD013",
+          "uuid": "808ae633-4abf-592e-8803-999f69efe27c",
           "collectorNumber": 13,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3732,6 +3952,7 @@
     },
     {
       "number": "OPP-SFD022",
+      "uuid": "8c52352a-e9d5-53db-b9d8-18f0e03b0f40",
       "name": "Long Sword",
       "type": "gear",
       "domains": [
@@ -3747,6 +3968,7 @@
       "printings": [
         {
           "id": "OPP-SFD022.top-8",
+          "uuid": "649e6e19-f0a6-5244-b1c2-7ab27b56ac44",
           "collectorNumber": 22,
           "variant": "top-8",
           "rarity": "rare",
@@ -3768,6 +3990,7 @@
     },
     {
       "number": "OPP-SFD033",
+      "uuid": "e78396d3-d6b6-52fd-aeb6-057f4c01e9c8",
       "name": "Doran's Shield",
       "type": "gear",
       "domains": [
@@ -3782,6 +4005,7 @@
       "printings": [
         {
           "id": "OPP-SFD033",
+          "uuid": "a4760459-a21f-59ad-a6bf-e24428ec9f73",
           "collectorNumber": 33,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3802,6 +4026,7 @@
     },
     {
       "number": "OPP-SFD037",
+      "uuid": "1c49a6cd-728c-5755-ad78-e4a2175cbebb",
       "name": "Navori Scout",
       "type": "unit",
       "domains": [
@@ -3816,6 +4041,7 @@
       "printings": [
         {
           "id": "OPP-SFD037",
+          "uuid": "342edc39-c20c-57c4-8613-d71e9055a334",
           "collectorNumber": 37,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3836,6 +4062,7 @@
     },
     {
       "number": "OPP-SFD048",
+      "uuid": "ba54811a-b05a-51aa-afaa-c6967f64ad72",
       "name": "Stellacorn Herder",
       "type": "unit",
       "domains": [
@@ -3849,6 +4076,7 @@
       "printings": [
         {
           "id": "OPP-SFD048",
+          "uuid": "b0195201-2e15-5ebe-920f-b5baf2d33262",
           "collectorNumber": 48,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -3869,6 +4097,7 @@
     },
     {
       "number": "OPP-SFD051",
+      "uuid": "95643b46-04f6-5b7a-8c44-0f262ab0c7ca",
       "name": "Guardian Angel",
       "type": "gear",
       "domains": [
@@ -3883,6 +4112,7 @@
       "printings": [
         {
           "id": "OPP-SFD051.champion",
+          "uuid": "64c9d06d-60b7-510b-8ee2-7d5c884bf516",
           "collectorNumber": 51,
           "variant": "champion",
           "rarity": "rare",
@@ -3902,6 +4132,7 @@
         },
         {
           "id": "OPP-SFD051.top-8",
+          "uuid": "ac0278f7-0fe1-52e9-9d44-29487425eff2",
           "collectorNumber": 51,
           "variant": "top-8",
           "rarity": "rare",
@@ -3923,6 +4154,7 @@
     },
     {
       "number": "OPP-SFD064",
+      "uuid": "655d5413-2b25-536f-8e9d-c157e3eb2d6c",
       "name": "Cloth Armor",
       "type": "gear",
       "domains": [
@@ -3937,6 +4169,7 @@
       "printings": [
         {
           "id": "OPP-SFD064",
+          "uuid": "2b404fc8-ec8a-534c-bdde-35060e33e898",
           "collectorNumber": 64,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3957,6 +4190,7 @@
     },
     {
       "number": "OPP-SFD067",
+      "uuid": "3710c581-d893-5666-a6f6-8794dd36c832",
       "name": "Frostcoat Cub",
       "type": "unit",
       "domains": [
@@ -3971,6 +4205,7 @@
       "printings": [
         {
           "id": "OPP-SFD067",
+          "uuid": "f950de63-f30d-5d00-9112-8a3154658990",
           "collectorNumber": 67,
           "rarity": "common",
           "source": "tcgplayer",
@@ -3991,6 +4226,7 @@
     },
     {
       "number": "OPP-SFD076",
+      "uuid": "3fa314ed-347b-5c7f-85af-64973d390720",
       "name": "Production Surge",
       "type": "spell",
       "domains": [
@@ -4001,6 +4237,7 @@
       "printings": [
         {
           "id": "OPP-SFD076",
+          "uuid": "c7a53b7c-4094-5a81-9784-0c2b199042a6",
           "collectorNumber": 76,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -4021,6 +4258,7 @@
     },
     {
       "number": "OPP-SFD084",
+      "uuid": "d2082156-fc54-5dcb-8341-97196d6b4915",
       "name": "Jayce",
       "subtitle": "Man of Progress",
       "type": "unit",
@@ -4039,6 +4277,7 @@
       "printings": [
         {
           "id": "OPP-SFD084",
+          "uuid": "fc3f29af-9098-5d27-99fe-de01dc799a25",
           "collectorNumber": 84,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -4059,6 +4298,7 @@
     },
     {
       "number": "OPP-SFD086",
+      "uuid": "9a2c5d29-120e-5cea-b4e3-affef671d9f8",
       "name": "World Atlas",
       "type": "gear",
       "domains": [
@@ -4073,6 +4313,7 @@
       "printings": [
         {
           "id": "OPP-SFD086",
+          "uuid": "0b5e6aac-a200-5cbb-91f9-e4cf65f208f2",
           "collectorNumber": 86,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -4093,6 +4334,7 @@
     },
     {
       "number": "OPP-SFD095",
+      "uuid": "68625888-481a-5e87-ba66-769d65c4b876",
       "name": "Doran's Blade",
       "type": "gear",
       "domains": [
@@ -4107,6 +4349,7 @@
       "printings": [
         {
           "id": "OPP-SFD095",
+          "uuid": "de401706-b5af-5752-8beb-6f60246dfb53",
           "collectorNumber": 95,
           "rarity": "common",
           "source": "tcgplayer",
@@ -4127,6 +4370,7 @@
     },
     {
       "number": "OPP-SFD098",
+      "uuid": "a8ca7731-9753-5259-810d-9cb5bce71ff0",
       "name": "Sea Monkey",
       "type": "unit",
       "domains": [
@@ -4141,6 +4385,7 @@
       "printings": [
         {
           "id": "OPP-SFD098",
+          "uuid": "3c7deb0b-a18b-53ff-9b61-1bacbc5b1cd1",
           "collectorNumber": 98,
           "rarity": "common",
           "source": "tcgplayer",
@@ -4161,6 +4406,7 @@
     },
     {
       "number": "OPP-SFD101",
+      "uuid": "7a5cde1b-a878-5e86-a984-49d28738b5d8",
       "name": "Fae Dragon",
       "type": "unit",
       "domains": [
@@ -4177,6 +4423,7 @@
       "printings": [
         {
           "id": "OPP-SFD101",
+          "uuid": "fe10a1be-107b-5d34-a0cc-88335458ffd6",
           "collectorNumber": 101,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -4197,6 +4444,7 @@
     },
     {
       "number": "OPP-SFD116",
+      "uuid": "c1a73ee6-db8d-5d76-93b5-ede80c7731a2",
       "name": "Yone",
       "subtitle": "Blademaster",
       "type": "unit",
@@ -4217,6 +4465,7 @@
       "printings": [
         {
           "id": "OPP-SFD116",
+          "uuid": "14005394-5ecd-52b5-a542-180d27ca3ad6",
           "collectorNumber": 116,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -4237,6 +4486,7 @@
     },
     {
       "number": "OPP-SFD118",
+      "uuid": "e26e0ac0-dd13-55c9-a58e-126480dfae55",
       "name": "Boneshiver",
       "type": "gear",
       "domains": [
@@ -4251,6 +4501,7 @@
       "printings": [
         {
           "id": "OPP-SFD118a",
+          "uuid": "6fe3349e-38c7-5708-b32f-98999595c1da",
           "collectorNumber": 118,
           "suffix": "a",
           "rarity": "epic",
@@ -4272,6 +4523,7 @@
     },
     {
       "number": "OPP-SFD124",
+      "uuid": "68359519-5a2f-503a-ab14-09aca6d17cae",
       "name": "Doran's Ring",
       "type": "gear",
       "domains": [
@@ -4286,6 +4538,7 @@
       "printings": [
         {
           "id": "OPP-SFD124",
+          "uuid": "fec40edd-a3a0-598f-b6a2-ab1b8e39edd0",
           "collectorNumber": 124,
           "rarity": "common",
           "source": "tcgplayer",
@@ -4306,6 +4559,7 @@
     },
     {
       "number": "OPP-SFD130",
+      "uuid": "413ca169-7e7e-5b0f-bb2d-a2623ca4e923",
       "name": "Treasure Hunter",
       "type": "unit",
       "domains": [
@@ -4319,6 +4573,7 @@
       "printings": [
         {
           "id": "OPP-SFD130",
+          "uuid": "4b44ad88-2514-54a3-90df-5e71a35520f4",
           "collectorNumber": 130,
           "rarity": "common",
           "source": "tcgplayer",
@@ -4339,6 +4594,7 @@
     },
     {
       "number": "OPP-SFD137",
+      "uuid": "dce541cd-a40b-515e-b5bc-1fa651b1b274",
       "name": "Harpoon Squad",
       "type": "unit",
       "domains": [
@@ -4353,6 +4609,7 @@
       "printings": [
         {
           "id": "OPP-SFD137",
+          "uuid": "6dfd4e61-ea62-5299-9d7d-37fbb152e2b1",
           "collectorNumber": 137,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -4373,6 +4630,7 @@
     },
     {
       "number": "OPP-SFD139",
+      "uuid": "a9b34bb8-bbee-54d9-9f28-890af82e05a7",
       "name": "Edge of Night",
       "type": "gear",
       "domains": [
@@ -4387,6 +4645,7 @@
       "printings": [
         {
           "id": "OPP-SFD139.champion",
+          "uuid": "20ccdd10-6624-508a-a5d7-a9e82499ea67",
           "collectorNumber": 139,
           "variant": "champion",
           "rarity": "rare",
@@ -4406,6 +4665,7 @@
         },
         {
           "id": "OPP-SFD139.top-8",
+          "uuid": "31f18e30-36e2-507b-b237-d5372afd3011",
           "collectorNumber": 139,
           "variant": "top-8",
           "rarity": "rare",
@@ -4427,6 +4687,7 @@
     },
     {
       "number": "OPP-SFD153",
+      "uuid": "28c76c44-6608-56e2-ad68-590f8944008a",
       "name": "Eye of the Herald",
       "type": "gear",
       "domains": [
@@ -4441,6 +4702,7 @@
       "printings": [
         {
           "id": "OPP-SFD153",
+          "uuid": "9e204dfc-9a24-5a26-b890-0c2747b22976",
           "collectorNumber": 153,
           "rarity": "common",
           "source": "tcgplayer",
@@ -4461,6 +4723,7 @@
     },
     {
       "number": "OPP-SFD156",
+      "uuid": "dc477aa4-6a48-5ce8-a0c3-4db2cfc1b401",
       "name": "Laurent Duelist",
       "type": "unit",
       "domains": [
@@ -4474,6 +4737,7 @@
       "printings": [
         {
           "id": "OPP-SFD156",
+          "uuid": "21ebc31f-33ce-5401-a9a1-2c8bdf996bf7",
           "collectorNumber": 156,
           "rarity": "common",
           "source": "tcgplayer",
@@ -4494,6 +4758,7 @@
     },
     {
       "number": "OPP-SFD167",
+      "uuid": "81b3720c-3801-58b2-becb-0906d871b4d8",
       "name": "Unsung Hero",
       "type": "unit",
       "domains": [
@@ -4508,6 +4773,7 @@
       "printings": [
         {
           "id": "OPP-SFD167",
+          "uuid": "ebcdd635-14c4-5df5-8641-cdcbcb2e5119",
           "collectorNumber": 167,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -4528,6 +4794,7 @@
     },
     {
       "number": "OPP-SFD181",
+      "uuid": "04f8bc8f-545c-5f0c-80fc-87b3b6ad64c8",
       "name": "Mechanized Menace",
       "type": "legend",
       "domains": [
@@ -4540,6 +4807,7 @@
       "printings": [
         {
           "id": "OPP-SFD181.metal-best-of",
+          "uuid": "792b78ec-20aa-5e1d-afdc-e60c9a7d8263",
           "collectorNumber": 181,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4559,6 +4827,7 @@
         },
         {
           "id": "OPP-SFD181.metal-prize-wall",
+          "uuid": "422c8006-b0bd-5be1-9fd0-04eef9ac9d7b",
           "collectorNumber": 181,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4580,6 +4849,7 @@
     },
     {
       "number": "OPP-SFD183",
+      "uuid": "4cec5953-3d81-56ae-9ebb-25e0b3d54330",
       "name": "Purifier",
       "type": "legend",
       "domains": [
@@ -4592,6 +4862,7 @@
       "printings": [
         {
           "id": "OPP-SFD183.metal-best-of",
+          "uuid": "b8db0cf1-9650-55d2-9b3b-1a7abae09cda",
           "collectorNumber": 183,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4611,6 +4882,7 @@
         },
         {
           "id": "OPP-SFD183.metal-prize-wall",
+          "uuid": "507522c4-b7ae-5468-8fde-ecbe26754101",
           "collectorNumber": 183,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4632,6 +4904,7 @@
     },
     {
       "number": "OPP-SFD185",
+      "uuid": "d0cf3d2e-9c7c-5f84-8965-95597ab5f38e",
       "name": "Glorious Executioner",
       "type": "legend",
       "domains": [
@@ -4644,6 +4917,7 @@
       "printings": [
         {
           "id": "OPP-SFD185.metal-best-of",
+          "uuid": "db3e922d-f7ad-51c6-a8de-39c8e5d248a8",
           "collectorNumber": 185,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4663,6 +4937,7 @@
         },
         {
           "id": "OPP-SFD185.metal-prize-wall",
+          "uuid": "ca0f9346-1773-5b2a-b532-1c385c9718ce",
           "collectorNumber": 185,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4684,6 +4959,7 @@
     },
     {
       "number": "OPP-SFD187",
+      "uuid": "a084f0b3-efb3-5452-96d2-01651e4ff8bd",
       "name": "Void Burrower",
       "type": "legend",
       "domains": [
@@ -4696,6 +4972,7 @@
       "printings": [
         {
           "id": "OPP-SFD187.metal-best-of",
+          "uuid": "b1dc502c-6131-5568-b9e1-ebc35645eb38",
           "collectorNumber": 187,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4715,6 +4992,7 @@
         },
         {
           "id": "OPP-SFD187.metal-prize-wall",
+          "uuid": "3e5d2330-4ed6-5105-9243-487ea23bb68a",
           "collectorNumber": 187,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4736,6 +5014,7 @@
     },
     {
       "number": "OPP-SFD189",
+      "uuid": "226270a9-3dfc-5c9e-bc63-c1cc57c7b4bc",
       "name": "Fire Below the Mountain",
       "type": "legend",
       "domains": [
@@ -4748,6 +5027,7 @@
       "printings": [
         {
           "id": "OPP-SFD189.metal-best-of",
+          "uuid": "2b53ee33-d830-5aa6-b3ea-62f41762f84f",
           "collectorNumber": 189,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4767,6 +5047,7 @@
         },
         {
           "id": "OPP-SFD189.metal-prize-wall",
+          "uuid": "5faa1738-2982-5f55-a477-66763d4b2b2a",
           "collectorNumber": 189,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4788,6 +5069,7 @@
     },
     {
       "number": "OPP-SFD193",
+      "uuid": "1d1ed719-1f8b-56c3-9c36-1050c8461028",
       "name": "Grandmaster at Arms",
       "type": "legend",
       "domains": [
@@ -4800,6 +5082,7 @@
       "printings": [
         {
           "id": "OPP-SFD193.metal-best-of",
+          "uuid": "4e1acd72-2872-58a3-834d-67062d522603",
           "collectorNumber": 193,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4819,6 +5102,7 @@
         },
         {
           "id": "OPP-SFD193.metal-prize-wall",
+          "uuid": "9a08df13-429a-502c-a5f5-256c0e9b5025",
           "collectorNumber": 193,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4840,6 +5124,7 @@
     },
     {
       "number": "OPP-SFD195",
+      "uuid": "f266455a-e05f-5ad5-84ec-78b604f0b891",
       "name": "Blade Dancer",
       "type": "legend",
       "domains": [
@@ -4852,6 +5137,7 @@
       "printings": [
         {
           "id": "OPP-SFD195.metal-best-of",
+          "uuid": "a411d0aa-ae8d-5b3c-9aeb-77ecc2dcc31b",
           "collectorNumber": 195,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4871,6 +5157,7 @@
         },
         {
           "id": "OPP-SFD195.metal-prize-wall",
+          "uuid": "71f5d478-8c01-5a7f-8b05-4dd5766cf2d1",
           "collectorNumber": 195,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4892,6 +5179,7 @@
     },
     {
       "number": "OPP-SFD197",
+      "uuid": "c71bbaec-4c90-5110-b928-ebf1fca68d42",
       "name": "Emperor of the Sands",
       "type": "legend",
       "domains": [
@@ -4904,6 +5192,7 @@
       "printings": [
         {
           "id": "OPP-SFD197.metal-best-of",
+          "uuid": "ed51e4d5-c0c9-5ebe-9c5b-d14d37b8dc90",
           "collectorNumber": 197,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4923,6 +5212,7 @@
         },
         {
           "id": "OPP-SFD197.metal-prize-wall",
+          "uuid": "d9ab99e9-eca2-5181-9e31-208d3b109622",
           "collectorNumber": 197,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4944,6 +5234,7 @@
     },
     {
       "number": "OPP-SFD199",
+      "uuid": "dd71b9fa-ee32-5a6a-8c81-1e77aa07eb87",
       "name": "Prodigal Explorer",
       "type": "legend",
       "domains": [
@@ -4956,6 +5247,7 @@
       "printings": [
         {
           "id": "OPP-SFD199.metal-best-of",
+          "uuid": "3f5bc6a0-91f4-597f-aa34-3dd6f311393b",
           "collectorNumber": 199,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -4975,6 +5267,7 @@
         },
         {
           "id": "OPP-SFD199.metal-prize-wall",
+          "uuid": "28d78af7-10d4-55b7-a39c-89b1060adf9b",
           "collectorNumber": 199,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -4996,6 +5289,7 @@
     },
     {
       "number": "OPP-SFD201",
+      "uuid": "f44b9f9b-1a61-51fd-a751-07845a122d2a",
       "name": "Chem-Baroness",
       "type": "legend",
       "domains": [
@@ -5008,6 +5302,7 @@
       "printings": [
         {
           "id": "OPP-SFD201.metal-best-of",
+          "uuid": "3b9c7cc4-6e25-5b87-8f8a-f14ed5d2df6d",
           "collectorNumber": 201,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -5027,6 +5322,7 @@
         },
         {
           "id": "OPP-SFD201.metal-prize-wall",
+          "uuid": "25ff5830-8d6f-5748-bf50-dff2d9b1da5c",
           "collectorNumber": 201,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -5048,6 +5344,7 @@
     },
     {
       "number": "OPP-SFD203",
+      "uuid": "49ac0e16-053e-524f-9595-7b61fc4adf97",
       "name": "Battle Mistress",
       "type": "legend",
       "domains": [
@@ -5060,6 +5357,7 @@
       "printings": [
         {
           "id": "OPP-SFD203.metal-best-of",
+          "uuid": "6ecf2e8d-62bf-5559-b1f2-9ccd8a990d54",
           "collectorNumber": 203,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -5079,6 +5377,7 @@
         },
         {
           "id": "OPP-SFD203.metal-prize-wall",
+          "uuid": "7c6ae097-3bcf-5ee3-8527-681005023edd",
           "collectorNumber": 203,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -5100,6 +5399,7 @@
     },
     {
       "number": "OPP-SFD205",
+      "uuid": "0339fe68-4b52-510d-a737-94901da25777",
       "name": "Grand Duelist",
       "type": "legend",
       "domains": [
@@ -5112,6 +5412,7 @@
       "printings": [
         {
           "id": "OPP-SFD205.metal-best-of",
+          "uuid": "b4a66e80-93ef-5ac8-89bf-0eee22cc2f0e",
           "collectorNumber": 205,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -5131,6 +5432,7 @@
         },
         {
           "id": "OPP-SFD205.metal-prize-wall",
+          "uuid": "4d63561e-13aa-5f5c-b889-3429a8d0e171",
           "collectorNumber": 205,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -5152,10 +5454,12 @@
     },
     {
       "number": "OPP-T02+T03",
+      "uuid": "031e7155-a617-5c31-bce8-88340a2d7d3a",
       "name": "Bird // Buff",
       "printings": [
         {
           "id": "OPP-T02+T03",
+          "uuid": "212d47d5-3e06-5d4e-b79a-21821a1c5166",
           "collectorNumber": 2,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -5176,6 +5480,7 @@
     },
     {
       "number": "OPP-UNL001",
+      "uuid": "9f3a8e77-4c7c-5e48-ae18-31ec07d865ec",
       "name": "Arena Kingpin",
       "type": "unit",
       "domains": [
@@ -5190,6 +5495,7 @@
       "printings": [
         {
           "id": "OPP-UNL001",
+          "uuid": "1ffe1a24-a186-570c-955c-427d17a19a8a",
           "collectorNumber": 1,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5210,6 +5516,7 @@
     },
     {
       "number": "OPP-UNL009",
+      "uuid": "d7dc76df-55b3-5e86-9eb7-00a3b0bb6f07",
       "name": "Upstage Comedy",
       "type": "spell",
       "domains": [
@@ -5219,6 +5526,7 @@
       "printings": [
         {
           "id": "OPP-UNL009",
+          "uuid": "a7da58b1-9b59-5cc4-95a7-ad10d43a9d62",
           "collectorNumber": 9,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5239,6 +5547,7 @@
     },
     {
       "number": "OPP-UNL016",
+      "uuid": "9627df4d-b689-54a8-b427-9fd57314b0da",
       "name": "Scorchclaw",
       "type": "unit",
       "domains": [
@@ -5254,6 +5563,7 @@
       "printings": [
         {
           "id": "OPP-UNL016",
+          "uuid": "a9863368-708a-5e01-8c7e-0fc6d268a41a",
           "collectorNumber": 16,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -5274,6 +5584,7 @@
     },
     {
       "number": "OPP-UNL036",
+      "uuid": "ee759d1e-8763-5108-9952-b1778dcc9aea",
       "name": "Mutated Mouser",
       "type": "unit",
       "domains": [
@@ -5288,6 +5599,7 @@
       "printings": [
         {
           "id": "OPP-UNL036",
+          "uuid": "6541dc29-a95b-539f-b59d-09bc94b79237",
           "collectorNumber": 36,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5308,6 +5620,7 @@
     },
     {
       "number": "OPP-UNL039",
+      "uuid": "cfca3247-049b-5c45-91d2-3aacc832e016",
       "name": "Soul Sword",
       "type": "gear",
       "domains": [
@@ -5322,6 +5635,7 @@
       "printings": [
         {
           "id": "OPP-UNL039",
+          "uuid": "824281dc-e88f-5e22-aeec-dd725212ab4d",
           "collectorNumber": 39,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5342,6 +5656,7 @@
     },
     {
       "number": "OPP-UNL047",
+      "uuid": "3c02b3ae-c3cf-5608-9151-203a265e672c",
       "name": "Mosstomper",
       "type": "unit",
       "domains": [
@@ -5357,6 +5672,7 @@
       "printings": [
         {
           "id": "OPP-UNL047",
+          "uuid": "f936b5c2-af23-5a54-9430-09fecedb595f",
           "collectorNumber": 47,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -5377,6 +5693,7 @@
     },
     {
       "number": "OPP-UNL056",
+      "uuid": "22fe90ff-f9dd-52e5-bcb7-2af9bfb67ba4",
       "name": "Yuumi",
       "subtitle": "Magical Cat",
       "type": "unit",
@@ -5398,6 +5715,7 @@
       "printings": [
         {
           "id": "OPP-UNL056",
+          "uuid": "f1be3e4e-e7fb-50d9-8c8a-57f3cfb9754b",
           "collectorNumber": 56,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -5418,6 +5736,7 @@
     },
     {
       "number": "OPP-UNL058",
+      "uuid": "c9ab9580-bfa0-51f7-b0b7-0f4cce7bf022",
       "name": "Lillia",
       "subtitle": "Protector of Dreams",
       "type": "unit",
@@ -5437,6 +5756,7 @@
       "printings": [
         {
           "id": "OPP-UNL058",
+          "uuid": "2d9c398a-f534-5c88-b975-f5069800b66a",
           "collectorNumber": 58,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -5455,6 +5775,7 @@
         },
         {
           "id": "OPP-UNL058.champion",
+          "uuid": "b569bb1f-bdd9-50c2-8db2-839808c9e34e",
           "collectorNumber": 58,
           "variant": "champion",
           "rarity": "epic",
@@ -5476,6 +5797,7 @@
     },
     {
       "number": "OPP-UNL061",
+      "uuid": "417414a6-09fc-55d4-9368-fbc1f4a5322e",
       "name": "Downstage Dramatics",
       "type": "spell",
       "domains": [
@@ -5485,6 +5807,7 @@
       "printings": [
         {
           "id": "OPP-UNL061",
+          "uuid": "d3cc974d-9aec-5dbf-87af-dfeeb43a619a",
           "collectorNumber": 61,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5505,6 +5828,7 @@
     },
     {
       "number": "OPP-UNL065",
+      "uuid": "3fe411b4-afd2-5af5-9e81-face8575727f",
       "name": "Icevale Archer",
       "type": "unit",
       "domains": [
@@ -5518,6 +5842,7 @@
       "printings": [
         {
           "id": "OPP-UNL065",
+          "uuid": "8c82815e-c9ec-58db-b7bf-2e8ea42b991d",
           "collectorNumber": 65,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5538,6 +5863,7 @@
     },
     {
       "number": "OPP-UNL075",
+      "uuid": "044cca68-3e88-5df5-973b-708122f6f91d",
       "name": "Gustwalker",
       "type": "unit",
       "domains": [
@@ -5553,6 +5879,7 @@
       "printings": [
         {
           "id": "OPP-UNL075",
+          "uuid": "3ab155eb-e89a-5686-b87c-7be7b8ea1278",
           "collectorNumber": 75,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -5573,6 +5900,7 @@
     },
     {
       "number": "OPP-UNL086",
+      "uuid": "06d7aa6e-d70d-5632-bd56-38110a671ec5",
       "name": "Zilean",
       "subtitle": "Time Mage",
       "type": "unit",
@@ -5592,6 +5920,7 @@
       "printings": [
         {
           "id": "OPP-UNL086",
+          "uuid": "8b869418-360c-556a-94e0-79dd96723de4",
           "collectorNumber": 86,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -5612,6 +5941,7 @@
     },
     {
       "number": "OPP-UNL093",
+      "uuid": "2df7d066-4193-5787-bb33-156a7f68ffe0",
       "name": "Dragonsoul Sage",
       "type": "unit",
       "domains": [
@@ -5625,6 +5955,7 @@
       "printings": [
         {
           "id": "OPP-UNL093",
+          "uuid": "4cba5d4d-06bd-5ba9-832c-37f93657173d",
           "collectorNumber": 93,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5645,6 +5976,7 @@
     },
     {
       "number": "OPP-UNL100",
+      "uuid": "b3f723f4-3910-5b18-8398-8523152242cb",
       "name": "Voracious Gromp",
       "type": "unit",
       "domains": [
@@ -5658,6 +5990,7 @@
       "printings": [
         {
           "id": "OPP-UNL100",
+          "uuid": "f156e32c-0621-5690-8718-f8ab4b787bac",
           "collectorNumber": 100,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5678,6 +6011,7 @@
     },
     {
       "number": "OPP-UNL107",
+      "uuid": "8c4f0e22-3c42-5de0-9279-70660d926c88",
       "name": "Stare Down",
       "type": "spell",
       "domains": [
@@ -5687,6 +6021,7 @@
       "printings": [
         {
           "id": "OPP-UNL107",
+          "uuid": "534ecfbd-9efd-51d9-bbd0-6729717aa538",
           "collectorNumber": 107,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -5707,6 +6042,7 @@
     },
     {
       "number": "OPP-UNL120",
+      "uuid": "e6db1b9f-036e-5bb5-9ae3-627daf1813f0",
       "name": "Rengar",
       "subtitle": "Trophy Hunter",
       "type": "unit",
@@ -5727,6 +6063,7 @@
       "printings": [
         {
           "id": "OPP-UNL120",
+          "uuid": "7eb513b5-2561-522b-87b6-7b8868bb9fa7",
           "collectorNumber": 120,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -5745,6 +6082,7 @@
         },
         {
           "id": "OPP-UNL120.champion",
+          "uuid": "1895e70b-eb1c-5766-998a-aa7c00703c1c",
           "collectorNumber": 120,
           "variant": "champion",
           "rarity": "epic",
@@ -5766,6 +6104,7 @@
     },
     {
       "number": "OPP-UNL125",
+      "uuid": "04698aea-f366-55cb-8ddc-0a1401f41a07",
       "name": "Lunar Boon",
       "type": "spell",
       "domains": [
@@ -5775,6 +6114,7 @@
       "printings": [
         {
           "id": "OPP-UNL125",
+          "uuid": "d5af81f2-1230-500d-b9ef-0ab9dac4a2f2",
           "collectorNumber": 125,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5795,6 +6135,7 @@
     },
     {
       "number": "OPP-UNL127",
+      "uuid": "c0ab1b4d-3db1-5d77-a8a2-38afb93712cf",
       "name": "Mister Root",
       "type": "unit",
       "domains": [
@@ -5809,6 +6150,7 @@
       "printings": [
         {
           "id": "OPP-UNL127",
+          "uuid": "32cfceae-237c-5f5f-b9a5-b212fb05d45a",
           "collectorNumber": 127,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5829,6 +6171,7 @@
     },
     {
       "number": "OPP-UNL137",
+      "uuid": "74be29b4-a899-5c6e-8c69-a9680badcc46",
       "name": "Sinister Poro",
       "type": "unit",
       "domains": [
@@ -5844,6 +6187,7 @@
       "printings": [
         {
           "id": "OPP-UNL137",
+          "uuid": "f75b6bc2-3dde-5080-aae5-6f6afb967930",
           "collectorNumber": 137,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -5864,6 +6208,7 @@
     },
     {
       "number": "OPP-UNL156",
+      "uuid": "2ed15caf-6f58-53f0-acfc-cf7ca419d7e4",
       "name": "Loyal Poro",
       "type": "unit",
       "domains": [
@@ -5878,6 +6223,7 @@
       "printings": [
         {
           "id": "OPP-UNL156",
+          "uuid": "a7ecd8b0-ee88-5bb7-b143-e33d93039437",
           "collectorNumber": 156,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5898,6 +6244,7 @@
     },
     {
       "number": "OPP-UNL160",
+      "uuid": "ca77300a-a2b4-5679-b48d-5f2bef5593a6",
       "name": "Ultrasoft Poro",
       "type": "unit",
       "domains": [
@@ -5912,6 +6259,7 @@
       "printings": [
         {
           "id": "OPP-UNL160",
+          "uuid": "e847f7eb-ca71-54a0-a40d-8516302e8532",
           "collectorNumber": 160,
           "rarity": "common",
           "source": "tcgplayer",
@@ -5932,6 +6280,7 @@
     },
     {
       "number": "OPP-UNL168",
+      "uuid": "14378e2c-34ca-5600-af6c-e8f55af055f9",
       "name": "Undying Loyalty",
       "type": "spell",
       "domains": [
@@ -5942,6 +6291,7 @@
       "printings": [
         {
           "id": "OPP-UNL168",
+          "uuid": "e6ac33d7-df8b-5e2b-8c41-0466b79ed7e0",
           "collectorNumber": 168,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -5962,6 +6312,7 @@
     },
     {
       "number": "OPP-UNL169",
+      "uuid": "420b83f4-a33d-5e70-ae6c-0d05fd5a9bd3",
       "name": "Ashe",
       "subtitle": "Focused",
       "type": "unit",
@@ -5981,6 +6332,7 @@
       "printings": [
         {
           "id": "OPP-UNL169",
+          "uuid": "1f92fe19-a42b-57c9-bc46-44bb5fa68aeb",
           "collectorNumber": 169,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -6001,6 +6353,7 @@
     },
     {
       "number": "OPP-UNL178",
+      "uuid": "500614d8-fdf2-5d2f-a8cb-965658120370",
       "name": "Poppy",
       "subtitle": "Defender of the Meek",
       "type": "unit",
@@ -6021,6 +6374,7 @@
       "printings": [
         {
           "id": "OPP-UNL178",
+          "uuid": "c5d2d43f-27f1-566b-b3f1-1e928dd2763d",
           "collectorNumber": 178,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -6039,6 +6393,7 @@
         },
         {
           "id": "OPP-UNL178a",
+          "uuid": "37ba8021-14e3-5cff-be79-b3102bff1b94",
           "collectorNumber": 178,
           "suffix": "a",
           "rarity": "epic",
@@ -6060,6 +6415,7 @@
     },
     {
       "number": "OPP-UNL181",
+      "uuid": "e849c5eb-dd50-5f55-b4f6-2bfec7bffd5b",
       "name": "Virtuoso",
       "type": "legend",
       "domains": [
@@ -6072,6 +6428,7 @@
       "printings": [
         {
           "id": "OPP-UNL181.metal-prize-wall",
+          "uuid": "ceefd909-60d2-597d-9479-f5626829a983",
           "collectorNumber": 181,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6093,6 +6450,7 @@
     },
     {
       "number": "OPP-UNL183",
+      "uuid": "bd41b885-a353-5ba9-ad96-ad6dd93f3e61",
       "name": "Pridestalker",
       "type": "legend",
       "domains": [
@@ -6105,6 +6463,7 @@
       "printings": [
         {
           "id": "OPP-UNL183.metal-prize-wall",
+          "uuid": "793cda62-ce99-5c6d-8481-651f89ad6aaf",
           "collectorNumber": 183,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6126,6 +6485,7 @@
     },
     {
       "number": "OPP-UNL185",
+      "uuid": "b7eebd8e-2d72-58dd-8119-bf97e07d9e29",
       "name": "Bloodharbor Ripper",
       "type": "legend",
       "domains": [
@@ -6138,6 +6498,7 @@
       "printings": [
         {
           "id": "OPP-UNL185.metal-prize-wall",
+          "uuid": "09475e3b-4b20-5d06-95c1-2cb39897d883",
           "collectorNumber": 185,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6159,6 +6520,7 @@
     },
     {
       "number": "OPP-UNL187",
+      "uuid": "e007d328-9c25-50c8-b516-b4e61dd36053",
       "name": "Piltover Enforcer",
       "type": "legend",
       "domains": [
@@ -6171,6 +6533,7 @@
       "printings": [
         {
           "id": "OPP-UNL187.metal-prize-wall",
+          "uuid": "a7f43ea4-055f-53c9-90eb-5dc24df62d81",
           "collectorNumber": 187,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6192,6 +6555,7 @@
     },
     {
       "number": "OPP-UNL189",
+      "uuid": "0e1ea9fd-a031-5806-ba13-1306133ddb07",
       "name": "Bashful Bloom",
       "type": "legend",
       "domains": [
@@ -6204,6 +6568,7 @@
       "printings": [
         {
           "id": "OPP-UNL189.metal-prize-wall",
+          "uuid": "774f26a3-ad64-5d2a-8101-231fadbb552a",
           "collectorNumber": 189,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6225,6 +6590,7 @@
     },
     {
       "number": "OPP-UNL191",
+      "uuid": "b8fc0044-06c3-5591-a583-fc67bc6c06cb",
       "name": "Wuju Master",
       "type": "legend",
       "domains": [
@@ -6237,6 +6603,7 @@
       "printings": [
         {
           "id": "OPP-UNL191.metal-prize-wall",
+          "uuid": "5e583f6e-b445-5415-be7b-aa684461f7ea",
           "collectorNumber": 191,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6258,6 +6625,7 @@
     },
     {
       "number": "OPP-UNL193",
+      "uuid": "52bc2c41-d9bc-5ea2-b6aa-f299a9a54723",
       "name": "Gloomist",
       "type": "legend",
       "domains": [
@@ -6270,6 +6638,7 @@
       "printings": [
         {
           "id": "OPP-UNL193.metal-prize-wall",
+          "uuid": "0044f791-bd49-5bba-80f7-c7f0d2248afb",
           "collectorNumber": 193,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6291,6 +6660,7 @@
     },
     {
       "number": "OPP-UNL195",
+      "uuid": "a56a47db-2da4-5eef-86af-27ae34865180",
       "name": "Green Father",
       "type": "legend",
       "domains": [
@@ -6303,6 +6673,7 @@
       "printings": [
         {
           "id": "OPP-UNL195.metal-prize-wall",
+          "uuid": "32c4f6fb-b799-530c-be7b-3f62fdbeac71",
           "collectorNumber": 195,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6324,6 +6695,7 @@
     },
     {
       "number": "OPP-UNL197",
+      "uuid": "3e67540f-ea8d-588f-bc72-b594038f1fe4",
       "name": "Scorn of the Moon",
       "type": "legend",
       "domains": [
@@ -6336,6 +6708,7 @@
       "printings": [
         {
           "id": "OPP-UNL197.metal-prize-wall",
+          "uuid": "1f2abe66-d4e9-5f61-8fc3-645bff2ae64e",
           "collectorNumber": 197,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6357,6 +6730,7 @@
     },
     {
       "number": "OPP-UNL199",
+      "uuid": "a02fea20-fdd3-569c-a136-d1d50076e832",
       "name": "Deceiver",
       "type": "legend",
       "domains": [
@@ -6369,6 +6743,7 @@
       "printings": [
         {
           "id": "OPP-UNL199.metal-prize-wall",
+          "uuid": "152c4447-6ab0-5eaf-a06d-06bdec9134a5",
           "collectorNumber": 199,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6390,6 +6765,7 @@
     },
     {
       "number": "OPP-UNL201",
+      "uuid": "c3773315-f31d-5ce3-8c26-0df391264596",
       "name": "Voidreaver",
       "type": "legend",
       "domains": [
@@ -6402,6 +6778,7 @@
       "printings": [
         {
           "id": "OPP-UNL201.metal-prize-wall",
+          "uuid": "8917c108-81ad-557d-b832-2e60cca67964",
           "collectorNumber": 201,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6423,6 +6800,7 @@
     },
     {
       "number": "OPP-UNL203",
+      "uuid": "671d66ac-d5a1-5cfa-a39a-c82393d6c5fa",
       "name": "Keeper of the Hammer",
       "type": "legend",
       "domains": [
@@ -6435,6 +6813,7 @@
       "printings": [
         {
           "id": "OPP-UNL203.metal-prize-wall",
+          "uuid": "f24d51b4-7dd8-53c7-a5e9-f2dfa6a86d1f",
           "collectorNumber": 203,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -6456,6 +6835,7 @@
     },
     {
       "number": "OPP-VEN002",
+      "uuid": "ff9afa1d-dd1a-55b9-97ab-d1bc2c0654a5",
       "name": "Blade Twirler",
       "type": "unit",
       "domains": [
@@ -6470,6 +6850,7 @@
       "printings": [
         {
           "id": "OPP-VEN002",
+          "uuid": "a41d9381-de7c-50b8-b774-7ba2b8cc72ff",
           "collectorNumber": 2,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6490,6 +6871,7 @@
     },
     {
       "number": "OPP-VEN004",
+      "uuid": "72f3b1a8-7b5f-5739-a037-90fd95d0eae2",
       "name": "Dune Surfer",
       "type": "unit",
       "domains": [
@@ -6503,6 +6885,7 @@
       "printings": [
         {
           "id": "OPP-VEN004",
+          "uuid": "f911e735-96ad-57bb-b3ce-e8d1b61810cd",
           "collectorNumber": 4,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6523,6 +6906,7 @@
     },
     {
       "number": "OPP-VEN013",
+      "uuid": "1b9b93de-1e88-594a-ac4a-2e799ed3c614",
       "name": "Shadow Assassin",
       "type": "unit",
       "domains": [
@@ -6536,6 +6920,7 @@
       "printings": [
         {
           "id": "OPP-VEN013",
+          "uuid": "fd53201f-4213-52ae-aa8d-2f062d6f16f0",
           "collectorNumber": 13,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -6556,6 +6941,7 @@
     },
     {
       "number": "OPP-VEN017",
+      "uuid": "9e15c496-fd06-55c4-854d-598281cb6820",
       "name": "Morgana",
       "subtitle": "Vindictive",
       "type": "unit",
@@ -6575,6 +6961,7 @@
       "printings": [
         {
           "id": "OPP-VEN017",
+          "uuid": "298d5fdd-cda1-5b54-8251-33dc29ebd1b9",
           "collectorNumber": 17,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -6595,6 +6982,7 @@
     },
     {
       "number": "OPP-VEN026",
+      "uuid": "a681eb54-c896-56b5-a756-4eda8b0744b2",
       "name": "Field Musicians",
       "type": "unit",
       "domains": [
@@ -6608,6 +6996,7 @@
       "printings": [
         {
           "id": "OPP-VEN026",
+          "uuid": "02b19b05-f966-5e79-9314-50603b8f37d5",
           "collectorNumber": 26,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6628,6 +7017,7 @@
     },
     {
       "number": "OPP-VEN029",
+      "uuid": "bab0b5a9-bc64-5986-815a-eecc7ec684e7",
       "name": "Ol' Poro",
       "type": "unit",
       "domains": [
@@ -6642,6 +7032,7 @@
       "printings": [
         {
           "id": "OPP-VEN029",
+          "uuid": "5b97349f-e3d0-5220-96b2-c1cf91154c54",
           "collectorNumber": 29,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6662,6 +7053,7 @@
     },
     {
       "number": "OPP-VEN037",
+      "uuid": "aee9135e-1c88-58be-8728-6a5988385cce",
       "name": "Tomb-Raider Barbara",
       "type": "unit",
       "domains": [
@@ -6675,6 +7067,7 @@
       "printings": [
         {
           "id": "OPP-VEN037",
+          "uuid": "7e8c9799-3669-5272-b665-6b54bb99e6db",
           "collectorNumber": 37,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -6695,6 +7088,7 @@
     },
     {
       "number": "OPP-VEN041",
+      "uuid": "2845cd42-f66d-5568-9db3-2b58fa1828a3",
       "name": "Riven",
       "subtitle": "Shattered",
       "type": "unit",
@@ -6714,6 +7108,7 @@
       "printings": [
         {
           "id": "OPP-VEN041",
+          "uuid": "0b8e9178-3866-5597-aa3f-a933e504b290",
           "collectorNumber": 41,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -6734,6 +7129,7 @@
     },
     {
       "number": "OPP-VEN048",
+      "uuid": "27ea8a22-0190-5c3f-b26e-afa80344d751",
       "name": "Cloud Drake",
       "type": "unit",
       "domains": [
@@ -6748,6 +7144,7 @@
       "printings": [
         {
           "id": "OPP-VEN048",
+          "uuid": "7c3ec214-59da-5931-a6b4-dc764f5c519f",
           "collectorNumber": 48,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6768,6 +7165,7 @@
     },
     {
       "number": "OPP-VEN050",
+      "uuid": "c0308a5e-7d77-52a7-849f-c082c5bc4105",
       "name": "Grumpy Rockbear",
       "type": "unit",
       "domains": [
@@ -6781,6 +7179,7 @@
       "printings": [
         {
           "id": "OPP-VEN050",
+          "uuid": "f8ac60f4-646f-5b28-b00e-7f43da1fddec",
           "collectorNumber": 50,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6801,6 +7200,7 @@
     },
     {
       "number": "OPP-VEN058",
+      "uuid": "892762ba-db81-559b-a205-47d8bb41b1cc",
       "name": "Patched Porobot",
       "type": "unit",
       "domains": [
@@ -6816,6 +7216,7 @@
       "printings": [
         {
           "id": "OPP-VEN058",
+          "uuid": "d6cb5b9d-016e-5566-a22e-8c432faad8d6",
           "collectorNumber": 58,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -6836,6 +7237,7 @@
     },
     {
       "number": "OPP-VEN065",
+      "uuid": "30646d1d-39f6-5411-89c3-352f20e4fc1b",
       "name": "Swain",
       "subtitle": "Visionary",
       "type": "unit",
@@ -6856,6 +7258,7 @@
       "printings": [
         {
           "id": "OPP-VEN065",
+          "uuid": "57e6342c-99dd-5a88-aeb2-546fbb60f412",
           "collectorNumber": 65,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -6876,6 +7279,7 @@
     },
     {
       "number": "OPP-VEN068",
+      "uuid": "886dc033-b397-5003-a6d2-d83acdf5f2e8",
       "name": "Jayce",
       "subtitle": "Brilliant Inventor",
       "type": "unit",
@@ -6895,6 +7299,7 @@
       "printings": [
         {
           "id": "OPP-VEN068",
+          "uuid": "6318dffc-8761-595d-b7c4-46cf7bd3b182",
           "collectorNumber": 68,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -6915,6 +7320,7 @@
     },
     {
       "number": "OPP-VEN069",
+      "uuid": "1cf4ef59-d344-55ea-92c3-35761a7a1d37",
       "name": "Mel",
       "subtitle": "Newly Awakened",
       "type": "unit",
@@ -6934,6 +7340,7 @@
       "printings": [
         {
           "id": "OPP-VEN069b",
+          "uuid": "7cbdbc68-61c3-576a-9af1-bfe239085b98",
           "collectorNumber": 69,
           "suffix": "b",
           "rarity": "epic",
@@ -6955,6 +7362,7 @@
     },
     {
       "number": "OPP-VEN071",
+      "uuid": "7c5fa521-7a37-5c31-86d0-638828aa1520",
       "name": "Fretful Feline",
       "type": "unit",
       "domains": [
@@ -6969,6 +7377,7 @@
       "printings": [
         {
           "id": "OPP-VEN071",
+          "uuid": "50d75c80-0208-583a-befa-d3f76cef6063",
           "collectorNumber": 71,
           "rarity": "common",
           "source": "tcgplayer",
@@ -6989,6 +7398,7 @@
     },
     {
       "number": "OPP-VEN076",
+      "uuid": "f5b5ef0a-7154-50d5-89e8-8603c43b62c7",
       "name": "Repair Specialist",
       "type": "unit",
       "domains": [
@@ -7002,6 +7412,7 @@
       "printings": [
         {
           "id": "OPP-VEN076",
+          "uuid": "99795a3c-377c-55ae-96dd-751627545ac0",
           "collectorNumber": 76,
           "rarity": "common",
           "source": "tcgplayer",
@@ -7022,6 +7433,7 @@
     },
     {
       "number": "OPP-VEN082",
+      "uuid": "cc5bdf47-284d-5965-8aa7-a2b48baa981a",
       "name": "Profiteer",
       "type": "unit",
       "domains": [
@@ -7035,6 +7447,7 @@
       "printings": [
         {
           "id": "OPP-VEN082",
+          "uuid": "7c7b9770-ff75-5e79-ac5d-3df6ee96458c",
           "collectorNumber": 82,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -7055,6 +7468,7 @@
     },
     {
       "number": "OPP-VEN097",
+      "uuid": "8514fe4f-ca96-5c00-ae6b-669de89f3e99",
       "name": "Spiderling",
       "type": "unit",
       "domains": [
@@ -7069,6 +7483,7 @@
       "printings": [
         {
           "id": "OPP-VEN097",
+          "uuid": "c6f15b28-97d9-5bc2-b4df-695a57811a7e",
           "collectorNumber": 97,
           "rarity": "common",
           "source": "tcgplayer",
@@ -7089,6 +7504,7 @@
     },
     {
       "number": "OPP-VEN099",
+      "uuid": "ddb44baa-6733-5a29-865f-563e22753cce",
       "name": "Tornado Warrior",
       "type": "unit",
       "domains": [
@@ -7103,6 +7519,7 @@
       "printings": [
         {
           "id": "OPP-VEN099",
+          "uuid": "5aca8d51-81d1-50b6-bc78-404f8c65d096",
           "collectorNumber": 99,
           "rarity": "common",
           "source": "tcgplayer",
@@ -7123,6 +7540,7 @@
     },
     {
       "number": "OPP-VEN101",
+      "uuid": "52f15633-410a-54dd-aeed-84bba2bbb76a",
       "name": "Gust Monk",
       "type": "unit",
       "domains": [
@@ -7137,6 +7555,7 @@
       "printings": [
         {
           "id": "OPP-VEN101",
+          "uuid": "b28b1eaf-9f1b-5e7c-a696-39872ed77b30",
           "collectorNumber": 101,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -7157,6 +7576,7 @@
     },
     {
       "number": "OPP-VEN109",
+      "uuid": "cd23529e-9e1d-50c4-bc82-684599f4f2b0",
       "name": "Illaoi",
       "subtitle": "Prophet of the Great Kraken",
       "type": "unit",
@@ -7175,6 +7595,7 @@
       "printings": [
         {
           "id": "OPP-VEN109.champion",
+          "uuid": "416f0fd3-4776-54c8-9906-44459c6fd707",
           "collectorNumber": 109,
           "variant": "champion",
           "rarity": "rare",
@@ -7194,6 +7615,7 @@
         },
         {
           "id": "OPP-VEN109.top-8",
+          "uuid": "ecd663d7-56bf-5222-97fb-0882ce39094d",
           "collectorNumber": 109,
           "variant": "top-8",
           "rarity": "rare",
@@ -7215,6 +7637,7 @@
     },
     {
       "number": "OPP-VEN118",
+      "uuid": "161a0746-2ad6-51c7-b585-30ff711b2ea1",
       "name": "Horns of the Dragon",
       "type": "unit",
       "domains": [
@@ -7228,6 +7651,7 @@
       "printings": [
         {
           "id": "OPP-VEN118",
+          "uuid": "5ff908ad-298d-57ed-8053-8d383564a03f",
           "collectorNumber": 118,
           "rarity": "common",
           "source": "tcgplayer",
@@ -7248,6 +7672,7 @@
     },
     {
       "number": "OPP-VEN123",
+      "uuid": "fe814e2e-0ec9-5696-a17c-48f362e2f685",
       "name": "Soulspinner",
       "type": "unit",
       "domains": [
@@ -7262,6 +7687,7 @@
       "printings": [
         {
           "id": "OPP-VEN123",
+          "uuid": "8316d8c2-ef25-5e06-b00b-dfa97e32253c",
           "collectorNumber": 123,
           "rarity": "common",
           "source": "tcgplayer",
@@ -7282,6 +7708,7 @@
     },
     {
       "number": "OPP-VEN125",
+      "uuid": "14c6d432-fc9b-5df2-a8e5-660b62e41777",
       "name": "Hungry Wolf",
       "type": "unit",
       "domains": [
@@ -7296,6 +7723,7 @@
       "printings": [
         {
           "id": "OPP-VEN125",
+          "uuid": "6904b6f8-0c35-5bb1-b8de-5b74f9db86a4",
           "collectorNumber": 125,
           "rarity": "uncommon",
           "source": "tcgplayer",
@@ -7316,6 +7744,7 @@
     },
     {
       "number": "OPP-VEN134",
+      "uuid": "0cf3b538-7876-565f-b6f9-e0513768fe80",
       "name": "Kayle",
       "subtitle": "Justified",
       "type": "unit",
@@ -7334,6 +7763,7 @@
       "printings": [
         {
           "id": "OPP-VEN134.champion",
+          "uuid": "9549fcd0-56fa-5fc1-9619-70b2646cf182",
           "collectorNumber": 134,
           "variant": "champion",
           "rarity": "rare",
@@ -7353,6 +7783,7 @@
         },
         {
           "id": "OPP-VEN134.top-8",
+          "uuid": "2bd1dda6-131e-56dd-9224-0446908a50b5",
           "collectorNumber": 134,
           "variant": "top-8",
           "rarity": "rare",
@@ -7374,6 +7805,7 @@
     },
     {
       "number": "OPP-VEN139",
+      "uuid": "d5590c4f-19a8-5b48-ab24-33c812da2cf9",
       "name": "Rogue Assassin",
       "type": "legend",
       "domains": [
@@ -7386,6 +7818,7 @@
       "printings": [
         {
           "id": "OPP-VEN139.metal-best-of",
+          "uuid": "06fca855-dc36-5141-95f1-1d7bb47510f7",
           "collectorNumber": 139,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7405,6 +7838,7 @@
         },
         {
           "id": "OPP-VEN139.metal-prize-wall",
+          "uuid": "7d4e3ff6-b6d4-567a-9b46-2eb68e424ee5",
           "collectorNumber": 139,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7426,6 +7860,7 @@
     },
     {
       "number": "OPP-VEN141",
+      "uuid": "d4b7e6a5-45b8-5c86-95b9-6063301023ba",
       "name": "Butcher of the Sands",
       "type": "legend",
       "domains": [
@@ -7438,6 +7873,7 @@
       "printings": [
         {
           "id": "OPP-VEN141.metal-best-of",
+          "uuid": "4672d7e0-ed2a-589f-9f9e-7cc0e2b02496",
           "collectorNumber": 141,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7457,6 +7893,7 @@
         },
         {
           "id": "OPP-VEN141.metal-prize-wall",
+          "uuid": "3b71a7da-1c9f-5a0c-92c7-cb49d7bfb29f",
           "collectorNumber": 141,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7478,6 +7915,7 @@
     },
     {
       "number": "OPP-VEN143",
+      "uuid": "e58b11f4-333d-54bf-bed7-79e7afd38b49",
       "name": "Master of Shadows",
       "type": "legend",
       "domains": [
@@ -7490,6 +7928,7 @@
       "printings": [
         {
           "id": "OPP-VEN143.metal-best-of",
+          "uuid": "9e3c50b2-8c73-5e4c-9349-b72a55eccc37",
           "collectorNumber": 143,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7509,6 +7948,7 @@
         },
         {
           "id": "OPP-VEN143.metal-prize-wall",
+          "uuid": "354cf17a-2e38-5d09-9e3e-9a0fe3c23ece",
           "collectorNumber": 143,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7530,6 +7970,7 @@
     },
     {
       "number": "OPP-VEN145",
+      "uuid": "24086636-69a8-5312-b210-d2d90e6d72d8",
       "name": "Curator of the Sands",
       "type": "legend",
       "domains": [
@@ -7542,6 +7983,7 @@
       "printings": [
         {
           "id": "OPP-VEN145.metal-best-of",
+          "uuid": "04c3142c-f6c4-5662-92f4-ba7e2e635278",
           "collectorNumber": 145,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7561,6 +8003,7 @@
         },
         {
           "id": "OPP-VEN145.metal-prize-wall",
+          "uuid": "00eb5060-9ca6-5d19-8bc4-68e777466d5b",
           "collectorNumber": 145,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7582,6 +8025,7 @@
     },
     {
       "number": "OPP-VEN147",
+      "uuid": "96bd4f87-4523-5d7d-8700-2dd759436f54",
       "name": "Eye of Twilight",
       "type": "legend",
       "domains": [
@@ -7594,6 +8038,7 @@
       "printings": [
         {
           "id": "OPP-VEN147.metal-best-of",
+          "uuid": "c5acedfc-935b-581c-a657-edd1807f3abc",
           "collectorNumber": 147,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7613,6 +8058,7 @@
         },
         {
           "id": "OPP-VEN147.metal-prize-wall",
+          "uuid": "bed0d5bc-8953-51b3-a4ba-777f422f8e36",
           "collectorNumber": 147,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7634,6 +8080,7 @@
     },
     {
       "number": "OPP-VEN149",
+      "uuid": "c387afdb-40c4-5b48-b0d4-45f1f94fb558",
       "name": "Defender of Tomorrow",
       "type": "legend",
       "domains": [
@@ -7646,6 +8093,7 @@
       "printings": [
         {
           "id": "OPP-VEN149.metal-best-of",
+          "uuid": "f5479287-268d-5beb-9b66-c02d76762b6d",
           "collectorNumber": 149,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7665,6 +8113,7 @@
         },
         {
           "id": "OPP-VEN149.metal-prize-wall",
+          "uuid": "188142bd-d000-542b-a98d-5ad89e580307",
           "collectorNumber": 149,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7686,6 +8135,7 @@
     },
     {
       "number": "OPP-VEN151",
+      "uuid": "54ee516a-01ce-58d6-803b-6e9f76a8c2f9",
       "name": "Soul's Reflection",
       "type": "legend",
       "domains": [
@@ -7698,6 +8148,7 @@
       "printings": [
         {
           "id": "OPP-VEN151.metal-best-of",
+          "uuid": "654162a8-22f9-5a1a-b71b-5490e11de9ee",
           "collectorNumber": 151,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7717,6 +8168,7 @@
         },
         {
           "id": "OPP-VEN151.metal-prize-wall",
+          "uuid": "147baff8-8d1b-5f87-8a69-a90aacbcec9a",
           "collectorNumber": 151,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7738,6 +8190,7 @@
     },
     {
       "number": "OPP-VEN153",
+      "uuid": "ec402b6a-7082-5824-b7d3-272ef39766f7",
       "name": "Matriarch of War",
       "type": "legend",
       "domains": [
@@ -7750,6 +8203,7 @@
       "printings": [
         {
           "id": "OPP-VEN153.metal-best-of",
+          "uuid": "81a1a62b-3b2f-5d94-b192-8b689ded392e",
           "collectorNumber": 153,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7769,6 +8223,7 @@
         },
         {
           "id": "OPP-VEN153.metal-prize-wall",
+          "uuid": "c0627ac2-e0d4-5e01-bb0a-e9adeeeafa63",
           "collectorNumber": 153,
           "variant": "metal-prize-wall",
           "rarity": "rare",
@@ -7790,6 +8245,7 @@
     },
     {
       "number": "OPP-VEN155",
+      "uuid": "a1577fda-f629-57b4-ad6f-10c2d620e404",
       "name": "Heart of the Tempest",
       "type": "legend",
       "domains": [
@@ -7803,6 +8259,7 @@
       "printings": [
         {
           "id": "OPP-VEN155.metal-best-of",
+          "uuid": "ba25909e-7e1e-5cde-8d37-d7545a1a3c43",
           "collectorNumber": 155,
           "variant": "metal-best-of",
           "rarity": "rare",
@@ -7822,6 +8279,7 @@
         },
         {
           "id": "OPP-VEN155.metal-prize-wall",
+          "uuid": "6ec0b721-1d1f-5fb2-997c-b6bccc76f1c5",
           "collectorNumber": 155,
           "variant": "metal-prize-wall",
           "rarity": "rare",

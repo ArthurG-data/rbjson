@@ -2,6 +2,7 @@
   "cards": [
     {
       "number": "PR-OGN036",
+      "uuid": "58451ab0-f47c-5a3f-8efa-3d7326bcf07f",
       "name": "Vi",
       "subtitle": "Destructive",
       "type": "unit",
@@ -21,6 +22,7 @@
       "printings": [
         {
           "id": "PR-OGN036a",
+          "uuid": "ba76c0ce-0041-55fb-b28a-6c1724c7e624",
           "collectorNumber": 36,
           "suffix": "a",
           "rarity": "rare",
@@ -42,6 +44,7 @@
     },
     {
       "number": "PR-OGN066",
+      "uuid": "415d0e15-c78b-5f83-8321-8714cd74a9d7",
       "name": "Ahri",
       "subtitle": "Alluring",
       "type": "unit",
@@ -61,6 +64,7 @@
       "printings": [
         {
           "id": "PR-OGN066.launch-exclusive",
+          "uuid": "d2d0db53-d462-5599-8143-4cd55bc684e3",
           "collectorNumber": 66,
           "variant": "launch-exclusive",
           "rarity": "rare",
@@ -82,6 +86,7 @@
     },
     {
       "number": "PR-OGN068",
+      "uuid": "fd109d41-e984-5236-bc61-e51395e51df0",
       "name": "Caitlyn",
       "subtitle": "Patrolling",
       "type": "unit",
@@ -101,6 +106,7 @@
       "printings": [
         {
           "id": "PR-OGN068a",
+          "uuid": "2ca3e70d-0c6b-5882-96cd-b410959fde71",
           "collectorNumber": 68,
           "suffix": "a",
           "rarity": "rare",
@@ -122,6 +128,7 @@
     },
     {
       "number": "PR-OGN111",
+      "uuid": "4443f050-6099-546c-b770-94ae7d1451f4",
       "name": "Heimerdinger",
       "subtitle": "Inventor",
       "type": "unit",
@@ -142,6 +149,7 @@
       "printings": [
         {
           "id": "PR-OGN111a",
+          "uuid": "aaf5f322-c087-5c38-9d95-92cde2503cb1",
           "collectorNumber": 111,
           "suffix": "a",
           "rarity": "rare",
@@ -163,6 +171,7 @@
     },
     {
       "number": "PR-OGN159",
+      "uuid": "e01fb8dd-ca93-540e-ace3-49d22293ffbe",
       "name": "Warwick",
       "subtitle": "Hunter",
       "type": "unit",
@@ -183,6 +192,7 @@
       "printings": [
         {
           "id": "PR-OGN159a",
+          "uuid": "0b5121d1-17be-59c3-b2e5-3e9238252b2b",
           "collectorNumber": 159,
           "suffix": "a",
           "rarity": "rare",
@@ -204,6 +214,7 @@
     },
     {
       "number": "PR-OGN197",
+      "uuid": "030da70c-45c1-5aff-ba3e-1342f2df0d13",
       "name": "Teemo",
       "subtitle": "Scout",
       "type": "unit",
@@ -223,6 +234,7 @@
       "printings": [
         {
           "id": "PR-OGN197",
+          "uuid": "a5be2dcd-9d6b-54c5-ae21-e9f749e1a580",
           "collectorNumber": 197,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -243,6 +255,7 @@
     },
     {
       "number": "PR-OGN202",
+      "uuid": "437149f8-7db8-5a93-bd7d-ab6ac7ca8c0a",
       "name": "Jinx",
       "subtitle": "Rebel",
       "type": "unit",
@@ -262,6 +275,7 @@
       "printings": [
         {
           "id": "PR-OGN202",
+          "uuid": "f988be68-954e-53f1-804f-4c83947ab497",
           "collectorNumber": 202,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -282,6 +296,7 @@
     },
     {
       "number": "PR-OGN246",
+      "uuid": "acfdcd31-6ee1-5eeb-ba9a-9fa0b6dadc52",
       "name": "Viktor",
       "subtitle": "Leader",
       "type": "unit",
@@ -301,6 +316,7 @@
       "printings": [
         {
           "id": "PR-OGN246b",
+          "uuid": "aaadb2d4-208e-5431-8b24-a7ec1702d031",
           "collectorNumber": 246,
           "suffix": "b",
           "rarity": "epic",
@@ -322,6 +338,7 @@
     },
     {
       "number": "PR-RAD110",
+      "uuid": "ed335055-3f78-5f1f-822e-02d8859d4428",
       "name": "Lulu",
       "subtitle": "Whimsical",
       "type": "unit",
@@ -341,6 +358,7 @@
       "printings": [
         {
           "id": "PR-RAD110a",
+          "uuid": "d3428ea5-05e6-5d84-b24e-d699bf4cf8e3",
           "collectorNumber": 110,
           "suffix": "a",
           "rarity": "rare",
@@ -362,6 +380,7 @@
     },
     {
       "number": "PR-RAD132",
+      "uuid": "12ec9d3b-4684-5658-abdb-352b2877ae33",
       "name": "Heimerdinger",
       "subtitle": "Academy Instructor",
       "type": "unit",
@@ -382,6 +401,7 @@
       "printings": [
         {
           "id": "PR-RAD132",
+          "uuid": "7960e78a-e0aa-5bfb-9192-40e3ced10722",
           "collectorNumber": 132,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -402,10 +422,12 @@
     },
     {
       "number": "PR-T02+T03",
+      "uuid": "670104a3-ec06-56ff-80cf-68a8356e8d08",
       "name": "Bird // Brush",
       "printings": [
         {
           "id": "PR-T02+T03",
+          "uuid": "eb456060-e998-5c4a-b2ed-ed03c6896710",
           "collectorNumber": 2,
           "rarity": "showcase",
           "source": "tcgplayer",
@@ -426,6 +448,7 @@
     },
     {
       "number": "PR-VEN041",
+      "uuid": "5567b1c7-e0b4-5a82-9543-9d03270ec70f",
       "name": "Riven",
       "subtitle": "Shattered",
       "type": "unit",
@@ -445,6 +468,7 @@
       "printings": [
         {
           "id": "PR-VEN041a",
+          "uuid": "99051cdb-6962-5338-9397-32705fdfa4aa",
           "collectorNumber": 41,
           "suffix": "a",
           "rarity": "rare",

@@ -2,6 +2,7 @@
   "cards": [
     {
       "number": "OGS-001",
+      "uuid": "4422be64-9b71-5535-a44b-e22c57a186a7",
       "name": "Annie",
       "names": {
         "en": "Annie",
@@ -29,6 +30,7 @@
       "printings": [
         {
           "id": "OGS-001",
+          "uuid": "08241ae1-45a5-5814-acc0-55839a04bf15",
           "collectorNumber": 1,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/532d75dc36a16eb5954253a77366fcceac7aec62-744x1039.png?accountingTag=RB",
@@ -56,6 +58,7 @@
         },
         {
           "id": "OGS-001~ko",
+          "uuid": "5b656e97-6c4e-52a3-beb3-3939c2c4b531",
           "language": "ko",
           "collectorNumber": 1,
           "rarity": "epic",
@@ -73,6 +76,7 @@
     },
     {
       "number": "OGS-002",
+      "uuid": "f2b06083-0453-5a58-a848-45cda99274de",
       "name": "Firestorm",
       "names": {
         "en": "Firestorm",
@@ -87,6 +91,7 @@
       "printings": [
         {
           "id": "OGS-002",
+          "uuid": "b4633a30-eab9-5dd2-b2ae-bd364be3a887",
           "collectorNumber": 2,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7a34129e64f0296bf2da166c2b06ed156d568db-744x1039.png?accountingTag=RB",
@@ -114,6 +119,7 @@
         },
         {
           "id": "OGS-002~ko",
+          "uuid": "0bbc3b22-58c3-51fd-ad48-5c1a6fcb3a5c",
           "language": "ko",
           "collectorNumber": 2,
           "rarity": "uncommon",
@@ -131,6 +137,7 @@
     },
     {
       "number": "OGS-003",
+      "uuid": "7ddcf71a-2dbc-5ed8-9ca6-e4bc027042db",
       "name": "Incinerate",
       "names": {
         "en": "Incinerate",
@@ -144,6 +151,7 @@
       "printings": [
         {
           "id": "OGS-003",
+          "uuid": "012ef317-0446-58ec-a80f-0837da1f8fab",
           "collectorNumber": 3,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/46e4eaada1412f9b6c24751bdb3932c6a51e905f-744x1039.png?accountingTag=RB",
@@ -171,6 +179,7 @@
         },
         {
           "id": "OGS-003~ko",
+          "uuid": "db68d136-227e-5f9d-8a49-4873b1f4cfe7",
           "language": "ko",
           "collectorNumber": 3,
           "rarity": "common",
@@ -188,6 +197,7 @@
     },
     {
       "number": "OGS-004",
+      "uuid": "2e8f6056-e5fe-52ce-82f6-d28073d1fb20",
       "name": "Master Yi",
       "names": {
         "en": "Master Yi",
@@ -215,6 +225,7 @@
       "printings": [
         {
           "id": "OGS-004",
+          "uuid": "92681550-8ca8-5ca6-a178-6e61a9846e3a",
           "collectorNumber": 4,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5508566c8f05f09492148faa803332a731095eb7-744x1039.png?accountingTag=RB",
@@ -242,6 +253,7 @@
         },
         {
           "id": "OGS-004~ko",
+          "uuid": "689dc908-981c-5922-b5cb-67a48362de8a",
           "language": "ko",
           "collectorNumber": 4,
           "rarity": "rare",
@@ -259,6 +271,7 @@
     },
     {
       "number": "OGS-005",
+      "uuid": "cd16c0b8-7fb9-5785-8b11-490807f248b8",
       "name": "Zephyr Sage",
       "names": {
         "en": "Zephyr Sage",
@@ -278,6 +291,7 @@
       "printings": [
         {
           "id": "OGS-005",
+          "uuid": "3d9fff6a-e688-5aa3-9c09-494f4dc463f4",
           "collectorNumber": 5,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7664b03bb107954195153d9f2f86c5d63682fa4b-744x1039.png?accountingTag=RB",
@@ -305,6 +319,7 @@
         },
         {
           "id": "OGS-005~ko",
+          "uuid": "dc9d52b7-f333-5c51-98bf-573e5891ca00",
           "language": "ko",
           "collectorNumber": 5,
           "rarity": "uncommon",
@@ -322,6 +337,7 @@
     },
     {
       "number": "OGS-006",
+      "uuid": "1c9a41c0-f3fc-5238-a372-f72ea224ad2d",
       "name": "Lux",
       "names": {
         "en": "Lux",
@@ -349,6 +365,7 @@
       "printings": [
         {
           "id": "OGS-006",
+          "uuid": "4a439087-74ea-521f-a340-e10ac55f9ef5",
           "collectorNumber": 6,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0d10edf30abb6fde21f5d386e9a7db3c1b0a098-744x1039.png?accountingTag=RB",
@@ -376,6 +393,7 @@
         },
         {
           "id": "OGS-006~ko",
+          "uuid": "6496163f-6714-59ed-a947-9afcdd7a6a47",
           "language": "ko",
           "collectorNumber": 6,
           "rarity": "rare",
@@ -393,6 +411,7 @@
     },
     {
       "number": "OGS-007",
+      "uuid": "beeb11e5-4cfe-5181-a46a-c2667ce1fee9",
       "name": "Garen",
       "names": {
         "en": "Garen",
@@ -421,6 +440,7 @@
       "printings": [
         {
           "id": "OGS-007",
+          "uuid": "f4025ecb-1983-5c39-a522-cdaa9c26dc55",
           "collectorNumber": 7,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67c22dc29a7a28dabe0f169a7848c25bef1fbda4-744x1039.png?accountingTag=RB",
@@ -448,6 +468,7 @@
         },
         {
           "id": "OGS-007~ko",
+          "uuid": "27f4e3e5-8048-5d35-bffa-7baac2702b27",
           "language": "ko",
           "collectorNumber": 7,
           "rarity": "rare",
@@ -465,6 +486,7 @@
     },
     {
       "number": "OGS-008",
+      "uuid": "d63be8d0-31ad-564c-8a88-b9284236d19e",
       "name": "Gentlemen's Duel",
       "names": {
         "en": "Gentlemen's Duel",
@@ -479,6 +501,7 @@
       "printings": [
         {
           "id": "OGS-008",
+          "uuid": "9b079708-a2ee-5a6d-935b-83901ebd5764",
           "collectorNumber": 8,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4568ab827fdcd42d6bb86b1c2de6182e286c9ee9-744x1039.png?accountingTag=RB",
@@ -506,6 +529,7 @@
         },
         {
           "id": "OGS-008~ko",
+          "uuid": "18e8756d-c188-57ee-9473-4c4e0dd937cc",
           "language": "ko",
           "collectorNumber": 8,
           "rarity": "common",
@@ -523,6 +547,7 @@
     },
     {
       "number": "OGS-009",
+      "uuid": "154576b2-2b8a-5531-be00-4cf5f907c79c",
       "name": "Master Yi",
       "names": {
         "en": "Master Yi",
@@ -550,6 +575,7 @@
       "printings": [
         {
           "id": "OGS-009",
+          "uuid": "68b667bc-90b1-5b18-a1f5-795d2e7474cd",
           "collectorNumber": 9,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e16976cd6d7ee5a874be9351b428671990fbd25-744x1039.png?accountingTag=RB",
@@ -577,6 +603,7 @@
         },
         {
           "id": "OGS-009~ko",
+          "uuid": "82897ca2-07d9-5c93-b49f-61b8cbcfbc8c",
           "language": "ko",
           "collectorNumber": 9,
           "rarity": "epic",
@@ -594,6 +621,7 @@
     },
     {
       "number": "OGS-010",
+      "uuid": "1c0b5802-b9c6-5c84-968a-58652d5bcfdb",
       "name": "Annie",
       "names": {
         "en": "Annie",
@@ -621,6 +649,7 @@
       "printings": [
         {
           "id": "OGS-010",
+          "uuid": "18affa28-01e2-55fa-a1d4-cb9b7b760fc6",
           "collectorNumber": 10,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44eb968cf0c54e75970588b69eef5c5f5ccc9b24-744x1039.png?accountingTag=RB",
@@ -648,6 +677,7 @@
         },
         {
           "id": "OGS-010~ko",
+          "uuid": "451deffe-a628-5dc7-95bc-c79836362370",
           "language": "ko",
           "collectorNumber": 10,
           "rarity": "rare",
@@ -665,6 +695,7 @@
     },
     {
       "number": "OGS-011",
+      "uuid": "8ead4f87-362e-5577-b770-08c251dd5ad7",
       "name": "Flash",
       "names": {
         "en": "Flash",
@@ -678,6 +709,7 @@
       "printings": [
         {
           "id": "OGS-011",
+          "uuid": "d3d7f5a1-02e4-5e74-9678-13570e7bba09",
           "collectorNumber": 11,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d9cc1c13b75933e509e642213f13359350cd3f9-744x1039.png?accountingTag=RB",
@@ -705,6 +737,7 @@
         },
         {
           "id": "OGS-011~ko",
+          "uuid": "8dba4fdd-020a-5108-afc7-ab60d63fb34e",
           "language": "ko",
           "collectorNumber": 11,
           "rarity": "common",
@@ -722,6 +755,7 @@
     },
     {
       "number": "OGS-012",
+      "uuid": "a469744b-6502-5ea2-a64f-43879ed37b5b",
       "name": "Blast of Power",
       "names": {
         "en": "Blast of Power",
@@ -736,6 +770,7 @@
       "printings": [
         {
           "id": "OGS-012",
+          "uuid": "61865851-d66f-5aaf-8f46-22d9e4909ea8",
           "collectorNumber": 12,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/026f851a703601fce4142c0791e913377c170b47-744x1039.png?accountingTag=RB",
@@ -763,6 +798,7 @@
         },
         {
           "id": "OGS-012~ko",
+          "uuid": "215375e7-313b-54a8-a876-8026ee0a62db",
           "language": "ko",
           "collectorNumber": 12,
           "rarity": "common",
@@ -780,6 +816,7 @@
     },
     {
       "number": "OGS-013",
+      "uuid": "a4026b76-fc8e-5a9e-80cd-72b9e33744bf",
       "name": "Garen",
       "names": {
         "en": "Garen",
@@ -808,6 +845,7 @@
       "printings": [
         {
           "id": "OGS-013",
+          "uuid": "a0e38d21-422a-5c7e-9cc7-98df92bf9757",
           "collectorNumber": 13,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cbf2c12d69a86566e4cda07050b2d4495e40187e-744x1039.png?accountingTag=RB",
@@ -835,6 +873,7 @@
         },
         {
           "id": "OGS-013~ko",
+          "uuid": "ccf43f6b-ab30-5179-a3aa-483744b41003",
           "language": "ko",
           "collectorNumber": 13,
           "rarity": "epic",
@@ -852,6 +891,7 @@
     },
     {
       "number": "OGS-014",
+      "uuid": "ae074d44-f239-57d9-bc37-565000b9e169",
       "name": "Lux",
       "names": {
         "en": "Lux",
@@ -878,6 +918,7 @@
       "printings": [
         {
           "id": "OGS-014",
+          "uuid": "86d0031a-fe00-5544-bfa7-7a0c40a4486c",
           "collectorNumber": 14,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/17d0793ad495727e67bb1c94ae0e11cd4705870f-744x1039.png?accountingTag=RB",
@@ -905,6 +946,7 @@
         },
         {
           "id": "OGS-014~ko",
+          "uuid": "1ea325b6-fd4d-58a7-bc28-169d14aa7c2d",
           "language": "ko",
           "collectorNumber": 14,
           "rarity": "epic",
@@ -922,6 +964,7 @@
     },
     {
       "number": "OGS-015",
+      "uuid": "810b19f8-b168-54af-b40d-81cb7e30c78b",
       "name": "Recruit the Vanguard",
       "names": {
         "en": "Recruit the Vanguard",
@@ -935,6 +978,7 @@
       "printings": [
         {
           "id": "OGS-015",
+          "uuid": "c156ce48-52f9-5769-b353-c065291589a9",
           "collectorNumber": 15,
           "rarity": "uncommon",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/81d1c47459606f7b627778cce9b5f0e44d80f7fa-744x1039.png?accountingTag=RB",
@@ -962,6 +1006,7 @@
         },
         {
           "id": "OGS-015~ko",
+          "uuid": "5f9f9820-d087-5a77-8c98-2595fb50e958",
           "language": "ko",
           "collectorNumber": 15,
           "rarity": "uncommon",
@@ -979,6 +1024,7 @@
     },
     {
       "number": "OGS-016",
+      "uuid": "e4a40621-fc0d-5448-aea3-76e241bda9ac",
       "name": "Vanguard Attendant",
       "names": {
         "en": "Vanguard Attendant",
@@ -998,6 +1044,7 @@
       "printings": [
         {
           "id": "OGS-016",
+          "uuid": "304d38ae-78fe-5f38-8bf5-51ebe99abf59",
           "collectorNumber": 16,
           "rarity": "common",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ce467c1d51a65ab4fbae918dca38ae90b510844-744x1039.png?accountingTag=RB",
@@ -1025,6 +1072,7 @@
         },
         {
           "id": "OGS-016~ko",
+          "uuid": "3aab4596-903a-51d7-94b9-f15667217663",
           "language": "ko",
           "collectorNumber": 16,
           "rarity": "common",
@@ -1042,6 +1090,7 @@
     },
     {
       "number": "OGS-017",
+      "uuid": "0c56770f-6c36-584e-8170-a78b09a1c4d7",
       "name": "Dark Child",
       "names": {
         "en": "Dark Child",
@@ -1066,6 +1115,7 @@
       "printings": [
         {
           "id": "OGS-017",
+          "uuid": "8bfd21b4-13b0-59ba-9d48-2f4c9c705933",
           "collectorNumber": 17,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/89963e1d1cffd69c620fb5d6b037f50d5c334463-744x1039.png?accountingTag=RB",
@@ -1093,6 +1143,7 @@
         },
         {
           "id": "OGS-017~ko",
+          "uuid": "8fed037a-c2f0-5bdb-a8a5-6febe44ffdbc",
           "language": "ko",
           "collectorNumber": 17,
           "rarity": "rare",
@@ -1110,6 +1161,7 @@
     },
     {
       "number": "OGS-018",
+      "uuid": "dfeb2ee4-d0cb-5f60-abad-61dab5963919",
       "name": "Tibbers",
       "names": {
         "en": "Tibbers",
@@ -1137,6 +1189,7 @@
       "printings": [
         {
           "id": "OGS-018",
+          "uuid": "bbd7cc88-4f50-5bff-b2e7-d4f43ad214f4",
           "collectorNumber": 18,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/74f8bc78573b33d9979b0e9c121b858d770a490c-744x1039.png?accountingTag=RB",
@@ -1164,6 +1217,7 @@
         },
         {
           "id": "OGS-018~ko",
+          "uuid": "814f9f3c-8c5e-5b2a-a567-f1fc8ddbb638",
           "language": "ko",
           "collectorNumber": 18,
           "rarity": "epic",
@@ -1181,6 +1235,7 @@
     },
     {
       "number": "OGS-019",
+      "uuid": "36c5bf64-b74c-58dc-8979-bcc326816b15",
       "name": "Wuju Bladesman",
       "names": {
         "en": "Wuju Bladesman",
@@ -1205,6 +1260,7 @@
       "printings": [
         {
           "id": "OGS-019",
+          "uuid": "3f9c3fc9-57f7-551e-9873-295ddb0ae1fc",
           "collectorNumber": 19,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8231ced23eaf22ca3bf62ec8cb86b83a3e222da6-744x1039.png?accountingTag=RB",
@@ -1232,6 +1288,7 @@
         },
         {
           "id": "OGS-019~ko",
+          "uuid": "c42971e4-bde7-5e21-8aab-78ba9dc5a82c",
           "language": "ko",
           "collectorNumber": 19,
           "rarity": "rare",
@@ -1249,6 +1306,7 @@
     },
     {
       "number": "OGS-020",
+      "uuid": "aee8f5f9-fa36-5f71-bf97-e272b737b4f2",
       "name": "Highlander",
       "names": {
         "en": "Highlander",
@@ -1274,6 +1332,7 @@
       "printings": [
         {
           "id": "OGS-020",
+          "uuid": "20f9536e-fa6b-5808-85e1-2a9818d64fad",
           "collectorNumber": 20,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18c0818cbbfdf26a1237b4f7703b1f035f47b014-744x1039.png?accountingTag=RB",
@@ -1301,6 +1360,7 @@
         },
         {
           "id": "OGS-020~ko",
+          "uuid": "c29290c4-f99e-5102-a333-6cb69567636b",
           "language": "ko",
           "collectorNumber": 20,
           "rarity": "epic",
@@ -1318,6 +1378,7 @@
     },
     {
       "number": "OGS-021",
+      "uuid": "256e9c91-223b-5de1-90a9-04ae55333c37",
       "name": "Lady of Luminosity",
       "names": {
         "en": "Lady of Luminosity",
@@ -1342,6 +1403,7 @@
       "printings": [
         {
           "id": "OGS-021",
+          "uuid": "75aa7280-c2be-55c0-b631-cd89ae6345b1",
           "collectorNumber": 21,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44885d811b70621b188d9813b2b10b5cff1b81e6-744x1039.png?accountingTag=RB",
@@ -1369,6 +1431,7 @@
         },
         {
           "id": "OGS-021~ko",
+          "uuid": "9934c034-9645-5611-97a1-6a31978cd9ff",
           "language": "ko",
           "collectorNumber": 21,
           "rarity": "rare",
@@ -1386,6 +1449,7 @@
     },
     {
       "number": "OGS-022",
+      "uuid": "260d60ec-6fc7-5203-b387-f478ffac3738",
       "name": "Final Spark",
       "names": {
         "en": "Final Spark",
@@ -1411,6 +1475,7 @@
       "printings": [
         {
           "id": "OGS-022",
+          "uuid": "2a3b1491-c512-568b-8771-71c326aefbd3",
           "collectorNumber": 22,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4558a2dc1bb1f1b8a73ec0d82244654e84b12687-744x1039.png?accountingTag=RB",
@@ -1438,6 +1503,7 @@
         },
         {
           "id": "OGS-022~ko",
+          "uuid": "40fee7c9-0251-5d54-b151-67749b728aba",
           "language": "ko",
           "collectorNumber": 22,
           "rarity": "epic",
@@ -1455,6 +1521,7 @@
     },
     {
       "number": "OGS-023",
+      "uuid": "95a5ba2a-f62c-58b9-aacf-b135d9a42130",
       "name": "Might of Demacia",
       "names": {
         "en": "Might of Demacia",
@@ -1479,6 +1546,7 @@
       "printings": [
         {
           "id": "OGS-023",
+          "uuid": "e856ae86-0447-5c7d-ab28-579da79b512f",
           "collectorNumber": 23,
           "rarity": "rare",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7185deb46f17770802d06aeddfe3b929afff880-744x1039.png?accountingTag=RB",
@@ -1506,6 +1574,7 @@
         },
         {
           "id": "OGS-023~ko",
+          "uuid": "342e9b81-9e89-54d7-ab04-333b96b467c0",
           "language": "ko",
           "collectorNumber": 23,
           "rarity": "rare",
@@ -1523,6 +1592,7 @@
     },
     {
       "number": "OGS-024",
+      "uuid": "042067a4-9438-5cec-879c-63e92e1b317b",
       "name": "Decisive Strike",
       "names": {
         "en": "Decisive Strike",
@@ -1549,6 +1619,7 @@
       "printings": [
         {
           "id": "OGS-024",
+          "uuid": "3995374f-c7a4-5459-9694-e0aa93a144e7",
           "collectorNumber": 24,
           "rarity": "epic",
           "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/986782271be078c184a8d1c196e375106459c6c5-744x1039.png?accountingTag=RB",
@@ -1576,6 +1647,7 @@
         },
         {
           "id": "OGS-024~ko",
+          "uuid": "39004c21-402d-5c14-adf6-3e8ec26cd1e6",
           "language": "ko",
           "collectorNumber": 24,
           "rarity": "epic",

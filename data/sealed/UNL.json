@@ -2,6 +2,7 @@
   "products": [
     {
       "id": "unleashed-booster-display",
+      "uuid": "ee2e4daf-d519-524d-ba26-814959d16fad",
       "set": "UNL",
       "category": "booster_box",
       "name": "Unleashed - Booster Display",
@@ -25,6 +26,7 @@
     },
     {
       "id": "unleashed-booster-display-case",
+      "uuid": "d8474a6a-3fa9-5ff9-9475-61d380f64ea5",
       "set": "UNL",
       "category": "case",
       "name": "Unleashed - Booster Display Case",
@@ -48,6 +50,7 @@
     },
     {
       "id": "unleashed-booster-pack",
+      "uuid": "db779dbb-b3c6-5e05-92e6-70c4fa1f6669",
       "set": "UNL",
       "category": "booster_pack",
       "name": "Unleashed - Booster Pack",
@@ -71,6 +74,7 @@
     },
     {
       "id": "unleashed-champion-deck-vex",
+      "uuid": "18334f3e-064d-5a3e-9386-59fd0f94b235",
       "set": "UNL",
       "category": "starter_deck",
       "name": "Unleashed - Champion Deck (Vex)",
@@ -88,6 +92,7 @@
     },
     {
       "id": "unleashed-champion-deck-vex-display",
+      "uuid": "a4007ca2-9acd-5907-a2c5-580a888a1d44",
       "set": "UNL",
       "category": "display",
       "name": "Unleashed - Champion Deck (Vex) Display",
@@ -111,6 +116,7 @@
     },
     {
       "id": "unleashed-champion-deck-vi",
+      "uuid": "41b96633-45d0-5fc4-8c08-34cba8a8de8c",
       "set": "UNL",
       "category": "starter_deck",
       "name": "Unleashed - Champion Deck (Vi)",
@@ -128,6 +134,7 @@
     },
     {
       "id": "unleashed-champion-deck-vi-display",
+      "uuid": "8d7dc285-5dab-5570-b0fd-64dc16888c1a",
       "set": "UNL",
       "category": "display",
       "name": "Unleashed - Champion Deck (Vi) Display",
@@ -151,6 +158,7 @@
     },
     {
       "id": "unleashed-nexus-night-promo-pack",
+      "uuid": "eae385b1-0dd0-59cf-bad2-086e6cad5415",
       "set": "UNL",
       "category": "promo_pack",
       "name": "Unleashed - Nexus Night Promo Pack",
@@ -168,6 +176,7 @@
     },
     {
       "id": "unleashed-pre-rift-event-kit",
+      "uuid": "2cf6c75d-47f3-5f4d-8c22-274c1bb26de9",
       "set": "UNL",
       "category": "tournament_kit",
       "name": "Unleashed - Pre-Rift Event Kit",
@@ -185,6 +194,7 @@
     },
     {
       "id": "unleashed-pre-rift-kit",
+      "uuid": "13535448-1c0f-5eb5-9077-a4e4d27dc6ad",
       "set": "UNL",
       "category": "collection",
       "name": "Unleashed - Pre-Rift Kit",
@@ -202,6 +212,7 @@
     },
     {
       "id": "unleashed-sleeved-booster-pack",
+      "uuid": "3de54b97-d7e6-5611-aca3-71035f2ce2c5",
       "set": "UNL",
       "category": "sleeved_booster_pack",
       "name": "Unleashed - Sleeved Booster Pack",
@@ -225,6 +236,7 @@
     },
     {
       "id": "unleashed-sleeved-booster-pack-art-bundle-set-of-3",
+      "uuid": "b8809a0d-19ca-506e-ad57-1ff8b6b1e9fb",
       "set": "UNL",
       "category": "display",
       "name": "Unleashed - Sleeved Booster Pack Art Bundle [Set of 3]",
@@ -248,6 +260,7 @@
     },
     {
       "id": "unleashed-vault-bundle",
+      "uuid": "260b7b08-25f2-58d5-9173-51570b3d9a8f",
       "set": "UNL",
       "category": "collection",
       "name": "Unleashed - Vault Bundle",
@@ -271,6 +284,7 @@
     },
     {
       "id": "unleashed-vault-bundle-case",
+      "uuid": "3568d964-f8f8-51b7-8550-4d8cda16c545",
       "set": "UNL",
       "category": "case",
       "name": "Unleashed - Vault Bundle Case",

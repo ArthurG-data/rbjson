@@ -2,6 +2,7 @@
   "cards": [
     {
       "number": "JDG-OGN111",
+      "uuid": "8b469cd8-43c2-5050-83b6-ae94057053e5",
       "name": "Heimerdinger",
       "subtitle": "Inventor",
       "type": "unit",
@@ -22,6 +23,7 @@
       "printings": [
         {
           "id": "JDG-OGN111",
+          "uuid": "3628a456-34db-5118-921d-3a8663a5eeef",
           "collectorNumber": 111,
           "rarity": "rare",
           "source": "tcgplayer",
@@ -42,6 +44,7 @@
     },
     {
       "number": "JDG-SFD059",
+      "uuid": "ed4bae4d-66e7-58fa-870c-c1a46be75919",
       "name": "Svellsongur",
       "type": "gear",
       "domains": [
@@ -57,6 +60,7 @@
       "printings": [
         {
           "id": "JDG-SFD059",
+          "uuid": "4416d3d3-1c49-5cc1-856f-578aa8442eab",
           "collectorNumber": 59,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -77,6 +81,7 @@
     },
     {
       "number": "JDG-UNL087",
+      "uuid": "702c9500-18fb-592a-9a63-a1d55cf2d850",
       "name": "Blue Sentinel",
       "type": "unit",
       "domains": [
@@ -91,6 +96,7 @@
       "printings": [
         {
           "id": "JDG-UNL087",
+          "uuid": "b058faf7-6ca0-5551-8610-7b99eadf14fd",
           "collectorNumber": 87,
           "rarity": "epic",
           "source": "tcgplayer",
@@ -111,6 +117,7 @@
     },
     {
       "number": "JDG-VEN086",
+      "uuid": "2c724c1f-755a-5d54-a744-0ba3b6f8637b",
       "name": "Gangplank",
       "subtitle": "Naval",
       "type": "unit",
@@ -129,6 +136,7 @@
       "printings": [
         {
           "id": "JDG-VEN086",
+          "uuid": "261ff780-e882-5691-901b-85c9f1b043a3",
           "collectorNumber": 86,
           "rarity": "rare",
           "source": "tcgplayer",
