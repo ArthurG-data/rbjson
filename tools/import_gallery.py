@@ -1,6 +1,8 @@
 """Rebuild data/cards/<set>.json from Riot's card gallery.
 
-    uv run python tools/import_gallery.py [--locale ko-kr ...] [--cache .cache]
+    uv run python tools/import_gallery.py [--refresh] [--locale ko-kr ...] [--cache .cache]
+
+The gallery is read from .cache/gallery-<locale>.json when it is there; --refresh fetches it from Riot again.
 
 Every gallery entry is one printing. Entries that share a number (OGN-119/298 and OGN-119a/298) are one card
 with two printings; the card's facts come from the entry without a suffix when there is one. A variant whose
@@ -174,9 +176,10 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--locale", action="append", help="a locale to merge into the English cards (repeatable); default LOCALES")
     ap.add_argument("--cache", type=Path, default=rbjson.ROOT / ".cache")
+    ap.add_argument("--refresh", action="store_true", help="fetch the gallery again instead of reading the cache")
     args = ap.parse_args()
     known = {s["id"] for s in rbjson.load_sets()}
-    g = gallery.fetch("en-us", args.cache)
+    g = gallery.fetch("en-us", args.cache, args.refresh)
     for s in gallery.sets(g):
         if s["id"] not in known:
             print(f"new set {s['id']} ({s['name']}, {s['collectorNumberMax']} cards): add it to sets/sets.json")
@@ -184,7 +187,7 @@ def main() -> None:
     files, problems, disagreements = build_files(english, known)
     for locale in args.locale or LOCALES:
         language = locale.split("-")[0]
-        added, found = merge_locale(files, english, gallery.cards(gallery.fetch(locale, args.cache)), language)
+        added, found = merge_locale(files, english, gallery.cards(gallery.fetch(locale, args.cache, args.refresh)), language)
         print(f"{locale}: {added} {language} printings")
         problems += found
     for stem, body in files.items():

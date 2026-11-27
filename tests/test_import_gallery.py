@@ -165,3 +165,17 @@ def test_union_pages_keeps_an_entry_one_read_omits():
     # Any number of reads: an entry is kept once, from the first read that has it.
     merged = gallery.union_pages(page("a"), page("a", "c"), page("b", "c"))
     assert [e["id"] for e in gallery.cards(gallery.blade(merged))] == ["a", "c", "b"]
+
+
+def test_the_gallery_is_read_from_the_cache_until_refresh_asks_for_it_again(tmp_path, monkeypatch):
+    import gallery
+    pages = []
+
+    def live(locale):
+        pages.append(locale)
+        return {"pageProps": {"page": {"blades": [{"type": gallery.BLADE, "n": len(pages)}]}}}
+    monkeypatch.setattr(gallery, "_page", live)
+    assert gallery.fetch("en-us", tmp_path)["n"] == 1
+    assert gallery.fetch("en-us", tmp_path)["n"] == 1
+    assert gallery.fetch("en-us", tmp_path, refresh=True)["n"] == 2
+    assert pages == ["en-us", "en-us"]

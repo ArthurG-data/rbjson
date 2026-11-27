@@ -319,7 +319,7 @@ the gallery import stays as the cross-check.
 
 ```
 uv sync --group dev
-uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/
+uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/ (--refresh to fetch again)
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
 uv run python tools/import_cardmarket.py       # Cardmarket product ids, cached in .cache/cardmarket
@@ -347,7 +347,7 @@ fails, CI turns the release back into a draft, so readers keep getting the previ
 
 ## Adding a set or refreshing the data
 
-1. Run `uv run python tools/import_gallery.py`. If it names a new set, add it to `sets/sets.json` with its
+1. Run `uv run python tools/import_gallery.py --refresh`. If it names a new set, add it to `sets/sets.json` with its
    code, type, set size and English name, then run the importer again.
 2. Run `uv run python tools/import_tcgcsv.py --refresh` to pick up new products and finishes.
 3. Run `uv run python tools/import_sealed.py --refresh`.
