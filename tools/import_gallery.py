@@ -173,6 +173,19 @@ def merge_locale(files: dict[str, dict], english: list[dict], entries: list[dict
     return n, problems
 
 
+def others(on_disk: dict[str, dict], files: dict[str, dict]) -> dict[str, dict | None]:
+    """The card files this run did not rebuild, without their gallery printings: a set the gallery no longer lists
+    loses them, and the printings import_tcgcsv minted stay for it to manage. None for a file left with no card."""
+    out: dict[str, dict | None] = {}
+    for stem, body in on_disk.items():
+        if stem in files:
+            continue
+        cards = [{**c, "printings": [p for p in c["printings"] if p["source"] != "riot-gallery"]} for c in body["cards"]]
+        cards = [c for c in cards if c["printings"]]
+        out[stem] = {**body, "cards": cards} if cards else None
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--locale", action="append", help="a locale to merge into the English cards (repeatable); default LOCALES")
@@ -191,11 +204,16 @@ def main() -> None:
         added, found = merge_locale(files, english, gallery.cards(gallery.fetch(locale, args.cache, args.refresh)), language)
         print(f"{locale}: {added} {language} printings")
         problems += found
+    rest = others(rbjson.load_cards(), files)
+    kept = {stem: body for stem, body in rest.items() if body is not None}
     registry = uuids.load()
     # the files this run does not rebuild (a promo set's) are live too, so their records keep their place
-    uuids.assign_cards({**rbjson.load_cards(), **files}, registry)
-    for stem, body in files.items():
+    uuids.assign_cards({**kept, **files}, registry)
+    for stem, body in {**kept, **files}.items():
         rbjson.dump(rbjson.CARDS / f"{stem}.json", body)
+    for stem in sorted(set(rest) - set(kept)):
+        (rbjson.CARDS / f"{stem}.json").unlink()
+        print(f"removed cards/{stem}.json: the gallery no longer lists set {stem}")
     uuids.save(registry)
     rbjson.dump(rbjson.ROOT / "review" / "gallery.json", disagreements)
     n = sum(len(b["cards"]) for b in files.values())

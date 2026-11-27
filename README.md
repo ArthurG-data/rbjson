@@ -343,6 +343,7 @@ the gallery import stays as the cross-check.
 
 ```
 uv sync --group dev
+uv run python tools/refresh.py [--refresh]     # every importer below in order, then validate.py
 uv run python tools/import_gallery.py          # rebuild data/cards from the gallery (English, then ko-kr), cached in .cache/ (--refresh to fetch again)
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
@@ -375,11 +376,13 @@ fails, CI turns the release back into a draft, so readers keep getting the previ
 
 ## Adding a set or refreshing the data
 
-1. Run `uv run python tools/import_gallery.py --refresh`. If it names a new set, add it to `sets/sets.json` with its
-   code, type, set size and English name, then run the importer again.
-2. Run `uv run python tools/import_tcgcsv.py --refresh` to pick up new products and finishes.
-3. Run `uv run python tools/import_sealed.py --refresh`.
-4. Run `uv run python tools/import_cardmarket.py --refresh`. A new set needs its `cardmarketExpansionIds` in `sets/sets.json` first.
+1. Run `uv run python tools/refresh.py --refresh`. It runs `import_gallery`, `import_tcgcsv`, `import_sealed`
+   and `import_cardmarket` in that order, each fetching its source again, then `validate.py`. Each importer
+   rebuilds what the one before it wrote, so run them all, not one alone.
+2. If the gallery names a new set, the run stops there: add the set to `sets/sets.json` with its code, type, set
+   size and English name, and its `cardmarketExpansionIds`, then run step 1 again.
+3. If an id comes back whose UUID another record has taken, `tools/uuids.py` stops with a conflict: decide which record it is.
+4. If the gallery stops listing a set, `import_gallery` removes that set's gallery printings and says so.
 5. Read `review/gallery.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
 6. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
 7. Commit `sets/`, `data/` (with `data/uuids.json`) and `review/` together, so a release never mixes two snapshots.

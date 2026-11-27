@@ -212,3 +212,11 @@ def test_a_non_integer_cardmarket_expansion_id_fails_the_schema():
     sets = copy.deepcopy(sets)
     sets[0]["cardmarketExpansionIds"] = ["6286"]
     assert any("cardmarketExpansionIds" in e for e in rbjson.validate(sets, files))
+
+
+def test_refresh_runs_the_importers_in_the_order_each_needs_then_validates():
+    import refresh
+    steps = [cmd[1].rsplit("/", 1)[1] for cmd in refresh.commands(refresh=True, online=False)]
+    assert steps == ["import_gallery.py", "import_tcgcsv.py", "import_sealed.py", "import_cardmarket.py", "validate.py"]
+    assert all("--refresh" in cmd for cmd in refresh.commands(True, False)[:4])
+    assert "--online" in refresh.commands(False, True)[-1]

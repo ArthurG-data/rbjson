@@ -179,3 +179,20 @@ def test_the_gallery_is_read_from_the_cache_until_refresh_asks_for_it_again(tmp_
     assert gallery.fetch("en-us", tmp_path)["n"] == 1
     assert gallery.fetch("en-us", tmp_path, refresh=True)["n"] == 2
     assert pages == ["en-us", "en-us"]
+
+
+def test_a_set_the_gallery_no_longer_lists_loses_its_gallery_printings_and_keeps_the_minted_ones():
+    def p(pid, source):
+        return {"id": pid, "source": source}
+    on_disk = {
+        "OGN": {"cards": [{"number": "OGN-001", "printings": [p("OGN-001", "riot-gallery")]}]},
+        "OLD": {"cards": [{"number": "OLD-001", "printings": [p("OLD-001", "riot-gallery"), p("OLD-001a", "tcgplayer")]},
+                          {"number": "OLD-002", "printings": [p("OLD-002", "riot-gallery")]}]},
+        "GONE": {"cards": [{"number": "GONE-001", "printings": [p("GONE-001", "riot-gallery")]}]},
+        "OPP": {"cards": [{"number": "OPP-OGN001", "printings": [p("OPP-OGN001", "tcgplayer")]}]},
+    }
+    rest = import_gallery.others(on_disk, {"OGN": {"cards": []}})
+    assert set(rest) == {"OLD", "GONE", "OPP"}
+    assert rest["OLD"] == {"cards": [{"number": "OLD-001", "printings": [p("OLD-001a", "tcgplayer")]}]}
+    assert rest["GONE"] is None
+    assert rest["OPP"] == on_disk["OPP"]
