@@ -1,4 +1,5 @@
-"""Write dist/AllSets.json, AllCards.json, AllPrintings.json and AllProducts.json. Refuses to build invalid data.
+"""Write dist/AllSets.json, AllCards.json, AllPrintings.json and AllProducts.json, each with its schema beside it
+(dist/AllSets.schema.json, ...). Refuses to build invalid data, or a file its schema does not describe.
 
     uv run python tools/build.py --version 0.4.0 [--date 2026-11-27]
 
@@ -13,10 +14,14 @@ import json
 import subprocess
 import sys
 
+from jsonschema import Draft202012Validator, FormatChecker
+
 import rbjson
+import release_schema
 import uuids
 
 DIST = rbjson.ROOT / "dist"
+FILES = (("AllSets", "sets"), ("AllCards", "cards"), ("AllPrintings", "printings"), ("AllProducts", "products"))
 
 
 def data_date() -> str:
@@ -40,11 +45,16 @@ def main() -> None:
         sys.exit("refusing to build:\n" + "\n".join(errors))
     meta = {"version": args.version, "date": args.date.isoformat() if args.date else data_date()}
     flat = rbjson.flatten(sets, files, sealed)
+    schemas = release_schema.schemas()
+    documents = {name: {"meta": meta, "data": flat[key]} for name, key in FILES}
+    errors = [f"{name}.json: {e.json_path}: {e.message}" for name, doc in documents.items()
+              for e in Draft202012Validator(schemas[name], format_checker=FormatChecker()).iter_errors(doc)]
+    if errors:
+        sys.exit("refusing to build: the release files do not match their schemas:\n" + "\n".join(errors[:50]))
     DIST.mkdir(exist_ok=True)
-    for name, key in (("AllSets", "sets"), ("AllCards", "cards"), ("AllPrintings", "printings"),
-                      ("AllProducts", "products")):
-        (DIST / f"{name}.json").write_text(json.dumps({"meta": meta, "data": flat[key]}, ensure_ascii=False,
-                                                      sort_keys=True), encoding="utf-8")
+    for name, doc in documents.items():
+        (DIST / f"{name}.json").write_text(json.dumps(doc, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+        rbjson.dump(DIST / f"{name}.schema.json", schemas[name])
     print(f"dist/ written: {len(flat['sets'])} sets, {len(flat['cards'])} cards, {len(flat['printings'])} printings, "
           f"{len(flat['products'])} sealed products")
 

@@ -28,7 +28,7 @@ from pathlib import Path
 
 import rbjson
 
-NAMESPACE = uuid.uuid5(uuid.NAMESPACE_URL, "https://github.com/ArthurG-data/rbjson")
+NAMESPACE = rbjson.NAMESPACE
 REGISTRY = rbjson.ROOT / "data" / "uuids.json"
 KINDS = ("cards", "printings", "products")
 

@@ -23,7 +23,8 @@ written for one needs little change for another.
 
 ## Using the data
 
-Each tagged release attaches four files to a GitHub release:
+Each tagged release attaches four files to a GitHub release, each with its JSON schema beside it
+(`AllSets.schema.json`, ...):
 
 ```
 https://github.com/ArthurG-data/rbjson/releases/latest/download/AllSets.json
@@ -38,7 +39,7 @@ build, so a reader that downloads them separately can check that the versions ag
 | File | Keyed by | Holds |
 |---|---|---|
 | `AllSets.json` | set code (`OGN`) | type, set size, parent set, TCGplayer group ids (`tcgplayerGroupIds`), Cardmarket expansion ids (`cardmarketExpansionIds`), and per release (`en`, and `ko` for Origins and Proving Grounds) the name, date, source page and key art |
-| `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its name and subtitle in each language it has printings in, its set, and the ids of its printings |
+| `AllCards.json` | card number (`OGN-119`) | the facts every printing of the card shares, its name and subtitle in each language it has printings in, its set, its `oracleId`, and the ids of its printings |
 | `AllPrintings.json` | printing id (`OGN-119a`, `OGN-119a~ko`) | set, card number, language, collector number, suffix, rarity, image link, artists, finishes, gallery, TCGplayer and Cardmarket (`cardmarketProductIds`) identifiers |
 | `AllProducts.json` | product id (`origins-booster-display`) | the sealed products: set, category, name, release date, TCGplayer product id, and what the product holds |
 
@@ -107,7 +108,14 @@ come from TCGplayer's product names, so a rename on TCGplayer would change them.
 - A record that leaves moves to `retired` in `data/uuids.json` with its UUID, and gets it back if it returns. A
   renamed record's old id stays there too, so either id finds the UUID.
 
-So a UUID is never given to another record, and an id never changes UUID. `tools/validate.py --since <git ref>`
+So a UUID is never given to another record, and an id never changes UUID.
+
+A card in `AllCards.json` also has an `oracleId`, as Scryfall's `oracle_id`: one UUID for every card with the same
+name and subtitle, `uuid5(NAMESPACE, "oracle:<name>|<subtitle>")` with both folded (casefolded, accents
+removed). Sett, The Boss at `OGN-269` and its Metal Best Of promo at `OPP-OGN269` are two cards with two UUIDs and
+one `oracleId`, so a reader can group a card's reprints. `validate.py` refuses two cards of one `oracleId` that
+state different types, domains, costs or might. The gallery tags a showcase reprint more sparely than its first
+printing, so tags may differ. `tools/validate.py --since <git ref>`
 checks that against an earlier `data/uuids.json`, and CI runs it against the branch a PR targets.
 
 ## Cards and printings
@@ -175,7 +183,7 @@ A printing holds what sets one physical card apart from another with the same nu
 | `identifiers.publicCode` | The code as the gallery prints it (`OGN-119a/298`) |
 | `identifiers.tcgplayerProductIds` | The TCGplayer products that sell the printing (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.cardmarketProductIds` | The Cardmarket product that sells the printing, on an English printing whose name fits one card and one product (see [Cardmarket products](#cardmarket-products)) |
-| `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent on a printing it has never priced |
+| `finishes` | `nonfoil` and/or `foil`: the finishes TCGplayer has priced the product in. Absent means unknown, never none: TCGplayer has never priced the printing, or it is a Korean printing TCGplayer does not sell |
 | `tcgplayer` | How the product was tied to the printing: its `name` and the `match`: `number` for a gallery printing, `minted` for one made from the product |
 
 No ability text, flavour text or artwork is copied into the data; see `NOTICE` for what is and is not taken
@@ -375,11 +383,11 @@ Every record must carry the UUID `data/uuids.json` gives its id, and the registr
 
 ## Releasing
 
-Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files to a GitHub release
+Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files and their schemas to a GitHub release
 named after the tag. Readers follow `releases/latest/download/<file>`, so a new tag is all a release takes.
 
 You can also publish a release from the GitHub web or app: choose a new tag `vX.Y.Z` on `main` and publish it.
-CI runs the same checks and attaches the four files to that release, usually within ten minutes. If a check
+CI runs the same checks and attaches the files to that release, usually within ten minutes. If a check
 fails, CI turns the release back into a draft, so readers keep getting the previous one.
 
 ## Adding a set or refreshing the data

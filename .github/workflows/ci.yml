@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     tags: ["v*"]
-  # A release published from the GitHub UI or app: CI fills it with the four files.
+  # A release published from the GitHub UI or app: CI fills it with the release files.
   release:
     types: [published]
   # Riot, TCGplayer and Cardmarket change under the data. A weekly online check reports drift without failing PRs.
@@ -71,6 +71,7 @@ jobs:
       # the files to it (--clobber replaces them when a second run gets here).
       - run: |
           files="dist/AllSets.json dist/AllCards.json dist/AllPrintings.json dist/AllProducts.json"
+          files="$files dist/AllSets.schema.json dist/AllCards.schema.json dist/AllPrintings.schema.json dist/AllProducts.schema.json"
           if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
             gh release upload "$GITHUB_REF_NAME" $files --clobber
           else

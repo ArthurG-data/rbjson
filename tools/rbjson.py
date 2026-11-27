@@ -5,6 +5,7 @@ import collections
 import json
 import re
 import unicodedata
+import uuid
 from pathlib import Path
 
 from jsonschema import Draft202012Validator, FormatChecker
@@ -14,6 +15,11 @@ SETS = ROOT / "sets" / "sets.json"
 CARDS = ROOT / "data" / "cards"
 SEALED = ROOT / "data" / "sealed"
 SCHEMAS = ROOT / "schema"
+# The namespace of every rbjson UUID (tools/uuids.py), and of each card's oracleId.
+NAMESPACE = uuid.uuid5(uuid.NAMESPACE_URL, "https://github.com/ArthurG-data/rbjson")
+# The facts the cards of one oracleId share: a reprint has its own number and printings, and the same rules. Tags are
+# left out: the gallery tags a showcase reprint more sparely than its first printing (no region).
+ORACLE_FACTS = ("type", "superTypes", "domains", "energy", "power", "might", "mightBonus")
 
 # A promo set's number names the set it reprints (OPP-VEN134 is 134/166), and a stamped version adds a variant
 # (OPP-OGN269.metal-best-of). T06+T07 is a double-sided token.
@@ -37,6 +43,13 @@ def fold(name: str) -> str:
     s = unicodedata.normalize("NFKD", name.replace("’", "'").replace("-", " "))
     s = "".join(c for c in s if not unicodedata.combining(c))
     return " ".join(_NOT_FOLDED.sub("", s.casefold()).split())
+
+
+def oracle_id(card: dict) -> str:
+    """The UUID every card with this name and subtitle shares, as Scryfall's oracle_id does: Ahri, Inquisitive in
+    Origins and its stamped promo in OPP have one oracleId and two numbers. A champion has one card per subtitle,
+    so the subtitle is part of it."""
+    return str(uuid.uuid5(NAMESPACE, f"oracle:{fold(card['name'])}|{fold(card.get('subtitle') or '')}"))
 
 
 def _schema(name: str) -> Draft202012Validator:
@@ -98,7 +111,21 @@ def validate(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] |
     errors += _card_errors(files, set_ids)
     errors += _printing_errors(files, releases, printing_ids)
     errors += _owner_errors(files, sets, product_owner)
+    errors += _oracle_errors(files)
     errors += _sealed_errors(sealed, set_ids, set(printing_ids), product_owner)
+    return errors
+
+
+def _oracle_errors(files: dict[str, dict]) -> list[str]:
+    """Cards that share an oracleId and differ on a fact both state: two cards would be one card in the release."""
+    errors = []
+    first: dict[str, dict] = {}
+    for _, card in _cards(files):
+        other = first.setdefault(oracle_id(card), card)
+        for field in ORACLE_FACTS:
+            if other is not card and field in card and field in other and card[field] != other[field]:
+                errors.append(f"card {card['number']}: shares its name and subtitle, so its oracleId, with "
+                              f"{other['number']} but has {field} {card[field]!r}, not {other[field]!r}")
     return errors
 
 
@@ -262,6 +289,7 @@ def flatten(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] | 
         for card in body["cards"]:
             facts = {k: v for k, v in card.items() if k != "printings"}
             facts["set"] = card["number"].split("-", 1)[0]
+            facts["oracleId"] = oracle_id(card)
             facts["printings"] = [p["id"] for p in card["printings"]]
             cards[card["number"]] = facts
             for p in card["printings"]:
