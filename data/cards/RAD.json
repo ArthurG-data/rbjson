@@ -3,6 +3,7 @@
     {
       "number": "RAD-001",
       "uuid": "45c47933-6a67-58f0-b1c3-a5e3d0579923",
+      "oracleId": "2069369b-6944-5c22-9be8-e6d58bc5c631",
       "name": "Amateur Demolitionist",
       "type": "unit",
       "domains": [
@@ -45,6 +46,7 @@
     {
       "number": "RAD-002",
       "uuid": "b4cc5f4d-6e80-5e12-b3d8-1edc75545be0",
+      "oracleId": "9b690223-b0c3-5c55-abb9-60b357d90bb6",
       "name": "Banner of Conquest",
       "type": "gear",
       "domains": [
@@ -90,6 +92,7 @@
     {
       "number": "RAD-003",
       "uuid": "6a513566-c04d-510b-8fb9-ee5640d031bd",
+      "oracleId": "c6e25f67-7827-5d04-8b4a-ec5314eb87d2",
       "name": "Bilgewater Tracker",
       "type": "unit",
       "domains": [
@@ -132,6 +135,7 @@
     {
       "number": "RAD-004",
       "uuid": "d88b58c7-e735-5485-b917-701e2f617fc1",
+      "oracleId": "2c94b59b-cd15-58a8-93f5-6ba17cb1c9e4",
       "name": "Brawl",
       "type": "spell",
       "domains": [
@@ -174,6 +178,7 @@
     {
       "number": "RAD-005",
       "uuid": "d3dcfb64-51d1-5d0e-8129-4eb6c78ce179",
+      "oracleId": "6b7efedc-0f9a-5757-bccd-29136c14f26d",
       "name": "Lingering Animus",
       "type": "unit",
       "domains": [
@@ -216,6 +221,7 @@
     {
       "number": "RAD-006",
       "uuid": "18404dae-e53d-53d0-ae16-011bb447bf0c",
+      "oracleId": "b79acc7d-ee7a-54d2-a321-bcaaba4c1f64",
       "name": "Scorched Earth",
       "energy": 4,
       "power": 1,
@@ -254,6 +260,7 @@
     {
       "number": "RAD-007",
       "uuid": "ffac57b6-8d7e-5c23-90cd-5946bde4dad4",
+      "oracleId": "1bf0cc23-1863-5baa-beab-eef61226c00c",
       "name": "Rally for War",
       "type": "gear",
       "domains": [
@@ -296,6 +303,7 @@
     {
       "number": "RAD-008",
       "uuid": "064ecbe1-ac9a-5430-ac56-d9a3a65ad885",
+      "oracleId": "9ed27435-9c93-5081-86df-392ea0b92c6a",
       "name": "War Scout",
       "type": "unit",
       "domains": [
@@ -338,6 +346,7 @@
     {
       "number": "RAD-009",
       "uuid": "def67fe5-b97a-5cf3-b458-f1fd4781edd1",
+      "oracleId": "4ee42d32-3081-5922-a596-2448c3e3e635",
       "name": "Antagonistic Apparatus",
       "energy": 6,
       "power": 1,
@@ -377,6 +386,7 @@
     {
       "number": "RAD-010",
       "uuid": "b66693db-5b4b-5f0a-96fb-6d4fd8067a76",
+      "oracleId": "5d277039-ca66-548a-815f-2b6d4123c404",
       "name": "Forbidden Technique",
       "type": "spell",
       "domains": [
@@ -418,6 +428,7 @@
     {
       "number": "RAD-011",
       "uuid": "61c60658-ca5a-5f52-bc2b-294894038780",
+      "oracleId": "62b7fe68-788a-55d5-929c-feae179d3507",
       "name": "Incorrigible Construct",
       "type": "unit",
       "domains": [
@@ -460,6 +471,7 @@
     {
       "number": "RAD-012",
       "uuid": "af44ce1b-e016-582f-92a7-46542a95ebe9",
+      "oracleId": "85afbf9a-2fe8-5067-8ced-33bf4c937727",
       "name": "Runeblade Anvil",
       "type": "unit",
       "domains": [
@@ -501,6 +513,7 @@
     {
       "number": "RAD-013",
       "uuid": "88f0c8b5-6fb9-5aec-86fe-9eb5ff99c41c",
+      "oracleId": "e37cfd90-b806-522e-8504-d28a84675075",
       "name": "Lost to the Sands",
       "type": "spell",
       "domains": [
@@ -543,6 +556,7 @@
     {
       "number": "RAD-014",
       "uuid": "95624009-de00-5bb0-8502-abbd406f48a1",
+      "oracleId": "bb3e2205-cf7c-57c1-8ae6-6a41bc7265e7",
       "name": "Shimmering Swimmer",
       "type": "unit",
       "domains": [
@@ -585,6 +599,7 @@
     {
       "number": "RAD-015",
       "uuid": "2340b358-596e-5283-90aa-ec4628c4c2e1",
+      "oracleId": "7f857f6e-4a15-5675-ad8b-f47f89ed63c0",
       "name": "Akali",
       "subtitle": "Brash",
       "type": "unit",
@@ -632,6 +647,7 @@
     {
       "number": "RAD-016",
       "uuid": "b511d6d8-28e6-53dd-82b5-5b992d1379b0",
+      "oracleId": "ad7fe0ff-9bce-5a41-9660-ddcf1fd7d5f7",
       "name": "Coalesced Energy",
       "type": "spell",
       "domains": [
@@ -674,6 +690,7 @@
     {
       "number": "RAD-017",
       "uuid": "ed74eb71-5e2c-568e-8549-f331b7e1bf36",
+      "oracleId": "86400259-86ad-5c32-ac9b-316f7a870b5e",
       "name": "Detonation Amplifier",
       "type": "gear",
       "domains": [
@@ -718,6 +735,7 @@
     {
       "number": "RAD-018",
       "uuid": "a09bada8-3386-513d-9ca8-b022f0d11f01",
+      "oracleId": "416cb0ea-95e8-5136-aa81-91f63bbe0cff",
       "name": "Drakehound Packmaster",
       "type": "unit",
       "domains": [
@@ -760,6 +778,7 @@
     {
       "number": "RAD-019",
       "uuid": "eea06080-c52a-52d8-ba56-67d02c71a3cb",
+      "oracleId": "d107464e-1083-5e02-838c-7ca21aef863b",
       "name": "Firebrand Raider",
       "type": "unit",
       "domains": [
@@ -802,6 +821,7 @@
     {
       "number": "RAD-020",
       "uuid": "d5724753-06ca-5976-a07e-1ae8113f68fa",
+      "oracleId": "41021f3f-f230-527a-bfc5-036f16fcde02",
       "name": "Mordekaiser",
       "subtitle": "Twice Slain",
       "type": "unit",
@@ -869,6 +889,7 @@
     {
       "number": "RAD-021",
       "uuid": "c36af42f-498c-59b6-a583-ef4dd7ad072f",
+      "oracleId": "19cedf26-b230-5c29-a7d8-6a944c2d61e5",
       "name": "Ekko",
       "subtitle": "Revolutionary",
       "type": "unit",
@@ -939,6 +960,7 @@
     {
       "number": "RAD-022",
       "uuid": "7701ac39-3b3c-5da5-a925-a363fdc03870",
+      "oracleId": "4db7c1ce-8283-5a10-9eb0-f3985dd0ea69",
       "name": "Whirling Twirligig",
       "energy": 4,
       "power": 1,
@@ -976,6 +998,7 @@
     {
       "number": "RAD-023",
       "uuid": "a86ecefb-7555-55b1-bfdf-81b081237154",
+      "oracleId": "a5e2dbed-f615-5294-8a71-35d2538b472d",
       "name": "Ziggs",
       "subtitle": "Short-Fused",
       "type": "unit",
@@ -1046,6 +1069,7 @@
     {
       "number": "RAD-024",
       "uuid": "be654400-c2d3-5c92-9f42-11feb7cbb2b6",
+      "oracleId": "8d35ce8a-387c-5270-954a-fa47af1241a8",
       "name": "Blossoming Dreamroot",
       "type": "gear",
       "domains": [
@@ -1090,6 +1114,7 @@
     {
       "number": "RAD-025",
       "uuid": "84f19e1e-f526-542c-944a-8aa65ad53e30",
+      "oracleId": "ea0d7c81-e050-5860-a680-9fb0ac843086",
       "name": "Consult the Heavens",
       "type": "unit",
       "domains": [
@@ -1131,6 +1156,7 @@
     {
       "number": "RAD-026",
       "uuid": "3cff0bc0-f1b8-57f7-bdf6-3ca8cb68e85a",
+      "oracleId": "0e360689-4ac5-5054-81fb-e39b2d5d01c4",
       "name": "Entrenched Boar",
       "energy": 2,
       "might": 2,
@@ -1169,6 +1195,7 @@
     {
       "number": "RAD-027",
       "uuid": "0d88ac0c-42c9-5f2f-8128-b2583d5bb561",
+      "oracleId": "250de0b7-7494-5829-94be-1762a11d0b2e",
       "name": "Iridescent Avian",
       "type": "unit",
       "domains": [
@@ -1211,6 +1238,7 @@
     {
       "number": "RAD-028",
       "uuid": "03fd1648-c4de-5664-adc1-ee0caeea7019",
+      "oracleId": "d7d82ea7-9520-5f26-b375-37ee1b3c781b",
       "name": "Ki Burst",
       "type": "spell",
       "domains": [
@@ -1249,6 +1277,7 @@
     {
       "number": "RAD-029",
       "uuid": "c9783f06-d98a-5d1c-865b-0a333baf8476",
+      "oracleId": "bd277566-8f7e-5d20-a877-1d08bde94ed0",
       "name": "Life from Stone",
       "type": "spell",
       "domains": [
@@ -1290,6 +1319,7 @@
     {
       "number": "RAD-030",
       "uuid": "9429b239-ca42-5090-a69a-2b602fb17e60",
+      "oracleId": "5c3c96ab-fedc-5040-94e5-44f6c356a062",
       "name": "Sanctum Conservator",
       "type": "unit",
       "domains": [
@@ -1332,6 +1362,7 @@
     {
       "number": "RAD-031",
       "uuid": "980cd273-e4f3-56fe-a22f-a7541f305280",
+      "oracleId": "2bbe801d-e67a-5b9d-9028-0aaf8b5a9153",
       "name": "Stoic Ferryman",
       "type": "unit",
       "domains": [
@@ -1374,6 +1405,7 @@
     {
       "number": "RAD-032",
       "uuid": "a48478e0-9fde-5de8-bfc3-c5426686387a",
+      "oracleId": "026c3433-93d2-5f55-8c8b-33d4fc3b862e",
       "name": "Battle Preparations",
       "type": "spell",
       "domains": [
@@ -1415,6 +1447,7 @@
     {
       "number": "RAD-033",
       "uuid": "3086552f-3f4d-516f-8675-fd3f47cf900a",
+      "oracleId": "cbc69e84-f048-522e-baf1-6a6793ff5f99",
       "name": "Command: Attack",
       "type": "gear",
       "domains": [
@@ -1454,6 +1487,7 @@
     {
       "number": "RAD-034",
       "uuid": "156451dd-69ea-5a2e-bf0c-6f25c4b1325c",
+      "oracleId": "96cd97fd-eab0-5d0b-963f-73f43a232fd6",
       "name": "Hunker Down",
       "domains": [
         "calm"
@@ -1494,6 +1528,7 @@
     {
       "number": "RAD-035",
       "uuid": "976f85f3-0e55-5700-afeb-5a00dbed2fbd",
+      "oracleId": "089602d4-3124-5074-8807-96871a874b08",
       "name": "Invigorating Bloom",
       "type": "unit",
       "domains": [
@@ -1535,6 +1570,7 @@
     {
       "number": "RAD-036",
       "uuid": "c1f0a9c1-28fa-5895-8e29-977b9a02034b",
+      "oracleId": "daaa97d6-95c6-520f-b096-34122d1d349a",
       "name": "Storm Raptor",
       "type": "unit",
       "domains": [
@@ -1577,6 +1613,7 @@
     {
       "number": "RAD-037",
       "uuid": "81b2b706-5ebd-54e8-870c-d4a24293e55e",
+      "oracleId": "19858c50-72f4-5e51-96e9-ca139d395ccd",
       "name": "Watchful Curator",
       "type": "unit",
       "domains": [
@@ -1620,6 +1657,7 @@
     {
       "number": "RAD-038",
       "uuid": "f17e8e3f-033b-5267-877f-4a94ff307b12",
+      "oracleId": "1b245614-366d-5d98-8b5d-15ed9027af7d",
       "name": "Ahri",
       "subtitle": "Confident",
       "type": "unit",
@@ -1667,6 +1705,7 @@
     {
       "number": "RAD-039",
       "uuid": "309f5f64-4b7b-53bb-84fb-4954acb9a3f1",
+      "oracleId": "4539ab54-595e-5cea-bec8-0aca0bbc00f3",
       "name": "Ephemeral Ward",
       "type": "unit",
       "domains": [
@@ -1708,6 +1747,7 @@
     {
       "number": "RAD-040",
       "uuid": "be88224f-0b44-5e3a-b62a-16f487439c0e",
+      "oracleId": "0831ed4d-3190-5a01-8309-2a3cf62080af",
       "name": "Heartening Soul",
       "type": "unit",
       "domains": [
@@ -1750,6 +1790,7 @@
     {
       "number": "RAD-041",
       "uuid": "65f27520-a888-5f54-96e7-5a6c0e46bc84",
+      "oracleId": "dcf9c8d4-1c01-53c9-998d-b17d1850cd25",
       "name": "Hush",
       "energy": 1,
       "power": 2,
@@ -1787,6 +1828,7 @@
     {
       "number": "RAD-042",
       "uuid": "937a00c8-55c2-5c0f-8c48-27c62475d8d8",
+      "oracleId": "c4727503-9ff4-552c-9e12-9c9587e22b20",
       "name": "Orianna",
       "subtitle": "Exquisite",
       "type": "unit",
@@ -1853,6 +1895,7 @@
     {
       "number": "RAD-043",
       "uuid": "7c6ae5de-2788-5adc-89da-7b5a90538642",
+      "oracleId": "4c95480b-7c57-5b87-bcd8-424963c97d15",
       "name": "Riven",
       "subtitle": "Broken Blade",
       "type": "unit",
@@ -1924,6 +1967,7 @@
     {
       "number": "RAD-044",
       "uuid": "f5f95959-e708-56b9-903d-ef533815ab28",
+      "oracleId": "3507f48b-9aa7-59f3-a731-b0814ad71571",
       "name": "Hunting Blind",
       "type": "unit",
       "domains": [
@@ -1965,6 +2009,7 @@
     {
       "number": "RAD-045",
       "uuid": "9b8ea3b2-159f-5f36-8432-ed9d6dcfa8fa",
+      "oracleId": "90b69e21-5468-5dd3-ac30-c7798ae50017",
       "name": "K'Sante",
       "subtitle": "Dauntless",
       "type": "unit",
@@ -2035,6 +2080,7 @@
     {
       "number": "RAD-046",
       "uuid": "f5494841-56e0-5d6a-92c9-8c916a6ba43b",
+      "oracleId": "08d5a178-97d6-5e53-aab4-a258ac6211ee",
       "name": "Resplendent Rostrum",
       "type": "spell",
       "domains": [
@@ -2076,6 +2122,7 @@
     {
       "number": "RAD-047",
       "uuid": "bb44af05-dfac-5b6a-9908-31479d7dfc73",
+      "oracleId": "4250de02-6384-53f3-a23b-50c17c00f99a",
       "name": "Fanfare",
       "energy": 3,
       "printings": [
@@ -2113,6 +2160,7 @@
     {
       "number": "RAD-048",
       "uuid": "3229ff31-59f7-56b0-99d9-c1036fa169ca",
+      "oracleId": "00940d70-ab1d-54c0-b087-d4439b51e0ce",
       "name": "High Note",
       "type": "spell",
       "domains": [
@@ -2154,6 +2202,7 @@
     {
       "number": "RAD-049",
       "uuid": "60c60bb5-cd34-501a-bf52-cae210704258",
+      "oracleId": "0ce8f1b9-4aa6-57e7-8680-a51576675028",
       "name": "Industrious Mechsmith",
       "energy": 4,
       "might": 1,
@@ -2192,6 +2241,7 @@
     {
       "number": "RAD-050",
       "uuid": "36078b70-b04a-5030-bb1d-92e455f3f8f5",
+      "oracleId": "7214e214-1289-5248-b1df-d8d5c78dbb9d",
       "name": "Mysterious Chronomancer",
       "type": "unit",
       "domains": [
@@ -2234,6 +2284,7 @@
     {
       "number": "RAD-051",
       "uuid": "29cf1859-5539-5ed7-ad71-92e872ef974a",
+      "oracleId": "bb7011dc-84e1-565d-aed0-65aa3deeac0e",
       "name": "Parallel Convergence",
       "type": "spell",
       "domains": [
@@ -2276,6 +2327,7 @@
     {
       "number": "RAD-052",
       "uuid": "6acc7e10-272f-5245-a98a-5fba93de028b",
+      "oracleId": "a5874811-2ec4-5c32-88cd-687056d3bc30",
       "name": "Resource Extractor",
       "type": "gear",
       "domains": [
@@ -2320,6 +2372,7 @@
     {
       "number": "RAD-053",
       "uuid": "c77daad6-2a1f-5781-84f8-27f2e9e3c7ce",
+      "oracleId": "f3d73c53-2972-5249-a3c0-01d1050d63a1",
       "name": "Strigian Oracle",
       "type": "unit",
       "domains": [
@@ -2362,6 +2415,7 @@
     {
       "number": "RAD-054",
       "uuid": "a5f260cc-c78a-5cb6-9f47-3027a212df1c",
+      "oracleId": "1c03dc18-2230-559f-98e0-8edc707b0975",
       "name": "Trinket Peddler",
       "type": "unit",
       "domains": [
@@ -2404,6 +2458,7 @@
     {
       "number": "RAD-055",
       "uuid": "8e0d1e34-1510-5214-8b22-eaa77aa2f5c0",
+      "oracleId": "d5768730-41aa-5bbb-9237-73d66839c96c",
       "name": "Clanging Sentry",
       "type": "unit",
       "domains": [
@@ -2446,6 +2501,7 @@
     {
       "number": "RAD-056",
       "uuid": "2d08d327-a430-5a54-b94d-eb5ca09f3399",
+      "oracleId": "8bf08b03-6e80-55e4-8dd5-23cdbffb78d8",
       "name": "Improvised Projectile",
       "type": "gear",
       "domains": [
@@ -2488,6 +2544,7 @@
     {
       "number": "RAD-057",
       "uuid": "9b53c336-0675-59c8-91d0-1560b1c81e42",
+      "oracleId": "f4c3dec1-1694-5e43-a8ae-a7a2ef700c53",
       "name": "Piltovan Guidebot",
       "type": "unit",
       "domains": [
@@ -2530,6 +2587,7 @@
     {
       "number": "RAD-058",
       "uuid": "0160f541-5f73-5c1d-9ab3-ef55e1dd4c30",
+      "oracleId": "6b1694f3-3626-5141-a513-24a1ba209837",
       "name": "Riptide Mage",
       "type": "unit",
       "domains": [
@@ -2573,6 +2631,7 @@
     {
       "number": "RAD-059",
       "uuid": "188149a9-d851-5921-9496-09afb9261170",
+      "oracleId": "77078904-2cd9-5256-9021-bcc9ce93190e",
       "name": "Supernova",
       "type": "unit",
       "domains": [
@@ -2615,6 +2674,7 @@
     {
       "number": "RAD-060",
       "uuid": "0a2cb829-8cb1-538e-9890-e8f77a0386ab",
+      "oracleId": "7e0b940b-31e0-5fdf-94d8-acbe0a23568c",
       "name": "The Empyrean",
       "type": "unit",
       "domains": [
@@ -2660,6 +2720,7 @@
     {
       "number": "RAD-061",
       "uuid": "54bf66cd-0701-5f50-9dcc-533a00384b77",
+      "oracleId": "974576b1-a2e0-5a24-ba84-286b4138740f",
       "name": "Ekko",
       "subtitle": "Ingenious",
       "type": "unit",
@@ -2732,6 +2793,7 @@
     {
       "number": "RAD-062",
       "uuid": "fec0b8e1-8766-588d-a771-3efa06dc1f57",
+      "oracleId": "c48347dd-252d-5834-bc45-fae6bfa2a558",
       "name": "Gravity Field",
       "type": "gear",
       "domains": [
@@ -2776,6 +2838,7 @@
     {
       "number": "RAD-063",
       "uuid": "e3b40e02-2805-572a-afaa-1c835d36a23e",
+      "oracleId": "285383e2-574a-5dbe-988e-455d0bd84d46",
       "name": "Kai'Sa",
       "subtitle": "Rebel",
       "type": "unit",
@@ -2823,6 +2886,7 @@
     {
       "number": "RAD-064",
       "uuid": "2c108145-32d2-5115-b150-05579071791d",
+      "oracleId": "b1614d63-9411-5ca8-8aa0-e0dd1a5cdad5",
       "name": "Scrutinizing Scope",
       "type": "spell",
       "domains": [
@@ -2863,6 +2927,7 @@
     {
       "number": "RAD-065",
       "uuid": "b7869ade-4b41-5521-9ce2-8af5479e60fd",
+      "oracleId": "4f3d8501-bd75-5acd-96f1-a3a25fd0de3f",
       "name": "Seraphine",
       "subtitle": "Inspiring",
       "type": "unit",
@@ -2933,6 +2998,7 @@
     {
       "number": "RAD-066",
       "uuid": "0c33f8d2-fabe-5fa8-a42c-a0a563aba5fa",
+      "oracleId": "cc4da734-570f-5d2d-801f-05702a8bc909",
       "name": "Spirit of the Forge",
       "type": "unit",
       "domains": [
@@ -2975,6 +3041,7 @@
     {
       "number": "RAD-067",
       "uuid": "308e05de-b9f9-598e-90b9-0c200a23a6e5",
+      "oracleId": "5e86e0df-f499-556e-a436-d0065419a046",
       "name": "Clocktower Guardian",
       "type": "unit",
       "domains": [
@@ -3020,6 +3087,7 @@
     {
       "number": "RAD-068",
       "uuid": "6fef7ec5-b28d-5096-8d5f-aa878dfe408c",
+      "oracleId": "b34c33eb-f10e-5343-9847-68d3eeccc274",
       "name": "Orianna",
       "subtitle": "Mechanical Marvel",
       "type": "unit",
@@ -3089,6 +3157,7 @@
     {
       "number": "RAD-069",
       "uuid": "93131b91-7295-5939-a40f-cfc828fd964b",
+      "oracleId": "17238028-772b-548b-8ca5-f79623bb3b3c",
       "name": "Zero Point Inflection",
       "type": "spell",
       "domains": [
@@ -3130,6 +3199,7 @@
     {
       "number": "RAD-070",
       "uuid": "b383fc19-295c-5a42-9bcb-d69d6938b43d",
+      "oracleId": "59555554-5ebe-5a37-b613-3cbf9a7c8cc9",
       "name": "Hold 'Em",
       "type": "spell",
       "domains": [
@@ -3171,6 +3241,7 @@
     {
       "number": "RAD-071",
       "uuid": "195978bd-590d-5099-ad50-e5a618ddcb13",
+      "oracleId": "0dc6fd01-6465-55c6-9491-c01f2ff52a0a",
       "name": "Nazuman Ntofo",
       "type": "gear",
       "domains": [
@@ -3211,6 +3282,7 @@
     {
       "number": "RAD-072",
       "uuid": "1a754953-2a08-525e-b051-0d8fe5ca4675",
+      "oracleId": "bd0ed3b4-b394-5a5b-bb4d-6674fce2457c",
       "name": "Overloaded Traveler",
       "type": "spell",
       "domains": [
@@ -3253,6 +3325,7 @@
     {
       "number": "RAD-073",
       "uuid": "e6e5472f-7dea-5295-b29f-9a0b6c6e60e6",
+      "oracleId": "a2310f05-5106-569b-ac47-0599118baeab",
       "name": "Pillaged Armory",
       "type": "gear",
       "domains": [
@@ -3294,6 +3367,7 @@
     {
       "number": "RAD-074",
       "uuid": "bcc942c2-2e4d-562b-b2bc-75ef4a8ac1b4",
+      "oracleId": "19db6315-6d36-5776-b7d7-e555cd7bdc4c",
       "name": "Raving Witness",
       "type": "unit",
       "domains": [
@@ -3336,6 +3410,7 @@
     {
       "number": "RAD-075",
       "uuid": "d17efddd-e0c9-5ca1-a038-fb44d3ae96ed",
+      "oracleId": "d6d6dbba-063f-544e-ba69-f4185a2cbc52",
       "name": "Skystrike Squadron",
       "type": "unit",
       "domains": [
@@ -3378,6 +3453,7 @@
     {
       "number": "RAD-076",
       "uuid": "f5d47ee5-16d8-5c8d-89e8-27a4e43089c7",
+      "oracleId": "e8ce7ece-b51b-54de-a7ed-b3d117f868e5",
       "name": "Sneaky Zeebles",
       "type": "unit",
       "domains": [
@@ -3420,6 +3496,7 @@
     {
       "number": "RAD-077",
       "uuid": "245bb405-7534-5b25-b677-62dff3b10aad",
+      "oracleId": "d8d3ce5f-ae0d-5ade-8128-cfb9f0e77444",
       "name": "Wrath of the Freljord",
       "type": "unit",
       "domains": [
@@ -3462,6 +3539,7 @@
     {
       "number": "RAD-078",
       "uuid": "2233fd3f-f076-51ef-baf5-dd4c792bd607",
+      "oracleId": "677fbb65-4450-5c7a-9a89-43938b3c89bc",
       "name": "Armored Tusker",
       "type": "unit",
       "domains": [
@@ -3505,6 +3583,7 @@
     {
       "number": "RAD-079",
       "uuid": "182a3475-f029-58e8-bf83-50c15569758e",
+      "oracleId": "8d5840c2-f605-55dd-b40c-d43d54ab9660",
       "name": "Avalanche",
       "type": "spell",
       "domains": [
@@ -3547,6 +3626,7 @@
     {
       "number": "RAD-080",
       "uuid": "a20e8607-97e4-5b9d-8b36-2fb9ccdfd8ce",
+      "oracleId": "c03a4255-d47f-5ffd-914e-5250716d59bf",
       "name": "Bloodscent Swarm",
       "type": "unit",
       "domains": [
@@ -3590,6 +3670,7 @@
     {
       "number": "RAD-081",
       "uuid": "784b6326-7654-55b3-90f3-2d31ff295b18",
+      "oracleId": "dd5df1d2-1211-5be1-a837-f69a32761191",
       "name": "Elnuk Herd",
       "type": "unit",
       "domains": [
@@ -3632,6 +3713,7 @@
     {
       "number": "RAD-082",
       "uuid": "5b70ffd8-ac50-5bbd-8368-87524cee2206",
+      "oracleId": "b8de7264-9970-5349-9ff2-f67bc3ac6d37",
       "name": "Primordial Roar",
       "type": "spell",
       "domains": [
@@ -3674,6 +3756,7 @@
     {
       "number": "RAD-083",
       "uuid": "e2ac6d9a-1fb4-5664-9098-21aaec2a54c0",
+      "oracleId": "1a181fd4-0d6d-51fd-8b2b-abca395c6473",
       "name": "Stalwart Goatherd",
       "type": "unit",
       "domains": [
@@ -3716,6 +3799,7 @@
     {
       "number": "RAD-084",
       "uuid": "d7111ecb-50c2-5322-9588-84e221e2ce69",
+      "oracleId": "52601d16-e5b4-591e-96eb-f1f74bdae03d",
       "name": "Cataclysm",
       "type": "spell",
       "domains": [
@@ -3757,6 +3841,7 @@
     {
       "number": "RAD-085",
       "uuid": "da5d8a8f-b0ea-54e3-b0c9-86ed1774600a",
+      "oracleId": "8c3d80af-0836-56ed-9bd4-aa64220bb8ec",
       "name": "Graves",
       "subtitle": "Blasting Through",
       "type": "unit",
@@ -3804,6 +3889,7 @@
     {
       "number": "RAD-086",
       "uuid": "d225b8ca-06fe-55e5-b4d4-094d256f1665",
+      "oracleId": "8ce635f9-7b9f-5817-a0b7-dba92af3c96f",
       "name": "K'Sante",
       "subtitle": "Courageous",
       "type": "unit",
@@ -3873,6 +3959,7 @@
     {
       "number": "RAD-087",
       "uuid": "f4400c42-a654-5d1d-bfac-fb50e23085b5",
+      "oracleId": "0078f22f-80b3-5b11-931c-df2783da8015",
       "name": "Portable Portal",
       "type": "unit",
       "domains": [
@@ -3913,6 +4000,7 @@
     {
       "number": "RAD-088",
       "uuid": "45662745-8232-5b46-87d5-fabd23a1d4f8",
+      "oracleId": "b3769be7-5d86-5571-b82a-7b226581e921",
       "name": "Staunch Survivor",
       "type": "unit",
       "domains": [
@@ -3955,6 +4043,7 @@
     {
       "number": "RAD-089",
       "uuid": "2b987fed-1938-5d7d-9a85-5db3abc5bab9",
+      "oracleId": "7a5c7a52-3213-54a9-bf0b-3991d5528ab9",
       "name": "Titanic Shrine",
       "type": "gear",
       "domains": [
@@ -3998,6 +4087,7 @@
     {
       "number": "RAD-090",
       "uuid": "32e0fbd2-cecb-56d2-8515-24ff26802fda",
+      "oracleId": "e4c55302-9fe5-54c0-95e7-199596ab2952",
       "name": "Evelynn",
       "subtitle": "Consuming",
       "type": "unit",
@@ -4070,6 +4160,7 @@
     {
       "number": "RAD-091",
       "uuid": "f11429fe-6b2b-5692-9694-d81b1c854ad6",
+      "oracleId": "314a15b0-a68d-533a-a5c8-209c4c8a277f",
       "name": "Jarvan IV",
       "subtitle": "Martial Paragon",
       "type": "unit",
@@ -4143,6 +4234,7 @@
     {
       "number": "RAD-092",
       "uuid": "b99711b7-1154-5669-b6a6-3a8fe1ac6fb4",
+      "oracleId": "ecc53676-3605-5729-8dcb-52369d827918",
       "name": "Seraphic Wyvern",
       "type": "unit",
       "domains": [
@@ -4184,6 +4276,7 @@
     {
       "number": "RAD-093",
       "uuid": "991a19a1-1af9-509e-90f4-a9382d2c2ee5",
+      "oracleId": "158e2e86-7374-5027-a114-b55beed30a4e",
       "name": "Disposal Expert",
       "type": "unit",
       "domains": [
@@ -4226,6 +4319,7 @@
     {
       "number": "RAD-094",
       "uuid": "b95962bf-c36c-5be3-a898-3d3ed5ee8863",
+      "oracleId": "f207cfa6-2bda-51aa-91a6-b220c961aa75",
       "name": "Explosimian",
       "type": "unit",
       "domains": [
@@ -4268,6 +4362,7 @@
     {
       "number": "RAD-095",
       "uuid": "c5aa0fbc-7bb4-5f28-8c4f-3f0b57a2fb89",
+      "oracleId": "a3efcbce-3a1c-5fbc-b8f6-4f8d3afb39fc",
       "name": "Momentary Companion",
       "type": "unit",
       "domains": [
@@ -4310,6 +4405,7 @@
     {
       "number": "RAD-096",
       "uuid": "18f33afd-4c30-5c43-ab7e-36c95eb67423",
+      "oracleId": "0c9b386e-8a15-5d75-8a9c-b049ae9ee89e",
       "name": "Satchel Charge",
       "type": "spell",
       "domains": [
@@ -4352,6 +4448,7 @@
     {
       "number": "RAD-097",
       "uuid": "a914d731-9cfc-5155-9b5e-748e7630b4d6",
+      "oracleId": "3917c9ad-18f1-51cc-ad01-8c421d995280",
       "name": "Siren of the Shallows",
       "type": "spell",
       "domains": [
@@ -4394,6 +4491,7 @@
     {
       "number": "RAD-098",
       "uuid": "c4b9ad8d-266d-5352-bf70-131a66af3056",
+      "oracleId": "66ba9eb1-44f0-5e7a-a0e5-459f728f4929",
       "name": "Siren's Song",
       "type": "spell",
       "domains": [
@@ -4435,6 +4533,7 @@
     {
       "number": "RAD-099",
       "uuid": "fa5f86ac-907b-56b0-b753-5e1ef2fc9b9d",
+      "oracleId": "705cee9c-c14e-5286-b590-a04e88e916c5",
       "name": "Suave Negotiator",
       "type": "unit",
       "domains": [
@@ -4477,6 +4576,7 @@
     {
       "number": "RAD-100",
       "uuid": "0916885e-81cf-54b6-990c-7d67a89217f7",
+      "oracleId": "bc77f013-475c-55bb-b1a4-718c9cf0f33f",
       "name": "The Waters' Wage",
       "type": "spell",
       "domains": [
@@ -4518,6 +4618,7 @@
     {
       "number": "RAD-101",
       "uuid": "7014a92f-3853-53da-a0f2-122c02daa6b7",
+      "oracleId": "f1f10097-447a-53e5-9cc7-527bc0dbd9dc",
       "name": "An Offer You Can't Refuse",
       "type": "gear",
       "domains": [
@@ -4559,6 +4660,7 @@
     {
       "number": "RAD-102",
       "uuid": "b2ed73be-a5c1-5647-80da-13d72539e5a0",
+      "oracleId": "4faf26c4-4b75-5aa9-8328-2cba320798c4",
       "name": "Demon Shade",
       "type": "spell",
       "domains": [
@@ -4600,6 +4702,7 @@
     {
       "number": "RAD-103",
       "uuid": "c21f7766-7dc6-5f5c-8ff7-965adcb7ae6b",
+      "oracleId": "0088733c-8f3c-5210-87c2-ca08efc5fadb",
       "name": "Gutter Guardian",
       "type": "unit",
       "domains": [
@@ -4642,6 +4745,7 @@
     {
       "number": "RAD-104",
       "uuid": "e5a8f6fb-c6d7-587f-8174-c12cbb3ab851",
+      "oracleId": "b239bbb0-80e2-5943-ad46-9a31cc667d68",
       "name": "Pitiless Stalker",
       "energy": 5,
       "power": 1,
@@ -4681,6 +4785,7 @@
     {
       "number": "RAD-105",
       "uuid": "e0791efd-4a7d-5333-8c87-e1eb8c76663e",
+      "oracleId": "24019336-9bfb-5d86-bbad-212ab4fce17d",
       "name": "Reckless Innovator",
       "type": "unit",
       "domains": [
@@ -4723,6 +4828,7 @@
     {
       "number": "RAD-106",
       "uuid": "7cf84138-5fe7-5d01-9242-debf987d8e6f",
+      "oracleId": "5ab24d67-2316-5696-91a9-5d089f81558b",
       "name": "The Good Stuff",
       "type": "gear",
       "domains": [
@@ -4765,6 +4871,7 @@
     {
       "number": "RAD-107",
       "uuid": "58a6834e-4e12-56c8-b8bb-5d263bed41a9",
+      "oracleId": "5ca1cf92-fda7-5a93-80ed-f5cc428e6ce6",
       "name": "Bedeviling Stranger",
       "type": "unit",
       "domains": [
@@ -4806,6 +4913,7 @@
     {
       "number": "RAD-108",
       "uuid": "a9b391b0-2b96-5bd8-b658-afccf956b2f4",
+      "oracleId": "19791e47-64c0-5b5e-ae26-ead4db3a9a0f",
       "name": "Bushwhack Trap",
       "type": "unit",
       "domains": [
@@ -4849,6 +4957,7 @@
     {
       "number": "RAD-109",
       "uuid": "a46b7187-a044-5e12-8562-81257b7b069a",
+      "oracleId": "2d69baac-6c49-51f9-8427-ebfa363fe76b",
       "name": "Evelynn",
       "subtitle": "In Control",
       "type": "unit",
@@ -4921,6 +5030,7 @@
     {
       "number": "RAD-110",
       "uuid": "c7205061-0e60-5b41-b56c-044a92e7db97",
+      "oracleId": "bdebc6fb-c420-53d0-98d0-7cfcb9a952f5",
       "name": "Lulu",
       "subtitle": "Whimsical",
       "type": "unit",
@@ -4971,6 +5081,7 @@
     {
       "number": "RAD-111",
       "uuid": "aa8106b7-c9b7-5d4e-bc25-56acaee536e2",
+      "oracleId": "fbc91057-e318-5fc8-bea0-6cc2f973dbc3",
       "name": "Mechanical Bandit",
       "type": "gear",
       "domains": [
@@ -5015,6 +5126,7 @@
     {
       "number": "RAD-112",
       "uuid": "607477f0-1642-5ebc-8f3e-f5e24993a015",
+      "oracleId": "c0bafff7-b87b-5886-b465-9260659b33e3",
       "name": "Ziggs",
       "subtitle": "Explosive",
       "type": "unit",
@@ -5084,6 +5196,7 @@
     {
       "number": "RAD-113",
       "uuid": "f3ed8413-6d68-5685-bfa5-fcb746c59119",
+      "oracleId": "591d8ead-e1d1-5588-8fad-677873ec2774",
       "name": "Angler Wyrm",
       "type": "unit",
       "domains": [
@@ -5125,6 +5238,7 @@
     {
       "number": "RAD-114",
       "uuid": "70d8e75e-1539-5b50-b8d8-5356ee4ef0c1",
+      "oracleId": "d2db619c-a81e-52bf-a4bb-8a2ede0618df",
       "name": "Riven",
       "subtitle": "Deserter",
       "type": "unit",
@@ -5194,6 +5308,7 @@
     {
       "number": "RAD-115",
       "uuid": "3e2c60d1-453b-5afa-ad31-607509c6dfe5",
+      "oracleId": "dd73cd37-7f4a-51d7-8831-fddcda2f6572",
       "name": "Transpositionist",
       "type": "unit",
       "domains": [
@@ -5235,6 +5350,7 @@
     {
       "number": "RAD-116",
       "uuid": "af6397dc-e7c1-588b-b90b-4465977d9d51",
+      "oracleId": "8e529963-6719-541b-9fa8-a462d2edf052",
       "name": "Concert Poster",
       "type": "gear",
       "domains": [
@@ -5276,6 +5392,7 @@
     {
       "number": "RAD-117",
       "uuid": "5285ccb5-274e-5e42-a6b8-fe41d9bfb905",
+      "oracleId": "a52135b0-67ad-5472-bcf3-2c28cdf3b409",
       "name": "For Demacia!",
       "type": "spell",
       "domains": [
@@ -5317,6 +5434,7 @@
     {
       "number": "RAD-118",
       "uuid": "2ef25268-ae34-5c8e-9295-5c8c62b1091a",
+      "oracleId": "a7e341d9-61bc-55b5-bdaa-b39c418069a5",
       "name": "Herald of the Emperor",
       "type": "unit",
       "domains": [
@@ -5359,6 +5477,7 @@
     {
       "number": "RAD-119",
       "uuid": "09e376c7-5b25-57c4-9f1f-a032d7199c39",
+      "oracleId": "636ffdb3-6d06-5caa-a0c1-904f4e71f5a9",
       "name": "Hunting Dog",
       "type": "unit",
       "domains": [
@@ -5401,6 +5520,7 @@
     {
       "number": "RAD-120",
       "uuid": "eda335c2-0ae1-51b8-8bb7-32a298590a34",
+      "oracleId": "4ab9590c-5511-5049-9fcf-cd8291b73894",
       "name": "Meticulous Restorationist",
       "type": "gear",
       "domains": [
@@ -5446,6 +5566,7 @@
     {
       "number": "RAD-121",
       "uuid": "f75fb0e0-e168-5c8c-8904-52f27ec96a2f",
+      "oracleId": "19c89540-2387-5245-8ba0-4002ae4c0a4b",
       "name": "One-Two Punch",
       "energy": 3,
       "printings": [
@@ -5483,6 +5604,7 @@
     {
       "number": "RAD-122",
       "uuid": "f5f5c4e9-0f06-5ea6-bdbd-7a1e803860d3",
+      "oracleId": "5d22a482-db58-5418-ad2f-7464945a68b1",
       "name": "Party Crasher",
       "type": "unit",
       "domains": [
@@ -5526,6 +5648,7 @@
     {
       "number": "RAD-123",
       "uuid": "8d4e9897-ab68-56f9-9708-65d52fb34cd2",
+      "oracleId": "3db5b66f-8d81-5dc2-81e4-f0c1b63986b7",
       "name": "Protector's Shield",
       "energy": 2,
       "power": 1,
@@ -5566,6 +5689,7 @@
     {
       "number": "RAD-124",
       "uuid": "c0e5b5a1-9c9f-5870-9ef9-81ef931e4703",
+      "oracleId": "3506dd91-a7f5-5294-8a98-e437beb82fca",
       "name": "Burn Away",
       "type": "gear",
       "domains": [
@@ -5608,6 +5732,7 @@
     {
       "number": "RAD-125",
       "uuid": "6efff32f-a703-5ab0-ac4f-dfc0baca4234",
+      "oracleId": "32a3aae6-bd2c-5e58-a070-bcf2d59f79ef",
       "name": "Dune Devourer",
       "type": "unit",
       "domains": [
@@ -5651,6 +5776,7 @@
     {
       "number": "RAD-126",
       "uuid": "d373d31f-29a3-5625-9682-8040cbb69566",
+      "oracleId": "63ed8f46-57d4-57ea-ae0d-6c0706e51ecf",
       "name": "Mournful Spirit",
       "type": "unit",
       "domains": [
@@ -5696,6 +5822,7 @@
     {
       "number": "RAD-127",
       "uuid": "cea185ac-a509-58d0-ba85-ca39123a2813",
+      "oracleId": "7f368bf2-f9cd-57c8-800e-27f74579be03",
       "name": "Rousing Display",
       "domains": [
         "order"
@@ -5736,6 +5863,7 @@
     {
       "number": "RAD-128",
       "uuid": "f237c95e-c812-57d1-a04d-6165a41ee347",
+      "oracleId": "f7544fcb-40e3-5e1c-be7f-2653070404b1",
       "name": "Steadfast Outrider",
       "type": "unit",
       "domains": [
@@ -5778,6 +5906,7 @@
     {
       "number": "RAD-129",
       "uuid": "85325419-8abd-566f-82c8-0b1a246bc318",
+      "oracleId": "f7cf4f8c-0d56-5786-9518-f1c84ffdc828",
       "name": "Trifarian Captain",
       "type": "unit",
       "domains": [
@@ -5820,6 +5949,7 @@
     {
       "number": "RAD-130",
       "uuid": "879ff229-513c-56e0-8eee-7bba91d3758b",
+      "oracleId": "79701eb7-21e7-52ab-92dd-48b5428a87e9",
       "name": "Battlefield Armorer",
       "type": "spell",
       "domains": [
@@ -5861,6 +5991,7 @@
     {
       "number": "RAD-131",
       "uuid": "4a0b3f4d-5b6e-5dad-a2ff-5f8a2e29680d",
+      "oracleId": "02371e67-4eae-5d38-8f23-14f09bfaeef5",
       "name": "Demacian Illuminators",
       "type": "spell",
       "domains": [
@@ -5903,6 +6034,7 @@
     {
       "number": "RAD-132",
       "uuid": "a9fcc226-51bf-55d5-8f08-b3b159e46d31",
+      "oracleId": "c633b552-d9b3-5c07-869c-396906f19423",
       "name": "Heimerdinger",
       "subtitle": "Academy Instructor",
       "type": "unit",
@@ -5954,6 +6086,7 @@
     {
       "number": "RAD-133",
       "uuid": "2cbc8363-0869-569f-ae77-8f315819456a",
+      "oracleId": "76fde78f-4ae5-54f1-8658-603686bf0e85",
       "name": "Jarvan IV",
       "subtitle": "Royal Heir",
       "type": "unit",
@@ -6027,6 +6160,7 @@
     {
       "number": "RAD-134",
       "uuid": "185fdad0-582d-5496-a459-f1778d2c99f9",
+      "oracleId": "fba42007-3c89-5541-98bb-1c766c9e1c8b",
       "name": "Raucous Anthem",
       "energy": 7,
       "power": 1,
@@ -6064,6 +6198,7 @@
     {
       "number": "RAD-135",
       "uuid": "fd9af44c-554c-5633-a1c2-5ceb47f8a1d6",
+      "oracleId": "61fa9496-5093-5c4d-aab1-a58f6360349b",
       "name": "Remember the Fallen",
       "type": "spell",
       "domains": [
@@ -6105,6 +6240,7 @@
     {
       "number": "RAD-136",
       "uuid": "d752c6a0-bcbe-53fc-9e15-28f7dfc33c43",
+      "oracleId": "cab6937c-d224-5387-a314-77a5504e0a35",
       "name": "Dockside Lock-Up",
       "type": "unit",
       "domains": [
@@ -6146,6 +6282,7 @@
     {
       "number": "RAD-137",
       "uuid": "29f01852-5f61-58dc-9deb-80615ea09bd5",
+      "oracleId": "f02038fe-be0b-5c45-b6d5-965c7a6055de",
       "name": "Mordekaiser",
       "subtitle": "Dominating",
       "type": "unit",
@@ -6219,6 +6356,7 @@
     {
       "number": "RAD-138",
       "uuid": "0df43fa4-2082-5992-a65f-1a466f17ec8e",
+      "oracleId": "acbca0dc-110b-517c-a233-8e7eb95a30b7",
       "name": "Seraphine",
       "subtitle": "Not Alone",
       "type": "unit",
@@ -6286,6 +6424,7 @@
     {
       "number": "RAD-139",
       "uuid": "68300132-6f7e-5125-9ee4-008528891581",
+      "oracleId": "d86d8ff3-b5f6-517e-834f-68926e662f41",
       "name": "Boy Who Shattered Time",
       "type": "legend",
       "domains": [
@@ -6326,6 +6465,7 @@
     {
       "number": "RAD-140",
       "uuid": "4f1e86b1-1252-5b14-9599-616aaf96070c",
+      "oracleId": "4d53afa9-7ef3-57a5-9f8a-7ac4ba6cd3cb",
       "name": "Chronobreak",
       "type": "spell",
       "superTypes": [
@@ -6373,6 +6513,7 @@
     {
       "number": "RAD-141",
       "uuid": "f3c7dd45-41aa-5f7b-9cb6-daa555f0f7de",
+      "oracleId": "04fe0a5d-1399-57c7-8225-e40faf777825",
       "name": "Hexplosives Expert",
       "type": "legend",
       "domains": [
@@ -6414,6 +6555,7 @@
     {
       "number": "RAD-142",
       "uuid": "e48ce7b8-dcce-517c-9b6f-307b035f3147",
+      "oracleId": "c984840c-88f1-5983-aea4-3ccdd9d992bb",
       "name": "Hexplosive Minefield",
       "type": "spell",
       "superTypes": [
@@ -6462,6 +6604,7 @@
     {
       "number": "RAD-143",
       "uuid": "8ae92abb-402a-5bf6-870f-ba3a35d6354a",
+      "oracleId": "f54bf9c1-debb-559d-bf26-a3bd5ec1b7b3",
       "name": "Iron Revenant",
       "type": "legend",
       "domains": [
@@ -6502,6 +6645,7 @@
     {
       "number": "RAD-144",
       "uuid": "c36d23e0-9a08-56e5-ad3e-fe99872b1a8a",
+      "oracleId": "5434018e-0756-5a35-b3f5-b269a0cb0f19",
       "name": "Realm of Death",
       "type": "spell",
       "superTypes": [
@@ -6547,6 +6691,7 @@
     {
       "number": "RAD-145",
       "uuid": "d8d61544-8561-5085-b6df-b7784f9dcaeb",
+      "oracleId": "f6084adb-b805-56b2-bc5f-5ce1147d1205",
       "name": "Lady of Clockwork",
       "type": "legend",
       "domains": [
@@ -6587,6 +6732,7 @@
     {
       "number": "RAD-146",
       "uuid": "440baca0-0e20-55b9-9497-1bc8f4f01519",
+      "oracleId": "2c1445ff-6289-5d4d-85d6-d24e23ec5293",
       "name": "The Ball",
       "type": "gear",
       "superTypes": [
@@ -6633,6 +6779,7 @@
     {
       "number": "RAD-147",
       "uuid": "1062512c-2952-5fbd-bd0e-b5317990232e",
+      "oracleId": "65e88644-abd4-509f-bb32-d04736f0f239",
       "name": "Pride of Nazumah",
       "type": "legend",
       "domains": [
@@ -6673,6 +6820,7 @@
     {
       "number": "RAD-148",
       "uuid": "95851d9c-ddd5-5c2a-ab15-40b71b627d7a",
+      "oracleId": "6ea6f21c-0380-5e75-bb2e-39fed160700a",
       "name": "Ntofo Strikes",
       "type": "spell",
       "superTypes": [
@@ -6721,6 +6869,7 @@
     {
       "number": "RAD-149",
       "uuid": "76745bd9-a2b9-59ef-97cf-cd0b54dfad42",
+      "oracleId": "72917399-f799-5143-9c66-03bf348c16fd",
       "name": "The Exile",
       "type": "legend",
       "domains": [
@@ -6761,6 +6910,7 @@
     {
       "number": "RAD-150",
       "uuid": "7c7b39a2-2279-5e02-bbb2-7c4586164e68",
+      "oracleId": "0ada614f-da0a-5be4-8a3e-135b9ea1456b",
       "name": "Blade of the Exile",
       "type": "gear",
       "superTypes": [
@@ -6812,6 +6962,7 @@
     {
       "number": "RAD-151",
       "uuid": "63bdde90-9ae7-54d6-9096-1ec378dc841b",
+      "oracleId": "5030ae79-53f3-579f-953c-7ba8b36a4725",
       "name": "Starry-Eyed Songstress",
       "type": "legend",
       "domains": [
@@ -6852,6 +7003,7 @@
     {
       "number": "RAD-152",
       "uuid": "f57eecb0-9c2c-5c90-9a9e-3a650246d6c2",
+      "oracleId": "0c74a1ec-f785-5a31-9429-a74ca146f768",
       "name": "Encore",
       "type": "spell",
       "superTypes": [
@@ -6900,6 +7052,7 @@
     {
       "number": "RAD-153",
       "uuid": "d1b2ff35-4e53-571f-95e8-1cce8546e679",
+      "oracleId": "dc8795ca-82db-502b-a875-4b28739513bd",
       "name": "Agony's Embrace",
       "type": "legend",
       "domains": [
@@ -6940,6 +7093,7 @@
     {
       "number": "RAD-154",
       "uuid": "cbd786dc-528c-5444-aaec-98436a9e132d",
+      "oracleId": "53ba1566-080d-55e6-a8d1-7753226b5df3",
       "name": "Last Caress",
       "type": "spell",
       "superTypes": [
@@ -6987,6 +7141,7 @@
     {
       "number": "RAD-155",
       "uuid": "e98081fe-e900-5b09-b442-6f98eeeea03a",
+      "oracleId": "4dff84a7-280b-5929-8628-1b9e759d2649",
       "name": "Exemplar of Demacia",
       "type": "legend",
       "domains": [
@@ -7027,6 +7182,7 @@
     {
       "number": "RAD-156",
       "uuid": "e58f5c78-86d9-52e0-ab96-1a3e782976cd",
+      "oracleId": "59ae0452-fa73-5483-b741-d29f1257f60d",
       "name": "Demacian Standard",
       "type": "gear",
       "superTypes": [
@@ -7076,6 +7232,7 @@
     {
       "number": "RAD-157",
       "uuid": "0eb9fb0f-2e49-501e-b30b-4dd0f231f0d9",
+      "oracleId": "c9be1651-acbd-5f71-a57d-a677ded08f4a",
       "name": "Bandle Scouts' Academy",
       "type": "battlefield",
       "domains": [
@@ -7116,6 +7273,7 @@
     {
       "number": "RAD-158",
       "uuid": "943f735d-ea1b-554a-a585-6405520d9f1e",
+      "oracleId": "7d783cae-737d-5b56-90e4-0281796f7936",
       "name": "Black Market",
       "type": "battlefield",
       "domains": [
@@ -7156,6 +7314,7 @@
     {
       "number": "RAD-159",
       "uuid": "0e86e81b-f81f-5011-87ec-64c5841aa2a8",
+      "oracleId": "f98a1f3c-d464-512f-a029-bd80fa834eee",
       "name": "Black Rose Sanctum",
       "type": "battlefield",
       "domains": [
@@ -7196,6 +7355,7 @@
     {
       "number": "RAD-160",
       "uuid": "75c5e8eb-d948-50b0-b444-442dea5e09e2",
+      "oracleId": "b8584bd3-80a3-5370-9047-a80e0c2b19ac",
       "name": "Cosmic Vista",
       "type": "battlefield",
       "domains": [
@@ -7236,6 +7396,7 @@
     {
       "number": "RAD-161",
       "uuid": "d1d91fb9-9d5c-5b73-a05c-59b2c88c3dee",
+      "oracleId": "8bf9436f-dd32-5c85-bd2d-e68addffe4ed",
       "name": "Durand Memorial",
       "type": "battlefield",
       "domains": [
@@ -7276,6 +7437,7 @@
     {
       "number": "RAD-162",
       "uuid": "73866b47-42df-53ec-b37e-710054bd259e",
+      "oracleId": "1fe062a3-3c9c-5467-a0b6-03e5ee45d4dd",
       "name": "Firelights' Hideout",
       "type": "battlefield",
       "domains": [
@@ -7316,6 +7478,7 @@
     {
       "number": "RAD-163",
       "uuid": "29b0f1e2-43f0-58de-b817-61bdc85f49ca",
+      "oracleId": "04178617-731d-513c-8234-7b083ef36d78",
       "name": "Hunters' Circle",
       "type": "battlefield",
       "domains": [
@@ -7356,6 +7519,7 @@
     {
       "number": "RAD-164",
       "uuid": "dbd9e7b2-edb7-502a-b102-3ac8c46d2b95",
+      "oracleId": "eb8365b4-0f9a-5549-8d63-cd20e7967cce",
       "name": "Packed Amphitheater",
       "type": "battlefield",
       "domains": [
@@ -7393,6 +7557,7 @@
     {
       "number": "RAD-165",
       "uuid": "4bf2c2a1-cfac-54f5-82eb-a2d2f0301794",
+      "oracleId": "3d7e7d7d-26f1-531c-b8bb-03d20ffc4e11",
       "name": "Rakelstake",
       "type": "battlefield",
       "domains": [
@@ -7433,6 +7598,7 @@
     {
       "number": "RAD-166",
       "uuid": "18f9abca-0b42-507d-980a-3578959ff5d2",
+      "oracleId": "58808114-fd5a-5c25-bac2-d6d3119591f3",
       "name": "Ruined Monastery",
       "type": "battlefield",
       "domains": [
@@ -7473,6 +7639,7 @@
     {
       "number": "RAD-167",
       "uuid": "351befcd-c4b8-5f5b-b265-ba73ac654a4a",
+      "oracleId": "88d7aca4-eefb-58c1-8c4a-5ddf41172e4c",
       "name": "Neeko",
       "subtitle": "Blending In",
       "type": "unit",
@@ -7523,6 +7690,7 @@
     {
       "number": "RAD-168",
       "uuid": "9d9bbd9e-ec36-551d-90f4-2b412d9ccb2e",
+      "oracleId": "d86d8ff3-b5f6-517e-834f-68926e662f41",
       "name": "Boy Who Shattered Time",
       "type": "legend",
       "domains": [
@@ -7583,6 +7751,7 @@
     {
       "number": "RAD-169",
       "uuid": "684494fc-96e4-5c04-8a10-1cde33346829",
+      "oracleId": "04fe0a5d-1399-57c7-8225-e40faf777825",
       "name": "Hexplosives Expert",
       "type": "legend",
       "domains": [
@@ -7644,6 +7813,7 @@
     {
       "number": "RAD-170",
       "uuid": "be1b4d6c-7124-5bd7-940b-85ee4aa69153",
+      "oracleId": "f54bf9c1-debb-559d-bf26-a3bd5ec1b7b3",
       "name": "Iron Revenant",
       "type": "legend",
       "domains": [
@@ -7701,6 +7871,7 @@
     {
       "number": "RAD-171",
       "uuid": "48367d02-49e0-5a89-9c20-9b0cd886c83e",
+      "oracleId": "f6084adb-b805-56b2-bc5f-5ce1147d1205",
       "name": "Lady of Clockwork",
       "type": "legend",
       "domains": [
@@ -7760,6 +7931,7 @@
     {
       "number": "RAD-172",
       "uuid": "5c181530-de65-584c-98af-6868ee177046",
+      "oracleId": "65e88644-abd4-509f-bb32-d04736f0f239",
       "name": "Pride of Nazumah",
       "type": "legend",
       "domains": [
@@ -7820,6 +7992,7 @@
     {
       "number": "RAD-173",
       "uuid": "d5a719e9-10ea-5905-a7e1-282026a91e0d",
+      "oracleId": "72917399-f799-5143-9c66-03bf348c16fd",
       "name": "The Exile",
       "type": "legend",
       "domains": [
@@ -7877,6 +8050,7 @@
     {
       "number": "RAD-174",
       "uuid": "e5ee5c66-c330-5107-ad31-72c0e1ae787f",
+      "oracleId": "5030ae79-53f3-579f-953c-7ba8b36a4725",
       "name": "Starry-Eyed Songstress",
       "type": "legend",
       "domains": [
@@ -7934,6 +8108,7 @@
     {
       "number": "RAD-175",
       "uuid": "a2d4439c-ea30-5a94-9eaa-fe3f66928a54",
+      "oracleId": "dc8795ca-82db-502b-a875-4b28739513bd",
       "name": "Agony's Embrace",
       "type": "legend",
       "domains": [
@@ -7994,6 +8169,7 @@
     {
       "number": "RAD-176",
       "uuid": "060d1cdb-959c-5ce1-9a71-230e3555b500",
+      "oracleId": "4dff84a7-280b-5929-8628-1b9e759d2649",
       "name": "Exemplar of Demacia",
       "type": "legend",
       "domains": [
@@ -8031,6 +8207,7 @@
     {
       "number": "RAD-177",
       "uuid": "8a4f63a6-bedb-5737-9cb5-5b9634337383",
+      "oracleId": "19cedf26-b230-5c29-a7d8-6a944c2d61e5",
       "name": "Ekko",
       "subtitle": "Revolutionary",
       "type": "unit",
@@ -8078,6 +8255,7 @@
     {
       "number": "RAD-178",
       "uuid": "41bfcbee-9dc5-5d42-a91c-6c52ecf56d80",
+      "oracleId": "8ce635f9-7b9f-5817-a0b7-dba92af3c96f",
       "name": "K'Sante",
       "subtitle": "Courageous",
       "type": "unit",
@@ -8144,6 +8322,7 @@
     {
       "number": "RAD-179",
       "uuid": "963d283c-5644-57da-a48e-d76a781b850a",
+      "oracleId": "8592382b-103d-5f80-830c-2ad6dce624d5",
       "name": "Aphelios",
       "subtitle": "Exalted",
       "type": "unit",
@@ -8211,6 +8390,7 @@
     {
       "number": "RAD-180",
       "uuid": "ac7e8994-b836-5c98-a4a3-69a57d222414",
+      "oracleId": "dc63ae5b-4825-565d-a787-dc3d28e1ca15",
       "name": "Ezreal",
       "subtitle": "Dashing",
       "type": "unit",
@@ -8278,6 +8458,7 @@
     {
       "number": "RAD-181",
       "uuid": "9c2946e7-8577-5135-b42d-720ada56180c",
+      "oracleId": "83c3efd7-413c-5b2e-9350-37384471bdf0",
       "name": "Yone",
       "subtitle": "Blademaster",
       "type": "unit",
@@ -8346,6 +8527,7 @@
     {
       "number": "RAD-182",
       "uuid": "94b5420a-984e-512f-b588-cc5416f38d9f",
+      "oracleId": "7e71bad6-d8a3-5647-abf8-0ab7df7c746f",
       "name": "Kayn",
       "subtitle": "Unleashed",
       "type": "unit",
@@ -8413,6 +8595,7 @@
     {
       "number": "RAD-183",
       "uuid": "4a382f70-688b-53de-b526-6e0c3472bb08",
+      "oracleId": "cd308225-9dc2-5e10-807d-9d63fc7ff0bb",
       "name": "Sett",
       "subtitle": "Kingpin",
       "type": "unit",
@@ -8480,6 +8663,7 @@
     {
       "number": "RAD-184",
       "uuid": "b01a7fba-eef0-5390-904b-05c8e10f7da8",
+      "oracleId": "eb8365b4-0f9a-5549-8d63-cd20e7967cce",
       "name": "Packed Amphitheater",
       "type": "battlefield",
       "domains": [
@@ -8516,6 +8700,7 @@
     {
       "number": "RAD-SP1",
       "uuid": "19959ebe-397f-57fe-a8a3-a13724a75d6c",
+      "oracleId": "1b245614-366d-5d98-8b5d-15ed9027af7d",
       "name": "Ahri",
       "subtitle": "Confident",
       "type": "unit",
@@ -8563,6 +8748,7 @@
     {
       "number": "RAD-SP2",
       "uuid": "d904dcb0-25b9-5e56-838f-612c5dfb4f04",
+      "oracleId": "7f857f6e-4a15-5675-ad8b-f47f89ed63c0",
       "name": "Akali",
       "subtitle": "Brash",
       "type": "unit",
@@ -8607,6 +8793,7 @@
     {
       "number": "RAD-SP3",
       "uuid": "d184baa1-c5fa-51bd-ba3b-8ec57d1ae4bc",
+      "oracleId": "2d69baac-6c49-51f9-8427-ebfa363fe76b",
       "name": "Evelynn",
       "subtitle": "In Control",
       "type": "unit",
@@ -8653,6 +8840,7 @@
     {
       "number": "RAD-SP4",
       "uuid": "7da6fe57-a7d8-574c-a3e0-0ab3a645e8fe",
+      "oracleId": "285383e2-574a-5dbe-988e-455d0bd84d46",
       "name": "Kai'Sa",
       "subtitle": "Rebel",
       "type": "unit",
@@ -8700,6 +8888,7 @@
     {
       "number": "RAD-SP5",
       "uuid": "b1c1accb-41b2-5875-852c-43917a6d2916",
+      "oracleId": "acbca0dc-110b-517c-a233-8e7eb95a30b7",
       "name": "Seraphine",
       "subtitle": "Not Alone",
       "type": "unit",
@@ -8744,6 +8933,7 @@
     {
       "number": "RAD-R01",
       "uuid": "0d2b4db4-9f12-5a5f-957c-a51b8483a4ee",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -8807,6 +8997,7 @@
     {
       "number": "RAD-R02",
       "uuid": "9da1529d-e4e7-5545-8a72-aa4c94d1cd30",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -8869,6 +9060,7 @@
     {
       "number": "RAD-R03",
       "uuid": "7bd2bfd9-2cb6-5074-bb7b-b13216fa1c0f",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -8932,6 +9124,7 @@
     {
       "number": "RAD-R04",
       "uuid": "88fb6b19-417c-5d3a-875b-a5b6d06f7151",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -8995,6 +9188,7 @@
     {
       "number": "RAD-R05",
       "uuid": "4f80f946-5b8c-57c8-99a8-f5610743f576",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -9057,6 +9251,7 @@
     {
       "number": "RAD-R06",
       "uuid": "e40e3112-74ea-58e4-8473-c9e6df2a0064",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -9120,6 +9315,7 @@
     {
       "number": "RAD-T01+T02",
       "uuid": "1e7bfe4b-4c6e-5513-8a07-4cdfb5b96cf5",
+      "oracleId": "5133afd1-142d-5de3-8e7d-0b2a30c10d40",
       "name": "Bird // Bomb",
       "printings": [
         {
@@ -9148,6 +9344,7 @@
     {
       "number": "RAD-T02+T05",
       "uuid": "74d104e0-35d2-56cb-bcb2-202500f40576",
+      "oracleId": "04bd8b85-d42a-5264-935e-411dc6771f44",
       "name": "Bomb // Gold",
       "printings": [
         {
@@ -9176,6 +9373,7 @@
     {
       "number": "RAD-T03+T07",
       "uuid": "f06f5f36-9e03-566f-99f2-cbf42027d550",
+      "oracleId": "de51a992-dd48-53b0-954b-407384001fda",
       "name": "Buff // Recruit",
       "printings": [
         {
@@ -9204,6 +9402,7 @@
     {
       "number": "RAD-T04+T07",
       "uuid": "c63d3c18-6c3f-53db-9706-fcdfb7fc9598",
+      "oracleId": "b6bf8dfc-8c10-5f82-b7fc-dfe4c6bf786f",
       "name": "Empowered // Recruit",
       "printings": [
         {
@@ -9232,6 +9431,7 @@
     {
       "number": "RAD-T05+T06",
       "uuid": "5b9eb300-51f3-5228-b1c2-75d21cb8c406",
+      "oracleId": "28229bf9-cf45-5210-b151-0ed8de0d63fb",
       "name": "Gold // Mech",
       "printings": [
         {
@@ -9260,6 +9460,7 @@
     {
       "number": "RAD-T06+T07",
       "uuid": "736bdfbf-6c18-560d-8830-76e35e3f1301",
+      "oracleId": "d0491d36-3cf3-5057-9ae9-f976b8eba96b",
       "name": "Mech // Recruit",
       "printings": [
         {

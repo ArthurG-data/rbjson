@@ -3,6 +3,7 @@
     {
       "number": "VEN-001",
       "uuid": "44abfa6d-e0f9-5ef9-8292-d92e376e279a",
+      "oracleId": "b3737ca3-7853-5ffc-98dc-d6a91be815c5",
       "name": "Baccai Sandspinner",
       "type": "unit",
       "domains": [
@@ -48,6 +49,7 @@
     {
       "number": "VEN-002",
       "uuid": "ea9619ac-8186-5e55-a055-8e25dd235826",
+      "oracleId": "98f73806-ebc3-5c52-b22c-481645af3739",
       "name": "Blade Twirler",
       "type": "unit",
       "domains": [
@@ -94,6 +96,7 @@
     {
       "number": "VEN-003",
       "uuid": "66c3591a-0ad2-5520-98bd-fa4353bcfd47",
+      "oracleId": "ab7b8eab-ffde-5574-87d0-f27992939ed4",
       "name": "Brittle Steel",
       "type": "spell",
       "domains": [
@@ -136,6 +139,7 @@
     {
       "number": "VEN-004",
       "uuid": "f78650be-8f62-5452-b9ec-70b17d2655c9",
+      "oracleId": "0f0f7eb5-c1b3-563e-a9bd-d9ffc02ac364",
       "name": "Dune Surfer",
       "type": "unit",
       "domains": [
@@ -181,6 +185,7 @@
     {
       "number": "VEN-005",
       "uuid": "fb5c7cfd-5a04-549f-87b0-eeb07d21570f",
+      "oracleId": "3d23c873-8658-55c5-b6f0-24cab007d823",
       "name": "Forsaken Baccai",
       "type": "unit",
       "domains": [
@@ -226,6 +231,7 @@
     {
       "number": "VEN-006",
       "uuid": "35522e57-921f-501c-8154-4e4548cbc544",
+      "oracleId": "9cb41a98-89aa-50ca-8d30-b74cab598633",
       "name": "Oasis Raider",
       "type": "unit",
       "domains": [
@@ -271,6 +277,7 @@
     {
       "number": "VEN-007",
       "uuid": "27fc3e66-1bf5-5bf5-9cc6-9511e850bf7c",
+      "oracleId": "3c07e7ab-c221-5674-9309-0bd07c3c8400",
       "name": "Punching Poro",
       "type": "unit",
       "domains": [
@@ -317,6 +324,7 @@
     {
       "number": "VEN-008",
       "uuid": "74a8855a-f5b3-5998-a5fd-868cbf3f5117",
+      "oracleId": "0e9dedea-029a-5c58-b2db-f78e9ebb0760",
       "name": "Ruthless Strike",
       "type": "spell",
       "domains": [
@@ -358,6 +366,7 @@
     {
       "number": "VEN-009",
       "uuid": "46bc5995-4c39-56fb-8731-bfddb86d8836",
+      "oracleId": "3a27fad2-708c-52fc-88cd-d7adb29d3624",
       "name": "Baccai Reaper",
       "type": "unit",
       "domains": [
@@ -404,6 +413,7 @@
     {
       "number": "VEN-010",
       "uuid": "8f5ab9b1-980c-5c97-b8b6-4d86e3fa5247",
+      "oracleId": "c07797cd-f258-5c4e-ba87-c1f44c4644ec",
       "name": "Consuming Curse",
       "type": "spell",
       "domains": [
@@ -445,6 +455,7 @@
     {
       "number": "VEN-011",
       "uuid": "2330bfbc-e322-5304-aa5f-77af45b3f444",
+      "oracleId": "478e1dc6-f44f-5e29-8028-4ce89aab4a57",
       "name": "Pendulum Blade",
       "type": "gear",
       "domains": [
@@ -491,6 +502,7 @@
     {
       "number": "VEN-012",
       "uuid": "838fb6e0-a6b5-5374-b27b-70cf5ceb590a",
+      "oracleId": "70f99791-cbd1-5e20-971e-f47e35903c90",
       "name": "Perfect Execution",
       "type": "spell",
       "domains": [
@@ -533,6 +545,7 @@
     {
       "number": "VEN-013",
       "uuid": "fe0cf781-1bce-5b86-91b6-bc5b7ba933b6",
+      "oracleId": "72e50413-b5ad-51db-a071-d8c9e212bf55",
       "name": "Shadow Assassin",
       "type": "unit",
       "domains": [
@@ -578,6 +591,7 @@
     {
       "number": "VEN-014",
       "uuid": "ca99eb7e-664c-535b-bbd2-08c3ffdd8d7c",
+      "oracleId": "f7947759-72fd-538b-8faf-411a4ad8557f",
       "name": "Shadow Fiend",
       "type": "unit",
       "domains": [
@@ -623,6 +637,7 @@
     {
       "number": "VEN-015",
       "uuid": "c1e179bc-a126-5700-9ebc-ea88ba6be498",
+      "oracleId": "4ee79553-0fd5-5c51-8df1-efa1aac3b23e",
       "name": "Decree of Rage",
       "type": "spell",
       "domains": [
@@ -664,6 +679,7 @@
     {
       "number": "VEN-016",
       "uuid": "0c71edf1-fc7f-5ca3-8d9b-dc0623b37af4",
+      "oracleId": "acfb38b3-1ad6-54ac-8894-b05454765a5e",
       "name": "Eclipse Dragon",
       "type": "unit",
       "domains": [
@@ -709,6 +725,7 @@
     {
       "number": "VEN-017",
       "uuid": "afeef777-5081-5ba1-899b-f6c30527ca33",
+      "oracleId": "493dbe48-362d-5332-ae19-a2f75c201afb",
       "name": "Morgana",
       "subtitle": "Vindictive",
       "type": "unit",
@@ -756,6 +773,7 @@
     {
       "number": "VEN-018",
       "uuid": "fb9aca91-d196-52f7-9366-36f02fcaa60e",
+      "oracleId": "5e419077-c8d5-5337-a8f9-af39ca536da5",
       "name": "Rage Amplifier",
       "type": "gear",
       "domains": [
@@ -797,6 +815,7 @@
     {
       "number": "VEN-019",
       "uuid": "650ff565-549f-5850-a2e8-756a91c29585",
+      "oracleId": "b0f6a069-d010-5081-a2b3-6e179c925bde",
       "name": "Renekton",
       "subtitle": "Rage Fueled",
       "type": "unit",
@@ -869,6 +888,7 @@
     {
       "number": "VEN-020",
       "uuid": "3e651916-dff1-57d4-aa03-75946f600c15",
+      "oracleId": "963ea466-ba45-5f43-a475-81e2d8a88663",
       "name": "Twilight Reveler",
       "type": "unit",
       "domains": [
@@ -913,6 +933,7 @@
     {
       "number": "VEN-021",
       "uuid": "7c399fa0-5af2-5735-8b3c-efaf11ada531",
+      "oracleId": "9c99a435-a87a-5948-bb41-3ca861ca3fcd",
       "name": "Akali",
       "subtitle": "Deadly Weapon",
       "type": "unit",
@@ -985,6 +1006,7 @@
     {
       "number": "VEN-022",
       "uuid": "9b75671a-7fdb-52c8-a004-b48f05eb57d1",
+      "oracleId": "39bac20d-55a4-523e-9ffd-fcc4524c7afb",
       "name": "Endless Riches",
       "type": "gear",
       "domains": [
@@ -1026,6 +1048,7 @@
     {
       "number": "VEN-023",
       "uuid": "7e4ab4ef-07fe-5fe5-8612-cf67ea35ab0e",
+      "oracleId": "a02f834f-2da1-56d0-8c7d-3d9f19ea2468",
       "name": "Zed",
       "subtitle": "From the Shadows",
       "type": "unit",
@@ -1099,6 +1122,7 @@
     {
       "number": "VEN-024",
       "uuid": "8d05bec5-0bea-5995-b2a8-f5e2669e41b8",
+      "oracleId": "3a22f47a-864c-576f-91bf-001d5b2ead49",
       "name": "Affectionate Poro",
       "type": "unit",
       "domains": [
@@ -1145,6 +1169,7 @@
     {
       "number": "VEN-025",
       "uuid": "6f7358f8-f1e4-5b41-846a-f3a07eb38eed",
+      "oracleId": "f73374d3-968d-5bf9-a071-b26a0de291af",
       "name": "Esteemed Hierophant",
       "type": "unit",
       "domains": [
@@ -1190,6 +1215,7 @@
     {
       "number": "VEN-026",
       "uuid": "84c87b23-520d-5405-95a4-a76fca5231ba",
+      "oracleId": "6086f430-4715-55b8-9713-dc5850a7abc2",
       "name": "Field Musicians",
       "type": "unit",
       "domains": [
@@ -1235,6 +1261,7 @@
     {
       "number": "VEN-027",
       "uuid": "97a76025-5897-5535-9b50-c49e6222539f",
+      "oracleId": "906b7296-d301-55b4-ad02-09b26984c84f",
       "name": "Hand Hammer",
       "type": "gear",
       "domains": [
@@ -1281,6 +1308,7 @@
     {
       "number": "VEN-028",
       "uuid": "1f4374d0-70fa-5a50-98cf-9c93c27661c8",
+      "oracleId": "e5ec58b9-a1be-584e-8098-f31cc53fdc6c",
       "name": "Mournful Witness",
       "type": "unit",
       "domains": [
@@ -1327,6 +1355,7 @@
     {
       "number": "VEN-029",
       "uuid": "e7cdde4a-bbd0-539e-8113-bb3dfe98065a",
+      "oracleId": "d4c12997-3e43-5ca4-9bce-319b236a0f4b",
       "name": "Ol' Poro",
       "type": "unit",
       "domains": [
@@ -1373,6 +1402,7 @@
     {
       "number": "VEN-030",
       "uuid": "1db40b29-e20e-5850-9c38-574fb8855105",
+      "oracleId": "fcf760ed-5586-5b10-b6a0-118937a3a2e1",
       "name": "Serene Ascetic",
       "type": "unit",
       "domains": [
@@ -1418,6 +1448,7 @@
     {
       "number": "VEN-031",
       "uuid": "0df465be-4159-5404-bb43-81db3fcb7b6e",
+      "oracleId": "c59530ec-d47d-5923-ad06-ad16a1eb93ba",
       "name": "Twilight Shroud",
       "type": "spell",
       "domains": [
@@ -1459,6 +1490,7 @@
     {
       "number": "VEN-032",
       "uuid": "e8fd26f2-b66c-5c8e-bcc2-d034bd173408",
+      "oracleId": "c13bb997-aeea-59bf-9bf7-58e3b41cc3e2",
       "name": "Frostcoat Mother",
       "type": "unit",
       "domains": [
@@ -1505,6 +1537,7 @@
     {
       "number": "VEN-033",
       "uuid": "1e5cb4d6-aa1d-5dcf-9962-bead0f32278d",
+      "oracleId": "834c891d-09f7-5351-b33e-d62d00650df6",
       "name": "Pakaa Protector",
       "type": "unit",
       "domains": [
@@ -1551,6 +1584,7 @@
     {
       "number": "VEN-034",
       "uuid": "06068820-df28-52c8-a48b-9f9eabf1ecf8",
+      "oracleId": "66b926ec-27c3-564c-8c70-a970da309745",
       "name": "Resonating Strike",
       "type": "spell",
       "domains": [
@@ -1593,6 +1627,7 @@
     {
       "number": "VEN-035",
       "uuid": "30f0a5cc-59a7-542d-b137-4ee416c52625",
+      "oracleId": "50a17980-d64f-5b01-945f-33a4b0441861",
       "name": "Sanction",
       "type": "spell",
       "domains": [
@@ -1635,6 +1670,7 @@
     {
       "number": "VEN-036",
       "uuid": "9a3b2b28-1eac-5bee-99b6-b8f473de66ca",
+      "oracleId": "26e5918b-2cb6-5ca3-8d7f-70a49df8371a",
       "name": "Sandstone Chimera",
       "type": "unit",
       "domains": [
@@ -1681,6 +1717,7 @@
     {
       "number": "VEN-037",
       "uuid": "b129ec97-a031-54bc-b218-842727da8bab",
+      "oracleId": "b2022f5e-c510-56ea-8c0e-99fb703baac5",
       "name": "Tomb-Raider Barbara",
       "type": "unit",
       "domains": [
@@ -1726,6 +1763,7 @@
     {
       "number": "VEN-038",
       "uuid": "1ffcbd0c-f84b-5a5b-88f3-8bf568af6396",
+      "oracleId": "9b2db04b-fdd6-5f72-9f48-74e627ca0ade",
       "name": "Akali",
       "subtitle": "Silent",
       "type": "unit",
@@ -1799,6 +1837,7 @@
     {
       "number": "VEN-039",
       "uuid": "87ee9e5d-0167-5d87-83f2-45d0185b27c2",
+      "oracleId": "4723773d-dffc-52f2-8405-7406ea0f3630",
       "name": "Crumbling Sands",
       "type": "spell",
       "domains": [
@@ -1840,6 +1879,7 @@
     {
       "number": "VEN-040",
       "uuid": "29310508-2bee-5189-9554-d64bcedba9a2",
+      "oracleId": "a70005d0-3438-5cee-8468-3451ce80c82b",
       "name": "Decree of Focus",
       "type": "spell",
       "domains": [
@@ -1880,6 +1920,7 @@
     {
       "number": "VEN-041",
       "uuid": "d4ada459-a6f3-5e37-b648-aebd09a2818b",
+      "oracleId": "99d56481-63b3-5428-9be6-2aa1c789d8bd",
       "name": "Riven",
       "subtitle": "Shattered",
       "type": "unit",
@@ -1927,6 +1968,7 @@
     {
       "number": "VEN-042",
       "uuid": "870cd2ec-42a1-5f7d-95c4-ffe861363bf3",
+      "oracleId": "d8a18bba-a488-58b0-a453-bcd53b273808",
       "name": "Shen",
       "subtitle": "Scourge of Shadows",
       "type": "unit",
@@ -2000,6 +2042,7 @@
     {
       "number": "VEN-043",
       "uuid": "de2d125d-57e7-5962-9a1c-552ce680206a",
+      "oracleId": "9d7c8541-4032-5c50-b518-687d490b9810",
       "name": "Steel Paws",
       "type": "unit",
       "domains": [
@@ -2045,6 +2088,7 @@
     {
       "number": "VEN-044",
       "uuid": "d143960c-fd59-5b20-9156-9138cd0dff85",
+      "oracleId": "04d294ff-68ee-5052-950a-6a9f5c49ee5a",
       "name": "Astral Heron",
       "type": "unit",
       "domains": [
@@ -2090,6 +2134,7 @@
     {
       "number": "VEN-045",
       "uuid": "eb34f244-b2fa-5244-8436-098d1fffd16b",
+      "oracleId": "0d6a98bc-5bbd-5ce7-b323-7b32d9ed64a4",
       "name": "Helm of Suppression",
       "type": "gear",
       "domains": [
@@ -2131,6 +2176,7 @@
     {
       "number": "VEN-046",
       "uuid": "cdf02615-da9b-5803-9b5e-d0dd5fc25f84",
+      "oracleId": "8368c63e-0e31-503d-9fce-5ab28146ff88",
       "name": "Nasus",
       "subtitle": "Ascended",
       "type": "unit",
@@ -2205,6 +2251,7 @@
     {
       "number": "VEN-047",
       "uuid": "32b66ca5-8da5-55f8-8119-c274fbf26aee",
+      "oracleId": "a6bccab4-832f-5e5b-a5e6-ca9003899829",
       "name": "Apprentice Mage",
       "type": "unit",
       "domains": [
@@ -2250,6 +2297,7 @@
     {
       "number": "VEN-048",
       "uuid": "6884b396-61cb-58a7-a7aa-107fde005f9d",
+      "oracleId": "5ca6955f-4ffe-5a20-9c24-dbd541c7772f",
       "name": "Cloud Drake",
       "type": "unit",
       "domains": [
@@ -2296,6 +2344,7 @@
     {
       "number": "VEN-049",
       "uuid": "a7c09108-7b8e-5086-9abd-58ec5c4a41b3",
+      "oracleId": "1791fde2-d361-5ec7-9256-3c67208be172",
       "name": "Dredge Up",
       "type": "spell",
       "domains": [
@@ -2337,6 +2386,7 @@
     {
       "number": "VEN-050",
       "uuid": "c143c1ee-105d-52f8-9f73-19e7cbe66f69",
+      "oracleId": "bd93cb8b-cc4f-5feb-b21c-4651541fea19",
       "name": "Grumpy Rockbear",
       "type": "unit",
       "domains": [
@@ -2382,6 +2432,7 @@
     {
       "number": "VEN-051",
       "uuid": "686412dd-68a0-51a0-ad64-6de81a91045b",
+      "oracleId": "8066e335-2bf1-5858-8112-20a3ec1bafaa",
       "name": "Iterative Design",
       "type": "spell",
       "domains": [
@@ -2423,6 +2474,7 @@
     {
       "number": "VEN-052",
       "uuid": "2e27f517-b939-5fbd-9b44-30209af7d407",
+      "oracleId": "0a791088-207b-5f1b-8c56-2ed5531546e0",
       "name": "Mesmerize",
       "type": "spell",
       "domains": [
@@ -2465,6 +2517,7 @@
     {
       "number": "VEN-053",
       "uuid": "4a91f065-63f0-5df1-8c3b-58423688c29d",
+      "oracleId": "60519a31-8abf-560f-b6d1-9d6d152d311a",
       "name": "Otterpus",
       "type": "unit",
       "domains": [
@@ -2510,6 +2563,7 @@
     {
       "number": "VEN-054",
       "uuid": "90a0c581-6fb4-584b-a2ee-0235d06c9619",
+      "oracleId": "384e69a7-6e83-58da-aaea-9ad8f0ca7154",
       "name": "Questionable Tome",
       "type": "gear",
       "domains": [
@@ -2551,6 +2605,7 @@
     {
       "number": "VEN-055",
       "uuid": "8e97780c-ac03-5fae-9533-152e788838d9",
+      "oracleId": "35fb89d1-83ab-5c98-8ec9-c5ccc183b19f",
       "name": "Applied Researchers",
       "type": "unit",
       "domains": [
@@ -2596,6 +2651,7 @@
     {
       "number": "VEN-056",
       "uuid": "ebb49849-593c-5c4b-b032-2e31fe58f9be",
+      "oracleId": "c19a4454-51a1-5d77-b5c5-5255a50ee96a",
       "name": "Clairvoyance",
       "type": "spell",
       "domains": [
@@ -2637,6 +2693,7 @@
     {
       "number": "VEN-057",
       "uuid": "530358e0-9e35-5e9f-bcf0-d441bc853ad3",
+      "oracleId": "89eb60d3-0422-596f-9313-26c71dc39e83",
       "name": "Covert Informant",
       "type": "unit",
       "domains": [
@@ -2683,6 +2740,7 @@
     {
       "number": "VEN-058",
       "uuid": "d7afe870-90e7-5fa2-baf6-24d06f5d02cb",
+      "oracleId": "6494a509-8cc2-58db-8ecf-f91529144c14",
       "name": "Patched Porobot",
       "type": "unit",
       "domains": [
@@ -2730,6 +2788,7 @@
     {
       "number": "VEN-059",
       "uuid": "0979328f-7f7c-5598-b36d-5b99d5db5b97",
+      "oracleId": "6a56409c-8214-5625-8238-93548ffd09ae",
       "name": "Shock Blast",
       "type": "spell",
       "domains": [
@@ -2772,6 +2831,7 @@
     {
       "number": "VEN-060",
       "uuid": "78661da5-a980-5050-a2e4-e8f8b156a261",
+      "oracleId": "73c144cc-1d2d-55a7-9fdd-362b31f57004",
       "name": "Sky Cruiser",
       "type": "unit",
       "domains": [
@@ -2818,6 +2878,7 @@
     {
       "number": "VEN-061",
       "uuid": "ff2c074b-702b-5053-969b-a1172711b3a3",
+      "oracleId": "c55fc2b4-2ff5-5680-bbe2-59c6e750e6cc",
       "name": "Decree of Insight",
       "type": "spell",
       "domains": [
@@ -2858,6 +2919,7 @@
     {
       "number": "VEN-062",
       "uuid": "4e352191-c8e9-502b-9241-9d1537468cd3",
+      "oracleId": "52b84b87-2271-591d-ac9a-9485d932d988",
       "name": "Hextech Formula",
       "type": "gear",
       "domains": [
@@ -2898,6 +2960,7 @@
     {
       "number": "VEN-063",
       "uuid": "987f428f-3f4b-58d5-9fff-68ce538d3029",
+      "oracleId": "d7e14c2b-7c6c-5e37-9977-84625d830db9",
       "name": "Nasus",
       "subtitle": "Guardian of Knowledge",
       "type": "unit",
@@ -2972,6 +3035,7 @@
     {
       "number": "VEN-064",
       "uuid": "b6950eba-70a3-5c1c-99d2-1748233afe45",
+      "oracleId": "f61f36f3-fd7c-5549-a12e-f5b86c8bda75",
       "name": "Plaza Guardian",
       "type": "unit",
       "domains": [
@@ -3017,6 +3081,7 @@
     {
       "number": "VEN-065",
       "uuid": "1fcc0424-da71-5eee-9c19-6d781a7302fd",
+      "oracleId": "611b7f46-7d03-541d-8909-ecf436c1189f",
       "name": "Swain",
       "subtitle": "Visionary",
       "type": "unit",
@@ -3065,6 +3130,7 @@
     {
       "number": "VEN-066",
       "uuid": "6a4fd6ac-74c6-5c82-9beb-4141877d0f4a",
+      "oracleId": "a255061a-7432-50fb-bf3b-47edccdfe5a3",
       "name": "Temporal Breach",
       "type": "spell",
       "domains": [
@@ -3106,6 +3172,7 @@
     {
       "number": "VEN-067",
       "uuid": "b2ce6ce1-ccdd-5f23-a968-84acbeb8ee66",
+      "oracleId": "b74e7a7f-2dee-5d84-af40-d6e7d53d71d3",
       "name": "Bottled Constellation",
       "type": "gear",
       "domains": [
@@ -3147,6 +3214,7 @@
     {
       "number": "VEN-068",
       "uuid": "1596edf4-35f2-58a9-8e7e-912cb6e8c55f",
+      "oracleId": "1f05e263-c18d-576f-a821-39d22368b6d8",
       "name": "Jayce",
       "subtitle": "Brilliant Inventor",
       "type": "unit",
@@ -3220,6 +3288,7 @@
     {
       "number": "VEN-069",
       "uuid": "f1b64b37-7e59-5f35-b780-26489c126ae3",
+      "oracleId": "ba9300e3-fc85-50b0-8d8a-5a133241b6b1",
       "name": "Mel",
       "subtitle": "Newly Awakened",
       "type": "unit",
@@ -3293,6 +3362,7 @@
     {
       "number": "VEN-070",
       "uuid": "b657e513-e37b-5cde-ab44-d4acf3ea816f",
+      "oracleId": "982fe5e9-128a-5aa3-9b0a-602455976fff",
       "name": "Brutal Hunter",
       "type": "unit",
       "domains": [
@@ -3339,6 +3409,7 @@
     {
       "number": "VEN-071",
       "uuid": "4636b7fe-0898-546a-be1c-09e864787822",
+      "oracleId": "dabd47c9-21fe-573b-9420-76aa6c1dc423",
       "name": "Fretful Feline",
       "type": "unit",
       "domains": [
@@ -3385,6 +3456,7 @@
     {
       "number": "VEN-072",
       "uuid": "0c0f1114-1df3-5147-827f-06b97f7a3b48",
+      "oracleId": "e651ece2-dc1b-5e60-a388-930e7c1d1805",
       "name": "Guttural Roar",
       "type": "spell",
       "domains": [
@@ -3426,6 +3498,7 @@
     {
       "number": "VEN-073",
       "uuid": "e82b6964-223d-532f-85a0-52974e6a6539",
+      "oracleId": "f8447fde-3e6f-5223-a41a-8b4058cc09fb",
       "name": "Jagged Cutlass",
       "type": "gear",
       "domains": [
@@ -3472,6 +3545,7 @@
     {
       "number": "VEN-074",
       "uuid": "b3dc999b-4715-5e32-9736-bc97bb3c3caa",
+      "oracleId": "603626ee-d038-52e0-9c67-d4f2b4fbf5c5",
       "name": "Legion Marauder",
       "type": "unit",
       "domains": [
@@ -3518,6 +3592,7 @@
     {
       "number": "VEN-075",
       "uuid": "cca615d3-1c39-5af6-b676-299b29a7988c",
+      "oracleId": "6c41a3b8-066d-587e-927d-a67f8ae919dc",
       "name": "Platewyrm Egg",
       "type": "gear",
       "domains": [
@@ -3559,6 +3634,7 @@
     {
       "number": "VEN-076",
       "uuid": "6c48653c-cdc4-5c7e-b9ec-b233376b1e8a",
+      "oracleId": "6f8a7752-0452-54a2-af48-8782a9b34802",
       "name": "Repair Specialist",
       "type": "unit",
       "domains": [
@@ -3604,6 +3680,7 @@
     {
       "number": "VEN-077",
       "uuid": "9a421bc3-1d5b-55dd-b297-338f699469e6",
+      "oracleId": "c7cab9db-1884-5470-a4ec-70ea26d890ac",
       "name": "Tools of Empire",
       "type": "gear",
       "domains": [
@@ -3645,6 +3722,7 @@
     {
       "number": "VEN-078",
       "uuid": "c7091776-c3a4-5dfa-bf62-e26b28f88aaf",
+      "oracleId": "eb2f278c-90a7-5fc9-9fbd-408d0ca39f5a",
       "name": "Baccai Witherclaw",
       "type": "unit",
       "domains": [
@@ -3690,6 +3768,7 @@
     {
       "number": "VEN-079",
       "uuid": "d56381d7-0a9e-5ace-9206-2409d910ee12",
+      "oracleId": "a24885d3-5808-5671-ae96-ce9310b2bf9f",
       "name": "Dame the Despoiler",
       "type": "unit",
       "domains": [
@@ -3735,6 +3814,7 @@
     {
       "number": "VEN-080",
       "uuid": "aa8f32ed-b908-59fc-a9af-689078dfe818",
+      "oracleId": "a7ce1cdf-2c4b-5918-97be-8b508c7916df",
       "name": "Noxian Demolitionist",
       "type": "unit",
       "domains": [
@@ -3780,6 +3860,7 @@
     {
       "number": "VEN-081",
       "uuid": "073d9f33-72ed-51b5-8466-fc7b0d3dc850",
+      "oracleId": "a59719da-e289-56a4-a396-105c468c7c27",
       "name": "Onslaught",
       "type": "spell",
       "domains": [
@@ -3821,6 +3902,7 @@
     {
       "number": "VEN-082",
       "uuid": "866d0e13-60f3-5b21-89bc-492b472d14f4",
+      "oracleId": "839815b2-3df0-528e-8359-953eb266850b",
       "name": "Profiteer",
       "type": "unit",
       "domains": [
@@ -3866,6 +3948,7 @@
     {
       "number": "VEN-083",
       "uuid": "f6502fdf-227e-5efb-be77-91a33e17070d",
+      "oracleId": "da702ae8-891f-5713-9867-193f5f289037",
       "name": "Rampage",
       "type": "spell",
       "domains": [
@@ -3907,6 +3990,7 @@
     {
       "number": "VEN-084",
       "uuid": "ee90a7f5-9bfe-5d79-bb7a-db0c29253275",
+      "oracleId": "209f30e0-d581-5cae-aa25-8904cf7ebb46",
       "name": "Ambessa",
       "subtitle": "The Wolf",
       "type": "unit",
@@ -3979,6 +4063,7 @@
     {
       "number": "VEN-085",
       "uuid": "2fd00e72-d89d-5967-9180-ac64e579fe74",
+      "oracleId": "3a13ff24-c80d-5917-85d7-3d22c260f987",
       "name": "Decree of Strength",
       "type": "spell",
       "domains": [
@@ -4019,6 +4104,7 @@
     {
       "number": "VEN-086",
       "uuid": "66ac2d1d-d5ce-571a-91a6-ecd2a9834816",
+      "oracleId": "59b308e2-13d2-5393-a265-9c1f5249b24a",
       "name": "Gangplank",
       "subtitle": "Naval",
       "type": "unit",
@@ -4065,6 +4151,7 @@
     {
       "number": "VEN-087",
       "uuid": "a6e2a35b-64d0-5bd1-86e8-5bd4fbc1218b",
+      "oracleId": "92810591-8d46-56b7-9654-b0bb38010979",
       "name": "Hextech Disc",
       "type": "gear",
       "domains": [
@@ -4106,6 +4193,7 @@
     {
       "number": "VEN-088",
       "uuid": "0e1c74a0-214c-5642-a2f7-831494991b6c",
+      "oracleId": "baba26da-af8a-587f-b150-ff065cbdb776",
       "name": "Jayce",
       "subtitle": "Hammer in Hand",
       "type": "unit",
@@ -4179,6 +4267,7 @@
     {
       "number": "VEN-089",
       "uuid": "576198b1-1388-5d96-980d-896ff3307677",
+      "oracleId": "0da70d6c-7a08-5aae-b88c-c12c5c900dfa",
       "name": "Wild Claw",
       "type": "spell",
       "domains": [
@@ -4220,6 +4309,7 @@
     {
       "number": "VEN-090",
       "uuid": "ab31f7c0-4e44-5d5d-8ed1-17b27bb83ba8",
+      "oracleId": "b5c456f2-ef93-5fd5-babf-f9f011e1a587",
       "name": "Cataclysmic Duel",
       "type": "spell",
       "domains": [
@@ -4261,6 +4351,7 @@
     {
       "number": "VEN-091",
       "uuid": "37d3e8c2-3ab5-572d-bc6c-a926b9ba3dba",
+      "oracleId": "72bb3814-6218-5232-8284-692b7d3fd2b2",
       "name": "Corrupted Dragon",
       "type": "unit",
       "domains": [
@@ -4307,6 +4398,7 @@
     {
       "number": "VEN-092",
       "uuid": "c0422b98-be3b-5869-aefd-0fbb0c74c34c",
+      "oracleId": "7e46d6ac-e04d-5d0e-b40a-eb8e125b2617",
       "name": "Renekton",
       "subtitle": "Brute",
       "type": "unit",
@@ -4379,6 +4471,7 @@
     {
       "number": "VEN-093",
       "uuid": "ba862750-7991-58e7-ba93-a485a53d8683",
+      "oracleId": "7301b81f-746a-59e0-9b0c-3b9a55577b36",
       "name": "Kinkou Lifeblade",
       "type": "unit",
       "domains": [
@@ -4424,6 +4517,7 @@
     {
       "number": "VEN-094",
       "uuid": "1e20b508-9644-57a6-a5a5-ca8ba4ed9941",
+      "oracleId": "7f9a9b19-2ac9-55e3-b45f-0d588ba519a9",
       "name": "Mask Mother",
       "type": "unit",
       "domains": [
@@ -4470,6 +4564,7 @@
     {
       "number": "VEN-095",
       "uuid": "e60b8f2d-e38f-58cc-bb35-cdbb0ff991df",
+      "oracleId": "5a5504d8-dd85-5f3f-9434-b3515edba6b8",
       "name": "Shadow Order Disciple",
       "type": "unit",
       "domains": [
@@ -4515,6 +4610,7 @@
     {
       "number": "VEN-096",
       "uuid": "8299fabe-7a61-5f16-b732-691f83ee0042",
+      "oracleId": "3f414cc1-fdf4-555d-845b-1a171d221477",
       "name": "Shadowblade Lurker",
       "type": "unit",
       "domains": [
@@ -4560,6 +4656,7 @@
     {
       "number": "VEN-097",
       "uuid": "41e404cc-0c24-5373-b2f6-eb594feb3c7e",
+      "oracleId": "75272572-0d99-57a6-892e-43adacb8fdf3",
       "name": "Spiderling",
       "type": "unit",
       "domains": [
@@ -4606,6 +4703,7 @@
     {
       "number": "VEN-098",
       "uuid": "b98f36c2-5ebb-588f-8581-cbd610550e38",
+      "oracleId": "d9a0aa5e-bd57-597b-a7fb-895ea91b6cc5",
       "name": "Stargazer",
       "type": "unit",
       "domains": [
@@ -4651,6 +4749,7 @@
     {
       "number": "VEN-099",
       "uuid": "1b953938-a02a-579d-8bae-50778a257ef4",
+      "oracleId": "fd006b0d-e7fe-56e7-a11c-7211ca672129",
       "name": "Tornado Warrior",
       "type": "unit",
       "domains": [
@@ -4697,6 +4796,7 @@
     {
       "number": "VEN-100",
       "uuid": "6e63ffb1-8fc6-55b6-a297-491eb5b251a2",
+      "oracleId": "69063ea7-f95e-5dea-ad92-3517f0fce219",
       "name": "Up from the Deep",
       "type": "spell",
       "domains": [
@@ -4738,6 +4838,7 @@
     {
       "number": "VEN-101",
       "uuid": "d11c9483-1a99-5840-be8b-11a6bf537e83",
+      "oracleId": "2f90f388-1291-5a7f-8c08-1c8efbf00a42",
       "name": "Gust Monk",
       "type": "unit",
       "domains": [
@@ -4784,6 +4885,7 @@
     {
       "number": "VEN-102",
       "uuid": "bedd661f-d85b-5860-bd5f-6afa45468d18",
+      "oracleId": "019982ca-b07f-5696-b8a4-39a94c960909",
       "name": "Ravenbloom Prefect",
       "type": "unit",
       "domains": [
@@ -4829,6 +4931,7 @@
     {
       "number": "VEN-103",
       "uuid": "3fae6578-3297-52bd-995a-3eb86e010657",
+      "oracleId": "1bfcae35-e9c4-509e-b8c4-cf76c20f6416",
       "name": "Shadows of the Past",
       "type": "spell",
       "domains": [
@@ -4871,6 +4974,7 @@
     {
       "number": "VEN-104",
       "uuid": "f39bd91d-c8f0-5a90-a3f7-683a14e7680e",
+      "oracleId": "751c00c6-472f-5218-bdec-da606ab02d14",
       "name": "Tail-Cloaked Matriarch",
       "type": "unit",
       "domains": [
@@ -4916,6 +5020,7 @@
     {
       "number": "VEN-105",
       "uuid": "8498ab1c-8031-5fe1-b5ea-3c32bc18c610",
+      "oracleId": "6705d03b-5ee7-5f1d-a0aa-3bcbeed1460a",
       "name": "Twilight Step",
       "type": "spell",
       "domains": [
@@ -4958,6 +5063,7 @@
     {
       "number": "VEN-106",
       "uuid": "5d6e1757-1a11-52b0-b1f8-1922d86bc662",
+      "oracleId": "773ac4f6-3306-5384-b6a7-85ff654a4e1c",
       "name": "Wind and Ghosts",
       "type": "spell",
       "domains": [
@@ -5000,6 +5106,7 @@
     {
       "number": "VEN-107",
       "uuid": "0c87424f-767c-5f79-bbf4-4df060ec005f",
+      "oracleId": "1d497360-49fb-5e75-8554-ba15fc60c0c7",
       "name": "Decree of Discord",
       "type": "spell",
       "domains": [
@@ -5041,6 +5148,7 @@
     {
       "number": "VEN-108",
       "uuid": "12176646-8a92-5da6-ad95-b0f60c73205c",
+      "oracleId": "cd466be2-23b0-50e1-8fc3-ac1d75c19c25",
       "name": "Forgotten Relic",
       "type": "gear",
       "domains": [
@@ -5081,6 +5189,7 @@
     {
       "number": "VEN-109",
       "uuid": "8f63203e-cfa6-5d73-9dfc-b82abc885867",
+      "oracleId": "963a8404-111e-5fe2-a834-c9824eb5622f",
       "name": "Illaoi",
       "subtitle": "Prophet of the Great Kraken",
       "type": "unit",
@@ -5127,6 +5236,7 @@
     {
       "number": "VEN-110",
       "uuid": "9236ddf1-d883-5db2-9abd-ec1968e62fb3",
+      "oracleId": "094b4bec-39d3-5292-8d39-8f8e4354ab9e",
       "name": "Mel",
       "subtitle": "Defiant Soul",
       "type": "unit",
@@ -5199,6 +5309,7 @@
     {
       "number": "VEN-111",
       "uuid": "e511c231-019a-555e-9d80-2eece3846d4b",
+      "oracleId": "76a21ec4-a771-5a51-8bd5-a4a3ca1205d6",
       "name": "Minah Swiftfoot",
       "type": "unit",
       "domains": [
@@ -5244,6 +5355,7 @@
     {
       "number": "VEN-112",
       "uuid": "5ce9a3ca-feb3-55c0-aa25-71489d638c26",
+      "oracleId": "c53a01ca-dd08-58d6-b688-c147378fb303",
       "name": "Zed",
       "subtitle": "Without a Sound",
       "type": "unit",
@@ -5316,6 +5428,7 @@
     {
       "number": "VEN-113",
       "uuid": "2b87fbe0-b3eb-598c-834e-947e2d74fd33",
+      "oracleId": "94543567-b669-588c-b54f-61d355866d7f",
       "name": "Kennen",
       "subtitle": "Storm of Shuriken",
       "type": "unit",
@@ -5389,6 +5502,7 @@
     {
       "number": "VEN-114",
       "uuid": "38847c91-8fd1-532d-bc03-03e001709f51",
+      "oracleId": "192cec77-e8fc-5e77-a23a-093a3940bc80",
       "name": "Kharox",
       "type": "unit",
       "domains": [
@@ -5434,6 +5548,7 @@
     {
       "number": "VEN-115",
       "uuid": "9d971b91-cd4d-5017-a3ca-38aa2e82e1b1",
+      "oracleId": "740bb78b-2085-598b-af71-6b54f0b5999d",
       "name": "Ocean Drake",
       "type": "unit",
       "domains": [
@@ -5480,6 +5595,7 @@
     {
       "number": "VEN-116",
       "uuid": "dc491f3e-669f-5a70-a0a7-3987184f5668",
+      "oracleId": "e9c0d2c2-a16d-5303-a0d2-395952468d7b",
       "name": "Dragon Form",
       "type": "spell",
       "domains": [
@@ -5521,6 +5637,7 @@
     {
       "number": "VEN-117",
       "uuid": "e5235fb5-9953-58f6-a69a-1877d2ad785d",
+      "oracleId": "c9ef8dad-0efa-50f0-9a00-66a5d71da05f",
       "name": "Disciple of Shen",
       "type": "unit",
       "domains": [
@@ -5566,6 +5683,7 @@
     {
       "number": "VEN-118",
       "uuid": "55ce26e5-d28a-51fd-b5b4-b88e32aa8151",
+      "oracleId": "bf089cae-3857-5c5a-8d8c-4ace2a59b13d",
       "name": "Horns of the Dragon",
       "type": "unit",
       "domains": [
@@ -5611,6 +5729,7 @@
     {
       "number": "VEN-119",
       "uuid": "53d26802-f745-571c-9f48-f5f0e14d724e",
+      "oracleId": "fe9f5666-7882-5883-ad53-d32e0b2b0338",
       "name": "Keeper of Law",
       "type": "unit",
       "domains": [
@@ -5657,6 +5776,7 @@
     {
       "number": "VEN-120",
       "uuid": "51b46f53-5257-58bf-8f60-eb467094357d",
+      "oracleId": "1acbe799-d792-50c8-abde-4c362dd4c417",
       "name": "Masa, Crashing Thunder",
       "type": "unit",
       "domains": [
@@ -5703,6 +5823,7 @@
     {
       "number": "VEN-121",
       "uuid": "c9023554-a190-5afe-9998-f16677948701",
+      "oracleId": "1166f72a-10d7-5e44-90a9-11f1f0c0c194",
       "name": "Reluctant Leader",
       "type": "unit",
       "domains": [
@@ -5749,6 +5870,7 @@
     {
       "number": "VEN-122",
       "uuid": "adae6bae-aca5-5293-8b52-22939df87daf",
+      "oracleId": "3dc83b07-6907-53d9-ae04-1fba0d7ded70",
       "name": "Solari Sunhawk",
       "type": "unit",
       "domains": [
@@ -5795,6 +5917,7 @@
     {
       "number": "VEN-123",
       "uuid": "9bdd0ebb-2bce-5031-9786-55b7391b4c80",
+      "oracleId": "93b3e194-1d2f-51d9-8aef-c243739a09dc",
       "name": "Soulspinner",
       "type": "unit",
       "domains": [
@@ -5841,6 +5964,7 @@
     {
       "number": "VEN-124",
       "uuid": "85815ceb-7ad2-551f-8014-a26ca1e28aad",
+      "oracleId": "92e86743-a399-5c82-a9db-eb6949504b5c",
       "name": "Escaped Grayback",
       "type": "unit",
       "domains": [
@@ -5886,6 +6010,7 @@
     {
       "number": "VEN-125",
       "uuid": "955dcc58-ef35-5fcc-a0fe-4b3edb20ed63",
+      "oracleId": "1c8326b3-980c-57a0-a43a-c269bbb637b4",
       "name": "Hungry Wolf",
       "type": "unit",
       "domains": [
@@ -5932,6 +6057,7 @@
     {
       "number": "VEN-126",
       "uuid": "c6737a4f-f6d2-5db9-a3c1-f5393adcc3fd",
+      "oracleId": "cf9d49a3-7805-5ca8-abfa-bdf3c1c88475",
       "name": "Ki Barrier",
       "type": "spell",
       "domains": [
@@ -5974,6 +6100,7 @@
     {
       "number": "VEN-127",
       "uuid": "1f9c39ec-4c8d-5615-b0c2-28fd49e58e6c",
+      "oracleId": "ec966d9d-88da-5cbf-ba5c-55559e8b2839",
       "name": "Lacerate",
       "type": "spell",
       "domains": [
@@ -6016,6 +6143,7 @@
     {
       "number": "VEN-128",
       "uuid": "ee3d44bc-8ebf-5575-9cb1-ef7ac5421c9d",
+      "oracleId": "90644412-4f60-5817-bb4c-6b9b615af4c3",
       "name": "Noxian Emissary",
       "type": "unit",
       "domains": [
@@ -6061,6 +6189,7 @@
     {
       "number": "VEN-129",
       "uuid": "9d78c019-8289-55a8-904c-428eb114e0af",
+      "oracleId": "cc160042-917c-5cf7-bc51-8e53bacd24e8",
       "name": "Sacred Protector",
       "type": "unit",
       "domains": [
@@ -6108,6 +6237,7 @@
     {
       "number": "VEN-130",
       "uuid": "39683d1a-079e-5ec2-afb4-c3430cdfa74f",
+      "oracleId": "fc252814-52ef-5b46-b2e2-7d6f713c84bb",
       "name": "Aurok General",
       "type": "unit",
       "domains": [
@@ -6153,6 +6283,7 @@
     {
       "number": "VEN-131",
       "uuid": "b706a779-7f51-50be-8d88-ce6deeb2b793",
+      "oracleId": "b81ad10e-a947-59ac-8016-a1d6f54c5c84",
       "name": "Decree of Unity",
       "type": "spell",
       "domains": [
@@ -6194,6 +6325,7 @@
     {
       "number": "VEN-132",
       "uuid": "400ea822-0a4e-52a4-b4f2-4b3d2c346984",
+      "oracleId": "c25c538d-250d-561d-a41b-515126c3709e",
       "name": "Fallen Feline",
       "type": "unit",
       "domains": [
@@ -6240,6 +6372,7 @@
     {
       "number": "VEN-133",
       "uuid": "af2c0b41-5aa0-50a3-8802-b7bd21d88659",
+      "oracleId": "689ed677-b502-50d0-b183-9eebcd09a273",
       "name": "Glowstone",
       "type": "gear",
       "domains": [
@@ -6280,6 +6413,7 @@
     {
       "number": "VEN-134",
       "uuid": "e0d64a0b-5bac-5247-9af7-151c4de332c3",
+      "oracleId": "4dc07660-a884-5e0f-abc1-058ab5e168fb",
       "name": "Kayle",
       "subtitle": "Justified",
       "type": "unit",
@@ -6326,6 +6460,7 @@
     {
       "number": "VEN-135",
       "uuid": "6580e8db-511f-5027-b4b4-8868e48148e6",
+      "oracleId": "e3514bd4-91d5-53f3-819e-868ce574e703",
       "name": "Kennen",
       "subtitle": "Keeper of Balance",
       "type": "unit",
@@ -6399,6 +6534,7 @@
     {
       "number": "VEN-136",
       "uuid": "41e19355-3d8b-5208-865c-ec43cded1ebe",
+      "oracleId": "2d9ffa9c-8bfc-5613-bcfe-aea714eb4a60",
       "name": "Ambessa",
       "subtitle": "Respected and Feared",
       "type": "unit",
@@ -6471,6 +6607,7 @@
     {
       "number": "VEN-137",
       "uuid": "6ac1e956-c884-59ad-bcf2-ddc9ac834c57",
+      "oracleId": "aa7a4241-61cb-54c7-a7d2-907e35561455",
       "name": "Shady Spectacles",
       "type": "gear",
       "domains": [
@@ -6516,6 +6653,7 @@
     {
       "number": "VEN-138",
       "uuid": "780d7b8f-dd30-5cbd-8858-cb1be4af6091",
+      "oracleId": "714f8ca2-8ad1-5575-9e1b-e9f2621e9f66",
       "name": "Shen",
       "subtitle": "Leader of the Kinkou Order",
       "type": "unit",
@@ -6589,6 +6727,7 @@
     {
       "number": "VEN-139",
       "uuid": "22533f53-1c6c-51e3-ac3d-16a6ce88740b",
+      "oracleId": "417e5cfd-312b-5967-a852-751f4370fa78",
       "name": "Rogue Assassin",
       "type": "legend",
       "domains": [
@@ -6629,6 +6768,7 @@
     {
       "number": "VEN-140",
       "uuid": "63afb445-1d16-5476-a7ab-c372c965f0b3",
+      "oracleId": "9975d01c-9740-5854-bdfc-a1fcb2147320",
       "name": "Shuriken Flip",
       "type": "spell",
       "superTypes": [
@@ -6677,6 +6817,7 @@
     {
       "number": "VEN-141",
       "uuid": "59192142-a691-5092-9a5b-a5d0d0c1d90f",
+      "oracleId": "aa14faaf-7b03-5c88-9129-28892e9de6cb",
       "name": "Butcher of the Sands",
       "type": "legend",
       "domains": [
@@ -6717,6 +6858,7 @@
     {
       "number": "VEN-142",
       "uuid": "c3aad699-f8b4-513d-b613-4c7363b0f24f",
+      "oracleId": "3164553b-9ccc-5666-b611-997bf46ad886",
       "name": "Dominus",
       "type": "spell",
       "superTypes": [
@@ -6764,6 +6906,7 @@
     {
       "number": "VEN-143",
       "uuid": "e95155aa-8868-545b-8be1-ab7f4e133cce",
+      "oracleId": "6af17f66-6067-54fe-ad3f-b2e90c625892",
       "name": "Master of Shadows",
       "type": "legend",
       "domains": [
@@ -6804,6 +6947,7 @@
     {
       "number": "VEN-144",
       "uuid": "4b13afeb-19d3-56be-bc28-7dc36ec2be2a",
+      "oracleId": "813ff37f-261d-529c-91d8-584df6fb3b5e",
       "name": "Death Mark",
       "type": "spell",
       "superTypes": [
@@ -6852,6 +6996,7 @@
     {
       "number": "VEN-145",
       "uuid": "45da058a-b488-534d-94de-563fe63cd3f8",
+      "oracleId": "aea7cbd8-710f-5763-a156-2fc4437946c2",
       "name": "Curator of the Sands",
       "type": "legend",
       "domains": [
@@ -6892,6 +7037,7 @@
     {
       "number": "VEN-146",
       "uuid": "e7e403b6-7d5d-5c39-81b5-1da69a5802f8",
+      "oracleId": "1d273091-6b05-55cd-b54c-44611e23456e",
       "name": "Siphoning Strike",
       "type": "spell",
       "superTypes": [
@@ -6939,6 +7085,7 @@
     {
       "number": "VEN-147",
       "uuid": "868219a7-e343-5348-a256-cf29212aaa67",
+      "oracleId": "e4b9813f-3f06-52af-a444-7e68910818d6",
       "name": "Eye of Twilight",
       "type": "legend",
       "domains": [
@@ -6979,6 +7126,7 @@
     {
       "number": "VEN-148",
       "uuid": "26cb03f1-5205-53de-b314-ea3785391c19",
+      "oracleId": "1c3188c7-d90b-5e71-9f3b-82e688f30025",
       "name": "Shadow Dash",
       "type": "spell",
       "superTypes": [
@@ -7027,6 +7175,7 @@
     {
       "number": "VEN-149",
       "uuid": "c48d8d12-dd47-52b9-956b-a46a59ff1609",
+      "oracleId": "60283309-ca0a-57ab-bdb3-9df8a367af1a",
       "name": "Defender of Tomorrow",
       "type": "legend",
       "domains": [
@@ -7067,6 +7216,7 @@
     {
       "number": "VEN-150",
       "uuid": "2a5e1fae-db47-52cd-b69a-ddd7ccecca85",
+      "oracleId": "9d613c79-2ae1-5f35-bfed-7e257a0a5744",
       "name": "Acceleration Gate",
       "type": "spell",
       "superTypes": [
@@ -7115,6 +7265,7 @@
     {
       "number": "VEN-151",
       "uuid": "8359ec52-634f-5166-96b8-29e5a66959f8",
+      "oracleId": "9cc7ad34-e3c8-565e-9f53-9cc7a0e1b58c",
       "name": "Soul's Reflection",
       "type": "legend",
       "domains": [
@@ -7155,6 +7306,7 @@
     {
       "number": "VEN-152",
       "uuid": "9486fb76-e5b4-5397-b66c-d9338bf3c5ff",
+      "oracleId": "73517896-7ac9-5008-8098-d37b50fafd36",
       "name": "Rebuttal",
       "type": "spell",
       "superTypes": [
@@ -7203,6 +7355,7 @@
     {
       "number": "VEN-153",
       "uuid": "538d97c0-1fa1-5325-b3b0-28139415ea8e",
+      "oracleId": "48f5faa1-5031-5e63-ac8f-4f1bef25acfc",
       "name": "Matriarch of War",
       "type": "legend",
       "domains": [
@@ -7243,6 +7396,7 @@
     {
       "number": "VEN-154",
       "uuid": "ef4ed378-eae8-5d87-a412-81a692f292d9",
+      "oracleId": "40fe4711-ba79-58c4-b5bb-93d34a8e3ac9",
       "name": "Public Execution",
       "type": "spell",
       "superTypes": [
@@ -7291,6 +7445,7 @@
     {
       "number": "VEN-155",
       "uuid": "3088cbd8-06b4-5143-8d40-a53e7b0a5928",
+      "oracleId": "aecbf224-487b-54fc-a193-26ce6fe5b2a4",
       "name": "Heart of the Tempest",
       "type": "legend",
       "domains": [
@@ -7332,6 +7487,7 @@
     {
       "number": "VEN-156",
       "uuid": "75db77dc-9ba0-5680-8ab5-539de5464d78",
+      "oracleId": "27af8bde-b015-507c-bb37-ec131033dd12",
       "name": "Lightning Rush",
       "type": "spell",
       "superTypes": [
@@ -7379,6 +7535,7 @@
     {
       "number": "VEN-157",
       "uuid": "c4ce8725-7a78-5784-93d0-51b6607f28e2",
+      "oracleId": "7c703a90-5fbb-5dd7-ac34-aeecf82afbda",
       "name": "Dragon Roost",
       "type": "battlefield",
       "domains": [
@@ -7419,6 +7576,7 @@
     {
       "number": "VEN-158",
       "uuid": "400bef31-bbfa-582a-809c-406cd9c42dc0",
+      "oracleId": "0c2bd45d-d6db-5186-9aba-0f24a7cab2c0",
       "name": "Heisho, Shell of the World",
       "type": "battlefield",
       "domains": [
@@ -7459,6 +7617,7 @@
     {
       "number": "VEN-159",
       "uuid": "6079015e-484c-5145-859a-fde89491f523",
+      "oracleId": "0c46e01e-c5ca-530a-b443-56a908cf1550",
       "name": "Kinkou Temple",
       "type": "battlefield",
       "domains": [
@@ -7499,6 +7658,7 @@
     {
       "number": "VEN-160",
       "uuid": "1a554088-5832-5609-ac93-805c05f58582",
+      "oracleId": "90f89af4-d54a-5366-8c84-96c0215fab00",
       "name": "Mystic Vortex",
       "type": "battlefield",
       "domains": [
@@ -7539,6 +7699,7 @@
     {
       "number": "VEN-161",
       "uuid": "2954fba5-fa10-5513-99cb-7347c3dff682",
+      "oracleId": "78d67635-6194-5a18-b9e3-e9b2ff400c01",
       "name": "Piltovan Forge",
       "type": "battlefield",
       "domains": [
@@ -7579,6 +7740,7 @@
     {
       "number": "VEN-162",
       "uuid": "f3d2c7e9-503d-5450-8e62-8901f180ac0c",
+      "oracleId": "ce8fa72f-e9d5-5c1a-94bd-56d1ca2ebdc6",
       "name": "Protective Sands",
       "type": "battlefield",
       "domains": [
@@ -7619,6 +7781,7 @@
     {
       "number": "VEN-163",
       "uuid": "6d29bc55-96f2-5241-9dc8-3035c5f6a8a8",
+      "oracleId": "c6522dde-2a44-5138-925d-703e2465ebb4",
       "name": "Risen Altar",
       "type": "battlefield",
       "domains": [
@@ -7659,6 +7822,7 @@
     {
       "number": "VEN-164",
       "uuid": "47605c55-79e2-5b81-84dd-c7ab4103ac66",
+      "oracleId": "b2a59b49-0636-57e7-96ac-9bd097b4031a",
       "name": "Sandswept Tomb",
       "type": "battlefield",
       "domains": [
@@ -7699,6 +7863,7 @@
     {
       "number": "VEN-165",
       "uuid": "14d78151-f9ea-5064-8352-fa55dc9d6ca2",
+      "oracleId": "ca07b291-5d37-5ab7-9df5-d189316e7b54",
       "name": "Shadow Temple",
       "type": "battlefield",
       "domains": [
@@ -7739,6 +7904,7 @@
     {
       "number": "VEN-166",
       "uuid": "f7052e1b-df38-5f77-87f6-1244f71049ea",
+      "oracleId": "68da2c36-81bb-584d-87d4-36177de03f12",
       "name": "Threshold of the Gray",
       "type": "battlefield",
       "domains": [
@@ -7779,6 +7945,7 @@
     {
       "number": "VEN-167",
       "uuid": "59d3c03a-78b4-50be-aba5-7c00dbaad0e2",
+      "oracleId": "2f16de5b-fa89-5e16-9d13-f97d401edf7f",
       "name": "Vi",
       "subtitle": "Destructive",
       "type": "unit",
@@ -7828,6 +7995,7 @@
     {
       "number": "VEN-168",
       "uuid": "d1f14275-6834-5d18-8da0-5205e532a7b7",
+      "oracleId": "a6a7a716-9990-5936-9d54-8aaf9b96b786",
       "name": "Jinx",
       "subtitle": "Demolitionist",
       "type": "unit",
@@ -7877,6 +8045,7 @@
     {
       "number": "VEN-169",
       "uuid": "13abc359-de92-554b-ba94-c9797f49d9f1",
+      "oracleId": "a02f834f-2da1-56d0-8c7d-3d9f19ea2468",
       "name": "Zed",
       "subtitle": "From the Shadows",
       "type": "unit",
@@ -7923,6 +8092,7 @@
     {
       "number": "VEN-170",
       "uuid": "1ec8cf82-c2c7-57a2-92c0-e3b96450a4c1",
+      "oracleId": "d8a18bba-a488-58b0-a453-bcd53b273808",
       "name": "Shen",
       "subtitle": "Scourge of Shadows",
       "type": "unit",
@@ -7969,6 +8139,7 @@
     {
       "number": "VEN-171",
       "uuid": "25430c08-43cf-5dc2-998f-b501ca67cee2",
+      "oracleId": "99d56481-63b3-5428-9be6-2aa1c789d8bd",
       "name": "Riven",
       "subtitle": "Shattered",
       "type": "unit",
@@ -8015,6 +8186,7 @@
     {
       "number": "VEN-172",
       "uuid": "a0d54641-a11e-5a5c-9aa2-7a0cf7e1940a",
+      "oracleId": "d6d86837-d08b-5509-874b-cf508cb15334",
       "name": "Draven",
       "subtitle": "Showboat",
       "type": "unit",
@@ -8064,6 +8236,7 @@
     {
       "number": "VEN-173",
       "uuid": "0790e565-1eb0-58ca-b2c2-3e05b561d85b",
+      "oracleId": "611b7f46-7d03-541d-8909-ecf436c1189f",
       "name": "Swain",
       "subtitle": "Visionary",
       "type": "unit",
@@ -8110,6 +8283,7 @@
     {
       "number": "VEN-174",
       "uuid": "c3185812-3ef3-51b0-b5f6-669183fd42a5",
+      "oracleId": "3e53b949-91dd-56e0-96e8-d03bfe85b92e",
       "name": "Irelia",
       "subtitle": "Fervent",
       "type": "unit",
@@ -8159,6 +8333,7 @@
     {
       "number": "VEN-175",
       "uuid": "d4ad2bee-ef91-5903-b0c6-6a62c1c2adfa",
+      "oracleId": "2e7bac20-341d-541b-9999-2df170abb5ab",
       "name": "Jayce",
       "subtitle": "Man of Progress",
       "type": "unit",
@@ -8208,6 +8383,7 @@
     {
       "number": "VEN-176",
       "uuid": "ddf3533a-057a-509f-ba5a-20be9d2e59c5",
+      "oracleId": "ed3bad87-ba82-5795-8b93-0222b4967e59",
       "name": "Viktor",
       "subtitle": "Innovator",
       "type": "unit",
@@ -8257,6 +8433,7 @@
     {
       "number": "VEN-177",
       "uuid": "de30db0c-ef1f-5a2a-ac46-b3e3785d817b",
+      "oracleId": "7e46d6ac-e04d-5d0e-b40a-eb8e125b2617",
       "name": "Renekton",
       "subtitle": "Brute",
       "type": "unit",
@@ -8302,6 +8479,7 @@
     {
       "number": "VEN-178",
       "uuid": "faaf28e9-4778-58f0-ba42-a4c77214b9f8",
+      "oracleId": "d7e14c2b-7c6c-5e37-9977-84625d830db9",
       "name": "Nasus",
       "subtitle": "Guardian of Knowledge",
       "type": "unit",
@@ -8349,6 +8527,7 @@
     {
       "number": "VEN-179",
       "uuid": "dff89ff9-7bdb-59d6-856d-6c2c692d372c",
+      "oracleId": "2e498566-9335-53f9-874f-5ef1d4b6c966",
       "name": "Rengar",
       "subtitle": "Trophy Hunter",
       "type": "unit",
@@ -8400,6 +8579,7 @@
     {
       "number": "VEN-180",
       "uuid": "385d630d-86d7-5f73-927a-f68ac51d1ffb",
+      "oracleId": "d39bf94d-89f6-5344-8c98-59079d1c5967",
       "name": "Kha'Zix",
       "subtitle": "Evolving Hunter",
       "type": "unit",
@@ -8450,6 +8630,7 @@
     {
       "number": "VEN-181",
       "uuid": "e35be5f3-7ba2-5e30-ada4-ae1dfbe05d04",
+      "oracleId": "59b308e2-13d2-5393-a265-9c1f5249b24a",
       "name": "Gangplank",
       "subtitle": "Naval",
       "type": "unit",
@@ -8495,6 +8676,7 @@
     {
       "number": "VEN-182",
       "uuid": "3ced2b9e-a9a1-55c9-9832-531def09295b",
+      "oracleId": "963a8404-111e-5fe2-a834-c9824eb5622f",
       "name": "Illaoi",
       "subtitle": "Prophet of the Great Kraken",
       "type": "unit",
@@ -8540,6 +8722,7 @@
     {
       "number": "VEN-183",
       "uuid": "c6d5415b-8090-59b5-8064-0c06116c2e38",
+      "oracleId": "5e029f8c-aaf1-5658-95ba-0108ca70ac19",
       "name": "Diana",
       "subtitle": "No Longer Human",
       "type": "unit",
@@ -8590,6 +8773,7 @@
     {
       "number": "VEN-184",
       "uuid": "4d18b37a-a1e9-516d-8d4f-8679b5ed1728",
+      "oracleId": "9aa51f7d-98bd-580c-b7ff-d819a200b9de",
       "name": "Leona",
       "subtitle": "Determined",
       "type": "unit",
@@ -8639,6 +8823,7 @@
     {
       "number": "VEN-185",
       "uuid": "54c8d31d-1c8f-5362-ae71-eeba73ad0e83",
+      "oracleId": "4dc07660-a884-5e0f-abc1-058ab5e168fb",
       "name": "Kayle",
       "subtitle": "Justified",
       "type": "unit",
@@ -8684,6 +8869,7 @@
     {
       "number": "VEN-186",
       "uuid": "dae59d52-18fc-5777-97f7-3cebee26c385",
+      "oracleId": "493dbe48-362d-5332-ae19-a2f75c201afb",
       "name": "Morgana",
       "subtitle": "Vindictive",
       "type": "unit",
@@ -8730,6 +8916,7 @@
     {
       "number": "VEN-187",
       "uuid": "6b6b9799-74a3-530e-b26a-bf6b719f25f5",
+      "oracleId": "2d9ffa9c-8bfc-5613-bcfe-aea714eb4a60",
       "name": "Ambessa",
       "subtitle": "Respected and Feared",
       "type": "unit",
@@ -8775,6 +8962,7 @@
     {
       "number": "VEN-188",
       "uuid": "1c2c207a-f0ba-543f-be1a-416e46c7e0f5",
+      "oracleId": "094b4bec-39d3-5292-8d39-8f8e4354ab9e",
       "name": "Mel",
       "subtitle": "Defiant Soul",
       "type": "unit",
@@ -8820,6 +9008,7 @@
     {
       "number": "VEN-189",
       "uuid": "f58f6a41-0159-5bbc-a388-026d9562dfbe",
+      "oracleId": "417e5cfd-312b-5967-a852-751f4370fa78",
       "name": "Rogue Assassin",
       "type": "legend",
       "domains": [
@@ -8886,6 +9075,7 @@
     {
       "number": "VEN-190",
       "uuid": "f410c255-9292-59a0-a805-5ce5fd7cd674",
+      "oracleId": "aa14faaf-7b03-5c88-9129-28892e9de6cb",
       "name": "Butcher of the Sands",
       "type": "legend",
       "domains": [
@@ -8952,6 +9142,7 @@
     {
       "number": "VEN-191",
       "uuid": "9644aef0-bd9c-5764-a0b2-7171e589b5b0",
+      "oracleId": "6af17f66-6067-54fe-ad3f-b2e90c625892",
       "name": "Master of Shadows",
       "type": "legend",
       "domains": [
@@ -9018,6 +9209,7 @@
     {
       "number": "VEN-192",
       "uuid": "15753072-97a0-5415-82f0-cc45e22f8476",
+      "oracleId": "aea7cbd8-710f-5763-a156-2fc4437946c2",
       "name": "Curator of the Sands",
       "type": "legend",
       "domains": [
@@ -9084,6 +9276,7 @@
     {
       "number": "VEN-193",
       "uuid": "9e681697-ba50-5a40-bd65-a92364321338",
+      "oracleId": "e4b9813f-3f06-52af-a444-7e68910818d6",
       "name": "Eye of Twilight",
       "type": "legend",
       "domains": [
@@ -9150,6 +9343,7 @@
     {
       "number": "VEN-194",
       "uuid": "3b414a85-70fc-5d63-a7d2-27d6889cc7eb",
+      "oracleId": "60283309-ca0a-57ab-bdb3-9df8a367af1a",
       "name": "Defender of Tomorrow",
       "type": "legend",
       "domains": [
@@ -9216,6 +9410,7 @@
     {
       "number": "VEN-195",
       "uuid": "56399d65-a62c-5942-863c-c932140cbaaf",
+      "oracleId": "9cc7ad34-e3c8-565e-9f53-9cc7a0e1b58c",
       "name": "Soul's Reflection",
       "type": "legend",
       "domains": [
@@ -9282,6 +9477,7 @@
     {
       "number": "VEN-196",
       "uuid": "732c85d1-1811-5086-91ca-e423aad2e804",
+      "oracleId": "48f5faa1-5031-5e63-ac8f-4f1bef25acfc",
       "name": "Matriarch of War",
       "type": "legend",
       "domains": [
@@ -9348,6 +9544,7 @@
     {
       "number": "VEN-197",
       "uuid": "b68bb691-901d-5798-8f90-192521993151",
+      "oracleId": "aecbf224-487b-54fc-a193-26ce6fe5b2a4",
       "name": "Heart of the Tempest",
       "type": "legend",
       "domains": [
@@ -9415,6 +9612,7 @@
     {
       "number": "VEN-SP1",
       "uuid": "fd2d50e3-2e02-5503-82a0-94c233066871",
+      "oracleId": "50fbf03f-a2eb-508d-8579-634c0a062b4e",
       "name": "Kai'Sa",
       "subtitle": "Survivor",
       "type": "unit",
@@ -9463,6 +9661,7 @@
     {
       "number": "VEN-SP2",
       "uuid": "a9bf0fe0-94f8-58e1-8a96-6b8d50050e23",
+      "oracleId": "e1e2528d-357d-5904-8630-3bd0a0c15b8d",
       "name": "Sona",
       "subtitle": "Harmonious",
       "type": "unit",
@@ -9512,6 +9711,7 @@
     {
       "number": "VEN-SP3",
       "uuid": "492a5315-590c-5bf6-8911-49f2936d7ab8",
+      "oracleId": "dd18aebe-b532-5dc4-b566-576f98e0fd3f",
       "name": "Ahri",
       "subtitle": "Inquisitive",
       "type": "unit",
@@ -9562,6 +9762,7 @@
     {
       "number": "VEN-SP4",
       "uuid": "f69c6adb-e55e-5e45-a8ee-93d4bb039cf8",
+      "oracleId": "96de8575-74af-5f70-b6e6-678f528ce2e3",
       "name": "Sett",
       "subtitle": "Brawler",
       "type": "unit",
@@ -9611,6 +9812,7 @@
     {
       "number": "VEN-SP5",
       "uuid": "e5183f3d-6fb4-56a3-a4fb-c3a99845c7eb",
+      "oracleId": "8b14297f-3c5e-56f4-94f3-a7035119bf16",
       "name": "Ezreal",
       "subtitle": "Prodigy",
       "type": "unit",
@@ -9661,6 +9863,7 @@
     {
       "number": "VEN-SP6",
       "uuid": "7458bdb7-937b-58fc-bc20-0e897b4fd084",
+      "oracleId": "16f1a308-63c8-51e3-8f98-9775f11502ab",
       "name": "Lux",
       "subtitle": "Crownguard",
       "type": "unit",
@@ -9709,6 +9912,7 @@
     {
       "number": "VEN-R01",
       "uuid": "2f9968a0-34a3-58af-b8a3-f4d4146c2767",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -9793,6 +9997,7 @@
     {
       "number": "VEN-R02",
       "uuid": "c2c38237-d66a-5303-b1db-18f67b89fe05",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -9876,6 +10081,7 @@
     {
       "number": "VEN-R03",
       "uuid": "ba5592af-b22d-5e9b-bc3f-da450b59e905",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -9958,6 +10164,7 @@
     {
       "number": "VEN-R04",
       "uuid": "5acead8c-bfff-5ebe-9729-3bcdeecbc342",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -10040,6 +10247,7 @@
     {
       "number": "VEN-R05",
       "uuid": "c7efc119-820c-513d-88bc-ba3e60c3ea61",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -10122,6 +10330,7 @@
     {
       "number": "VEN-R06",
       "uuid": "eb038181-cb0b-5416-b668-635744408953",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -10204,6 +10413,7 @@
     {
       "number": "VEN-T04",
       "uuid": "fb051733-69ca-55c5-84ac-e707db8c3b81",
+      "oracleId": "0c20dbaa-8bc7-5798-a0bd-97e88a8904f5",
       "name": "Recruit",
       "type": "unit",
       "superTypes": [
@@ -10240,6 +10450,7 @@
     {
       "number": "VEN-T01+T02",
       "uuid": "e1926232-9b75-5c09-9c9f-539b166522fc",
+      "oracleId": "292f6035-c7d0-5ef1-9bf9-f151f31ecd1a",
       "name": "Empowered // Gold",
       "printings": [
         {
@@ -10266,6 +10477,7 @@
     {
       "number": "VEN-T01+T03",
       "uuid": "d5913669-5cf8-5940-9692-b7e72e5c8bce",
+      "oracleId": "d9f83ee0-ec4b-5a98-8c86-ab580f016e8b",
       "name": "Empowered // Mech",
       "printings": [
         {
@@ -10292,6 +10504,7 @@
     {
       "number": "VEN-T01+T04",
       "uuid": "a18e9140-ea48-5300-b3ee-09ae39671321",
+      "oracleId": "b36f4b67-de05-5122-9f14-b86ada9cbb36",
       "name": "Recruit // Empowered",
       "printings": [
         {
@@ -10318,6 +10531,7 @@
     {
       "number": "VEN-T03+T04",
       "uuid": "b035b077-b605-5ed5-b957-63d22ae19a9f",
+      "oracleId": "d0491d36-3cf3-5057-9ae9-f976b8eba96b",
       "name": "Mech // Recruit",
       "printings": [
         {
@@ -10344,6 +10558,7 @@
     {
       "number": "VEN-T05+T06",
       "uuid": "a92715c7-630c-5efc-accb-4c5f421cd8bd",
+      "oracleId": "de5cad72-596c-548c-80c1-0e1f8a011ed5",
       "name": "Shadow Clone // Tentacle",
       "printings": [
         {

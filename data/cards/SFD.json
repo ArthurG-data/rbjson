@@ -3,6 +3,7 @@
     {
       "number": "SFD-001",
       "uuid": "7d147d0f-e2cb-5567-a48b-a42013b9cfe3",
+      "oracleId": "2fcf6af6-94b9-5582-92d5-da0984b68247",
       "name": "Against the Odds",
       "type": "spell",
       "domains": [
@@ -44,6 +45,7 @@
     {
       "number": "SFD-002",
       "uuid": "f3f75e76-0e57-5eee-82e6-a9e00900a599",
+      "oracleId": "314a966b-eccc-5641-8ee1-14eee771ef5d",
       "name": "Armed Assailant",
       "type": "unit",
       "domains": [
@@ -90,6 +92,7 @@
     {
       "number": "SFD-003",
       "uuid": "c5ecf388-56d5-569a-b503-ed55d819ad86",
+      "oracleId": "7b4be640-efc9-5be9-8b5a-eb517ec34f3a",
       "name": "Blood Rush",
       "type": "spell",
       "domains": [
@@ -131,6 +134,7 @@
     {
       "number": "SFD-004",
       "uuid": "e61756fc-6281-5212-8101-1872b968f989",
+      "oracleId": "df67defc-b6d6-5e71-b318-474309634794",
       "name": "Bushwhack",
       "type": "spell",
       "domains": [
@@ -173,6 +177,7 @@
     {
       "number": "SFD-005",
       "uuid": "c794ed53-ca87-54a1-a85d-12e2d0fffe27",
+      "oracleId": "6401140c-7936-5104-b19c-6a9db76b7f0e",
       "name": "Detonate",
       "type": "spell",
       "domains": [
@@ -215,6 +220,7 @@
     {
       "number": "SFD-006",
       "uuid": "b7957968-dc4d-5c2b-9a1f-ee130eb881f6",
+      "oracleId": "1228784a-2b38-5635-8bfd-51bd912bcff3",
       "name": "Eager Drakehound",
       "type": "unit",
       "domains": [
@@ -263,6 +269,7 @@
     {
       "number": "SFD-007",
       "uuid": "a274f0de-2fd0-538a-9ecb-b0ad9f16f987",
+      "oracleId": "d25bf965-1284-53fb-82d6-64df5c9df6f7",
       "name": "Gem Jammer",
       "type": "unit",
       "domains": [
@@ -309,6 +316,7 @@
     {
       "number": "SFD-008",
       "uuid": "19fc740d-0433-5a5a-9a37-931cb2dfda7a",
+      "oracleId": "3c4356ac-00bd-5eef-ac0e-c9edd1dd6dee",
       "name": "Sentinel Adept",
       "type": "unit",
       "domains": [
@@ -355,6 +363,7 @@
     {
       "number": "SFD-009",
       "uuid": "a53f3cf0-0e9f-5016-8c7e-dd59db4ece95",
+      "oracleId": "d3122fb5-e220-514f-aecb-c2e71df8aa2b",
       "name": "Serrated Dirk",
       "type": "gear",
       "domains": [
@@ -401,6 +410,7 @@
     {
       "number": "SFD-010",
       "uuid": "8d0bce1e-e194-55d2-ac4d-d8037374d010",
+      "oracleId": "6a0fe1bd-9045-50ad-9c49-202d7b934491",
       "name": "Void Drone",
       "type": "unit",
       "domains": [
@@ -446,6 +456,7 @@
     {
       "number": "SFD-011",
       "uuid": "0d20ce9d-c34c-58ac-bd7c-2b5f7432e721",
+      "oracleId": "8b54f937-7522-5857-a10e-31e3d207cc51",
       "name": "Angle Shot",
       "type": "spell",
       "domains": [
@@ -487,6 +498,7 @@
     {
       "number": "SFD-012",
       "uuid": "bb01a035-21b6-5640-9572-a8948cdb9c84",
+      "oracleId": "c618b776-aae0-5e1d-9b2a-947a78ea2438",
       "name": "Battering Ram",
       "type": "unit",
       "domains": [
@@ -533,6 +545,7 @@
     {
       "number": "SFD-013",
       "uuid": "cbbe9717-581f-5e31-85ce-b5e535ecac23",
+      "oracleId": "2672c126-2981-5acb-a0f3-a9a8d5d49cee",
       "name": "Blast Corps Cadet",
       "type": "unit",
       "domains": [
@@ -578,6 +591,7 @@
     {
       "number": "SFD-014",
       "uuid": "a40dd26e-b36e-5552-9618-190005c89f1a",
+      "oracleId": "fe5c3b59-68dc-5188-9e4f-aba2ec2913a6",
       "name": "Minotaur Reckoner",
       "type": "unit",
       "domains": [
@@ -623,6 +637,7 @@
     {
       "number": "SFD-015",
       "uuid": "4af7ab59-d47f-517c-84a0-19f701885806",
+      "oracleId": "57001a6a-ecb2-50c9-af29-e69ebccb77d6",
       "name": "Perched Grimwyrm",
       "type": "unit",
       "domains": [
@@ -669,6 +684,7 @@
     {
       "number": "SFD-016",
       "uuid": "6d357abf-4d6e-5b53-8561-0a4184616030",
+      "oracleId": "82ce3f2b-4271-588a-856d-7ac38be5f1ef",
       "name": "Recurve Bow",
       "type": "gear",
       "domains": [
@@ -715,6 +731,7 @@
     {
       "number": "SFD-017",
       "uuid": "6a74556a-22fd-51e5-93f5-7762a3dc2e02",
+      "oracleId": "49610048-4a94-5d78-9c4c-cabd32255c47",
       "name": "Sudden Storm",
       "type": "spell",
       "domains": [
@@ -756,6 +773,7 @@
     {
       "number": "SFD-018",
       "uuid": "9a29cbd6-48ac-5bd6-8e7b-db1a3c4c2c41",
+      "oracleId": "b593a103-2f65-594e-9dad-ced63694dbc0",
       "name": "Void Hatchling",
       "type": "unit",
       "domains": [
@@ -801,6 +819,7 @@
     {
       "number": "SFD-019",
       "uuid": "889ed9b4-1b16-5f10-8de4-7a1326ff8ec0",
+      "oracleId": "a2ada2bd-2856-5e0c-b6a4-dbb53b9d70e9",
       "name": "Assembly Rig",
       "type": "gear",
       "domains": [
@@ -841,6 +860,7 @@
     {
       "number": "SFD-020",
       "uuid": "6cdaa31f-d04b-59a6-8a8a-a813f42b534b",
+      "oracleId": "be4bbdda-989d-5be7-8fa4-5f8b4d9fb18e",
       "name": "Draven",
       "subtitle": "Vanquisher",
       "type": "unit",
@@ -913,6 +933,7 @@
     {
       "number": "SFD-021",
       "uuid": "9bcecc1b-53ba-5da3-bbb3-c3dca17c7327",
+      "oracleId": "f454b755-cc71-5127-a953-4eaea67a461e",
       "name": "Ferrous Forerunner",
       "type": "unit",
       "domains": [
@@ -960,6 +981,7 @@
     {
       "number": "SFD-022",
       "uuid": "464ff201-d3b6-50d4-9d8a-b3c524555264",
+      "oracleId": "47aac3de-76cb-5297-a286-cde6768175ab",
       "name": "Long Sword",
       "type": "gear",
       "domains": [
@@ -1006,6 +1028,7 @@
     {
       "number": "SFD-023",
       "uuid": "e591d17e-73dd-5f40-afab-baa2ec1a80d3",
+      "oracleId": "7fea38ad-5408-5fc1-9231-2ade1aea545d",
       "name": "Piercing Light",
       "type": "spell",
       "domains": [
@@ -1047,6 +1070,7 @@
     {
       "number": "SFD-024",
       "uuid": "857a80e0-314e-54d4-bfc3-9e55e7a505fa",
+      "oracleId": "e9200cd3-9d60-5670-bbb1-091d6a0f2d0d",
       "name": "Rell",
       "subtitle": "Magnetic",
       "type": "unit",
@@ -1096,6 +1120,7 @@
     {
       "number": "SFD-025",
       "uuid": "2d71bf0d-72ca-57f8-8b90-e97ff7408980",
+      "oracleId": "1ba5bc52-8600-5419-a922-64d0a13acaaa",
       "name": "Rengar",
       "subtitle": "Pouncing",
       "type": "unit",
@@ -1147,6 +1172,7 @@
     {
       "number": "SFD-026",
       "uuid": "9157f043-5ad5-56ea-82bc-8d34cd3d29cb",
+      "oracleId": "175cd006-e872-5267-aace-26833749672c",
       "name": "Rumble",
       "subtitle": "Hotheaded",
       "type": "unit",
@@ -1221,6 +1247,7 @@
     {
       "number": "SFD-027",
       "uuid": "5abff945-ee27-571a-acc7-499b6a173194",
+      "oracleId": "7d276c38-2a1c-50a4-9861-0baa708aacf0",
       "name": "Dunebreaker",
       "type": "unit",
       "domains": [
@@ -1266,6 +1293,7 @@
     {
       "number": "SFD-028",
       "uuid": "20e3abb0-e2ca-5c5a-94ff-e4623a05ee95",
+      "oracleId": "37b4af02-c1e2-505d-a67a-0e34df820900",
       "name": "Lucian",
       "subtitle": "Gunslinger",
       "type": "unit",
@@ -1339,6 +1367,7 @@
     {
       "number": "SFD-029",
       "uuid": "25642edb-59b9-5aa7-abd7-a7c5c31fa557",
+      "oracleId": "e22193bc-7370-5e1c-87e7-d066e3aeb5b8",
       "name": "Rek'Sai",
       "subtitle": "Breacher",
       "type": "unit",
@@ -1411,6 +1440,7 @@
     {
       "number": "SFD-030",
       "uuid": "81410cfa-fe12-5c73-a3a7-c56882dfdd3f",
+      "oracleId": "b54efd28-4370-5f9c-b306-beed63f374b9",
       "name": "Skyfall of Areion",
       "type": "gear",
       "domains": [
@@ -1456,6 +1486,7 @@
     {
       "number": "SFD-031",
       "uuid": "f12a1439-f0da-5d25-88c9-efff586fd567",
+      "oracleId": "afb69888-d944-524c-9f60-6a64e9b7ef64",
       "name": "Desert's Call",
       "type": "spell",
       "domains": [
@@ -1497,6 +1528,7 @@
     {
       "number": "SFD-032",
       "uuid": "09c5b6f4-3798-5c2a-827d-debed3f90978",
+      "oracleId": "0a156618-3f00-5976-8492-3ea182e554da",
       "name": "Disarming Rake",
       "type": "unit",
       "domains": [
@@ -1543,6 +1575,7 @@
     {
       "number": "SFD-033",
       "uuid": "11f62381-dec8-5452-a0b8-143c3d7cad79",
+      "oracleId": "c03b2f02-0cf3-59c8-b499-784648c36c20",
       "name": "Doran's Shield",
       "type": "gear",
       "domains": [
@@ -1589,6 +1622,7 @@
     {
       "number": "SFD-034",
       "uuid": "9b49841d-22dc-5a0b-8902-41424c6bf059",
+      "oracleId": "68df1914-87aa-5e3e-a122-5b052cbaa2f4",
       "name": "Feral Strength",
       "type": "spell",
       "domains": [
@@ -1630,6 +1664,7 @@
     {
       "number": "SFD-035",
       "uuid": "aedd9f9c-ef77-5f9e-86f0-6a0c8ac1bd7f",
+      "oracleId": "bec7798b-d5d1-522d-bc69-21cf210d0b49",
       "name": "Guardian of the Passage",
       "type": "unit",
       "domains": [
@@ -1676,6 +1711,7 @@
     {
       "number": "SFD-036",
       "uuid": "68b280b2-3398-564e-8baf-e9883250ce8b",
+      "oracleId": "fe11e286-89ed-53b7-b9b4-b2a821fbae71",
       "name": "Lonely Poro",
       "type": "unit",
       "domains": [
@@ -1722,6 +1758,7 @@
     {
       "number": "SFD-037",
       "uuid": "0633e1e9-ee2c-5bf4-9669-be73c0ca54cd",
+      "oracleId": "61f0d4e5-0e2b-5051-8012-67ebd72a55ed",
       "name": "Navori Scout",
       "type": "unit",
       "domains": [
@@ -1768,6 +1805,7 @@
     {
       "number": "SFD-038",
       "uuid": "c6351d40-c26c-5121-b80d-ca6f38722ee0",
+      "oracleId": "f56f917b-d5dd-5aa3-9f98-945e1ec1220c",
       "name": "Ribbon Dancer",
       "type": "unit",
       "domains": [
@@ -1813,6 +1851,7 @@
     {
       "number": "SFD-039",
       "uuid": "dc6a4488-1f5c-5089-9597-b33d26bc471c",
+      "oracleId": "229375b4-361e-50e9-8bca-8043710a4100",
       "name": "Royal Entourage",
       "type": "unit",
       "domains": [
@@ -1859,6 +1898,7 @@
     {
       "number": "SFD-040",
       "uuid": "b3106431-1b94-5b33-93c3-c8ec46b45642",
+      "oracleId": "608c8780-7d9d-5c7e-82b0-092f2d12b494",
       "name": "Thwonk!",
       "type": "spell",
       "domains": [
@@ -1900,6 +1940,7 @@
     {
       "number": "SFD-041",
       "uuid": "e02a201b-2981-598a-8339-98119454e9c6",
+      "oracleId": "bfb7ac1a-a3f8-5bd8-ba44-0d85c5979ca9",
       "name": "Apprentice Smith",
       "type": "unit",
       "domains": [
@@ -1945,6 +1986,7 @@
     {
       "number": "SFD-042",
       "uuid": "03b7c068-c4bd-56ce-a8d4-4f6d16757161",
+      "oracleId": "0cf7f436-283e-5304-b0e5-1f5d751adda8",
       "name": "Brutalizer",
       "type": "gear",
       "domains": [
@@ -1991,6 +2033,7 @@
     {
       "number": "SFD-043",
       "uuid": "d8409000-4150-5aae-a31f-967e2de1236a",
+      "oracleId": "57f24b6c-8031-573a-a499-aea086b2c507",
       "name": "Emperor's Divide",
       "type": "spell",
       "domains": [
@@ -2032,6 +2075,7 @@
     {
       "number": "SFD-044",
       "uuid": "500ebcbc-cc9f-56ce-978c-23eb8bf4bcd0",
+      "oracleId": "44557a8d-83d2-58c7-b402-61b171e53011",
       "name": "Legion Quartermaster",
       "type": "unit",
       "domains": [
@@ -2078,6 +2122,7 @@
     {
       "number": "SFD-045",
       "uuid": "bb202c85-573a-5ffc-b209-8e50c1c88bc3",
+      "oracleId": "62f25969-e7b3-55ad-9ed5-fce8e8331080",
       "name": "Not So Fast",
       "type": "spell",
       "domains": [
@@ -2120,6 +2165,7 @@
     {
       "number": "SFD-046",
       "uuid": "ae769e03-a756-56b6-90e2-a38b88fc3b46",
+      "oracleId": "8a925a40-17fb-5a20-9445-cc44ebbde6c6",
       "name": "Poro Snax",
       "type": "gear",
       "domains": [
@@ -2162,6 +2208,7 @@
     {
       "number": "SFD-047",
       "uuid": "4a96c331-abc8-5ee2-9af0-4479e897f45c",
+      "oracleId": "98c32822-eaa7-5542-966f-d4db9a6db7a3",
       "name": "Simian Ancestor",
       "type": "unit",
       "domains": [
@@ -2208,6 +2255,7 @@
     {
       "number": "SFD-048",
       "uuid": "90855d42-65db-5608-b1be-de982eb0454d",
+      "oracleId": "d93919b1-be5a-5a9c-9845-46fae387e459",
       "name": "Stellacorn Herder",
       "type": "unit",
       "domains": [
@@ -2253,6 +2301,7 @@
     {
       "number": "SFD-049",
       "uuid": "190f41d4-91a9-5a5f-b6e9-315b9be8da75",
+      "oracleId": "8592382b-103d-5f80-830c-2ad6dce624d5",
       "name": "Aphelios",
       "subtitle": "Exalted",
       "type": "unit",
@@ -2300,6 +2349,7 @@
     {
       "number": "SFD-050",
       "uuid": "5497f812-eb0e-51fa-9380-c40dda12235d",
+      "oracleId": "00a53e72-b561-5e4c-98ab-2c616b90522c",
       "name": "Azir",
       "subtitle": "Ascendant",
       "type": "unit",
@@ -2374,6 +2424,7 @@
     {
       "number": "SFD-051",
       "uuid": "7028d482-9e4a-5526-94a4-745decdc4227",
+      "oracleId": "ebbfb499-02a7-5087-b4d4-f43adbb6f2d9",
       "name": "Guardian Angel",
       "type": "gear",
       "domains": [
@@ -2419,6 +2470,7 @@
     {
       "number": "SFD-052",
       "uuid": "47a00935-b7c5-5968-9b94-d4f1f05053c9",
+      "oracleId": "e912a2a7-737a-5894-aec2-dbbe80d6e2eb",
       "name": "Heart of Dark Ice",
       "type": "gear",
       "domains": [
@@ -2460,6 +2512,7 @@
     {
       "number": "SFD-053",
       "uuid": "058ca164-f48d-54c6-9c59-4c528d550e82",
+      "oracleId": "0146b1c4-3a35-563e-9303-43a6372d0f3f",
       "name": "Janna",
       "subtitle": "Savior",
       "type": "unit",
@@ -2510,6 +2563,7 @@
     {
       "number": "SFD-054",
       "uuid": "84f927ff-9e2d-523b-a9ed-315ef638a3dc",
+      "oracleId": "a185a9d1-f99e-5ae3-9b22-a09c9cfb8139",
       "name": "Jax",
       "subtitle": "Unmatched",
       "type": "unit",
@@ -2583,6 +2637,7 @@
     {
       "number": "SFD-055",
       "uuid": "c5f34fe6-b3b2-5854-9fc8-70314a3373ef",
+      "oracleId": "3fea0c94-5a13-537a-b341-cd0ccaa0a3ba",
       "name": "Needlessly Large Yordle",
       "type": "unit",
       "domains": [
@@ -2629,6 +2684,7 @@
     {
       "number": "SFD-056",
       "uuid": "9165754e-70d3-5f65-8608-6170b2a2e81e",
+      "oracleId": "4bd71314-6ba9-5686-95e4-4cd15140bfa8",
       "name": "Sterak's Gage",
       "type": "gear",
       "domains": [
@@ -2675,6 +2731,7 @@
     {
       "number": "SFD-057",
       "uuid": "a704aceb-7fea-5d11-be20-3d2f7d2e8326",
+      "oracleId": "3e53b949-91dd-56e0-96e8-d03bfe85b92e",
       "name": "Irelia",
       "subtitle": "Fervent",
       "type": "unit",
@@ -2747,6 +2804,7 @@
     {
       "number": "SFD-058",
       "uuid": "e3a3085c-834d-58c3-b76f-ac65c11b753b",
+      "oracleId": "5feaef1e-19f6-517b-a4c0-10c8a6d6ef47",
       "name": "Ornn",
       "subtitle": "Blacksmith",
       "type": "unit",
@@ -2820,6 +2878,7 @@
     {
       "number": "SFD-059",
       "uuid": "ca20a7e7-993c-520b-9021-144ac392abd4",
+      "oracleId": "1d1d373a-a3e1-56e9-a35d-155b23f82853",
       "name": "Svellsongur",
       "type": "gear",
       "domains": [
@@ -2866,6 +2925,7 @@
     {
       "number": "SFD-060",
       "uuid": "2caf7773-9dbc-5549-83c2-aca850047f11",
+      "oracleId": "ca61dac7-bf4d-5857-b473-23e92ba1e423",
       "name": "Tianna Crownguard",
       "type": "unit",
       "domains": [
@@ -2912,6 +2972,7 @@
     {
       "number": "SFD-061",
       "uuid": "4e3ce1a4-bebc-5c38-a5b9-26c91db7c0a4",
+      "oracleId": "b7d3ab32-4ac1-5800-8edd-f9d714fd553e",
       "name": "Aspiring Engineer",
       "type": "unit",
       "domains": [
@@ -2958,6 +3019,7 @@
     {
       "number": "SFD-062",
       "uuid": "31261ea4-0389-541a-b4a3-8c6dda342dbe",
+      "oracleId": "558cb962-f305-522a-a7f1-54f65292fa30",
       "name": "Bubble Bot",
       "type": "unit",
       "domains": [
@@ -3005,6 +3067,7 @@
     {
       "number": "SFD-063",
       "uuid": "d00235f6-cfef-5626-bc35-89c1a5842eea",
+      "oracleId": "c610cd27-f33a-550f-af3e-7e32ff899895",
       "name": "Chemtech Cask",
       "type": "gear",
       "domains": [
@@ -3046,6 +3109,7 @@
     {
       "number": "SFD-064",
       "uuid": "1b5c1ab4-6723-5c17-95b9-6370567aff9a",
+      "oracleId": "b5a27dd6-b43e-53ad-949b-65af574adb6d",
       "name": "Cloth Armor",
       "type": "gear",
       "domains": [
@@ -3092,6 +3156,7 @@
     {
       "number": "SFD-065",
       "uuid": "87cf3136-7f47-5d94-a053-1d7cf231ee8c",
+      "oracleId": "f95f25bf-baaa-5f1c-b925-8545cd196206",
       "name": "Forecaster",
       "type": "unit",
       "domains": [
@@ -3139,6 +3204,7 @@
     {
       "number": "SFD-066",
       "uuid": "ad8b2169-795d-5b2d-af80-cee7143522d2",
+      "oracleId": "8b6b7d05-7759-500d-8359-76b27500dcf4",
       "name": "Frigid Touch",
       "type": "spell",
       "domains": [
@@ -3180,6 +3246,7 @@
     {
       "number": "SFD-067",
       "uuid": "f45d1852-9823-5354-b869-8bcdae4c288e",
+      "oracleId": "36b6f855-9935-5ae0-a706-e1eb6d740eec",
       "name": "Frostcoat Cub",
       "type": "unit",
       "domains": [
@@ -3226,6 +3293,7 @@
     {
       "number": "SFD-068",
       "uuid": "d7e437d0-ea93-5bd0-a27e-92cdb819ed16",
+      "oracleId": "f9140d6e-364d-5b62-9e53-171caecd35fe",
       "name": "Gearhead",
       "type": "unit",
       "domains": [
@@ -3271,6 +3339,7 @@
     {
       "number": "SFD-069",
       "uuid": "3c51f3b4-80a9-5e49-8157-30d0c99ed2b4",
+      "oracleId": "fc914574-ac21-59ba-b5fd-f84f6ffadcaf",
       "name": "Plundering Poro",
       "type": "unit",
       "domains": [
@@ -3318,6 +3387,7 @@
     {
       "number": "SFD-070",
       "uuid": "f4e373a0-db99-522d-a0aa-389ad964ca0b",
+      "oracleId": "2f402afa-2125-5c9d-8ec7-8f64c1e5b03d",
       "name": "Wages of Pain",
       "type": "spell",
       "domains": [
@@ -3359,6 +3429,7 @@
     {
       "number": "SFD-071",
       "uuid": "ab9ea2cf-04c1-520e-81ff-188e8fb572a9",
+      "oracleId": "5028bbc7-0717-5536-95ec-fa38d74add49",
       "name": "Breakneck Mech",
       "type": "unit",
       "domains": [
@@ -3407,6 +3478,7 @@
     {
       "number": "SFD-072",
       "uuid": "ac3fd160-0389-5f1d-9689-e442ece388f1",
+      "oracleId": "9cb69874-270d-5d2e-981e-90daa4e3316f",
       "name": "Dropboarder",
       "type": "unit",
       "domains": [
@@ -3452,6 +3524,7 @@
     {
       "number": "SFD-073",
       "uuid": "10d8e243-3816-56a5-9c4a-bc1d9ad60042",
+      "oracleId": "5766e2bf-8f6b-5294-8404-33cd1497f676",
       "name": "Experimental Hexplate",
       "type": "gear",
       "domains": [
@@ -3498,6 +3571,7 @@
     {
       "number": "SFD-074",
       "uuid": "463413e5-fcaf-594a-bc63-3e7a5f5ed9b7",
+      "oracleId": "a639c052-6f49-5395-a2e9-c306281bdf60",
       "name": "Pickpocket",
       "type": "unit",
       "domains": [
@@ -3543,6 +3617,7 @@
     {
       "number": "SFD-075",
       "uuid": "a134ed1b-79e5-5b0a-b01b-7be9a1383f73",
+      "oracleId": "1ac40b8f-6f0d-5bf0-a31c-baf6fd819ef5",
       "name": "Prize of Progress",
       "type": "unit",
       "domains": [
@@ -3590,6 +3665,7 @@
     {
       "number": "SFD-076",
       "uuid": "f4c7e06b-4bc8-5237-9468-a567ef76901e",
+      "oracleId": "d16eb583-30ae-50a5-93c1-c6057c43746e",
       "name": "Production Surge",
       "type": "spell",
       "domains": [
@@ -3632,6 +3708,7 @@
     {
       "number": "SFD-077",
       "uuid": "0c050d1a-3a80-52fc-b883-48290252d0b3",
+      "oracleId": "0d7b1170-db3e-5456-b2d0-1eb6299c8a34",
       "name": "Rocket Barrage",
       "type": "spell",
       "domains": [
@@ -3674,6 +3751,7 @@
     {
       "number": "SFD-078",
       "uuid": "0d5585e9-cc20-5543-9b77-d29914423ad6",
+      "oracleId": "cc3869c9-d47e-5670-b4c6-2f88df0d6b0a",
       "name": "Temporal Portal",
       "type": "gear",
       "domains": [
@@ -3715,6 +3793,7 @@
     {
       "number": "SFD-079",
       "uuid": "78300efe-b034-5d73-8bf6-ee1d77a0dd33",
+      "oracleId": "2b86e85d-182f-567b-97ea-8f568e2e5eae",
       "name": "Bard",
       "subtitle": "Mercurial",
       "type": "unit",
@@ -3761,6 +3840,7 @@
     {
       "number": "SFD-080",
       "uuid": "9482c234-41d2-5e62-9cd4-97b7a4eeb519",
+      "oracleId": "6dc1fe93-6747-59e7-acad-67fcd6206da7",
       "name": "Bellows Breath",
       "type": "spell",
       "domains": [
@@ -3802,6 +3882,7 @@
     {
       "number": "SFD-081",
       "uuid": "800b7fee-c22b-5b54-a330-6a0cb5a693f8",
+      "oracleId": "1ea09b6f-6773-50bc-8c8f-0ffbb39d0af1",
       "name": "Card Sharp",
       "type": "unit",
       "domains": [
@@ -3846,6 +3927,7 @@
     {
       "number": "SFD-082",
       "uuid": "cc6451ea-aaa6-53ca-993b-042986464cd1",
+      "oracleId": "dc63ae5b-4825-565d-a787-dc3d28e1ca15",
       "name": "Ezreal",
       "subtitle": "Dashing",
       "type": "unit",
@@ -3919,6 +4001,7 @@
     {
       "number": "SFD-083",
       "uuid": "29fcdd33-28c4-5bcf-a257-1a5f13ad0cd9",
+      "oracleId": "d3e81016-a60c-5772-87d6-70b94fe3940b",
       "name": "Hextech Anomaly",
       "type": "gear",
       "domains": [
@@ -3960,6 +4043,7 @@
     {
       "number": "SFD-084",
       "uuid": "2a4c3c4d-1cd7-52ef-9881-44586823733e",
+      "oracleId": "2e7bac20-341d-541b-9999-2df170abb5ab",
       "name": "Jayce",
       "subtitle": "Man of Progress",
       "type": "unit",
@@ -4009,6 +4093,7 @@
     {
       "number": "SFD-085",
       "uuid": "a60f7abc-b399-5bdd-941e-67a256f22a7c",
+      "oracleId": "03327a3e-4d83-5672-8924-ca100a1d8a3f",
       "name": "Ornn",
       "subtitle": "Forge God",
       "type": "unit",
@@ -4081,6 +4166,7 @@
     {
       "number": "SFD-086",
       "uuid": "3f858a5f-e4ec-5817-aead-9698fd329145",
+      "oracleId": "8c8ab5af-66b5-5daa-98bc-f049476b5353",
       "name": "World Atlas",
       "type": "gear",
       "domains": [
@@ -4126,6 +4212,7 @@
     {
       "number": "SFD-087",
       "uuid": "72ddd06b-f2f5-55e6-9f83-a68872ddba27",
+      "oracleId": "15b984c5-83ad-5e55-bed9-3ddcb83a9563",
       "name": "Premonition",
       "type": "spell",
       "domains": [
@@ -4167,6 +4254,7 @@
     {
       "number": "SFD-088",
       "uuid": "20d7f811-ae58-5e3b-9151-7d581e9390b3",
+      "oracleId": "46d1b3b4-70d3-5199-81d5-5b87ae355e79",
       "name": "Renata Glasc",
       "subtitle": "Mastermind",
       "type": "unit",
@@ -4239,6 +4327,7 @@
     {
       "number": "SFD-089",
       "uuid": "4e652c7b-b3ed-5fbd-9001-b27b9f902777",
+      "oracleId": "bc97fa1f-e903-53b9-a279-8773224d55f0",
       "name": "Rumble",
       "subtitle": "Scrapper",
       "type": "unit",
@@ -4314,6 +4403,7 @@
     {
       "number": "SFD-090",
       "uuid": "a6e0c14e-97b8-5fe6-8a5a-b5abf786da59",
+      "oracleId": "c623fa8b-497d-54d0-b16b-869aadeb5f87",
       "name": "The Zero Drive",
       "type": "gear",
       "domains": [
@@ -4359,6 +4449,7 @@
     {
       "number": "SFD-091",
       "uuid": "fd53c94f-3c35-53e3-94d6-68414fc27129",
+      "oracleId": "7dfd27cc-4886-5d22-b444-2d39d16e1d9f",
       "name": "Buhru Captain",
       "type": "unit",
       "domains": [
@@ -4405,6 +4496,7 @@
     {
       "number": "SFD-092",
       "uuid": "c6dc42f0-7e1a-562b-9f73-eda52bb812ba",
+      "oracleId": "9f6b7cd5-6b32-5802-ae1d-03636dc39481",
       "name": "Combat Chef",
       "type": "unit",
       "domains": [
@@ -4450,6 +4542,7 @@
     {
       "number": "SFD-093",
       "uuid": "179b6800-df9f-543c-a34e-db51715fba98",
+      "oracleId": "23ce94bb-a4b9-5d62-b045-9615373491f7",
       "name": "Dauntless Vanguard",
       "type": "unit",
       "domains": [
@@ -4497,6 +4590,7 @@
     {
       "number": "SFD-094",
       "uuid": "9d61e642-da18-5972-8546-eed5ce5b1d4d",
+      "oracleId": "9e3c1bca-c8ce-5791-9461-b2a4c00d68d0",
       "name": "Direwing",
       "type": "unit",
       "domains": [
@@ -4543,6 +4637,7 @@
     {
       "number": "SFD-095",
       "uuid": "c3bdbf7f-8081-5d9f-b215-66de404d9c4e",
+      "oracleId": "01c3c4c6-f941-5584-abe5-fe1ed7afd9e0",
       "name": "Doran's Blade",
       "type": "gear",
       "domains": [
@@ -4589,6 +4684,7 @@
     {
       "number": "SFD-096",
       "uuid": "a3894105-cc10-515d-8aa8-493df6306999",
+      "oracleId": "7845ba0a-cdfa-5155-9506-848db9b2916a",
       "name": "Laurent Bladekeeper",
       "type": "unit",
       "domains": [
@@ -4634,6 +4730,7 @@
     {
       "number": "SFD-097",
       "uuid": "ae9b0643-d150-55ba-a382-17340363c062",
+      "oracleId": "dabdef05-5d21-5059-a2b4-2606fd06364e",
       "name": "Punch First",
       "type": "spell",
       "domains": [
@@ -4676,6 +4773,7 @@
     {
       "number": "SFD-098",
       "uuid": "59b75c16-b703-59ac-a5ce-b22a1de9e1e3",
+      "oracleId": "e0f18a91-1cde-5ae6-ad41-fb4e4bd20c36",
       "name": "Sea Monkey",
       "type": "unit",
       "domains": [
@@ -4722,6 +4820,7 @@
     {
       "number": "SFD-099",
       "uuid": "0abe7ca3-b9f3-5ed7-bb08-e240e8245faf",
+      "oracleId": "3ec324cb-d3c7-5ad4-acc2-fde732d09459",
       "name": "Veteran Poro",
       "type": "unit",
       "domains": [
@@ -4768,6 +4867,7 @@
     {
       "number": "SFD-100",
       "uuid": "10adda74-8511-5710-bb99-f1be1cab972b",
+      "oracleId": "7698d85d-2544-5c60-96d1-19ce6ae4b28f",
       "name": "Yordle Explorer",
       "type": "unit",
       "domains": [
@@ -4814,6 +4914,7 @@
     {
       "number": "SFD-101",
       "uuid": "e8b7da2d-5c07-5af3-8dab-fc649d1ef2fb",
+      "oracleId": "ef286032-6689-5507-9885-bfbe270a85b1",
       "name": "Fae Dragon",
       "type": "unit",
       "domains": [
@@ -4862,6 +4963,7 @@
     {
       "number": "SFD-102",
       "uuid": "ae6d9f1a-070c-5380-ac92-0fb610130a05",
+      "oracleId": "07ea12bb-d82d-5fa5-90ca-1d7720359ba1",
       "name": "Hexdrinker",
       "type": "gear",
       "domains": [
@@ -4908,6 +5010,7 @@
     {
       "number": "SFD-103",
       "uuid": "c738b39f-eb3f-5a7d-a395-0c61ebd66bd5",
+      "oracleId": "37ea4457-c86a-5b60-9180-a93374a9f2fd",
       "name": "Jaull-Fish",
       "type": "unit",
       "domains": [
@@ -4954,6 +5057,7 @@
     {
       "number": "SFD-104",
       "uuid": "ae7db471-88b6-533b-b032-aa988002fb84",
+      "oracleId": "cdf7cf1a-69c0-55f8-bf35-f9f6d3f65dce",
       "name": "Petricite Monument",
       "type": "gear",
       "domains": [
@@ -4995,6 +5099,7 @@
     {
       "number": "SFD-105",
       "uuid": "ae7ae5a4-040d-5fae-b12f-d197299e3b0c",
+      "oracleId": "dc2ae02f-8fc2-5cf5-9925-f1d2807e509a",
       "name": "Ruin Runner",
       "type": "unit",
       "domains": [
@@ -5040,6 +5145,7 @@
     {
       "number": "SFD-106",
       "uuid": "c4e83597-e688-58b3-835c-91f8b09a20b8",
+      "oracleId": "c88870a3-1276-55c1-b58b-2bc62f5cb56c",
       "name": "Show of Strength",
       "type": "spell",
       "domains": [
@@ -5082,6 +5188,7 @@
     {
       "number": "SFD-107",
       "uuid": "3600cc3f-e596-5b19-823b-7cf037e805b6",
+      "oracleId": "9e1d35ca-46ea-5c27-a278-564525dc623e",
       "name": "Strike Down",
       "type": "spell",
       "domains": [
@@ -5124,6 +5231,7 @@
     {
       "number": "SFD-108",
       "uuid": "178dd535-4ebe-57e2-bfa9-602ac463eead",
+      "oracleId": "cb91f1ff-21a9-5a1e-90ad-1d6e51f3fe47",
       "name": "Warmog's Armor",
       "type": "gear",
       "domains": [
@@ -5170,6 +5278,7 @@
     {
       "number": "SFD-109",
       "uuid": "15d61b0b-f874-5e41-a162-3eedd7739a7a",
+      "oracleId": "b70815d4-e999-57a5-8e0a-a58a1f2eebb3",
       "name": "Akshan",
       "subtitle": "Mischievous",
       "type": "unit",
@@ -5220,6 +5329,7 @@
     {
       "number": "SFD-110",
       "uuid": "62da3945-001a-5598-8a5e-06bf6757894c",
+      "oracleId": "1575373a-c0f8-550e-b314-db00e6447750",
       "name": "Fiora",
       "subtitle": "Peerless",
       "type": "unit",
@@ -5293,6 +5403,7 @@
     {
       "number": "SFD-111",
       "uuid": "dcef7174-418a-50d5-a502-845337897f6d",
+      "oracleId": "65851b08-e968-5ec7-8e84-58c4b3e4c478",
       "name": "Here to Help",
       "type": "spell",
       "domains": [
@@ -5334,6 +5445,7 @@
     {
       "number": "SFD-112",
       "uuid": "83188153-b1b5-5438-9081-b76d2b6318e3",
+      "oracleId": "c5fb9cfa-dfb6-5ece-9535-df0de57c5718",
       "name": "Kato the Arm",
       "type": "unit",
       "domains": [
@@ -5379,6 +5491,7 @@
     {
       "number": "SFD-113",
       "uuid": "e1f2522c-89a9-59af-a5bd-ba082eda9964",
+      "oracleId": "c4a0cc42-c4fe-5dde-a59f-4838da6cc36c",
       "name": "Lucian",
       "subtitle": "Merciless",
       "type": "unit",
@@ -5452,6 +5565,7 @@
     {
       "number": "SFD-114",
       "uuid": "87688659-d5ee-565b-84ba-6ef2b948a87e",
+      "oracleId": "c37e5542-0eb8-59a1-8d9c-e757b666001e",
       "name": "Marching Orders",
       "type": "spell",
       "domains": [
@@ -5492,6 +5606,7 @@
     {
       "number": "SFD-115",
       "uuid": "ce9938c0-a91f-5539-b07c-11735f2d8b9c",
+      "oracleId": "aff2af32-04dd-5ca9-8a09-2fb17e3369c3",
       "name": "Trinity Force",
       "type": "gear",
       "domains": [
@@ -5537,6 +5652,7 @@
     {
       "number": "SFD-116",
       "uuid": "e143292f-9c46-5de1-a1bd-b93e85d30226",
+      "oracleId": "83c3efd7-413c-5b2e-9350-37384471bdf0",
       "name": "Yone",
       "subtitle": "Blademaster",
       "type": "unit",
@@ -5585,6 +5701,7 @@
     {
       "number": "SFD-117",
       "uuid": "9e0516d2-b356-53a5-ad82-032bd6fbee54",
+      "oracleId": "243ce890-53af-5b1c-8fb4-202ab8bcf894",
       "name": "Ancient Henge",
       "type": "gear",
       "domains": [
@@ -5626,6 +5743,7 @@
     {
       "number": "SFD-118",
       "uuid": "9ae71b5a-0ce6-529b-ad58-bfc7bf4c5d0b",
+      "oracleId": "9c387d05-4da1-55d8-8fa4-f9cf6d98b7a0",
       "name": "Boneshiver",
       "type": "gear",
       "domains": [
@@ -5671,6 +5789,7 @@
     {
       "number": "SFD-119",
       "uuid": "51035ae5-d9fb-569d-85d0-081e9a3c2d7d",
+      "oracleId": "3907796f-f572-52be-9773-66c36010b458",
       "name": "Jax",
       "subtitle": "Unrelenting",
       "type": "unit",
@@ -5744,6 +5863,7 @@
     {
       "number": "SFD-120",
       "uuid": "5b942dd0-e890-5e77-a334-3a292391b9d0",
+      "oracleId": "547fa9bf-77e2-5877-91ce-5bf2daa3b68d",
       "name": "Sivir",
       "subtitle": "Ambitious",
       "type": "unit",
@@ -5817,6 +5937,7 @@
     {
       "number": "SFD-121",
       "uuid": "60484b18-fe76-596b-a1dc-6e239f9fef9a",
+      "oracleId": "d3f78fef-b94b-5321-bf9d-1e7e20c82d26",
       "name": "Black Market Broker",
       "type": "unit",
       "domains": [
@@ -5862,6 +5983,7 @@
     {
       "number": "SFD-122",
       "uuid": "1fafc7df-6f26-5841-93cd-dfef43015745",
+      "oracleId": "899850c8-519a-553c-8faa-b505432c18a3",
       "name": "Called Shot",
       "type": "spell",
       "domains": [
@@ -5904,6 +6026,7 @@
     {
       "number": "SFD-123",
       "uuid": "03e92aed-c1e7-5cbd-9241-5132e739e910",
+      "oracleId": "fd821ded-1cbd-58cc-a22d-7117ab7750dc",
       "name": "Corrupt Enforcer",
       "type": "unit",
       "domains": [
@@ -5950,6 +6073,7 @@
     {
       "number": "SFD-124",
       "uuid": "6b59b569-b892-5500-a0a1-da750b530306",
+      "oracleId": "305ffb9c-044a-5194-acfb-5d685d8e1f80",
       "name": "Doran's Ring",
       "type": "gear",
       "domains": [
@@ -5996,6 +6120,7 @@
     {
       "number": "SFD-125",
       "uuid": "cc0ed197-0a0d-5bb8-b36d-f9e476ce7b83",
+      "oracleId": "f0217acf-0dfe-566e-81e0-ba87dcf804a4",
       "name": "Fae Porter",
       "type": "unit",
       "domains": [
@@ -6042,6 +6167,7 @@
     {
       "number": "SFD-126",
       "uuid": "48f01b12-a33e-5797-8ad8-b0104cdd23c0",
+      "oracleId": "8ee95f07-1202-5192-9272-f407d0914f2f",
       "name": "Loyal Pup",
       "type": "unit",
       "domains": [
@@ -6088,6 +6214,7 @@
     {
       "number": "SFD-127",
       "uuid": "14b033fd-cfa6-5212-a03d-399fc704d58c",
+      "oracleId": "2624c90a-0ed6-59b9-90d3-da954b700057",
       "name": "Master Bingwen",
       "type": "unit",
       "domains": [
@@ -6133,6 +6260,7 @@
     {
       "number": "SFD-128",
       "uuid": "08c5a74f-7fa2-538d-adb0-e168da0d0bc5",
+      "oracleId": "f70c4fc2-1189-5a45-9400-bb807717c3bc",
       "name": "Overzealous Fan",
       "type": "unit",
       "domains": [
@@ -6178,6 +6306,7 @@
     {
       "number": "SFD-129",
       "uuid": "cb43cb1f-34e5-50c4-90dc-6c7747612b99",
+      "oracleId": "db464b01-6e7c-54dc-ad7e-3a962f41646d",
       "name": "Temptation",
       "type": "spell",
       "domains": [
@@ -6219,6 +6348,7 @@
     {
       "number": "SFD-130",
       "uuid": "60715763-8908-59e2-8d6f-735c272cb534",
+      "oracleId": "36ace976-1ac7-5110-892e-aedc945946dc",
       "name": "Treasure Hunter",
       "type": "unit",
       "domains": [
@@ -6264,6 +6394,7 @@
     {
       "number": "SFD-131",
       "uuid": "fdd133c3-de41-52d8-b638-51dd0c7dcdc4",
+      "oracleId": "2e0fe767-c109-5e49-b8cc-6d75f54efbae",
       "name": "Ancient Warmonger",
       "type": "unit",
       "domains": [
@@ -6310,6 +6441,7 @@
     {
       "number": "SFD-132",
       "uuid": "1d4093b6-710c-5c44-9260-5e91b13fd1cd",
+      "oracleId": "823a17b1-b1ae-5a88-a09d-7f17ae27da95",
       "name": "Beast Below",
       "type": "unit",
       "domains": [
@@ -6356,6 +6488,7 @@
     {
       "number": "SFD-133",
       "uuid": "2850778a-df2e-5b6c-b95f-dbca1996bd5b",
+      "oracleId": "f8272431-bcbd-54e4-8a64-efc1239d10e6",
       "name": "Boots of Swiftness",
       "type": "gear",
       "domains": [
@@ -6402,6 +6535,7 @@
     {
       "number": "SFD-134",
       "uuid": "c353ef2a-c4ce-56ac-a83f-385f009ca817",
+      "oracleId": "235a9b29-9ca1-5bf8-ae07-fa6433a5d52d",
       "name": "Cull",
       "type": "gear",
       "domains": [
@@ -6448,6 +6582,7 @@
     {
       "number": "SFD-135",
       "uuid": "cb06943f-2a86-572e-b921-30a666897f02",
+      "oracleId": "6a8fff58-d4df-5388-959f-8ac4b6df7b07",
       "name": "Factory Recall",
       "type": "spell",
       "domains": [
@@ -6489,6 +6624,7 @@
     {
       "number": "SFD-136",
       "uuid": "705eea96-7552-5b67-8321-f64dbfbe8706",
+      "oracleId": "351fe08d-a2cd-5f1f-9f2f-baddb3bdfec8",
       "name": "Hard Bargain",
       "type": "spell",
       "domains": [
@@ -6530,6 +6666,7 @@
     {
       "number": "SFD-137",
       "uuid": "23c579d7-ccb4-5ce5-8341-ea67430047f5",
+      "oracleId": "28b14a93-3df2-5c4d-9395-e503e210a6d0",
       "name": "Harpoon Squad",
       "type": "unit",
       "domains": [
@@ -6576,6 +6713,7 @@
     {
       "number": "SFD-138",
       "uuid": "84455742-dc69-5135-b465-0c42d54febf7",
+      "oracleId": "aa5f5a4e-f21c-51de-90e4-79b875f9868a",
       "name": "Windsinger",
       "type": "unit",
       "domains": [
@@ -6621,6 +6759,7 @@
     {
       "number": "SFD-139",
       "uuid": "107b792c-6358-553d-9598-2d65f18d9d38",
+      "oracleId": "cf664656-ea8f-5cef-9aa7-ac3bc70a1e36",
       "name": "Edge of Night",
       "type": "gear",
       "domains": [
@@ -6666,6 +6805,7 @@
     {
       "number": "SFD-140",
       "uuid": "8a628047-7c68-5685-bfe3-54fe03efff0c",
+      "oracleId": "eaae6a11-b00d-5e47-be0b-6e029ae4aaa2",
       "name": "Fizz",
       "subtitle": "Trickster",
       "type": "unit",
@@ -6717,6 +6857,7 @@
     {
       "number": "SFD-141",
       "uuid": "d40339df-0819-5cdc-84f3-abd09d40daaf",
+      "oracleId": "8a922008-a5cd-52a9-bbda-e6eca325cf39",
       "name": "Irelia",
       "subtitle": "Graceful",
       "type": "unit",
@@ -6790,6 +6931,7 @@
     {
       "number": "SFD-142",
       "uuid": "fe231b8a-89c4-5945-963d-305499f1598e",
+      "oracleId": "bad0fb76-9cde-5a34-9d63-39b68c812b1b",
       "name": "Jae Medarda",
       "type": "unit",
       "domains": [
@@ -6835,6 +6977,7 @@
     {
       "number": "SFD-143",
       "uuid": "9d62ffba-96ce-5633-8cd2-3dba892c5e5e",
+      "oracleId": "b4a51303-4e97-5c14-8c04-cc978538c5cd",
       "name": "Sivir",
       "subtitle": "Mercenary",
       "type": "unit",
@@ -6908,6 +7051,7 @@
     {
       "number": "SFD-144",
       "uuid": "f5690101-a6db-5ef6-96bc-929c6bc151e0",
+      "oracleId": "b9df4a91-9ef9-55ab-be1f-aada36df7aff",
       "name": "Spirit Wheel",
       "type": "gear",
       "domains": [
@@ -6948,6 +7092,7 @@
     {
       "number": "SFD-145",
       "uuid": "89769ccc-f7b7-5190-8839-d3175be14a60",
+      "oracleId": "df6389c5-7262-588a-8077-51a5a7b8ae70",
       "name": "Switcheroo",
       "type": "spell",
       "domains": [
@@ -6989,6 +7134,7 @@
     {
       "number": "SFD-146",
       "uuid": "f2c1397e-6c9f-505d-a557-724ee3fdd365",
+      "oracleId": "897323a3-8941-57c4-934d-b64ed3eba3ed",
       "name": "Vex",
       "subtitle": "Cheerless",
       "type": "unit",
@@ -7040,6 +7186,7 @@
     {
       "number": "SFD-147",
       "uuid": "0f11128f-c252-5610-bbcb-8b1decc1b065",
+      "oracleId": "9853a774-39f1-5c69-8dfd-df00fdc6cee6",
       "name": "Downwell",
       "type": "spell",
       "domains": [
@@ -7081,6 +7228,7 @@
     {
       "number": "SFD-148",
       "uuid": "6010b45f-7945-540d-bb4f-3fcbe12a941f",
+      "oracleId": "a344aba8-614b-5d3f-acf5-5d3e20bd1488",
       "name": "Draven",
       "subtitle": "Audacious",
       "type": "unit",
@@ -7154,6 +7302,7 @@
     {
       "number": "SFD-149",
       "uuid": "5aa91477-7f06-50b6-940c-905a6c022336",
+      "oracleId": "8b14297f-3c5e-56f4-94f3-a7035119bf16",
       "name": "Ezreal",
       "subtitle": "Prodigy",
       "type": "unit",
@@ -7227,6 +7376,7 @@
     {
       "number": "SFD-150",
       "uuid": "f5188d12-4a2c-5949-bc62-28efe7d8e7cb",
+      "oracleId": "b875e475-d3ac-59ba-a789-3115bb7ae332",
       "name": "Last Rites",
       "type": "gear",
       "domains": [
@@ -7272,6 +7422,7 @@
     {
       "number": "SFD-151",
       "uuid": "76bd05d6-7513-5476-9908-12966ec08e51",
+      "oracleId": "37740d3f-541b-5ed7-ae62-0756782a2e3d",
       "name": "Bonds of Strength",
       "type": "spell",
       "domains": [
@@ -7313,6 +7464,7 @@
     {
       "number": "SFD-152",
       "uuid": "77efc097-bbd6-51d4-9d57-153a8a401f7d",
+      "oracleId": "b9e372fc-65d4-51fb-a589-e54c1304909e",
       "name": "Eminent Benefactor",
       "type": "unit",
       "domains": [
@@ -7358,6 +7510,7 @@
     {
       "number": "SFD-153",
       "uuid": "a7346ec5-cbc7-5318-a582-ed9a01f31c09",
+      "oracleId": "35ed7f4a-8fb8-5d09-96c1-9a94690b492c",
       "name": "Eye of the Herald",
       "type": "gear",
       "domains": [
@@ -7404,6 +7557,7 @@
     {
       "number": "SFD-154",
       "uuid": "9658bfda-0bc0-5433-ac50-fa2b231eae28",
+      "oracleId": "c6bc2f48-27c9-5800-b565-582dea09c61c",
       "name": "Guards!",
       "type": "spell",
       "domains": [
@@ -7445,6 +7599,7 @@
     {
       "number": "SFD-155",
       "uuid": "8469adca-b6d3-5e39-822e-1021ad5ed18d",
+      "oracleId": "a621e6f7-c6ec-5ab9-a9fc-ff944ef2e18a",
       "name": "Honest Broker",
       "type": "unit",
       "domains": [
@@ -7490,6 +7645,7 @@
     {
       "number": "SFD-156",
       "uuid": "3fdcf41f-1aa3-5e13-a198-5016c61c4e35",
+      "oracleId": "dd210145-0765-5e0b-af9e-0b67774d66ca",
       "name": "Laurent Duelist",
       "type": "unit",
       "domains": [
@@ -7535,6 +7691,7 @@
     {
       "number": "SFD-157",
       "uuid": "115918c3-3791-55d3-b0fc-396d86a6568d",
+      "oracleId": "e4cfac77-3603-5951-84b9-911866520446",
       "name": "Royal Guard",
       "type": "unit",
       "domains": [
@@ -7580,6 +7737,7 @@
     {
       "number": "SFD-158",
       "uuid": "7e81dba5-ce41-5792-9441-7871ff0bfd8a",
+      "oracleId": "407154e1-b96b-5b33-8221-afe8963c6d0e",
       "name": "Sandshifter",
       "type": "unit",
       "domains": [
@@ -7626,6 +7784,7 @@
     {
       "number": "SFD-159",
       "uuid": "29fff6ae-bd1d-51b1-8e48-17f741280fad",
+      "oracleId": "9f4db9a2-4ef1-5e73-bb09-48d097c898be",
       "name": "Trusty Ramhound",
       "type": "unit",
       "domains": [
@@ -7673,6 +7832,7 @@
     {
       "number": "SFD-160",
       "uuid": "6f96a280-3302-54d3-96d1-1d9bff7af37b",
+      "oracleId": "986e2f3c-4003-5fe1-8d33-e761bf5d02c9",
       "name": "Zaun Punk",
       "type": "unit",
       "domains": [
@@ -7718,6 +7878,7 @@
     {
       "number": "SFD-161",
       "uuid": "270ca4b3-3100-5234-8c98-2a926c86434d",
+      "oracleId": "19cfc1c4-6aa9-5d46-84a9-bff6943ca0a7",
       "name": "B.F. Sword",
       "type": "gear",
       "domains": [
@@ -7764,6 +7925,7 @@
     {
       "number": "SFD-162",
       "uuid": "704d84d2-61e0-5053-8e53-65d2dd810a55",
+      "oracleId": "d6338a26-e52b-5c23-923b-3f8e3ea5681e",
       "name": "Blood Money",
       "type": "spell",
       "domains": [
@@ -7805,6 +7967,7 @@
     {
       "number": "SFD-163",
       "uuid": "9c4d440d-d6f1-5288-8835-91880509a31b",
+      "oracleId": "8bed0d1b-5a7a-53de-b3b3-10bacf97f0de",
       "name": "Deathgrip",
       "type": "spell",
       "domains": [
@@ -7846,6 +8009,7 @@
     {
       "number": "SFD-164",
       "uuid": "d30267cd-3221-546c-8e35-bda563ca1e58",
+      "oracleId": "302420a5-a1c7-5a9b-b9b0-9c7add6e836a",
       "name": "Drag Under",
       "type": "spell",
       "domains": [
@@ -7888,6 +8052,7 @@
     {
       "number": "SFD-165",
       "uuid": "afb76b54-4cde-583a-b82e-376645e1df08",
+      "oracleId": "04cb81a4-1624-5ce3-8868-53d10becb7b7",
       "name": "Glasc Mixologist",
       "type": "unit",
       "domains": [
@@ -7934,6 +8099,7 @@
     {
       "number": "SFD-166",
       "uuid": "a011f317-80c3-56ad-91a8-9833d6dc8f1a",
+      "oracleId": "fa6a341e-29af-51d4-b8cd-7b21b3aaacd9",
       "name": "Rally the Troops",
       "type": "spell",
       "domains": [
@@ -7975,6 +8141,7 @@
     {
       "number": "SFD-167",
       "uuid": "3c309891-df1c-5ce6-9c43-af36abb9c7df",
+      "oracleId": "f51fe665-45d9-5486-b036-22c21a391427",
       "name": "Unsung Hero",
       "type": "unit",
       "domains": [
@@ -8021,6 +8188,7 @@
     {
       "number": "SFD-168",
       "uuid": "330db50e-0588-5478-86e8-73aef978f089",
+      "oracleId": "113e6888-94a9-5d86-addb-2e27ad2b0556",
       "name": "Vanguard Armory",
       "type": "gear",
       "domains": [
@@ -8063,6 +8231,7 @@
     {
       "number": "SFD-169",
       "uuid": "3a220f44-cfa9-5f2e-9b49-477437bb2d71",
+      "oracleId": "d195da79-f0b4-50ee-acf5-2a3257d1e9d8",
       "name": "Altar of Memories",
       "type": "gear",
       "domains": [
@@ -8103,6 +8272,7 @@
     {
       "number": "SFD-170",
       "uuid": "0f42f837-8420-59f4-a80a-88acc84cbe7e",
+      "oracleId": "d3a6fbf4-aafb-53a7-900d-44762caa227b",
       "name": "Rek'Sai",
       "subtitle": "Swarm Queen",
       "type": "unit",
@@ -8176,6 +8346,7 @@
     {
       "number": "SFD-171",
       "uuid": "a84d7a54-6270-5663-acd9-bff87bece20a",
+      "oracleId": "7bfe8b8d-b7e3-5bac-93a9-4d447f688daa",
       "name": "Renata Glasc",
       "subtitle": "Industrialist",
       "type": "unit",
@@ -8249,6 +8420,7 @@
     {
       "number": "SFD-172",
       "uuid": "f34fd76d-f1c5-5339-aa2a-777be312c07b",
+      "oracleId": "4b187d7d-55d9-587b-a9f5-729f170e2d64",
       "name": "Sacred Shears",
       "type": "gear",
       "domains": [
@@ -8295,6 +8467,7 @@
     {
       "number": "SFD-173",
       "uuid": "3d6e83f0-e327-591b-87a8-d4cc99804c1c",
+      "oracleId": "c4890fcb-4120-53a6-b3f7-891a0667f9d9",
       "name": "Soraka",
       "subtitle": "Wanderer",
       "type": "unit",
@@ -8342,6 +8515,7 @@
     {
       "number": "SFD-174",
       "uuid": "f2e28773-bc2e-5b9c-86e6-b3e3379ebac6",
+      "oracleId": "82bd7cce-0823-5b63-bcad-860ecadc1359",
       "name": "Trove Golem",
       "type": "unit",
       "domains": [
@@ -8387,6 +8561,7 @@
     {
       "number": "SFD-175",
       "uuid": "383cc184-0053-5fdb-9cfc-cb7e859d7102",
+      "oracleId": "52a8c116-a978-5849-808f-bd992d3ca6a4",
       "name": "Undertitan",
       "type": "unit",
       "domains": [
@@ -8432,6 +8607,7 @@
     {
       "number": "SFD-176",
       "uuid": "b5b58255-6441-5e68-b957-863503a45deb",
+      "oracleId": "2d1c4dfe-965f-54f9-a5ee-8be0ae48492d",
       "name": "Xin Zhao",
       "subtitle": "Vigilant",
       "type": "unit",
@@ -8482,6 +8658,7 @@
     {
       "number": "SFD-177",
       "uuid": "bf719d6a-0f1c-5ed6-baa6-3c79a8b7a9c4",
+      "oracleId": "3e701939-8ea0-5aea-abce-d83066ff830f",
       "name": "Azir",
       "subtitle": "Sovereign",
       "type": "unit",
@@ -8555,6 +8732,7 @@
     {
       "number": "SFD-178",
       "uuid": "4ea128bc-2a69-5890-ba61-ce8e19c0b3bb",
+      "oracleId": "08b18ae6-b17d-5d5e-b45c-cfcc3543891f",
       "name": "Blade of the Ruined King",
       "type": "gear",
       "domains": [
@@ -8601,6 +8779,7 @@
     {
       "number": "SFD-179",
       "uuid": "365e3158-5615-5ea1-8af2-d6a755df5f4a",
+      "oracleId": "48804d7b-3a88-526f-93be-a7e486dcb2ea",
       "name": "Corina Veraza",
       "type": "unit",
       "domains": [
@@ -8646,6 +8825,7 @@
     {
       "number": "SFD-180",
       "uuid": "cafb8760-8b3a-5693-86df-ca149dc0fffa",
+      "oracleId": "e71caa27-9782-5c3d-9f4a-e66e98732e5d",
       "name": "Fiora",
       "subtitle": "Worthy",
       "type": "unit",
@@ -8718,6 +8898,7 @@
     {
       "number": "SFD-181",
       "uuid": "19e94357-9da8-5e0c-a71d-494df4a1ea34",
+      "oracleId": "c15b8d63-a1a4-5585-8dbc-b6a4f93ae262",
       "name": "Mechanized Menace",
       "type": "legend",
       "domains": [
@@ -8758,6 +8939,7 @@
     {
       "number": "SFD-182",
       "uuid": "6951a6d4-d526-558c-bf5b-9a411914d895",
+      "oracleId": "21483a4f-ee0f-58a3-9bd6-68e9990a9918",
       "name": "Danger Zone",
       "type": "spell",
       "superTypes": [
@@ -8806,6 +8988,7 @@
     {
       "number": "SFD-183",
       "uuid": "5526b8bb-1ff7-5785-b10c-c1e99ed21449",
+      "oracleId": "4f779c40-14e4-581e-8074-71b01b8286fc",
       "name": "Purifier",
       "type": "legend",
       "domains": [
@@ -8846,6 +9029,7 @@
     {
       "number": "SFD-184",
       "uuid": "9e41c78a-8a90-5bf1-817e-1004e98ed8e4",
+      "oracleId": "363e634c-0d13-5a45-9bd1-ff66a55d361f",
       "name": "Relentless Pursuit",
       "type": "spell",
       "superTypes": [
@@ -8894,6 +9078,7 @@
     {
       "number": "SFD-185",
       "uuid": "36aef300-4a6b-5834-89e8-85ec768ec08e",
+      "oracleId": "d5881c47-0199-5732-a573-0bcbd7f9b0db",
       "name": "Glorious Executioner",
       "type": "legend",
       "domains": [
@@ -8934,6 +9119,7 @@
     {
       "number": "SFD-186",
       "uuid": "e3cee66d-2fa1-5bd0-91aa-fa5b94248b2c",
+      "oracleId": "e565deff-69b8-5383-81c0-620f8eb6d540",
       "name": "Spinning Axe",
       "type": "gear",
       "superTypes": [
@@ -8985,6 +9171,7 @@
     {
       "number": "SFD-187",
       "uuid": "80b1d9cf-77b9-544c-9fc5-9944c182e493",
+      "oracleId": "1495f52f-2b52-542e-a256-ebca337378c7",
       "name": "Void Burrower",
       "type": "legend",
       "domains": [
@@ -9025,6 +9212,7 @@
     {
       "number": "SFD-188",
       "uuid": "1ed54083-ae9b-53a3-a901-b4a9ef5e290e",
+      "oracleId": "eee1c10b-6347-5f3d-95f7-8b399e7f0fe7",
       "name": "Void Rush",
       "type": "spell",
       "superTypes": [
@@ -9073,6 +9261,7 @@
     {
       "number": "SFD-189",
       "uuid": "afa0d17a-28df-5504-a8c8-925ca9dbacfd",
+      "oracleId": "06ad21f3-8147-5e0e-bd0e-25f67922b141",
       "name": "Fire Below the Mountain",
       "type": "legend",
       "domains": [
@@ -9113,6 +9302,7 @@
     {
       "number": "SFD-190",
       "uuid": "fa093223-d9e2-5fc3-8628-9b31cab30b7f",
+      "oracleId": "4fc517f6-0259-5bd3-afb8-507a2fe8e023",
       "name": "Forgefire Cape",
       "type": "gear",
       "superTypes": [
@@ -9164,6 +9354,7 @@
     {
       "number": "SFD-191",
       "uuid": "77233a5a-2296-5283-ac24-471e01cbe692",
+      "oracleId": "9088d580-18b4-5b2e-a1d5-132877a79adc",
       "name": "Rabadon's Deathcrown",
       "type": "gear",
       "superTypes": [
@@ -9215,6 +9406,7 @@
     {
       "number": "SFD-192",
       "uuid": "2a81267c-e884-549c-8ef6-f79e633b59ed",
+      "oracleId": "96b11111-714d-54f9-95c8-8c13257ed54d",
       "name": "Shurelya's Requiem",
       "type": "gear",
       "superTypes": [
@@ -9266,6 +9458,7 @@
     {
       "number": "SFD-193",
       "uuid": "5f50edb2-e8fc-5ffe-9e66-4b5bf445fc33",
+      "oracleId": "15a1a4ff-764c-514c-899e-b319714009ae",
       "name": "Grandmaster at Arms",
       "type": "legend",
       "domains": [
@@ -9306,6 +9499,7 @@
     {
       "number": "SFD-194",
       "uuid": "56c00ed1-b750-562a-a267-4662f7845e84",
+      "oracleId": "4ce92844-f803-50cf-a089-d03a322eb322",
       "name": "Counter Strike",
       "type": "spell",
       "superTypes": [
@@ -9354,6 +9548,7 @@
     {
       "number": "SFD-195",
       "uuid": "3cc370c7-9060-55c1-aaef-037bbb78cfbf",
+      "oracleId": "a355b88e-43d9-58e0-8053-68e47b4e7ce1",
       "name": "Blade Dancer",
       "type": "legend",
       "domains": [
@@ -9394,6 +9589,7 @@
     {
       "number": "SFD-196",
       "uuid": "1155fc33-94fe-59b2-9839-57ec337d88e8",
+      "oracleId": "6e77746e-38da-5598-816b-1836dfdbab20",
       "name": "Defiant Dance",
       "type": "spell",
       "superTypes": [
@@ -9442,6 +9638,7 @@
     {
       "number": "SFD-197",
       "uuid": "a3d8302c-d32b-5c52-a625-23be5f5ad4e3",
+      "oracleId": "1305e205-8327-5230-9569-6241b1c0d2fc",
       "name": "Emperor of the Sands",
       "type": "legend",
       "domains": [
@@ -9482,6 +9679,7 @@
     {
       "number": "SFD-198",
       "uuid": "e086bd9d-e817-5099-b526-9abb55000b10",
+      "oracleId": "7ddf2b26-8f9c-5b5a-909c-02949674ba42",
       "name": "Arise!",
       "type": "spell",
       "superTypes": [
@@ -9530,6 +9728,7 @@
     {
       "number": "SFD-199",
       "uuid": "a1ec8d05-e95c-5dae-91af-60ec47049f81",
+      "oracleId": "83594a20-377a-530f-b215-2fbb112c5caa",
       "name": "Prodigal Explorer",
       "type": "legend",
       "domains": [
@@ -9570,6 +9769,7 @@
     {
       "number": "SFD-200",
       "uuid": "39a2fde2-0d84-5a1c-ae69-3ac7f1b3f87c",
+      "oracleId": "c63c5462-be15-5e80-958a-ac67818503c5",
       "name": "Arcane Shift",
       "type": "spell",
       "superTypes": [
@@ -9618,6 +9818,7 @@
     {
       "number": "SFD-201",
       "uuid": "91bb82db-2826-5433-9618-bc08e5b22a68",
+      "oracleId": "95cdec14-891b-566c-8005-da5228a5fe8b",
       "name": "Chem-Baroness",
       "type": "legend",
       "domains": [
@@ -9658,6 +9859,7 @@
     {
       "number": "SFD-202",
       "uuid": "149b59a3-34f5-5a02-a92a-417d1a7ff8ba",
+      "oracleId": "792a821e-66c2-5823-9d96-311ff9567321",
       "name": "Hostile Takeover",
       "type": "spell",
       "superTypes": [
@@ -9706,6 +9908,7 @@
     {
       "number": "SFD-203",
       "uuid": "0e8c90a1-6590-5606-a852-cde8528f1a8b",
+      "oracleId": "7abd304c-0765-55e7-a450-1d077cbaabe6",
       "name": "Battle Mistress",
       "type": "legend",
       "domains": [
@@ -9746,6 +9949,7 @@
     {
       "number": "SFD-204",
       "uuid": "3684add7-c5cf-5b6b-a4c5-94c55555a383",
+      "oracleId": "f98f3ffd-75fc-552b-950d-176a7c35538f",
       "name": "On the Hunt",
       "type": "spell",
       "superTypes": [
@@ -9794,6 +9998,7 @@
     {
       "number": "SFD-205",
       "uuid": "e0f60771-38ab-5511-935c-9e792a85b5e9",
+      "oracleId": "64459d7b-204e-5246-85a9-40f6c87e6fb7",
       "name": "Grand Duelist",
       "type": "legend",
       "domains": [
@@ -9834,6 +10039,7 @@
     {
       "number": "SFD-206",
       "uuid": "38ee94a1-1bdd-59fc-89b3-8d82f51325a5",
+      "oracleId": "0b2a15b3-f306-5d54-9a39-85317b141e27",
       "name": "Riposte",
       "type": "spell",
       "superTypes": [
@@ -9882,6 +10088,7 @@
     {
       "number": "SFD-207",
       "uuid": "08650fa5-2174-52db-8255-afd9c27430a4",
+      "oracleId": "8f9e7c9f-190c-5b95-aea3-5bfa44dc5272",
       "name": "Emperor's Dais",
       "type": "battlefield",
       "domains": [
@@ -9922,6 +10129,7 @@
     {
       "number": "SFD-208",
       "uuid": "e4c5cd62-d43e-5ad6-b56e-bc6b061bc290",
+      "oracleId": "c72fb4f1-26ac-5697-b6b2-d908e76b6085",
       "name": "Forge of the Fluft",
       "type": "battlefield",
       "domains": [
@@ -9962,6 +10170,7 @@
     {
       "number": "SFD-209",
       "uuid": "20fbf97d-31f6-511e-b778-ba8a307f16c2",
+      "oracleId": "12e324e3-8f49-5329-a0db-057c68070c82",
       "name": "Forgotten Monument",
       "type": "battlefield",
       "domains": [
@@ -10002,6 +10211,7 @@
     {
       "number": "SFD-210",
       "uuid": "0067d9aa-2dc8-5528-bc73-e4edbb1bb8bc",
+      "oracleId": "e5b8c081-0252-5f80-90fb-53820dc0edf3",
       "name": "Hall of Legends",
       "type": "battlefield",
       "domains": [
@@ -10042,6 +10252,7 @@
     {
       "number": "SFD-211",
       "uuid": "8b552ee6-7edb-55cc-9ae8-bc56eefc1574",
+      "oracleId": "c5298693-47f1-5200-b8f4-fedbe1f33ad6",
       "name": "Marai Spire",
       "type": "battlefield",
       "domains": [
@@ -10082,6 +10293,7 @@
     {
       "number": "SFD-212",
       "uuid": "1c2f6eb3-a058-5b0f-9cf0-8a355a1ca255",
+      "oracleId": "2173f323-bea7-5dc0-bf51-0f895eeb2397",
       "name": "Minefield",
       "type": "battlefield",
       "domains": [
@@ -10122,6 +10334,7 @@
     {
       "number": "SFD-213",
       "uuid": "aecac89b-5d84-57cc-98bd-3350d6f270f8",
+      "oracleId": "a7d3f4d7-1260-5369-9b4a-55e8c39e36f7",
       "name": "Ornn's Forge",
       "type": "battlefield",
       "domains": [
@@ -10162,6 +10375,7 @@
     {
       "number": "SFD-214",
       "uuid": "e9cef6ba-5e54-5a88-9854-0c42e04a3863",
+      "oracleId": "d187855b-9b71-5e3a-809d-6752ce2548bd",
       "name": "Power Nexus",
       "type": "battlefield",
       "domains": [
@@ -10202,6 +10416,7 @@
     {
       "number": "SFD-215",
       "uuid": "08ab5854-fefc-55af-99de-d34a5f09069d",
+      "oracleId": "30b4ebf0-8f52-535c-b0d6-1a360b3534b9",
       "name": "Ravenbloom Conservatory",
       "type": "battlefield",
       "domains": [
@@ -10242,6 +10457,7 @@
     {
       "number": "SFD-216",
       "uuid": "a221ddc2-1a60-5e91-bdce-e66739a5a0bd",
+      "oracleId": "90b5459d-e549-553d-bbf0-7e5f2c02e475",
       "name": "Rockfall Path",
       "type": "battlefield",
       "domains": [
@@ -10282,6 +10498,7 @@
     {
       "number": "SFD-217",
       "uuid": "56834c70-537b-5cf4-9258-d08d8ef8ee2c",
+      "oracleId": "d80e2a4d-d67d-5cf9-b60d-6c6d34b1e9c5",
       "name": "Seat of Power",
       "type": "battlefield",
       "domains": [
@@ -10322,6 +10539,7 @@
     {
       "number": "SFD-218",
       "uuid": "6418c465-8692-5a78-9e2d-86e5bae5ee06",
+      "oracleId": "b67b74d8-8853-5dbd-bb01-1b3cb0bd52e1",
       "name": "Sunken Temple",
       "type": "battlefield",
       "domains": [
@@ -10362,6 +10580,7 @@
     {
       "number": "SFD-219",
       "uuid": "aa508f52-d2ab-509c-81e0-7ccdf789924a",
+      "oracleId": "97494598-2b64-549b-b8d2-4e7b7d1123ff",
       "name": "The Papertree",
       "type": "battlefield",
       "domains": [
@@ -10402,6 +10621,7 @@
     {
       "number": "SFD-220",
       "uuid": "7f07a43a-a097-51d9-8f62-b1e84db0b1e7",
+      "oracleId": "afeab023-904c-5054-ae90-d5684297c803",
       "name": "Treasure Hoard",
       "type": "battlefield",
       "domains": [
@@ -10442,6 +10662,7 @@
     {
       "number": "SFD-221",
       "uuid": "9791611c-4126-5dc0-bf13-e50feb59a447",
+      "oracleId": "25656f72-4e4b-58f5-a151-f966d1576c21",
       "name": "Veiled Temple",
       "type": "battlefield",
       "domains": [
@@ -10482,6 +10703,7 @@
     {
       "number": "SFD-222",
       "uuid": "7e0b6a22-6b5c-5b21-a3f4-a8d195e1ce2c",
+      "oracleId": "b9176a80-ba0c-504a-a031-3ddfa0400d17",
       "name": "Seal of Rage",
       "type": "gear",
       "domains": [
@@ -10523,6 +10745,7 @@
     {
       "number": "SFD-223",
       "uuid": "81c2d00b-d1ba-5469-9939-489def7a3f59",
+      "oracleId": "c62a5b5a-9952-5392-affb-736f1ec5af91",
       "name": "Vayne",
       "subtitle": "Hunter",
       "type": "unit",
@@ -10597,6 +10820,7 @@
     {
       "number": "SFD-224",
       "uuid": "6b342d3a-d3a1-5116-bcde-22982330bf7b",
+      "oracleId": "8592382b-103d-5f80-830c-2ad6dce624d5",
       "name": "Aphelios",
       "subtitle": "Exalted",
       "type": "unit",
@@ -10670,6 +10894,7 @@
     {
       "number": "SFD-225",
       "uuid": "4844832d-37ee-5436-8b03-ce37ad02875f",
+      "oracleId": "3e53b949-91dd-56e0-96e8-d03bfe85b92e",
       "name": "Irelia",
       "subtitle": "Fervent",
       "type": "unit",
@@ -10742,6 +10967,7 @@
     {
       "number": "SFD-226",
       "uuid": "fd6f3e93-86f5-5d72-b1b8-c03e4a142598",
+      "oracleId": "7464f11a-a042-5011-baee-3880e0d7d365",
       "name": "Seal of Focus",
       "type": "gear",
       "domains": [
@@ -10783,6 +11009,7 @@
     {
       "number": "SFD-227",
       "uuid": "e4b0e1e7-d333-5c06-b11c-15f1ec43830b",
+      "oracleId": "dd18aebe-b532-5dc4-b566-576f98e0fd3f",
       "name": "Ahri",
       "subtitle": "Inquisitive",
       "type": "unit",
@@ -10855,6 +11082,7 @@
     {
       "number": "SFD-228",
       "uuid": "8f58d4fb-b8bf-596d-9d92-5173f62e0fc4",
+      "oracleId": "2b86e85d-182f-567b-97ea-8f568e2e5eae",
       "name": "Bard",
       "subtitle": "Mercurial",
       "type": "unit",
@@ -10927,6 +11155,7 @@
     {
       "number": "SFD-229",
       "uuid": "cf42c57c-ef61-5aeb-b421-adc2c5db6d88",
+      "oracleId": "98e51c6d-1c3f-51e7-8004-d69782adcc26",
       "name": "Seal of Insight",
       "type": "gear",
       "domains": [
@@ -10968,6 +11197,7 @@
     {
       "number": "SFD-230",
       "uuid": "0fb3401f-c36e-54cd-bf3a-ecc0448a96c9",
+      "oracleId": "7946e8e7-1b27-513a-8ae2-6af47746a8e2",
       "name": "Teemo",
       "subtitle": "Strategist",
       "type": "unit",
@@ -11041,6 +11271,7 @@
     {
       "number": "SFD-231",
       "uuid": "7a580dc8-bd47-5c44-9eff-2afc1b730c3f",
+      "oracleId": "55c4a6e7-a6e7-5793-85ed-c7b102b110bb",
       "name": "Seal of Strength",
       "type": "gear",
       "domains": [
@@ -11082,6 +11313,7 @@
     {
       "number": "SFD-232",
       "uuid": "0ce68db5-f7cb-5255-b21a-438dc580885e",
+      "oracleId": "96de8575-74af-5f70-b6e6-678f528ce2e3",
       "name": "Sett",
       "subtitle": "Brawler",
       "type": "unit",
@@ -11154,6 +11386,7 @@
     {
       "number": "SFD-233",
       "uuid": "9de6c91b-8138-59c5-8d10-3eaff6717cc8",
+      "oracleId": "83c3efd7-413c-5b2e-9350-37384471bdf0",
       "name": "Yone",
       "subtitle": "Blademaster",
       "type": "unit",
@@ -11228,6 +11461,7 @@
     {
       "number": "SFD-234",
       "uuid": "a59d6085-46ab-5149-a2dd-7de3b2d619de",
+      "oracleId": "dd6f6f3e-23c7-592f-8e25-3909a2052cbc",
       "name": "Seal of Discord",
       "type": "gear",
       "domains": [
@@ -11269,6 +11503,7 @@
     {
       "number": "SFD-235",
       "uuid": "209165d9-b95a-5739-be00-8c76db16fb3f",
+      "oracleId": "1d40a4d4-45a7-51c9-aee7-672df2396c40",
       "name": "Yasuo",
       "subtitle": "Windrider",
       "type": "unit",
@@ -11341,6 +11576,7 @@
     {
       "number": "SFD-236",
       "uuid": "66910a75-ae74-5f4d-a03f-fafe25b4712e",
+      "oracleId": "8471a339-9f9b-50d3-875f-2d501869277a",
       "name": "Darius",
       "subtitle": "Executioner",
       "type": "unit",
@@ -11414,6 +11650,7 @@
     {
       "number": "SFD-237",
       "uuid": "4d4d7cd8-0920-5457-bd17-cd69816e4afc",
+      "oracleId": "d3cd1acc-783a-523c-a362-02e9a6a38366",
       "name": "Karma",
       "subtitle": "Channeler",
       "type": "unit",
@@ -11487,6 +11724,7 @@
     {
       "number": "SFD-238",
       "uuid": "312a617d-a25b-55d1-97b1-888c3a2b07e2",
+      "oracleId": "15d04283-29a4-5f39-b372-82a40866c206",
       "name": "Seal of Unity",
       "type": "gear",
       "domains": [
@@ -11528,6 +11766,7 @@
     {
       "number": "SFD-239",
       "uuid": "1403fdd8-f39c-5b63-8766-fb0e61c50fa3",
+      "oracleId": "c4890fcb-4120-53a6-b3f7-891a0667f9d9",
       "name": "Soraka",
       "subtitle": "Wanderer",
       "type": "unit",
@@ -11601,6 +11840,7 @@
     {
       "number": "SFD-240",
       "uuid": "0e390024-b564-5c56-a35c-3bb31d720f2a",
+      "oracleId": "c15b8d63-a1a4-5585-8dbc-b6a4f93ae262",
       "name": "Mechanized Menace",
       "type": "legend",
       "domains": [
@@ -11641,6 +11881,7 @@
     {
       "number": "SFD-241",
       "uuid": "ae115487-3319-5de4-9d5e-fca86758d9af",
+      "oracleId": "4f779c40-14e4-581e-8074-71b01b8286fc",
       "name": "Purifier",
       "type": "legend",
       "domains": [
@@ -11681,6 +11922,7 @@
     {
       "number": "SFD-242",
       "uuid": "0816dfe8-cdc6-5073-abdd-62ddc1c54316",
+      "oracleId": "d5881c47-0199-5732-a573-0bcbd7f9b0db",
       "name": "Glorious Executioner",
       "type": "legend",
       "domains": [
@@ -11721,6 +11963,7 @@
     {
       "number": "SFD-243",
       "uuid": "1fd58585-22fd-5bb0-84e1-bc95a03b633a",
+      "oracleId": "1495f52f-2b52-542e-a256-ebca337378c7",
       "name": "Void Burrower",
       "type": "legend",
       "domains": [
@@ -11761,6 +12004,7 @@
     {
       "number": "SFD-244",
       "uuid": "fae5038a-4c09-5601-bb19-6d356090b723",
+      "oracleId": "06ad21f3-8147-5e0e-bd0e-25f67922b141",
       "name": "Fire Below the Mountain",
       "type": "legend",
       "domains": [
@@ -11801,6 +12045,7 @@
     {
       "number": "SFD-245",
       "uuid": "5767a1bd-6f83-52e1-9b80-82746cb8f631",
+      "oracleId": "15a1a4ff-764c-514c-899e-b319714009ae",
       "name": "Grandmaster at Arms",
       "type": "legend",
       "domains": [
@@ -11841,6 +12086,7 @@
     {
       "number": "SFD-246",
       "uuid": "57072de5-6736-52f5-afee-ba205549ec7b",
+      "oracleId": "a355b88e-43d9-58e0-8053-68e47b4e7ce1",
       "name": "Blade Dancer",
       "type": "legend",
       "domains": [
@@ -11881,6 +12127,7 @@
     {
       "number": "SFD-247",
       "uuid": "6dc85f90-597f-553a-a742-59b16f4323df",
+      "oracleId": "1305e205-8327-5230-9569-6241b1c0d2fc",
       "name": "Emperor of the Sands",
       "type": "legend",
       "domains": [
@@ -11921,6 +12168,7 @@
     {
       "number": "SFD-248",
       "uuid": "d6e52aa9-8afd-58d7-a7d7-17c6f8617aa8",
+      "oracleId": "83594a20-377a-530f-b215-2fbb112c5caa",
       "name": "Prodigal Explorer",
       "type": "legend",
       "domains": [
@@ -11961,6 +12209,7 @@
     {
       "number": "SFD-249",
       "uuid": "8fa8d775-0c8d-5adf-864d-2f001629bcb3",
+      "oracleId": "95cdec14-891b-566c-8005-da5228a5fe8b",
       "name": "Chem-Baroness",
       "type": "legend",
       "domains": [
@@ -12001,6 +12250,7 @@
     {
       "number": "SFD-250",
       "uuid": "8810be11-3cf4-5f00-85db-4014fc0d19fa",
+      "oracleId": "7abd304c-0765-55e7-a450-1d077cbaabe6",
       "name": "Battle Mistress",
       "type": "legend",
       "domains": [
@@ -12041,6 +12291,7 @@
     {
       "number": "SFD-251",
       "uuid": "9b0cd82f-57a6-504c-a191-6f11df0cfed7",
+      "oracleId": "64459d7b-204e-5246-85a9-40f6c87e6fb7",
       "name": "Grand Duelist",
       "type": "legend",
       "domains": [
@@ -12081,6 +12332,7 @@
     {
       "number": "SFD-T03",
       "uuid": "c66ab93f-7780-5621-ab58-a0b2f598ae58",
+      "oracleId": "90b57318-2e37-56c5-957f-f031c07af160",
       "name": "Gold",
       "type": "gear",
       "superTypes": [
@@ -12123,6 +12375,7 @@
     {
       "number": "SFD-R01",
       "uuid": "64f4ddbf-18a9-5a78-8183-1c14442bd3b0",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -12200,6 +12453,7 @@
     {
       "number": "SFD-R02",
       "uuid": "043485bc-f819-5dfb-937f-9ad894a740f4",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -12277,6 +12531,7 @@
     {
       "number": "SFD-R03",
       "uuid": "54e35040-7449-57f2-8804-36863c96a960",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -12354,6 +12609,7 @@
     {
       "number": "SFD-R04",
       "uuid": "a71ab8e7-20c2-532f-9d06-0a2203c318f8",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -12433,6 +12689,7 @@
     {
       "number": "SFD-R05",
       "uuid": "1c7eb403-f1ef-589a-b85b-82edc208abc7",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -12510,6 +12767,7 @@
     {
       "number": "SFD-R06",
       "uuid": "5ccb3285-9737-56a2-8a53-e007979a1a8f",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -12587,6 +12845,7 @@
     {
       "number": "SFD-T01",
       "uuid": "645e247c-84f6-536a-8b89-e770c2b7a714",
+      "oracleId": "fc38900b-7875-5d6d-a96f-94d0fd30c3ae",
       "name": "Mech // Buff",
       "printings": [
         {
@@ -12613,6 +12872,7 @@
     {
       "number": "SFD-T01+T03",
       "uuid": "8157ff64-1fba-5442-a569-fd107d900c99",
+      "oracleId": "1707f51f-d224-5e84-8a36-913a5cba6e69",
       "name": "Mech // Gold",
       "printings": [
         {
@@ -12641,6 +12901,7 @@
     {
       "number": "SFD-T02",
       "uuid": "1a189d26-10d5-5a95-bee3-f78530907441",
+      "oracleId": "de893111-d1c2-5668-8957-b28a147ff09f",
       "name": "Sand Soldier // Buff",
       "printings": [
         {

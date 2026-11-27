@@ -3,6 +3,7 @@
     {
       "number": "UNL-001",
       "uuid": "d71199f6-6600-5547-abf3-1d30b1c7a999",
+      "oracleId": "26691c20-4c67-5684-a2a8-1038783ac217",
       "name": "Arena Kingpin",
       "type": "unit",
       "domains": [
@@ -49,6 +50,7 @@
     {
       "number": "UNL-002",
       "uuid": "d82cd8bd-718d-53ee-84f7-31cf6401ce7c",
+      "oracleId": "bc792a27-b131-5a79-8023-8a8bbc5c82f6",
       "name": "Inferna",
       "type": "unit",
       "domains": [
@@ -94,6 +96,7 @@
     {
       "number": "UNL-003",
       "uuid": "f5eea3f2-fae5-5c9e-8c15-5e65144b3a7a",
+      "oracleId": "4f0f5d4f-0e76-5d79-9724-282f950c6f31",
       "name": "Mischievous Marai",
       "type": "unit",
       "domains": [
@@ -139,6 +142,7 @@
     {
       "number": "UNL-004",
       "uuid": "c079a556-2f7c-51fe-a048-54a3b9eaee31",
+      "oracleId": "22537920-8061-5336-98e4-49511651f11c",
       "name": "Prepared Neophyte",
       "type": "unit",
       "domains": [
@@ -184,6 +188,7 @@
     {
       "number": "UNL-005",
       "uuid": "dd64823e-b56e-5b23-9d12-c7616da90875",
+      "oracleId": "f1980bc4-3ce0-5d5c-912a-faa2a312648d",
       "name": "Revna the Lorekeeper",
       "type": "unit",
       "domains": [
@@ -230,6 +235,7 @@
     {
       "number": "UNL-006",
       "uuid": "5c7eba8d-8dd2-5f99-a040-d28ec4b95b9e",
+      "oracleId": "858e8d64-1ffb-571b-a203-75b04565c826",
       "name": "Sharkling",
       "type": "unit",
       "domains": [
@@ -275,6 +281,7 @@
     {
       "number": "UNL-007",
       "uuid": "2a7dda7a-510e-5bb8-a697-0920b6eed102",
+      "oracleId": "577061af-4e94-53fb-ad21-117f6070db24",
       "name": "Smite",
       "type": "spell",
       "domains": [
@@ -317,6 +324,7 @@
     {
       "number": "UNL-008",
       "uuid": "669fba15-34a9-5b6e-b2ef-bd351e9d2816",
+      "oracleId": "5b318eec-3aed-542f-844e-23a8cd83ea7f",
       "name": "Towering Pairofant",
       "type": "unit",
       "domains": [
@@ -362,6 +370,7 @@
     {
       "number": "UNL-009",
       "uuid": "e9fa6e1a-c649-55e0-8d34-d240c906fce4",
+      "oracleId": "485bb3bd-e30a-540c-9f3c-a2141a6f078a",
       "name": "Upstage Comedy",
       "type": "spell",
       "domains": [
@@ -403,6 +412,7 @@
     {
       "number": "UNL-010",
       "uuid": "5d753b7c-eeec-5db0-8c09-a1518257add6",
+      "oracleId": "15edab9b-3b78-5eac-9e86-b1ccd0ade558",
       "name": "Vault Breaker",
       "type": "spell",
       "domains": [
@@ -445,6 +455,7 @@
     {
       "number": "UNL-011",
       "uuid": "e41b087c-6cdd-5dd6-88ed-ee9267eeddff",
+      "oracleId": "eeacde39-6fe7-5a6d-96b0-d97c8566e2cc",
       "name": "Fresh Beans",
       "type": "gear",
       "domains": [
@@ -486,6 +497,7 @@
     {
       "number": "UNL-012",
       "uuid": "a0340cb9-9f30-5e5d-b259-0064677fc20e",
+      "oracleId": "6799f4bd-82dc-51c0-8952-e6cec451c932",
       "name": "Lord Broadmane",
       "type": "unit",
       "domains": [
@@ -532,6 +544,7 @@
     {
       "number": "UNL-013",
       "uuid": "2100b329-c147-56f8-a2bf-a62b2e56f1b6",
+      "oracleId": "49561c1c-4437-504d-bbff-29e982d6661a",
       "name": "Lotus Trap",
       "type": "spell",
       "domains": [
@@ -573,6 +586,7 @@
     {
       "number": "UNL-014",
       "uuid": "03cc2b03-c620-5428-9ceb-6cab455bc47f",
+      "oracleId": "b4d8b76b-023e-59b1-a8b0-93de0507a077",
       "name": "Monster Harpoon",
       "type": "spell",
       "domains": [
@@ -615,6 +629,7 @@
     {
       "number": "UNL-015",
       "uuid": "956f5d6b-ca97-527a-bf13-db3c03bd593f",
+      "oracleId": "e38f0b54-086d-53b7-bdd0-c4d8401caaa9",
       "name": "Right of Conquest",
       "type": "spell",
       "domains": [
@@ -657,6 +672,7 @@
     {
       "number": "UNL-016",
       "uuid": "559a3f75-5c13-583e-9d07-a9d2ee6a0fe0",
+      "oracleId": "bcb25009-c76b-5d0f-a413-b87a8b1df3b5",
       "name": "Scorchclaw",
       "type": "unit",
       "domains": [
@@ -704,6 +720,7 @@
     {
       "number": "UNL-017",
       "uuid": "20d912db-ca60-5186-b84f-402962fdb1e9",
+      "oracleId": "08aa9dcc-1f09-570c-8907-9c8ec96bb28e",
       "name": "Square Up",
       "type": "spell",
       "domains": [
@@ -745,6 +762,7 @@
     {
       "number": "UNL-018",
       "uuid": "156a7125-6858-52d9-9274-4a8eb3c3a58b",
+      "oracleId": "ed7f1940-b291-5f94-88cc-bac1d4ed54d9",
       "name": "Yeti Brawler",
       "type": "unit",
       "domains": [
@@ -790,6 +808,7 @@
     {
       "number": "UNL-019",
       "uuid": "75c9311c-910e-54f8-b2d7-3ae3675d723a",
+      "oracleId": "6f1e8f61-68a2-5e2d-8f1a-1aad4acd2718",
       "name": "Blighted Battleaxe",
       "type": "gear",
       "domains": [
@@ -835,6 +854,7 @@
     {
       "number": "UNL-020",
       "uuid": "b4529d16-9846-518f-b7df-79b7a7f4790d",
+      "oracleId": "6909c414-1a1c-519e-9b12-be8f30dd6bd1",
       "name": "Dancing Grenade",
       "type": "spell",
       "domains": [
@@ -876,6 +896,7 @@
     {
       "number": "UNL-021",
       "uuid": "d7234a3f-8aee-58bf-af0b-383b96a127ff",
+      "oracleId": "19c4599c-6db4-5043-a92e-a35445b6f43b",
       "name": "Grim Apothecary",
       "type": "unit",
       "domains": [
@@ -920,6 +941,7 @@
     {
       "number": "UNL-022",
       "uuid": "b12001b0-64d4-59ac-a8b6-97385b52f4c6",
+      "oracleId": "592df9a2-a12d-54c6-ae3c-c4dfdce42406",
       "name": "Jhin",
       "subtitle": "Murderous Artist",
       "type": "unit",
@@ -993,6 +1015,7 @@
     {
       "number": "UNL-023",
       "uuid": "cadff927-add6-5982-91c2-760dd5461287",
+      "oracleId": "2a39a22e-31c9-541b-b83d-0f1610377167",
       "name": "Katarina",
       "subtitle": "Reckless",
       "type": "unit",
@@ -1043,6 +1066,7 @@
     {
       "number": "UNL-024",
       "uuid": "0d48a56e-54f6-58ca-a186-7031a0a14af8",
+      "oracleId": "7d57d8b7-f9d0-5b22-8ac3-d9a9ea0cba4f",
       "name": "Rengar",
       "subtitle": "Unseen",
       "type": "unit",
@@ -1117,6 +1141,7 @@
     {
       "number": "UNL-025",
       "uuid": "9bb0e98b-f773-5278-bc6d-ed77b78d9165",
+      "oracleId": "63738fb8-9a13-5638-bf01-baab44122273",
       "name": "Undying Legion",
       "type": "unit",
       "domains": [
@@ -1162,6 +1187,7 @@
     {
       "number": "UNL-026",
       "uuid": "d81c25ce-8f4c-5afb-ac53-5593eee72107",
+      "oracleId": "582a20bb-4b7c-5108-85ac-d5e798055e73",
       "name": "Xerath",
       "subtitle": "Freed",
       "type": "unit",
@@ -1211,6 +1237,7 @@
     {
       "number": "UNL-027",
       "uuid": "12451f2b-0698-5da0-85f3-c0450fb3a463",
+      "oracleId": "64efead2-f51d-5168-ac56-dfc9317af5de",
       "name": "Inviolus Vox",
       "type": "unit",
       "domains": [
@@ -1257,6 +1284,7 @@
     {
       "number": "UNL-028",
       "uuid": "86553f10-6802-56f0-a746-52cb973abf62",
+      "oracleId": "db09f05e-0daa-533e-bfb6-8a1ad185cf9c",
       "name": "Pyke",
       "subtitle": "Dockside Butcher",
       "type": "unit",
@@ -1329,6 +1357,7 @@
     {
       "number": "UNL-029",
       "uuid": "c6e2bce9-a56c-5c90-8145-080697765f69",
+      "oracleId": "e71598f7-62c5-5b8c-b09a-bc0048e7941f",
       "name": "Red Brambleback",
       "type": "unit",
       "domains": [
@@ -1397,6 +1426,7 @@
     {
       "number": "UNL-030",
       "uuid": "4f8c9a68-aa4c-5900-bb7a-a5ccd00dc20f",
+      "oracleId": "4df49b45-8aab-51d0-a76f-bfa3c37cc5d9",
       "name": "Vi",
       "subtitle": "Hotheaded",
       "type": "unit",
@@ -1469,6 +1499,7 @@
     {
       "number": "UNL-031",
       "uuid": "b94cbc19-e9cf-5eed-8f3a-3dda0c4dfb23",
+      "oracleId": "799d2f3f-7562-51b3-8ddd-e3cbd9a20d24",
       "name": "Combat Experience",
       "type": "spell",
       "domains": [
@@ -1510,6 +1541,7 @@
     {
       "number": "UNL-032",
       "uuid": "e2a70854-6066-5add-9b5a-61d27ca1df3f",
+      "oracleId": "9f3c6171-8d79-5911-b807-13570346cecb",
       "name": "Double Trouble",
       "type": "spell",
       "domains": [
@@ -1551,6 +1583,7 @@
     {
       "number": "UNL-033",
       "uuid": "b28cc5e4-cdef-5357-b934-0dc43e609766",
+      "oracleId": "9a4f36d4-862a-594c-b08f-913268ac0e61",
       "name": "Frisky Hunter",
       "type": "unit",
       "domains": [
@@ -1597,6 +1630,7 @@
     {
       "number": "UNL-034",
       "uuid": "b70aec19-5bec-59b1-97eb-ece31a7e7d34",
+      "oracleId": "ae49c7f0-d77d-52e9-a23a-a676f0a208de",
       "name": "Herald of Spring",
       "type": "unit",
       "domains": [
@@ -1643,6 +1677,7 @@
     {
       "number": "UNL-035",
       "uuid": "d83289b8-4914-58bf-81ba-a379290b5752",
+      "oracleId": "a17a500d-47ba-585b-a0fb-bfd6cf25ec1f",
       "name": "Monch",
       "type": "unit",
       "domains": [
@@ -1688,6 +1723,7 @@
     {
       "number": "UNL-036",
       "uuid": "b9f28e21-396b-57c3-9fc9-a323be953287",
+      "oracleId": "c9d10912-4bc0-5508-8071-c02b7cc6c1ef",
       "name": "Mutated Mouser",
       "type": "unit",
       "domains": [
@@ -1734,6 +1770,7 @@
     {
       "number": "UNL-037",
       "uuid": "21df3f68-baaf-5d02-838b-e249011f632f",
+      "oracleId": "b5212069-bc7f-5fa2-9793-6e6e32dcf12d",
       "name": "Shadow Watcher",
       "type": "unit",
       "domains": [
@@ -1780,6 +1817,7 @@
     {
       "number": "UNL-038",
       "uuid": "e39d6dd7-ca47-5f1c-a71e-b8e64776c493",
+      "oracleId": "1ff9e6d7-2e27-505a-9805-2ea2e3b0c83c",
       "name": "Skyward Strike",
       "type": "spell",
       "domains": [
@@ -1822,6 +1860,7 @@
     {
       "number": "UNL-039",
       "uuid": "20a39f46-0868-5837-a3e3-823821506115",
+      "oracleId": "3dce01d5-59e4-5d89-abf9-b5e2c44b1401",
       "name": "Soul Sword",
       "type": "gear",
       "domains": [
@@ -1868,6 +1907,7 @@
     {
       "number": "UNL-040",
       "uuid": "f6185735-bcbc-5413-aae1-2f946e9a9122",
+      "oracleId": "d8bb1022-6028-5c90-9de3-371158bb7319",
       "name": "Wuju Apprentice",
       "type": "unit",
       "domains": [
@@ -1913,6 +1953,7 @@
     {
       "number": "UNL-041",
       "uuid": "fc866543-2ccf-5459-9903-39f24d128bfb",
+      "oracleId": "27d4e94c-51d0-5b37-8f6d-663391e86062",
       "name": "Allay, Eager Admirer",
       "type": "unit",
       "domains": [
@@ -1959,6 +2000,7 @@
     {
       "number": "UNL-042",
       "uuid": "d9d90aa3-6377-56e4-9c6e-052cd84ad8b2",
+      "oracleId": "d6f062b0-1655-5e1c-aa3a-f65987fb56e8",
       "name": "Back Off",
       "type": "spell",
       "domains": [
@@ -2000,6 +2042,7 @@
     {
       "number": "UNL-043",
       "uuid": "845a5eae-0ae2-55bc-afec-c46cad0b0fb0",
+      "oracleId": "41dd0ee0-0ffb-590c-a156-92bfb40201d3",
       "name": "Enthusiastic Promoter",
       "type": "unit",
       "domains": [
@@ -2046,6 +2089,7 @@
     {
       "number": "UNL-044",
       "uuid": "ccda5cf9-01f0-5d02-8246-e6999b3e149e",
+      "oracleId": "6629be14-e628-5410-974d-84704969946a",
       "name": "Flurry of Feathers",
       "type": "spell",
       "domains": [
@@ -2088,6 +2132,7 @@
     {
       "number": "UNL-045",
       "uuid": "395bed52-29b1-5f26-8447-c63d0c0574f9",
+      "oracleId": "41fe8380-85f6-56af-95c8-04da18a41c37",
       "name": "Forgotten Signpost",
       "type": "gear",
       "domains": [
@@ -2129,6 +2174,7 @@
     {
       "number": "UNL-046",
       "uuid": "c927d58f-91b8-5c26-ab28-8e8b92275e90",
+      "oracleId": "1e6999d4-f7de-572f-82d7-0be4196a9b4e",
       "name": "Friendship",
       "type": "spell",
       "domains": [
@@ -2170,6 +2216,7 @@
     {
       "number": "UNL-047",
       "uuid": "84eb3f7c-dcf7-529a-9998-288e9430701a",
+      "oracleId": "98975215-251c-5d14-b8c2-17cc35570b2f",
       "name": "Mosstomper",
       "type": "unit",
       "domains": [
@@ -2217,6 +2264,7 @@
     {
       "number": "UNL-048",
       "uuid": "a5037c50-8042-50b2-99e0-c6172430f11d",
+      "oracleId": "7f0dc127-1c73-58f8-8acc-2d65b6f025c5",
       "name": "Trevor Snoozebottom",
       "type": "unit",
       "domains": [
@@ -2263,6 +2311,7 @@
     {
       "number": "UNL-049",
       "uuid": "8dd10b5e-ef63-56c8-a4e8-f266c8eeb2e8",
+      "oracleId": "d83df072-1ec5-56d0-8725-a40194399146",
       "name": "Honeyfruit",
       "type": "gear",
       "domains": [
@@ -2303,6 +2352,7 @@
     {
       "number": "UNL-050",
       "uuid": "50e85309-b653-5a5f-b61c-cc3ef24f98e3",
+      "oracleId": "1d741aca-aab8-5a34-8558-424df4826a7f",
       "name": "Iascylla",
       "type": "unit",
       "domains": [
@@ -2348,6 +2398,7 @@
     {
       "number": "UNL-051",
       "uuid": "27dc64d7-0478-5488-9f05-d7fcecfb09ca",
+      "oracleId": "4934b938-d92c-5572-a6e2-0303901bbefd",
       "name": "Ivern",
       "subtitle": "Nurturer",
       "type": "unit",
@@ -2421,6 +2472,7 @@
     {
       "number": "UNL-052",
       "uuid": "1028e4c1-2d0f-56c5-8e9a-5afb7583fbe6",
+      "oracleId": "4e12d007-f570-5e9e-8e42-78b89231139d",
       "name": "Nami",
       "subtitle": "Headstrong",
       "type": "unit",
@@ -2470,6 +2522,7 @@
     {
       "number": "UNL-053",
       "uuid": "5fb3ab67-6c5b-516c-a230-40eb5ed2dd35",
+      "oracleId": "c7dc6c70-374a-5a48-b5b9-3ee08570eea6",
       "name": "Scuttle Crab",
       "type": "unit",
       "domains": [
@@ -2514,6 +2567,7 @@
     {
       "number": "UNL-054",
       "uuid": "fd7245c9-37a5-55f5-a032-10066be227d3",
+      "oracleId": "9bddac6f-d51b-576f-96db-6bfd95371772",
       "name": "Tricksy Tentacles",
       "type": "spell",
       "domains": [
@@ -2555,6 +2609,7 @@
     {
       "number": "UNL-055",
       "uuid": "0501e216-78f0-5a03-b3e2-fe474b9eab3a",
+      "oracleId": "66b78ae2-22c0-5327-a899-38672e9f867b",
       "name": "Vex",
       "subtitle": "Mocking",
       "type": "unit",
@@ -2629,6 +2684,7 @@
     {
       "number": "UNL-056",
       "uuid": "eaf6c394-eb19-5ca3-9728-c46a20047580",
+      "oracleId": "99de6329-b30e-50ed-96a4-42b167d8ac9e",
       "name": "Yuumi",
       "subtitle": "Magical Cat",
       "type": "unit",
@@ -2681,6 +2737,7 @@
     {
       "number": "UNL-057",
       "uuid": "04a60804-150a-55d7-aae5-deb3e9c8583d",
+      "oracleId": "f7cce920-e042-500e-adc2-c6dc49727944",
       "name": "Alpha Wildclaw",
       "type": "unit",
       "domains": [
@@ -2727,6 +2784,7 @@
     {
       "number": "UNL-058",
       "uuid": "599eda35-4264-5463-8daf-f6124a7ef048",
+      "oracleId": "7619a8fe-d804-5689-b4d2-907c7287f21e",
       "name": "Lillia",
       "subtitle": "Protector of Dreams",
       "type": "unit",
@@ -2800,6 +2858,7 @@
     {
       "number": "UNL-059",
       "uuid": "716f4cff-5f9d-573f-8548-e15fe9d3339e",
+      "oracleId": "a4b418c6-cbbb-54a8-9444-5a5b99cce3fa",
       "name": "Master Yi",
       "subtitle": "Unstoppable",
       "type": "unit",
@@ -2873,6 +2932,7 @@
     {
       "number": "UNL-060",
       "uuid": "22d8e8f8-14c9-514f-a33e-0eda3cbff2ce",
+      "oracleId": "0b5f5770-b6d2-5c4c-aa36-380499f9f0f3",
       "name": "Vilemaw",
       "type": "unit",
       "domains": [
@@ -2942,6 +3002,7 @@
     {
       "number": "UNL-061",
       "uuid": "bdd8ed37-841a-5251-b739-5fdf0a3b0237",
+      "oracleId": "69c10807-b4f4-5f15-800f-d5ad27858e2a",
       "name": "Downstage Dramatics",
       "type": "spell",
       "domains": [
@@ -2983,6 +3044,7 @@
     {
       "number": "UNL-062",
       "uuid": "d9eaaead-44aa-5be6-bed6-82d4c24b83ab",
+      "oracleId": "f59243e1-e2cd-5371-aa68-9d777bc579e4",
       "name": "Dramatic Visionary",
       "type": "unit",
       "domains": [
@@ -3028,6 +3090,7 @@
     {
       "number": "UNL-063",
       "uuid": "4dacbf50-d1d0-5842-8cc8-43f3239360ed",
+      "oracleId": "d151a0c0-e452-5aaf-857b-498e4b5cc832",
       "name": "Eclipse",
       "type": "spell",
       "domains": [
@@ -3069,6 +3132,7 @@
     {
       "number": "UNL-064",
       "uuid": "51d85629-f923-51e6-a28b-315ec2a6239b",
+      "oracleId": "55ed70fb-e79f-54bf-9929-0cf5aab19033",
       "name": "Fate Weaver",
       "type": "unit",
       "domains": [
@@ -3114,6 +3178,7 @@
     {
       "number": "UNL-065",
       "uuid": "f2664661-c961-5207-81bf-6b56a41c40a5",
+      "oracleId": "6d891733-e1bb-5b77-b419-5f4bb7a3fa9e",
       "name": "Icevale Archer",
       "type": "unit",
       "domains": [
@@ -3159,6 +3224,7 @@
     {
       "number": "UNL-066",
       "uuid": "16fbeede-a4fc-5dce-843a-3c335c3ed806",
+      "oracleId": "894a007e-7b33-5521-99a5-796a79ddfa92",
       "name": "Moonlight Affliction",
       "type": "spell",
       "domains": [
@@ -3200,6 +3266,7 @@
     {
       "number": "UNL-067",
       "uuid": "1efd7b30-3317-58d8-ab6a-b838c0dcf85b",
+      "oracleId": "f2478777-ae4a-5533-bf0e-4a1681de8681",
       "name": "Ruined Rex",
       "type": "unit",
       "domains": [
@@ -3246,6 +3313,7 @@
     {
       "number": "UNL-068",
       "uuid": "1b45f5fe-1cc3-5535-bc52-4da47821f735",
+      "oracleId": "a070830b-841a-5e5d-a388-d96200b5749e",
       "name": "Spectral Centaur",
       "type": "unit",
       "domains": [
@@ -3292,6 +3360,7 @@
     {
       "number": "UNL-069",
       "uuid": "816dae6f-6d29-5a43-af3a-409c0596fb27",
+      "oracleId": "96a1b047-7a28-513c-9c10-b059af1199fe",
       "name": "Sprite Burst",
       "type": "spell",
       "domains": [
@@ -3333,6 +3402,7 @@
     {
       "number": "UNL-070",
       "uuid": "e8477133-eaf9-5ba8-aab9-8e20ffa1a276",
+      "oracleId": "7c61b59a-e7c0-52f5-9723-2733985a77ef",
       "name": "Turn to Dust",
       "type": "spell",
       "domains": [
@@ -3374,6 +3444,7 @@
     {
       "number": "UNL-071",
       "uuid": "12bb9d93-a5de-58cd-a211-0e9baa1a358e",
+      "oracleId": "76ad8da4-82e2-54c8-9a79-692710ff975c",
       "name": "Chakram Dancer",
       "type": "unit",
       "domains": [
@@ -3419,6 +3490,7 @@
     {
       "number": "UNL-072",
       "uuid": "0ae0812b-14eb-54ba-952e-f631b74a37a9",
+      "oracleId": "fc91d030-793a-5082-8a23-30bd2981c000",
       "name": "Crescent Strike",
       "type": "spell",
       "domains": [
@@ -3461,6 +3533,7 @@
     {
       "number": "UNL-073",
       "uuid": "f8da6177-b294-5b56-a3b8-c933e7023bcb",
+      "oracleId": "0e1f6ab5-b61a-5860-9122-a59dbe2fe8ef",
       "name": "Deadly Flourish",
       "type": "spell",
       "domains": [
@@ -3502,6 +3575,7 @@
     {
       "number": "UNL-074",
       "uuid": "515b2452-8c57-5c8c-a481-ec63c501615c",
+      "oracleId": "a212f693-459c-575b-9efc-43be9312bed7",
       "name": "Frigid Jewel",
       "type": "gear",
       "domains": [
@@ -3543,6 +3617,7 @@
     {
       "number": "UNL-075",
       "uuid": "f1b033df-382a-5fcd-8104-69461d99e58a",
+      "oracleId": "85cdfc4f-7cbf-5ef7-8114-c1868cf41244",
       "name": "Gustwalker",
       "type": "unit",
       "domains": [
@@ -3590,6 +3665,7 @@
     {
       "number": "UNL-076",
       "uuid": "12057ce5-729a-5917-8cea-c4ce73a4af32",
+      "oracleId": "d933336f-b458-5576-9914-bc1eb1aca115",
       "name": "Petal Pixie",
       "type": "unit",
       "domains": [
@@ -3636,6 +3712,7 @@
     {
       "number": "UNL-077",
       "uuid": "8bb3ef61-7a56-59f1-91d5-c769551ae5b8",
+      "oracleId": "5d7ef8c5-d6e6-5b48-bec5-57abd2903ef8",
       "name": "Soul Shepherd",
       "type": "unit",
       "domains": [
@@ -3681,6 +3758,7 @@
     {
       "number": "UNL-078",
       "uuid": "1d9ad700-c522-5f07-816a-9c97da54ea44",
+      "oracleId": "5fd16026-e2ad-50b9-a808-ac6a6fbef069",
       "name": "Sprite Fountain",
       "type": "gear",
       "domains": [
@@ -3723,6 +3801,7 @@
     {
       "number": "UNL-079",
       "uuid": "80e0ee45-ee41-5df9-a256-488b334e63a5",
+      "oracleId": "7e0091aa-be6b-5f62-a26e-500f1d2b55e0",
       "name": "Diana",
       "subtitle": "Lunari",
       "type": "unit",
@@ -3795,6 +3874,7 @@
     {
       "number": "UNL-080",
       "uuid": "98c279c4-c1e2-5699-ba2a-ee3024b944e7",
+      "oracleId": "cb346121-9131-56c1-bf12-7e236cc2760d",
       "name": "Hwei",
       "subtitle": "Brooding Painter",
       "type": "unit",
@@ -3845,6 +3925,7 @@
     {
       "number": "UNL-081",
       "uuid": "761794af-7bb2-5baa-bdd5-4ccbbc6ac918",
+      "oracleId": "ea8abcec-fb86-5da2-ab7a-b382d0a8814b",
       "name": "Keeper of Masks",
       "type": "unit",
       "domains": [
@@ -3889,6 +3970,7 @@
     {
       "number": "UNL-082",
       "uuid": "ba595c58-82ca-55f9-8f5c-1ee6601ab7de",
+      "oracleId": "90e4ce7c-9b9a-5945-a308-ff339b3643b7",
       "name": "Lillia",
       "subtitle": "Fae Fawn",
       "type": "unit",
@@ -3962,6 +4044,7 @@
     {
       "number": "UNL-083",
       "uuid": "f18e7acc-e26e-5697-9e3a-eda89ec465fc",
+      "oracleId": "c00b5012-eb68-5689-8047-63278590c7cf",
       "name": "Smoke and Mirrors",
       "type": "spell",
       "domains": [
@@ -4002,6 +4085,7 @@
     {
       "number": "UNL-084",
       "uuid": "29961a4c-fd48-50b2-9da3-8ce3c06b6b83",
+      "oracleId": "6ee25170-72d5-5e77-b64c-1165d1744409",
       "name": "Sprite Queen",
       "type": "unit",
       "domains": [
@@ -4048,6 +4132,7 @@
     {
       "number": "UNL-085",
       "uuid": "d036027f-88d7-539c-a9fe-d6aa74942c6f",
+      "oracleId": "bef07a33-61c7-5958-a0c8-37cd025debda",
       "name": "Sumpworks Map",
       "type": "gear",
       "domains": [
@@ -4088,6 +4173,7 @@
     {
       "number": "UNL-086",
       "uuid": "47a27131-7951-5037-9702-f181c141d6b2",
+      "oracleId": "e8d574fa-b12c-58eb-a76a-1187765a6222",
       "name": "Zilean",
       "subtitle": "Time Mage",
       "type": "unit",
@@ -4138,6 +4224,7 @@
     {
       "number": "UNL-087",
       "uuid": "b457e516-c8db-51cf-a7ac-d6a73577eb91",
+      "oracleId": "05600852-7817-5f1d-ae78-3c7ce5400ff6",
       "name": "Blue Sentinel",
       "type": "unit",
       "domains": [
@@ -4206,6 +4293,7 @@
     {
       "number": "UNL-088",
       "uuid": "19aa1594-91a4-599a-8bc1-33c4bc296a67",
+      "oracleId": "c823a779-19d0-5bac-963a-62c253f452b5",
       "name": "Gutter Palace",
       "type": "gear",
       "domains": [
@@ -4246,6 +4334,7 @@
     {
       "number": "UNL-089",
       "uuid": "86e6f13c-7e9e-5d88-8df9-562de429ae51",
+      "oracleId": "f1f1d59c-85d3-5393-a1a7-bdf86c0947a8",
       "name": "Jhin",
       "subtitle": "Meticulous Killer",
       "type": "unit",
@@ -4318,6 +4407,7 @@
     {
       "number": "UNL-090",
       "uuid": "783521af-b178-5862-9c28-57ec57bcf780",
+      "oracleId": "f99210fd-4f05-5f9a-802f-b33711b865e8",
       "name": "LeBlanc",
       "subtitle": "Everywhere at Once",
       "type": "unit",
@@ -4390,6 +4480,7 @@
     {
       "number": "UNL-091",
       "uuid": "4b905c7b-3bb2-573f-90d6-4c0c3b0debb2",
+      "oracleId": "3a045b04-838f-53f4-9efe-5f2afb0f8ac2",
       "name": "Concentrate",
       "type": "spell",
       "domains": [
@@ -4431,6 +4522,7 @@
     {
       "number": "UNL-092",
       "uuid": "222765c4-0b29-536b-83b6-fe75ac34b4ac",
+      "oracleId": "4b8446f4-edc5-5443-b835-0b76199a0fc8",
       "name": "Demacian Diplomat",
       "type": "unit",
       "domains": [
@@ -4476,6 +4568,7 @@
     {
       "number": "UNL-093",
       "uuid": "af6f7744-6988-5892-9375-8caf23f4b319",
+      "oracleId": "da9a4866-0bb2-56e8-8182-4f580967d194",
       "name": "Dragonsoul Sage",
       "type": "unit",
       "domains": [
@@ -4521,6 +4614,7 @@
     {
       "number": "UNL-094",
       "uuid": "24f66623-0044-5917-97c3-9fe6ea78f013",
+      "oracleId": "d7927ede-1cb5-5c87-b4e6-2089557f46a7",
       "name": "Gemhand Hunter",
       "type": "unit",
       "domains": [
@@ -4567,6 +4661,7 @@
     {
       "number": "UNL-095",
       "uuid": "0b2c6240-fc8e-5aee-82d5-b4b94f59222d",
+      "oracleId": "7c891724-4d29-5bf1-9aed-de6bdc93df7c",
       "name": "Grim Resolve",
       "type": "spell",
       "domains": [
@@ -4608,6 +4703,7 @@
     {
       "number": "UNL-096",
       "uuid": "311fe1fd-edb3-5f70-ad3d-6ae7eaeed7f0",
+      "oracleId": "d5589530-5e75-555f-9429-15ea4814fd9d",
       "name": "Hunter's Machete",
       "type": "gear",
       "domains": [
@@ -4654,6 +4750,7 @@
     {
       "number": "UNL-097",
       "uuid": "0c817206-e034-5223-8a88-5899eaa84a39",
+      "oracleId": "1e5cc4df-b879-55b6-9e94-dd7212ed4838",
       "name": "Kinkou Initiate",
       "type": "unit",
       "domains": [
@@ -4699,6 +4796,7 @@
     {
       "number": "UNL-098",
       "uuid": "0886189b-8658-5d1d-9792-58df4410fcc1",
+      "oracleId": "fec8d61e-9e52-5696-9a63-5086edbcfd4c",
       "name": "Targonian Visionary",
       "type": "unit",
       "domains": [
@@ -4744,6 +4842,7 @@
     {
       "number": "UNL-099",
       "uuid": "57fb2541-b772-53d4-9193-431250375c5f",
+      "oracleId": "6e0d969c-95fa-5f3b-8261-95bace414bd1",
       "name": "Towering Combatant",
       "type": "unit",
       "domains": [
@@ -4789,6 +4888,7 @@
     {
       "number": "UNL-100",
       "uuid": "25d2ceee-687b-5c40-a659-a9729306434e",
+      "oracleId": "a5f355d7-258e-5607-85c1-e6e5402ab086",
       "name": "Voracious Gromp",
       "type": "unit",
       "domains": [
@@ -4834,6 +4934,7 @@
     {
       "number": "UNL-101",
       "uuid": "af42271b-296b-5cab-bb4d-f91ad4305e9f",
+      "oracleId": "f69c0eec-eaa1-57c2-87ce-f886b3814789",
       "name": "Call to Battle",
       "type": "spell",
       "domains": [
@@ -4875,6 +4976,7 @@
     {
       "number": "UNL-102",
       "uuid": "e679834f-6209-52ee-826f-9ba19c01e898",
+      "oracleId": "b4fed8eb-07a8-58f0-bf48-d6965abecc49",
       "name": "Crowd Favorite",
       "type": "unit",
       "domains": [
@@ -4920,6 +5022,7 @@
     {
       "number": "UNL-103",
       "uuid": "f25a4fa8-8c6a-5983-b337-e53269e5eca9",
+      "oracleId": "a567288c-8540-5173-a747-3578f797f580",
       "name": "Disposal Order",
       "type": "spell",
       "domains": [
@@ -4961,6 +5064,7 @@
     {
       "number": "UNL-104",
       "uuid": "bc54485c-a111-55c6-9d13-01320ff31c90",
+      "oracleId": "0a73fafa-b91b-587c-97c1-828d6f382455",
       "name": "Gentle Gemdragon",
       "type": "unit",
       "domains": [
@@ -5007,6 +5111,7 @@
     {
       "number": "UNL-105",
       "uuid": "e3707680-0f77-594b-9c67-8ac8b48f394a",
+      "oracleId": "6e2b92b9-a428-53ec-ba46-36de41cfad87",
       "name": "Imposing Challenger",
       "type": "unit",
       "domains": [
@@ -5052,6 +5157,7 @@
     {
       "number": "UNL-106",
       "uuid": "12a2be91-cbf3-562e-a1e9-a1ca86807377",
+      "oracleId": "abfb86fd-9252-53bb-af68-9091d22d99e5",
       "name": "Repulse",
       "type": "spell",
       "domains": [
@@ -5094,6 +5200,7 @@
     {
       "number": "UNL-107",
       "uuid": "47c19516-8325-51ab-a97a-e81a2dcaab51",
+      "oracleId": "48f3478d-d99e-5a2c-855c-730fe6f91c12",
       "name": "Stare Down",
       "type": "spell",
       "domains": [
@@ -5135,6 +5242,7 @@
     {
       "number": "UNL-108",
       "uuid": "d48c9f2a-ba27-538c-8c47-6717b02c6525",
+      "oracleId": "981eafcf-2334-5aa3-8193-a43e9a5b08ae",
       "name": "Wily Newtfish",
       "type": "unit",
       "domains": [
@@ -5180,6 +5288,7 @@
     {
       "number": "UNL-109",
       "uuid": "1656c176-57a5-5eda-955f-3076e56a5ce8",
+      "oracleId": "6a37bd7a-197f-5558-af19-18bd7870cc79",
       "name": "Blood Rose",
       "type": "gear",
       "domains": [
@@ -5220,6 +5329,7 @@
     {
       "number": "UNL-110",
       "uuid": "0c84bcdd-5076-5f9d-a4ea-769a22650b63",
+      "oracleId": "8c97f071-f9b3-5809-92e7-bbbf8e33e463",
       "name": "Clash of Giants",
       "type": "spell",
       "domains": [
@@ -5261,6 +5371,7 @@
     {
       "number": "UNL-111",
       "uuid": "f209bb99-0739-5af3-9ccf-a9092022ad0c",
+      "oracleId": "6ec0cdd6-cb93-5bd0-aee5-af83ff2a4312",
       "name": "Determined Sentry",
       "type": "unit",
       "domains": [
@@ -5306,6 +5417,7 @@
     {
       "number": "UNL-112",
       "uuid": "de106631-be4a-574e-b3fe-bfb0a07b9d46",
+      "oracleId": "a46b78f4-5aeb-59ea-beca-4a46a58f7586",
       "name": "Irresistible Faefolk",
       "type": "unit",
       "domains": [
@@ -5351,6 +5463,7 @@
     {
       "number": "UNL-113",
       "uuid": "d7048c14-e18e-5fbd-ae56-96eeea13c342",
+      "oracleId": "ce87567e-ae13-51e3-8c11-69e250e45c30",
       "name": "Master Yi",
       "subtitle": "Tempered",
       "type": "unit",
@@ -5423,6 +5536,7 @@
     {
       "number": "UNL-114",
       "uuid": "f2575ba6-b710-5923-a958-998deef116dc",
+      "oracleId": "e5c03bed-3ff9-55be-8894-c5235f7c4a26",
       "name": "Nidalee",
       "subtitle": "Cat Form",
       "type": "unit",
@@ -5474,6 +5588,7 @@
     {
       "number": "UNL-115",
       "uuid": "740d4cb0-5d52-5edf-ba15-e97cab0e6b95",
+      "oracleId": "5261b0d9-0ed4-5ce3-bdc0-f6ef07640d92",
       "name": "Nilah",
       "subtitle": "Joyful Ascetic",
       "type": "unit",
@@ -5525,6 +5640,7 @@
     {
       "number": "UNL-116",
       "uuid": "ff766af8-6ec4-5c45-b4cb-df6ce39a7105",
+      "oracleId": "b1221a6a-0054-5fee-905c-2149aa46db73",
       "name": "Poppy",
       "subtitle": "Paragon",
       "type": "unit",
@@ -5598,6 +5714,7 @@
     {
       "number": "UNL-117",
       "uuid": "130167b1-e0a6-5c42-9374-a7edb00bf977",
+      "oracleId": "a72a57bd-4342-5e88-8e51-5aa3aafeeb1e",
       "name": "Arachnoid Horror",
       "type": "unit",
       "domains": [
@@ -5644,6 +5761,7 @@
     {
       "number": "UNL-118",
       "uuid": "3396be42-b7f8-5da3-a33e-cda319ad926a",
+      "oracleId": "61084432-be87-59cc-8101-7644437d6e2a",
       "name": "Elder Dragon",
       "type": "unit",
       "domains": [
@@ -5713,6 +5831,7 @@
     {
       "number": "UNL-119",
       "uuid": "ad0586cd-68ec-50fa-a4bd-fe9688507a3d",
+      "oracleId": "d39bf94d-89f6-5344-8c98-59079d1c5967",
       "name": "Kha'Zix",
       "subtitle": "Evolving Hunter",
       "type": "unit",
@@ -5786,6 +5905,7 @@
     {
       "number": "UNL-120",
       "uuid": "c626888a-8a8c-5cc2-8ff7-d95eee64f591",
+      "oracleId": "2e498566-9335-53f9-874f-5ef1d4b6c966",
       "name": "Rengar",
       "subtitle": "Trophy Hunter",
       "type": "unit",
@@ -5860,6 +5980,7 @@
     {
       "number": "UNL-121",
       "uuid": "d7548568-a0a9-5d8e-a0bd-846f02adf1c1",
+      "oracleId": "41f9cb82-f3bd-5180-b9c6-d9bffb122fce",
       "name": "Bewitching Spirit",
       "type": "unit",
       "domains": [
@@ -5906,6 +6027,7 @@
     {
       "number": "UNL-122",
       "uuid": "b349ece4-03b1-53c3-8423-ab16171f15fd",
+      "oracleId": "aa4d3273-eab0-5813-877c-a87dc449164a",
       "name": "Crescent Guardian",
       "type": "unit",
       "domains": [
@@ -5951,6 +6073,7 @@
     {
       "number": "UNL-123",
       "uuid": "7f6e43ec-7a53-57ef-8b95-857f09311532",
+      "oracleId": "8bbd8972-00da-59a9-9df7-6438e4c6e713",
       "name": "Evershade Stalker",
       "type": "unit",
       "domains": [
@@ -5996,6 +6119,7 @@
     {
       "number": "UNL-124",
       "uuid": "af856b29-2407-545d-8983-44c79e8a7fed",
+      "oracleId": "fe5f3d80-f6df-58be-abaf-5b15145fb51c",
       "name": "Isolate",
       "type": "spell",
       "domains": [
@@ -6037,6 +6161,7 @@
     {
       "number": "UNL-125",
       "uuid": "12f3c594-8849-5f8f-a386-606bbb3dd2ff",
+      "oracleId": "a3c94422-e217-5233-ab62-cb108f9c8c0e",
       "name": "Lunar Boon",
       "type": "spell",
       "domains": [
@@ -6078,6 +6203,7 @@
     {
       "number": "UNL-126",
       "uuid": "009b9168-ed59-5451-bfe1-96cf9cb5c722",
+      "oracleId": "1362a520-1b63-516c-8f63-9be147944a6d",
       "name": "Megatusk",
       "type": "unit",
       "domains": [
@@ -6123,6 +6249,7 @@
     {
       "number": "UNL-127",
       "uuid": "ae78f958-ee23-594f-8217-b4068c5847a2",
+      "oracleId": "c3fcdb63-cd2e-5bc1-841f-4a2ae8486fcc",
       "name": "Mister Root",
       "type": "unit",
       "domains": [
@@ -6169,6 +6296,7 @@
     {
       "number": "UNL-128",
       "uuid": "af28a61a-e66f-5d83-bd9b-3e578c6d10a0",
+      "oracleId": "52151c3e-4dc2-5d55-a8d0-703bba1a199a",
       "name": "Star-Crossed",
       "type": "spell",
       "domains": [
@@ -6211,6 +6339,7 @@
     {
       "number": "UNL-129",
       "uuid": "a98e6e0f-f8be-5f43-b12b-56602118008b",
+      "oracleId": "6118a767-0af7-5744-bc88-8fdc09aa489e",
       "name": "Vicious Snapjaws",
       "type": "unit",
       "domains": [
@@ -6256,6 +6385,7 @@
     {
       "number": "UNL-130",
       "uuid": "5332ea0b-dd38-56fe-b7a8-8b0d96a2264b",
+      "oracleId": "46f242dc-1ff0-5355-b435-13858ea66891",
       "name": "Walking Roost",
       "type": "unit",
       "domains": [
@@ -6301,6 +6431,7 @@
     {
       "number": "UNL-131",
       "uuid": "080c4d16-5638-59bb-9311-390b2aa91d2d",
+      "oracleId": "19ba1dfb-0493-558a-876e-af909b3021f5",
       "name": "Abandon",
       "type": "spell",
       "domains": [
@@ -6342,6 +6473,7 @@
     {
       "number": "UNL-132",
       "uuid": "4278659c-71f7-58f7-85c6-9a5f21f330e7",
+      "oracleId": "8964ddc8-236a-5b91-a50b-a3bdbaa4a657",
       "name": "Angler Beast",
       "type": "unit",
       "domains": [
@@ -6388,6 +6520,7 @@
     {
       "number": "UNL-133",
       "uuid": "88fa84bd-e3ec-5a21-87bd-084945814ee6",
+      "oracleId": "2c775ebf-5755-515d-9f17-cd6c9f50858e",
       "name": "Blast Cone",
       "type": "gear",
       "domains": [
@@ -6430,6 +6563,7 @@
     {
       "number": "UNL-134",
       "uuid": "da2d28bb-87de-5c03-89b6-09d8b848f017",
+      "oracleId": "5c490cac-c445-5435-a526-8de38b904b05",
       "name": "Existential Dread",
       "type": "spell",
       "domains": [
@@ -6472,6 +6606,7 @@
     {
       "number": "UNL-135",
       "uuid": "1b567101-4f48-5222-8bfb-d279a4859193",
+      "oracleId": "5dcc2dbf-adea-5617-87af-176bfffb40b9",
       "name": "Insightful Investigator",
       "type": "unit",
       "domains": [
@@ -6517,6 +6652,7 @@
     {
       "number": "UNL-136",
       "uuid": "79ea8d0d-ef93-5f6f-a984-3c8884198b93",
+      "oracleId": "79e07904-bd90-57d4-bb6d-c93757a884fe",
       "name": "Scryer's Bloom",
       "type": "gear",
       "domains": [
@@ -6558,6 +6694,7 @@
     {
       "number": "UNL-137",
       "uuid": "75ddbe7d-616e-552e-a9a9-945ecfc5ebed",
+      "oracleId": "19acd2c7-7445-5fa9-b138-470989e20843",
       "name": "Sinister Poro",
       "type": "unit",
       "domains": [
@@ -6605,6 +6742,7 @@
     {
       "number": "UNL-138",
       "uuid": "a7c47342-623c-5185-a108-3e086446867d",
+      "oracleId": "a06723ab-d9fd-5bf4-8b8d-328f68e79bc1",
       "name": "The List",
       "type": "gear",
       "domains": [
@@ -6646,6 +6784,7 @@
     {
       "number": "UNL-139",
       "uuid": "89a23d07-4777-582e-ad96-67dd5071c36c",
+      "oracleId": "4bc2b530-fa3a-57f5-ab87-6f7c8e108990",
       "name": "Bone Skewer",
       "type": "spell",
       "domains": [
@@ -6687,6 +6826,7 @@
     {
       "number": "UNL-140",
       "uuid": "a6b5db89-ec24-568b-a0bb-68c5083d36ac",
+      "oracleId": "1b092d32-ec3a-56c5-8008-371a9f8288f6",
       "name": "Conscription",
       "type": "spell",
       "domains": [
@@ -6728,6 +6868,7 @@
     {
       "number": "UNL-141",
       "uuid": "cdc5c68c-0a2b-50fa-a8dc-fa34e598a144",
+      "oracleId": "2502071f-c314-5f54-91ff-84415c2b144b",
       "name": "Evelynn",
       "subtitle": "Entrancing",
       "type": "unit",
@@ -6777,6 +6918,7 @@
     {
       "number": "UNL-142",
       "uuid": "7d2d59d3-4217-50e6-bcff-3f32a0fbf3b1",
+      "oracleId": "d9c62398-6df8-5503-80ab-88b5fdfe804d",
       "name": "Heedless Resurrection",
       "type": "spell",
       "domains": [
@@ -6818,6 +6960,7 @@
     {
       "number": "UNL-143",
       "uuid": "519348ff-1a11-5e17-b6c6-93f1594ea1a8",
+      "oracleId": "0c4acd3f-aa19-5fcd-a473-18390abc0a0e",
       "name": "Kha'Zix",
       "subtitle": "Mutating Horror",
       "type": "unit",
@@ -6891,6 +7034,7 @@
     {
       "number": "UNL-144",
       "uuid": "4c372842-58e8-5bb1-bcd5-89ea59bab4c3",
+      "oracleId": "7b673693-f591-52ed-94f1-136e8414cd5c",
       "name": "Maduli the Gatekeeper",
       "type": "unit",
       "domains": [
@@ -6936,6 +7080,7 @@
     {
       "number": "UNL-145",
       "uuid": "d1188595-10c7-52b5-afc6-cb1537087bff",
+      "oracleId": "ba888335-46a5-522f-9afc-510668663a14",
       "name": "Pyke",
       "subtitle": "Returned",
       "type": "unit",
@@ -7008,6 +7153,7 @@
     {
       "number": "UNL-146",
       "uuid": "dd5d815f-9358-53f6-9970-06930b2932c0",
+      "oracleId": "2aa26845-a6d6-5b3c-95a1-513fcaab062d",
       "name": "Syndra",
       "subtitle": "Transcendent",
       "type": "unit",
@@ -7058,6 +7204,7 @@
     {
       "number": "UNL-147",
       "uuid": "f048684d-badb-51c2-8e13-e26cde33f021",
+      "oracleId": "6982b538-a9b2-5aeb-94cb-5a8413f4ab40",
       "name": "Baron Nashor",
       "type": "unit",
       "domains": [
@@ -7126,6 +7273,7 @@
     {
       "number": "UNL-148",
       "uuid": "157df8b3-3ce3-5fec-af81-6d95bd2c6ab3",
+      "oracleId": "1075fa05-6e90-5f91-ba18-711e67a0f1c4",
       "name": "Cursed Sarcophagus",
       "type": "gear",
       "domains": [
@@ -7167,6 +7315,7 @@
     {
       "number": "UNL-149",
       "uuid": "c40fbe4e-5392-50a5-9b19-4fa03ea9b1a8",
+      "oracleId": "5e029f8c-aaf1-5658-95ba-0108ca70ac19",
       "name": "Diana",
       "subtitle": "No Longer Human",
       "type": "unit",
@@ -7240,6 +7389,7 @@
     {
       "number": "UNL-150",
       "uuid": "974749a4-ea9a-5c49-b363-34250d45bee9",
+      "oracleId": "9c4fff7a-5799-5482-b5a0-e546ad311e74",
       "name": "Vex",
       "subtitle": "Apathetic",
       "type": "unit",
@@ -7313,6 +7463,7 @@
     {
       "number": "UNL-151",
       "uuid": "36131037-2bb8-5368-a1dd-d8567ed9898d",
+      "oracleId": "33252a85-f4d6-57e7-bd4e-fba98d66231b",
       "name": "Bandle Soldier",
       "type": "unit",
       "domains": [
@@ -7360,6 +7511,7 @@
     {
       "number": "UNL-152",
       "uuid": "591b2ecc-cd26-5fe3-b441-1151fe5dea3b",
+      "oracleId": "5471b9ff-2359-570f-b9af-21cca9b31b8a",
       "name": "Black Rose Dignitary",
       "type": "unit",
       "domains": [
@@ -7405,6 +7557,7 @@
     {
       "number": "UNL-153",
       "uuid": "f1069649-dc20-5a40-bb92-0e98e334d5fb",
+      "oracleId": "0b2ad28c-e439-545e-bb0b-937bb04accd2",
       "name": "Carrion Dredger",
       "type": "unit",
       "domains": [
@@ -7451,6 +7604,7 @@
     {
       "number": "UNL-154",
       "uuid": "0176af08-8c77-571c-8ce3-d6482df72bd5",
+      "oracleId": "4d24e86e-e6f6-5882-a85a-31905d2c3225",
       "name": "Crimson Pigeons",
       "type": "unit",
       "domains": [
@@ -7497,6 +7651,7 @@
     {
       "number": "UNL-155",
       "uuid": "3b85a56f-a8d4-532d-a330-c67b6acf69db",
+      "oracleId": "eb4d46e3-73e9-5ff6-879a-fef9d4f59323",
       "name": "Heroic Charge",
       "type": "spell",
       "domains": [
@@ -7538,6 +7693,7 @@
     {
       "number": "UNL-156",
       "uuid": "3f1c1ef4-780d-599e-b5b5-4d6d64e3f819",
+      "oracleId": "2546424f-d30e-5f91-96de-5bf84c661c0f",
       "name": "Loyal Poro",
       "type": "unit",
       "domains": [
@@ -7584,6 +7740,7 @@
     {
       "number": "UNL-157",
       "uuid": "536536d1-fd5f-5237-ac85-97ef60aa8ec4",
+      "oracleId": "e225ce22-69e6-5b73-b58b-55e54d4ff350",
       "name": "Scrutinizing Sergeant",
       "type": "unit",
       "domains": [
@@ -7630,6 +7787,7 @@
     {
       "number": "UNL-158",
       "uuid": "044522b3-6828-531a-8e34-7e50adf20218",
+      "oracleId": "2593bb6e-ded8-5ba1-acce-9728f03ed56d",
       "name": "Shepherd's Heirloom",
       "type": "gear",
       "domains": [
@@ -7676,6 +7834,7 @@
     {
       "number": "UNL-159",
       "uuid": "10958abc-5d5a-50a2-aca4-0c4288e79212",
+      "oracleId": "6a4d20c8-18eb-502d-acce-0ebf8b01b7d8",
       "name": "Soul Harvest",
       "type": "spell",
       "domains": [
@@ -7718,6 +7877,7 @@
     {
       "number": "UNL-160",
       "uuid": "a3dbb170-7bf4-5ca2-8d21-8f14741cb6ad",
+      "oracleId": "ccf0384a-9788-51f0-b7c3-e46369e0a46f",
       "name": "Ultrasoft Poro",
       "type": "unit",
       "domains": [
@@ -7764,6 +7924,7 @@
     {
       "number": "UNL-161",
       "uuid": "3a92d3a9-38f6-5f4e-98f9-28260ddaaa31",
+      "oracleId": "81cfa6de-d6ef-5145-969c-3e0189903eac",
       "name": "Divining Shells",
       "type": "gear",
       "domains": [
@@ -7805,6 +7966,7 @@
     {
       "number": "UNL-162",
       "uuid": "2a7b3692-efb2-5599-87e6-86b662eaa096",
+      "oracleId": "05904d64-9276-5fb2-8efd-58de10c470e8",
       "name": "Enthralling Protector",
       "type": "unit",
       "domains": [
@@ -7851,6 +8013,7 @@
     {
       "number": "UNL-163",
       "uuid": "6d5bee62-08ea-5165-b915-15a15318af1c",
+      "oracleId": "1201e64e-5fe3-5012-85e1-20a0ea6f4359",
       "name": "Mageseeker Investigator",
       "type": "unit",
       "domains": [
@@ -7896,6 +8059,7 @@
     {
       "number": "UNL-164",
       "uuid": "8e3e0d69-8592-539d-a8e6-78367529df61",
+      "oracleId": "eaa6541d-e68b-5bf7-bbe5-d5e7535094be",
       "name": "Safety Inspector",
       "type": "unit",
       "domains": [
@@ -7943,6 +8107,7 @@
     {
       "number": "UNL-165",
       "uuid": "6cc1c03a-014a-5cf8-b64c-ffccf7679ccd",
+      "oracleId": "33c66634-6b5d-5e4d-8742-fd683e07890a",
       "name": "Shadow's Call",
       "type": "spell",
       "domains": [
@@ -7984,6 +8149,7 @@
     {
       "number": "UNL-166",
       "uuid": "80f45d7a-ad94-51d8-9801-595a92f6ec69",
+      "oracleId": "0ff4ec63-83b5-5753-9793-d553f15c86a9",
       "name": "Stalking Wolf",
       "type": "unit",
       "domains": [
@@ -8031,6 +8197,7 @@
     {
       "number": "UNL-167",
       "uuid": "5933092d-6099-593f-b388-728c166cb795",
+      "oracleId": "3fd6edb6-119e-57fd-a0b0-bdf700b63026",
       "name": "Starhound",
       "type": "unit",
       "domains": [
@@ -8078,6 +8245,7 @@
     {
       "number": "UNL-168",
       "uuid": "ba1c10ca-32ea-597f-b61d-0d0f05303e45",
+      "oracleId": "8a446fed-7759-5677-9cf9-1f535af9d469",
       "name": "Undying Loyalty",
       "type": "spell",
       "domains": [
@@ -8120,6 +8288,7 @@
     {
       "number": "UNL-169",
       "uuid": "6f740b33-264d-5200-9534-27a1cf346340",
+      "oracleId": "c1e1890b-cbda-52ec-9fe3-6e1e015342d8",
       "name": "Ashe",
       "subtitle": "Focused",
       "type": "unit",
@@ -8170,6 +8339,7 @@
     {
       "number": "UNL-170",
       "uuid": "c12f28d9-aa29-5567-8eee-8cf09bde8510",
+      "oracleId": "b269c4ee-d613-5d98-836a-5e0048545756",
       "name": "Atakhan",
       "type": "unit",
       "domains": [
@@ -8216,6 +8386,7 @@
     {
       "number": "UNL-171",
       "uuid": "16f2a3e8-6f80-5b19-8778-840a0b1de40f",
+      "oracleId": "128b9f9f-09d7-5562-9923-a65a9885488c",
       "name": "Galio",
       "subtitle": "Indefatigable",
       "type": "unit",
@@ -8266,6 +8437,7 @@
     {
       "number": "UNL-172",
       "uuid": "916764f0-8933-529e-8593-746bf6e2506e",
+      "oracleId": "119f5dce-ddbd-551b-80fe-0e92d637b994",
       "name": "LeBlanc",
       "subtitle": "Fragmented",
       "type": "unit",
@@ -8339,6 +8511,7 @@
     {
       "number": "UNL-173",
       "uuid": "5cd4f9dd-e290-597d-8990-9bafecea8f51",
+      "oracleId": "a71c0252-e9ed-5ceb-bbdd-5a681af18c10",
       "name": "Sacrifice",
       "type": "spell",
       "domains": [
@@ -8379,6 +8552,7 @@
     {
       "number": "UNL-174",
       "uuid": "43bb4965-1c58-5b6a-8725-60e85a15f500",
+      "oracleId": "b974ab80-0fb8-59c1-9f61-d3a9c841e19c",
       "name": "Shard of Undoing",
       "type": "gear",
       "domains": [
@@ -8419,6 +8593,7 @@
     {
       "number": "UNL-175",
       "uuid": "6d2fa81a-d054-5fdd-85e9-0b46d8401b10",
+      "oracleId": "215c783c-95f9-592c-b52b-1989b45c3cc5",
       "name": "Tactical Retreat",
       "type": "spell",
       "domains": [
@@ -8459,6 +8634,7 @@
     {
       "number": "UNL-176",
       "uuid": "6f0045cd-5b2f-5d93-8b5d-42c52ac2c19f",
+      "oracleId": "09473fc3-95ce-5c9d-af74-f4af1fd42c75",
       "name": "Vi",
       "subtitle": "Peacekeeper",
       "type": "unit",
@@ -8532,6 +8708,7 @@
     {
       "number": "UNL-177",
       "uuid": "d3a587ea-1731-5fec-8b16-4880e795e995",
+      "oracleId": "b7b7407b-347c-5d96-8c1a-f116468937f5",
       "name": "Ivern",
       "subtitle": "Friend to All",
       "type": "unit",
@@ -8604,6 +8781,7 @@
     {
       "number": "UNL-178",
       "uuid": "3cb97465-a62a-5fd1-b75d-d7bea8c8cae3",
+      "oracleId": "35af91a9-c3fe-50a3-8a84-f1ffcf68176b",
       "name": "Poppy",
       "subtitle": "Defender of the Meek",
       "type": "unit",
@@ -8678,6 +8856,7 @@
     {
       "number": "UNL-179",
       "uuid": "6ae172b0-f5f2-531d-aee3-263d867df10d",
+      "oracleId": "a2d731f4-0e9e-5734-8aff-4dfaa6437cd7",
       "name": "Rift Herald",
       "type": "unit",
       "domains": [
@@ -8746,6 +8925,7 @@
     {
       "number": "UNL-180",
       "uuid": "dcdbc32e-02a8-5c25-9302-79129b3f657c",
+      "oracleId": "42a5c112-7c9f-5491-b282-fd66416059af",
       "name": "The Ruination",
       "type": "spell",
       "domains": [
@@ -8787,6 +8967,7 @@
     {
       "number": "UNL-181",
       "uuid": "ed5219b3-4863-55d6-9d93-9cc3d6fb1996",
+      "oracleId": "399121ef-5e97-599b-aec0-fe3a5660bed6",
       "name": "Virtuoso",
       "type": "legend",
       "domains": [
@@ -8827,6 +9008,7 @@
     {
       "number": "UNL-182",
       "uuid": "f1e15141-4420-5816-8045-0fe21308ba62",
+      "oracleId": "3e73e5d3-2a33-5607-9b48-5f1f22a81a35",
       "name": "Curtain Call",
       "type": "spell",
       "superTypes": [
@@ -8874,6 +9056,7 @@
     {
       "number": "UNL-183",
       "uuid": "9da1b5cb-56b2-5b99-8a88-1d9c9c3f5054",
+      "oracleId": "0a4dc9d4-99ed-54a7-ab54-7b366e44d9d8",
       "name": "Pridestalker",
       "type": "legend",
       "domains": [
@@ -8914,6 +9097,7 @@
     {
       "number": "UNL-184",
       "uuid": "7bb60f36-9ce1-5e1f-a082-227a03330880",
+      "oracleId": "e4cf9bfb-331c-53ec-b508-816303f75f9f",
       "name": "Thrill of the Hunt",
       "type": "spell",
       "superTypes": [
@@ -8962,6 +9146,7 @@
     {
       "number": "UNL-185",
       "uuid": "f200dc14-871a-56e1-bc97-322e040ed25f",
+      "oracleId": "4938bca5-2e46-5063-9395-0658fd168c4a",
       "name": "Bloodharbor Ripper",
       "type": "legend",
       "domains": [
@@ -9002,6 +9187,7 @@
     {
       "number": "UNL-186",
       "uuid": "b74d255f-46e5-51ca-8baf-4df1246079d0",
+      "oracleId": "93779e30-f062-56d4-97e3-07cc6948cddd",
       "name": "Death from Below",
       "type": "spell",
       "superTypes": [
@@ -9050,6 +9236,7 @@
     {
       "number": "UNL-187",
       "uuid": "32b4c241-afec-550d-908a-78c237b2aa78",
+      "oracleId": "fc7d07f1-4c3d-5020-934b-01c996a02ff8",
       "name": "Piltover Enforcer",
       "type": "legend",
       "domains": [
@@ -9090,6 +9277,7 @@
     {
       "number": "UNL-188",
       "uuid": "65d8b349-5a39-50f1-957c-0e6945b1bb5d",
+      "oracleId": "a6918e34-4548-54a7-9c8a-a72381cd496a",
       "name": "Hextech Gauntlets",
       "type": "gear",
       "superTypes": [
@@ -9140,6 +9328,7 @@
     {
       "number": "UNL-189",
       "uuid": "c40bd9d6-10e2-56c4-a2a3-fded3af0a8c2",
+      "oracleId": "4cebbbaf-96d7-5335-bfe4-0d68d8644eac",
       "name": "Bashful Bloom",
       "type": "legend",
       "domains": [
@@ -9180,6 +9369,7 @@
     {
       "number": "UNL-190",
       "uuid": "02888cee-f124-56ca-af9b-5e2abbc9625e",
+      "oracleId": "0fc9b7aa-32cc-5348-a0e2-cb607fa21eb7",
       "name": "Lilting Lullaby",
       "type": "spell",
       "superTypes": [
@@ -9228,6 +9418,7 @@
     {
       "number": "UNL-191",
       "uuid": "5fc9fa9d-8497-5dbc-87f5-3b1bc87882df",
+      "oracleId": "5b987534-80a2-5133-aa58-115679987638",
       "name": "Wuju Master",
       "type": "legend",
       "domains": [
@@ -9268,6 +9459,7 @@
     {
       "number": "UNL-192",
       "uuid": "a9d0ad18-e7f3-5afc-9f3e-2465ec5fdf22",
+      "oracleId": "3343a5d6-36c6-5e20-af03-34259c888240",
       "name": "Alpha Strike",
       "type": "spell",
       "superTypes": [
@@ -9316,6 +9508,7 @@
     {
       "number": "UNL-193",
       "uuid": "cd36a0dd-4af1-5e48-915e-c1370e50a8a7",
+      "oracleId": "0a8a262a-6006-560d-981c-2ed0e5818aa6",
       "name": "Gloomist",
       "type": "legend",
       "domains": [
@@ -9356,6 +9549,7 @@
     {
       "number": "UNL-194",
       "uuid": "a62f3014-111e-512e-b900-d71f2c240213",
+      "oracleId": "27608ba3-a8a6-5f66-9aa2-83f548f5c429",
       "name": "Shadow",
       "type": "unit",
       "superTypes": [
@@ -9405,6 +9599,7 @@
     {
       "number": "UNL-195",
       "uuid": "24cc8a40-1231-5a55-a385-82ddbf6a2490",
+      "oracleId": "39c06334-5d21-5c16-8586-c04237e830f8",
       "name": "Green Father",
       "type": "legend",
       "domains": [
@@ -9445,6 +9640,7 @@
     {
       "number": "UNL-196",
       "uuid": "83a4ec41-3519-5de1-93e8-93b113ac0282",
+      "oracleId": "3a79fcbd-2aed-5ec2-966a-d4cfd89afe17",
       "name": "Daisy!",
       "type": "unit",
       "superTypes": [
@@ -9495,6 +9691,7 @@
     {
       "number": "UNL-197",
       "uuid": "b58807ca-72c8-5762-843f-5590efb6e4d1",
+      "oracleId": "08bc5583-9696-5d02-ac2a-9a294395aa71",
       "name": "Scorn of the Moon",
       "type": "legend",
       "domains": [
@@ -9535,6 +9732,7 @@
     {
       "number": "UNL-198",
       "uuid": "26707ae1-d145-5b3e-8659-3225bd0c1707",
+      "oracleId": "dfd010c6-5e16-5755-8414-c3e02759cee7",
       "name": "Moonfall",
       "type": "spell",
       "superTypes": [
@@ -9583,6 +9781,7 @@
     {
       "number": "UNL-199",
       "uuid": "d2df1697-dccb-56c4-b93b-ec4cf5f1ce3f",
+      "oracleId": "9fdc24a3-df24-5bc5-ac49-2e0af9806a17",
       "name": "Deceiver",
       "type": "legend",
       "domains": [
@@ -9623,6 +9822,7 @@
     {
       "number": "UNL-200",
       "uuid": "94d7327a-c713-5243-8a28-e34066b4d44d",
+      "oracleId": "c2e46b3d-4c05-519e-8d50-e87a44c6cd7a",
       "name": "Mirror Image",
       "type": "spell",
       "superTypes": [
@@ -9671,6 +9871,7 @@
     {
       "number": "UNL-201",
       "uuid": "f0e1b9e4-5dd1-555b-acc1-87ca5f455811",
+      "oracleId": "d48db64b-adca-5ceb-830e-a13d43602986",
       "name": "Voidreaver",
       "type": "legend",
       "domains": [
@@ -9711,6 +9912,7 @@
     {
       "number": "UNL-202",
       "uuid": "845ac86c-ea3a-5eaa-9a5b-0f3976e46abe",
+      "oracleId": "56d5f63d-4d86-5c1c-9040-a1b21d62a348",
       "name": "Void Assault",
       "type": "spell",
       "superTypes": [
@@ -9759,6 +9961,7 @@
     {
       "number": "UNL-203",
       "uuid": "3ebf0c42-9ae5-555e-a3d1-ef3ee074f460",
+      "oracleId": "a9c20be8-3042-59de-8d6a-0a150eb2f037",
       "name": "Keeper of the Hammer",
       "type": "legend",
       "domains": [
@@ -9799,6 +10002,7 @@
     {
       "number": "UNL-204",
       "uuid": "409545f3-87b1-5c32-a51a-67ff9f3c66a9",
+      "oracleId": "e635c789-15a2-55bf-b402-e3e35282ee40",
       "name": "Keeper's Verdict",
       "type": "spell",
       "superTypes": [
@@ -9847,6 +10051,7 @@
     {
       "number": "UNL-205",
       "uuid": "9d77b7d8-b7f2-5163-8bbb-761ea3f4e524",
+      "oracleId": "65541772-e4cc-5c1b-b27c-f8941ac0bf74",
       "name": "Abandoned Hall",
       "type": "battlefield",
       "domains": [
@@ -9887,6 +10092,7 @@
     {
       "number": "UNL-206",
       "uuid": "93a4cdf1-0fb6-534c-8186-a8a3db24a997",
+      "oracleId": "904d03d7-fee2-5e67-a972-2cf0d4886897",
       "name": "Altar of Blood",
       "type": "battlefield",
       "domains": [
@@ -9927,6 +10133,7 @@
     {
       "number": "UNL-207",
       "uuid": "288e8df0-dbfd-5716-b5a9-19734dff6699",
+      "oracleId": "3f6a1bd6-aa6e-5071-b144-989f8ee546be",
       "name": "Amateur Recital",
       "type": "battlefield",
       "domains": [
@@ -9967,6 +10174,7 @@
     {
       "number": "UNL-208",
       "uuid": "8232304f-32f0-581d-9e67-ad4189e7b3fc",
+      "oracleId": "c8a23821-9142-5ddc-80fd-08b2fa53a3b7",
       "name": "Black Flame Altar",
       "type": "battlefield",
       "domains": [
@@ -10007,6 +10215,7 @@
     {
       "number": "UNL-209",
       "uuid": "e3970d54-0d79-5672-b822-39f0c96307fd",
+      "oracleId": "63576d71-22f2-5ea1-8ce3-f2d47ebb0a3c",
       "name": "Dusk Rose Lab",
       "type": "battlefield",
       "domains": [
@@ -10047,6 +10256,7 @@
     {
       "number": "UNL-210",
       "uuid": "c4834976-0c58-51a8-8db5-81a745762d29",
+      "oracleId": "81119206-f0eb-5827-82d4-3cf58a7f318f",
       "name": "Forbidding Waste",
       "type": "battlefield",
       "domains": [
@@ -10087,6 +10297,7 @@
     {
       "number": "UNL-211",
       "uuid": "e524c5f3-38aa-540d-aafa-14bace94fada",
+      "oracleId": "3be9b4e4-40c9-5ca9-a7b9-2c967be3c3b2",
       "name": "Forgotten Library",
       "type": "battlefield",
       "domains": [
@@ -10127,6 +10338,7 @@
     {
       "number": "UNL-212",
       "uuid": "eeb00df5-42f9-5081-a0c5-9f4460308ecb",
+      "oracleId": "ef79bfc7-933e-5d9c-bb3e-4a30966dc0be",
       "name": "Frozen Fortress",
       "type": "battlefield",
       "domains": [
@@ -10167,6 +10379,7 @@
     {
       "number": "UNL-213",
       "uuid": "49c83c5d-1ed2-514d-9d0e-4199fd3304e1",
+      "oracleId": "d8112255-4665-5e9e-acd5-d9f43f78ad04",
       "name": "Gardens of Becoming",
       "type": "battlefield",
       "domains": [
@@ -10207,6 +10420,7 @@
     {
       "number": "UNL-214",
       "uuid": "fdcf6f9b-9343-5782-bf36-41350d4a2161",
+      "oracleId": "73f49c0e-74c3-5637-8443-8ca724c0f553",
       "name": "Ripper's Bay",
       "type": "battlefield",
       "domains": [
@@ -10247,6 +10461,7 @@
     {
       "number": "UNL-215",
       "uuid": "87eb48c7-29cb-51fa-b0da-9ea4779afb8f",
+      "oracleId": "85b8fe1c-366e-5e2f-a482-1ad758667aa6",
       "name": "Star Spring",
       "type": "battlefield",
       "domains": [
@@ -10287,6 +10502,7 @@
     {
       "number": "UNL-216",
       "uuid": "805569d9-490f-5fa2-8fd9-cfad4375027b",
+      "oracleId": "783d1cc7-5959-524d-94b4-78ca44299f94",
       "name": "The Academy",
       "type": "battlefield",
       "domains": [
@@ -10327,6 +10543,7 @@
     {
       "number": "UNL-217",
       "uuid": "6f96c4ec-1bfd-5053-875b-216d31528141",
+      "oracleId": "48ac14ae-8a93-56df-941a-70e80f176412",
       "name": "Trapping Grounds",
       "type": "battlefield",
       "domains": [
@@ -10367,6 +10584,7 @@
     {
       "number": "UNL-218",
       "uuid": "10f486b0-27a3-5b90-b57b-c5137c8b9547",
+      "oracleId": "611aa17d-ae68-5114-a119-377941f0f857",
       "name": "Valley of Idols",
       "type": "battlefield",
       "domains": [
@@ -10407,6 +10625,7 @@
     {
       "number": "UNL-219",
       "uuid": "f4432af8-49f9-54d8-a9ce-a32b6a22cbb3",
+      "oracleId": "49588897-239c-517d-9a73-ec03efe281c5",
       "name": "Vaults of Helia",
       "type": "battlefield",
       "domains": [
@@ -10447,6 +10666,7 @@
     {
       "number": "UNL-220",
       "uuid": "6b72bc41-2699-5ace-9148-f25a5b9fe4a5",
+      "oracleId": "048ad9e8-f9ad-5f83-9877-d18dcaf52c19",
       "name": "Pouty Poro",
       "type": "unit",
       "domains": [
@@ -10491,6 +10711,7 @@
     {
       "number": "UNL-221",
       "uuid": "884e8ebf-7c47-5dfb-9405-8fccdacc1907",
+      "oracleId": "fe11e286-89ed-53b7-b9b4-b2a821fbae71",
       "name": "Lonely Poro",
       "type": "unit",
       "domains": [
@@ -10536,6 +10757,7 @@
     {
       "number": "UNL-222",
       "uuid": "f2a106b1-6f14-50ce-843a-0f59a9f35381",
+      "oracleId": "fc914574-ac21-59ba-b5fd-f84f6ffadcaf",
       "name": "Plundering Poro",
       "type": "unit",
       "domains": [
@@ -10582,6 +10804,7 @@
     {
       "number": "UNL-223",
       "uuid": "4bdb4be8-59aa-5e16-b10d-b70f0db027a3",
+      "oracleId": "3ec324cb-d3c7-5ad4-acc2-fde732d09459",
       "name": "Veteran Poro",
       "type": "unit",
       "domains": [
@@ -10627,6 +10850,7 @@
     {
       "number": "UNL-224",
       "uuid": "f7c6e417-d23c-53fe-ad3b-87165a9474a0",
+      "oracleId": "699e6d46-9481-5d54-9013-d08fa0461819",
       "name": "Mystic Poro",
       "type": "unit",
       "domains": [
@@ -10671,6 +10895,7 @@
     {
       "number": "UNL-225",
       "uuid": "b94f287d-deba-5282-9209-9e3933665710",
+      "oracleId": "27bef81a-ba11-53ee-a30e-55d856ae614d",
       "name": "Daring Poro",
       "type": "unit",
       "domains": [
@@ -10715,6 +10940,7 @@
     {
       "number": "UNL-226",
       "uuid": "f4e61255-61b2-52f6-8cd0-810b97268e6f",
+      "oracleId": "399121ef-5e97-599b-aec0-fe3a5660bed6",
       "name": "Virtuoso",
       "type": "legend",
       "domains": [
@@ -10781,6 +11007,7 @@
     {
       "number": "UNL-227",
       "uuid": "95a2a334-2e65-5ae8-ab85-cfa7b115eacc",
+      "oracleId": "0a4dc9d4-99ed-54a7-ab54-7b366e44d9d8",
       "name": "Pridestalker",
       "type": "legend",
       "domains": [
@@ -10847,6 +11074,7 @@
     {
       "number": "UNL-228",
       "uuid": "1a63508f-fbd6-5495-b733-904a79ae89bb",
+      "oracleId": "4938bca5-2e46-5063-9395-0658fd168c4a",
       "name": "Bloodharbor Ripper",
       "type": "legend",
       "domains": [
@@ -10913,6 +11141,7 @@
     {
       "number": "UNL-229",
       "uuid": "3f4f4c55-6a99-5479-a771-cb11e35a2ba7",
+      "oracleId": "fc7d07f1-4c3d-5020-934b-01c996a02ff8",
       "name": "Piltover Enforcer",
       "type": "legend",
       "domains": [
@@ -10979,6 +11208,7 @@
     {
       "number": "UNL-230",
       "uuid": "0ad70c87-fd22-5c95-909d-07462a7e8621",
+      "oracleId": "4cebbbaf-96d7-5335-bfe4-0d68d8644eac",
       "name": "Bashful Bloom",
       "type": "legend",
       "domains": [
@@ -11045,6 +11275,7 @@
     {
       "number": "UNL-231",
       "uuid": "dd5a071d-5bb3-547a-8dc6-f9e3bb20123e",
+      "oracleId": "5b987534-80a2-5133-aa58-115679987638",
       "name": "Wuju Master",
       "type": "legend",
       "domains": [
@@ -11111,6 +11342,7 @@
     {
       "number": "UNL-232",
       "uuid": "923fbd32-7723-5ce6-aa30-22abf0588ad3",
+      "oracleId": "0a8a262a-6006-560d-981c-2ed0e5818aa6",
       "name": "Gloomist",
       "type": "legend",
       "domains": [
@@ -11177,6 +11409,7 @@
     {
       "number": "UNL-233",
       "uuid": "7c3c8dd9-250e-589e-9fb1-7392fca76347",
+      "oracleId": "39c06334-5d21-5c16-8586-c04237e830f8",
       "name": "Green Father",
       "type": "legend",
       "domains": [
@@ -11243,6 +11476,7 @@
     {
       "number": "UNL-234",
       "uuid": "f9cd2666-e676-5459-a32b-d6ef0a004120",
+      "oracleId": "08bc5583-9696-5d02-ac2a-9a294395aa71",
       "name": "Scorn of the Moon",
       "type": "legend",
       "domains": [
@@ -11309,6 +11543,7 @@
     {
       "number": "UNL-235",
       "uuid": "44e73a11-8885-5919-bb16-b9ef59b704d8",
+      "oracleId": "9fdc24a3-df24-5bc5-ac49-2e0af9806a17",
       "name": "Deceiver",
       "type": "legend",
       "domains": [
@@ -11375,6 +11610,7 @@
     {
       "number": "UNL-236",
       "uuid": "9a896ab9-ee64-5a6a-a530-30768c87c118",
+      "oracleId": "d48db64b-adca-5ceb-830e-a13d43602986",
       "name": "Voidreaver",
       "type": "legend",
       "domains": [
@@ -11441,6 +11677,7 @@
     {
       "number": "UNL-237",
       "uuid": "5d2358b3-d2bb-59db-bc36-9dc4d06a9cb6",
+      "oracleId": "a9c20be8-3042-59de-8d6a-0a150eb2f037",
       "name": "Keeper of the Hammer",
       "type": "legend",
       "domains": [
@@ -11507,6 +11744,7 @@
     {
       "number": "UNL-238",
       "uuid": "d9e0e0b9-e30f-558b-a24f-cb4ac31aa2a7",
+      "oracleId": "6982b538-a9b2-5aeb-94cb-5a8413f4ab40",
       "name": "Baron Nashor",
       "type": "unit",
       "domains": [
@@ -11549,6 +11787,7 @@
     {
       "number": "UNL-T01",
       "uuid": "ed8693a5-c9d4-55b9-915f-11da8e4ccf4c",
+      "oracleId": "3150e69e-5f12-5a61-9b4e-af17985dd537",
       "name": "Baron Pit",
       "type": "battlefield",
       "superTypes": [
@@ -11581,6 +11820,7 @@
     {
       "number": "UNL-T02",
       "uuid": "d55698f4-69e8-58b9-8ccb-56a44ba9cc02",
+      "oracleId": "ffacd281-a7dd-5ed2-81da-155f5f92a708",
       "name": "Bird",
       "type": "unit",
       "superTypes": [
@@ -11617,6 +11857,7 @@
     {
       "number": "UNL-T03",
       "uuid": "f5a96d9c-3d4e-5622-905c-06dad3f3899a",
+      "oracleId": "0001b858-3d4b-57f6-bcac-bf8e67a6fe96",
       "name": "Brush",
       "type": "battlefield",
       "superTypes": [
@@ -11649,6 +11890,7 @@
     {
       "number": "UNL-T04",
       "uuid": "05d321cd-350b-576d-beed-113a78b6e9c0",
+      "oracleId": "9e3bd879-ccac-5a39-a439-5bfefa03c145",
       "name": "Buff",
       "superTypes": [
         "token"
@@ -11678,6 +11920,7 @@
     {
       "number": "UNL-T05",
       "uuid": "475863e3-b7d8-554d-9466-5dcaeb66b32c",
+      "oracleId": "90b57318-2e37-56c5-957f-f031c07af160",
       "name": "Gold",
       "type": "gear",
       "superTypes": [
@@ -11710,6 +11953,7 @@
     {
       "number": "UNL-T06",
       "uuid": "abe74b23-27f5-59ff-a78c-a02b393e70f5",
+      "oracleId": "a65bb7c3-1736-5c4f-a9e9-4a8d5489186e",
       "name": "Reflection",
       "type": "unit",
       "superTypes": [
@@ -11743,6 +11987,7 @@
     {
       "number": "UNL-T07",
       "uuid": "d8e8921f-4669-5172-a80b-8daf22f07a56",
+      "oracleId": "a67e50bf-9c9e-5fa0-a3c4-439a0a57317d",
       "name": "Sprite",
       "type": "unit",
       "superTypes": [
@@ -11779,6 +12024,7 @@
     {
       "number": "UNL-T08",
       "uuid": "dd8c1420-9d91-5a9b-b03a-23ebf8b81dec",
+      "oracleId": "be3ede96-ebb4-5975-8a60-9d47d3b08e9a",
       "name": "XP Tracker",
       "superTypes": [
         "token"
@@ -11810,6 +12056,7 @@
     {
       "number": "UNL-R01",
       "uuid": "bb7ac63e-e04d-57d5-b93e-19ae9c6c74e6",
+      "oracleId": "04afaa80-12d3-567c-bac5-d7c7c4e16a77",
       "name": "Fury Rune",
       "type": "rune",
       "superTypes": [
@@ -11887,6 +12134,7 @@
     {
       "number": "UNL-R02",
       "uuid": "b3073e72-3539-5ed5-83f3-73d71ca3d823",
+      "oracleId": "31ef2663-b4b3-5611-8116-31ed677858ad",
       "name": "Calm Rune",
       "type": "rune",
       "superTypes": [
@@ -11964,6 +12212,7 @@
     {
       "number": "UNL-R03",
       "uuid": "09fab57f-1984-50e7-bef7-a590bda3cf3e",
+      "oracleId": "88deb364-a292-5509-8e62-aa404211c7be",
       "name": "Mind Rune",
       "type": "rune",
       "superTypes": [
@@ -12040,6 +12289,7 @@
     {
       "number": "UNL-R04",
       "uuid": "8c76d10c-a8a8-5e86-b6ca-8a2a3d26283e",
+      "oracleId": "73d37a68-acf4-541e-8dbf-3012c570ec7e",
       "name": "Body Rune",
       "type": "rune",
       "superTypes": [
@@ -12117,6 +12367,7 @@
     {
       "number": "UNL-R05",
       "uuid": "49f01119-12b4-59e6-a210-4e6766418c50",
+      "oracleId": "60945555-e885-55c8-80d8-f9d0eca67412",
       "name": "Chaos Rune",
       "type": "rune",
       "superTypes": [
@@ -12194,6 +12445,7 @@
     {
       "number": "UNL-R06",
       "uuid": "8a6ef1a6-6775-5dec-9c8e-958803d86ee7",
+      "oracleId": "9a4e86fb-39ce-5353-a021-d7fa0056293f",
       "name": "Order Rune",
       "type": "rune",
       "superTypes": [
@@ -12269,6 +12521,7 @@
     {
       "number": "UNL-T01+T05",
       "uuid": "6ee8a881-6f1c-5094-9b16-b4c281074768",
+      "oracleId": "8ad12298-933e-5ca9-b685-c602e82ba409",
       "name": "Baron Pit // Gold",
       "printings": [
         {
@@ -12295,6 +12548,7 @@
     {
       "number": "UNL-T02+T04",
       "uuid": "0074a65b-39cb-57c4-98dc-30dcf023a3cd",
+      "oracleId": "be557cb5-37b8-5735-bcc1-a93becab3679",
       "name": "Bird // Buff",
       "printings": [
         {
@@ -12321,6 +12575,7 @@
     {
       "number": "UNL-T02+T05",
       "uuid": "3032016a-8d1d-5f28-80a4-300f79f5da10",
+      "oracleId": "ca5e6f28-ee7a-5a45-ac5f-954bd01b36fa",
       "name": "Bird // Gold",
       "printings": [
         {
@@ -12347,6 +12602,7 @@
     {
       "number": "UNL-T03+T04",
       "uuid": "a699f915-e2c6-516f-ba31-882f73afefcc",
+      "oracleId": "c9395747-75c8-51e3-9592-0d22953c0ed3",
       "name": "Brush // Buff",
       "printings": [
         {
@@ -12373,6 +12629,7 @@
     {
       "number": "UNL-T04+T06",
       "uuid": "aa7c2696-f6b0-57f4-b906-e6341547534e",
+      "oracleId": "147fecc8-5814-523a-909b-f11001a11a92",
       "name": "Reflection // Buff",
       "printings": [
         {
@@ -12399,6 +12656,7 @@
     {
       "number": "UNL-T04+T07",
       "uuid": "863e0366-9c99-5ca7-970d-1c5b5fcfd9e3",
+      "oracleId": "859465b6-dfd2-5271-832a-c7ab0e0d8c1e",
       "name": "Sprite // Buff",
       "printings": [
         {
@@ -12425,6 +12683,7 @@
     {
       "number": "UNL-T04+T08",
       "uuid": "8e9c721d-ee4f-5471-ab9f-892f8bd80a47",
+      "oracleId": "2f18e184-524b-5e5b-b25f-38d7d7060b05",
       "name": "XP Tracker // Buff",
       "printings": [
         {
@@ -12451,6 +12710,7 @@
     {
       "number": "UNL-T05+T06",
       "uuid": "dcdb258b-e7ec-5724-8b37-8c01f8122a61",
+      "oracleId": "ae55667c-4c5a-5c58-8b9c-333077175463",
       "name": "Reflection // Gold",
       "printings": [
         {
@@ -12477,6 +12737,7 @@
     {
       "number": "UNL-T05+T07",
       "uuid": "aaf7026d-bc22-51db-bb6a-4e69fdb9cf38",
+      "oracleId": "52699f55-cee9-58b5-81a8-93b3e7ddfe03",
       "name": "Sprite // Gold",
       "printings": [
         {
@@ -12503,6 +12764,7 @@
     {
       "number": "UNL-T05+T08",
       "uuid": "812903a4-9e45-5491-bf75-9dba8400aba9",
+      "oracleId": "ce4090dc-0218-52da-87d3-eb1d608c8251",
       "name": "XP Tracker // Gold",
       "printings": [
         {

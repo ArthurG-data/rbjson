@@ -30,6 +30,11 @@
             "format": "uuid",
             "description": "The record's UUID: given once, kept for good, recorded in data/uuids.json (see tools/uuids.py)."
           },
+          "oracleId": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Shared by a card and its reprints (every card with this name and subtitle), as Scryfall's oracle_id: given once, kept for good, recorded in data/uuids.json (see tools/uuids.py)."
+          },
           "name": {
             "type": "string",
             "minLength": 1
