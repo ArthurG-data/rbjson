@@ -73,6 +73,24 @@
       "releaseDate": "2026-10-23"
     },
     {
+      "id": "radiance-nexus-night-promo-pack",
+      "uuid": "c239f849-633c-543b-9672-7c0fa9080886",
+      "set": "RAD",
+      "category": "promo_pack",
+      "name": "Radiance - Nexus Night Promo Pack",
+      "identifiers": {
+        "tcgplayerProductIds": [
+          732873
+        ]
+      },
+      "contentsStatus": "unknown",
+      "contents": {},
+      "sources": [
+        "https://www.tcgplayer.com/product/732873"
+      ],
+      "releaseDate": "2026-10-23"
+    },
+    {
       "id": "radiance-pre-rift-event-kit",
       "uuid": "9aa838a7-1544-52af-b92c-b504b56ce821",
       "set": "RAD",

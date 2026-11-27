@@ -12128,6 +12128,28 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "UNL-R01c",
+          "uuid": "0d7c3795-2a4a-503f-a953-3a1cb2ebf951",
+          "collectorNumber": 1,
+          "suffix": "c",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697499_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              697499
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (R01c)",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -12206,6 +12228,28 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "UNL-R02c",
+          "uuid": "6c1417b5-1dcc-54a3-bc59-d39ed697afbd",
+          "collectorNumber": 2,
+          "suffix": "c",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697497_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              697497
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (R02c)",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -12283,6 +12327,26 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "UNL-R03c",
+          "uuid": "6a3837a3-ba8d-54b4-bbaf-1127beb3e48a",
+          "collectorNumber": 3,
+          "suffix": "c",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              697496
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (R03c)",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -12315,6 +12379,7 @@
             "match": "minted"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -12361,6 +12426,28 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "UNL-R04c",
+          "uuid": "28805407-fea2-5df6-918b-120dd5d4fadb",
+          "collectorNumber": 4,
+          "suffix": "c",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697495_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              697495
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (R04c)",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
+          ]
         }
       ]
     },
@@ -12393,6 +12480,7 @@
             "match": "minted"
           },
           "finishes": [
+            "foil",
             "nonfoil"
           ]
         },
@@ -12438,6 +12526,28 @@
           },
           "finishes": [
             "foil"
+          ]
+        },
+        {
+          "id": "UNL-R05c",
+          "uuid": "1fb5e3cf-a524-5975-8a55-420bc05b68ea",
+          "collectorNumber": 5,
+          "suffix": "c",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/697493_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              697493
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (R05c)",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
           ]
         }
       ]
@@ -12514,6 +12624,26 @@
           },
           "finishes": [
             "foil"
+          ]
+        },
+        {
+          "id": "UNL-R06c",
+          "uuid": "3997aeef-d158-567a-8bde-a0a92cc6938d",
+          "collectorNumber": 6,
+          "suffix": "c",
+          "rarity": "showcase",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              697492
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (R06c)",
+            "match": "minted"
+          },
+          "finishes": [
+            "nonfoil"
           ]
         }
       ]

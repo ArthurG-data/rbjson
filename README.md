@@ -10,7 +10,7 @@ Every gallery entry is one printing. The variants of one collector number (`OGN-
 came from, so a reader can always get back to Riot's own record.
 
 <!-- counts:start -->
-The data holds 9 sets, 1,488 cards, 2,144 printings and 66 sealed products. 1,769 printings are English and 375 are Korean, each beside its English twin on the same card, which carries its Korean name. 1,783 printings come from the gallery and 361 from TCGplayer's catalogue: the runes, signatures, tokens and promos the gallery leaves out, 231 of them with TCGplayer's image. 1,760 English printings carry the TCGplayer product that sells them, and 941 carry the Cardmarket product that sells them. Every card, printing and sealed product has a UUID that never changes.
+The data holds 9 sets, 1,478 cards, 2,152 printings and 67 sealed products. 1,777 printings are English and 375 are Korean, each beside its English twin on the same card, which carries its Korean name. 1,783 printings come from the gallery and 369 from TCGplayer's catalogue: the runes, signatures, tokens and promos the gallery leaves out, 239 of them with TCGplayer's image. 1,768 English printings carry the TCGplayer product that sells them, and 941 carry the Cardmarket product that sells them. Every card, printing and sealed product has a UUID that never changes.
 <!-- counts:end -->
 The starter set names its parent, and each booster set carries its key art.
 
@@ -49,14 +49,14 @@ set can read `data/cards/<set>.json` straight from a checkout instead.
 <!-- sets:start -->
 | Code | Name | Type | Set size | Cards | Printings |
 |---|---|---|---|---|---|
-| OGN | Origins | booster | 298 | 310 | 703 |
+| OGN | Origins | booster | 298 | 310 | 709 |
 | OGS | Proving Grounds | starter | 24 | 24 | 48 |
 | SFD | Spiritforged | booster | 221 | 261 | 309 |
-| UNL | Unleashed | booster | 219 | 262 | 316 |
+| UNL | Unleashed | booster | 219 | 262 | 322 |
 | VEN | Vendetta | booster | 166 | 215 | 254 |
-| RAD | Radiance | booster | 167 | 201 | 239 |
-| OPP | Riftbound Organized Play Promotional Cards | promo |  | 199 | 259 |
-| PR | Riftbound Promotional Cards | promo |  | 12 | 12 |
+| RAD | Radiance | booster | 167 | 201 | 245 |
+| OPP | Riftbound Organized Play Promotional Cards | promo |  | 188 | 248 |
+| PR | Riftbound Promotional Cards | promo |  | 13 | 13 |
 | JDG | Riftbound Judge Promotional Cards | promo |  | 4 | 4 |
 <!-- sets:end -->
 

@@ -478,6 +478,36 @@
       ]
     },
     {
+      "number": "PR-T02+T05",
+      "uuid": "16e84f89-b45a-5112-9848-ac663f004e82",
+      "oracleId": "04bd8b85-d42a-5264-935e-411dc6771f44",
+      "name": "Bomb // Gold",
+      "printings": [
+        {
+          "id": "PR-T02+T05.full-art",
+          "uuid": "7d4ad3b8-3b35-583f-b8b7-fbb1aacc3f38",
+          "collectorNumber": 2,
+          "variant": "full-art",
+          "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/735152_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              735152
+            ]
+          },
+          "tcgplayer": {
+            "name": "Bomb // Gold (Full Art)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
+        }
+      ]
+    },
+    {
       "number": "PR-VEN041",
       "uuid": "5567b1c7-e0b4-5a82-9543-9d03270ec70f",
       "oracleId": "99d56481-63b3-5428-9be6-2aa1c789d8bd",

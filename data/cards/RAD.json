@@ -8991,6 +8991,28 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-R01b",
+          "uuid": "24f25d4d-09bc-554b-af62-a9aae284ffc5",
+          "collectorNumber": 1,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/732648_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              732648
+            ]
+          },
+          "tcgplayer": {
+            "name": "Fury Rune (R01b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9050,6 +9072,28 @@
           "tcgplayer": {
             "name": "Calm Rune (R02a)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-R02b",
+          "uuid": "b5d16b18-9100-5ea9-a152-fc08eced13f6",
+          "collectorNumber": 2,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/732647_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              732647
+            ]
+          },
+          "tcgplayer": {
+            "name": "Calm Rune (R02b)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -9118,6 +9162,28 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-R03b",
+          "uuid": "caace4c2-1a5b-527a-a86c-95118ae1b717",
+          "collectorNumber": 3,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/732646_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              732646
+            ]
+          },
+          "tcgplayer": {
+            "name": "Mind Rune (R03b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9178,6 +9244,28 @@
           "tcgplayer": {
             "name": "Body Rune (R04a)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-R04b",
+          "uuid": "95fd66b5-7482-55c8-bcbc-e6a998a2b3ee",
+          "collectorNumber": 4,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/732643_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              732643
+            ]
+          },
+          "tcgplayer": {
+            "name": "Body Rune (R04b)",
+            "match": "minted"
           },
           "finishes": [
             "foil"
@@ -9245,6 +9333,28 @@
           "finishes": [
             "foil"
           ]
+        },
+        {
+          "id": "RAD-R05b",
+          "uuid": "ef2f513b-71d8-56f9-8f07-b87fb6288de4",
+          "collectorNumber": 5,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/732644_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              732644
+            ]
+          },
+          "tcgplayer": {
+            "name": "Chaos Rune (R05b)",
+            "match": "minted"
+          },
+          "finishes": [
+            "foil"
+          ]
         }
       ]
     },
@@ -9305,6 +9415,28 @@
           "tcgplayer": {
             "name": "Order Rune (R06a)",
             "match": "number"
+          },
+          "finishes": [
+            "foil"
+          ]
+        },
+        {
+          "id": "RAD-R06b",
+          "uuid": "09ade7ee-8fc1-52c7-8b9b-73090dbb95bd",
+          "collectorNumber": 6,
+          "suffix": "b",
+          "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/732645_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
+          "source": "tcgplayer",
+          "identifiers": {
+            "tcgplayerProductIds": [
+              732645
+            ]
+          },
+          "tcgplayer": {
+            "name": "Order Rune (R06b)",
+            "match": "minted"
           },
           "finishes": [
             "foil"

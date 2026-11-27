@@ -2711,11 +2711,11 @@
   "promo_expansions": [
     {
       "expansionId": 6322,
-      "products": 80
+      "products": 81
     },
     {
       "expansionId": 6480,
-      "products": 5
+      "products": 84
     },
     {
       "expansionId": 6483,
@@ -2723,7 +2723,7 @@
     },
     {
       "expansionId": 6567,
-      "products": 46
+      "products": 47
     },
     {
       "expansionId": 6588,
@@ -2735,15 +2735,23 @@
     },
     {
       "expansionId": 6705,
-      "products": 10
+      "products": 15
     },
     {
       "expansionId": 6921,
-      "products": 45
+      "products": 48
     },
     {
       "expansionId": 6938,
       "products": 5
+    },
+    {
+      "expansionId": 6947,
+      "products": 116
+    },
+    {
+      "expansionId": 6959,
+      "products": 4
     }
   ]
 }
