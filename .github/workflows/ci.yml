@@ -27,11 +27,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: astral-sh/setup-uv@v5
       - run: uv sync --group dev
       - run: uv run ruff check tools tests
       - run: uv run pytest -q
-      - run: uv run python tools/validate.py
+      # A UUID, once given, never changes: compare data/uuids.json with the branch a PR targets, or with the commit
+      # before a push.
+      - run: |
+          if [ -n "$BASE_REF" ]; then git fetch --depth=1 origin "$BASE_REF"; since=FETCH_HEAD; else since=HEAD^; fi
+          uv run python tools/validate.py --since "$since"
+        env:
+          BASE_REF: ${{ github.base_ref }}
 
   # The online checks compare the data with the live sources. A source can change at any time (Riot adds a card), which
   # says nothing about a PR, so they run on a schedule, by hand, and before a release, not on every push.

@@ -83,6 +83,26 @@ The same champion appears in several sets with different subtitles (Ahri, Inquis
 Confident in Radiance). Each is its own card, because each has its own number, cost and stats. rbjson does
 not yet link a reprint to the card it reprints.
 
+### UUIDs
+
+Every card, printing and sealed product also carries a `uuid`, the key a catalogue should store. An id says what
+a record is, and a few ids are built from names another site picks: a promo's variant and a sealed product's id
+come from TCGplayer's product names, so a rename on TCGplayer would change them. A `uuid` does not change:
+
+- A record seen for the first time gets `uuid5(NAMESPACE, "<kind>:<id>")`, where `NAMESPACE` is
+  `uuid5(NAMESPACE_URL, "https://github.com/ArthurG-data/rbjson")` and the kind is `cards`, `printings` or
+  `products`. A rebuild from nothing gives every record the UUID it had.
+- `data/uuids.json` records the UUID of every id, and the importers stamp it on what they write. A record whose
+  id it knows keeps its UUID, however often the importers run.
+- A record with a new id takes the UUID of the record it replaces, when that record left and they share a
+  TCGplayer product (a promo whose product was renamed), or, for a card, when its printings were the left card's.
+  A rune TCGplayer sold before the gallery listed it keeps its UUID when the gallery starts listing it.
+- A record that leaves moves to `retired` in `data/uuids.json` with its UUID, and gets it back if it returns. A
+  renamed record's old id stays there too, so either id finds the UUID.
+
+So a UUID is never given to another record, and an id never changes UUID. `tools/validate.py --since <git ref>`
+checks that against an earlier `data/uuids.json`, and CI runs it against the branch a PR targets.
+
 ## Cards and printings
 
 ```json
@@ -116,6 +136,7 @@ field is absent rather than null when the gallery gives nothing.
 | Field | Meaning |
 |---|---|
 | `number` | Set code and collector number, without any variant suffix |
+| `uuid` | The card's UUID, which never changes (see [UUIDs](#uuids)) |
 | `name` | The card's English name as printed |
 | `names` | The name in each language the card has printings in, keyed by language: `{"en": "Ahri", "ko": "아리"}`. Present on a card with a non-English printing |
 | `subtitle` | The epithet under a champion's name (Ahri, *Inquisitive*). One champion has one card per subtitle |
@@ -134,6 +155,7 @@ A printing holds what sets one physical card apart from another with the same nu
 | Field | Meaning |
 |---|---|
 | `id` | The printed code before the slash: `OGN-119`, `OGN-119a`, `OGN-304*`. A printing in another language adds `~` and its language to the English twin's id: `OGN-119a~ko` |
+| `uuid` | The printing's UUID, which never changes (see [UUIDs](#uuids)) |
 | `language` | `en`, `fr`, `de`, `ja` or `ko`. Absent means `en`; only `en` and `ko` are used today. A `ko` printing has the same number, suffix and rarity as its English twin, its own image, artists and gallery entry, and no TCGplayer data |
 | `collectorNumber` | The number as an integer, as the gallery sorts by it |
 | `suffix` | `a` or `*`, the variant mark printed after the number. Absent on the base printing |
@@ -311,6 +333,8 @@ the gallery import stays as the cross-check.
 - `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
 - `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
+- `data/uuids.json` records the UUID of every card, printing and sealed product id, current and retired, and the
+  UUID each TCGplayer product was last on. Written by the importers and `tools/uuids.py`; never edited by hand.
 - `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
 - `tools/` holds the importers (gallery, TCGCSV, sealed, Cardmarket), the validator, the build script, and the gallery, TCGCSV and Cardmarket fetchers.
 - `tests/` checks the tools against a small gallery fixture and the committed data against the schemas.
@@ -323,7 +347,8 @@ uv run python tools/import_gallery.py          # rebuild data/cards from the gal
 uv run python tools/import_tcgcsv.py           # TCGplayer product ids and finishes, cached in .cache/tcgcsv
 uv run python tools/import_sealed.py           # sealed products, after import_tcgcsv
 uv run python tools/import_cardmarket.py       # Cardmarket product ids, cached in .cache/cardmarket
-uv run python tools/validate.py [--online [--images]]
+uv run python tools/uuids.py                   # stamp UUIDs (the importers already do; this repairs a hand edit)
+uv run python tools/validate.py [--online [--images]] [--since main]
 uv run python tools/build.py --version 0.4.0   # write dist/AllSets.json, AllCards.json, AllPrintings.json, AllProducts.json
 uv run pytest -q
 ```
@@ -333,6 +358,9 @@ id or gallery entry appears twice, every printing's language has a release, a `~
 printing or sealed product, a Cardmarket product sits on one English printing, a Cardmarket expansion on one set, and a sealed product's contents name products, sets and printings that exist. `--online` fetches the gallery again (and the Korean one, for the Korean printings) and reports any printing whose entry is gone and any entry the
 data lacks, and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists, and Cardmarket whether every Cardmarket product id is still in its singles list. `--images` also asks Riot whether
 every card image is still served, about 1,800 requests, so CI runs it only for a release tag.
+
+Every record must carry the UUID `data/uuids.json` gives its id, and the registry must list no id the data lacks.
+`--since <ref>` also checks that no id has changed or lost its UUID since that git ref.
 
 `build.py` refuses to write `dist/` while the data is invalid.
 
@@ -354,7 +382,7 @@ fails, CI turns the release back into a draft, so readers keep getting the previ
 4. Run `uv run python tools/import_cardmarket.py --refresh`. A new set needs its `cardmarketExpansionIds` in `sets/sets.json` first.
 5. Read `review/gallery.json`, `review/tcgplayer-89.json`, `review/cardmarket-22.json` and `review/sealed.json` for anything new.
 6. Run `uv run python tools/validate.py --online` and `uv run pytest -q`.
-7. Commit `sets/`, `data/` and `review/` together, so a release never mixes two snapshots.
+7. Commit `sets/`, `data/` (with `data/uuids.json`) and `review/` together, so a release never mixes two snapshots.
 
 ## Licence
 

@@ -36,6 +36,7 @@ from typing import NamedTuple
 
 import rbjson
 import tcgcsv
+import uuids
 
 CACHE = rbjson.ROOT / ".cache" / "tcgcsv"
 FINISH_RECORD = rbjson.ROOT / "data" / "tcgplayer_finishes.json"
@@ -316,9 +317,12 @@ def main() -> None:
     recorded = json.loads(FINISH_RECORD.read_text(encoding="utf-8")) if FINISH_RECORD.exists() else {}
     finishes = product_finishes(recorded, (row for g in groups for row in tcgcsv.prices(g["groupId"], CACHE, args.refresh)))
     result = apply(files, sets, groups, lambda gid: tcgcsv.products(gid, CACHE, args.refresh), finishes)
+    registry = uuids.load()
+    uuids.assign_cards(files, registry)
     for stem, body in files.items():
         rbjson.dump(rbjson.CARDS / f"{stem}.json", body)
     rbjson.dump(rbjson.SETS, sets)
+    uuids.save(registry)
     FINISH_RECORD.write_text(finish_record_text(finishes), encoding="utf-8")
     rbjson.dump(REVIEW, result["review"])
     print(" ".join(f"{k}={v}" for k, v in sorted(result["counts"].items())))

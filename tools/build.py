@@ -10,6 +10,7 @@ import json
 import sys
 
 import rbjson
+import uuids
 
 DIST = rbjson.ROOT / "dist"
 
@@ -19,7 +20,7 @@ def main() -> None:
     ap.add_argument("--version", default="0.0.0-dev")
     args = ap.parse_args()
     sets, files, sealed = rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()
-    errors = rbjson.validate(sets, files, sealed)
+    errors = rbjson.validate(sets, files, sealed) or uuids.errors(files, sealed, uuids.load())
     if errors:
         sys.exit("refusing to build:\n" + "\n".join(errors))
     meta = {"version": args.version, "date": datetime.date.today().isoformat()}

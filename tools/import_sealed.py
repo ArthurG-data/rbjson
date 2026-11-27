@@ -23,6 +23,7 @@ import re
 
 import rbjson
 import tcgcsv
+import uuids
 
 CACHE = rbjson.ROOT / ".cache" / "tcgcsv"
 REVIEW = rbjson.ROOT / "review" / "sealed.json"
@@ -125,11 +126,14 @@ def main() -> None:
     sets = rbjson.load_sets()
     groups = tcgcsv.groups(CACHE, args.refresh)
     by_set, review = build(sets, groups, lambda gid: tcgcsv.products(gid, CACHE, args.refresh))
+    registry = uuids.load()
+    uuids.assign_products({s: {"products": ps} for s, ps in by_set.items()}, registry)
     rbjson.SEALED.mkdir(parents=True, exist_ok=True)
     for old in rbjson.SEALED.glob("*.json"):
         old.unlink()
     for set_id, products in sorted(by_set.items()):
         rbjson.dump(rbjson.SEALED / f"{set_id}.json", {"products": products})
+    uuids.save(registry)
     rbjson.dump(REVIEW, {"unmatched": review})
     counts = collections.Counter(p["category"] for ps in by_set.values() for p in ps)
     total = sum(counts.values())

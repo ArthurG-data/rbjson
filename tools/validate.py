@@ -12,6 +12,8 @@ IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried before it 
 from __future__ import annotations
 
 import argparse
+import json
+import subprocess
 import sys
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
@@ -22,6 +24,7 @@ import gallery
 import net
 import rbjson
 import tcgcsv
+import uuids
 
 IMAGE_WORKERS = 6
 
@@ -86,13 +89,30 @@ def image_errors(printings: dict[str, dict], head=net.head_status) -> list[str]:
     return [f"printing {pid}: image answers {status or 'nothing'}" for (pid, _), status in zip(items, statuses, strict=True) if status is not None]
 
 
+def registry_at(ref: str) -> dict:
+    """data/uuids.json as git ``ref`` has it; empty before the registry existed."""
+    path = uuids.REGISTRY.relative_to(rbjson.ROOT).as_posix()
+    shown = subprocess.run(["git", "show", f"{ref}:{path}"], cwd=rbjson.ROOT, capture_output=True, text=True)
+    if shown.returncode != 0:
+        if "exists on disk, but not in" in shown.stderr or "does not exist in" in shown.stderr:
+            return uuids.empty()
+        raise SystemExit(f"git show {ref}:{path}: {shown.stderr.strip()}")
+    return json.loads(shown.stdout)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--online", action="store_true")
     ap.add_argument("--images", action="store_true")
+    ap.add_argument("--since", metavar="REF", help="also check that no id changed or lost its uuid since git REF")
     args = ap.parse_args()
     sets, files, sealed = rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed()
     errors = rbjson.validate(sets, files, sealed)
+    if not errors:
+        registry = uuids.load()
+        errors = uuids.errors(files, sealed, registry)
+        if args.since:
+            errors += uuids.history_errors(registry_at(args.since), registry)
     if not errors and args.online:
         errors = online_errors(sets, files, args.images, sealed)
     if errors:

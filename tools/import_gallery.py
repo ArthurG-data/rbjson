@@ -26,6 +26,7 @@ from pathlib import Path
 
 import gallery
 import rbjson
+import uuids
 
 CODE = re.compile(r"^(?P<set>[A-Z]{3})-(?P<core>[A-Z]*[0-9]+)(?P<suffix>[a*]?)(?:/[0-9]+)?$")
 SCALARS = ("energy", "power", "might", "mightBonus")
@@ -190,8 +191,12 @@ def main() -> None:
         added, found = merge_locale(files, english, gallery.cards(gallery.fetch(locale, args.cache, args.refresh)), language)
         print(f"{locale}: {added} {language} printings")
         problems += found
+    registry = uuids.load()
+    # the files this run does not rebuild (a promo set's) are live too, so their records keep their place
+    uuids.assign_cards({**rbjson.load_cards(), **files}, registry)
     for stem, body in files.items():
         rbjson.dump(rbjson.CARDS / f"{stem}.json", body)
+    uuids.save(registry)
     rbjson.dump(rbjson.ROOT / "review" / "gallery.json", disagreements)
     n = sum(len(b["cards"]) for b in files.values())
     m = sum(len(c["printings"]) for b in files.values() for c in b["cards"])
