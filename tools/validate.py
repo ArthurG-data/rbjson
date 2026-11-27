@@ -6,25 +6,24 @@
 printing whose gallery entry is gone, and any gallery entry the data lacks (in another language, one whose image
 differs from English), and asks TCGCSV whether every TCGplayer product id, on a printing or a sealed product, still exists in category 89, and Cardmarket whether every Cardmarket product id is still in its singles list. It also asks whether each
 set's key art and logo are still served. --images also
-asks Riot whether every card image is still served: about 1,400 requests, so CI runs it only for a release tag. They go IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried
-before it counts.
+asks Riot whether every card image is still served: about 2,000 requests, so CI runs it only for a release tag. They go
+IMAGE_WORKERS at a time, and a 5xx or a dropped connection is retried before it counts (net.head_status).
 """
 from __future__ import annotations
 
 import argparse
 import sys
-import time
-import urllib.error
-import urllib.request
+import tempfile
 from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
 
 import cardmarket
 import gallery
+import net
 import rbjson
 import tcgcsv
 
 IMAGE_WORKERS = 6
-IMAGE_TRIES = 3
 
 
 def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False,
@@ -52,11 +51,9 @@ def online_errors(sets: list[dict], files: dict[str, dict], images: bool = False
 
 def product_errors(printings: dict[str, dict], products: dict[str, dict] | None = None) -> list[str]:
     """Each TCGplayer product id the data names, on a printing or a sealed product, that category 89 no longer sells."""
-    import tempfile
-    from pathlib import Path
-
-    cache = Path(tempfile.mkdtemp(prefix="rbjson-online-"))
-    sold = {p.product_id for g in tcgcsv.groups(cache) for p in tcgcsv.products(g["groupId"], cache)}
+    with tempfile.TemporaryDirectory(prefix="rbjson-online-") as tmp:
+        cache = Path(tmp)
+        sold = {p.product_id for g in tcgcsv.groups(cache) for p in tcgcsv.products(g["groupId"], cache)}
     return [f"{kind} {key}: TCGplayer product {product_id} is gone from category 89"
             for kind, items in (("printing", printings), ("sealed product", products or {}))
             for key, p in sorted(items.items())
@@ -65,35 +62,14 @@ def product_errors(printings: dict[str, dict], products: dict[str, dict] | None 
 
 def cardmarket_errors(printings: dict[str, dict]) -> list[str]:
     """Each Cardmarket product id the data names that Cardmarket's singles list no longer holds."""
-    import tempfile
-    from pathlib import Path
-
-    sold = {p.product_id for p in cardmarket.singles(Path(tempfile.mkdtemp(prefix="rbjson-online-")))}
+    with tempfile.TemporaryDirectory(prefix="rbjson-online-") as tmp:
+        sold = {p.product_id for p in cardmarket.singles(Path(tmp))}
     return [f"printing {key}: Cardmarket product {product_id} is gone from the singles list"
             for key, p in sorted(printings.items())
             for product_id in p.get("identifiers", {}).get("cardmarketProductIds", []) if product_id not in sold]
 
 
-def head_status(url: str) -> int | None:
-    """The HTTP status a HEAD of url fails with, None when it is served. A 5xx or a dropped connection is tried
-    IMAGE_TRIES times; a 4xx is final."""
-    status = 0
-    for attempt in range(IMAGE_TRIES):
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": gallery.USER_AGENT})
-        try:
-            urllib.request.urlopen(req, timeout=30).close()
-            return None
-        except urllib.error.HTTPError as e:
-            status = e.code
-            if status < 500:
-                return status
-        except urllib.error.URLError:
-            status = 0
-        time.sleep(2 ** attempt)
-    return status
-
-
-def set_art_errors(sets: list[dict], head=head_status) -> list[str]:
+def set_art_errors(sets: list[dict], head=net.head_status) -> list[str]:
     """Each release's key art and logo that Riot's CDN no longer serves."""
     items = [(f"set {s['id']} {label}", r[field]["url"])
              for s in sets for r in s.get("releases", [])
@@ -103,7 +79,7 @@ def set_art_errors(sets: list[dict], head=head_status) -> list[str]:
     return [f"{what}: answers {status or 'nothing'}" for (what, _), status in zip(items, statuses, strict=True) if status is not None]
 
 
-def image_errors(printings: dict[str, dict], head=head_status) -> list[str]:
+def image_errors(printings: dict[str, dict], head=net.head_status) -> list[str]:
     items = sorted((pid, p) for pid, p in printings.items() if "image" in p)
     with ThreadPoolExecutor(IMAGE_WORKERS) as pool:
         statuses = list(pool.map(lambda kv: head(kv[1]["image"]), items))

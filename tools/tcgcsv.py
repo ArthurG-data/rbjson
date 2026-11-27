@@ -1,15 +1,14 @@
 """TCGplayer's Riftbound catalogue as mirrored by TCGCSV (category 89), cached under .cache/tcgcsv."""
 from __future__ import annotations
 
-import json
 import time
-import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 
+import net
+
 TCGCSV = "https://tcgcsv.com/tcgplayer"
 CATEGORY = 89
-USER_AGENT = "rbjson/0.2 (+https://github.com/ArthurG-data/rbjson)"
 FETCH_DELAY_S = 0.5
 # TCGplayer's price sub-types, as the finish each names.
 FINISHES = {"Normal": "nonfoil", "Foil": "foil"}
@@ -38,18 +37,13 @@ class Product:
 
 
 def _get(url: str, cache: Path, refresh: bool) -> dict:
-    cache.mkdir(parents=True, exist_ok=True)
-    path = cache / (url.removeprefix(TCGCSV + "/").replace("/", "_") + ".json")
-    if path.exists() and not refresh:
-        return json.loads(path.read_text(encoding="utf-8"))
-    time.sleep(FETCH_DELAY_S)
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    if not data.get("success", True):
-        raise RuntimeError(f"{url}: {data.get('errors')}")
-    path.write_text(json.dumps(data), encoding="utf-8")
-    return data
+    def fetch() -> dict:
+        time.sleep(FETCH_DELAY_S)
+        data = net.get_json(url)
+        if not data.get("success", True):
+            raise RuntimeError(f"{url}: {data.get('errors')}")
+        return data
+    return net.cached(cache / (url.removeprefix(TCGCSV + "/").replace("/", "_") + ".json"), refresh, fetch)
 
 
 def groups(cache: Path, refresh: bool = False) -> list[dict]:
