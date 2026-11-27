@@ -7,5 +7,10 @@ TCGplayer product ids and finishes, from TCGplayer's catalogue as mirrored by TC
 the data are links to Riot's content delivery network, not copies. The images, card names and the Riftbound and
 League of Legends marks belong to Riot Games. Anyone who displays them is responsible for having the right to.
 
+A printing Riot's gallery has no image for links to TCGplayer's product image instead
+(https://tcgplayer-cdn.tcgplayer.com), marked "imageSource": "tcgplayer". Those photographs are TCGplayer's, of
+cards that are Riot Games'; credit TCGplayer (https://www.tcgplayer.com) when showing them. They are links, not
+copies, and rbjson is not endorsed by TCGplayer.
+
 rbjson is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone
 officially involved in producing or managing Riot Games properties.

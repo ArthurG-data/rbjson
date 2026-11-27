@@ -209,6 +209,8 @@ def _printing_errors(files: dict[str, dict], releases: dict[str, set[str]], prin
                 errors.append(f"printing {pid}: Cardmarket products are matched to English printings, so a {lang} printing has none")
             if lang != "en" and ("tcgplayer" in p or "finishes" in p or p["identifiers"].get("tcgplayerProductIds")):
                 errors.append(f"printing {pid}: TCGplayer sells English cards, so a {lang} printing has no TCGplayer data")
+            if "imageSource" in p and ("image" not in p or p["source"] == "riot-gallery"):
+                errors.append(f"printing {pid}: imageSource credits an image the printing does not borrow: a gallery printing shows Riot's")
             if ("tcgplayer" in p) != bool(p["identifiers"].get("tcgplayerProductIds")):
                 errors.append(f"printing {pid}: tcgplayer and identifiers.tcgplayerProductIds come together")
             if p["source"] != "riot-gallery":

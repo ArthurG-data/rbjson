@@ -192,6 +192,12 @@
           "type": "string",
           "format": "uri"
         },
+        "imageSource": {
+          "enum": [
+            "tcgplayer"
+          ],
+          "description": "Whose image `image` is, when it is not Riot's: tcgplayer for TCGplayer's product image, given to a printing the gallery has no image for. The image belongs to TCGplayer; credit it when showing it. Absent means the image is Riot's, from the gallery."
+        },
         "artists": {
           "type": "array",
           "uniqueItems": true,

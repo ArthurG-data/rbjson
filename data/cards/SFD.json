@@ -12157,6 +12157,8 @@
           "collectorNumber": 1,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678224_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12177,6 +12179,8 @@
           "collectorNumber": 1,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/680274_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12230,6 +12234,8 @@
           "collectorNumber": 2,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678227_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12250,6 +12256,8 @@
           "collectorNumber": 2,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/680304_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12303,6 +12311,8 @@
           "collectorNumber": 3,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678229_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12323,6 +12333,8 @@
           "collectorNumber": 3,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/680331_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12356,6 +12368,8 @@
           "uuid": "ccb55af6-2b87-5f98-b91a-2a1d5c98de84",
           "collectorNumber": 4,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678180_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12376,6 +12390,8 @@
           "collectorNumber": 4,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678231_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12396,6 +12412,8 @@
           "collectorNumber": 4,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/680347_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12449,6 +12467,8 @@
           "collectorNumber": 5,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678232_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12469,6 +12489,8 @@
           "collectorNumber": 5,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/680392_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12522,6 +12544,8 @@
           "collectorNumber": 6,
           "suffix": "a",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/678233_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12542,6 +12566,8 @@
           "collectorNumber": 6,
           "suffix": "b",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/680432_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -12594,6 +12620,8 @@
           "uuid": "738989df-541d-527c-9b57-3d73f2daafbb",
           "collectorNumber": 1,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/721767_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [

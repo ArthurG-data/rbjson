@@ -7739,6 +7739,8 @@
           "collectorNumber": 171,
           "suffix": "*",
           "rarity": "showcase",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/724653_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -9125,6 +9127,8 @@
           "uuid": "14ac83e6-790b-52b3-8904-2422a997e6f6",
           "collectorNumber": 1,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728162_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -9151,6 +9155,8 @@
           "uuid": "8666606b-892e-55d6-8f05-1ed8169b65c8",
           "collectorNumber": 2,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728142_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -9177,6 +9183,8 @@
           "uuid": "612b4812-b7d1-510e-a6ff-e4fcec34a01f",
           "collectorNumber": 3,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728167_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -9203,6 +9211,8 @@
           "uuid": "1429ae2d-4df3-5513-aa50-a4e84b62e293",
           "collectorNumber": 4,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728168_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -9229,6 +9239,8 @@
           "uuid": "b9bc0b4e-a679-5bb1-a5c5-97b9ca0bd7e5",
           "collectorNumber": 5,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/728169_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -9255,6 +9267,8 @@
           "uuid": "340aa338-2cdc-5453-8c01-01db67fc9608",
           "collectorNumber": 6,
           "rarity": "common",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/729796_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [

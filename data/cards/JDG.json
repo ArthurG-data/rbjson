@@ -26,6 +26,8 @@
           "uuid": "3628a456-34db-5118-921d-3a8663a5eeef",
           "collectorNumber": 111,
           "rarity": "rare",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/668439_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -63,6 +65,8 @@
           "uuid": "4416d3d3-1c49-5cc1-856f-578aa8442eab",
           "collectorNumber": 59,
           "rarity": "epic",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/692372_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -99,6 +103,8 @@
           "uuid": "b058faf7-6ca0-5551-8610-7b99eadf14fd",
           "collectorNumber": 87,
           "rarity": "epic",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/702632_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [
@@ -139,6 +145,8 @@
           "uuid": "261ff780-e882-5691-901b-85c9f1b043a3",
           "collectorNumber": 86,
           "rarity": "rare",
+          "image": "https://tcgplayer-cdn.tcgplayer.com/product/721871_in_1000x1000.jpg",
+          "imageSource": "tcgplayer",
           "source": "tcgplayer",
           "identifiers": {
             "tcgplayerProductIds": [

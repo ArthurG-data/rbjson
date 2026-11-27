@@ -57,7 +57,7 @@ def test_apply_matches_by_set_and_number_and_records_the_rest():
     assert alt["identifiers"]["tcgplayerProductIds"] == [11] and alt["finishes"] == ["foil"]
     assert sets[0]["tcgplayerGroupIds"] == [1]
     assert result["counts"] == {"matched": 3, "minted": 1, "sealed": 1, "unmatched_group_singles": 1,
-                                "finishes_inferred": 0, "printings_with_product": 3, "printings_with_finishes": 2}
+                                "finishes_inferred": 0, "images_from_tcgplayer": 0, "printings_with_product": 3, "printings_with_finishes": 2}
     assert result["review"]["unmatched"] == []
     teemo = next(c for c in files["OGN"]["cards"] if c["number"] == "OGN-197")
     assert teemo["name"] == "Teemo" and teemo["printings"][0]["source"] == "tcgplayer"
@@ -199,3 +199,26 @@ def test_a_set_size_two_sets_share_names_neither():
     products = [Product(1, 2, "Sett, The Boss", {"Number": "269/298", "Rarity": "Promo"})]
     result = import_tcgcsv.apply({}, sets, PROMO_GROUPS, lambda gid: products, {})
     assert [r["productId"] for r in result["review"]["unmatched"]] == [1]
+
+
+def test_a_minted_printing_takes_its_first_tcgplayer_product_with_an_image_credited_to_tcgplayer():
+    minted = {"id": "OPP-OGN269.metal", "collectorNumber": 269, "rarity": "showcase", "source": "tcgplayer",
+              "identifiers": {"tcgplayerProductIds": [30, 20]}}
+    gallery = {"id": "OGN-269", "rarity": "epic", "image": "https://riot/x.png", "source": "riot-gallery",
+               "identifiers": {"tcgplayerProductIds": [10]}}
+    bare = {"id": "OPP-OGN270", "rarity": "rare", "source": "tcgplayer", "identifiers": {"tcgplayerProductIds": [40]}}
+    assert import_tcgcsv.add_images([minted, gallery, bare], lambda pid: pid in {30, 10}) == 1
+    assert minted["image"] == "https://tcgplayer-cdn.tcgplayer.com/product/30_in_1000x1000.jpg"
+    assert list(minted)[2:5] == ["rarity", "image", "imageSource"] and minted["imageSource"] == "tcgplayer"
+    assert gallery["image"] == "https://riot/x.png" and "imageSource" not in gallery
+    assert "image" not in bare
+
+
+def test_an_image_is_probed_once_and_kept_in_the_record(monkeypatch):
+    asked = []
+    monkeypatch.setattr(import_tcgcsv.net, "head_status", lambda url: asked.append(url) or (None if "/7_" in url else 403))
+    record = {5}
+    has = import_tcgcsv.image_check(record, probe=True)
+    assert [has(5), has(7), has(8), has(7)] == [True, True, False, True]
+    assert record == {5, 7} and len(asked) == 2
+    assert import_tcgcsv.image_check({5}, probe=False)(7) is False

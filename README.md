@@ -187,7 +187,8 @@ A printing holds what sets one physical card apart from another with the same nu
 | `collectorNumber` | The number as an integer, as the gallery sorts by it |
 | `suffix` | `a` or `*`, the variant mark printed after the number. Absent on the base printing |
 | `rarity` | `common`, `uncommon`, `rare`, `epic` or `showcase` |
-| `image` | A link to the card image on Riot's content delivery network. Not a copy |
+| `image` | A link to the card image on Riot's content delivery network, or on TCGplayer's for a printing the gallery has no image for. Not a copy |
+| `imageSource` | `tcgplayer` when `image` is TCGplayer's product image: credit TCGplayer when showing it. Absent when the image is Riot's |
 | `artists` | The illustrators the gallery credits |
 | `source` | `riot-gallery`, or `tcgplayer` for a printing the gallery leaves out and TCGplayer sells (see [TCGplayer products](#tcgplayer-products)) |
 | `identifiers.galleryId` | The gallery entry's id (`ogn-119a-298`). A Korean printing has its English twin's id, because the Korean gallery numbers its entries the same way |
@@ -266,7 +267,14 @@ signatures the gallery leaves out, double-sided tokens (`T01 // T02` is `UNL-T01
 stamps, so its id names both. Sett, The Boss (Metal) (Best Of), sold at `269/298` in `OPP`, is
 `OPP-OGN269.metal-best-of` on the card `OPP-OGN269`. A rune that names its set, `Calm Rune (Vendetta)` at `R02b`, is
 `VEN-R02b`. A minted card copies its type, domains and tags from the card it reprints, or from another card with its
-name and subtitle, and a minted printing has no image and no gallery id.
+name and subtitle, and a minted printing has no gallery id.
+
+A minted printing has no gallery image, so it takes its TCGplayer product's image from TCGplayer's CDN
+(`https://tcgplayer-cdn.tcgplayer.com/product/<id>_in_1000x1000.jpg`), with `imageSource: "tcgplayer"` to credit
+it. The image belongs to TCGplayer; a reader showing it should credit TCGplayer. Many products have no image: the
+CDN answers 403 at every size whatever TCGCSV's `imageCount` says. So `data/tcgplayer_images.json` records the
+products whose image the CDN was seen to serve, `--refresh` (or `--probe-images`) asks about the rest, and a run
+from the cache reads only the record. 231 of the 361 minted printings have an image this way.
 
 A stamped printing TCGplayer has never priced takes the finish every priced printing of that stamp has. TCGplayer has
 priced none of the 37 Metal Best Of products, so `STAMP_FINISHES` states them as foil, as Face to Face Games lists them.
@@ -342,8 +350,9 @@ the gallery import stays as the cross-check.
 
 - **Finishes** come from TCGplayer's price sub-types, so a printing TCGplayer has never priced has none, and a
   finish the rule of rarity would predict but TCGplayer has never priced is not claimed.
-- **Minted printings.** A printing the gallery omits comes from TCGplayer's product list, so it has no image, no
-  artist and no gallery id, and its rarity is TCGplayer's or the reprinted card's.
+- **Minted printings.** A printing the gallery omits comes from TCGplayer's product list, so it has no artist and
+  no gallery id, its rarity is TCGplayer's or the reprinted card's, and its image is TCGplayer's: 130 of the 361 have
+  none, because TCGplayer has none.
 - **Untyped cards.** 13 Radiance and 2 Unleashed entries carry no type or domain in the gallery at the time of
   writing. Their `type` and `domains` are absent until Riot fills them in.
 - **Korean for Origins and Proving Grounds only.** Korean printings have no TCGplayer data, because TCGplayer
@@ -368,6 +377,7 @@ the gallery import stays as the cross-check.
 - `data/sealed/<set>.json` holds the sealed products of a set. Written by `tools/import_sealed.py`.
 - `review/sealed.json` lists the sealed products of groups that are not a set. Written by the same importer.
 - `data/tcgplayer_finishes.json` records every finish TCGplayer has priced each product in, across runs.
+- `data/tcgplayer_images.json` records the TCGplayer products whose image TCGplayer's CDN serves.
 - `data/uuids.json` maps the identity key of every card, printing and sealed product ever seen to its UUID (see
   [UUIDs](#uuids)). Written by the importers and `tools/uuids.py`; never edited by hand.
 - `schema/sets.schema.json`, `schema/cards.schema.json` and `schema/sealed.schema.json` define the file shapes.
