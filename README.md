@@ -423,9 +423,9 @@ Every record must carry the UUID `data/uuids.json` gives its id, and the registr
 
 ## Releasing
 
-Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the four files, their schemas and
-`uuids.json` (the UUID registry, so a reader can find the UUID of an id it stored that rbjson no longer uses) to a
-GitHub release named after the tag. Readers follow `releases/latest/download/<file>`, so a new tag is all a release takes.
+Tag `vX.Y.Z` on `main`. CI validates the data, builds `dist/` and attaches the five files, including
+`AllUuids.json` (the UUID registry, so a reader can find the UUID of an id it stored that rbjson no longer uses), and
+their schemas to a GitHub release named after the tag. Readers follow `releases/latest/download/<file>`, so a new tag is all a release takes.
 
 You can also publish a release from the GitHub web or app: choose a new tag `vX.Y.Z` on `main` and publish it.
 CI runs the same checks and attaches the files to that release, usually within ten minutes. If a check

@@ -1,6 +1,7 @@
-"""Write dist/AllSets.json, AllCards.json, AllPrintings.json and AllProducts.json, each with its schema beside it
-(dist/AllSets.schema.json, ...), and dist/uuids.json, the UUID registry: a reader that stored an id rbjson no longer
-uses (a printing renumbered or moved to another set) finds the record's UUID in its bridges. Refuses to build invalid data, or a file its schema does not describe.
+"""Write dist/AllSets.json, AllCards.json, AllPrintings.json, AllProducts.json and AllUuids.json, each with its schema
+beside it (dist/AllSets.schema.json, ...). AllUuids is the UUID registry: a reader that stored an id rbjson no longer
+uses (a printing renumbered or moved to another set) finds the record's UUID in its bridges. Refuses to build invalid
+data, or a file its schema does not describe.
 
     uv run python tools/build.py --version 0.4.0 [--date 2026-11-27]
 
@@ -12,7 +13,6 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
-import shutil
 import subprocess
 import sys
 
@@ -23,7 +23,8 @@ import release_schema
 import uuids
 
 DIST = rbjson.ROOT / "dist"
-FILES = (("AllSets", "sets"), ("AllCards", "cards"), ("AllPrintings", "printings"), ("AllProducts", "products"))
+FILES = (("AllSets", "sets"), ("AllCards", "cards"), ("AllPrintings", "printings"), ("AllProducts", "products"),
+         ("AllUuids", "uuids"))
 
 
 def data_date() -> str:
@@ -48,6 +49,7 @@ def main() -> None:
     meta = {"version": args.version, "date": args.date.isoformat() if args.date else data_date()}
     flat = rbjson.flatten(sets, files, sealed)
     schemas = release_schema.schemas()
+    flat["uuids"] = uuids.load()
     documents = {name: {"meta": meta, "data": flat[key]} for name, key in FILES}
     errors = [f"{name}.json: {e.json_path}: {e.message}" for name, doc in documents.items()
               for e in Draft202012Validator(schemas[name], format_checker=FormatChecker()).iter_errors(doc)]
@@ -57,7 +59,6 @@ def main() -> None:
     for name, doc in documents.items():
         (DIST / f"{name}.json").write_text(json.dumps(doc, ensure_ascii=False, sort_keys=True), encoding="utf-8")
         rbjson.dump(DIST / f"{name}.schema.json", schemas[name])
-    shutil.copyfile(uuids.REGISTRY, DIST / "uuids.json")
     print(f"dist/ written: {len(flat['sets'])} sets, {len(flat['cards'])} cards, {len(flat['printings'])} printings, "
           f"{len(flat['products'])} sealed products")
 
