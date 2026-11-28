@@ -215,6 +215,8 @@ def _printing_errors(files: dict[str, dict], releases: dict[str, set[str]], prin
                 errors.append(f"printing {pid}: Cardmarket products are matched to English printings, so a {lang} printing has none")
             if lang != "en" and ("tcgplayer" in p or "finishes" in p or p["identifiers"].get("tcgplayerProductIds")):
                 errors.append(f"printing {pid}: TCGplayer sells English cards, so a {lang} printing has no TCGplayer data")
+            if p.get("finishesInferred") and "finishes" not in p:
+                errors.append(f"printing {pid}: finishesInferred says how finishes were found, and it has none")
             if "imageSource" in p and ("image" not in p or p["source"] == "riot-gallery"):
                 errors.append(f"printing {pid}: imageSource credits an image the printing does not borrow: a gallery printing shows Riot's")
             if ("tcgplayer" in p) != bool(p["identifiers"].get("tcgplayerProductIds")):
@@ -302,6 +304,7 @@ def flatten(sets: list[dict], files: dict[str, dict], sealed: dict[str, dict] | 
             cards[card["number"]] = facts
             for p in card["printings"]:
                 printings[p["id"]] = {"number": card["number"], "set": facts["set"], "language": language(p),
-                                      **{k: v for k, v in p.items() if k != "language"}}
+                                      **{k: v for k, v in p.items() if k != "language"},
+                                      "finishesKnown": "finishes" in p}
     products = {p["id"]: p for body in (sealed or {}).values() for p in body["products"]}
     return {"sets": out_sets, "cards": cards, "printings": printings, "products": products}

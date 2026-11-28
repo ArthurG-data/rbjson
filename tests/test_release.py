@@ -1,10 +1,13 @@
 import copy
+import json
 
 import pytest
 from jsonschema import Draft202012Validator, FormatChecker
 
+import build
 import rbjson
 import release_schema
+import uuids
 
 META = {"version": "1.0.0", "date": "2026-11-27"}
 
@@ -12,8 +15,9 @@ META = {"version": "1.0.0", "date": "2026-11-27"}
 @pytest.fixture(scope="module")
 def release():
     flat = rbjson.flatten(rbjson.load_sets(), rbjson.load_cards(), rbjson.load_sealed())
+    flat["uuids"] = uuids.load()
     return {name: {"meta": META, "data": flat[key]} for name, key in
-            (("AllSets", "sets"), ("AllCards", "cards"), ("AllPrintings", "printings"), ("AllProducts", "products"))}
+            build.FILES}
 
 
 def _errors(name, doc):
@@ -30,6 +34,7 @@ def test_the_committed_data_builds_release_files_their_schemas_describe(release)
     ("AllPrintings", "OGN-119a", lambda r: r.pop("uuid")),
     ("AllPrintings", "OGN-119a", lambda r: r.pop("language")),
     ("AllCards", "OGN-119", lambda r: r.pop("oracleId")),
+    ("AllPrintings", "OGN-119a", lambda r: r.pop("finishesKnown")),
     ("AllCards", "OGN-119", lambda r: r.update(printings=[{"id": "OGN-119"}])),
     ("AllCards", "OGN-119", lambda r: r.update(uuid="not-a-uuid")),
     ("AllProducts", "origins-booster-display", lambda r: r.update(price=1)),
@@ -56,3 +61,32 @@ def test_cards_of_one_name_and_subtitle_that_disagree_on_a_rule_fact_are_refused
     assert card["domains"]
     card["domains"] = ["colorless"] if card["domains"] != ["colorless"] else ["fury"]
     assert any("OPP-OGN269: shares its oracleId" in e for e in rbjson.validate(sets, files, rbjson.load_sealed()))
+
+
+def test_finishes_known_says_whether_a_printing_has_finishes_and_never_that_it_has_none(release):
+    printings = release["AllPrintings"]["data"]
+    assert all(p["finishesKnown"] == ("finishes" in p) for p in printings.values())
+    korean = next(p for p in printings.values() if p["language"] == "ko")
+    assert korean["finishesKnown"] is False
+    inferred = [p for p in printings.values() if p.get("finishesInferred")]
+    assert inferred and all(p["finishesKnown"] for p in inferred)
+
+
+def test_the_release_carries_the_registry_as_a_document(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DIST", tmp_path)
+    monkeypatch.setattr("sys.argv", ["build.py", "--version", "0.0.0-test", "--date", "2026-11-27"])
+    build.main()
+    doc = json.loads((tmp_path / "AllUuids.json").read_text(encoding="utf-8"))
+    assert set(doc) == {"meta", "data"}
+    assert set(doc["data"]) == {"cards", "printings", "products", "oracles"}
+    printings = doc["data"]["printings"]
+    assert printings["bridges"]["id:OPP-OGN007b"] == printings["keys"]["tcgplayer:662900"]
+    assert (tmp_path / "AllUuids.schema.json").exists()
+    assert not (tmp_path / "uuids.json").exists()
+
+
+def test_the_registry_schema_refuses_a_value_that_is_not_a_uuid():
+    bad = {"meta": META, "data": {k: {"keys": {}, "bridges": {}} for k in uuids.KINDS}}
+    assert _errors("AllUuids", bad) == []
+    bad["data"]["cards"]["keys"]["id:OGN-001"] = "nope"
+    assert _errors("AllUuids", bad)

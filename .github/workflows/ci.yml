@@ -78,8 +78,8 @@ jobs:
       # A pushed tag has no release yet, so create it. A release published in the UI already exists, so attach
       # the files to it (--clobber replaces them when a second run gets here).
       - run: |
-          files="dist/AllSets.json dist/AllCards.json dist/AllPrintings.json dist/AllProducts.json"
-          files="$files dist/AllSets.schema.json dist/AllCards.schema.json dist/AllPrintings.schema.json dist/AllProducts.schema.json"
+          files="dist/AllSets.json dist/AllCards.json dist/AllPrintings.json dist/AllProducts.json dist/AllUuids.json"
+          files="$files dist/AllSets.schema.json dist/AllCards.schema.json dist/AllPrintings.schema.json dist/AllProducts.schema.json dist/AllUuids.schema.json"
           if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
             gh release upload "$GITHUB_REF_NAME" $files --clobber
           else

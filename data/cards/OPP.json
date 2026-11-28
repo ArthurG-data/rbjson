@@ -1081,7 +1081,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN247.metal-prize-wall",
@@ -1241,7 +1242,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN251.metal-prize-wall",
@@ -1318,7 +1320,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN253.metal-prize-wall",
@@ -1395,7 +1398,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN255.metal-prize-wall",
@@ -1474,7 +1478,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN257.metal-prize-wall",
@@ -1553,7 +1558,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN259.metal-prize-wall",
@@ -1634,7 +1640,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN261.metal-prize-wall",
@@ -1715,7 +1722,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN263.metal-prize-wall",
@@ -1796,7 +1804,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN265.metal-prize-wall",
@@ -1877,7 +1886,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN267.metal-prize-wall",
@@ -1958,7 +1968,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGN269.metal-prize-wall",
@@ -2430,7 +2441,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGS017.metal-prize-wall",
@@ -2557,7 +2569,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGS019.metal-prize-wall",
@@ -2682,7 +2695,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGS021.metal-prize-wall",
@@ -2809,7 +2823,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-OGS023.metal-prize-wall",
@@ -2829,7 +2844,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -4773,7 +4789,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD181.metal-prize-wall",
@@ -4833,7 +4850,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD183.metal-prize-wall",
@@ -4891,7 +4909,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD185.metal-prize-wall",
@@ -4949,7 +4968,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD187.metal-prize-wall",
@@ -5009,7 +5029,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD189.metal-prize-wall",
@@ -5067,7 +5088,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD193.metal-prize-wall",
@@ -5123,7 +5145,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD195.metal-prize-wall",
@@ -5179,7 +5202,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD197.metal-prize-wall",
@@ -5235,7 +5259,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD199.metal-prize-wall",
@@ -5293,7 +5318,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD201.metal-prize-wall",
@@ -5353,7 +5379,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD203.metal-prize-wall",
@@ -5411,7 +5438,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-SFD205.metal-prize-wall",
@@ -6577,7 +6605,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -6653,7 +6682,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -6689,7 +6719,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -6797,7 +6828,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -7980,7 +8012,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN139.metal-prize-wall",
@@ -8036,7 +8069,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN141.metal-prize-wall",
@@ -8092,7 +8126,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN143.metal-prize-wall",
@@ -8112,7 +8147,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -8148,7 +8184,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN145.metal-prize-wall",
@@ -8168,7 +8205,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -8204,7 +8242,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN147.metal-prize-wall",
@@ -8224,7 +8263,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -8260,7 +8300,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN149.metal-prize-wall",
@@ -8280,7 +8321,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -8316,7 +8358,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN151.metal-prize-wall",
@@ -8336,7 +8379,8 @@
           },
           "finishes": [
             "nonfoil"
-          ]
+          ],
+          "finishesInferred": true
         }
       ]
     },
@@ -8372,7 +8416,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN153.metal-prize-wall",
@@ -8431,7 +8476,8 @@
           },
           "finishes": [
             "foil"
-          ]
+          ],
+          "finishesInferred": true
         },
         {
           "id": "OPP-VEN155.metal-prize-wall",

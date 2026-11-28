@@ -11,6 +11,7 @@ import copy
 import json
 
 import rbjson
+import uuids
 
 BASE = "https://github.com/ArthurG-data/rbjson/schema/release"
 UUID = {"type": "string", "format": "uuid"}
@@ -47,6 +48,17 @@ def _with(record: dict, required: list[str], **properties: dict) -> dict:
     return out
 
 
+def _registry() -> dict:
+    """AllUuids: its data is the registry, the four kinds each with keys and bridges of string -> UUID."""
+    schema = _release("AllUuids", "rbjson UUID registry", {})
+    part = {"type": "object", "additionalProperties": UUID}
+    kind = {"type": "object", "additionalProperties": False, "required": ["keys", "bridges"],
+            "properties": {"keys": part, "bridges": part}}
+    schema["properties"]["data"] = {"type": "object", "additionalProperties": False, "required": list(uuids.KINDS),
+                                    "properties": {k: kind for k in uuids.KINDS}}
+    return schema
+
+
 def schemas() -> dict[str, dict]:
     """{release file name: its schema}."""
     sets = _source("sets.schema.json")["items"]
@@ -59,11 +71,15 @@ def schemas() -> dict[str, dict]:
                  set=set_code, oracleId={**UUID, "description": "Shared by every card with this name and subtitle: "
                                                                 "a reprint has its own number and the same oracleId."},
                  printings={"type": "array", "minItems": 1, "items": defs["printing"]["properties"]["id"]})
-    printing = _with(defs["printing"], ["number", "set", "language", "uuid"],
-                     number=cards["properties"]["cards"]["items"]["properties"]["number"], set=set_code)
+    printing = _with(defs["printing"], ["number", "set", "language", "uuid", "finishesKnown"],
+                     number=cards["properties"]["cards"]["items"]["properties"]["number"], set=set_code,
+                     finishesKnown={"type": "boolean", "description": "Whether the printing's finishes are known: "
+                                    "false means unknown (never priced by TCGplayer, or a Korean printing), never "
+                                    "that it has no finish. True with finishesInferred when they were inferred."})
     return {
         "AllSets": _release("AllSets", "rbjson sets", sets),
         "AllCards": _release("AllCards", "rbjson cards", card, {"byLanguage": defs["byLanguage"]}),
         "AllPrintings": _release("AllPrintings", "rbjson printings", printing),
         "AllProducts": _release("AllProducts", "rbjson sealed products", _with(sealed, ["uuid"])),
+        "AllUuids": _registry(),
     }
